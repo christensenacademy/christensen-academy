@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<title>Christensen Academy</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Cameron Christensen">
+		<meta name="keywords" content="computer science, programming, learn, java, javascript, html, css, binary, processing, flash, actionscript, image manipulation, game maker">
+		<meta name="description" content="Learn about computers and computer programming for free!">
+    <link rel="shortcut icon" href="logo16.png">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <style>
+      #cs-basics, .cs-basics-color:hover { background-color: #3C29A3 !important;}
+      #web, .web-color:hover { background-color: #1b54b0 !important;}
+      #game-maker, .game-maker-color:hover { background-color: #0E710E !important;}
+      #processing, .processing-color:hover { background-color: #A88000 !important;}
+      #java, .java-color:hover { background-color: #C66D03 !important;}
+      #flash, .flash-color:hover { background-color: #9C0800 !important;}
+      #image-manipulation, .image-manipulation-color:hover { background-color: #000 !important;}
+      #office, .office-color:hover { background-color: #555 !important;}
+      
+      .hero-unit .btn-group {margin:1em 0;}
+      h2 {color:#fff;}
+      h2 small {color:#ddd;}
+      .playlist h3 small {color:#ccc}
+      .playlist h3 {color:#eee; margin:1em 0;}
+      .videos a, .videos a:link {color:#ccc;}
+      .videos a:hover {color:#eee;}
+      .videos a:active {color:#fff;}
+      .videos a:visited {color:#bbb;}
+      .videos ul {margin:0}
+      .playlist {margin:2em 0;}
+      .playlist p{font-size:1em; font-color:#444; text-indent:2em;}
+      
+      .ref-icon {display:inline-block;width:40px;height:40px;background-image: url("img/ref-icon.png")};
+      
+      
+      .future-video {
+        color:#222 !important;
+        text-decoration:none !important;
+      }
+      
+          
+      /* Portrait tablet to landscape and desktop */
+      @media (min-width: 768px) and (max-width: 979px) {
+        .hero-unit {padding:40px;margin-bottom: 30px;}
+      }
+      
+      /* Landscape phone to portrait tablet */
+      @media (max-width: 767px) {
+        .hero-unit {padding:30px;margin-bottom: 25px;}
+      }
+      
+      /* Landscape phones and down */
+      @media (max-width: 480px) {
+        .hero-unit {padding:20px;margin-bottom: 15px;}
+      }
+ 
+
+		</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30969336-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</head>
+	<body>
+	<div class="navbar nav-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Christensen Academy</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+				<li class="dropdown">
+					<a href="#"
+						  class="dropdown-toggle"
+						  data-toggle="dropdown">
+						  Learn
+						  <b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+					  <li><a href="#cs-basics" class="cs-basics-color">Computer Science Basics</a></li>
+					  <li><a href="#web" class="web-color">Web Design and Development</a></li>
+					  <li><a href="#game-maker" class="game-maker-color">Game Maker</a></li>
+					  <li><a href="#processing" class="processing-color">Processing</a></li>
+					  <li><a href="#java" class="java-color">Java</a></li>
+					  <li><a href="#flash" class="flash-color">Flash</a></li>
+					  <li><a href="#image-manipulation" class="image-manipulation-color">Image Manipulation</a></li>
+					  <li><a href="#office" class="office-color">Office Applications</a></li>
+					</ul>
+				</li>
+				<li><a data-toggle="modal" href="#about">About</a></li>
+				<li><a data-toggle="modal" href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+	<!--modals-->
+	<div class="modal hide fade" id="contact">
+	  <div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal">×</button>
+		<h3>cameron@christensenacademy.org</h3>
+	  </div>
+	</div>
+	
+	<div class="modal hide fade" id="about">
+	  <div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal">×</button>
+		<h3>About the Christensen Academy</h3>
+	  </div>
+	  <div class="modal-body">
+      <p>
+        Hi, my name is Cameron Christensen, and I'm a high school teacher who has been inspired by Sal Khan and the <a href="http://www.khanacademy.org">Khan Academy</a>. Basically, I'm just a guy recording YouTube videos on my computer and putting them on YouTube. I built this site as a way to orgainze the playlists to make them easier to use. <strong>If you'd like to learn about computers and computer programming, the Christensen Academy is for you!</strong>
+      </p>
+      <p>
+         You'll notice that all of the videos are free&ndash;I'm not making any money on this. In addition, the software needed is free as well (except if you want to learn Flash). Simply put, all you need is a computer (Mac, Windows, or Linux), and you can learn everything I have to teach.
+      </p>
+      <p>
+         I started making christensenacademy.org at the beginning of June 2012. You'll notice that I'm still actively creating content. At the moment, my efforts are focused on Web stuff, Adobe Flash, and office applications. I'll be producing videos on a regular (daily?) basis throughout the remainder of 2012.
+      </p>
+      
+      <p>
+         Kowabunga,<br><br> &ndash; Cam
+      </p>
+	  </div>
+	</div>
+	<!--/modals-->
+	
+  <div class="container-fluid">
+      <div class="hero-unit hidden-phone" style="background:none">
+        <div class="row-fluid">
+          <div class="span2">
+            <img src="logo112.png" style="display:block;margin:0 auto;">
+          </div>
+          <div class="span10">
+            <h1>Hello World!</h1>
+            <p>Welcome to the Christensen Academy, where you can learn about computers and computer programming for free!</p>
+          </div>
+        </div>
+      </div> 
+          
+<!-- *****************************
+      START CS BASICS SECTION
+     ***************************** -->
+      <div class="row-fluid">
+        <div class="hero-unit" id="cs-basics" >
+          <h2>Computer Science Basics <small class="hidden-phone">Binary and More...</small></h2>
+        
+          <div class="btn-group">
+            <a class="btn btn-inverse dropdown-toggle" data-toggle="dropdown" href="#">
+              Playlists
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#cs-basics-hardware-software" class="cs-basics-color">Hardware and Software</a></li>
+              <li><a href="#cs-basics-binary" class="cs-basics-color">Binary</a></li>
+            </ul>
+          </div>
+
+
+          
+          
+          
+          <div class="row-fluid playlist"  id="cs-basics-hardware-software">
+            <div class="span12">
+              <h3>
+                <a class="ref-icon" href="http://google.com" rel="tooltip" title="Reference"></a>Computer Basics <small class="hidden-phone">Understanding Hardware, Software, and File Systems</small>
+              </h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=S-5Bf9S3lVY&amp;list=PL56DFFE4571D8BFC6">Original Purpose of Computers</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=W2cdW0Dycco&amp;list=PL56DFFE4571D8BFC6">Binary System Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=-nuSLln-pY8&amp;list=PL56DFFE4571D8BFC6">Computer Hardware Basics</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=-3nWC29Uyug&amp;list=PL56DFFE4571D8BFC6">Computer Software Basics</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Iow1svZ3QQQ&amp;list=PL56DFFE4571D8BFC6">Computer Speed</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=sHm4L9VIJl0&amp;list=PL56DFFE4571D8BFC6">Computer File Sizes (Part 1)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=BchvDqb972Y&amp;list=PL56DFFE4571D8BFC6">Computer File Sizes (Part 2)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=j9EKn1rtUCY&amp;list=PL56DFFE4571D8BFC6">Computer Directory (Folder) Structure</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=mgWb3aWpAws&amp;list=PL56DFFE4571D8BFC6">File Systems (an additional thought)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=3SGs6TizpSI&amp;list=PL56DFFE4571D8BFC6">Files and Filenames</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=RPh3y2JJp_A&amp;list=PL56DFFE4571D8BFC6">File Types and Extensions</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Basic File Operations</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">The Command Line (Part 1)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">The Command Line (Part 2)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row-fluid playlist">
+            <div class="span12" id="cs-basics-binary">
+              <h3>Binary <small class="hidden-phone"> Numbers, Character Encodings, and More!</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=UFrd2nje2xU&amp;list=PL468E998CB5692EFA">Binary Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=L3TYt3hqqO4&amp;list=PL468E998CB5692EFA">Binary Numbers Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=m14v6PLiRa4&amp;list=PL468E998CB5692EFA">Ambiguity and Writing Binary Numbers</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=q0YUb1OIjP4&amp;list=PL468E998CB5692EFA">Binary Numbers and Place Value</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=xaAkGXOWKiU&amp;list=PL468E998CB5692EFA">Decimal to Binary Conversions</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=g8GSAESZV48&amp;list=PL468E998CB5692EFA">Introduction to Other Number Systems</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=E4CBQAzbMe8&amp;list=PL468E998CB5692EFA">Hexadecimal Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=YRVk-83qo_4&amp;list=PL468E998CB5692EFA">Hexadecimal-Binary Conversions</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Negative Binary Integers</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Two's Compliment</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Binary Floating Point Numbers (Part 1)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Binary Floating Point Numbers (Part 2)</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Character Encoding</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Unicode and UTF-8</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Text File Sizes</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Computer Images and Binary</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Standard RGB Color</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Image File Sizes Types</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Digital Sound</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--/row-->
+      
+<!-- *****************************
+      END CS BASICS SECTION
+     ***************************** -->
+      
+<!-- *****************************
+      START WEB SECTION
+     ***************************** -->
+      
+      <div class="row-fluid">
+        <div class="hero-unit" id="web" >
+          <h2>Web Design and Development <small class="hidden-phone">Learn HTML, CSS, JavaScript, Flash, and more</small></h2>
+        
+          <div class="btn-group">
+            <a class="btn btn-inverse dropdown-toggle" data-toggle="dropdown" href="#">
+              Playlists
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#web-intro" class="web-color">Introduction</a></li>
+              <li><a href="#web-basics" class="web-color">Website Basics</a></li>
+              <li><a href="#web-html" class="web-color">HTML</a></li>
+              <li><a href="#web-css" class="web-color">CSS</a></li>
+              <li><a href="#web-js" class="web-color">JavaScript</a></li>
+              <li><a href="#web-related" class="web-color">Related Topics</a></li>
+              <li><a href="#web-server" class="web-color">Server Programming</a></li>
+            </ul>
+          </div>
+          
+          
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="web-intro">
+              <h3>Introduction <small class="hidden-phone">to the Internet and the World Wide Web</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Brief History of the World Wide Web</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Internet vs. World Wide Web</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Domain Names and URLs</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">HTTP Requests and Responses</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">TCP, Packets, and Routers</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">HTML, CSS, JavaScript, and Resources</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Web Standards and W3C</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Web Browsers and Compatibility</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Zip Files</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">"Bandwidth"</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Download vs. Upload</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Dynamic Websites</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Hosting</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Alternative Hosting Options</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">FTP</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="web-basics">
+              <h3>Website Basics <small class="hidden-phone">with HTML, CSS, and JavaScript</small></h3>
+            </div>
+           <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=GKyGPRgpa5g&amp;list=PLB35AD9511F91605A">HTML, CSS, and JavaScript Overview</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=GoL1ZW3Lk38&amp;list=PLB35AD9511F91605A">Text Editor for Web Development</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=dVOC77VvlIE&amp;list=PLB35AD9511F91605A">HTML Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=5k0nTTwG1ys&amp;list=PLB35AD9511F91605A">HTML Indentation</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=T9Mu-ViFdX8&amp;list=PLB35AD9511F91605A">HTML Comments</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=9Ce85vnzAgM&amp;list=PLB35AD9511F91605A">HTML Basic Structure</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=dIYKATMBwIc&amp;list=PLB35AD9511F91605A">HTML Basic Elements</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=XrqC7giRuNg&amp;list=PLB35AD9511F91605A">HTML Block vs. Inline (introductory explanation)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=LOdepOlsVX0&amp;list=PLB35AD9511F91605A">HTML Lists (ordered and unordered)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=RwSNaS9XiYs&amp;list=PLB35AD9511F91605A">HTML Nested (Hierarchical) Lists</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=y05_twXvacU&amp;list=PLB35AD9511F91605A">HTML Attributes Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=r38j0rnQ17Q&amp;list=PLB35AD9511F91605A">HTML Relative Links</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=87B0pFlc7Xc&amp;list=PLB35AD9511F91605A">Working with Zip Files</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=dOo1vyUDgX0&amp;list=PLB35AD9511F91605A">Challenge: Relative Links Practice</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=qItZlfOmG3o&amp;list=PLB35AD9511F91605A">HTML Absolute Links</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=sQ5-v9MmPI0&amp;list=PLB35AD9511F91605A">HTML Links to Other Resources</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=KU4V-bCN4Ag&amp;list=PLB35AD9511F91605A">HTML Email Link</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=ilRD2T9qiAU&amp;list=PLB35AD9511F91605A">HTML Void (Empty) Elements: br, hr, and img</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Xa3m4xP4QTk&amp;list=PLB35AD9511F91605A">HTML Image (img) Tag</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=twCSSSsF3PM&amp;list=PLB35AD9511F91605A">HTML Accessibility Intro (alt and longdesc)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=reZC1VpnotE&amp;list=PLB35AD9511F91605A">HTML Title Attribute (making tool tips)</a></li>
+<!-- REDO with talk of SEO, better description of description, and no wrong info about UTF-8 -->
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=POwgA7u3h4E&amp;list=PLB35AD9511F91605A">HTML Meta Tag</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=QVP9FQi7tiA&amp;list=PLB35AD9511F91605A">HTML Validation Service</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=oRQTw_J1dgA&amp;list=PLB35AD9511F91605A">HTML Validation Service (Part 2)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=1wpus8NNl5g&amp;list=PLB35AD9511F91605A">HTML Reserved and Special Characters</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=OJUyMP5QaKM&amp;list=PLB35AD9511F91605A">HTML Review (Chipmunk Voice)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=8OW8q8uvBrc&amp;list=PLB35AD9511F91605A">Challenge: Make a Website</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=q6aHmSzzt7Y&amp;list=PLB35AD9511F91605A">CSS (Cascading Style Sheets) Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=D47UsLHs7Rw&amp;list=PLB35AD9511F91605A">An Intuitive Feel for CSS</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=tqhhpwO67Pc&amp;list=PLB35AD9511F91605A">3 Types of CSS (Inline CSS)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=l0QXi4ryvDc&amp;list=PLB35AD9511F91605A">3 Types of CSS (Internal / Embedded)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PGH01VxYhv8&amp;list=PLB35AD9511F91605A">3 Types of CSS (External)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=SPp_hKEpMeQ&amp;list=PLB35AD9511F91605A">Internal and External CSS Equivalency</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=eIkDr8r2gRw&amp;list=PLB35AD9511F91605A">CSS Comments</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=d_v322FfpXM&amp;list=PLB35AD9511F91605A">CSS Inheritance</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Rsnq8H3UiBw&amp;list=PLB35AD9511F91605A">Google Chrome and CSS Inheritance</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=9L91PUMoyAg&amp;list=PLB35AD9511F91605A">CSS Validator</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=JlXAYLo2ohA&amp;list=PLB35AD9511F91605A">CSS Colors (RGB)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=ZUAM-IMdwE4&amp;list=PLB35AD9511F91605A">CSS Colors (Hexadecimal)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=VN3Z6VM4Fr8&amp;list=PLB35AD9511F91605A">HTML and CSS: Classes and IDs</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=EVJzZaDq0oM&amp;list=PLB35AD9511F91605A">CSS: The Cascade</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=6p29D0tetDQ&amp;list=PLB35AD9511F91605A">Google Chrome and the Cascade</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=FhYgNI_0DiI&amp;list=PLB35AD9511F91605A">HTML Multiple Classes</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=7GuBcFWlGVc&amp;list=PLB35AD9511F91605A">CSS Size Units (em, %, px, and pt)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=nBgpS74f5Z4&amp;list=PLB35AD9511F91605A">CSS Text Properties</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=5t_4_UMo4JY&amp;list=PLB35AD9511F91605A">Pre Element and white-space</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=5Zt2KbxBqA4&amp;list=PLB35AD9511F91605A">CSS Basic Font Properties</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Zjk0hK6jNvk&amp;list=PLB35AD9511F91605A">CSS Fonts (font-family property)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=_tyBj46Dbbo&amp;list=PLB35AD9511F91605A">Challenge: Remodelling with Chrome</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=ctneMmLjqRE&amp;list=PLB35AD9511F91605A">Span (inline) vs Div (block) Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=XQTfdsKFY-w&amp;list=PLB35AD9511F91605A">Span vs. Div Example</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=69dakFTlK7Q&amp;list=PLB35AD9511F91605A">Box Model Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=HkutufcDyCU&amp;list=PLB35AD9511F91605A">Chrome Developer Tools Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Qs_8vUzD7qQ&amp;list=PLB35AD9511F91605A">CSS Box Model: Width and Height</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=yQxn9kW7REE&amp;list=PLB35AD9511F91605A">CSS Box Model: Margins</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=-fVkpWtVm9U&amp;list=PLB35AD9511F91605A">CSS Box Model: Margins (Centering Elements)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=QKCLjHBrG6o&amp;list=PLB35AD9511F91605A">CSS Box Model: Collapsing Margins</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=CdgA2bOZbt4&amp;list=PLB35AD9511F91605A">CSS Box Model: Padding</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=smzwIEwAEEc">CSS Box Model: Borders</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=edtOdpkIg4g">CSS Box Model Challenge</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Wireframe Layout</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Float</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Clear</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Menu</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Columns</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Background Images</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Background Image Gradient</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Review (Part 1)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Review (Part 2)</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">JavaScript Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">JavaScript ...</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">JavaScript ...</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">JavaScript ...</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="web-html">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">HTML <small class="hidden-phone">in Depth</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">XHTML vs. HTML</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Why "A" is for Anchor</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Make One or More Elements into a Link</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Quirks Mode</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">HTML5 Boilerplate</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">HTML Structural Elements</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">HTML Tables</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Deprecated HTML Attributes</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">The lang (Language) Attribute</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">HTML Forms</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">HTML Forms</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">HTML Forms</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">HTML Forms</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="web-css">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">CSS <small class="hidden-phone">in Depth</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=C1-gW70Wszc">CSS Nested Selectors</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Grouped Selectors</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Universal Selector</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Advanced CSS Selectors</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Pseudo Classes</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Pseudo Classes</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Pseudo Classes</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Pseudo Elements</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Shorthand Propreties</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Shorthand Propreties</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Shorthand Propreties</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Shorthand Propreties</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=AiOgwMmAkiQ">CSS rgba (transparent colors)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=rQbs-QaFtbk">CSS @import</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS for Tables (Part 1)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS for Tables (Part 2)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Link Tag Media Attribute for CSS</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Styling Forms (Part 1)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Styling Forms (Part 2)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="web-js">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">JavaScript <small class="hidden-phone">in Depth</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="web-related">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Related Topics</h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Browser Plugins</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=6sch0T2PUS4">Browser Cache Explanation</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Flash</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Information Architecture</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Information Architecture Challenge: School Website</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Navigation</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Usability</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Accessibility</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://christensenacademy.org/#color-theory">Color Theory (Link to Image Manipulation)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Typography (Part 1)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Typography (Part 2)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div> 
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="web-server">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Server Side Programming <small class="hidden-phone">an Introduction...</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              
+            </div>
+          </div>
+          
+        </div>
+      </div><!--/row-->
+      
+<!-- *****************************
+      END WEB SECTION
+     ***************************** -->
+      
+
+
+
+
+<!-- *****************************
+      GAME MAKER
+     ***************************** -->
+      
+      <div class="row-fluid">
+        <div class="hero-unit" id="game-maker" >
+          <h2>Game Maker <small class="hidden-phone">Learn how to make computer games!</small></h2>
+        
+          <div class="btn-group">
+            <a class="btn btn-inverse dropdown-toggle" data-toggle="dropdown" href="#">
+              Playlists
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#game-maker-intro" class="game-maker-color">Intro to Game Maker</a></li>
+              <li><a href="#game-maker-p1" class="game-maker-color">Project: On the Loose!</a></li>
+              <li><a href="#game-maker-p2" class="game-maker-color">Project: Projectile Comet</a></li>
+              <li><a href="#game-maker-p3" class="game-maker-color">Project: Global Thermonuclear Pong</a></li>
+              <li><a href="#game-maker-p4" class="game-maker-color">Project: Four</a></li>
+            </ul>
+          </div>
+          
+          
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="game-maker-intro">
+              <h3>Intro to Game Maker</h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=tOasHfeLIGc">Game Maker Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=KA3WEs0aZJ0">Game Maker Versions</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=9lu_t4odW2M">Why Learn Game Maker?</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=NFFFjP9EQFw">Why Learn through Projects?</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=19ixFAFsmZc">A Successful Attitude</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="game-maker-p1">
+              <h3>Project: On the Loose! <small class="hidden-phone">Create Your First Game!</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="">Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=gXJuQ0MN_gw">Create, Save, and Play</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=zf4LE4ImH0g">Resources (Images and Sounds)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=ho_l7QDl3jk">Sprites</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=r3TGBebLSU0">Objects, Rooms, and Instances</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=DhdB9pvBmVg">Events and Actions (Part 1)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=OJ4QyCI7zL4">Events and Actions (Part 2)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Ah6ae2sBC0s">Music and Sounds</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=NLB_0sRW2Bc">Alarms</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=uzNxavrvefQ">Increasing the Difficulty</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=t1Wn7TQTX94">Relative Speeds</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=z-ei8xibAxY">Game Info</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=dR1YdUNHe4U">Rubric Discussion</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="game-maker-p2">
+              <h3>Project: Projectile Comet <small class="hidden-phone">A Game of Intergalactic Wizardry!</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="">Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=tOqGYO6nuQ0">Sprites</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=VPRjRuACJjI">Coordinates and Wizard Movement</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=127tmb9qwX4">Set Wizard Boundaries</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=EW2RaIfyk04">Shoot Comets</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=EW2RaIfyk04">Bad Guys</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=UK-NwGetJGE">Comets Hit Bad Guys</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=9jnT4_tszdE">Moving Background</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=41Xi8j-TAQQ">Score and Health</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=f4k_qth1sFk">Enhancement Ideas</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="game-maker-p3">
+              <h3>Project: Global Thermonuclear Pong <small class="hidden-phone">Why Not....</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=6U6zMyJgRvo">Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=q4uTJIESNXg">Variables</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=MJEbu1NNbt4">Sprites</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=yl4xiCifmxE">Left Paddle Movement</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=1b_XwfoD3tQ">Left Paddle (Part 2)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=GQhbN5mblUo">Right Paddle</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PzR1C8qR2o0">Ball Direction and Speed</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Lp8Lf5HFg6Q">Ball Bounce</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=a2THVUyZS8k">Smart Bounce (Left Paddle)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=MrK2XbTovz8">Smart Bounce (Right Paddle)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=SiN9FBR2qag">Score Variables</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=7rnUMPNRFjY">Drawing the Score (Part 1)</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=DiZCaNYmlwM">Drawing the Score (Part 2)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=h5muYUKlwOk">Explosoin Animation</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=wa3i5AB0MRQ">Animation Strips with the GIMP</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=38NZoaKCeCk">Animation Sprites from Sprite Sheets</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=b_UByqcP-eA">Escalating Difficulty</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=DJTV4LBkOH4">Wrapping Things Up</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="game-maker-p4">
+              <h3>Project: Four <small class="hidden-phone">Great Name. Great Game.</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=DPpHEgtZ82k">Background Tile Set (Part 1)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=z1xyrDn3dUI">Background Tile Set (Part 2)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=LzqltQ3vEtg">Walking Sprite</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Yxg8Z9PoKfw">Animated Sprites from Tile Sets</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=T2udr1XO1Bg">Game Maker: Finding Animated Sprites</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=SAZUg6Eoogs">Grid Movement</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=HaYv0Xzzz2g">Inheritance Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=alEfhT7bPec">Inheritance for Collisions</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=LqMDg7O5HLo">Sprite Speed</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=628EtUSeUuw">Change Instance</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=CYIfwN1AXFM">Toggle Sprite Subimages</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=tL0Xrzho8cQ">Rooms and Persistence</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--/row-->
+      
+<!-- *****************************
+      GAME MAKER
+     ***************************** -->      
+     
+
+
+
+<!-- *****************************
+      PROCESSING
+     ***************************** -->
+      
+      <div class="row-fluid">
+        <div class="hero-unit" id="processing" >
+          <h2>Processing <small class="hidden-phone">Learn how to program using the Processing language!</small></h2>
+        
+          <div class="btn-group">
+            <a class="btn btn-inverse dropdown-toggle" data-toggle="dropdown" href="#">
+              Playlists
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#processing-intro" class="processing-color">Intro to Processing</a></li>
+              <li><a href="#processing-khan" class="processing-color">Khan Academy and Processing.js</a></li>
+              <li><a href="#processing-intermediate" class="processing-color">Intermediate Processing</a></li>
+              <li><a href="#processing-advanced" class="processing-color">Advanced Processing</a></li>
+              <li><a href="#processing-expert" class="processing-color">Expert Processing</a></li>
+            </ul>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="processing-intro">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Intro to Processing <small class="hidden-phone"> Why Processing is a Great Intro to Computer Programming</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="processing-khan">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Khan Academy and Processing <small class="hidden-phone">This is Some Really Amazing Stuff!</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="processing-intermediate">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Processing Intermediate <small class="hidden-phone">A Step Beyond the Basics</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="processing-advanced">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Processing Advanced <small class="hidden-phone">Digging Deeper Into Advanced Features</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="processing-expert">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Processing Expert <small class="hidden-phone">Go Big or Go Home...</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              
+            </div>
+          </div>
+        </div>
+      </div><!--/row-->
+      
+<!-- *****************************
+      PROCESSING
+     ***************************** -->        
+
+<!-- *****************************
+      JAVA
+     ***************************** -->
+      
+      <div class="row-fluid">
+        <div class="hero-unit" id="java" >
+          <h2>JAVA <small class="hidden-phone">Learn how to program in Java!</small></h2>
+        
+          <div class="btn-group">
+            <a class="btn btn-inverse dropdown-toggle" data-toggle="dropdown" href="#">
+              Playlists
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#java-intro" class="java-color">Intro to Java</a></li>
+              <li><a href="#java-basics" class="java-color">The Basics</a></li>
+              <li><a href="#java-classes-and-objects" class="java-color">Classes and Objects</a></li>
+            </ul>
+          </div>
+          
+          
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="java-intro">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Intro to Java <small class="hidden-phone"></small></h3>
+            </div>
+            <div class="row-fluid videos">
+              
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="java-basics">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">The Basics <small class="hidden-phone">Data Types, Variables, and Control Structures</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="java-classes-and-objects">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Classes and Objects <small class="hidden-phone">Understanding Java's Object-Oriented Programming Model</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              
+            </div>
+          </div>
+          
+        </div>
+      </div><!--/row-->
+      
+<!-- *****************************
+      JAVA
+     ***************************** -->   
+
+<!-- *****************************
+      FLASH
+     ***************************** -->
+      
+      <div class="row-fluid">
+        <div class="hero-unit" id="flash" >
+          <h2>Adobe Flash <small class="hidden-phone">and ActionScript 3</small></h2>
+        
+          <div class="btn-group">
+            <a class="btn btn-inverse dropdown-toggle" data-toggle="dropdown" href="#">
+              Playlists
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#flash-intro" class="flash-color">Intro to Flash and ActionScript</a></li>
+              <li><a href="#flash-drawing" class="flash-color">Drawing in Flash</a></li>
+              <li><a href="#flash-animation" class="flash-color">Animating in Flash</a></li>
+              <li><a href="#flash-as3-beginning" class="flash-color">Beginning ActionScript</a></li>
+              <li><a href="#flash-as3-intermediate" class="flash-color">Intermediate ActionScript</a></li>
+            </ul>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="flash-intro">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Intro to Flash and ActionScript 3 <small class="hidden-phone">An Overview of What You Can Make in Flash and What is Involved in the Process</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=EdauXIWYOQ4&amp;list=PLB081F77223A7F485">Intro to Flash and ActionScript</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=cfEch0V5dvw&amp;list=PLB081F77223A7F485">Don't Worry about the Version</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=w5Qp7nHyYGY&amp;list=PLB081F77223A7F485">.fla vs .swf</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=sDFjfEqnySM&amp;list=PLB081F77223A7F485">Workspace: Reset Essentials</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=sU3-Ur8s910&amp;list=PLB081F77223A7F485">Workspace: Stage and Tools Panel</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=bEPHpfsi4dY&amp;list=PLB081F77223A7F485">Zoom</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PaCKvUtwGTQ&amp;list=PLB081F77223A7F485">Workspace: Timeline and Animation</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=jkscZYqAUWY&amp;list=PLB081F77223A7F485">Workspace: Library and Properties Panels</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=KPKAXHlChAM&amp;list=PLB081F77223A7F485">Workspace: Actions Panel</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Flash Workspace: Recap with Game Examples</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="flash-drawing">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Drawing in Flash<small class="hidden-phone">Using Flash as a Drawing Tool to Create Vector Graphics</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=JqyyhDKqfrk&amp;list=PL14CDD8E82C842458">Intro to Drawing Playlist</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PBR5QpDvm-o&amp;list=PL14CDD8E82C842458">Stroke and Fill</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=VGI1YYa_d8A&amp;list=PL14CDD8E82C842458">Ink Bottle and Paint Bucket</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=BbCZcPeDrl8&amp;list=PL14CDD8E82C842458">Primitive Shapes vs. Objects Drawings</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=cLxPEVbTNFQ&amp;list=PL14CDD8E82C842458">Ordering Objects on the Stage (Arrange)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=_wGWhbQnV2k&amp;list=PL14CDD8E82C842458">Colors Basics</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=RZ9nTquwmXo&amp;list=PL14CDD8E82C842458">Alpha (Transparency and Opacity)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=7-VP3A8Htqw&amp;list=PL14CDD8E82C842458">Eyedropper Tool</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=6MqxZBJRLik&amp;list=PL14CDD8E82C842458">Line, Pencil, and Paintbrush Tools</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=YRf3LDKf7zQ&amp;list=PL14CDD8E82C842458">Vector vs Bitmap (Raster)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=K6g8YAumxnU&amp;list=PL14CDD8E82C842458">Subselection Tool (Anchor Points)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=ptG9DBSSFf0&amp;list=PL14CDD8E82C842458">More on Anchor Points</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=1wSg0Ork5XI&amp;list=PL14CDD8E82C842458">Paint Bucket Tool (Gap Options)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=CZbM9_hypqg&amp;list=PL14CDD8E82C842458">Controlling Curves (Anchor Points and Handlebars)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Cbh7pUGEXuU&amp;list=PL14CDD8E82C842458">Controlling Curves (Types of Anchor Points)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=hnRW6_XCdGI&amp;list=PL14CDD8E82C842458">Pen Tool Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=fyixUWnK8Q0&amp;list=PL14CDD8E82C842458">Layers Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=WMlukBMuouE&amp;list=PL14CDD8E82C842458">Transform Tool</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=jHF1SQgxahQ&amp;list=PL14CDD8E82C842458">Yin Yang Drawing Challenge</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=BH1i0mNWCSI&amp;list=PL14CDD8E82C842458">Drawing a Hand (Example)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=BoVxZjuiF_E&amp;list=PL14CDD8E82C842458">Drawing a Car (Example)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=YRNv8hXEh-M&amp;list=PL14CDD8E82C842458">Drawing a T-Shirt Design (Example)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=GEGJLV0n2pg&amp;list=PL14CDD8E82C842458">Intro to the Rest of the Drawing Playlist</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=IRXCVialMsw&amp;list=PL14CDD8E82C842458">Symbols and Instances</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=V9pLXuVQum0&amp;list=PL14CDD8E82C842458">Copy Symbols Between Projects</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=hNSEfcsxIgA&amp;list=PL14CDD8E82C842458">Editing Symbols</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=jSgzLy54yiU&amp;list=PL14CDD8E82C842458">Editing Instances</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=2WKb1gH5qJU&amp;list=PL14CDD8E82C842458">Symbols Inside of Symbols</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=iRaxebpt9R0&amp;list=PL14CDD8E82C842458">Flash Coordinate System</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=FTRozSAJ8pg&amp;list=PL14CDD8E82C842458">Registration Points</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=fICj7OX56gM&amp;list=PL14CDD8E82C842458">Transformation Points</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=KdOvIjK3wy4&amp;list=PL14CDD8E82C842458">Rulers, Grids, and Alignment</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=8OdAX4UfBRM&amp;list=PL14CDD8E82C842458">Gradients</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=2lPFE4W3E-Q&amp;list=PL14CDD8E82C842458">Text Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=czGCxGP2c3Y&amp;list=PL14CDD8E82C842458">Fruit Basket Scene (Example)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=g-Pbdvdc0Vg&amp;list=PL14CDD8E82C842458">Monster Example (Example)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="flash-animation">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Animating in Flash <small class="hidden-phone">Using Flash to Make Animated "Movies" with Some Interactive Parts</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Frame by Frame Animation</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Tween Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Motion Tweens</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Mastering Keyframes</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Motion Tween Properties</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Motion Tween Properties</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Motion Tween Paths</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Classic Tweens</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Classic Tween Paths</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Shape Tweens</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Shape Tween Examples</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made."></a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made."></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="flash-as3-beginning">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Beginning ActionScript <small class="hidden-phone">The Basics of Programming in ActionScript 3</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="flash-as3-intermediate">
+              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Intermediate ActionScript <small class="hidden-phone">Using Classes and More...</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              
+            </div>
+          </div>
+          
+        </div>
+      </div><!--/row-->
+      
+<!-- *****************************
+      JAVA
+     ***************************** -->   
+     
+     
+
+
+
+<!-- *****************************
+      IMAGE MANIPULATION
+     ***************************** -->
+      
+      <div class="row-fluid">
+        <div class="hero-unit" id="image-manipulation" >
+          <h2>Image Manipulation <small class="hidden-phone">Learn About Digital Images and How to Manipulate Them with the GIMP!</small></h2>
+        
+          <div class="btn-group">
+            <a class="btn btn-inverse dropdown-toggle" data-toggle="dropdown" href="#">
+              Playlists
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#image-manipulation-intro" class="image-manipulation-color">Image Manipulation Intro</a></li>
+              <li><a href="#color-theory" class="image-manipulation-color">Color Theory</a></li>
+              <li><a href="#gimp-basics" class="image-manipulation-color">GIMP Basics</a></li>
+              <li><a href="#gimp-intermediate" class="image-manipulation-color">GIMP Intermediate</a></li>
+              <li><a href="#gimp-advanced" class="image-manipulation-color">GIMP Advanced</a></li>
+            </ul>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="image-manipulation-intro">
+              <h3>Image Manipulation Intro <small class="hidden-phone"> The Basics of Working with Digital Images</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PBR5QpDvm-o">Pixels</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PBR5QpDvm-o">Image Resolution</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PBR5QpDvm-o">RGB Color</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PBR5QpDvm-o">Image Types</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PBR5QpDvm-o">Downloading Images from Online</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PBR5QpDvm-o">Copyright and Creative Commons</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PBR5QpDvm-o">Screenshots</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PBR5QpDvm-o">GIMP vs. Photoshop</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=PBR5QpDvm-o">Drawing Tablets</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="color-theory">
+              <h3>Color Theory <small class="hidden-phone">What You Should Know about Colors</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Color Wheel and Primary Colors</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Subtractive Color Mixing</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Additive Color Mixing</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Visual Spectrum</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Colors, Tints, and Shades</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Warm vs. Cool</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Color Schemes</a></li>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="gimp-basics">
+              <h3>GIMP Basics <small class="hidden-phone"> The Basics of Image Manipulation with the GIMP</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=zqt-TWGR6D4">Download the GIMP</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=4cyaZECGmo4">Crop and Resize</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=LPGQ6Mo_Ims">Drawing Tools</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=5hDVI_NXNO8">Saving and Exporting Images</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=zBmyHAWTX3Y">Selection Tools</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=2ydTejq9OIU">Layers</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=5SWEJbP2Qq8">Removing Backgrounds</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=TjanJBXbRcI">Swapping Heads</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=A9CrKxD1_XI">New Image</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=MVpUScfF-N0">Open Image</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=FLA3hn9JTa0">Paste Image</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=HBwoXRX4HOw">Save vs. Export</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=KFqMaVtfcGw">Restore Default Workspace</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=RGLPl0h033A">Single Window Mode</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=1hspw3d5JX4">Zoom</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=AYOsR6ZrXpA">Brush Size</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=opDalqJc-e0">Choosing Colors</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=eQ2VTCPNKII">Layers</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=yvQVj34vXZc">Selection Tools</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=y4Tomb1Y2hM">Selected Areas</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=L64evL-egk0">Floating Selections</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=OYCXp3Lh38Q">New Layer from Floating Selection</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=aOVAkS-8ulc">Fuzzy Selection Tool</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=zEKdwS-k7Z0">Invert a Selection</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=A_mchmFBUtI">Special Background Layer</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Itw8JiCT-Tg">Crop Image</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=MB2Dkd11fCg">Scale Image and Layers</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=W5gKDoMltaU">Transform Tools</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="gimp-intermediate">
+              <h3>GIMP Intermediate <small class="hidden-phone">Going Beyond the Basics</small></h3>
+            </div>
+            <div class="row-fluid videos">
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="gimp-advanced">
+              <h3>GIMP Advanced <small class="hidden-phone">On the Road to Mastery</small></h3>
+            </div>
+            <div class="row-fluid videos">
+            </div>
+          </div>
+          
+        </div>
+      </div><!--/row-->
+      
+<!-- *****************************
+      IMAGE MANIPULATION
+     ***************************** -->        
+     
+      
+<!-- *****************************
+      START OFFICE
+     ***************************** -->
+      
+      <div class="row-fluid">
+        <div class="hero-unit" id="office" >
+          <h2>Office Applications <small class="hidden-phone">Learn How to Use Word Processors, Spreadsheets, and More!</small></h2>
+        
+          <div class="btn-group">
+            <a class="btn btn-inverse dropdown-toggle" data-toggle="dropdown" href="#">
+              Playlists
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#office-word-processing" class="office-color">Word Processing</a></li>
+              <li><a href="#office-spreadsheets" class="office-color">Spreadsheets</a></li>
+            </ul>
+          </div>
+          
+          
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="office-word-processing">
+              <h3>Word Processing <small class="hidden-phone"> Learn the Basics of Microsoft Word</small></h3>
+            </div>
+            <div class="row-fluid videos">
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=NNz3n0CDSsA&amp;list=PLFF7A9F3E04EC1E55">Intro to Word Processing</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=WaD06I9esx8&amp;list=PLFF7A9F3E04EC1E55">Word Processor vs. Text Editor</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=gd1RVv1JB5M&amp;list=PLFF7A9F3E04EC1E55">Ribbon Hero</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Fk5u6pt37V4&amp;list=PLFF7A9F3E04EC1E55">New Document</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=8wlFWU-MnU8&amp;list=PLFF7A9F3E04EC1E55">Save and Save As</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Kke054AzHNU&amp;list=PLFF7A9F3E04EC1E55">Opening Files</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=sEHWLv0R8nc&amp;list=PLFF7A9F3E04EC1E55">Cut, Copy, and Paste (Keyboard Shortcuts)</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=vTx6ZhZsGp4&amp;list=PLFF7A9F3E04EC1E55">Paste Special</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=E26pJ3FIRKM&amp;list=PLFF7A9F3E04EC1E55">Undo and Redo</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=s5qh7DciNpU&amp;list=PLFF7A9F3E04EC1E55">Zoom</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=XNRNTLJXuQo&amp;list=PLFF7A9F3E04EC1E55">Fonts (Size and Type)</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=GrExHDdLvSo&amp;list=PLFF7A9F3E04EC1E55">Bold, Italic, Underling</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=xi5ODkx60Cg&amp;list=PLFF7A9F3E04EC1E55">Subscripts and Superscripts</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=ZU5ekrlHLsA&amp;list=PLFF7A9F3E04EC1E55">Colors, Background Colors, and Text Effects</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=giLVFoOu8Pc&amp;list=PLFF7A9F3E04EC1E55">Clear Formatting and the Format Painter</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=8GhV3EbestE&amp;list=PLFF7A9F3E04EC1E55">Font Defaults</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=nboSYtmiPRA&amp;list=PLFF7A9F3E04EC1E55">Styles and Themes Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=RbpcXDwWQeg&amp;list=PLFF7A9F3E04EC1E55">Lists Intro</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=WZagxWWwqVQ&amp;list=PLFF7A9F3E04EC1E55">Multi-Level Lists</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=KNJ165mv9GU&amp;list=PLFF7A9F3E04EC1E55">Spacing between List Items</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=JnvxJuAcMOA&amp;list=PLFF7A9F3E04EC1E55">Controlling List Numbering</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=XtnzLzfFWMA&amp;list=PLFF7A9F3E04EC1E55">Selecting Text with the Keyboard</a></li>
+                </ul>
+              </div>
+              <div class="span4">
+                <ul class="unstyled">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=Q4guX_Z3BaQ">Find and Replace</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=kvYc4L04wCI">Page Size</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=4zikfQcBItA">Portrait and Landscape</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=MWAf01eOYlc">Margins</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=T2OAmp30nDE">Line Spacing</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=MeUlaSuusx4">Aligning (and Justifying) Text</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=ASv7jU3pQjg">Indenting</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=T0BbQBc6Xcw">Tabs</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=YE69f48pU1U">Tabs (Part 2)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row-fluid playlist">
+            <div class="span12" id="office-spreadsheets">
+              <h3>Spreadsheets <small class="hidden-phone">Learn the Basics of Microsoft Excel and Other Spreadsheet Applications</small></h3>
+            </div>
+            <div class="row-fluid videos">
+<li><i class="icon-play-circle icon-white"></i> <a href="http://www.youtube.com/watch?v=xDswIATeNDk">Custom Shortcuts</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a href="">Macros</a></li>
+
+            </div>
+          </div>
+          
+        </div>
+      </div><!--/row-->
+      
+<!-- *****************************
+       END OFFICE
+     ***************************** -->   
+
+     <footer>
+        <p style="text-align:center">&copy; Christensen Academy 2012</p>
+     </footer>
+	</div>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+$('.future-video').each(function(index) {
+    var messages = ["Rome wasn't built in a day...", "Hold you horses, cowboy!", "Patience, young grasshopper.", "I'm workin' on it...", "This video has not yet been made.", "IN PRODUCTION", "Google it for now...", "Coming (relatively) soon...", "Check back later.", "I'll get to it eventually.", "Yet to be made...", "I haven't made this yet.", "I'm plannin' on makin' it...", "Video not yet made.", "Clicking harder won't help me make this video." ];
+    $(this).attr("title", messages[Math.floor(Math.random()*messages.length)]);
+});
+$('.future-video').tooltip({
+  placement: 'right'
+});
+$('.future-playlist').tooltip({
+  placement: 'top'
+});
+$('.ref-icon').tooltip({
+  placement: 'top'
+});
+
+  </script>
+	</body>
+</html>
