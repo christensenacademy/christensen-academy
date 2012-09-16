@@ -430,12 +430,12 @@ All of the examples in this section will be based off of the following folder st
 </folder>
 ```
 ###Examples of Relative Links
-A link from about.html to index.html: `index.html`
-A link from candy_bars.html to twinkies.html: `twinkies.html`
-A link from about.html to cam.html: `employees/cam.html`
-A link from index.html to twinkies.html: `products/candy/twinkies.html`
-A link from twinkies.html to index.html: `../../index.html`
-A link from cam.html to twinkies.html: `../products/candy/twinkies.html`
+* A link from about.html to index.html: `index.html`
+* A link from candy_bars.html to twinkies.html: `twinkies.html`
+* A link from about.html to cam.html: `employees/cam.html`
+* A link from index.html to twinkies.html: `products/candy/twinkies.html`
+* A link from twinkies.html to index.html: `../../index.html`
+* A link from cam.html to twinkies.html: `../products/candy/twinkies.html`
 
 ##Anchor Element
 Use this element for creating hyperlinks to resources on the World Wide Web. If the resource is another webpage, the new page will appear in the browser. If the resource is something else, say a PDF document or computer program, the browser will likely download the document and allow an external application to open it, but that is up to the browser. Some browsers, for example, open PDF documents and display them themselves.
