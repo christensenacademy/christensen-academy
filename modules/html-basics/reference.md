@@ -296,7 +296,7 @@ These are four common mistakes you should watch out for. Most of thes occur beca
   <li>dolor</li>
 ```
 ###Unclosed Tags
-```
+```html
 <img src="lorem.png"
 <p>
   Etiam iaculis dui eu mauris pellentesque fringilla interdum elit euismod. Praesent in lacinia arcu. 
@@ -305,7 +305,7 @@ These are four common mistakes you should watch out for. Most of thes occur beca
 </p>
 ```
 ###Mispellings and Capital Letters
-```
+```html
 <img scr="Lorem.png"> <!-- In this example, the attribute should be "src" not "scr". Also, it's possible 
                            that the file name was "lorem.png" instead of "Lorem.png" -->
 ```
