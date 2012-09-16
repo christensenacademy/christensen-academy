@@ -427,7 +427,7 @@ All of the examples in this section will be based off of the following folder st
   </folder>
   <resource type="webpage" name="about.html">
   <resource type="webpage" name="index.html">
-</folder name="">
+</folder>
 ```
 ###Examples of Relative Links
 A link from about.html to index.html: `index.html`
