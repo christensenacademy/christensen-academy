@@ -74,22 +74,58 @@ Note: the eyedropper automatically appears when you attempt to change a color th
 
 ##Line, Pencil, and Paintbrush Tools
 ###Line
+The line tool is great for drawing objects of all sorts, especially those with straight lines or simple curves. Very complex shapes, such as the outline of a guitar or a car, can be created with the line tool.
+
+Hint: After drawing a line with the line tool, the line can be curved using the selection tool.
 
 ###Pencil
 This tool creates a stroke wherever you draw. If you want a smooth line created, make sure to have the smooth option selected in the tool options.
+
 ###Paintbrush
-I recommend staying away from this tool. 
+I recommend staying away from this tool. Realize that all it is doing is creating a shape with a fill (no stroke). There are better ways to create shapes.
 
 ##Anchor Points
+All shapes are composed of anchor points. Generally, these anchor points create a closed path so that a fill can be applied to inside of the shape.
+
+As a general rule, you should try to minimize the number of anchor points in your shapes. This reduces file size and makes your shapes look better. It also gives you greater control over manipulating your shapes later on.
+
 ###Subselection Tool
-###Handlebars
-###Types of Anchor Points
+The subselection tool allows you to manipulate anchor points. It allows you to select anchor points and do things to them:
+
+* Delete anchor points
+* Move anchor points (with the mouse or keyboard)
+* Adjust curves in between anchor points
+
+####Handlebars
+When you have curves between anchor points (as opposed to straight lines), you will see handlebars coming out of the anchor points. You can adjust these handlebars with the subselection tool to manipulate the curves.
+
+Note: If an anchor point does not have handlebars, simply hold alt and drag them out. Doing this creates a smoother curve through the anchor point. Also note that you can do this even if an anchor point already has handlebars.
+
+Note: If you want to manipulate one handlebar and not the other, hold down alt before clicking the handlebar. Doing this will create a corner at the anchor point as opposed to a smooth curve through the anchor point.
 
 ##Pen Tool
+This tool has many purposes, but I'll limit this discussion to the two most useful ones.
+###Creating Shapes
+Creating a shape with the pen tool is like playing a game of connect the dots. Every time you click the pen tool, a new anchor point is created. Lines automatically connect these anchor points. Click back on the first anchor point you made to finish your shape.
+###Adding Anchor Points
+With the pen tool (or the "add anchor point tool"), you can add an anchor point to a part of a curve that already exists.
+
 ##Layers
+The timeline in Flash allows you to add layers. This is helpful for organizing your work. For example, you can add an image to a background layer and lock it in place to make sure it doesn't more. What's more, you can hide layers you don't want to see at the moment.
+
 ##Transform Tool
+Once you've selected the objects (primitives, object drawings, symbols, etc.) you'd like to transform, take out the transform tool and examine your options. You can:
+* rotate
+* skew
+* resize
+
+Hint: If you'd like to keep your graphics from distorting, hold down shift as you resize them to constrain the aspect ratio (i.e., keep things proportional).
+
+###Transformation Points
+When you rotate objects with the transformation tool, you'll notice that they move about a point indicated by a white circle on the stage. This is the transformation point, and it is unique to each instance on the stage. You can move it with the transformation tool.
 
 ##Symbols and Instances
+It's very smart to organize your symbols into instances in Flash.
 
 ###Editing Symbols
 
@@ -101,7 +137,6 @@ I recommend staying away from this tool.
 
 ###Registration Points
 
-###Transformation Points
 
 ###Rulers, Grids, and Alignment
 ####Rulers
