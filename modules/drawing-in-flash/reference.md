@@ -125,24 +125,42 @@ Hint: If you'd like to keep your graphics from distorting, hold down shift as yo
 When you rotate objects with the transformation tool, you'll notice that they move about a point indicated by a white circle on the stage. This is the transformation point, and it is unique to each instance on the stage. You can move it with the transformation tool.
 
 ##Symbols and Instances
-It's very smart to organize your symbols into instances in Flash.
+It's very smart to organize your drawings into symbols in Flash. Symbols are stored in the library panel. Once a drawing is a symbol, you can create copies of it called *instances*. This helpful for several reasons:
+
+* When editing a symbol, all of the instances of that symbol are automatically updated to reflect those changes.
+* Keeping your objects in symbols will allow them to be animated.
+* Instances of symbols can be accessed with ActionScript code, which will be important when you create games or other interactive things. 
 
 ###Editing Symbols
+There are two ways to edit a symbol:
+1. Double-click on an instance. When you do this, everything else on the stage gets greyed out.
+2. Double-click on the symbol in the library. When you do this, the symbol appears on the stage alone.
+
+Note: It's extremely important to know what you're editing at any given time. Just look at the menu above the stage to find out if you're on the stage or if you're editing a symbol.
 
 ###Editing Instances
+When you select an instance, you'll see various properties associated with it in the properties panel. You can change these properties and the instance will still remain an instance of whatever symbol it came from. Likewise, you can use the transform tool on instances to edit them.
+
+Note: If you need to edit an instance beyond what the basic controls that the properties panel and transform tool offer, you'll need to break the instance apart. If you do this, it will no longer be an instance of the symbol it came from. Instead, it will just be a normal object on the stage that you can do with as you please. You'll have full control over it as if you had just drawn it.
 
 ###Symbols Inside of Symbols
+It is possible to have many symbols in your library. What's more, it's possible to put symbols inside of other symbols. For example, I might have a monster symbol that is composed of a head symbol, a torso symbol, two arm symbols, and two leg symbols. Taking things a step further, a leg symbol might be composed of an uppper leg symbol, a knee symbol, a lower leg symbol, and a foot symbol.
 
 ##Flash Coordinate System
+The coordinate system in flash starts in the top-left corner (i.e., the point where x=0 and y=0 is in the top-left corner). It's important to remember that x-values moving to the right and y-values increase moving downwards.
 
 ###Registration Points
-
+Each symbol has a registration point--it looks like a plus sign. Each instance of a symbol inherits the same registration point, which is used to determine the x- and y-values of the instance. The registration point of an instance must be changed by editing the symbol itself.
 
 ###Rulers, Grids, and Alignment
+If you find yourself wanting to precisely align things on the stage, rulers, grids, and the alignment panel might help.
 ####Rulers
+Turn these on through the view menu. You'll be able to drag out guides from the rulers onto the stage, which can be helpful.
 ####Grids
+Turn these on through the view menu as well. Like rulers, grids are there to help you organize your content and line things up correctly.
 ####Alignment
-
+The alignment panel may be of use to you if you want to ensure that multiple objects are all aligned together.
 ##Gradients
-
+Gradients in Flash require patience. When creating gradients, you'll be working with the color panel (to choose the colors) and the gradient transform tool.
 ##Text
+Text objects in Flash allow you to create text and control sizes and fonts like you would in a word processor like Microsoft Word. However, remember that text in flash is vector graphics just like everything else. You can actually break text apart a couple of times to get back to the primitive shapes that describe the objects.
