@@ -1,9 +1,7 @@
 #Web Intro Reference
 ##Overview
-[A Brief History of Internet](#)
-[A Brief History of the World Wide Web](#)
-[The Internet vs. The World Wide Web](#)
-[Domain Names and ](#)
+[History of the Internet and the World Wide Web](#history-of-the-internet-and-the-world-wide-web)
+[Domain Names and URLs](#domain-names-and-urls)
 [](#)
 [](#)
 [](#)
