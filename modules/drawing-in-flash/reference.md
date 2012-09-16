@@ -17,11 +17,13 @@ Flash can be used as a drawing tool to create vector graphics.
 
 ##Vector vs. Bitmap
 Unlike most drawing programs that create graphics pixel by pixel, Flash uses vector graphics, which describe shapes in terms of anchor points and curves.
+
 ###Advantages of Vector Graphics
 * Small file sizes
 * Clean, precise shapes
 * Zooming in does not lead to pixelation
 * Good for graphics like logos and cartoons
+
 ###Disadvantages of Vector Graphics
 * Drawing vector graphics requires patience and a greater level of expertise than drawing with pixels.
 * Photorealistic graphics are not possible
@@ -39,10 +41,12 @@ The Paint Bucket tool will add a fill to a shape that doesn't have one or change
 ##Primitive Shapes vs. Object Drawings
 ###Telling Primitives and Object Drawings Apart
 Primitives show a dotted pattern when selected. Object drawings show a blue box around them when selected.
+
 ###Important Facts about Primitives
 * Primitive shapes "eat" each other.
 * Primitive shapes "join" each other at intersection points.
 * Primitive shapes can be combined into object drawings
+
 ###Important Facts about Object Drawings
 * Object drawings contain primitive shapes. To access the primitive shapes, simply double-click on the object.
 * Object drawings can be broken apart into primitive shapes.
