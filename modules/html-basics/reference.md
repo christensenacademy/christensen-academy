@@ -16,7 +16,7 @@
 * [Anchor Element](#anchor-element)
 * [Image Element](#image-element)
 * [Meta Element](#meta-element)
-* [Reserved and Special Characters](#reserved-and-special-characters)
+* [HTML Entities](#html-entities)
 * [Validation](#validation)
 
 ##Overview
@@ -468,7 +468,8 @@ The image element uses links just like the anchor element, but instead of creati
 
 ```html
 <img src="img/logo.png"> <!-- Notice that this is a void (empty) element -->
-<img src="http://christensenacademy.org/img/logo.png"> <!-- links in images can be relative or absolute just like anchor elements -->
+<img src="http://christensenacademy.org/img/logo.png"> <!-- links in images can be relative or
+                                                            absolute just like anchor elements -->
 ```
 
 ###Alt Attribute
@@ -479,8 +480,33 @@ The alt attribute is used to provide a short description of the image. This migh
 ```
 
 ##Meta Element
+The meta element is found only in the head element because its only purpose is to provide extra information about the page. It is an empty (void) element. Here are some examples:
+```html
+<meta charset="utf-8"> <!-- Lets the browser know what character encoding your browser is using. -->
 
-##Reserved and Special Characters
+<!-- Provides keywords that might be looked at by search engines -->
+<meta name="keywords" content="computer science, programming, learning, html">
+
+<!-- Provides a description of the page that will display below the title in a search result. -->
+<meta name="description" content="Learn about computers and computer programming for free!">
+```
+
+##HTML Entities
+Some characters in HTML are "reserved" because they carry special meaning in the eyes of the web browser. For example `<` and `>` are reserved characters because they signal the start and end of tags. Other characters, such as the copyright symbol, are "special" characters that we might like to have show up on our webpages. **HTML entities** provide developers a way to get reserved and special character to appear on their webpages.
+
+All html entities look like `&*;` where `*` is a sequence of alphanumeric characters.
+
+```html
+&amp;   <!-- ampersand -->
+&lt;    <!-- less than sign -->
+&gt;    <!-- greater than sign -->
+&quot;  <!-- quotation mark -->
+&apos;  <!-- apostrophe -->
+&copy;  <!-- copyright symbol  -->
+&nbsp;  <!-- extra (non breaking) space -->
+```
+
+For a complete character entity list, here is a [Wikipedia page](http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references) that should help.
 
 ##Validation
 To help you catch errors in your code, you can use the [W3C Validator](http://validator.w3.org/). Make sure to read the error messages and pay attention to the line numbers.
