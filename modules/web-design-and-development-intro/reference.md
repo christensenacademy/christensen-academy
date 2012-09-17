@@ -20,20 +20,20 @@ If you're interested in learning more about the history of computers, the Intern
 The basic idea of a computer network (i.e., finding a way for computers to send messages back and forth) has been around in various forms since the earliest days of electronic computers (1940's and 1950's). It wasn't until the late 1960's and early 1970's, however, that the real foundations of what has become the Internet were actually created.
 
 The following is a short timeline showcasing some of the major highlights in the development of the Internet:
-* (1957-1969) In 1957, the USSR launched Sputnik, which prompted the United States to create ARPA (Advanced Research Projects Agency) in 1958. ARPA (later renamed DARPA) was responsible fore developing the ARPANET (first operational in 1969). ARPANET was not the only network of its time, but it is the one that evolved into the global Internet.
-* (1969-1972) ARPANET grows as more computers across the United States connect to it. By the end of 1972, roughly 30 computers were connected, mostly for scientific and military reasons. An interesting documentary called **Computer Networks: The Heralds Of Resource Sharing** was created in 1972 about the current state and future potential of computer networks.
-* (1973-1983) The number of hosts continues to grow, including hosts from networks in other countries. Other uses for the Internet begin to emerge, such as the first MUD in 1979, a precursor to massively multiplayer online games like the World of Warcraft.
-* (1983) The movie *War Games* features a high school student hacking into a national defense computer in an attempt to play a computer game. Is this movie significant to the history of the Internet? Maybe not, but the movie is great!
-* (1985-1995) The National Science Foundation created the NSFNET, which became the "backbone" of the Internet in the United States allowing for high-speed data transfer across the country. Other parts of the world have also developed their own regional backbones.
+* **(1957-1969)** In 1957, the USSR launched Sputnik, which prompted the United States to create ARPA (Advanced Research Projects Agency) in 1958. ARPA (later renamed DARPA) was responsible fore developing the ARPANET (first operational in 1969). ARPANET was not the only network of its time, but it is the one that evolved into the global Internet.
+* **(1969-1972)** ARPANET grows as more computers across the United States connect to it. By the end of 1972, roughly 30 computers were connected, mostly for scientific and military reasons. An interesting documentary called **Computer Networks: The Heralds Of Resource Sharing** was created in 1972 about the current state and future potential of computer networks.
+* **(1973-1983)** The number of hosts continues to grow, including hosts from networks in other countries. Other uses for the Internet begin to emerge, such as the first MUD in 1979, a precursor to massively multiplayer online games like the World of Warcraft.
+* **(1983)** The movie *War Games* features a high school student hacking into a national defense computer in an attempt to play a computer game. Is this movie significant to the history of the Internet? Maybe not, but the movie is great!
+* **(1985-1995)** The National Science Foundation created the NSFNET, which became the "backbone" of the Internet in the United States allowing for high-speed data transfer across the country. Other parts of the world have also developed their own regional backbones.
 
 ###A Brief History of the World Wide Web
 The World Wide Web came about much later than the Internet. By 1990, the basic infrastructure of the Internet was in place, but common people didn't use it. It was at this time that two new protocols were developed: GOPHER and HTTP. At first, the GOPHER protocol, which provided a convenient mechanism for people to share files over the Internet, was the most popular. However, in 1994 following the release of the first graphical Web browser in 1993 called Mosaic, the World Wide Web (the HTTP protocol) surged ahead. The explosive growth of the Web is difficult to describe. Within two decades of its inception in 1990, the World Wide Web had penetrated nearly every facet of modern life.
 
 The following is a (very) short timeline showcasing some of the major highlights in the development of the World Wide Web:
-* (1990) Time Berners-Lee and Robert Cailliau built all of the tools necessary for a working World Wide Web--a browser, an HTTP server, and an editor. Adoption of their system, however, was slow. Their intended audience, after all, were researchers and academics like themselves.
-* (1993) Mosaic, the first graphical Web browser, leads to the popularization of the Web
-* (1996-1998) The Web gets commercialized, which furthers its already explosive growth.
-* (1998-present) Web technologies improve and the Web becomes ubiquitous. The websites that fascinated people in 1994 are laughable by todays standards.
+* **(1990)** Time Berners-Lee and Robert Cailliau built all of the tools necessary for a working World Wide Web--a browser, an HTTP server, and an editor. Adoption of their system, however, was slow. Their intended audience, after all, were researchers and academics like themselves.
+* **(1993)** Mosaic, the first graphical Web browser, leads to the popularization of the Web
+* **(1996-1998)** The Web gets commercialized, which furthers its already explosive growth.
+* **(1998-present)** Web technologies improve and the Web becomes ubiquitous. The websites that fascinated people in 1994 are laughable by todays standards.
 
 ###The Internet vs. the World Wide Web
 The Internet and the World Wide Web are not the same thing. The World Wide Web can be best thought of as an application of the Internet. To fully understand how this is the case, you'll need to have a basic understanding of the protocol stack that makes the Internet work. This stack is composed of several layers.
@@ -57,7 +57,10 @@ Each layer of the Internet depends on the ones below it. In order for the World 
 * Messages must be able to go from a computer on one network to a computer on any other network in the world (Internet Layer).
 * There must be some reliability assurances for this all to work (Transport Layer).
 
-With these pieces in place, we can start inventing interesting and useful ways to send messages across the Internet. It turns out that the most popular application of this amazing technology has been the World Wide Web, which is essentially the system of websites and webpages that we've come to know. Websites exist on special computers connected to the Internet called Web servers. When you visit a website, you are sending an HTTP request for a webpage. The Web server receives your request and kindly responds with the webpage you requested, sending it to you in a message.
+With these pieces in place, we can start inventing interesting types of messages to send over the Internet. Who would have guessed that the most popular type of message to send would become a webpage?
+
+##How the World Wide Web Works
+It turns out that the most popular application of this amazing technology has been the World Wide Web, which is essentially the system of websites and webpages that we've come to know. Websites exist on special computers connected to the Internet called Web servers. When you visit a website, you are sending an HTTP request for a webpage. The Web server receives your request and kindly responds with the webpage you requested, sending it to you in a message.
 
 ##Domain names and URLs
 

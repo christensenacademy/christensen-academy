@@ -284,6 +284,19 @@ Also, indenting is easy once you get used to it. The only rule is that child ele
 
 ##Common Mistakes
 These are four common mistakes you should watch out for. Most of thes occur because of bad indentation.
+###Elements Outside of Head and Body
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example Webpage</title>
+  </head>
+  <h1>Hello World</h1>
+  <body>
+
+  </body>
+</html>
+```
 ###Overlapping Elements
 ```html
 <h1>
