@@ -1,6 +1,7 @@
 #HTML Basics Reference
 * [Overview](#overview)
 * [Basic HTML Template](#basic-html-template)
+* [Text Editors](#text-editors)
 * [Useful Keyboard Shortcuts](#useful-keyboard-shortcuts)
 * [Markup, Tags, and Elements](#markup-tags-and-elements)
 * [Lorem Ipsum](#lorem-ipsum)
@@ -291,7 +292,7 @@ These are four common mistakes you should watch out for. Most of thes occur beca
   <head>
     <title>Example Webpage</title>
   </head>
-  <h1>Hello World</h1>
+  <h1>Hello World</h1> <!-- This h1 is in the wrong place. It should be in the body. -->
   <body>
 
   </body>
@@ -299,13 +300,15 @@ These are four common mistakes you should watch out for. Most of thes occur beca
 ```
 ###Overlapping Elements
 ```html
+<!-- To prove to yourself that this is wrong, I recommend trying to indent this code. It's impossible! -->
 <h1>
-<p>
+<a href="lorem.html">
 </h1>
-</p>
+</a>
 ```
 ###Forgotten Tags
 ```html
+<!-- there is no closing ul tag -->
 <ul>
   <li>lorem</li>
   <li>ipsum</li>
@@ -313,7 +316,7 @@ These are four common mistakes you should watch out for. Most of thes occur beca
 ```
 ###Unclosed Tags
 ```html
-<img src="lorem.png"
+<img src="lorem.png" <!-- There should be a closing > here -->
 <p>
   Etiam iaculis dui eu mauris pellentesque fringilla interdum elit euismod. Praesent in lacinia arcu. 
   Duis a magna quis elit tincidunt pulvinar. Nulla aliquam nibh sed dolor molestie volutpat. Nullam 

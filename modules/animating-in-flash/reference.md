@@ -28,12 +28,15 @@ It is very important to realize that symbols have their own inner timelines. Whe
 
 ##Keyframes in Motion Tweens
 
+##Motion Paths
+
+###Guide Layers
+
+##Motion Editor
+
+##Mastering the Timeline
 
 ##Motion Tween Properties
-
-
-##Motion Tween Paths
-
-
-##
+##Ease In and Out
+##Rotation
 
