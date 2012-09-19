@@ -18,7 +18,7 @@ This document lays out my preliminary plan for adopting a modular curriculum wit
 
 ##Overview of the System
 The computer science curriculum would literally become a [map]() of modules. The following is an example of what that map might look like for modules related to learing how to develop websites:
-![A map of modules for the computer science web development curriculum.](../../blob/master/modular-curriculum/web-modules.png)
+![A map of modules for the computer science web development curriculum.](https://github.com/christensenacademy/christensen-academy/blob/master/modular-curriculum/web-modules.png)
 
  Students in a computer science classroom would move through modules at their own pace and even be given some control over the choice of their path. Completion of a module requires thorough demonstration of mastery. Earning an "A" in a module is the only way to complete it. Each module is worth a certain number of points. Ten points equates to 0.5 credits, which is the current graduation requirement for computer science. Furthermore, 
 
