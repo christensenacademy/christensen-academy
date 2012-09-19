@@ -1,5 +1,5 @@
 #Modular Curriculum
-This document lays out my preliminary plan for adopting a modular curriculum within the computer science department. It describes (in detail) the nature of such a system and discusses related benefits, drawbacks, and challenges. These are just my early thoughts on the matter...
+This document lays out my preliminary plan for adopting a modular curriculum within the computer science department. It describes (in detail) the nature of such a system and discusses related benefits, drawbacks, and challenges. These are just my early thoughts on the matter. I'm writing this mostly as food for thought and to spark a discussion.
 
 ##Table of Contents
 
@@ -15,11 +15,11 @@ This document lays out my preliminary plan for adopting a modular curriculum wit
 * [](#)
 
 ##Motivation
-The world of education is changing more than people realize. 2012 has been marked by the advent of some amazing (and free) online learning platforms that give students around the world on-demand access to high-quality educational experiences. In fact, I would argue that most of these experiences are superior to those being offered in traditional classrooms. There are many reasons for this, but perhaps the most fundamental is the simple fact that they put the student in control of the learning process like never before.
+The world of education is changing more than people realize. 2012 has been marked by the advent of some amazing (and free) online learning platforms (Khan Academy, Coursera, Udacity, EdX, etc.) that give students around the world on-demand access to high-quality educational experiences. In fact, I would argue that most of these experiences are superior to those being offered in traditional classrooms. There are many reasons for me saying this, but perhaps the most important is the simple fact that they put the student in control of the learning process like never before.
 
 Instead of arguing over whether traditional or block scheduling will allow us (the teachers) to provide the best education to our students, we need to shift our perspective towards creating a more flexible model that allows and motivates our students to actively achieve the best education that the world has to offer. I'd like to suggest that this is not possible in the current model which attempts to move all students forward at a fixed pace. In the past, this rigid model was a logistical necessity. Today, however, this is no longer the case. We can do better.
 
-Of course, changing the model for an entire school would be foolhardy in the absense of either desperation or compelling evidence in favor of the new model. However, experimenting with a new model inside of a relatively small and isolated department (i.e., the computer science department), carries relatively little risk and the potential of great reward.
+Of course, changing the model for an entire school would be foolhardy in the absense of either desperation or compelling evidence in favor of a new model. However, experimenting with a new model inside of a relatively small and isolated department (i.e., the computer science department), carries relatively little risk and high potential reward. I firmly believe that even an attempt at implementing the modular curriculum I propose in the rest of this document would benefit our school and mark us as a leader and pioneer in the world of education.
 
 ##Overview of the System
 The computer science curriculum would literally become a map of modules. The following is an example of what that map might look like for modules related to learing how to develop websites:
@@ -33,9 +33,7 @@ There are two big ideas here:
 1. Self Pacing: Students would work through their chosen path in a truly self-paced fashion. Those are ready to race ahead can sprint until they finish, run out of gas, or... well, actually I imagine some of them will just keep on sprinting. Those who need more time can take it at no penalty or added worry.
 2. Mastery: Students only complete modules once they've demonstrated true mastery as judged by the teacher. In this way, the only grade is an "A", but it must be truly earned.
 
-In this system, taking a computer science *course* would actually make no sense. Students would not sign up to take Web Design, Flash, or Java as they have in the past. Instead, students would sign up for a general computer science class period. Some of these class periods would be flagged as honors to allow some of the top students to congregate and push each other to new heights. 
-
-The success of this system would be heavily dependent on finding good
+In this system, taking a computer science *course* would actually make no sense. Students would not sign up to take Web Design, Flash, or Java as they have in the past. Instead, students would sign up for a general computer science class period. 
 
 
 ##Completing a Module
