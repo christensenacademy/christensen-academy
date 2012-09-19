@@ -3,6 +3,7 @@ This document lays out my preliminary plan for adopting a modular curriculum wit
 
 ##Table of Contents
 
+* [Motivation](#motivation)
 * [Overview of the System](#overview-of-the-system)
 * [Benefits](#)
 * [Drawbacks and Risks](#)
@@ -12,6 +13,13 @@ This document lays out my preliminary plan for adopting a modular curriculum wit
 * [](#)
 * [](#)
 * [](#)
+
+##Motivation
+The world of education is changing more than people realize. 2012 has been marked by the advent of some amazing (and free) online learning platforms that give students around the world on-demand access to high-quality educational experiences. In fact, I would argue that most of these experiences are superior to those being offered in traditional classrooms. There are many reasons for this, but perhaps the most fundamental is the simple fact that they put the student in control of the learning process like never before.
+
+Instead of arguing over whether traditional or block scheduling will allow us (the teachers) to provide the best education to our students, we need to shift our perspective towards creating a more flexible model that allows and motivates our students to actively achieve the best education that the world has to offer. I'd like to suggest that this is not possible in the current model which attempts to move all students forward at a fixed pace. In the past, this rigid model was a logistical necessity. Today, however, this is no longer the case. We can do better.
+
+Of course, changing the model for an entire school would be foolhardy in the absense of either desperation or compelling evidence in favor of the new model. However, experimenting with a new model inside of a relatively small and isolated department (i.e., the computer science department), carries relatively little risk and the potential of great reward.
 
 ##Overview of the System
 The computer science curriculum would literally become a map of modules. The following is an example of what that map might look like for modules related to learing how to develop websites:
