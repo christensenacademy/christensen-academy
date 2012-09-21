@@ -8,10 +8,12 @@ To create a free, world-class educational system for learning introductory compu
 
 ##Current State
 
-The Christensen Academy at this point couldn't be much simpler. It's basically a giant page of links with two main benefits:
+The Christensen Academy at this point couldn't be much simpler. There are YouTube playlists organized a single webpage. In addition, there are a growing number of reference guides to support each playlist that are especially helpful for programming types of activities.
 
-* A responsive design thanks to bootstrap
-* Easy maintenance--it's just one page...
+The design of the site relies heavily upon bootstrap. Keeping it to just a single page helps me maintain it as easily as possible.
+
+##Trello Board
+The things I'm currently working on can be found on a [Trello board](https://trello.com/board/christensen-academy/5059b85d7f98542c3d7c367e).
 
 ##Evolving Vision
 
