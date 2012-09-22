@@ -1,9 +1,5 @@
 #Modular Curriculum
-IMPORTANT NOTE: I'm just spitballin' here. Please don't take this too seriously.
-
-This document lays out my preliminary plan for adopting a modular curriculum within the computer science department. It describes (in detail) the nature of such a system and discusses related benefits, drawbacks, and challenges.
-
-Again, these are just my early thoughts on the matter. I'm writing this mostly as food for thought and to spark a discussion. Please don't be afraid that I have some massive juggernaut of an agenda here. I mostly just enjoy playing around with ideas. The only thing I'm deadly serious about is finding ways to improve education, whatever they might be.
+The Christensen Academy is quickly evolving into a modular system, with YouTube playlists as the basic module. Modules are often structured around projects, but this isn't always the case. There are two main purposes for this document. First, this document describes the ideal structure of the Christensen Academy as a sandbox learning system built around modules. Second, this document describes how the Christensen Academy could be used to support a modular curriculum implementation in an actual school.
 
 ##Table of Contents
 
@@ -18,20 +14,19 @@ Again, these are just my early thoughts on the matter. I'm writing this mostly a
 * [Record Keeping](#record-keeping)
 
 ##Motivation
-The world of education is changing more than people realize. 2012 has been marked by the advent of some amazing (and free) online learning platforms (Khan Academy, Coursera, Udacity, EdX, etc.) that give students around the world on-demand access to high-quality educational experiences. In fact, I would argue that most of these experiences are superior to those being offered in traditional classrooms.
+Modular curriculum is about giving people control over their educational destinies. It's about devising a better system built on the principles of autonomy and mastery. It's about leveraging technology in an intelligent way that allows us to completely transform the traditional model of education.
 
-This is about more than educational access. This is about giving people control over their educational destinies.
+In the past, our rigid model of education was a logistical necessity. Today, however, it feels more like an an interesting challenge to overcome. We can be more flexible, helping every student reach their greatest potential.
 
-Instead of arguing over whether traditional or block scheduling will allow us (the teachers) to provide the best education to our students, we need to shift our perspective towards creating a more flexible model that allows and motivates our students to actively achieve the best education that the world has to offer. I'd like to suggest that this is not possible in the current model which attempts to move all students forward at a uniform pace.
-
-In the past, our rigid model of education was a logistical necessity. Today, however, it feels more like an an interesting challenge to overcome. We can be more flexible. We can create a better system build on the paradigms of flexibility--a common manifest--self-pacing and mastery.
-
-Of course, changing the model for an entire school would be foolhardy in the absense of either desparation or compelling evidence in favor of a new model. However, experimenting with a new model inside of a relatively small and isolated department (i.e., the computer science department), carries relatively little risk and high potential reward. I firmly believe that even an attempt at implementing the modular curriculum I propose in the rest of this document would benefit our school and mark us as a leader and pioneer in the world of education.
+Of course, changing the model for an entire school would be foolhardy in the absense of either desparation or compelling evidence in favor of a new model. However, experimenting with a new model inside of a relatively small and isolated department (i.e., the computer science department), carries relatively little risk and high potential reward.
 
 ##On-Demand Video
-I have become a big believer in on-demand video as a superior content-delivery mechanism. It is superior to traditional lecture in almost every way (TODO: add argument for this). And, istead of dehumanizing the classroom, it actually brings it to life with increased one-on-one student-teacher interaction and lots of peer tutoring.
+On-demand video is better than traditional in-class lecture for both teachers and students in almost every way imaginable.
 
-When thinking about devising a new and more flexible model of education, on-demand video naturally must play a large role in content delivery. Without on-demand video, none of the following would be possible. It is, I feel, a logistical necessity. That said, it shouldn't be viewed as a necessary evil. As I said earlier, on-demand video is superior in many regards to traditional lecture.
+###For Teachers
+Before I list some of the major benefits of teaching through video recording, I want to give a quick overview of the basic process I go through as I'm recording.
+
+
 
 ##Overview of the System
 This is my attempt to describe a curriculum based not on courses and grade levels but on modules, self-pacing, and mastery. I hope to provide some insight into the logistical feasibility of such a curriculum. I believe this can work, and I believe it can work tremendously well.

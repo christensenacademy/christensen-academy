@@ -1,0 +1,40 @@
+body
+{
+  margin:0;
+  padding:0;
+  line-height: 1.4em;
+  word-spacing:1px;
+  letter-spacing:0.2px;
+  font: 13px Arial, Helvetica,"Lucida Grande", serif;
+  color: #000;
+  font-size: 80%;
+}
+
+h1 {margin-bottom:0;}
+h3 {margin-top:0;}
+
+.multiple-choice
+{
+  color:black;
+  font-family:arial;
+  margin:0;
+}
+
+.multiple-choice > li:before
+{
+  content: "_____ ";
+}
+
+.multiple-choice > li
+{
+  margin-top: 1em;
+}
+
+.multiple-choice ol 
+{
+  list-style-type:lower-alpha;
+}
+
+.ans-short {margin-bottom: 5em;}
+.ans-medium {margin-bottom: 10em;}
+.ans-long {margin-bottom: 15em;}
