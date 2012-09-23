@@ -1,0 +1,11 @@
+#Challenge 2: Monster
+
+Your challenge is to draw the various body parts of a monster (i.e., a head, a torso, some arms, etc.), make them into symbols, then assemble the instances to build a monster.
+
+This should be done in groups such that each group member draws different body parts. In this case, the group members will need share their drawings with each other so that they can each build their own completed monsters.
+
+At the end of the challenge, you should create a monster symbol that is composed of instances of the various body part symbols created earlier.
+
+Important points to remember:
+* This challenge is less about the quality of the drawings and more about figuring out how to work with symbols and instances.
+* It's okay if the monster looks hideous. It's a monster...
