@@ -2,9 +2,7 @@
 
 Create a basic website using HTML.
 
-##Overview
-
-Hopefully you're starting to get familiar with the basics of HTML. Now is your chance to demonstrate what you know by creating a website. The topic of the website is up to you, but here are some ideas that might help you get your creative juices flowin':
+##Project Ideas
 
 * a school site
 * a business site
