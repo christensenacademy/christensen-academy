@@ -3,10 +3,10 @@
 * [Overview](#overview)
 * [Three Types of CSS: Inline, Embedded, and External](#three-types-of-CSS)
 * [CSS Comments](#css-comments)
-* [CSS Rules: Properties, Values, and Selectors](#css-rules)
-* [](#)
-* [](#)
-* [](#)
+* [CSS Rules](#css-rules)
+* [Properties and Values](#properties-and-values)
+* [Basic Selectors](#basic-selectors)
+* [Advanced Selectors](#advanced-selectors)
 * [](#)
 * [](#)
 * [](#)
@@ -181,17 +181,17 @@ h1 {
 
 In the example above, there are two CSS *rules*, one for paragraphs and one for h1 elements. Just like inline CSS, each CSS rule can have multiple property-value pairs.
 
-####3 Ways to Write CSS Rules
+####3 Ways to Write Embedded and External CSS Rules
 Lastly, it should be noted that there are multiple ways to write CSS rules, all of which are equally correct, though some are easier to read than others.
 
 ```css
-//All of the following CSS rules are equivalent in their effects.
+/*All of the following CSS rules are equivalent in their effects.*/
 
-//Compact and orderly but hard to read if there are lots of property-value pairs
+/*Compact and orderly but hard to read if there are lots of property-value pairs*/
 p {color:blue;background-color:red;font-size:200%;}
 h1 {font-style:italic;text-decoration:underline;}
 
-//Less compact, but easy to read.
+/*Less compact, but easy to read.*/
 p {
   color:blue;
   background-color:red;
@@ -210,6 +210,55 @@ p
 }
 ```
 
-###Properties and Values
-###Basic Selectors
-###Advanced Selectors
+##Properties and Values
+In CSS, properties appear on the left side of the colon and values appear on the right.
+
+```css
+//In this example, "color" is the property and "orange" is the value.
+p
+{
+  color:orange;
+}
+```
+
+###Points to Remember about Properties and Values
+* Properties cannot have spaces in their names, and there should not be a space between a property name and the colon. Instead of spaces in names, properties use hyphens (e.g., font-style, text-decoration, background-color, etc.).
+* All properties have many possible values. For example, the color property has over 16 million possible color values.
+* A space is allowed after the colon before the value.
+* Don't forget semi-colons!!!
+* If a property-value pair is invalid, the browser will ignore it. For example, if I tried to write `color:christensen;` in my code, the browser would ignore it because the browser knows there is no such value as "christensen" that goes with the color property.
+
+###Multiple Values (Shorthand Properties)
+Some properties accept multiple values separated by spaces. Often this is a form of CSS shorthand to help save you, the developer, time, effort, and sanity. Here are a couple of examples:
+
+```css
+border: 4px solid black;
+margin: 0 5px 0 10px;
+```
+
+Whenever a value needs to have a space, the value is placed in quotes. Here is an example: `font-family: "Times New Roman", Times, Baskerville, Georgia, serif;` You'll also notice that this example has multiple values separated by commas and not spaces. This is a special feature of the way the [font-family property](#font-family-property) works and is highly abnormal.
+
+##Basic Selectors
+When writing inline CSS, you don't need to worry about selectors because your CSS will be applied to the element you're placing it in. Other types of CSS don't have this luxury, so they need a way to "select" which element or group of elements each of their rules should apply to. The simplest type of CSS selector is the name of an HTML element:
+
+```css
+p
+{
+  color:white;
+  background-color:black;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+h1
+{
+  font-size:200%;
+}
+```
+
+In this example, it should be clear what CSS code is being applied to paragraphs and what is being applied to h1 elements.
+
+But, if we were limited to these types of selectors, how would we ever do something like turn one paragraph white and another red? We need a way in CSS to select specific elements or groups of elements based on something other than element names. Class and id attributes, it turns out, are how we do this.
+
+##Class and Id Attributes.
+
+##Advanced Selectors
