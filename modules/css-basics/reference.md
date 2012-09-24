@@ -19,23 +19,6 @@ Inline CSS is written in individual HTML elements with the style attribute. Here
 <html>
   <head>
     <title>Example Webpage</title>
-    <style>
-      body
-      {
-        margin:0;
-      }
-      
-      h1
-      {
-        background-color:black;
-        color:white;
-      }
-      
-      p
-      {
-        color:blue;font-size:200%;
-      }
-    </style>
   </head>
   <body style="margin:0;">
     <h1 style="background-color:black;color:white;">Lorem Ipsum</h1>
