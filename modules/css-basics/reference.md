@@ -15,17 +15,40 @@ Inline CSS doesn't have either of these benefits. Embedded has both benefits to 
 Inline CSS is written in individual HTML elements with the style attribute. Here are some examples:
 
 ```html
-<body style="margin:0;">
-  <h1 style="background-color:black;color:white;">Lorem Ipsum</h1>
-  <p style="color:blue;font-size:200%;">
-    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis 
-    tristique elit vitae augue tincidunt scelerisque.
-  </p>
-  <p style="color:blue;font-size:200%;">
-    Vivamus rutrum, sem scelerisque accumsan interdum, turpis elit dignissim lectus, id auctor velit 
-    purus sit amet felis. Donec volutpat augue at nisi semper vel accumsan tellus ultricies.
-  </p>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example Webpage</title>
+    <style>
+      body
+      {
+        margin:0;
+      }
+      
+      h1
+      {
+        background-color:black;
+        color:white;
+      }
+      
+      p
+      {
+        color:blue;font-size:200%;
+      }
+    </style>
+  </head>
+  <body style="margin:0;">
+    <h1 style="background-color:black;color:white;">Lorem Ipsum</h1>
+    <p style="color:blue;font-size:200%;">
+      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis 
+      tristique elit vitae augue tincidunt scelerisque.
+    </p>
+    <p style="color:blue;font-size:200%;">
+      Vivamus rutrum, sem scelerisque accumsan interdum, turpis elit dignissim lectus, id auctor velit 
+      purus sit amet felis. Donec volutpat augue at nisi semper vel accumsan tellus ultricies.
+    </p>
+  </body>
+</html>
 ```
 
 Notice how the CSS is hard to read, how it is mixed in with the HTML, and how it must be specified element by element. For these reasons, inline CSS is a maintenance nightmare. My recommendation is to use inline CSS only if you want to experiment with some CSS quickly and temporarily. It should not be a permanent solution to your styling needs.
@@ -71,7 +94,7 @@ Embedded CSS (also called internal CSS) is written in an HTML document in the st
 </html>
 ```
 
-Notice how much readable the HTML is when using embedded CSS as opposed to [inline CSS](#inline-css). The other major benefit is in maintainability. Notice how in the [inline CSS](#inline-css) changing the color of both paragraphs would require making two changes in the code, but in embedded CSS only one change is neccessary to change both paragraphs. Imagine if your page had 10 paragraphs... or, what if you had 10 pages each with 10 paragraphs... then you might need [external CSS](#external-css).
+Notice how much readable the HTML is when using embedded CSS as opposed to [inline CSS](#inline-css). The other major benefit is in maintainability. Imagine you're trying to update the styles associated with each paragraph in the examples above. With embedded CSS, this is easy because you can make all of your changes in one single location. Imagine if your page had 10 paragraphs... or, what if you had 10 pages each with 10 paragraphs?!?!? Then, I think you might need [external CSS](#external-css).
 
 ###External CSS
 External CSS is the best of the [three type of CSS](#three-types-of-css) for reasons previously discussed, the most important of which is site maintainability. External CSS offers complete separation of content (HTML) and style/presentation (CSS) in your webpage, as demonstrated beautifully on [CSS Zen Garden](http://www.csszengarden.com/).
@@ -92,7 +115,7 @@ In external CSS, you write your CSS in one or more CSS files (text files that en
 </html>
 ```
 
-Each of you external stylesheets (.css files) is simply a collection of CSS rules.
+Each of you external stylesheets (.css files) is simply a collection of CSS rules. The following is an example of what a simple external style sheet might look like:
 
 ```css
 body
@@ -114,8 +137,8 @@ p
 
 ##CSS Comments
 Comments in CSS are written in two ways:
-* Single line: type two forward slashes `//` preceding your comment
-* Multiple lines: type a `/*`, then type your comment, then type a `*/`
+* **Single line**: type two forward slashes `//` preceding your comment
+* **Multiple lines**: type a `/*`, then type your comment, then type a `*/`
 
 ```css
 p {color:blue;} //Comments like this must stay on a single line.
@@ -126,7 +149,7 @@ Comments like this can be multi-line.
 */
 ```
 
-Like HTML comments, CSS comments are completely ignored by browsers. They are intended to help developers understand their code or leave themselves notes.
+Like HTML comments, CSS comments are completely ignored by browsers. They are intended to help developers understand their code by leaving themselves notes.
 
 ##CSS Rules
 
