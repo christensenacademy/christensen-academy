@@ -1,21 +1,37 @@
 #CSS Basics Reference Guide
 
 * [Overview](#overview)
-* [Three Types of CSS](#three-types-of-CSS)
-* [Inline CSS](#inline-css)
-* [Embedded (Internal) CSS](#embedded-internal-css)
-* [External CSS](#external-css)
+* [Three Types of CSS: Inline, Embedded, and External](#three-types-of-CSS)
 * [CSS Comments](#css-comments)
-* [CSS Rules](#css-rules)
-* [Properties and Values](#properties-and-values)
-* [Basic Selectors](#basic-selectors)
-* [Advanced Selectors](#advanced-selectors)
+* [CSS Rules: Properties, Values, and Selectors](#css-rules)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 
 ##Overview
 CSS is used to add style to HTML. A key idea for Web developers to understand is that content (HTML) and style (CSS) should be as separate as possible. [CSS Zen Garden](http://www.csszengarden.com/) is a great example of this principle. Each CSS Zen Garden page has the *exact same HTML*. The difference between the HTML documents is one line of code: a link to an external CSS file.
 
 In this module, you will learn the basics of CSS for controlling the visual aspects of your webpages.
+
+###CSS Comments
+Comments in CSS are written in two ways:
+* **Single line**: type two forward slashes `//` preceding your comment
+* **Multiple lines**: type a `/*`, then type your comment, then type a `*/`
+
+```css
+p {color:blue;} //Comments like this must stay on a single line.
+
+/*
+This is also a comment.
+Comments like this can be multi-line.
+*/
+```
+
+Like HTML comments, CSS comments are completely ignored by browsers. They are intended to help developers understand their code by leaving themselves notes.
 
 ##Three Types of CSS
 There are three different ways of writing CSS code for a webpage: inline, embedded (also called internal), and external. External CSS is the best because a single CSS file can be used to provide styles to multiple webpages. This has two **huge** benefits:
@@ -133,28 +149,66 @@ p
 }
 ```
 
-##CSS Comments
-Comments in CSS are written in two ways:
-* **Single line**: type two forward slashes `//` preceding your comment
-* **Multiple lines**: type a `/*`, then type your comment, then type a `*/`
-
-```css
-p {color:blue;} //Comments like this must stay on a single line.
-
-/*
-This is also a comment.
-Comments like this can be multi-line.
-*/
-```
-
-Like HTML comments, CSS comments are completely ignored by browsers. They are intended to help developers understand their code by leaving themselves notes.
 
 ##CSS Rules
-When writing CSS, you are writing *rules* for the browser to follow. When writing inline CSS, a rule is simply contained in a style attribute for an element:
+When writing CSS, you are writing *rules* for the browser to follow.
+
+###Inline CSS Rules
+When writing inline CSS, a rule is simply contained in a style attribute for an element:
 
 ```html
 <p style="color:blue;background-color:red;font-size:200%">Lorem ipsum...</p>
- ```
+```
+
+Notice that each little "piece" of CSS follows the format `foo:bar;` where "foo" is a property name and "bar" is a value. Each CSS rule can have many property-value pairs as illustrated in the example above.
+
+###Embedded and External CSS Rules
+When writing embedded (internal) or external CSS, rules are specified a bit differently:
+
+```css
+/*This is an example of embedded or external CSS*/
+p {
+  color:blue;
+  background-color:red;
+  font-size:200%;
+}
+
+h1 {
+  font-style:italic;
+  text-decoration:underline;
+}
+```
+
+In the example above, there are two CSS *rules*, one for paragraphs and one for h1 elements. Just like inline CSS, each CSS rule can have multiple property-value pairs.
+
+####3 Ways to Write CSS Rules
+Lastly, it should be noted that there are multiple ways to write CSS rules, all of which are equally correct, though some are easier to read than others.
+
+```css
+//All of the following CSS rules are equivalent in their effects.
+
+//Compact and orderly but hard to read if there are lots of property-value pairs
+p {color:blue;background-color:red;font-size:200%;}
+h1 {font-style:italic;text-decoration:underline;}
+
+//Less compact, but easy to read.
+p {
+  color:blue;
+  background-color:red;
+  font-size:200%;
+}
+
+/*
+Amost exactly the same as the previous one, but the opening curly brace is in a different place.
+This is merely a coding preference. Both are fine, but you should be consistent in which one you use.
+*/
+p
+{
+  color:blue;
+  background-color:red;
+  font-size:200%;
+}
+```
 
 ###Properties and Values
 ###Basic Selectors
