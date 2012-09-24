@@ -76,7 +76,8 @@ Embedded CSS (also called internal CSS) is written in an HTML document in the st
       
       p
       {
-        color:blue;font-size:200%;
+        color:blue;
+        font-size:200%;
       }
     </style>
   </head>
@@ -131,7 +132,8 @@ h1
 
 p
 {
-  color:blue;font-size:200%;
+  color:blue;
+  font-size:200%;
 }
 ```
 
