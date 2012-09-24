@@ -1,4 +1,21 @@
 #CSS Basics Reference Guide
+
+* [Overview](#overview)
+* [Three Types of CSS](#three-types-of-CSS)
+  * [Inline CSS](#inline-css)
+  * [Embedded (Internal) CSS](#embedded-internal-css)
+  * [External CSS](#external-css)
+* [CSS Comments](#css-comments)
+* [CSS Rules](#css-rules)
+  * [Properties and Values](#properties-and-values)
+  * [Basic Selectors](#basic-selectors)
+  * [Advanced Selectors](#advanced-selectors)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+
 ##Overview
 CSS is used to add style to HTML. A key idea for Web developers to understand is that content (HTML) and style (CSS) should be as separate as possible. [CSS Zen Garden](http://www.csszengarden.com/) is a great example of this principle. Each CSS Zen Garden page has the *exact same HTML*. The difference between the HTML documents is one line of code: a link to an external CSS file.
 
@@ -137,8 +154,12 @@ Comments like this can be multi-line.
 Like HTML comments, CSS comments are completely ignored by browsers. They are intended to help developers understand their code by leaving themselves notes.
 
 ##CSS Rules
+When writing CSS, you are writing *rules* for the browser to follow. When writing inline CSS, a rule is simply contained in a style attribute for an element:
 
+```html
+<p style="color:blue;background-color:red;font-size:200%">Lorem ipsum...</p>
+ ```
 
-
-##CSS Properties
-##CSS CSS Selectors
+###Properties and Values
+###Basic Selectors
+###Advanced Selectors
