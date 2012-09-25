@@ -8,9 +8,6 @@
 * [Class and Id Attributes](#class-and-id-attributes)
 * [More CSS Selectors](#more-css-selectors)
 * [](#)
-* [](#)
-* [](#)
-* [](#)
 
 ##Overview
 CSS is used to add style to HTML. A key idea for Web developers to understand is that content (HTML) and style (CSS) should be as separate as possible. [CSS Zen Garden](http://www.csszengarden.com/) is a great example of this principle. Each CSS Zen Garden page has the *exact same HTML*. The difference between the HTML documents is one line of code: a link to an external CSS file.
