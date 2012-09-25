@@ -5,8 +5,8 @@
 * [CSS Comments](#css-comments)
 * [CSS Rules](#css-rules)
 * [Properties and Values](#properties-and-values)
-* [Basic Selectors](#basic-selectors)
-* [Advanced Selectors](#advanced-selectors)
+* [Class and Id Attributes](#class-and-id-attributes)
+* [More CSS Selectors](#more-css-selectors)
 * [](#)
 * [](#)
 * [](#)
@@ -18,20 +18,12 @@ CSS is used to add style to HTML. A key idea for Web developers to understand is
 In this module, you will learn the basics of CSS for controlling the visual aspects of your webpages.
 
 ###CSS Comments
-Comments in CSS are written in two ways:
-* **Single line**: type two forward slashes `//` preceding your comment
-* **Multiple lines**: type a `/*`, then type your comment, then type a `*/`
+Type a `/*`, then type your comment, then type a `*/`
 
 ```css
-p {color:blue;} //Comments like this must stay on a single line.
-
-/*
-This is also a comment.
-Comments like this can be multi-line.
-*/
+/* Comments in code are ignored by browsers but can be helpful when you want to leave yourself
+or a teammate a note.*/
 ```
-
-Like HTML comments, CSS comments are completely ignored by browsers. They are intended to help developers understand their code by leaving themselves notes.
 
 ##Three Types of CSS
 There are three different ways of writing CSS code for a webpage: inline, embedded (also called internal), and external. External CSS is the best because a single CSS file can be used to provide styles to multiple webpages. This has two **huge** benefits:
@@ -214,7 +206,7 @@ p
 In CSS, properties appear on the left side of the colon and values appear on the right.
 
 ```css
-//In this example, "color" is the property and "orange" is the value.
+/*In this example, "color" is the property and "orange" is the value.*/
 p
 {
   color:orange;
@@ -239,7 +231,7 @@ margin: 0 5px 0 10px;
 Whenever a value needs to have a space, the value is placed in quotes. Here is an example: `font-family: "Times New Roman", Times, Baskerville, Georgia, serif;` You'll also notice that this example has multiple values separated by commas and not spaces. This is a special feature of the way the [font-family property](#font-family-property) works and is highly abnormal.
 
 ##Basic Selectors
-When writing inline CSS, you don't need to worry about selectors because your CSS will be applied to the element you're placing it in. Other types of CSS don't have this luxury, so they need a way to "select" which element or group of elements each of their rules should apply to. The simplest type of CSS selector is the name of an HTML element:
+Consider the following examples:
 
 ```css
 p
@@ -254,11 +246,35 @@ h1
   font-size:200%;
 }
 ```
+Looking at the code above, it should be clear that some of the CSS is being applied to *p* elements and some of it is being applied to *h1* elements. In the examples above, *p* and *h1* are called selectors because they *select* what elements to style. Selectors that use HTML element names are just one type of CSS selector. The next sections will demonstrate many more.
 
-In this example, it should be clear what CSS code is being applied to paragraphs and what is being applied to h1 elements.
-
-But, if we were limited to these types of selectors, how would we ever do something like turn one paragraph white and another red? We need a way in CSS to select specific elements or groups of elements based on something other than element names. Class and id attributes, it turns out, are how we do this.
+*Note:* Styles (property-value pairs) for selectors are then written between "{" and "}" (curly bracket) symbols.
 
 ##Class and Id Attributes.
+Class and id attributes help you have greater precision over which elements you select to style. For example, instead of styling *all* paragraphs the same using the *p* selector, you could style only some (using class attributes) or exactly one (using an id attribute) of the paragraphs.
 
-##Advanced Selectors
+####HTML
+```html
+<h2 class="foo">Lorem Ipsum</h2>
+<h2 id="bar" class="foo">Sed Semper</h2>
+<h2>Sed Rutrum</h2>
+```
+####CSS
+```css
+/*The h2 selector selects all h2 elements. In this case, all h2 elements would display in italics.*/
+h2 {font-style:italic;}
+
+/*The .foo selector selects all elements with a class attribute of "foo". In this case, the top two h2 elements
+would display in orange.*/
+.foo {color:orange;font-weight:bold;}
+
+/*The #bar selector (technically) selects all elements with id attributes of "bar", but really this should
+only ever be a single element. You shouldn't assign the same id name to multiple elements. That's what the
+class attribute is for.*/
+#bar {font-size:300%;text-decoration:underline;} 
+```
+
+**Note:** Class and id names cannot have spaces in them. Instead of spaces, it is common practice to use hyphens (e.g., class="lorem-ipsum").
+
+##More CSS Selectors
+
