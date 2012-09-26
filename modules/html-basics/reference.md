@@ -23,7 +23,7 @@
 ##Overview
 HTML (Hypertext Markup Language) is code that a web designer or developer writes to create the basic content of a webpage. Most webpages are also composed of CSS and JavaScript, which enhance basic HTML by providing style and interactivity respectively. This document focuses only on basic HTML.
 
-**Key Idea:** HTML, CSS, and JavaScript are code (plain text) that has specific meaning to the Web browsers that read it (IE, Firefox, Safari, Chrome, Opera). In a sense, developing webpages is nothing more than writing out a bunch of instructions for browsers to follow. In HTML, these instructions take the form of [tags](#markup-tags-and-elements) and [attributes](#attributes).
+**Key Idea:** HTML, CSS, and JavaScript are code (plain text) that has specific meaning to the Web browsers that read it--common browsers include IE, Firefox, Safari, Chrome, and Opera. In a sense, developing webpages is nothing more than writing out a bunch of instructions for browsers to follow. In HTML, these instructions take the form of [tags](#markup-tags-and-elements) and [attributes](#attributes).
 
 ##Basic HTML Template
 ```
@@ -57,12 +57,12 @@ Both Windows and Mac come with text editors already installed (Notepad and TextE
 * [Sublime Text 2](http://www.sublimetext.com/2)
 
 ###Syntax Highlighting
-When writing computer code, the word syntax refers the rules of the language you're working in. In HTML, for example, the syntax for creating an element requires you to having an opening tag, some conent, then a closing tag:
+When writing computer code, the word syntax refers the rules of the language you're working in. In HTML, for example, the syntax for creating an element requires you to have an opening tag, some conent, then a closing tag:
 ```
 <p>This is the content of the paragraph element.</p>
 ```
 
-Most text editors attempt to display code in a colorful fashion that helps you, the developer, more easily spot errors. The following example is what the [basic HTML template](#basic-html-template) might look like in an editor that uses syntax highlighting:
+Most text editors attempt to display code in a colorful fashion that helps you, the developer, more easily spot errors. The following example is what the basic HTML template might look like in an editor that uses syntax highlighting:
 
 ```html
 <!DOCTYPE html>

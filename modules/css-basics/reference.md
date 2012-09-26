@@ -187,10 +187,8 @@ p {
   font-size:200%;
 }
 
-/*
-Amost exactly the same as the previous one, but the opening curly brace is in a different place.
-This is merely a coding preference. Both are fine, but you should be consistent in which one you use.
-*/
+/*Amost exactly the same as the previous one, but the opening curly brace is in a different place.
+This is merely a coding preference. Both are fine, but you should be consistent in which one you use.*/
 p
 {
   color:blue;
@@ -214,7 +212,7 @@ p
 * Properties cannot have spaces in their names, and there should not be a space between a property name and the colon. Instead of spaces in names, properties use hyphens (e.g., font-style, text-decoration, background-color, etc.).
 * All properties have many possible values. For example, the color property has over 16 million possible color values.
 * A space is allowed after the colon before the value.
-* Don't forget semi-colons!!!
+* Don't forget semi-colons. If you do, the code that follows the missing semi-colon often will not work.
 * If a property-value pair is invalid, the browser will ignore it. For example, if I tried to write `color:christensen;` in my code, the browser would ignore it because the browser knows there is no such value as "christensen" that goes with the color property.
 
 ###Multiple Values (Shorthand Properties)
