@@ -329,12 +329,9 @@ p {color:#FFEF00;} /*briht, saturated yellow*/
 * There are plenty of great online tools for finding colors and creating color schemes that will give you the hexadecimal codes. If you can actually see the color, you don't really need to know what the hexadecimal digits stand for anyway.
 
 ##The Cascade
-CSS stands for Cascading Style Sheets. It's easy to understand that "style sheets" refers to the idea of using external CSS files. "Cascading," however, is a bit trickier to understand. Basically, "the cascade" is a set of rules for figuring out which styles apply when there are conflicting styles. For example, what happens when one piece of CSS turns the color of some text blue and another piece of CSS turns the same text orange? How does the browser choose which styles to actually apply to the page?
+CSS stands for Cascading Style Sheets. It's easy to understand that "style sheets" refers to the idea of using external CSS files. "Cascading," however, is a bit trickier to understand. Basically, "the cascade" is a set of rules for figuring out which styles apply when there are conflicting styles. For example, what happens when one piece of CSS turns the color of some text blue and another piece of CSS turns the same text orange? How does the browser choose which styles to actually apply?
 
-###Step 1: Sort by Origin and Importance
-You can ignore this step. If I were you, I wouldn't worry about this for now. If you're interested in learning about default stylesheets for browsers or how users can specify their own stylesheets, you can research that on your own. For learning basic CSS, you don't need to be thinking about these things.
-
-###Step 2: Sort by Specificity
+###Step 1: Sort by Specificity
 The most important thing to understand about the cascade is that more specific pieces of CSS always take precedence over less specific pieces of CSS.
 
 ####Inheritance
@@ -401,7 +398,7 @@ In the example above:
 ####Inline CSS
 Inline CSS is written for a specific HTML element. No selector can get any more specific than that, so inline styles always trump embedded and external styles.
 
-###Step 3: Sort by Order
+###Step 2: Sort by Order
 Every once in a while (but rarely), you may have styles that are equally specific. In such cases, the style the browser reads last will take precedence. Consider the following example:
 
 ######CSS in External File example.css
