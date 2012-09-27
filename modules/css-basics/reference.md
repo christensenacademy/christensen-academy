@@ -22,6 +22,9 @@ Type a `/*`, then type your comment, then type a `*/`
 or a teammate a note.*/
 ```
 
+###CSS Validator
+Like HTML, CSS has a [validator from the W3C](http://jigsaw.w3.org/css-validator/). Like the HTML validator, this tool will help you find errors in your code.
+
 ##Three Types of CSS
 There are three different ways of writing CSS code for a webpage: inline, embedded (also called internal), and external. External CSS is the best because a single CSS file can be used to provide styles to multiple webpages. This has two **huge** benefits:
 * Site Maintenance: Change a few lines of code in your CSS and watch as your entire site automatically reflects those changes. Compare this to editing styles for each individual page--or worse, for every element on every page.
@@ -272,4 +275,119 @@ class attribute is for.*/
 **Note:** Class and id names cannot have spaces in them. Instead of spaces, it is common practice to use hyphens (e.g., class="lorem-ipsum").
 
 ##More CSS Selectors
+
+##Colors
+There are three ways of specifying colors in CSS. Each method has it's own benefits and drawbacks.
+
+**Note:** Regardless of the way you specify colors in CSS, your browser interprets them in terms of varying levels of [RGB](http://en.wikipedia.org/wiki/SRGB) in order to display them on your screen.
+
+###Color Names
+You can specify colors in CSS using color names.
+```css
+p {color:green;}
+```
+####Drawbacks
+* There are a very [limited number color names a browser knows about](http://en.wikipedia.org/wiki/Web_colors#HTML_color_names).
+####Benefits
+* Easy to remember
+* Useful when quickly prototyping the design of a site
+
+###RGB Function
+In the following example, three values are given, each of which can range in value from 0 to 255. 
+```css
+/*20 red, 123 green, and 97 blue*/
+p {color:rgb(20,123,97)}
+```
+**Note:** Make sure not to have a space in between `rgb` and `(x,y,z)`.
+**Note:** 255 for each value makes white. 0 for each value makes black. The same number for each value makes a shade of gray.
+####Drawbacks
+* The syntax is more verbose and takes longer to write.
+* Unless you have an incredible ability to predict what colors will look like based on the amount of red, green, and blue they have, this syntax isn't all that useful.
+####Benefits
+* It is more human-readable than hexadecimal color codes are.
+
+###Hexadecimal Codes
+Colors can be specified using a sequence of six characters that are either the digits 0-9 or the letters a-f. Here are some examples:
+```css
+p {color:#770060;} /*dark magenta*/
+p {color:#99EE6B;} /*light green*/
+p {color:#FFEF00;} /*briht, saturated yellow*/
+```
+**Note:** You should realize that these codes work on the same RGB color model, and if you understand how hexadecimal numbers work, you'll realize that this way of specifying CSS is exactly the same as using the `rgb(x,y,z)` function. Basically, the first two characters specify the amount of red, the middle two specify the amount of green, and the last two specify the amount of blue.
+
+####Drawbacks
+* Unless you have a very strong understanding of hexadecimal numbers, the codes themselves will not make any sense.
+####Benefits
+* The codes are short, and unlike the `rgb(x,y,z)` function, they are easy to copy and paste.
+* There are plenty of great online tools for finding colors and creating color schemes that will give you the hexadecimal codes. If you can actually see the color, you don't really need to know what the hexadecimal digits stand for anyway.
+
+##The Cascade
+CSS stands for Cascading Style Sheets. It's easy to understand that "style sheets" refers to the idea of using external CSS files. "Cascading," however, is a bit trickier to understand. Basically, "the cascade" is a set of rules for figuring out which styles apply when there are conflicting styles. For example, what happens when one piece of CSS turns the color of some text blue and another piece of CSS turns the same text orange? How does the browser choose which styles to actually apply to the page?
+
+###Step 1: Sort by Origin and Importance
+You can ignore this step. If I were you, I wouldn't worry about this for now. If you're interested in learning about default stylesheets for browsers or how users can specify their own stylesheets, you can research that on your own. For learning basic CSS, you don't need to be thinking about these things.
+###Step 2: Sort by Specificity
+The most important thing to understand about the cascade is that more specific pieces of CSS always take precedence over less specific pieces of CSS.
+####Inheritance
+Most (but not all) CSS properties are inherited from parents to children. Consider the following example:
+```html
+<head>
+  <style>
+    body {color:blue;}
+  </style>
+</head>
+<body>
+  <h1>Lorem Ipsum</h1>
+  <p>Lorem ipsum...</p>
+</body>
+```
+In this example, all elements that are children of the body element will display blue in color because they inherited that style from their parent, the body element.
+
+Of course, inheritance can be *overridden* by more specific CSS. Consider the following example:
+```html
+<head>
+  <style>
+    body {color:blue;}
+    p {color:orange;}
+  </style>
+</head>
+<body>
+  <h1>Lorem Ipsum</h1>
+  <p>Lorem ipsum...</p>
+</body>
+```
+In this case, the h1 element would still display blue because it inherited that style from its parent, but the p element would display orange because, even though it inherited styles from its parent, it had more specific styles applied to it that overrode the inherited styles.
+###Selector Specificity
+A very related idea to inheritance is the idea of how specific a selector is. A normal element selector (`p {color:green;}`) is less specific than a selector using a class name (`.green-paragraph {color:green;}`). Likewise, a selector using an id name is more specific than a selector using a class name. Consider the following example:
+```html
+<head>
+  <style>
+    body {color:yellow;}
+    #first-paragraph {color:orange;}
+    .green-paragraph {color:green;}
+    p {color:blue;}
+  </style>
+</head>
+<body>
+  <h1>Lorem Ipsum</h1>
+  <p class="green-paragraph" id="first-paragraph">Lorem ipsum...</p>
+  <p class="green-paragraph">Lorem ipsum...</p>
+  <p>Lorem ipsum...</p>
+</body>
+```
+In the example above example:
+* The heading would inherit styles from the body and be blue.
+* The first paragraph would be orange because an id selector is the more specific than a class selector, an element selector, and inherited styles.
+* The second paragraph would be green because a class selector is more specific than the other selectors that would apply to this element.
+* The last paragraph would orange because the styles inherited from the body would be overridden by the styles in the rule using the paragraph selector.
+####Inline CSS
+Inline CSS is written for a specific HTML element. No selector can get any more specific than that, so inline styles always trump embedded and external styles.
+
+###Order
+Every once in a while, you may have styles that are equally specific. In such cases, the style the browser reads last will take precedence. Consider the following example:
+
+####Exact Rules
+
+
+
 
