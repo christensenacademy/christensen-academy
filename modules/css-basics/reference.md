@@ -368,7 +368,7 @@ p {color:orange;}
 
 In this case, the h1 element would still display blue because it inherited that style from its parent, but the p element would display orange because, even though it inherited styles from its parent, it had more specific styles applied to it that overrode the inherited styles.
 
-###Selector Specificity
+####Selector Specificity
 A very related idea to inheritance is the idea of how specific a selector is. A normal element selector (`p {color:green;}`) is less specific than a selector using a class name (`.green-paragraph {color:green;}`). Likewise, a selector using an id name is more specific than a selector using a class name. Consider the following example:
 
 ######CSS
