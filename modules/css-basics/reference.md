@@ -347,8 +347,10 @@ body {color:blue;}
 
 ######HTML
 ```html
-<h1>Lorem Ipsum</h1>
-<p>Lorem ipsum...</p>
+<body>
+  <h1>Lorem Ipsum</h1>
+  <p>Lorem ipsum...</p>
+</body>
 ```
 
 In this example, all elements that are children of the body element will display blue in color because they inherited that style from their parent, the body element.
@@ -362,8 +364,10 @@ p {color:orange;}
 
 ######HTML
 ```html
-<h1>Lorem Ipsum</h1>
-<p>Lorem ipsum...</p>
+<body>
+  <h1>Lorem Ipsum</h1>
+  <p>Lorem ipsum...</p>
+</body>
 ```
 
 In this case, the h1 element would still display blue because it inherited that style from its parent, but the p element would display orange because, even though it inherited styles from its parent, it had more specific styles applied to it that overrode the inherited styles.
@@ -380,10 +384,12 @@ p {color:blue;}
 ```
 ######HTML
 ```html
-<h1>Lorem Ipsum</h1>
-<p class="green-paragraph" id="first-paragraph">Lorem ipsum...</p>
-<p class="green-paragraph">Lorem ipsum...</p>
-<p>Lorem ipsum...</p>
+<body>
+  <h1>Lorem Ipsum</h1>
+  <p class="green-paragraph" id="first-paragraph">Lorem ipsum...</p>
+  <p class="green-paragraph">Lorem ipsum...</p>
+  <p>Lorem ipsum...</p>
+</body>
 ```
 
 In the example above:
