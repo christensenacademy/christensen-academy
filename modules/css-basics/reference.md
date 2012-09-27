@@ -7,7 +7,7 @@
 * [Properties and Values](#properties-and-values)
 * [Class and Id Attributes](#class-and-id-attributes)
 * [More CSS Selectors](#more-css-selectors)
-* [](#)
+* [The Cascade](#the-cascade)
 
 ##Overview
 CSS is used to add style to HTML. A key idea for Web developers to understand is that content (HTML) and style (CSS) should be as separate as possible. [CSS Zen Garden](http://www.csszengarden.com/) is a great example of this principle. Each CSS Zen Garden page has the *exact same HTML*. The difference between the HTML documents is one line of code: a link to an external CSS file.
@@ -395,25 +395,41 @@ In the example above:
 ####Inline CSS
 Inline CSS is written for a specific HTML element. No selector can get any more specific than that, so inline styles always trump embedded and external styles.
 
-###Order
-Every once in a while, you may have styles that are equally specific. In such cases, the style the browser reads last will take precedence. Consider the following example:
+###Step 3: Sort by Order
+Every once in a while (but rarely), you may have styles that are equally specific. In such cases, the style the browser reads last will take precedence. Consider the following example:
 
+######CSS in External File example.css
 ```css
-body {color:yellow;}
-#first-paragraph {color:orange;}
-.green-paragraph {color:green;}
-p {color:blue;}
+p {color:green;}
+p {
+  color:blue;
+  color:red;
+}
 ```
 ######HTML
 ```html
-<h1>Lorem Ipsum</h1>
-<p class="green-paragraph" id="first-paragraph">Lorem ipsum...</p>
-<p class="green-paragraph">Lorem ipsum...</p>
-<p>Lorem ipsum...</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example Webpage</title>
+    <style>
+      p {color:orange;}
+      p {color:purple;}
+    </style>
+    <link href="example.css" rel="stylesheet">
+  </head>
+  <body>
+    <p>Lorem Ipsum</p>
+  </body>
+</html>
 ```
 
-####Exact Rules
+In this (admittedly silly) example, what color would the paragraph be? The key idea is that the browser reads from top to bottom, and the thing it sees last is what it will display. In this case, it reads the embedded styles first, then the external styles. Looking in the external file, we see that red is the last color specified, so that is what displays.
 
+**Note:** Order rarely matters because it is silly to have two CSS rules of equal specificity.
+
+####Exact Rules
+If you really want to know *exactly* how the cascade works, I recommend reading [the official specification from the W3C](http://www.w3.org/TR/CSS2/cascade.html#cascade).
 
 
 
