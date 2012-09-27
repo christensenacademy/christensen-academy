@@ -286,8 +286,10 @@ You can specify colors in CSS using color names.
 ```css
 p {color:green;}
 ```
+
 ####Drawbacks
 * There are a very [limited number color names a browser knows about](http://en.wikipedia.org/wiki/Web_colors#HTML_color_names).
+
 ####Benefits
 * Easy to remember
 * Useful when quickly prototyping the design of a site
@@ -298,11 +300,14 @@ In the following example, three values are given, each of which can range in val
 /*20 red, 123 green, and 97 blue*/
 p {color:rgb(20,123,97)}
 ```
+
 **Note:** Make sure not to have a space in between `rgb` and `(x,y,z)`.
 **Note:** 255 for each value makes white. 0 for each value makes black. The same number for each value makes a shade of gray.
+
 ####Drawbacks
 * The syntax is more verbose and takes longer to write.
 * Unless you have an incredible ability to predict what colors will look like based on the amount of red, green, and blue they have, this syntax isn't all that useful.
+
 ####Benefits
 * It is more human-readable than hexadecimal color codes are.
 
@@ -313,10 +318,12 @@ p {color:#770060;} /*dark magenta*/
 p {color:#99EE6B;} /*light green*/
 p {color:#FFEF00;} /*briht, saturated yellow*/
 ```
+
 **Note:** You should realize that these codes work on the same RGB color model, and if you understand how hexadecimal numbers work, you'll realize that this way of specifying CSS is exactly the same as using the `rgb(x,y,z)` function. Basically, the first two characters specify the amount of red, the middle two specify the amount of green, and the last two specify the amount of blue.
 
 ####Drawbacks
 * Unless you have a very strong understanding of hexadecimal numbers, the codes themselves will not make any sense.
+
 ####Benefits
 * The codes are short, and unlike the `rgb(x,y,z)` function, they are easy to copy and paste.
 * There are plenty of great online tools for finding colors and creating color schemes that will give you the hexadecimal codes. If you can actually see the color, you don't really need to know what the hexadecimal digits stand for anyway.
@@ -326,8 +333,10 @@ CSS stands for Cascading Style Sheets. It's easy to understand that "style sheet
 
 ###Step 1: Sort by Origin and Importance
 You can ignore this step. If I were you, I wouldn't worry about this for now. If you're interested in learning about default stylesheets for browsers or how users can specify their own stylesheets, you can research that on your own. For learning basic CSS, you don't need to be thinking about these things.
+
 ###Step 2: Sort by Specificity
 The most important thing to understand about the cascade is that more specific pieces of CSS always take precedence over less specific pieces of CSS.
+
 ####Inheritance
 Most (but not all) CSS properties are inherited from parents to children. Consider the following example:
 ```html
@@ -341,6 +350,7 @@ Most (but not all) CSS properties are inherited from parents to children. Consid
   <p>Lorem ipsum...</p>
 </body>
 ```
+
 In this example, all elements that are children of the body element will display blue in color because they inherited that style from their parent, the body element.
 
 Of course, inheritance can be *overridden* by more specific CSS. Consider the following example:
@@ -357,6 +367,7 @@ Of course, inheritance can be *overridden* by more specific CSS. Consider the fo
 </body>
 ```
 In this case, the h1 element would still display blue because it inherited that style from its parent, but the p element would display orange because, even though it inherited styles from its parent, it had more specific styles applied to it that overrode the inherited styles.
+
 ###Selector Specificity
 A very related idea to inheritance is the idea of how specific a selector is. A normal element selector (`p {color:green;}`) is less specific than a selector using a class name (`.green-paragraph {color:green;}`). Likewise, a selector using an id name is more specific than a selector using a class name. Consider the following example:
 ```html
@@ -375,11 +386,13 @@ A very related idea to inheritance is the idea of how specific a selector is. A 
   <p>Lorem ipsum...</p>
 </body>
 ```
+
 In the example above example:
 * The heading would inherit styles from the body and be blue.
 * The first paragraph would be orange because an id selector is the more specific than a class selector, an element selector, and inherited styles.
 * The second paragraph would be green because a class selector is more specific than the other selectors that would apply to this element.
 * The last paragraph would orange because the styles inherited from the body would be overridden by the styles in the rule using the paragraph selector.
+
 ####Inline CSS
 Inline CSS is written for a specific HTML element. No selector can get any more specific than that, so inline styles always trump embedded and external styles.
 
