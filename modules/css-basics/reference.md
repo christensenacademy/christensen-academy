@@ -339,65 +339,78 @@ The most important thing to understand about the cascade is that more specific p
 
 ####Inheritance
 Most (but not all) CSS properties are inherited from parents to children. Consider the following example:
+
+######CSS
+```css
+body {color:blue;}
+```
+
+######HTML
 ```html
-<head>
-  <style>
-    body {color:blue;}
-  </style>
-</head>
-<body>
-  <h1>Lorem Ipsum</h1>
-  <p>Lorem ipsum...</p>
-</body>
+<h1>Lorem Ipsum</h1>
+<p>Lorem ipsum...</p>
 ```
 
 In this example, all elements that are children of the body element will display blue in color because they inherited that style from their parent, the body element.
 
 Of course, inheritance can be *overridden* by more specific CSS. Consider the following example:
-```html
-<head>
-  <style>
-    body {color:blue;}
-    p {color:orange;}
-  </style>
-</head>
-<body>
-  <h1>Lorem Ipsum</h1>
-  <p>Lorem ipsum...</p>
-</body>
+######CSS
+```css
+body {color:blue;}
+p {color:orange;}
 ```
+
+######HTML
+```html
+<h1>Lorem Ipsum</h1>
+<p>Lorem ipsum...</p>
+```
+
 In this case, the h1 element would still display blue because it inherited that style from its parent, but the p element would display orange because, even though it inherited styles from its parent, it had more specific styles applied to it that overrode the inherited styles.
 
 ###Selector Specificity
 A very related idea to inheritance is the idea of how specific a selector is. A normal element selector (`p {color:green;}`) is less specific than a selector using a class name (`.green-paragraph {color:green;}`). Likewise, a selector using an id name is more specific than a selector using a class name. Consider the following example:
+
+######CSS
+```css
+body {color:yellow;}
+#first-paragraph {color:orange;}
+.green-paragraph {color:green;}
+p {color:blue;}
+```
+######HTML
 ```html
-<head>
-  <style>
-    body {color:yellow;}
-    #first-paragraph {color:orange;}
-    .green-paragraph {color:green;}
-    p {color:blue;}
-  </style>
-</head>
-<body>
-  <h1>Lorem Ipsum</h1>
-  <p class="green-paragraph" id="first-paragraph">Lorem ipsum...</p>
-  <p class="green-paragraph">Lorem ipsum...</p>
-  <p>Lorem ipsum...</p>
-</body>
+<h1>Lorem Ipsum</h1>
+<p class="green-paragraph" id="first-paragraph">Lorem ipsum...</p>
+<p class="green-paragraph">Lorem ipsum...</p>
+<p>Lorem ipsum...</p>
 ```
 
-In the example above example:
-* The heading would inherit styles from the body and be blue.
-* The first paragraph would be orange because an id selector is the more specific than a class selector, an element selector, and inherited styles.
-* The second paragraph would be green because a class selector is more specific than the other selectors that would apply to this element.
-* The last paragraph would orange because the styles inherited from the body would be overridden by the styles in the rule using the paragraph selector.
+In the example above:
+* The heading would be yellow.
+* The first paragraph would be orange.
+* The second paragraph would be green.
+* The last paragraph would blue.
 
 ####Inline CSS
 Inline CSS is written for a specific HTML element. No selector can get any more specific than that, so inline styles always trump embedded and external styles.
 
 ###Order
 Every once in a while, you may have styles that are equally specific. In such cases, the style the browser reads last will take precedence. Consider the following example:
+
+```css
+body {color:yellow;}
+#first-paragraph {color:orange;}
+.green-paragraph {color:green;}
+p {color:blue;}
+```
+######HTML
+```html
+<h1>Lorem Ipsum</h1>
+<p class="green-paragraph" id="first-paragraph">Lorem ipsum...</p>
+<p class="green-paragraph">Lorem ipsum...</p>
+<p>Lorem ipsum...</p>
+```
 
 ####Exact Rules
 
