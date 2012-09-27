@@ -424,12 +424,13 @@ p {
 </html>
 ```
 
-In this (admittedly silly) example, what color would the paragraph be? The key idea is that the browser reads from top to bottom, and the thing it sees last is what it will display. In this case, it reads the embedded styles first, then the external styles. Looking in the external file, we see that red is the last color specified, so that is what displays.
+In this (admittedly silly) example, what color would the paragraph be? The key idea is that the browser reads from top to bottom, and the thing it sees last is what it will display. In this case, since the embedded styles came before the external styles, the browser reads the embedded styles first, then it reads the external styles. Looking in the external file, we see that red is the last color specified, so that is what displays.
 
-**Note:** Order rarely matters because it is silly to have two CSS rules of equal specificity.
+**Note:** Order rarely matters because it is generally silly to have two CSS rules of equal specificity.
 
 ####Exact Rules
 If you really want to know *exactly* how the cascade works, I recommend reading [the official specification from the W3C](http://www.w3.org/TR/CSS2/cascade.html#cascade).
+
 
 
 
