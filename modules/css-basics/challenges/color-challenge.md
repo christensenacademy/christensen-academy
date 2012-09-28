@@ -2,8 +2,8 @@
 
 Your challenge is to create two webpages that look like the following pictures while using **as little CSS as possible**:
 
-![The first HTML file]()
-![The second HTML file]()
+![The first HTML file](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-basics/challenges/color-challenge-page-1.png)
+![The second HTML file](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-basics/challenges/color-challenge-page-2.png)
 
 ##Helpful Things to Think About
 * Both pages use some of the same styles. This is the perfect opportunity to use the same external CSS file with both HTML files!
