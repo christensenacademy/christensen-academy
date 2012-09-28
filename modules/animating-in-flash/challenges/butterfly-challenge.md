@@ -13,6 +13,7 @@ Your challenge is to animate a butterfly moving about the screen and flapping it
 
 ##Mastery
 Demonstrating mastery on this challenge means the following:
+
 1. Your butterfly looks reasonably realistic.
 2. Both wings flap or flutter in such a way that they remain connected to the body.
 3. The butterfly faces forwards as it flys around.
