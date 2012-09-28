@@ -1,4 +1,4 @@
-#Challenge 1: Frame-by-Frame Animation
+#Frame-by-Frame Animation
 
 Your challenge is to create an objectively awesome frame-by-frame animation.
 
@@ -14,3 +14,10 @@ Here are some ideas to get you thinking:
 Of course, these are just a few ideas of things to try.
 
 My Advice: Shoot for the moon. Even if you miss, you'll land among the stars.
+
+##Mastery
+Demonstrating mastery on this challenge means the following:
+
+1. Your timeline has at least 10 keyframes, and the animation progresses smoothly from one frame to the next.
+2. You've attempted something unique and interesting.
+3. There aren't any major flaws in what you've done.

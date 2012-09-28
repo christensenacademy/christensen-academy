@@ -1,7 +1,7 @@
 #CSS Basics Reference Guide
 
 * [Overview](#overview)
-* [Three Types of CSS: Inline, Embedded, and External](#three-types-of-CSS)
+* [Three Types of CSS: Inline, Embedded, and External](#three-types-of-css)
 * [CSS Comments](#css-comments)
 * [CSS Rules](#css-rules)
 * [Properties and Values](#properties-and-values)
