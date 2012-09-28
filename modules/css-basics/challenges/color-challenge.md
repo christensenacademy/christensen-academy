@@ -2,7 +2,10 @@
 
 Your challenge is to create two webpages that look like the following pictures while using **as little CSS as possible**:
 
+###Page 1
 ![The first HTML file](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-basics/challenges/color-challenge-page-1.png)
+
+###Page 2
 ![The second HTML file](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-basics/challenges/color-challenge-page-2.png)
 
 ##Helpful Things to Think About
