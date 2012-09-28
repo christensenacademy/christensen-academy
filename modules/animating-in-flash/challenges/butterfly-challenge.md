@@ -2,7 +2,7 @@
 
 [a video explaining the challenge](http://www.youtube.com/watch?v=oyfmC20WAiU)
 
-Your challenge is to animate a butterfly moving about the screen and flapping its wings as it goes. Try to make it look as realistic as possible. Check out my example for ideas.
+Your challenge is to animate a butterfly moving about the screen and flapping its wings as it goes. Try to make it look as realistic as possible. Check out [my example](https://github.com/christensenacademy/christensen-academy/blob/master/modules/animating-in-flash/challenges/butterfly.fla?raw=true) for ideas.
 
 ##Helpful Things to Think About
 * You can't do it all at once. Take time to think about what symbols you'll need and which ones should have animations in them.
