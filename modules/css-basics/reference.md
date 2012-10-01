@@ -254,6 +254,7 @@ Class and id attributes help you have greater precision over which elements you 
 ####HTML
 ```html
 <h2 class="foo">Lorem Ipsum</h2>
+<h2 class="foo foobar">Lorem Ipsum</h2> <!-- it's possible to have multiple class names -->
 <h2 id="bar" class="foo">Sed Semper</h2>
 <h2>Sed Rutrum</h2>
 ```
@@ -270,6 +271,10 @@ would display in orange.*/
 only ever be a single element. You shouldn't assign the same id name to multiple elements. That's what the
 class attribute is for.*/
 #bar {font-size:300%;text-decoration:underline;} 
+
+/*The .foobar selector selects all elements with a class attribute of "foobar". In this case, the second element
+would display with a black background.*/
+.foobar {background-color:black;}
 ```
 
 **Note:** Class and id names cannot have spaces in them. Instead of spaces, it is common practice to use hyphens (e.g., class="lorem-ipsum").
@@ -434,6 +439,94 @@ In this (admittedly silly) example, what color would the paragraph be? The key i
 ####Exact Rules
 If you really want to know *exactly* how the cascade works, I recommend reading [the official specification from the W3C](http://www.w3.org/TR/CSS2/cascade.html#cascade).
 
+##Font and Text Properties
+
+###Units (em, %, px, pt)
+These units can be used for more than just font sizes. They can be used, for example, for the height and widths of elements on the page.
+
+```css
+font-size: 200%; /*This would double the size of the font.*/
+font-size: 50em; /*This would cut the size of the font in half.*/
+font-size: 16px; /*Characters in this font would be rendered 16 pixels high.*/
+font-size: 12pt; /*This appear the same size as a 12 point font in Microsoft Word would appear.*/
+width: 50%; /*This element would be half as wide as its parent.*/
+width: 500px; /*This element would be exactly 500 pixels wide.*/
+```
+
+###List of Text Properties
+```css
+text-align: center; /*centers text inside of this element*/
+text-indent: 20px; /*indent text inside of this element 20px on the first line*/
+line-height: 2em; /*each line of text in this element has 2em worth of vertical space*/
+letter-spacing: 2px; /*two pixels of space between each letter of text*/
+```
+###White Space
+Use the `pre` element if you'd like your text to not ignore whitespace. "Pre" stands for "preformatted text."
+```html
+<pre>
+The     spaces
+      in      this text
+      
+      
+      will be preserved
+ when it is displayed
+ 
+ 
+ on the webpage. This can be useful at times, so give it a try!
+</pre>
+```
+
+###List of Font Properties
+```css
+font-weight: bold;
+font-style: italic;
+font-variant: small-caps;
+
+/*Font values are separated by commas. Names with spaces are put in quotes. The browser uses the first font it has.*/
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+```
+
+**Note:** With font families, using a site like [CSS Font Stack](http://cssfontstack.com/) is often the easiest and best option.
+
+##Block-Level vs. Inline
+Web browsers display elements in one of two ways: block-level or inline. Block-level elements are given their own vertical space on the page. That is, a line break is automatically placed above and below a block-level element. Inline elements, on the other hand, display inline with whatever content surrounds them, such as the text of a paragraph. The only time inline elements are given their own line on a page is when they are immediately preceded and followed by block-level elements. 
+
+Examples of inline elements include `span`, `img`, `em`, `strong`, and `a`.
+Examples of block-level elements include `p`, `div`, `h2`, `li`, ul `hr`.
+
+##Span vs. Div
+Sometimes you may find yourself wanting to add style to an entire section (division) of your webpage. In such cases, it is often best to use a div element, which can be thought of as a generic block-level element.
+
+```html
+<div class="blog-post">
+  <h2>Lorem Ipsum</h2>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+</div>
+<div class="blog-post">
+  <h2>Lorem Ipsum</h2>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+</div>
+```
+
+Sometimes you may find yourself wanting to add style a small portion (span) of an existing element. In such cases, it is often best to use a span element, which can be thought of as a generic inline element.
+
+```html
+<p>
+  Sed ultricies massa sit amet risus sollicitudin eu hendrerit tellus lacinia. Aliquam erat volutpat.
+  Duis placerat molestie mi, in condimentum arcu elementum at. Fusce massa ante, convallis ut sagittis et,
+  accumsan eget arcu. Fusce <span style="color:red;">feugiat</span> sagittis erat quis pharetra. Vestibulum bibendum sem nec augue
+  dictum sit amet luctus enim tempor. Cras adipiscing varius dolor id pulvinar. Morbi dolor leo, interdum
+  vitae tristique euismod, venenatis nec enim. Pellentesque sapien neque, hendrerit ac sollicitudin vitae,
+  aliquam sed nisi.
+</p>
+```
+
+##CSS Box Model
+The big idea behind the CSS Box Model is that every element on the page is rendered by the browser as a box (rectangle) composed of four components: content, padding, border, and margin. Understanding how this box model works is essential to understanding how to display.
 
 
-
+###Content

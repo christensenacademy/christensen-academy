@@ -15,4 +15,4 @@ Your challenge is to create two webpages that look like the following pictures w
   * Of, if you'd like to discover another useful tool, you might try searching for a "color picker" or "eyedropper" tool to install for your browser or your computer.
 
 ##Mastery
-Demonstrating mastery on this challenge requires your pages to (a) actually look like the pictures provided and (b) use as little CSS as possible (i.e., being smart with your use of class and id attributes).
+Demonstrating mastery on this challenge requires your pages to (a) actually look like the pictures provided with a reasonable degree of accuracy with regards to the colors and (b) use as little CSS as possible (i.e., being smart with your use of class and id attributes in your external CSS file).
