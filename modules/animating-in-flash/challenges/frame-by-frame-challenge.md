@@ -1,6 +1,6 @@
 #Frame-by-Frame Animation
 
-Your challenge is to create an objectively awesome frame-by-frame animation.
+Your challenge is to create an interesting frame-by-frame animation.
 
 Here are some ideas to get you thinking:
 
@@ -13,7 +13,7 @@ Here are some ideas to get you thinking:
 
 Of course, these are just a few ideas of things to try.
 
-My Advice: Shoot for the moon. Even if you miss, you'll land among the stars.
+*My Advice: Shoot for the moon. Even if you miss, you'll land among the stars.*
 
 ##Mastery
 Demonstrating mastery on this challenge means the following:
