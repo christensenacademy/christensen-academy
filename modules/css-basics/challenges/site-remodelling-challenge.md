@@ -1,6 +1,6 @@
-#Basic Properties Challenge
+#Site Remodelling Challenge
 
-Your challenge is add style to your website from your first project.
+Your challenge is to remodel a pure-HTML website you've already created.
 
 ##Requirements
 You must effectively utilize the following properties:
@@ -16,7 +16,9 @@ You must effectively utilize the following properties:
 * letter-spacing
 * line-height
 
-In addition, you must research and use two additional properties that are not on this list.
+In addition, you must
+1. research and use two additional properties that are not on this list
+2. research how to style links (visited, unvisited, etc.) and make them consistent with your theme
 
 ##Mastery
 Demonstrating mastery on this challenge requires the following:

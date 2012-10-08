@@ -1,6 +1,8 @@
 playlist_builder.py
 *.sddoc
 *.swf
+*.wav
+*.mp3
 
 #################
 ## Eclipse
