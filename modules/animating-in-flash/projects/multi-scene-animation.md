@@ -24,7 +24,7 @@ Demonstrating mastery on this project will require you to clearly show that you 
 * The concept of having an animation inside of a symbol
 * Putting sound inside of animations
 * Using scenes
-* Controlling playback with buttons and ActionScript code.
+* Creating a Menu Screen with a "play" button and a "credits" button. The credits putton will take the user to a static page showing the credits.
 
 ##Rubric (110 points)
 The Rubric for this project is simple: 15 points for each of the requirements and an additional 20 points for an overall quality rating.
