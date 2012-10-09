@@ -1,5 +1,6 @@
 #CSS Basics Reference Guide
 
+* [Properties Reference] (#properties-reference)
 * [Overview](#overview)
 * [Three Types of CSS: Inline, Embedded, and External](#three-types-of-css)
 * [CSS Comments](#css-comments)
@@ -7,7 +8,79 @@
 * [Properties and Values](#properties-and-values)
 * [Class and Id Attributes](#class-and-id-attributes)
 * [More CSS Selectors](#more-css-selectors)
+* [Colors](#colors)
 * [The Cascade](#the-cascade)
+* [Font and Text Properties](#font-and-text-properties)
+* [Controlling White Space](#controlling-white-space)
+* [Block-Level vs. Inline](#block-level-vs-inline)
+* [Span vs. Div](#span-vs-div)
+* [CSS Box Model](#css-box-model)
+* [CSS Positioning](#css-positioning)
+* [CSS Layouts](#css-layouts)
+
+##Properties Reference
+```css
+color: red;
+color: rgb(150,0,75);
+color: #AF810B;
+
+background-color: #77CC5A;
+background-image: url("logo.png");
+background-repeat: repeat; /* other values: repeat-x, repeat-y, no-repeat */
+background-attachment: scroll; /* other value: fixed */
+background-position: 50% 0%; /* horizontal and vertical position */
+background: #7810FA repeat url("lorem.jpg"); /* shorthand property can do everything at once */
+
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* suggestion: use CSS font stack */
+font-style: italic;
+font-variant: small caps;
+font-weight: bold;
+font-size: 200%;
+font-size: 2em;
+font-size: 30px;
+font: italic bold 30px Arial, "Helvetica Neue", Helvetica, sans-serif; /* shorthand property */
+
+text-indent: 30px;
+text-align: center; /* other values: left, right, justify */
+text-decoration: underline; /* other values: overline, line-through */
+letter-spacing: 5px;
+word-spacing: 10px;
+text-transform: capitalize; /* other values: uppercase, lowercase */
+
+list-style-type: none; /* other values: disc, circle, square, decimal, decimal-leading-zero, ... */
+list-style-image: url("lorem.png");
+
+width: 500px;
+width: 40%;
+width: auto;
+height: 40px;
+height: auto;
+
+margin: 0 10px 30px 10px; /* top, right, bottom, left */
+margin: 10px auto; /* top-bottom, left-right */
+margin: 10px; /* applies to all margins */
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+
+padding: 0 10px 30px 10px; /* top, right, bottom, left */
+padding: 10px auto; /* top-bottom, left-right */
+padding: 10px; /* applies to all paddings */
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+
+border-width: 5px; /* individual properties follow form border-top-width */
+border-color: #FF00C8; /* individual properties follow form border-top-color */
+border-style: dotted; /* other values: dashed, solid, double, groove, ridge, inset, outset */
+border: 10px #AB0477 solid; /* shorthand property applies to all borders */
+border-top: 10px #AB0477 solid;
+border-right: 10px #AB0477 solid;
+border-bottom: 10px #AB0477 solid;
+border-left: 10px #AB0477 solid;
+```
 
 ##Overview
 CSS is used to add style to HTML. A key idea for Web developers to understand is that content (HTML) and style (CSS) should be as separate as possible. [CSS Zen Garden](http://www.csszengarden.com/) is a great example of this principle. Each CSS Zen Garden page has the *exact same HTML*. The difference between the HTML documents is one line of code: a link to an external CSS file.
@@ -460,7 +533,20 @@ text-indent: 20px; /*indent text inside of this element 20px on the first line*/
 line-height: 2em; /*each line of text in this element has 2em worth of vertical space*/
 letter-spacing: 2px; /*two pixels of space between each letter of text*/
 ```
-###White Space
+
+###List of Font Properties
+```css
+font-weight: bold;
+font-style: italic;
+font-variant: small-caps;
+
+/*Font values are separated by commas. Names with spaces are put in quotes. The browser uses the first font it has.*/
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+```
+
+**Note:** With font families, using a site like [CSS Font Stack](http://cssfontstack.com/) is often the easiest and best option.
+
+##Controlling White Space
 Use the `pre` element if you'd like your text to not ignore whitespace. "Pre" stands for "preformatted text."
 ```html
 <pre>
@@ -475,18 +561,6 @@ The     spaces
  on the webpage. This can be useful at times, so give it a try!
 </pre>
 ```
-
-###List of Font Properties
-```css
-font-weight: bold;
-font-style: italic;
-font-variant: small-caps;
-
-/*Font values are separated by commas. Names with spaces are put in quotes. The browser uses the first font it has.*/
-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-```
-
-**Note:** With font families, using a site like [CSS Font Stack](http://cssfontstack.com/) is often the easiest and best option.
 
 ##Block-Level vs. Inline
 Web browsers display elements in one of two ways: block-level or inline. Block-level elements are given their own vertical space on the page. That is, a line break is automatically placed above and below a block-level element. Inline elements, on the other hand, display inline with whatever content surrounds them, such as the text of a paragraph. The only time inline elements are given their own line on a page is when they are immediately preceded and followed by block-level elements. 
@@ -533,7 +607,7 @@ The big idea behind the CSS Box Model is that every element on the page is rende
 **Note:** Understanding the box model is essential to understanding how to create nice page layouts.
 
 ###Content
-In HTML, we think of elements as having an opening tag (e.g., <p>), some content, and a closing tag (e.g., </p>). In the case of the paragraph element, the content would be some text. While this is true, when speaking about the CSS box model, we use the word "content" to specifically refer to the box surrounding, in this case, the paragraph.
+In HTML, we think of elements as having an opening tag (e.g., `<p>`), some content, and a closing tag (e.g., `</p>`). In the case of the paragraph element, the content would be some text. While this is true, when speaking about the CSS box model, we use the word "content" to specifically refer to the box surrounding, in this case, the paragraph.
 
 **Every element in the body element has a content box.** Each of these content boxes has a height and a width.
 

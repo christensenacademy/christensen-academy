@@ -3,6 +3,8 @@ playlist_builder.py
 *.swf
 *.wav
 *.mp3
+*.fla
+cam_temp*
 
 #################
 ## Eclipse
