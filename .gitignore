@@ -4,6 +4,7 @@ playlist_builder.py
 *.wav
 *.mp3
 *.fla
+cam-temp*
 cam_temp*
 
 #################
