@@ -24,7 +24,6 @@ I hope this provides a decent overview of my ideas for a modular curriculum. The
 * [Deadlines vs. Goals](#deadlines-vs-goals)
 * [Classroom Expectations](#classroom-expectations)
 * [Gamification](#gamification)
-* [Implementation Timeline](#implementation-timeline)
 
 ##Motivation
 Modular curriculum is about giving people control over their educational destinies. It's about devising a better system built on the principles of autonomy and mastery. It's about leveraging technology in an intelligent way that allows us to completely transform the traditional model of education.
@@ -101,20 +100,7 @@ An effective classroom in this model will need to emphasize certain rules and ex
 Failure to meet expectations has almost nothing to do with a student's learning progress. No student will ever be penalized for being slow, nor should being slow be seen as a bad thing--students who advance more slowly often develop deeper understanding of the material, which will have greater long-term benefits. Instead, students will only be penalized if they fail to meet the classroom expectations listed above. In short, students who do not work hard or do not treat others with respect are the only ones in danger of facing negative consequences of a non-academic nature. In a real workplace environment, these are the type of people who would eventually be fired.
 
 ##Gamification
-Gamification is a current trend in all sorts of areas ranging from business to education. I've been studying game design with some intensity for about a year now, and I believe we can "gamify" the modular curriculum in some sense that will result in greater student motivation and subsequent achievement. I'll leave it at that for now. Most game mechanics would need to be implemented in the software surround the modules.
-
-##Implementation Timeline
-###Spring 2013 First Trial
-I'll be able to implement a modular, self-paced course by this time. It's possible that I'll be ready to do this for all three of my courses. Being constrained to the traditional grading system, I won't be able to make it purely mastery-based like I'd want to, but that shouldn't be too big of a problem. Self-pacing is more important at this point anyway because it proves that the modules are good enough to be completed in a self-paced fashion.
-
-###Fall 2013 Second Trial
-By the fall 2013 semester, I think I could comfortably try a mixed classroom where I have students going through, for example, Web Development modules and Flash modules at the same time.
-
-###Spring 2014 Full Implementation
-I think our goal should be to try something innovative as early as possible. I genuinely believe we can pull this off. Again, from the risk-reward perspective, this seems like a no-brainer.
-
-Note: I think the AP course and robotics would have to still go the traditional route. The former for AP reasons and the latter for parts and pieces reasons. Everything else, however, could operate out of a modular system.
-
+Gamification is a current trend in all sorts of areas ranging from business to education. I've been studying game design with some intensity for about a year now, and I believe we can "gamify" the modular curriculum in some sense that will result in greater student motivation and subsequent achievement. I'll leave it at that for now. Most game mechanics would need to be implemented in the software surrounding the modules. To really do this well, we would need to invest in a significant software development effort drawing inspiration from Khan, Coursera, and others.
 
 
 

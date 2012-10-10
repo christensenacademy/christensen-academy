@@ -1,4 +1,4 @@
-#ESD Teacher
+#Teacher-Teacher Video Project
 
 After pausing for a moment to enjoy the irony of teachers being resistant to professional development (i.e., learning), we can observe that "professional development", in many instances, turns into an unhelpful waste of time. It doesn't leave teachers feeling inspired, empowered, or with any sense of accomplishment.
 
@@ -69,7 +69,7 @@ Registration would be standard and simple. Basically, we would just need the You
 
 From there, we should be able to manage everything automatically. All a teacher would need to do is keep their playlists updated. The system would be smart enough (thanks to the YouTube Data API) to dynamically generate webpages and track teacher uploads. EASY!
 
-Teachers would be able to log on to this site, say www.esdteacherteacher.org, and see their progress, which might include a badge system and a wall for other teachers to leave positive feedback. There could be other mechanics as well, but the two most important things by far are (a) for teachers to be able to see their progress and (b) for teachers to be able to be recognized for their great work.
+Teachers would be able to log on to this site, say www.teacherteacher.org, and see their progress, which might include a badge system and a wall for other teachers to leave positive feedback. There could be other mechanics as well, but the two most important things by far are (a) for teachers to be able to see their progress and (b) for teachers to be able to be recognized for their great work.
 
 ##Easy Entry
 I mentioned this early, but I figure it's worthwhile to flesh out more of the details on this. I think a teacher completely new to this should be able to walk into a room after school, sit down, create a YouTube account, record a video, and upload it in under 25 minutes, and submit it to the system I'll theoretically create. They could leave the experience feeling good about it.
