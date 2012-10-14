@@ -1,15 +1,8 @@
 #Web Intro Reference
 ##Overview
-[History of the Internet and the World Wide Web](#history-of-the-internet-and-the-world-wide-web)
-[Domain Names and URLs](#domain-names-and-urls)
-[](#)
-[](#)
-[](#)
-[](#)
-[](#)
-[](#)
-[](#)
-[](#)
+* [History of the Internet and the World Wide Web](#history-of-the-internet-and-the-world-wide-web)
+* [Domain Names and URLs](#domain-names-and-urls)
+* [](#)
 
 ##History of the Internet and the World Wide Web
 The history of computers is facinating, and within that history, the evolution of the Internet and the World Wide Web are among the most amazing pieces.
