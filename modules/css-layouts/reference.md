@@ -1,5 +1,7 @@
 #CSS Layouts Reference Guide
 
+* [Properties Reference] (#properties-reference)
+* [Overview](#overview)
 * [Block-Level vs. Inline](#block-level-vs-inline)
 * [Span vs. Div](#span-vs-div)
 * [CSS Box Model](#css-box-model)
@@ -9,6 +11,46 @@
 * [Absolute Positioning](#absolute-positioning)
 * [Case Study 1](#case-study-1)
 * [Case Study 2](#case-study-2)
+
+##Properties Reference
+```css
+width: 500px;
+width: 40%;
+width: auto;
+height: 40px;
+height: auto;
+
+margin: 0 10px 30px 10px; /* top, right, bottom, left */
+margin: 10px auto; /* top-bottom, left-right */
+margin: 10px; /* applies to all margins */
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+
+padding: 0 10px 30px 10px; /* top, right, bottom, left */
+padding: 10px auto; /* top-bottom, left-right */
+padding: 10px; /* applies to all paddings */
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+
+border-width: 5px; /* individual properties follow form border-top-width */
+border-color: #FF00C8; /* individual properties follow form border-top-color */
+border-style: dotted; /* other values: dashed, solid, double, groove, ridge, inset, outset */
+border: 10px #AB0477 solid; /* shorthand property applies to all borders */
+border-top: 10px #AB0477 solid;
+border-right: 10px #AB0477 solid;
+border-bottom: 10px #AB0477 solid;
+border-left: 10px #AB0477 solid;
+```
+
+##Overview
+CSS is used to add style to HTML. A key idea for Web developers to understand is that content (HTML) and style (CSS) should be as separate as possible. [CSS Zen Garden](http://www.csszengarden.com/) is a great example of this principle. Each CSS Zen Garden page has the *exact same HTML*. The difference between the HTML documents is one line of code: a link to an external CSS file.
+
+In this module, you will learn the basics of CSS for controlling the visual aspects of your webpages.
+
 
 ##Block-Level vs. Inline
 Web browsers display elements in one of two ways: block-level or inline. Block-level elements are given their own vertical space on the page. That is, a line break is automatically placed above and below a block-level element. Inline elements, on the other hand, display inline with whatever content surrounds them, such as the text of a paragraph. The only time inline elements are given their own line on a page is when they are immediately preceded and followed by block-level elements. 

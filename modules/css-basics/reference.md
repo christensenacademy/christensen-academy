@@ -45,36 +45,6 @@ text-transform: capitalize; /* other values: uppercase, lowercase */
 list-style-type: none; /* other values: disc, circle, square, decimal, decimal-leading-zero, ... */
 list-style-image: url("lorem.png");
 
-width: 500px;
-width: 40%;
-width: auto;
-height: 40px;
-height: auto;
-
-margin: 0 10px 30px 10px; /* top, right, bottom, left */
-margin: 10px auto; /* top-bottom, left-right */
-margin: 10px; /* applies to all margins */
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
-
-padding: 0 10px 30px 10px; /* top, right, bottom, left */
-padding: 10px auto; /* top-bottom, left-right */
-padding: 10px; /* applies to all paddings */
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-
-border-width: 5px; /* individual properties follow form border-top-width */
-border-color: #FF00C8; /* individual properties follow form border-top-color */
-border-style: dotted; /* other values: dashed, solid, double, groove, ridge, inset, outset */
-border: 10px #AB0477 solid; /* shorthand property applies to all borders */
-border-top: 10px #AB0477 solid;
-border-right: 10px #AB0477 solid;
-border-bottom: 10px #AB0477 solid;
-border-left: 10px #AB0477 solid;
 ```
 
 ##Overview
@@ -555,4 +525,9 @@ The     spaces
  
  on the webpage. This can be useful at times, so give it a try!
 </pre>
+```
+
+You can tell any element to be formatted this way by using CSS:
+```css
+white-space:pre;
 ```
