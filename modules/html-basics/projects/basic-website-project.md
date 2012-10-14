@@ -1,6 +1,8 @@
-#HTML Basics Project
+#Basic Website Project
 
 Create a basic website using HTML.
+
+[This video](http://www.youtube.com/watch?v=8OW8q8uvBrc) will introduce the project and show an example.
 
 ##Project Ideas
 

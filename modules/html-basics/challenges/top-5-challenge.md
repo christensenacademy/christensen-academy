@@ -1,4 +1,4 @@
-#Challenge 1: Top 5
+#Top 5 Challenge
 
 Your challenge is to create a webpage with a top 5 list about something you find interesting. Make sure to include at least one nested list within your top 5 list. Here is an example:
 
@@ -14,9 +14,7 @@ Your challenge is to create a webpage with a top 5 list about something you find
 ##Requirements
 * An appropriate title element (don't confuse this with a heading element)
 * An appropriate heading element at the top of the page (e.g., "Top 5 Dolphins of All Time")
-* At least one paragraph describing the list
-* The nested list itself.
-  * The parent list needs exactly 5 items in it.
-  * At least one child list is required.
+* A paragraph above the list describing the list.
+* A nested list. That is, one of the list items must have another list inside of it
 * Proper indentation
 * No validation errors

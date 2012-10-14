@@ -1,4 +1,4 @@
-#Challenge 2: Relative and Absolute Paths
+#Paths Challenge
 
 TODO: Finish creating the Joersz Academy website and creat the accompanying zip file.
 
