@@ -1,0 +1,2 @@
+#FTP Project
+The real value in doing this is empowering students to manage a website completely on their own. The first step, where we actually buy a domain name and purchase hosting services will need to be done as a class. Then students will be given the FTP information they need to actually upload files
