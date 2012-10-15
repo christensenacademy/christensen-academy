@@ -1,7 +1,6 @@
 #CSS Layouts Reference Guide
 
 * [Properties Reference] (#properties-reference)
-* [Overview](#overview)
 * [Block-Level vs. Inline](#block-level-vs-inline)
 * [Span vs. Div](#span-vs-div)
 * [CSS Box Model](#css-box-model)
@@ -44,13 +43,13 @@ border-top: 10px #AB0477 solid;
 border-right: 10px #AB0477 solid;
 border-bottom: 10px #AB0477 solid;
 border-left: 10px #AB0477 solid;
+
+background-image: url("lorem.png");
+background-repeat: repeat; /* other values: repeat-x, repeat-y, no-repeat */
+background: #F8E088 url("lorem.png") repeat-y;
+
+
 ```
-
-##Overview
-CSS is used to add style to HTML. A key idea for Web developers to understand is that content (HTML) and style (CSS) should be as separate as possible. [CSS Zen Garden](http://www.csszengarden.com/) is a great example of this principle. Each CSS Zen Garden page has the *exact same HTML*. The difference between the HTML documents is one line of code: a link to an external CSS file.
-
-In this module, you will learn the basics of CSS for controlling the visual aspects of your webpages.
-
 
 ##Block-Level vs. Inline
 Web browsers display elements in one of two ways: block-level or inline. Block-level elements are given their own vertical space on the page. That is, a line break is automatically placed above and below a block-level element. Inline elements, on the other hand, display inline with whatever content surrounds them, such as the text of a paragraph. The only time inline elements are given their own line on a page is when they are immediately preceded and followed by block-level elements. 
@@ -94,12 +93,16 @@ Sometimes you may find yourself wanting to add style a small portion (span) of a
 ##CSS Box Model
 The big idea behind the CSS Box Model is that every element on the page is rendered by the browser as a box (rectangle) composed of four components: content, padding, border, and margin. Understanding how this box model works is essential to understanding how to display.
 
+![Box Model Diagram](http://www.w3.org/TR/CSS2/images/boxdim.png)
+
 **Note:** Understanding the box model is essential to understanding how to create nice page layouts.
 
 ###Content
 In HTML, we think of elements as having an opening tag (e.g., `<p>`), some content, and a closing tag (e.g., `</p>`). In the case of the paragraph element, the content would be some text. While this is true, when speaking about the CSS box model, we use the word "content" to specifically refer to the box surrounding, in this case, the paragraph.
 
-**Every element in the body element has a content box.** Each of these content boxes has a height and a width.
+When specifying width and height in CSS, you are specifying the dimensions of the content area of the box model.
+
+**Note:** Every element in the body element has a content box, but if the box has no content (i.e., text or images inside of it) or no explicity height (i.e., `height: 100px;`), then the box will not appear on the webpage.
 
 #####HTML
 ```html
@@ -109,19 +112,16 @@ In HTML, we think of elements as having an opening tag (e.g., `<p>`), some conte
     Donec vehicula felis eget nibh consequat aliquet. Proin purus nisi, porttitor ac tincidunt in, consectetur 
     eu nisi. Donec et sodales leo. Nullam enim nunc, viverra in pellentesque vitae, placerat elementum tortor.
   </p>
+  <div></div>
 </body>
 ```
 
 #####CSS
 ```css
-h1
-{
-  width: 500px;
-  height: 100px;
-}
-
-p
-{
-  width: 50%;
-}
+h1 {width: 500px; height: 100px;}
+p {width: 50%;}
+div {background: green; height: 20px;}
 ```
+
+###Margin
+Margins the outermost part of the box model.
