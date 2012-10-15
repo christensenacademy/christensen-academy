@@ -1,10 +1,6 @@
-#Rainbow Boxes Challenge 2
+#Background Gradient Challenge
 
-Here is a picture of what the final product should look like (exactly):
-
-![This picture shows what your page should look like](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-basics/challenges/rainbow-boxes-challenge-2.png)
+Your challenge is to use a background-color in combination with a gradient on a webpage and make it look goooooooooooooooooooooooooooooooooooooooooooood.
 
 ##Mastery
-Demonstrating mastery on this task requires the following:
-* Clear, neat, syntactically correct CSS
-* An exact (or very, very close) replica of the page demonstrated in the video and picture above.
+The gradient must one pixel wide (or tall) and seemlessly flow into a background color.
