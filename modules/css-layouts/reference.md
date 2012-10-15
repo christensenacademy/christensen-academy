@@ -56,7 +56,7 @@ background: #F8E088 url("lorem.png") repeat-y;
 Web browsers display elements in one of two ways: block-level or inline. Block-level elements are given their own vertical space on the page. That is, a line break is automatically placed above and below a block-level element. Inline elements, on the other hand, display inline with whatever content surrounds them, such as the text of a paragraph. The only time inline elements are given their own line on a page is when they are immediately preceded and followed by block-level elements. 
 
 Examples of inline elements include `span`, `img`, `em`, `strong`, and `a`.
-Examples of block-level elements include `p`, `div`, `h2`, `li`, ul `hr`.
+Examples of block-level elements include `p`, `div`, `h2`, `li`, `ul`, `hr`.
 
 ##Span vs. Div
 Sometimes you may find yourself wanting to add style to an entire section (division) of your webpage. In such cases, it is often best to use a div element, which can be thought of as a generic block-level element.
@@ -104,6 +104,7 @@ In HTML, we think of elements as having an opening tag (e.g., `<p>`), some conte
 When specifying width and height in CSS, you are specifying the dimensions of the content area of the box model.
 
 **Note:** Height by default is auto, which means that an element will be only tall enough to hold the stuff inside it. If there's no stuff inside it, its height will be zero.
+
 **Note:** Width by default is auto, which means that an element will be as wide as its parent. This is close to the same as setting the width to be 100%, but not quite. Experiment with the two to discover the subtle differences.
 
 #####HTML
@@ -126,10 +127,33 @@ div {background: green; height: auto;} /* since the div has no content, the heig
 ```
 
 ###Margin
-Margins the outermost part of the box model. 
+Margins create empty space on the outside of an element. Margins can be specified in the following ways:
+
+```css
+margin: 0 10px 30px 10px; /* top, right, bottom, left */
+margin: 10px auto; /* top-bottom, left-right */
+margin: 10px; /* applies to all margins */
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+```
+
+####Centering Elements
+Centering text (and inline elements) can be done using the text-align property, but if you want to center an entire block-level element, you'll need to employ the following trick: set the left and right margins to "auto".
+
+######Example
+```
+margin-left:auto;
+margin-right:auto;
+/* I usually just use the shorthand property (margin: 0 auto). */
+```
+
+####Collapsing Margins
+When margins from different elements "touch" each other, the collapse (join together), but only if they touch vertically--horizontal margins never collapse. This makes some sense when the two margins come from sibling elements, but when the touching margins are in a parent-child relationship, this "feature" of CSS can be madenning!!!
 
 ###Padding
-Margins the outermost part of the box model. 
+Margins the outermost part of the box model.
 
 ###Border
 Margins the outermost part of the box model.
