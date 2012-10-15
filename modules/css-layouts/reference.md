@@ -102,7 +102,8 @@ In HTML, we think of elements as having an opening tag (e.g., `<p>`), some conte
 
 When specifying width and height in CSS, you are specifying the dimensions of the content area of the box model.
 
-**Note:** Every element in the body element has a content box, but if the box has no content (i.e., text or images inside of it) or no explicity height (i.e., `height: 100px;`), then the box will not appear on the webpage.
+**Note:** Height by default is auto, which means that an element will be only tall enough to hold the stuff inside it. If there's no stuff inside it, its height will be zero.
+**Note:** Width by default is auto, which means that an element will be as wide as its parent. This is close to the same as setting the width to be 100%, but not quite. Experiment with the two to discover the subtle differences.
 
 #####HTML
 ```html
@@ -118,10 +119,10 @@ When specifying width and height in CSS, you are specifying the dimensions of th
 
 #####CSS
 ```css
-h1 {width: 500px; height: 100px;}
-p {width: 50%;}
-div {background: green; height: 20px;}
+h1 {width: auto; height: 100px;} /* width of auto means that the element is the size of the parent element */
+p {width: 50%;} /* percents are based off of the width of the parent element. */
+div {background: green; height: auto;} /* since the div has no content, the height will become zero */
 ```
 
 ###Margin
-Margins the outermost part of the box model.
+Margins the outermost part of the box model. 
