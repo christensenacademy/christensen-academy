@@ -5,6 +5,7 @@
 * [Span vs. Div](#span-vs-div)
 * [CSS Box Model](#css-box-model)
 * [Background Images](#background-images)
+* [Normal Flow](#normal-flow)
 * [Relative Positioning](#relative-positioning)
 * [Float Property](#float-property)
 * [Absolute Positioning](#absolute-positioning)
@@ -83,8 +84,8 @@ Sometimes you may find yourself wanting to add style a small portion (span) of a
 <p>
   Sed ultricies massa sit amet risus sollicitudin eu hendrerit tellus lacinia. Aliquam erat volutpat.
   Duis placerat molestie mi, in condimentum arcu elementum at. Fusce massa ante, convallis ut sagittis et,
-  accumsan eget arcu. Fusce <span style="color:red;">feugiat</span> sagittis erat quis pharetra. Vestibulum bibendum sem nec augue
-  dictum sit amet luctus enim tempor. Cras adipiscing varius dolor id pulvinar. Morbi dolor leo, interdum
+  accumsan eget arcu. Fusce <span style="color:red;">feugiat</span> sagittis erat quis pharetra. Vestibulum 
+  bibendum sem nec auguedictum sit amet luctus enim tempor. Cras adipiscing varius dolor id pulvinar. Morbi
   vitae tristique euismod, venenatis nec enim. Pellentesque sapien neque, hendrerit ac sollicitudin vitae,
   aliquam sed nisi.
 </p>
@@ -126,3 +127,26 @@ div {background: green; height: auto;} /* since the div has no content, the heig
 
 ###Margin
 Margins the outermost part of the box model. 
+
+###Padding
+Margins the outermost part of the box model. 
+
+###Border
+Margins the outermost part of the box model.
+
+###Margin
+Margins the outermost part of the box model. 
+
+##Background Images
+
+##Normal Flow
+
+##Relative Positioning
+
+##Float Property
+
+##Absolute Positioning
+
+##Case Study 1
+
+##Case Study 2
