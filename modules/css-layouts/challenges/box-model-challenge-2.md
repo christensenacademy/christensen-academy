@@ -1,6 +1,6 @@
 #Box Model Challenge 2
 
-Your challenge is laid out for you in [this video](), which also shows the solution. The second half of the solution can be found in [this video]().
+Your challenge is laid out for you in [this video](http://www.youtube.com/watch?v=NuUDce1UC04), which also shows the solution. The second half of the solution can be found in [this video]().
 
 Here is the [solution itself]().
 
