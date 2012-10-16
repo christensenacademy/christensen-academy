@@ -1,17 +1,5 @@
 #CSS Layouts Reference Guide
 
-* [Properties Reference] (#properties-reference)
-* [Block-Level vs. Inline](#block-level-vs-inline)
-* [Span vs. Div](#span-vs-div)
-* [CSS Box Model](#css-box-model)
-* [Background Images](#background-images)
-* [Normal Flow](#normal-flow)
-* [Relative Positioning](#relative-positioning)
-* [Float Property](#float-property)
-* [Absolute Positioning](#absolute-positioning)
-* [Case Study 1](#case-study-1)
-* [Case Study 2](#case-study-2)
-
 ##Properties Reference
 ```css
 width: 500px;
@@ -62,6 +50,19 @@ position: absolute; /* move out of normal flow while siblings that follow fill s
 position: fixed; /* attach to the viewport for life--scrolling has no impact on a fixed element */
 
 ```
+
+##Menu
+* [Properties Reference] (#properties-reference)
+* [Block-Level vs. Inline](#block-level-vs-inline)
+* [Span vs. Div](#span-vs-div)
+* [CSS Box Model](#css-box-model)
+* [Background Images](#background-images)
+* [Normal Flow](#normal-flow)
+* [Relative Positioning](#relative-positioning)
+* [Float Property](#float-property)
+* [Absolute Positioning](#absolute-positioning)
+* [Case Study 1](#case-study-1)
+* [Case Study 2](#case-study-2)
 
 ##Block-Level vs. Inline
 Web browsers display elements in one of two ways: block-level or inline. Block-level elements are given their own vertical space on the page. That is, a line break is automatically placed above and below a block-level element. Inline elements, on the other hand, display inline with whatever content surrounds them, such as the text of a paragraph. The only time inline elements are given their own line on a page is when they are immediately preceded and followed by block-level elements. 

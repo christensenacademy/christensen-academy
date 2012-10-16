@@ -1,18 +1,5 @@
 #CSS Basics Reference Guide
 
-* [Properties Reference] (#properties-reference)
-* [Overview](#overview)
-* [Three Types of CSS: Inline, Embedded, and External](#three-types-of-css)
-* [CSS Comments](#css-comments)
-* [CSS Rules](#css-rules)
-* [Properties and Values](#properties-and-values)
-* [Class and Id Attributes](#class-and-id-attributes)
-* [More CSS Selectors](#more-css-selectors)
-* [Colors](#colors)
-* [The Cascade](#the-cascade)
-* [Font and Text Properties](#font-and-text-properties)
-* [Controlling White Space](#controlling-white-space)
-
 ##Properties Reference
 ```css
 color: red;
@@ -46,6 +33,20 @@ list-style-type: none; /* other values: disc, circle, square, decimal, decimal-l
 list-style-image: url("lorem.png");
 
 ```
+##Menu
+
+* [Properties Reference] (#properties-reference)
+* [Overview](#overview)
+* [Three Types of CSS: Inline, Embedded, and External](#three-types-of-css)
+* [CSS Comments](#css-comments)
+* [CSS Rules](#css-rules)
+* [Properties and Values](#properties-and-values)
+* [Class and Id Attributes](#class-and-id-attributes)
+* [More CSS Selectors](#more-css-selectors)
+* [Colors](#colors)
+* [The Cascade](#the-cascade)
+* [Font and Text Properties](#font-and-text-properties)
+* [Controlling White Space](#controlling-white-space)
 
 ##Overview
 CSS is used to add style to HTML. A key idea for Web developers to understand is that content (HTML) and style (CSS) should be as separate as possible. [CSS Zen Garden](http://www.csszengarden.com/) is a great example of this principle. Each CSS Zen Garden page has the *exact same HTML*. The difference between the HTML documents is one line of code: a link to an external CSS file.
