@@ -191,6 +191,10 @@ When writing inline CSS, a rule is simply contained in a style attribute for an 
 <p style="color:blue;background-color:red;font-size:200%">Lorem ipsum...</p>
 ```
 
+A browsers would render the code above as follows:
+
+<p style="color:blue;background-color:red;font-size:200%">Lorem ipsum...</p>
+
 Notice that each little "piece" of CSS follows the format `foo:bar;` where "foo" is a property name and "bar" is a value. Each CSS rule can have many property-value pairs as illustrated in the example above.
 
 ###Embedded and External CSS Rules

@@ -35,7 +35,7 @@
       .playlist {margin:2em 0;}
       .playlist p{font-size:1em; font-color:#444; text-indent:2em;}
       
-      .ref-icon {display:inline-block;width:40px;height:40px;background-image: url("img/ref-icon.png");}
+      .reference-guide {display:inline-block;width:40px;height:40px;background-image: url("img/ref-icon.png");}
       
       
       .future-video {
@@ -308,7 +308,7 @@
           <div class="row-fluid playlist">
             <div class="span12" id="web-intro">
               <h3>
-                 <a class="ref-icon" href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/web-design-and-development-intro/reference.md" data-content="Go here to find written summaries of the content covered in the playlist." title="Web Intro Reference"></a>
+                 <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/web-design-and-development-intro/reference.md" rel="tooltip" title="Reference Guide" class="reference-guide"></a>
                 Introduction <small class="hidden-phone">Web Design and Development</small>
               </h3>
             </div>
@@ -348,7 +348,7 @@
           <div class="row-fluid playlist">
             <div class="span12" id="html-basics">
               <h3>
-                <a class="ref-icon" href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/html-basics/reference.md" data-content="Go here to find code examples and written summaries of the content covered in the playlist." title="HTML Basics Reference"></a>
+                <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/html-basics/reference.md" rel="tooltip" title="Reference Guide" class="reference-guide"></a>
                 HTML Basics <small class="hidden-phone">Learn How to Create Basic Websites</small>
               </h3>
             </div>
@@ -407,7 +407,7 @@
           <div class="row-fluid playlist">
             <div class="span12" id="css-basics">
               <h3>
-                <a class="ref-icon" href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/css-basics/reference.md" data-content="Go here to find code examples and written summaries of the content covered in the playlist." title="CSS Basics Reference"></a>
+                <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/css-basics/reference.md"  rel="tooltip" title="Reference Guide" class="reference-guide"></a>
               
                 CSS Basics <small class="hidden-phone">Learn How to Add Visual Styling to Your Webpages</small>
               </h3>
@@ -461,7 +461,7 @@
            <div class="row-fluid playlist">
             <div class="span12" id="css-layouts">
               <h3>
-                <a class="ref-icon" href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/css-layouts/reference.md" data-content="Go here to find code examples and written summaries of the content covered in the playlist." title="CSS Layouts Reference"></a>
+                <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/css-layouts/reference.md"  rel="tooltip" title="Reference Guide" class="reference-guide"></a>
               
                 CSS Layouts <small class="hidden-phone">Learn How to Create Interesting Page Layouts in CSS</small>
               </h3>
@@ -1071,7 +1071,7 @@
           <div class="row-fluid playlist">
             <div class="span12" id="flash-drawing">
               <h3>
-                <a class="ref-icon" href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/drawing-in-flash/reference.md" data-content="Go here to find summaries of the concepts discussed in the videos." title="Drawing in Flash Reference"></a>
+                <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/drawing-in-flash/reference.md"  rel="tooltip" title="Reference Guide" class="reference-guide"></a>
                 Drawing in Flash<small class="hidden-phone"> Using Flash as a Drawing Tool to Create Vector Graphics</small>
               </h3>
             </div>
@@ -1132,7 +1132,7 @@
           <div class="row-fluid playlist">
             <div class="span12" id="flash-animation">
               <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">
-                <a class="ref-icon" href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/animating-in-flash/reference.md" data-content="Go here to find summaries of the concepts discussed in the videos." title="Animating in Flash Reference"></a>
+                <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/animating-in-flash/reference.md"  rel="tooltip" title="Reference Guide" class="reference-guide"></a>
                 Animating in Flash <small class="hidden-phone">Using Flash to Make Animated "Movies" with Some Interactive Parts</small>
               </h3>
             </div>
@@ -1216,7 +1216,7 @@
           
             <div class="span12" id="brain-teasers-intro">
               <h3>
-                <a class="ref-icon" href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/brain-teasers/brain-teaser-reference.md" data-content="Go here to find these brain teasers in written form." title="Brain Teasers"></a>
+                <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/brain-teasers/brain-teaser-reference.md"  rel="tooltip" title="Reference Guide" class="reference-guide"></a>
                 Brain Teasers<small class="hidden-phone"> I might eventually separate these by difficulty...</small>
               </h3>
             </div>
@@ -1501,8 +1501,8 @@ $('.future-video').tooltip({
 $('.future-playlist').tooltip({
   placement: 'top'
 });
-$('.ref-icon').popover({
-  placement: 'right'
+$('.reference-guide').tooltip({
+  placement: 'top'
 });
 
   </script>
