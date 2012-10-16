@@ -2,7 +2,7 @@
 
 Your challenge is laid out for you in [this video](http://www.youtube.com/watch?v=NuUDce1UC04), which also shows the solution. The second half of the solution can be found in [this video]().
 
-Here is the [solution itself]().
+Here is the [solution itself](https://github.com/christensenacademy/christensen-academy/blob/master/modules/css-layouts/challenges/box-model-challenge-2.html).
 
 Here is a picture of what the final product should look like (exactly), though you should realize that a photo doesn't tell the whole story with regards to widths of elements, which can have values of auto (the default), something in pixels, or a percent:
 

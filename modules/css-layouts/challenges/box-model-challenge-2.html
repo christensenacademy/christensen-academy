@@ -1,73 +1,70 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Box Model Challenge 2</title>
     <style>
-      .box1
-      {
-        background-color:pink;
-        padding-bottom: 1px;
-        border-bottom:#222 solid 3px;
-      }
-      
-      #box2
+      body
       {
         background-color:#333;
-        text-align:center;
-        width:400px;
-        height:80px;
-        padding:1px;
-        margin-left:auto;
-        margin-right:auto;
-        border: 5px solid #000;
+        color:#888;
+        margin-top:0;
+      }
+      
+      #pink-box
+      {
+        background-color:pink;
+        border-bottom: 3px solid black;
+      }
+      
+      #pink-box h1
+      {
+        background-color: #333;
+        width:350px;
+        margin: 0 auto;
+        color: #bbb;
+        text-align: center;
+        padding:20px;
+        border: 5px solid black;
         border-top:none;
       }
       
-      #box3
+      #pink-box h3
       {
+        background-color: #333;
         width:80%;
-        background-color:#333;
-        margin:10px auto;
-        padding:10px;
-        border-bottom: 3px solid #fff;
-      }
-      
-      h4
-      {
+        margin: 10px auto;
+        color: #bbb;
+        text-align: center;
+        font-size: 95%;
+        font-style: italic;
+        letter-spacing: 3px;
         text-decoration:underline;
-        font-style:italic;
-        text-align:center;
-        letter-spacing:4px;
+        padding:24px;
+        border-bottom: 2px solid white;
       }
       
       p
       {
-        text-indent:80px;
-        line-height:2em;
+        line-height: 30px;
+        color: #aaa;
+        text-indent: 80px;
       }
-      
-      body {margin-top:0;background-color:#333;color:#bbb;}
-      
+      #footer
+      {
+        background-color:pink;
+        border-bottom: 3px solid black;
+        text-align: center;
+        color: #333;
+      }
     </style>
   </head>
   <body>
-    <div class="box1">
-      <div id="box2">
-        <h1>Lorem Ipsum</h1>
-      </div>
-      <div id="box3">
-        <h4>Praesent facilisis, nunc vitae ornare pretium</h4>
-      </div>
+    <div id="pink-box">
+      <h1>Lorem Ipsum</h1>
+      <h3>Aliquam varius tellus non tellus fringilla eu</h3>
     </div>
-    <div id="box4">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur <span style="color:#ddd;font-weight:bold;text-decoration:underline;">adipiscing elit</span>. Praesent facilisis, nunc vitae ornare pretium, est libero sollicitudin elit, ut ornare dui risus eu velit. Maecenas a tortor et risus lobortis dictum non at lorem. Quisque et magna nisl, nec pharetra diam. Donec sed lacus vitae tellus molestie rutrum. Pellentesque ac dolor metus. Sed feugiat tellus a mi facilisis mollis in a urna. Sed ac tellus nisl, id sagittis justo. Integer semper gravida cursus. Duis vitae diam lacus. Pellentesque a quam ligula.
-      </p>
-      <p>
-        Duis ultrices ante ac magna condimentum id faucibus leo imperdiet. Sed placerat risus in mi euismod venenatis. Donec id eros diam. Maecenas a orci vitae odio laoreet pellentesque ac non arcu. Nulla in quam felis, id luctus enim. Nunc molestie, mauris et mollis facilisis, dui enim tempus dolor, eu placerat tortor dolor vitae urna. Nulla nec lacus est. Fusce neque nisi, egestas vitae aliquam vel, sollicitudin quis leo.
-      </p>
-    </div>
-    <div class="box1" style="color:#333;text-align:center;">
-      &copy; CSS Test
-    </div>
+    <p>Lorem ipsum dolor sit amet, <span style="color:#fff;text-decoration:underline;">consectetur adipiscing</span> elit. Aenean ut tincidunt urna. Integer faucibus nisl at tellus cursus at mollis elit tincidunt. Fusce quis tellus sed nulla fermentum aliquam a sodales lorem. Praesent vehicula ornare nibh, sit amet bibendum turpis volutpat eu. In scelerisque, dolor in condimentum adipiscing, nunc dolor tristique sapien, ut cursus nisi ipsum ut justo. Curabitur cursus nisi eget lorem hendrerit porttitor.</p>
+    <p>Vestibulum pellentesque felis ut sapien tempus mollis. Proin mollis, nulla nec venenatis sodales, libero lorem suscipit dolor, vel ullamcorper velit metus in augue. Nam at diam mi, non tincidunt nisi. Quisque at quam ligula, a porta risus. Sed congue pellentesque tortor eget euismod. Nullam ut nisi eget risus varius pharetra quis ut leo. Duis sagittis diam id eros aliquet consectetur ullamcorper tellus euismod. Nullam id nunc et mi aliquet suscipit. Nunc varius, urna eu feugiat convallis, nulla felis semper turpis, quis pharetra neque erat quis velit. Maecenas vel elementum ligula.</p>
+    <div id="footer">&copy; CSS Test</div>
   </body>
 </html>
