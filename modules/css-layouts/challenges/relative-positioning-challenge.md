@@ -38,13 +38,13 @@ Your challenge is to use relative positioning to make the following webpage look
 
 ##Before
 
-![]()
+![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/relative-positioning-challenge_before.png)
 
 ##After
 
 **NOTE:** The middle div does not move at all even though the elements above it have shifted out of place with relative positioning. Remember, relatively positioned elements are placed in normal flow first then moved leaving an empty space where they used to be.
 
-![]()
+![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/relative-positioning-challenge_after.png)
 
 ##Mastery
 Precise replication is the key. Yours should look just like what's shown in the after picture above.
