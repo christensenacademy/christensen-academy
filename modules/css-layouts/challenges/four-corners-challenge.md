@@ -2,7 +2,7 @@
 
 Your challenge is to use absolute positioning--and other CSS--to get the following HTML to look like the picutre below.
 
-NOTE: You must make sure that *position:relative* is set on the big black box so that the four absolutely positioned elements stay inside of it. In my opinion, this is a wierd part of CSS. By default, absolutely positioned elements will position themselves with respect to the entire window unless they are children of relatively positioned element--or another absolutely positioned element.
+NOTE: You must make sure that *position:relative* is set on the big black box so that the four absolutely positioned elements stay inside of it. In my opinion, this is a wierd part of CSS. By default, absolutely positioned elements will position themselves with respect to the entire window unless they are children of a relatively positioned element--or another absolutely positioned element.
 
 ```html
 <!DOCTYPE html>
