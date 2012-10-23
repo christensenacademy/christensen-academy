@@ -1,4 +1,6 @@
-#Background Gradient Challenge
+#Background Image Challenge
+
+[Challenge Video](http://www.youtube.com/watch?v=QlbSVUnSFI0) (with solution)
 
 Your challenge is to use background images to make the following webpage:
 
