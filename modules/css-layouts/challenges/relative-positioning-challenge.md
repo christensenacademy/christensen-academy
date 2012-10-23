@@ -1,5 +1,7 @@
 #Relative Positioning Challenge
 
+[Challenge Video](http://www.youtube.com/watch?v=QlbSVUnSFI0) (with solution)
+
 Your challenge is to use relative positioning to make the following webpage look like the "after" picture shown below:
 
 ```html

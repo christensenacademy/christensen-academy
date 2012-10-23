@@ -211,21 +211,31 @@ Elements that are positioned relatively shift out of their normal flow position 
 position: relative;
 top: 20px; /* oddly, this actully moves the element downwards */
 right: 20px; /* oddly, this actually moves the element leftwards */
+
+/* Note: If top and bottom are specified, top "wins". If left and right are specified, left "wins" */
 ```
+
+Interestingly, relative positioning isn't actually used much on real webpages. Even more interestingly, when relative positioning is actually used, the top-right-left-bottom properties are usually not, which is strange because the relatively positioned element doesn't actually move. At first glance, this seems ludicrous, until you understand absolute positioning...
+
+##Absolute Positioning
+```css
+position: absolute;
+
+
+```
+
+A really imp
+
+###Position Fixed
+
+
+###Stretch Effect
 
 ##Float Property
 ```css
 float: right; /* anchor element to the right side of the page while siblings that follow fill space */
 ```
 
-##Absolute Positioning
-```css
-position: absolute; /* move out of normal flow while siblings that follow fill space.
-   Position with respect to the nearest ancestor that is positioned relative or absolute.
-   If this isn't possible, position with respect to the browser window. */
-
-position: fixed; /* attach to the viewport for life--scrolling has no impact on a fixed element */
-```
 
 ##Case Study 1
 
