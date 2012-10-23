@@ -1,6 +1,8 @@
-#Four Corners Challenge
+#Absolute Column Challenge
 
-Your challenge is to use absolute positioning--and other CSS--to get the following HTML to look like the picutre below.
+[Challenge Video](http://www.youtube.com/watch?v=e70Bv9ea7e8) (with solution)
+
+Your challenge is to use absolute positioning to get the following HTML to look like the picutre below.
 
 NOTE: The "container" div should be centered and have a width of 800px.
 

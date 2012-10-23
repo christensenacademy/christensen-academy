@@ -1,5 +1,7 @@
 #Text Wrapping Challenge
 
+[Challenge Video](http://www.youtube.com/watch?v=kY7XFxPKL4w) (with solution)
+
 Your challenge is to use the float property to make the following HTML appear like the picture below.
 
 **NOTE:** The "container" should be centered and have a width of 800px.
