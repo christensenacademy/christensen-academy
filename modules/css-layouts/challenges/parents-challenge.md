@@ -4,7 +4,7 @@ Your challenge is make a webpage (shown below) that exercises your understanding
 
 ##Prerequisite Knowledge
 
-I recommend you watch videos on the following topics before you attempt this challenge:
+I recommend you watch [videos](http://christensenacademy.org/index.html#css-layouts) on the following topics before you attempt this challenge:
 
 * Span vs. Div
 * Width and Height

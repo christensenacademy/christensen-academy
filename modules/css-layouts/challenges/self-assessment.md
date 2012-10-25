@@ -1,5 +1,16 @@
 #Self Assessment: CSS Box Model
+##Prerequisite Knowledge
 
+I recommend you watch [videos](http://christensenacademy.org/index.html#css-layouts) on the following topics before you attempt this challenge:
+
+* Span vs. Div
+* Width and Height
+* Margins
+* Centering Elements with Auto Margins
+* Padding
+* Borders
+
+##The Questions
 Answer the following questions to the best of your ability. Then, watch the solution video to see if you were right.
 
 1. Which of the three types of CSS can be used to manipulate the CSS box model?
