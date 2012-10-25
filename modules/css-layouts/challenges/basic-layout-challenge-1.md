@@ -8,6 +8,35 @@ Here is a picture of what the final product should look like (exactly), though y
 
 ![This picture shows what your page should look like](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/basic-layout-challenge-1.png)
 
+##Starter Code
+
+```html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Layout Challenge 1</title>
+    <style>
+      body
+      {
+        background-color:#333;
+        color:#888;
+        margin-top:0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top">
+      <h1>Lorem Ipsum</h1>
+      <h3>Aliquam varius tellus non tellus fringilla eu</h3>
+    </div>
+    <p>Lorem ipsum dolor sit amet, <span style="color:#fff;text-decoration:underline;">consectetur adipiscing</span> elit. Aenean ut tincidunt urna. Integer faucibus nisl at tellus cursus at mollis elit tincidunt. Fusce quis tellus sed nulla fermentum aliquam a sodales lorem. Praesent vehicula ornare nibh, sit amet bibendum turpis volutpat eu. In scelerisque, dolor in condimentum adipiscing, nunc dolor tristique sapien, ut cursus nisi ipsum ut justo. Curabitur cursus nisi eget lorem hendrerit porttitor.</p>
+    <p>Vestibulum pellentesque felis ut sapien tempus mollis. Proin mollis, nulla nec venenatis sodales, libero lorem suscipit dolor, vel ullamcorper velit metus in augue. Nam at diam mi, non tincidunt nisi. Quisque at quam ligula, a porta risus. Sed congue pellentesque tortor eget euismod. Nullam ut nisi eget risus varius pharetra quis ut leo. Duis sagittis diam id eros aliquet consectetur ullamcorper tellus euismod. Nullam id nunc et mi aliquet suscipit. Nunc varius, urna eu feugiat convallis, nulla felis semper turpis, quis pharetra neque erat quis velit. Maecenas vel elementum ligula.</p>
+    <div id="footer">&copy; CSS Test</div>
+  </body>
+</html>
+```
+
 ##Mastery
 Demonstrating mastery on this task requires the following:
 * Clear, neat, syntactically-correct CSS
