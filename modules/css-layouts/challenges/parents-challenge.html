@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Box Model Basics</title>
+    <style>
+      body { 
+        margin: 0; /* The body element has margins by default. I like to turn them off. */
+        background: #222;
+        color:#bbb;
+      }
+      
+      #box1 {
+        background: #555;
+        width:50%;
+        border:5px solid white;
+        margin:10px;
+        padding: 15px;
+      }
+      
+      #box1 h1 {
+        background: #222;
+      }
+      
+      #box1 p {
+        width:50%;
+      }
+      
+      #box2 {
+        background: #555;
+        width:500px;
+        border:5px solid white;
+        margin:10px;
+        padding: 15px;
+      }
+      
+      #box2 h1 {
+        background: #222;
+      }
+      
+      #box2 p {
+        width:300px;
+      }
+      
+      #container {
+        background:#56026E;
+        margin:10px;
+        border:5px solid #bbb;
+      }
+      
+      #footer {
+        background:#56026E;
+        margin:10px;
+        height:20px;
+        border:5px solid #bbb;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="box1">
+        <h1>Lorem Ipsum</h1>
+        <p>Aliquam elit leo, aliquet quis mattis eu, ultricies in odio. Sed porttitor, ligula in placerat tempus, tellus nunc accumsan nisi, a laoreet nulla diam sed neque. Praesent felis orci, <span>dignissim</span> non consectetur ac, fermentum id lectus. Duis neque tortor, molestie vel dictum vitae, lacinia nec nisi. Proin ut est eros.</p>
+      </div>
+      <div id="box2">
+        <h1>Lorem Ipsum</h1>
+        <p>Aliquam elit leo, aliquet quis mattis eu, ultricies in odio. Sed porttitor, ligula in placerat tempus, tellus nunc accumsan nisi, a laoreet nulla diam sed neque. Praesent felis orci, <span>dignissim</span> non consectetur ac, fermentum id lectus. Duis neque tortor, molestie vel dictum vitae, lacinia nec nisi. Proin ut est eros.</p>
+      </div>
+    </div>
+    <div id="footer"></div>
+</body></html>
