@@ -1,6 +1,6 @@
 #Box Model Basics Challenge
 
-Your challenge is 
+Your challenge is make a webpage (shown below) that exercises your understanding of the CSS box model.
 
 ##Prerequisite Knowledge
 
@@ -15,7 +15,7 @@ I recommend you watch videos on the following topics before you attempt this cha
 
 ##Make a Webpage that Looks like This 
 
-![This picture shows what your page should look like](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/box-model-basics.png)
+![This picture shows what your page should look like](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/box-model-basics-challenge.png)
 
 ###What the Picture doesn't Show
 
