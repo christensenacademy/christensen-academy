@@ -1,8 +1,8 @@
-#Box Model Challenge 4
+#Basic Layout Challenge 3
 
 Here is a picture of what the final product should look like (exactly).
 
-![This picture shows what your page should look like](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/box-model-challenge-4.png)
+![This picture shows what your page should look like](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/basic-layout-challenge-3.png)
 
 ##What the Picture Doesn't Show
 
