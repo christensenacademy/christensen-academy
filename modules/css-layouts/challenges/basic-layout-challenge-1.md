@@ -32,7 +32,7 @@ Here is a picture of what the final product should look like (exactly), though y
     </div>
     <p>Lorem ipsum dolor sit amet, <span>consectetur adipiscing</span> elit. Aenean ut tincidunt urna. Integer faucibus nisl at tellus cursus at mollis elit tincidunt. Fusce quis tellus sed nulla fermentum aliquam a sodales lorem. Praesent vehicula ornare nibh, sit amet bibendum turpis volutpat eu. In scelerisque, dolor in condimentum adipiscing, nunc dolor tristique sapien, ut cursus nisi ipsum ut justo. Curabitur cursus nisi eget lorem hendrerit porttitor.</p>
     <p>Vestibulum pellentesque felis ut sapien tempus mollis. Proin mollis, nulla nec venenatis sodales, libero lorem suscipit dolor, vel ullamcorper velit metus in augue. Nam at diam mi, non tincidunt nisi. Quisque at quam ligula, a porta risus. Sed congue pellentesque tortor eget euismod. Nullam ut nisi eget risus varius pharetra quis ut leo. Duis sagittis diam id eros aliquet consectetur ullamcorper tellus euismod. Nullam id nunc et mi aliquet suscipit. Nunc varius, urna eu feugiat convallis, nulla felis semper turpis, quis pharetra neque erat quis velit. Maecenas vel elementum ligula.</p>
-    <div id="footer">&copy; CSS Test</div>
+    <div id="footer">&copy; Proin Mollis</div>
   </body>
 </html>
 ```
@@ -40,4 +40,4 @@ Here is a picture of what the final product should look like (exactly), though y
 ##Mastery
 Demonstrating mastery on this task requires the following:
 * Clear, neat, syntactically-correct CSS
-* An exact (or very, very close) replica of the page demonstrated in the video and picture above.
+* An exact (or very, very close) replica of the page demonstrated in the video and picture above. The content of the text is not important. What matters are the boxes.
