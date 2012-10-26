@@ -1,6 +1,7 @@
 #Float: Menu Challenge
 
 * **Challenge:** Create a webpage that looks like the image below.
+* **Estimated Time:** 25 minutes
 
 ##Your page should look like this
 
@@ -22,7 +23,6 @@
       
       #container {
         width:800px;
-        position:relative;
         margin:0 auto;
       }
       

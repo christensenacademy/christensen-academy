@@ -22,7 +22,10 @@ I recommend you watch [videos](http://christensenacademy.org/index.html#css-layo
 
 ###What the Picture doesn't Show
 
-When you think about it, it's actually pretty amazing how little the picture above actually shows about the webpage. Many of the elements on the page will adapt as the size of the browser window adjusts as demonstrated in [this video]().
+* The top box adjusts its width as the browser resizes. Its width was clearly not specified using a pixel value...
+* The margin on the right of the dotted box always stays exactly the same size as the browser adjusts size. 
+* The bottom white box appears to be centered, but when the browser width adjusts, the margin on the left of the white box always stays the same.
+* The height of the dotted box is fixed. If the width of the browser becomes too small, text begins to spill out the bottom of this box--we call this overflow.
 
 ##Friendly Advice
 While you should focus on precise replication of the picture above, don't forget to experiment as you go. Even if you miraculously get things to work the first time around, test yourself and your knowledge of how the box model works by trying something different. Take time to play around with things and really figure out how they work.

@@ -1,12 +1,18 @@
 #Intro to CSS Layouts Module
 
+**[Explanatory Video](http://www.youtube.com/watch?v=bzrMMU0hzds)**
+
 Welcome!
 
 Now that you've learned some basic HTML and CSS, it looks like you're ready for a bigger challenge! I know just the thing: CSS layouts.
 
-The purpose of this module is to you learn how to create page layouts like those found on [CSS Zen Garden](http://www.csszengarden.com/). The [challenge map](http://www.christensenacademy.org/index.html#css-layouts), shows the paths you can take to learn how to do CSS layouts. The videos next to the challenge map teach the concepts you'll need to understand in order to complete the challenges.
+The purpose of this module is to you learn how to create page layouts like those found on [CSS Zen Garden](http://www.csszengarden.com/).
 
-The [reference guide](https://github.com/christensenacademy/christensen-academy/blob/master/modules/css-layouts/reference.md) should be a helpful resource to look back on as you navigate through this module.
+The [reference guide](https://github.com/christensenacademy/christensen-academy/blob/master/modules/css-layouts/reference.md) should be a helpful resource to look back on as you navigate through this module. You can access it by clicking on [the Christensen Academy icon to the left of the module name](http://www.christensenacademy.org/index.html#css-layouts).
+
+The [challenge map](http://www.christensenacademy.org/index.html#css-layouts), shows the paths you can take to learn how to do CSS layouts.
+
+The [videos](http://www.christensenacademy.org/index.html#css-layouts) next to the challenge map teach the concepts you'll need to understand in order to complete the challenges.
 
 ##Friendly Advice
 
