@@ -1,17 +1,3 @@
-#Background Image Challenge
-
-**Challenge:** Use background images to make a webpage that looks like the image below.
-**Estimated Time:** 40 minutes
-
-![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/background-image-challenge.png)
-
-##Images to Use
-
-![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/gradient.png)
-
-##Starter Code
-
-```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -31,11 +17,17 @@
         background: url("gradient.png") repeat-x;
         width:auto;
       }
+      #gradient h1 {
+        padding-left: 80px;
+        background: url("abstract3.png") no-repeat;
+        height:60px;
+        line-height:60px;
+      }
       #horizontal-repeat {background-repeat:repeat-x;}
-      #vertical-repeat {}
-      #both-repeat {}
-      #top-center-position {width:auto;}
-      #bottom-right-position {width:auto;}
+      #vertical-repeat {background-repeat:repeat-y;}
+      #both-repeat {background-repeat:repeat;}
+      #top-center-position {background-position:top center;width:auto;}
+      #bottom-right-position {background-position:bottom right;width:auto;}
     </style>
   </head>
   <body>
@@ -51,4 +43,3 @@
     
   </body>
 </html>
-```
