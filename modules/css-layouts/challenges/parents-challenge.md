@@ -44,6 +44,8 @@ While you should focus on precise replication of the picture above, don't forget
     </style>
   </head>
   <body>
+    <!-- My advice is to set up your HTML first. Think carefully about the parent-child relationships 
+    you see on the page and structure your HTML accordingly. Hint: unless a box just has text in it, it is a div. -->
   </body>
 </html>
 

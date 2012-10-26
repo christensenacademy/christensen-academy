@@ -3,7 +3,30 @@
 * **Challenge:** Use absolute positioning to get the following HTML to look like the picutre below by absolutely positioning the column.
 * **Estimated Time:** 35 minutes.
 
-**HINT:** Try negative values
+**HINT:** Try negative values when using absolute positioning on the column.
+
+##Prerequisite Knowledge
+
+* Normal flow
+* Relative positioning
+* Absolute positioning
+
+##Finished Page Should Look like This
+![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/absolute-positioning-layout-challenge.png)
+
+###What the Image does not Show
+
+As the browser window resizes:
+
+* The container stays centered and does not change width. Its width is 800px.
+* The container adapts to the height of its children, and so does the main div.
+* The column has a fixed height.
+* The bottom element stays fixed to the bottom of the browser window even when scrolling.
+
+##Friendly Advice
+Pay close attention to the parent-child structure of the HTML elements. I've created it for you in this challenge, but eventually you'll need to be able to do this on your own. Is there another way the HTML could have been structured to achieve the same result? Is the main element even necessary?
+
+##Starter Code
 
 ```html
 <!DOCTYPE html>
@@ -32,18 +55,3 @@
   </body>
 </html>
 ```
-
-##Finished Page Should Look like This
-![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/absolute-positioning-layout-challenge.png)
-
-###What the Image does not Show
-
-As the browser window resizes:
-
-* The container stays centered and does not change width. Its width is 800px.
-* The container adapts to the height of its children, and so does the main div.
-* The column has a fixed height.
-* The bottom element stays fixed to the bottom of the browser window even when scrolling.
-
-##Friendly Advice
-Pay close attention to the parent-child structure of the HTML elements. I've created it for you in this challenge, but eventually you'll need to be able to do this on your own. Is there another way the HTML could have been structured to achieve the same result? Is the main element even necessary?

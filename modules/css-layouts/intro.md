@@ -1,6 +1,6 @@
 #Intro to CSS Layouts Module
 
-**[Explanatory Video](http://www.youtube.com/watch?v=bzrMMU0hzds)**
+**[Intro Video](http://www.youtube.com/watch?v=bzrMMU0hzds)**: Watch this to hear my ideas behind the design and structure of this module.
 
 Welcome!
 

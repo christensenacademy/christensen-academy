@@ -5,6 +5,24 @@
 
 **NOTE:** You must make sure that *position:relative* is set on the big black box so that the four absolutely positioned elements stay inside of it. In my opinion, this is a wierd part of CSS. By default, absolutely positioned elements will position themselves with respect to the entire window unless they are children of a relatively or absolutely positioned element.
 
+##Prerequisite Knowledge
+
+* Normal flow
+* Relative positioning
+* Absolute positioning
+
+##Finished Page Should Look like This
+![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/absolute-positioning-challenge.png)
+
+###What the Image does not Show
+
+As the browser window resizes:
+
+* the four black boxes stay in the four corners of the browser window.
+* the big black box stays centered on the page.
+* the white boxes inside the black box keep their positions.
+
+##Starter Code
 ```html
 <!DOCTYPE html>
 <html>
@@ -25,14 +43,3 @@
   </body>
 </html>
 ```
-
-##Finished Page Should Look like This
-![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/absolute-positioning-challenge.png)
-
-###What the Image does not Show
-
-As the browser window resizes:
-
-* the four black boxes stay in the four corners of the browser window.
-* the big black box stays centered on the page.
-* the white boxes inside the black box keep their positions.
