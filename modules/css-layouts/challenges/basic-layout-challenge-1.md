@@ -1,5 +1,7 @@
 #Basic Layout Challenge 1
 
+**Estimated Time:** 60 minutes
+
 Your challenge is laid out for you in [this video](http://www.youtube.com/watch?v=NuUDce1UC04), which also shows the solution. The second half of the solution can be found in [this video](http://www.youtube.com/watch?v=bxJetHA3ZeY).
 
 You should obviously try this without looking at the solution, but if you're interested, here is the [solution itself](https://github.com/christensenacademy/christensen-academy/blob/master/modules/css-layouts/challenges/basic-layout-challenge-1.html).

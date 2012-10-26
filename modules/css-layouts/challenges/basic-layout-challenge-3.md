@@ -1,5 +1,7 @@
 #Basic Layout Challenge 3
 
+**Estimated Time:** 60 minutes
+
 Here is a picture of what the final product should look like:
 
 ![This picture shows what your page should look like](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/basic-layout-challenge-3.png)

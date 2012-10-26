@@ -1,4 +1,8 @@
 #Self Assessment: CSS Box Model
+
+* **Challenge:** Carefully answer the questions and check your work by watching the solution video.
+* **Estimated Time:** 15 minutes.
+
 ##Prerequisite Knowledge
 
 I recommend you watch [videos](http://christensenacademy.org/index.html#css-layouts) on the following topics before you attempt this challenge:
