@@ -1,7 +1,7 @@
 #Background Image Challenge
 
-**Challenge:** Use background images to make a webpage that looks like the image below.
-**Estimated Time:** 40 minutes
+* **Challenge:** Use background images to make a webpage that looks like the image below.
+* **Estimated Time:** 40 minutes
 
 ![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/background-image-challenge.png)
 
