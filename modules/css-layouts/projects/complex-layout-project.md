@@ -24,13 +24,13 @@
 1. Use external CSS.
 2. Create the layout for one page first. Then, simply copy and paste the HTML to the other pages making modifications where appropriate.
 3. Plan out your layout on paper before trying to code it.
-4. Write your HTML before you write your CSS. Remember CSS Zen Garden. Because the Zen Garden HTML was set up in an intelligent fashion, it was possible to create very different layouts using exactly the same HTML. It's a bad idea to start using CSS for a page layout if you're unsure of your HTML structure.
+4. Write your HTML before you write your CSS.
 
 #Suggested Ideas
 If you're struggling to choose a topic, here are some suggestions:
 
-* Personal portfolio site showcasing your work--artwork or otherwise.
-* Fan site--show the world why you love x, y, or z.
-* Organization site--a website for a business, charity, school, or other organization.
-* Humor--the purpose of your site could be humor or entertainment.
-* Information--for example, a site dedicated to the blue whale.
+* *Personal portfolio* site showcasing your work--artwork or otherwise.
+* *Fan site* --show the world why you love x, y, or z.
+* *Organization site* --a website for a business, charity, school, or other organization.
+* *Humor* --the purpose of your site could be humor or entertainment.
+* *Information* --for example, a site dedicated to the blue whale.

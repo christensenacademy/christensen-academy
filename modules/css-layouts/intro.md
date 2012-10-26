@@ -8,7 +8,7 @@ The purpose of this module is to you learn how to create page layouts like those
 
 The [reference guide](https://github.com/christensenacademy/christensen-academy/blob/master/modules/css-layouts/reference.md) should be a helpful resource to look back on as you navigate through this module.
 
-##How to Succeed in this Module
+##Friendly Advice
 
 ###Experiment, Experiment, Experiment!
 You'll be learning various CSS concepts that can be rather tricky. You'll never fully understand these concepts unless you take the time to challenge your own understanding. When you think you know something, try it. When something doesn't work, keep experimenting. When something *does* work, don't immediately move on. Change the code a bit. See if it still works. If it does, change the code further until it doesn't work. Once you've convinced yourself that you really understand what you've done, you're ready to move on. 
