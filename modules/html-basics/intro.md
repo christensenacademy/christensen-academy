@@ -1,18 +1,21 @@
 #Intro to HTML Basics Module
 
-The purpose of this module is to help people learn the basics of writing HTML code. By the end of the module, you'll have developed your own personal website!
+The purpose of this module is to help people learn the basics of writing HTML code. By the end of the module, you'll have developed your own personal website! Of course, it won't look very pretty because you won't have learned CSS yet. Whereas HTML provides the basic content and structure of a page, CSS adds style and visual formatting.
 
-The [reference guide](https://github.com/christensenacademy/christensen-academy/blob/master/modules/html-basics/reference.md) should be a helpful resource to look back on as you navigate through this module. You can access it by clicking on [the Christensen Academy icon to the left of the module name](http://www.christensenacademy.org/index.html#html-basics).
+##How to Start
 
-The [challenge map](http://www.christensenacademy.org/index.html#html-basics), shows the paths you can take to learn how to do CSS layouts.
+The best way to start this module is to explore the [challenge map](http://www.christensenacademy.org/index.html#html-basics) for a few minutes. Completing the module mean completing the challenge map. Don't spend too much time looking at the challenge map up front. Just a few minutes should be enough. Once you've got a general idea of things you'll be learning and the type of work you'll need to do to complete the module, click on the first challenge and get started!
 
-The [videos](http://www.christensenacademy.org/index.html#html-basics) next to the challenge map teach the concepts you'll need to understand in order to complete the challenges.
+Of course, you won't be able to complete the first challenge without learning something first, so you'll need to start using the [videos](http://www.christensenacademy.org/index.html#html-basics) to help you learn. For each challenge, it should be self-explanatory which videos you'll need to watch in order to complete the challenge.
 
-##Challenges
-Throughout the module, you will see links to various challenges. Of course, you should be practicing along with each of the videos and creating your own little challenges for yourself as you go. These challenges, however, are ones I thought were particularly important for people trying to learn HTML.
+When watching the videos, try not to watch them passively. Pause frequently to try things out yourself. This is especially important for learning to write code. Even if you think you understand, check your understanding by trying to write code yourself. Experiment and play around with the code. Then, continue watching the videos.
 
-##Projects
-There is only one project in this module, and it is to make a basic HTML website. The project is reasonably open-ended, so hopefully you enjoy experimenting with what's possible in HTML.
+Lastly, [reference guide](https://github.com/christensenacademy/christensen-academy/blob/master/modules/html-basics/reference.md) should be a helpful resource when you get stuck or need to review. Of course, you could always rewatch a video, but I think it's often more efficient and effective to just use the reference guide. You can access it by clicking on [the Christensen Academy icon to the left of the module name](http://www.christensenacademy.org/index.html#html-basics).
 
-##Assessment
-If you're in my class, assessment at the end of the module will take the form of a test that's part written and part on the computer.
+##Good Luck!
+
+I wish you the best of luck with this module. Writing HTML code is not necessarily easy. It requires high attention to detail and perseverence. I guarantee there will be times of frustration when something just won't work, but there will also be times of excitement when you finally solve a problem that's geen giving you trouble. Have patience as you tackle increasingly difficult problems. The most successful coders aren't always the smartest ones, but they're often the ones who are willing to stick with tough problems longer. Eventually, this perseverence turns into genuine skill and fluency.
+
+Kowabunga,
+
+Cam
