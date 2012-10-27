@@ -18,7 +18,7 @@ As you progress through the challenges, keep them saved in the same folder on yo
 
 ##Good Luck!
 
-I wish you the best of luck with this module. Writing HTML code is not necessarily easy. It requires high attention to detail and perseverence. I guarantee there will be times of frustration when something just won't work, but there will also be times of excitement when you finally solve a problem that's geen giving you trouble. Have patience as you tackle increasingly difficult problems. The most successful coders aren't always the smartest ones, but they're often the ones who are willing to stick with tough problems longer. Eventually, this perseverence turns into genuine skill and fluency.
+I wish you the best of luck with this module. Writing HTML code is not necessarily easy. It requires high attention to detail and perseverence. I guarantee there will be times of frustration when something just won't work, but there will also be times of excitement when you finally solve a problem that's geen giving you trouble. Have patience as you tackle increasingly difficult problems. The most successful coders aren't people who magically "get it" right away. Instead, they're often the people who are willing to stick with tough problems longer. Eventually, their perseverence yields genuine expertise.
 
 Kowabunga,
 
