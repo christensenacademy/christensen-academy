@@ -12,6 +12,10 @@ When watching the videos, try not to watch them passively. Pause frequently to t
 
 Lastly, [reference guide](https://github.com/christensenacademy/christensen-academy/blob/master/modules/html-basics/reference.md) should be a helpful resource when you get stuck or need to review. Of course, you could always rewatch a video, but I think it's often more efficient and effective to just use the reference guide. You can access it by clicking on [the Christensen Academy icon to the left of the module name](http://www.christensenacademy.org/index.html#html-basics).
 
+##Friendly Advice
+
+As you progress through the challenges, keep them saved in the same folder on your computer. Stay organized and name your files clearly. At the end of the module you will have built a mini portfolio of your work.
+
 ##Good Luck!
 
 I wish you the best of luck with this module. Writing HTML code is not necessarily easy. It requires high attention to detail and perseverence. I guarantee there will be times of frustration when something just won't work, but there will also be times of excitement when you finally solve a problem that's geen giving you trouble. Have patience as you tackle increasingly difficult problems. The most successful coders aren't always the smartest ones, but they're often the ones who are willing to stick with tough problems longer. Eventually, this perseverence turns into genuine skill and fluency.

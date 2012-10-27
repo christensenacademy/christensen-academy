@@ -3,21 +3,11 @@
 * **Challenge:** Create a basic webpage that looks like the picture below.
 * **Estimated Time:** 15 minutes
 
-##Example
-###Top 5 Sports
+##Your Webpage Should Look Like This
 
-This is an example 
+![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/html-basics/challenges/basic-webpage-challenge.png)
 
-* Hotdog Eating Conquest
-* Hover Hockey
-* Sepak Lacross
-* Zero-Gravity Wrestling
-* Robot Cheerleading
-
-##Requirements
-* An appropriate title element (don't confuse this with a heading element)
-* A paragraph above the list describing the list.
-* Proper indentation
+**Hint:** The second and third headings are smaller than the first one.
 
 ##Friendly Advice
 * Don't type out of those nonsensical words! That would be a monumental waste of time. Instead, do what lots of Web designers do and use [Lorem Ipsum text](http://lipsum.com/feed/html). It's okay if the words are not exactly the same as the ones you see in the example picture.
