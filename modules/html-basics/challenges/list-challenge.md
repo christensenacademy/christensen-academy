@@ -4,16 +4,13 @@
 * **Estimated Time:** 20 minutes
 
 ##Example
-###Top 5 Sports
-* Hotdog Eating Conquest
-* Hover Hockey
-* Sepak Lacross
-* Zero-Gravity Wrestling
-* Robot Cheerleading
+
+![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/html-basics/challenges/list-challenge.png)
 
 ##Requirements
 * An appropriate title element (don't confuse this with a heading element)
 * A paragraph above the list describing the list.
+* The list iteslf
 * Proper indentation
 
 ##Friendly Advice
