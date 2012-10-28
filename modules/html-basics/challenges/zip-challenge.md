@@ -1,6 +1,6 @@
-#Zip Challenge
+#(UNFINISHED) Zip Challenge
 
-* **Challenge:** Zip your entire hard drive. Just kidding. That would be an aweful idea. Instead, your challenge is to download and unzip (extract) [this file] then complete the rest of the challenge as described below.
+* **Challenge:** Zip your entire hard drive. Just kidding. That would be an aweful idea. Instead, your challenge is to download and unzip (extract) [this file]() then complete the rest of the challenge as described below.
 * **Estimated Time:** 30 minutes
 * **Purpose:** Understand the purpose of using zip files.
 

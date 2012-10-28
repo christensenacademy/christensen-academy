@@ -3,7 +3,9 @@
 * **Challenge:** Exercise your creativity to build a unique website using HTML.
 * **Estimated Time:** 150 minutes.
 
-[This video](http://www.youtube.com/watch?v=8OW8q8uvBrc) will introduce the project and show an example.
+##Video Introduction
+
+It's on my to do list to make an intro video for this project so that you can see an example or two.
 
 ##Project Ideas
 

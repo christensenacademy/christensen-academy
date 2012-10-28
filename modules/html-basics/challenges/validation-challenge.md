@@ -1,8 +1,6 @@
-#Replication Challenge
+#(UNFINISHED) Validation Challenge
 
 Your challenge is to create four webpages using basic HTML that look like the four webpages shown in the [pictures provided](https://github.com/christensenacademy/christensen-academy/tree/master/modules/html-basics/challenges/replication-challenge).
-
-*Note*: The images required to complete this challenge have been provided in [images.zip](https://github.com/christensenacademy/christensen-academy/blob/master/modules/html-basics/challenges/replication-challenge/images.zip).
 
 *Note*: Pay attention to the paths shown in Chrome's "omni bar" in the images provided. These paths reveal the correct folder structure for these webpages. For example, Page_A.html is in Folder-1.
 
