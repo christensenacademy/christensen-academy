@@ -1,4 +1,4 @@
-#... in your own words (part 1)
+#Internet vs. World Wide Web Challenge
 
 Your challenge is to write a blog post (**in your own words**) explaining how the Internet and the World Wide Web are related but not exactly the same thing.
 

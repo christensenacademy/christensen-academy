@@ -1,4 +1,4 @@
-#... in your own words (part 1)
+#HTTP Request-Response Challenge
 
 Your challenge is to write a blog post (**in your own words**) explaining how when you click on a link on a webpage a new webpage magically appears on your computer.
 
