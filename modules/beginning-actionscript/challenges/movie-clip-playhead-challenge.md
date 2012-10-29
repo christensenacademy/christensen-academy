@@ -1,6 +1,6 @@
-#Scene Playhead Challenge
+#Movie Clip Playhead Challenge
 
-* **Challenge:** Modify an existing animation to skip a few frames using a `gotoAndPlay()` command then stop on the second-to-last frame and trace "finished" to the console.
+* **Challenge:** Create an animated movie clip symbol with a 5-frame animation of whatever you choose. Place an instance of this symbol on scene 1 and extend the frames well beyond 5 frames--the exact number doesn't matter. Give the symbol an instance name. Create an actions layer, and add code to frame 7 that tells both the scene 1 playhead and the movie clip playhead to stop.
 * **Estimated Time:** 15 minutes.
 
 ##Friendly Advice
