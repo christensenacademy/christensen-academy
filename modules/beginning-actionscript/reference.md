@@ -36,11 +36,12 @@ If all of that feels confusing, don't worry too much. The only way to really und
 **Video:** [Basic Commands]()
 
 ```java
-/* pay close attention to spaces, capitalization, and semicolons */
+/* Pay close attention to small details like spaces, capital letters, and semicolons.*/
+
 stop(); /* stops the playhead in the current timeline */
 play(); /* starts a stopped playhead in the current timeline */
-gotoAndPlay(56); /* commands the playhead to jump to the frame in parenthesis */
-trace("Hello World"); /* writes
+gotoAndPlay(56); /* commands the playhead to jump to the frame whose number is in parenthesis */
+trace("Hello World"); /* writes a message to the Output panel */
 ```
 
 The commands above all tell the computer to do different things. In Flash, we can write commands like these inside of frames. Here's how:
@@ -56,9 +57,7 @@ The commands above all tell the computer to do different things. In Flash, we ca
 
 Don't worry about what the word "compiler" means for now. Just realize that when you see the phrase "compiler error", it means you had an error in your code. These errors mean your program won't work, at least not completely correctly, so it's absolutely essential to fix them. These errors will appear in the Compiler Errors panel where the timeline usually displays. Each error will provide a short description you should read to try to understand the error. Then, **double click on the error to see it in the Actions panel** where you can try to fix it.
 
-####Friendly Advice
-
-Whenever you need to fix an error--that is, debug your code--take the time to try to fully understand your mistake. Every error you make is a learning opportunity. If you take full advantage of these learning opportunities, you'll find much more success farther down the road.
+**Friendly Advice:** Whenever you need to fix an error--that is, debug your code--take the time to try to fully understand your mistake. Every error you make is a learning opportunity. If you take full advantage of these learning opportunities, you'll find much more success farther down the road.
 
 ##Comments
 
@@ -69,4 +68,46 @@ Comments are not commands for the computer to follow. In fact, the computer comp
 1. * **Single Line Comment:** Type `//` followed by your comment onto a single line of code.
 2. * **Multiple Line Comment:** Type `/*` followed by your comment, which can be spread across multiple lines, followed by `*/` to end the comment.
 
-##
+##Playhead Commands on Instances
+
+**Video:** [Basic Commands on Instances]()
+
+When animating in Flash, you've created symbols, which appear in the library. When you drag copies of a symbol onto the stage, you're creating **instances** of that symbol. By default, these instances don't have names, and, if we want to be able to write code that affects instances, we need to be able to somehow refer to them in the code. Here's how we do it:
+
+1. Select an instance on the stage.
+2. Go to the Properties panel.
+3. Give the instance a name making sure not to include spaces in the name. I strongly recommend following the "[camel case](#camel-case)" convention described below.
+4. Use the instance name in the code to change the instance's properties, stop it from playing, and do other interesting things with it.
+
+```java
+/* The following code assumes there is an instance of a movie clip symbol named "shootingStar"
+   that has an animation of a shooting star inside of it. */
+
+shootingStar.gotoAndPlay(3); // tells the playhead of the instance to jump to frame three
+shootingStar.stop(); // tells the playhead of the instance to stop
+shootingStar.play(); // tells the playhead of the instance to play 
+```
+
+###Camel Case
+
+When naming instances and variables in ActionScript, you should use what's called "camel case". Basically, there are no spaces, all words are lowercase, and the only capital letters are those at the start of words that come after the first word. Here are some examples:
+
+```
+missile
+flower
+badGuy
+redHat
+smallHammer
+fryingPan
+flyingSquirrelWithSupermanCape
+```
+
+**Friendly Advice:** It's a good idea to make names for your instances and variables descriptive. It's a bad idea to give names that are hard to remember or confusing.
+
+##Buttons
+Wouldn't it be nice if users of your program could actually do stuff to influence what happens in the program? I mean, the whole point of this module is to help you eventually design and build a basic computer game.
+
+###Button Symbols
+###Code Snippets
+
+##Basic Commands on Instances
