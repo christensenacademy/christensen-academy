@@ -35,7 +35,7 @@ If all of that feels confusing, don't worry too much. The only way to really und
 
 **Video:** [Basic Commands]()
 
-```
+```java
 /* pay close attention to spaces, capitalization, and semicolons */
 stop(); /* stops the playhead in the current timeline */
 play(); /* starts a stopped playhead in the current timeline */
