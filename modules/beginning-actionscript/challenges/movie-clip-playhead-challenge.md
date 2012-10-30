@@ -1,7 +1,14 @@
 #Movie Clip Playhead Challenge
 
-* **Challenge:** Create an animated movie clip symbol with a 5-frame animation of whatever you choose. Place an instance of this symbol on scene 1 and extend the frames well beyond 5 frames--the exact number doesn't matter. Give the symbol an instance name. Create an actions layer, and add code to frame 7 that tells both the scene 1 playhead and the movie clip playhead to stop.
+* **Challenge:** See below.
 * **Estimated Time:** 15 minutes.
+
+##Challenge
+
+1. Create a project with a movie clip symbol.
+2. Make sure the movie clip symbol has an animation of some sort in its timeline.
+3. Write NO CODE IN THE MOVIE CLIP SYMBOL
+4. Add code to a frame in Scene 1 that stops both the Scene 1 timeline and the movie clip timeline.
 
 ##Friendly Advice
 * Pay extremely close attention to tiny details like capital letters, spaces, and semicolons.
