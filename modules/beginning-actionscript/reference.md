@@ -35,16 +35,38 @@ If all of that feels confusing, don't worry too much. The only way to really und
 
 **Video:** [Basic Commands]()
 
-```js
-stop();
+```
+/* pay close attention to spaces, capitalization, and semicolons */
+stop(); /* stops the playhead in the current timeline */
+play(); /* starts a stopped playhead in the current timeline */
+gotoAndPlay(56); /* commands the playhead to jump to the frame in parenthesis */
+trace("Hello World"); /* writes
 ```
 
-###Comments
+The commands above all tell the computer to do different things. In Flash, we can write commands like these inside of frames. Here's how:
+
+1. Create a new layer called "actions". You'll use this layer to hold ALL of your ActionScript code.
+2. Add a keyframe on this layer where you'd like to put some code.
+3. Right click on the keyframe and select "Actions" to open the Actions panel. Note: wherever you right click is where your code will end up, so be careful. If you don't right click on a keyframe, the code will be inserted in the nearest keyframe to the left of where you clicked.
+4. Type the commands you with the computer to follow.
+
+**Key Idea:** The computer executes (follows) your commands when the playhead gets to the frame you inseted them on. If you put more than one command in a single frame, both will execute, and they will do so in order from top to bottom. It's important to understand that your commands are executed one after the other, not all at once. Computer programs follow a precise logic, and the order of your commands will be very important later on.
+
+###Compiler Errors
+
+Don't worry about what the word "compiler" means for now. Just realize that when you see the phrase "compiler error", it means you had an error in your code. These errors mean your program won't work, at least not completely correctly, so it's absolutely essential to fix them. These errors will appear in the Compiler Errors panel where the timeline usually displays. Each error will provide a short description you should read to try to understand the error. Then, **double click on the error to see it in the Actions panel** where you can try to fix it.
+
+####Friendly Advice
+
+Whenever you need to fix an error--that is, debug your code--take the time to try to fully understand your mistake. Every error you make is a learning opportunity. If you take full advantage of these learning opportunities, you'll find much more success farther down the road.
+
+##Comments
 
 **Video:** [Comments]()
 
-```js
+Comments are not commands for the computer to follow. In fact, the computer completely ignores them. Comments are intended for programmers' eyes only. They are used most often by programmers to leave each other or themselves useful notes about the code. In ActionScript, comments can be written in two ways:
 
-```
+1. * **Single Line Comment:** Type `//` followed by your comment onto a single line of code.
+2. * **Multiple Line Comment:** Type `/*` followed by your comment, which can be spread across multiple lines, followed by `*/` to end the comment.
 
-
+##
