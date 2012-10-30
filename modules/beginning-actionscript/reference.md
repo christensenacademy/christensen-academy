@@ -33,6 +33,13 @@ In this module, you will learn ActionScript 3.0, which came after--believe it or
 
 If all of that feels confusing, don't worry too much. The only way to really understand a language is to actually write programs with it. So, let's get started!
 
+###What is Frame Script?
+There are two ways to write ActionScript code in Flash. The easiest way is called *frame script*; this is what we'll be using in this module. In frame script, you associate code with individual frames on the timeline.
+
+A more advanced way to write ActionScript is *class-based script*. We'll be using this method in the next module, but not this one.
+
+**Note:** The difference between frame and class-based script is really inconsequential for now. For better or worse, I felt compelled to mention the basic fact up front. Feel free to forget about it until next module.
+
 ###What does it take to be good at programming?
 
 * **Perseverence:** Everyone encounters challenges when programming, even very talented and experienced programmers do. Your success as a programmer has everything to do with your willingness to tackle difficult problems and work through real challenges. I believe Albert Einstein once said, "It's not that I'm so smart, it's just that I stay with problems longer." The same is true, I think, of all really good programmers. Becomming an expert won't just magically happen. It takes hard work, dedication, and above all, perseverence in the face of failure. This module is just an introduction to programming, but sometimes starting out can be the hardest part.
@@ -54,6 +61,8 @@ gotoAndPlay(56); /* commands the playhead to jump to the frame whose number is i
 trace("Hello World"); /* writes a message to the Output panel */
 ```
 
+**Note:** These commands are often referred to as "statements" by programmers. Notice how each statement ends with a semicolon.
+
 The commands above all tell the computer to do different things. In Flash, we can write commands like these inside of frames. Here's how:
 
 1. Create a new layer called "actions". You'll use this layer to hold ALL of your ActionScript code.
@@ -63,9 +72,15 @@ The commands above all tell the computer to do different things. In Flash, we ca
 
 **Key Idea:** The computer executes (follows) your commands when the playhead gets to the frame you inseted them on. If you put more than one command in a single frame, both will execute, and they will do so in order from top to bottom. It's important to understand that your commands are executed one after the other, not all at once. Computer programs follow a precise logic, and the order of your commands will be very important later on.
 
+##SWFs and Compilers
+
+**Video:** [SWFs, Compilers, and Fixing Errors]()
+
+When you run your program--ctrl+enter (Windows) or command+return (Mac)--an SWF file is created that will be run by the Flash Player. When this happens, the computer "compliles" your ActionScript code. It's probably not worth it at this point to try to go into specifics here. Just realize that it is durring this process of generating an SWF file that the computer finds "[compiler errors](#compiler-errors)".
+
 ###Compiler Errors
 
-Don't worry about what the word "compiler" means for now. Just realize that when you see the phrase "compiler error", it means you had an error in your code. These errors mean your program won't work, at least not completely correctly, so it's absolutely essential to fix them. These errors will appear in the Compiler Errors panel where the timeline usually displays. Each error will provide a short description you should read to try to understand the error. Then, **double click on the error to see it in the Actions panel** where you can try to fix it.
+Whe you make a mistake writing code, you'll get a compiler error. These errors mean your program won't work, at least not completely correctly, so it's absolutely essential to fix them. These errors will appear in the Compiler Errors panel where the timeline usually displays. Each error will provide a short description you should read to try to understand the error. Then, **double click on the error to see it in the Actions panel** where you can try to fix it.
 
 **Friendly Advice:** Whenever you need to fix an error--that is, debug your code--take the time to try to fully understand your mistake. Every error you make is a learning opportunity. If you take full advantage of these learning opportunities, you'll find much more success farther down the road.
 
@@ -86,7 +101,7 @@ When animating in Flash, you've created symbols, which appear in the library. Wh
 
 1. Select an instance on the stage.
 2. Go to the Properties panel.
-3. Give the instance a name making sure not to include spaces in the name. I strongly recommend following the "[camel case](#camel-case)" convention described below.
+3. Give the instance a name making sure not to include spaces in the name or start the name with a number. I strongly recommend following the "[camel case](#camel-case)" convention described below.
 4. Use the instance name in the code to change the instance's properties, stop it from playing, and do other interesting things with it.
 
 ```java
@@ -122,6 +137,8 @@ There is, however, such a thing as a button symbol that changes its appearance w
 
 **Video:** [Button Symbols]()
 
+**Note:** I recommend against using button symbols for a variety of reasons. You can do everything you need to without them. And, if you're clever, you can get movie clip symbols to have hover effects just by using some `stop()` and `gotoAndPlay()` commands.
+
 No matter whether you have an instance of a button symbol or a movie clip symbol, you can use *code snippets* to help you quickly generate code that will execute only when a user clicks on the instance. Here's how:
 
 1. Select the instance on the stage.
@@ -155,21 +172,64 @@ We can do a whole lot more with instances than just control their playheads. Ins
 ```java
 // The following code assumes there is an instance of a movie clip symbol named "blueSquare."
 
-blueSquare.x = 55;
+// The following lines of code set the instance's various properties to new values.
+blueSquare.x = 55; // other values: any positive or negative number
 blueSquare.y = 400;
-blueSquare.rotation = ;
-blueSquare.alpha = ;
+blueSquare.rotation = 180; // (works in degrees) other values: any positive or negative number
+blueSquare.alpha = 0.5; // other values: 0.0 (transparent) to 1.0 (opaque)
+blueSquare.width = 100; // other values: any positive number
+blueSquare.height = 100;
+blueSquare.scaleX = 1.5; // (works as a percent where 1.0 = 100%) other values: any positive number
+blueSquare.scaleY = 2;
+blueSquare.visible = false; // other values: true
 
+// The following lines of code write the values of various properties of the instance in the output panel.
+trace(blueSquare.x);
+trace(blueSquare.y);
+trace(blueSquare.alpha);
+// and so on and so forth
 ```
 
 ##Creating Instance from Code
+
+You know how you usually created instances of symbols by dragging out copies of symbols from the library? Well, you can actually just create new instances straight from the code. Here's how:
+
+1. Add a linkage name to the symbol in the library. You can do this by double clicking in the linkage column of the library where the symbol resides. This might seem like a strange, uneccessary step, so I've provided an additional short explanation of [why we need linkage](#why-we-need-linkage).
+2. Create a new instance and add it to the *[display stack](#display-stack)* as shown below.
+
+```java
+//Note: The following code assumes that there is a symbol in the library with a linkage name "Spaceship"
+
+var milleniumFalcon:Spaceship = new Spaceship(); //Note: "milleniumFalcon" is the instance name for this instance
+addChild(milleniumFalcon);
+```
+
+**Note:** It's pretty easy to foget the line of code where you add the instance to the display stack
+
+Your instance will have all of the same properties that any of your previous instances had before. For example, typing `milleniumFalcon.x = 100;` would change the x-coordinate of the ship as you would expect.
+
+###Why We Need Linkage
+
+First of all, I personally think that the designers of Flash would have been wise to not make the linkage name necessary, but this would have required them to enforce stricter naming conventions for the common names we give symbols. Such restrictions include things like not allowing spaces in names and not allowing names to start with numbers. Alas, because our common names for symbols are not forced to conform to these more rigid standards, we must supply a secondary name (a "linkage" name) that actually does conform to those more rigid standards. In addition to not having spaces and not starting with numbers, linkage names should be upper [camel case](#camel-case). Here are some examples:
+
+```
+Spaceship
+BlueSpaceship
+FloatingButterfly
+MaleFigureSkater
+ThreeBillyGoats
+```
+
+###Display Stack
+
 
 ##Variables and Assignment Statements
 
 Variables can be thought of as containers that store things...
 
 ###Variable Types
-
+####Strings
+####Numbers
 ###Assignment Statements
 
 
