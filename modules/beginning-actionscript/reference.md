@@ -1,6 +1,16 @@
-#Reference Guide for Beginning ActionScript
+#Reference Guide for Beginning ActionScript (FIRST DRAFT)
 
-This document has obviously not been created yet. It is currently october 28 2012. I'll be working on it consistently for the next few weeks to finish it. It's purpose will be to create a consise, helpful code reference for people to use as they advance through the beginning actionscript module.
+* [Intro to ActionScript](#intro-to-actionscript)
+* [Basic Commands](#basic-commands)
+* [Comments](#comments)
+* [Playhead Commands on Instances](#playhead-commands-on-instances)
+* [Buttons](#buttons)
+* [Movie Clip Properties](#movie-clip-properties)
+* [Variables and Assignment Statements](#variables-and-assignment-statements)
+* [Functions](#functions)
+* [Parameters (Arguments) of Functions](#parameters-arguments-of-functions)
+* [Returning Values from Functions](#returning-values-from-functions)
+* [Code Formatting](#code-formatting)
 
 ##Intro to ActionScript
 
@@ -70,7 +80,7 @@ Comments are not commands for the computer to follow. In fact, the computer comp
 
 ##Playhead Commands on Instances
 
-**Video:** [Basic Commands on Instances]()
+**Video:** [Playhead Commands on Instances]()
 
 When animating in Flash, you've created symbols, which appear in the library. When you drag copies of a symbol onto the stage, you're creating **instances** of that symbol. By default, these instances don't have names, and, if we want to be able to write code that affects instances, we need to be able to somehow refer to them in the code. Here's how we do it:
 
@@ -105,9 +115,69 @@ flyingSquirrelWithSupermanCape
 **Friendly Advice:** It's a good idea to make names for your instances and variables descriptive. It's a bad idea to give names that are hard to remember or confusing.
 
 ##Buttons
-Wouldn't it be nice if users of your program could actually do stuff to influence what happens in the program? I mean, the whole point of this module is to help you eventually design and build a basic computer game.
 
-###Button Symbols
-###Code Snippets
+My definition of a button: *any instance on the stage that does something when clicked on*.
 
-##Basic Commands on Instances
+There is, however, such a thing as a button symbol that changes its appearance when it is being hovered over and clicked on. Like a movie clip symbol, you give instances of buttons instance names, which can then be referred to in the code to do stuff.
+
+**Video:** [Button Symbols]()
+
+No matter whether you have an instance of a button symbol or a movie clip symbol, you can use *code snippets* to help you quickly generate code that will execute only when a user clicks on the instance. Here's how:
+
+1. Select the instance on the stage.
+2. Give the instance an instance name.
+3. Go to the Code Snippets panel.
+4. Choose "Event Handlers" -> "Mouse Click Event".
+5. Edit the code inside the function to your heart's delight.
+
+###Stop, Play, and Restart Buttons
+
+**Video:** [Stop, Play, and Restart Buttons]()
+
+Once you've used code snippets, add code to control the playhead. Here's an example of what your code might look like for a restart button:
+
+```java
+restartButton.addEventListener(MouseEvent.CLICK, fl_MouseClickHandler);
+
+function fl_MouseClickHandler(event:MouseEvent):void
+{
+	gotoAndPlay(1);
+}
+
+```
+
+##Movie Clip Properties
+
+**Video:** [Movie Clip Properties]()
+
+We can do a whole lot more with instances than just control their playheads. Instances have lots of properties we can change.
+
+```java
+// The following code assumes there is an instance of a movie clip symbol named "blueSquare."
+
+blueSquare.x = 55;
+blueSquare.y = 400;
+blueSquare.rotation = ;
+blueSquare.alpha = ;
+
+```
+
+##Creating Instance from Code
+
+##Variables and Assignment Statements
+
+Variables can be thought of as containers that store things...
+
+###Variable Types
+
+###Assignment Statements
+
+
+
+
+
+
+* [Functions](#functions)
+* [Parameters (Arguments) of Functions](#parameters-arguments-of-functions)
+* [Returning Values from Functions](#returning-values-from-functions)
+* [Code Formatting](#code-formatting)
