@@ -35,7 +35,7 @@ If all of that feels confusing, don't worry too much. The only way to really und
 
 **Video:** [Basic Commands]()
 
-```javascript
+```js
 stop();
 ```
 
@@ -43,7 +43,7 @@ stop();
 
 **Video:** [Comments]()
 
-```javascript
+```js
 
 ```
 
