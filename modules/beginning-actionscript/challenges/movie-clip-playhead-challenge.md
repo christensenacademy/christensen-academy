@@ -2,6 +2,8 @@
 
 * **Challenge:** See below.
 * **Estimated Time:** 15 minutes.
+* **Video:** [Playhead Commands on Instances](http://www.youtube.com/watch?v=2zPBWkNcRKM)
+* **Reference Guide:** [Stop, Play, and Restart Buttons](https://github.com/christensenacademy/christensen-academy/blob/master/modules/beginning-actionscript/reference.md#playhead-commands-on-instances)
 
 ##Challenge
 

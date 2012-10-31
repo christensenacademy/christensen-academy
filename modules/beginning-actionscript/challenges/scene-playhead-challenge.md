@@ -2,6 +2,8 @@
 
 * **Challenge:** See below.
 * **Estimated Time:** 15 minutes.
+* **Video:** [Basic Commands](http://www.youtube.com/watch?v=1LrtSkcqcZE)
+* **Reference Guide:** [Basic Commands](https://github.com/christensenacademy/christensen-academy/blob/master/modules/beginning-actionscript/reference.md#basic-commands)
 
 ##Challenge
 1. Modify an existing animation to skip a few frames using a `gotoAndPlay()` command

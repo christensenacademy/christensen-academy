@@ -3,6 +3,8 @@
 * **Challenge:** Follow the directions below.
 * **Estimated Time:** 40 minutes
 * **Purpose:** Imagine you eventually want to make a game that has a spaceship shooting a lazer each time the player presses the spacebar. This would mean that in your code you would need to create a new instance of the lazer symbol each time the user presses the spacebar. Creating new instances in code turns out to be an exceptionally useful thing to be able to do.
+* **Video:** [Creating Instances from Code]()
+* **Reference Guide:** [Creating Instances from Code](https://github.com/christensenacademy/christensen-academy/blob/master/modules/beginning-actionscript/reference.md#creating-instances-from-code)
 
 ##Challenge Directions
 

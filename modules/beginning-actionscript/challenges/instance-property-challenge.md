@@ -3,6 +3,8 @@
 * **Challenge:** Use ActionScript commands to create a frame-by-frame animation (minimum of 8 frames) of a shooting star fading into the distance (more detailed description below).
 * **Estimated Time:** 40 minutes
 * **Purpose:** We'll eventually be making games, and if we can figure out how to command instances on the stage to behave as we'd like them to, perhaps someday we'll be able to turn these instances in to bad guys, power ups, and so on.
+* **Video:** [Movie Clip Properties]()
+* **Reference Guide:** [Movie Clip Properties](https://github.com/christensenacademy/christensen-academy/blob/master/modules/beginning-actionscript/reference.md#movie-clip-properties)
 
 ##More Detailed Description of Challenge
 
