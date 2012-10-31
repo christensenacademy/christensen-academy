@@ -3,7 +3,6 @@ playlist_builder.py
 *.swf
 *.wav
 *.mp3
-*.fla
 cam-temp*
 cam_temp*
 
