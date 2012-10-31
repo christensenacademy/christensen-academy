@@ -14,7 +14,7 @@
 
 ##Intro to ActionScript
 
-**Video:** [Intro to ActionScript]()
+**Video:** [Intro to ActionScript](http://www.youtube.com/watch?v=N5M1Ia-5wmc)
 
 If you're navigating this module, it may very well be your first time doing any computer programming. If so, you may be wondering what exactly computer programming is and what the ActionScript 3.0 programming language is. The following is my introductory explanation. Realize, however, that really understanding what programming is requires a pretty deep understanding of how computers actually work. For that, I recommend spending time on the [computer basics module](#http://www.christensenacademy.org/index.html#computer-basics).
 
@@ -50,7 +50,7 @@ A more advanced way to write ActionScript is *class-based script*. We'll be usin
 
 ##Basic Commands
 
-**Video:** [Basic Commands]()
+**Video:** [Basic Commands](http://www.youtube.com/watch?v=1LrtSkcqcZE)
 
 ```java
 /* Pay close attention to small details like spaces, capital letters, and semicolons.*/
@@ -86,7 +86,7 @@ Whe you make a mistake writing code, you'll get a compiler error. These errors m
 
 ##Comments
 
-**Video:** [Comments]()
+**Video:** [Comments](http://www.youtube.com/watch?v=OmHvHoWYjJM)
 
 Comments are not commands for the computer to follow. In fact, the computer completely ignores them. Comments are intended for programmers' eyes only. They are used most often by programmers to leave each other or themselves useful notes about the code. In ActionScript, comments can be written in two ways:
 
@@ -95,7 +95,7 @@ Comments are not commands for the computer to follow. In fact, the computer comp
 
 ##Playhead Commands on Instances
 
-**Video:** [Playhead Commands on Instances]()
+**Video:** [Playhead Commands on Instances](http://www.youtube.com/watch?v=2zPBWkNcRKM)
 
 When animating in Flash, you've created symbols, which appear in the library. When you drag copies of a symbol onto the stage, you're creating **instances** of that symbol. By default, these instances don't have names, and, if we want to be able to write code that affects instances, we need to be able to somehow refer to them in the code. Here's how we do it:
 
@@ -135,8 +135,6 @@ My definition of a button: *any instance on the stage that does something when c
 
 There is, however, such a thing as a button symbol that changes its appearance when it is being hovered over and clicked on. Like a movie clip symbol, you give instances of buttons instance names, which can then be referred to in the code to do stuff.
 
-**Video:** [Button Symbols]()
-
 **Note:** I recommend against using button symbols for a variety of reasons. You can do everything you need to without them. And, if you're clever, you can get movie clip symbols to have hover effects just by using some `stop()` and `gotoAndPlay()` commands.
 
 No matter whether you have an instance of a button symbol or a movie clip symbol, you can use *code snippets* to help you quickly generate code that will execute only when a user clicks on the instance. Here's how:
@@ -149,7 +147,7 @@ No matter whether you have an instance of a button symbol or a movie clip symbol
 
 ###Stop, Play, and Restart Buttons
 
-**Video:** [Stop, Play, and Restart Buttons]()
+**Video:** [Stop, Play, and Restart Buttons](http://www.youtube.com/watch?v=6To3XOAyY9A)
 
 Once you've used code snippets, add code to control the playhead. Here's an example of what your code might look like for a restart button:
 
@@ -190,21 +188,23 @@ trace(blueSquare.alpha);
 // and so on and so forth
 ```
 
-##Creating Instance from Code
+##Creating Instances from Code
+
+**Video:** [Creating Instances from Code]()
 
 You know how you usually created instances of symbols by dragging out copies of symbols from the library? Well, you can actually just create new instances straight from the code. Here's how:
 
 1. Add a linkage name to the symbol in the library. You can do this by double clicking in the linkage column of the library where the symbol resides. This might seem like a strange, uneccessary step, so I've provided an additional short explanation of [why we need linkage](#why-we-need-linkage).
-2. Create a new instance and add it to the *[display stack](#display-stack)* as shown below.
+2. Create a new instance and add it to the "display stack" as shown below.
 
 ```java
 //Note: The following code assumes that there is a symbol in the library with a linkage name "Spaceship"
 
 var milleniumFalcon:Spaceship = new Spaceship(); //Note: "milleniumFalcon" is the instance name for this instance
-addChild(milleniumFalcon);
+addChild(milleniumFalcon); //This line adds the instance to the "display stack"
 ```
 
-**Note:** It's pretty easy to foget the line of code where you add the instance to the display stack
+**Note:** It's pretty easy to forget the line of code where you add the instance to the display stack. Realize that if you forget this line of code, your newly created instance will never appear.
 
 Your instance will have all of the same properties that any of your previous instances had before. For example, typing `milleniumFalcon.x = 100;` would change the x-coordinate of the ship as you would expect.
 
@@ -219,9 +219,6 @@ FloatingButterfly
 MaleFigureSkater
 ThreeBillyGoats
 ```
-
-###Display Stack
-
 
 ##Variables and Assignment Statements
 
