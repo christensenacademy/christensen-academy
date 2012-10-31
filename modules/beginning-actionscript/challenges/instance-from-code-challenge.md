@@ -1,15 +1,20 @@
 #Instance Property Challenge
 
-* **Challenge:** Use ActionScript commands to create a frame-by-frame animation (minimum of 8 frames) of a shooting star fading into the distance (more detailed description below).
+* **Challenge:** Follow the directions below.
 * **Estimated Time:** 40 minutes
-* **Purpose:** We'll eventually be making games, and if we can figure out how to command instances on the stage to behave as we'd like them to, perhaps someday we'll be able to turn these instances in to bad guys, power ups, and so on.
+* **Purpose:** Imagine you eventually want to make a game that has a spaceship shooting a lazer each time the player presses the spacebar. This would mean that in your code you would need to create a new instance of the lazer symbol each time the user presses the spacebar. Creating new instances in code turns out to be an exceptionally useful thing to be able to do.
 
-##More Detailed Description of Challenge
+##Challenge Directions
 
-The only symbol you need is a star symbol. It should NOT have an animation in its timeline.
+1. Open the [starter file](https://github.com/christensenacademy/christensen-academy/raw/master/modules/beginning-actionscript/challenges/instance-from-code-challenge-starter.fla).
+2. Make sure it has a single layer, the Actions layer, with only a single, empty frame.
+3. Maker sure each symbol has a linkage name. If not, add good linkage names to each symbol.
+4. Add code to this empty frame that creates an instance of each of the five symbols.
+5. Make sure these five instances all get added to the display stack.
+6. Add code to place an instance in each of the four corners of the stage and one in the middle.
 
-The big idea here is that you can write ActionScript code in successive keyframes to manipulate the properties of the instance of the star symbol. The star should start out large and fully opaque on one side of the screen and finish small and somewhat transparent on the other side of the screen. In addition, it should be rotating slightly as it goes.
+##Friendly Advice
 
-**Note:** Make sure you give the instance an instance name!
+Test often. It would probably be wise to try to create just one instance at a time. This way, if you make a mistake--which most programmers do--it will be easier to find.
 
-**Note:** The star should be in its own layer, not the Actions layer. Also, the star layer whould have no keyframes, just a normal sequence of frames. It's the action layer that will need keyframes.
+Did all of your instances go EXACTLY where you wanted? Take some time to think about the relationship between the position (coordinates) of an instance and its registration point. It will be well worth the effort, I think.
