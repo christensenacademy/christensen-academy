@@ -1,4 +1,4 @@
-#Instance Property Challenge
+#Instances from Code Challenge
 
 * **Challenge:** Follow the directions below.
 * **Estimated Time:** 40 minutes
@@ -8,7 +8,7 @@
 
 ##Challenge Directions
 
-1. Open the [starter file](https://github.com/christensenacademy/christensen-academy/raw/master/modules/beginning-actionscript/challenges/instance-from-code-challenge-starter.fla).
+1. Open the [starter file](https://github.com/christensenacademy/christensen-academy/raw/master/modules/beginning-actionscript/challenges/instances-from-code-challenge-starter.fla).
 2. Make sure it has a single layer, the Actions layer, with only a single, empty frame.
 3. Maker sure each symbol has a linkage name. If not, add good linkage names to each symbol.
 4. Add code to this empty frame that creates an instance of each of the five symbols.
