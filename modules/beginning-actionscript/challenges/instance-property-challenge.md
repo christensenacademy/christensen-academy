@@ -14,3 +14,5 @@ Create a star symbol and place an instance of it on the stage, making sure to gi
 4. steadily rotate.
 
 **Note:** The star should be in its own layer, not the Actions layer. Also, the star layer should have no keyframes, just a normal sequence of frames. It's the Actions layer that will need keyframes. The goal is to animate by writing code, nothing else.
+
+**Reminder:** Make sure your instance names are in [camelCase](https://github.com/christensenacademy/christensen-academy/blob/master/modules/beginning-actionscript/reference.md#camelcase-and-uppercamelcase)

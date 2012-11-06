@@ -9,8 +9,8 @@
 * [Movie Clip Properties](#movie-clip-properties)
 * [Registration Points](#registration-points)
 * [Creating Instances from Code](#creating-instances-from-code)
+* [Variables](#variables)
 * [camelCase and UpperCamelCase](#camelcase-and-uppercamelcase)
-* [Variables and Assignment Statements](#variables-and-assignment-statements)
 * [Functions](#functions)
 * [Parameters (Arguments) of Functions](#parameters-arguments-of-functions)
 * [Returning Values from Functions](#returning-values-from-functions)
@@ -220,6 +220,60 @@ MaleFigureSkater
 ThreeBillyGoats
 ```
 
+##Variables
+Some examples of *declaring variables*:
+```java
+var score:Number; //create a variable named "score" of type "Number"
+var lives:Number;
+var coinsCollected:Number;
+var timeRemaining:Number;
+
+var player1:String; //create a variable named "player1" of type "String", which is is for storing text.
+var player2:String;
+var helpMessage:String;
+
+var badGuy:Tank; //create a variable named "badGuy" of type "Tank", where "Tank" is a linkage name for a symbol.
+var cam:Teacher;
+```
+
+Every program stores information of some kind. Think about a computer game. A game needs to store things like health, points, and the time remaining in the game. All of this information or data is stored in **variables**. When you think of variables in programming, try not to think of them in the same way as you might think of variables in math class. In math, variables represent something that is unknown. In programming, variables are like little buckets or containers that store something. Sometimes variables store numbers, but they can also store text, sounds, and other objects like instances of movie clip symbols. The reason they're called *variables* is that what they contain may *vary* or change throughout the program. For example, if you made a game in which the player tried to earn points, you would need to have a variable for keeping track of the points, and the value stored in that variable would change throughout the game.
+
+Of course, a variable doesn't store anything unless we tell it to. In the examples above, we created lots of new variables, but they haven't been *assigned* any values yet. That is, they aren't actually storing anything. Here's how we might go about *assigning values to variables*:
+
+```java
+score = 5; //assign the number 5 to the score variable.
+lives = 3;
+coinsCollected = 89;
+timeRemaining = 500;
+
+player1 = "cam"; //assign the text (string) "cam" to the player1 variable.
+player2 = "eric";
+helpMessage = "Press ESC to quit."
+
+badGuy = new Tank(); //create a new instance of the Tank symbol and assign it to the badGuy variable
+cam = new Teacher();
+```
+
+In the examples above, notice how the value on the right were assigned to the values on the left. This is very important to remember. Unlike in math, you can't switch this around. That is, writing `5 = score` makes no sense in programming. The "=" sign is actually called the *assignments operator*, and it takes the value of the expression on the right side of the "=" sign and *assigns* it to the variable on the left side of the equals sign.
+
+###Variable Types
+
+You'll notice that there are different types of variables that store different types of data. So far, you've seen variables that store numbers, text (called "strings"), and instances of movie clips. When creating a new variable, you are really *declaring* a new variable that will store a certain type of data. Here are some examples:
+
+```java
+
+```
+
+###Why are they called "strings"?
+
+There's really no good answer here. Some people thinks it makes sense to use the phrase "string of characters" because strings just store a sequence (string) of letters, numbers, spaces, and other characters that people can type on their keyboards. Personally, I think the name "string" was a bad choice and that it would have made much more sense to call these things "text". Oh well, we're stuck with what we've got. Whenever you're programming and you want to store or work with text in some way, you'll be working with *strings*.
+
+###Assignment Statements
+
+##Literals
+
+
+
 
 ##camelCase and UpperCamelCase
 ###camelCase
@@ -249,15 +303,6 @@ FlyingSquirrelWithSupermanCape
 ```
 
 **Friendly Advice:** It's a good idea to make your linkage names descriptive. If the symbol is a picture of a hammer, you should probably name it "Hammer".
-
-##Variables and Assignment Statements
-Variables can be thought of as containers that store things...
-###Variable Types
-####Strings
-####Numbers
-###Assignment Statements
-
-
 
 
 
