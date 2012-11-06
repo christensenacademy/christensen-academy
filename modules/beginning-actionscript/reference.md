@@ -9,6 +9,7 @@
 * [Movie Clip Properties](#movie-clip-properties)
 * [Registration Points](#registration-points)
 * [Creating Instances from Code](#creating-instances-from-code)
+* [camelCase and UpperCamelCase](#camelcase-and-uppercamelcase)
 * [Variables and Assignment Statements](#variables-and-assignment-statements)
 * [Functions](#functions)
 * [Parameters (Arguments) of Functions](#parameters-arguments-of-functions)
@@ -42,7 +43,7 @@ Lastly, you'll find that computer programming requires a lot of logic. Think abo
 
 ###What is ActionScript?
 
-ActionScript is the programming language Flash developers use. It was created specifically for Flash, and people don't really use it for any other purpose. It is considered a "scripting" or "interpreted" language because it requires the Flash Player to interpret it. That is, a computer without the flash player installed will not be able to use ActionScript code. This is different from many other programming languages that don't require an interpreter like the Flash Player. For example, Microsoft Word doesn't require an interpreter; it just runs on your computer. Thus, Microsoft Word was definitely not written in ActionScript or any other language that requires an interpreter, such as Python, Ruby, and so on. Most other programs you use on a daily basis are similarly not interpreted. Interestingly, Flash Programs often run in Web browsers that have the Flash Player plugin installed. Many of the online games you see on the Internet are Flash Programs.
+ActionScript is the programming language Flash developers use. It was created specifically for Flash, and people don't really use it for any other purpose. It is considered a "scripting" or "interpreted" language because it requires the Flash Player to interpret it. That is, a computer without the flash player installed will not be able to use ActionScript code. This is different from many other programming languages that don't require an interpreter like the Flash Player. For example, Microsoft Word doesn't require an interpreter; it just runs on your computer. Thus, Microsoft Word was definitely not written in ActionScript or any other language that requires an interpreter, such as Python or Ruby, which each have their own interpreters. Most other programs you use on a daily basis are similarly not interpreted. Interestingly, Flash Programs often run in Web browsers that have the Flash Player plugin installed. Many of the online games you see on the Internet are Flash Programs.
 
 In this module, you will learn ActionScript 3.0, which came after--believe it or not--ActionScript 2.0. AS3 (ActionScript 3.0) was created to improve upon AS2. One of the main differences between the two is that AS3 is "object oriented," which is something you'll learn about in another module.
 
@@ -219,30 +220,10 @@ MaleFigureSkater
 ThreeBillyGoats
 ```
 
-##Variables and Assignment Statements
-
-Variables can be thought of as containers that store things...
-
-###Variable Types
-####Strings
-####Numbers
-###Assignment Statements
-
-
-
-
-
-
-* [Functions](#functions)
-* [Parameters (Arguments) of Functions](#parameters-arguments-of-functions)
-* [Returning Values from Functions](#returning-values-from-functions)
 
 ##camelCase and UpperCamelCase
-
 ###camelCase
-
 When naming instances, variables, and functions in ActionScript, you should use what's called "camel case", or, as I like to write it, camelCase. In camelCase, there are no spaces all characters are lower case except for the first letters of words after the first. Notice how the capital letters add "humps" like a camel to the names. Here are some examples:
-
 ```
 missile
 flower
@@ -256,20 +237,34 @@ flyingSquirrelWithSupermanCape
 **Friendly Advice:** It's a good idea to make names for your instance, variable, and function names descriptive. It's a bad idea to give names that are hard to remember or confusing.
 
 ###UpperCamelCase
-
-When naming instances, variables, and functions in ActionScript, you should use what's called "camel case", or, as I like to write it, camelCase. In camelCase, there are no spaces all characters are lower case except for the first letters of words after the first. Notice how the capital letters add "humps" like a camel to the names. Here are some examples:
-
+When creating linkage names for symbols, you should follow the UpperCamelCase naming convention. Here are some examples:
 ```
-missile
-flower
-badGuy
-redHat
-smallHammer
-fryingPan
-flyingSquirrelWithSupermanCape
+Missile
+Flower
+BadGuy
+RedHat
+SmallHammer
+FryingPan
+FlyingSquirrelWithSupermanCape
 ```
 
-**Friendly Advice:** It's a good idea to make names for your instance, variable, and function names descriptive. It's a bad idea to give names that are hard to remember or confusing.
+**Friendly Advice:** It's a good idea to make your linkage names descriptive. If the symbol is a picture of a hammer, you should probably name it "Hammer".
+
+##Variables and Assignment Statements
+Variables can be thought of as containers that store things...
+###Variable Types
+####Strings
+####Numbers
+###Assignment Statements
+
+
+
+
+
+
+* [Functions](#functions)
+* [Parameters (Arguments) of Functions](#parameters-arguments-of-functions)
+* [Returning Values from Functions](#returning-values-from-functions)
 
 
 * [Code Formatting](#code-formatting)
