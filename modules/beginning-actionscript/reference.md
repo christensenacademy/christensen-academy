@@ -2,15 +2,30 @@
 
 * [Intro to ActionScript](#intro-to-actionscript)
 * [Basic Commands](#basic-commands)
+* [SWFs and Compilers](#swfs-and-compilers)
 * [Comments](#comments)
 * [Playhead Commands on Instances](#playhead-commands-on-instances)
 * [Buttons](#buttons)
 * [Movie Clip Properties](#movie-clip-properties)
+* [Registration Points](#registration-points)
+* [Creating Instances from Code](#creating-instances-from-code)
 * [Variables and Assignment Statements](#variables-and-assignment-statements)
 * [Functions](#functions)
 * [Parameters (Arguments) of Functions](#parameters-arguments-of-functions)
 * [Returning Values from Functions](#returning-values-from-functions)
 * [Code Formatting](#code-formatting)
+* [Working with Numbers](#working-with-numbers)
+* [Math Functions](#math-functions)
+* [Working with Strings](#working-with-strings)
+* [String Methods](#string-methods)
+* [Operators](#operators)
+* [If Statements](#if-statements)
+* [Events](#events)
+* [While Loops](#while-loops)
+* [For Loops](#for-loops)
+* [Timer Events](#timer-events)
+* [Frame Events](#frame-events)
+* [Review](#review)
 
 ##Intro to ActionScript
 
@@ -74,7 +89,7 @@ The commands above all tell the computer to do different things. In Flash, we ca
 
 ##SWFs and Compilers
 
-**Video:** [SWFs, Compilers, and Fixing Errors]()
+**Video:** [SWFs, Compilers, and Fixing Errors](http://www.youtube.com/watch?v=dyoRl2LikIQ)
 
 When you run your program--ctrl+enter (Windows) or command+return (Mac)--an SWF file is created that will be run by the Flash Player. When this happens, the computer "compliles" your ActionScript code. It's probably not worth it at this point to try to go into specifics here. Just realize that it is durring this process of generating an SWF file that the computer finds "[compiler errors](#compiler-errors)".
 
@@ -101,7 +116,7 @@ When animating in Flash, you've created symbols, which appear in the library. Wh
 
 1. Select an instance on the stage.
 2. Go to the Properties panel.
-3. Give the instance a name making sure not to include spaces in the name or start the name with a number. I strongly recommend following the "[camel case](#camel-case)" convention described below.
+3. Give the instance a name making sure not to include spaces in the name or start the name with a number. I strongly recommend following the "[camelCase](#camelcase)" convention described below.
 4. Use the instance name in the code to change the instance's properties, stop it from playing, and do other interesting things with it.
 
 ```java
@@ -112,22 +127,6 @@ shootingStar.gotoAndPlay(3); // tells the playhead of the instance to jump to fr
 shootingStar.stop(); // tells the playhead of the instance to stop
 shootingStar.play(); // tells the playhead of the instance to play 
 ```
-
-###Camel Case
-
-When naming instances and variables in ActionScript, you should use what's called "camel case". Basically, there are no spaces, all words are lowercase, and the only capital letters are those at the start of words that come after the first word. Here are some examples:
-
-```
-missile
-flower
-badGuy
-redHat
-smallHammer
-fryingPan
-flyingSquirrelWithSupermanCape
-```
-
-**Friendly Advice:** It's a good idea to make names for your instances and variables descriptive. It's a bad idea to give names that are hard to remember or confusing.
 
 ##Buttons
 
@@ -204,13 +203,13 @@ var milleniumFalcon:Spaceship = new Spaceship(); //Note: "milleniumFalcon" is th
 addChild(milleniumFalcon); //This line adds the instance to the "display stack"
 ```
 
-**Note:** It's pretty easy to forget the line of code where you add the instance to the display stack. Realize that if you forget this line of code, your newly created instance will never appear.
+**Note:** It's pretty easy to forget the line of code where you add the instance to the display stack. Realize that if you forget this line of code, your newly created instance will never actually appear even though you technically created it.
 
 Your instance will have all of the same properties that any of your previous instances had before. For example, typing `milleniumFalcon.x = 100;` would change the x-coordinate of the ship as you would expect.
 
 ###Why We Need Linkage
 
-First of all, I personally think that the designers of Flash would have been wise to not make the linkage name necessary, but this would have required them to enforce stricter naming conventions for the common names we give symbols. Such restrictions include things like not allowing spaces in names and not allowing names to start with numbers. Alas, because our common names for symbols are not forced to conform to these more rigid standards, we must supply a secondary name (a "linkage" name) that actually does conform to those more rigid standards. In addition to not having spaces and not starting with numbers, linkage names should be upper [camel case](#camel-case). Here are some examples:
+First of all, I personally think that the designers of Flash would have been wise to not make the linkage name necessary, but this would have required them to enforce stricter naming conventions for the common names we give symbols. Such restrictions include things like not allowing spaces in names and not allowing names to start with numbers. Alas, because our common names for symbols are not forced to conform to these more rigid standards, we must supply a secondary name (a "linkage" name) that actually does conform to those more rigid standards. In addition to not having spaces and not starting with numbers, linkage names should be "[UpperCamelCase](#uppercamelcase)". Here are some examples:
 
 ```
 Spaceship
@@ -237,4 +236,40 @@ Variables can be thought of as containers that store things...
 * [Functions](#functions)
 * [Parameters (Arguments) of Functions](#parameters-arguments-of-functions)
 * [Returning Values from Functions](#returning-values-from-functions)
+
+##camelCase and UpperCamelCase
+
+###camelCase
+
+When naming instances, variables, and functions in ActionScript, you should use what's called "camel case", or, as I like to write it, camelCase. In camelCase, there are no spaces all characters are lower case except for the first letters of words after the first. Notice how the capital letters add "humps" like a camel to the names. Here are some examples:
+
+```
+missile
+flower
+badGuy
+redHat
+smallHammer
+fryingPan
+flyingSquirrelWithSupermanCape
+```
+
+**Friendly Advice:** It's a good idea to make names for your instance, variable, and function names descriptive. It's a bad idea to give names that are hard to remember or confusing.
+
+###UpperCamelCase
+
+When naming instances, variables, and functions in ActionScript, you should use what's called "camel case", or, as I like to write it, camelCase. In camelCase, there are no spaces all characters are lower case except for the first letters of words after the first. Notice how the capital letters add "humps" like a camel to the names. Here are some examples:
+
+```
+missile
+flower
+badGuy
+redHat
+smallHammer
+fryingPan
+flyingSquirrelWithSupermanCape
+```
+
+**Friendly Advice:** It's a good idea to make names for your instance, variable, and function names descriptive. It's a bad idea to give names that are hard to remember or confusing.
+
+
 * [Code Formatting](#code-formatting)

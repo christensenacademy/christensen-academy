@@ -1,17 +1,16 @@
-#Instance Property Challenge
-
-* **Challenge:** Use ActionScript commands to create a frame-by-frame animation (minimum of 8 frames) of a shooting star fading into the distance (more detailed description below).
-* **Estimated Time:** 40 minutes
-* **Purpose:** We'll eventually be making games, and if we can figure out how to command instances on the stage to behave as we'd like them to, perhaps someday we'll be able to turn these instances in to bad guys, power ups, and so on.
-* **Video:** [Movie Clip Properties]()
+###The Shooting Star Challenge
+* **Estimated Time:** 30 minutes
+* **Purpose:** This challenge is about learning how to command instances in AS3 code. Someday, when you're trying to make a game, you'll need to command instances like bad guys, powerups, and so on, which can only be done by writing code.
 * **Reference Guide:** [Movie Clip Properties](https://github.com/christensenacademy/christensen-academy/blob/master/modules/beginning-actionscript/reference.md#movie-clip-properties)
 
-##More Detailed Description of Challenge
+###Challenge
+**Goal:** Create a frame-by-frame animation of a shooting star by writing code only.
 
-The only symbol you need is a star symbol. It should NOT have an animation in its timeline.
+Create a star symbol and place an instance of it on the stage, making sure to give it an instance name. Over the course of at least 8 frames, the star should...
 
-The big idea here is that you can write ActionScript code in successive keyframes to manipulate the properties of the instance of the star symbol. The star should start out large and fully opaque on one side of the screen and finish small and somewhat transparent on the other side of the screen. In addition, it should be rotating slightly as it goes.
+1. steadily decrease in alpha value.
+2. steadily decrease in size.
+3. steadily move across the stage.
+4. steadily rotate.
 
-**Note:** Make sure you give the instance an instance name!
-
-**Note:** The star should be in its own layer, not the Actions layer. Also, the star layer whould have no keyframes, just a normal sequence of frames. It's the action layer that will need keyframes.
+**Note:** The star should be in its own layer, not the Actions layer. Also, the star layer should have no keyframes, just a normal sequence of frames. It's the Actions layer that will need keyframes. The goal is to animate by writing code, nothing else.

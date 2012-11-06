@@ -1,21 +1,19 @@
-#Full Page Layout Challenge
-
 * **Challenge:** Achieve the result shown in the picture below. To create your column, you may use absolute positioning or a floating element. The choice is yours. Both ways will work.
 * **Estimated Time:** 70 minutes.
 
-##Images You'll Need
+###Images You'll Need
 
 ![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/abstract3.png)
 
-##Finished Page Should Look like This
+###Finished Page Should Look like This
 ![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/full-page-layout-challenge.png)
 
-###What the Picture does not Show
+####What the Picture does not Show
 
 * The div at the very bottom (i.e., "footer") is fixed in position. For such an element, you'll need to use fixed positioning. Make sure to set a width and height for this element and tell it to go to the bottom of the window.
 * The layout is a fixed, centered layout. Adjusting the width of the browser has no effect on the page other than to shrink or grow the outside margins.
 
-##Starter Code
+###Starter Code
 
 ```html
 <!DOCTYPE html>
@@ -81,7 +79,7 @@
 </html>
 ```
 
-##Friendly Advice
+###Friendly Advice
 
 * Work your way from the outside in. Add CSS to parents first, then children.
 * Test, test, test. As you code, constantly view your page in the browser so you can see how it is coming along.
