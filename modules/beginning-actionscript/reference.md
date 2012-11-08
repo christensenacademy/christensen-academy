@@ -32,29 +32,26 @@
 
 **Video:** [Intro to ActionScript](http://www.youtube.com/watch?v=N5M1Ia-5wmc)
 
-If you're navigating this module, it may very well be your first time doing any computer programming. If so, you may be wondering what exactly computer programming is and what the ActionScript 3.0 programming language is. The following is my introductory explanation. Realize, however, that really understanding what programming is requires a pretty deep understanding of how computers actually work. For that, I recommend spending time on the [computer basics module](#http://www.christensenacademy.org/index.html#computer-basics).
+If you're navigating this module, it may very well be your first time doing any computer programming. If so, you may be wondering what exactly computer programming is and what the ActionScript 3.0 programming language is. The following is a quick, introductory explanation.
 
 ###What is Computer Programming
-Computer programming is basically just telling the computer what to do. When you program, you write commands for the computer to follow. It's kind of like writing a recipie, but even more precise. There's very little room for error. The computer will always do EXACTLY what you say, and it takes your commands very literally. This leads to all sorts of bugs in computer code where the computer ends up following seemingly nonsensical instruction. Believe it or not, but it's actually possible to command the computer to do the same thing over and over again forever. It never stops; it just keeps doing the same task over and over. This bug is referred to as an infinite loop, and it happens because the computer lacks what we might call common sense. It just does what it's told, no matter what.
+Computer programming is basically just telling the computer what to do. When you program, you write commands for the computer to follow. The computer will always do EXACTLY what you say, so you'll need to be very carefull and pay really close attention to small details.
 
-The main idea behind computer programs is this: computers are good at following simple commands and executing them very, very quickly. A common computer can execute around one billion instructions (commands) in a single second--don't worry, this doesn't mean that you'll be writing billions of instructions in your computer code! Your job will be to provide good instructions that get the computer doing exactly what you want it to do.
-
-Lastly, you'll find that computer programming requires a lot of logic. Think about the programs you use on a daily basis. They need to adapt and respond to the humans using them. When you click on buttons, things happen. Whey you type on the keyboard, things happen. At some point, some programmer--or, more likely, some group of programmers--wrote code to tell the computer what to do if people click on things, type on the keyboard, and so on. This sort of thing requires programs to have logic. That is, their behavior changes based on conditions.
+Also, I should point out that programs are more than just sequences of commands. Programs use *logic*, which means that they behave differently under different circumstances. For example, whenever you click on you computer screen, a program has to decide what to do based on your click. If you click on [this link](http://www.youtube.com/watch?v=oHg5SJYRHA0)... point being, programs behave in different ways based on conditions. If you want to become a great programmer, you'll need to get ready to use lots and lots of logic.
 
 ###What is ActionScript?
 
-ActionScript is the programming language Flash developers use. It was created specifically for Flash, and people don't really use it for any other purpose. It is considered a "scripting" or "interpreted" language because it requires the Flash Player to interpret it. That is, a computer without the flash player installed will not be able to use ActionScript code. This is different from many other programming languages that don't require an interpreter like the Flash Player. For example, Microsoft Word doesn't require an interpreter; it just runs on your computer. Thus, Microsoft Word was definitely not written in ActionScript or any other language that requires an interpreter, such as Python or Ruby, which each have their own interpreters. Most other programs you use on a daily basis are similarly not interpreted. Interestingly, Flash Programs often run in Web browsers that have the Flash Player plugin installed. Many of the online games you see on the Internet are Flash Programs.
+ActionScript is the programming language for Flash. ActionScript can't be used outside of Flash, and Flash content can't be developed with any programming language but ActionScript. If you want to make games and other interactive things in Flash, then you need to learn how to program in ActionScript.
 
-In this module, you will learn ActionScript 3.0, which came after--believe it or not--ActionScript 2.0. AS3 (ActionScript 3.0) was created to improve upon AS2. One of the main differences between the two is that AS3 is "object oriented," which is something you'll learn about in another module.
+In this module, you will learn ActionScript 3.0, which came after--believe it or not--ActionScript 2.0! I mention this up front so that you make sure to always create new Flash projects using ActionScript 3.0. If you accidentally start a new project in ActionScript 2.0, things won't work.
 
-If all of that feels confusing, don't worry too much. The only way to really understand a language is to actually write programs with it. So, let's get started!
+We'll start out writing what you might call *frame script*. The idea is pretty simple; we'll be writing ActionScript code in individual frames on the timeline. We'll be creating a special layer called "Actions" that we'll use exclusively for writing our code in.
 
-###What is Frame Script?
-There are two ways to write ActionScript code in Flash. The easiest way is called *frame script*; this is what we'll be using in this module. In frame script, you associate code with individual frames on the timeline.
+![An example of the Actions Layer]()
 
-A more advanced way to write ActionScript is *class-based script*. We'll be using this method in the next module, but not this one.
+Notice the 
 
-**Note:** The difference between frame and class-based script is really inconsequential for now. For better or worse, I felt compelled to mention the basic fact up front. Feel free to forget about it until next module.
+In the next module, you'll have a chance to tackle more advanced methods of writing ActionScript that don't require you to write your code in individual frames using *frame script*, but you don't need to worry about that for now.
 
 ###What does it take to be good at programming?
 
