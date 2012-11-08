@@ -190,7 +190,7 @@ trace(blueSquare.alpha);
 
 ##Creating Instances from Code
 
-**Video:** [Creating Instances from Code]()
+**Video:** [Creating Instances from Code](http://www.youtube.com/watch?v=wRpG-OzPins)
 
 You know how you usually created instances of symbols by dragging out copies of symbols from the library? Well, you can actually just create new instances straight from the code. Here's how:
 
@@ -254,11 +254,11 @@ badGuy = new Tank(); //create a new instance of the Tank symbol and assign it to
 cam = new Teacher();
 ```
 
-In the examples above, notice how the value on the right were assigned to the values on the left. This is very important to remember. Unlike in math, you can't switch this around. That is, writing `5 = score` makes no sense in programming. The "=" sign is actually called the *assignments operator*, and it takes the value of the expression on the right side of the "=" sign and *assigns* it to the variable on the left side of the equals sign.
+In the examples above, notice how the value on the right were assigned to the values on the left. This is very important to remember. Unlike in math, you can't switch this around. That is, writing `5 = score` makes no sense in programming. The "=" sign is actually called the *assignments operator* because it takes the value of the expression on the right side of the "=" sign and *assigns* it to the variable on the left side of the equals sign.
 
 ###Variable Types
 
-You'll notice that there are different types of variables that store different types of data. So far, you've seen variables that store numbers, text (called "strings"), and instances of movie clips. When creating a new variable, you are really *declaring* a new variable that will store a certain type of data. Here are some examples:
+You'll notice that there are different types of variables that store different types of data. So far, you've seen variables that store numbers, text (called "strings"), and instances of movie clips. When creating a new variable, you are really *declaring* a new variable that will store a certain type of data. For example, `var count:Number` declares a variable named "count" of type Number. Once you have declared a variable, you can assign it values.
 
 ```java
 
