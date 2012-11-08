@@ -45,9 +45,11 @@ In this module, you will learn ActionScript 3.0, which came after--believe it or
 
 We'll start out writing what you might call *frame script*. The idea is pretty simple; we'll be writing ActionScript code in individual frames on the timeline. We'll be creating a special layer called "Actions" that we'll use exclusively for writing our code in.
 
-![An example of the Actions Layer](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/actions-layer.png)
+![An example of the Actions layer](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/actions-layer.png)
 
-Notice the 
+Notice the "a" symoble in the keyframes of the Actions layer. This symbol lets you know that code has been written for that frame. To see and edit the code, right-click and go to Actions to open the Actions panel, which will display the code for that frame.
+
+![An example fo the Actions panel](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/actions-panel.png)
 
 In the next module, you'll have a chance to tackle more advanced methods of writing ActionScript that don't require you to write your code in individual frames using *frame script*, but you don't need to worry about that for now.
 
@@ -56,12 +58,10 @@ In the next module, you'll have a chance to tackle more advanced methods of writ
 * **Perseverence:** Everyone encounters challenges when programming, even very talented and experienced programmers do. Your success as a programmer has everything to do with your willingness to tackle difficult problems and work through real challenges. I believe Albert Einstein once said, "It's not that I'm so smart, it's just that I stay with problems longer." The same is true, I think, of all really good programmers. Becomming an expert won't just magically happen. It takes hard work, dedication, and above all, perseverence in the face of failure. This module is just an introduction to programming, but sometimes starting out can be the hardest part.
 * **Joy of Problem Solving:** I highly doubt anyone can become a really good programmer without deeply enjoying solving difficult problems that stretch their abilities to the max. The longer you stick with a problem before getting it, the greater the thrill when you finally do.
 * **Play and Curiosity:** Great programmers love playing around with code. As they learn, they try new things out on hunches just to see what might work. Even when they get something right, they play around with it a bit more until it stops working again, always learning through experimentation. This is similar to how babies learn to stand and walk. They fall over and over and over again. Eventually, when they finally get it, they don't stop. They keep going just a little bit more until they fall again, learning every step (literaly) of the way.
-* **Logic:** The types of problems you'll encounter in programming are very logical in nature. There's a reason for everything, and if you ever feel confused, it's just because you haven't understood things thoroughly enough yet. There's a logic to everything, and your goal is to find it.
+* **Logic:** The types of problems you'll encounter in programming are very logical in nature. The type of logic you'll encountering doesn't come naturally to most people, but the more you practice, the easier it becomes. Have patience and take the time to think logically and reason through different scenarios until you discover the answer.
 * **Creativity:** Programming is an exceptionally creative process. Programmers enjoy designing and building new things.
 
 ##Basic Commands
-
-**Video:** [Basic Commands](http://www.youtube.com/watch?v=1LrtSkcqcZE)
 
 ```java
 /* Pay close attention to small details like spaces, capital letters, and semicolons.*/
