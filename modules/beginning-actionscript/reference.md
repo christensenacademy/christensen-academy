@@ -1,9 +1,9 @@
 #Reference Guide for Beginning ActionScript (FIRST DRAFT)
 
 * [Intro to ActionScript](#intro-to-actionscript)
+* [Comments](#comments)
 * [Basic Commands](#basic-commands)
 * [SWFs and Compilers](#swfs-and-compilers)
-* [Comments](#comments)
 * [Playhead Commands on Instances](#playhead-commands-on-instances)
 * [Buttons](#buttons)
 * [Movie Clip Properties](#movie-clip-properties)
@@ -47,41 +47,98 @@ We'll start out writing what you might call *frame script*. The idea is pretty s
 
 ![An example of the Actions layer](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/actions-layer.png)
 
-Notice the "a" symoble in the keyframes of the Actions layer. This symbol lets you know that code has been written for that frame. To see and edit the code, right-click and go to Actions to open the Actions panel, which will display the code for that frame.
+Notice the "a" symobl in the keyframes of the Actions layer. This symbol lets you know that code has been written for that frame. To see and edit the code, right-click and go to Actions to open the Actions panel, which will display the code for that frame.
 
-![An example fo the Actions panel](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/actions-panel.png)
+![An example of the Actions panel](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/actions-panel.png)
 
-In the next module, you'll have a chance to tackle more advanced methods of writing ActionScript that don't require you to write your code in individual frames using *frame script*, but you don't need to worry about that for now.
+**Side Note:** The Actions panel is an example of what's known as a *text editor*. When writing ActionScript, you'll use the Actions panel, but if you someday write computer code in another language, you'll end up using a different text editor. Unlike Word Processors, such as Microsoft Word, text editors only allow you to edit *plain text*, which is what computer programs are written in.
 
 ###What does it take to be good at programming?
 
-* **Perseverence:** Everyone encounters challenges when programming, even very talented and experienced programmers do. Your success as a programmer has everything to do with your willingness to tackle difficult problems and work through real challenges. I believe Albert Einstein once said, "It's not that I'm so smart, it's just that I stay with problems longer." The same is true, I think, of all really good programmers. Becomming an expert won't just magically happen. It takes hard work, dedication, and above all, perseverence in the face of failure. This module is just an introduction to programming, but sometimes starting out can be the hardest part.
+* **Perseverence:** Everyone encounters challenges when programming. Even very talented and experienced programmers need to overcome challenges on a daily basis. Your success as a programmer has everything to do with your willingness to tackle difficult problems and work through them til completion. Albert Einstein once said, "It's not that I'm so smart, it's just that I stay with problems longer." The same is true, I think, of all really good programmers. Becomming an expert won't just magically happen. It takes hard work, dedication, and above all, perseverence in the face of failure. This module is just an introduction to programming, but sometimes just starting out can be the hardest part.
 * **Joy of Problem Solving:** I highly doubt anyone can become a really good programmer without deeply enjoying solving difficult problems that stretch their abilities to the max. The longer you stick with a problem before getting it, the greater the thrill when you finally do.
-* **Play and Curiosity:** Great programmers love playing around with code. As they learn, they try new things out on hunches just to see what might work. Even when they get something right, they play around with it a bit more until it stops working again, always learning through experimentation. This is similar to how babies learn to stand and walk. They fall over and over and over again. Eventually, when they finally get it, they don't stop. They keep going just a little bit more until they fall again, learning every step (literaly) of the way.
+* **Play and Curiosity:** Great programmers love playing around with code. As they learn, they try new things out on hunches just to see what might work. Even when they get something right, they play around with it a bit more just to see what happens. This is similar to how babies learn to stand and walk. They fall down over and over and over again. Eventually, when they finally get it, they don't stop. They keep going just a little bit more until they fall again. They learn something new every step (literaly) of the way. Their curiousity is never satisfied. If it were, people would never learn to run.
 * **Logic:** The types of problems you'll encounter in programming are very logical in nature. The type of logic you'll encountering doesn't come naturally to most people, but the more you practice, the easier it becomes. Have patience and take the time to think logically and reason through different scenarios until you discover the answer.
 * **Creativity:** Programming is an exceptionally creative process. Programmers enjoy designing and building new things.
 
-##Basic Commands
+##Comments
+
+All programming languages have a way to write *comments*. Comments are not actual code. They're just notes programmers leave themselves and each other to explain the code.
+
+Here is an example:
 
 ```java
-/* Pay close attention to small details like spaces, capital letters, and semicolons.*/
-
-stop(); /* stops the playhead in the current timeline */
-play(); /* starts a stopped playhead in the current timeline */
-gotoAndPlay(56); /* commands the playhead to jump to the frame whose number is in parenthesis */
-trace("Hello World"); /* writes a message to the Output panel */
+stop(); //this is a comment
 ```
 
-**Note:** These commands are often referred to as "statements" by programmers. Notice how each statement ends with a semicolon.
+In the example above, `run();` was an actual piece of code, while `//this is a comment` was a comment. Of course, normally the comment would actually say something useful about the code. The following is a more realistic example:
 
-The commands above all tell the computer to do different things. In Flash, we can write commands like these inside of frames. Here's how:
+```java
+stop(): // this command stops the playhead
+```
 
-1. Create a new layer called "actions". You'll use this layer to hold ALL of your ActionScript code.
+In ActionScript, comments can be written in two ways:
+
+```java
+/* This comment can span
+multiple lines */
+
+// This comment must stay on this line
+```
+
+####Should I write lots of comments?
+Having lots of comments isn't always good because they clutter up the rest of the code. Most teachers encourage novice programmers to write lots of comments. I don't necessarily agree. My pragmatic advice: do what works for you. Your focus should be on learning programming. If you love writing comments in your code to make it more clear, then go for it. Otherwise, don't worry about writing many comments early on.
+
+I'll be writing lots of comments in my examples throughout this document because I'm trying to help you learn. I normally would write comments much less frequently.
+
+
+
+
+
+
+
+##Basic Commands
+
+####Adding ActionScript to a Frame
+In Flash, we write ActionScript code inside of frames. Here's how:
+
+![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/adding-actionscript-to-a-frame.png)
+
+1. Create a new layer called "Actions". You'll use this layer to hold **all** of your ActionScript code.
 2. Add a keyframe on this layer where you'd like to put some code.
 3. Right click on the keyframe and select "Actions" to open the Actions panel. Note: wherever you right click is where your code will end up, so be careful. If you don't right click on a keyframe, the code will be inserted in the nearest keyframe to the left of where you clicked.
-4. Type the commands you with the computer to follow.
+4. Type the commands you want the computer to follow.
 
-**Key Idea:** The computer executes (follows) your commands when the playhead gets to the frame you inseted them on. If you put more than one command in a single frame, both will execute, and they will do so in order from top to bottom. It's important to understand that your commands are executed one after the other, not all at once. Computer programs follow a precise logic, and the order of your commands will be very important later on.
+#####Editing ActionScript on an Existing Frame
+Right-click on the frame and go to Actions or, if the Actions panel is already open, find the correct frame on the left side of hte panel.
+
+![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/editing-existing-actionscript.png)
+
+####Some Examples
+```java
+// Pay close attention to small details like spaces, capital letters, and semicolons.*/
+
+stop(); // stops the playhead in the current timeline
+play(); // starts a stopped playhead in the current timeline
+gotoAndPlay(56); // commands the playhead to jump to the frame whose number is in parenthesis
+trace("Hello World"); // writes a message to the Output panel
+```
+
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/basic-commands.fla) to see if you can figure out what the code is doing.
+
+
+
+Try adding `stop();` to one of your frames then test your program (ctrl+enter on PC and command+return on Mac)
+
+####Code executes (runs) line by line
+```java
+trace("me first");
+trace("then me");
+trace("I'm last");
+```
+
+####Code for each
+
 
 ##SWFs and Compilers
 
@@ -95,14 +152,6 @@ Whe you make a mistake writing code, you'll get a compiler error. These errors m
 
 **Friendly Advice:** Whenever you need to fix an error--that is, debug your code--take the time to try to fully understand your mistake. Every error you make is a learning opportunity. If you take full advantage of these learning opportunities, you'll find much more success farther down the road.
 
-##Comments
-
-**Video:** [Comments](http://www.youtube.com/watch?v=OmHvHoWYjJM)
-
-Comments are not commands for the computer to follow. In fact, the computer completely ignores them. Comments are intended for programmers' eyes only. They are used most often by programmers to leave each other or themselves useful notes about the code. In ActionScript, comments can be written in two ways:
-
-1. * **Single Line Comment:** Type `//` followed by your comment onto a single line of code.
-2. * **Multiple Line Comment:** Type `/*` followed by your comment, which can be spread across multiple lines, followed by `*/` to end the comment.
 
 ##Playhead Commands on Instances
 
