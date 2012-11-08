@@ -30,8 +30,6 @@
 
 ##Intro to ActionScript
 
-**Video:** [Intro to ActionScript](http://www.youtube.com/watch?v=N5M1Ia-5wmc)
-
 If you're navigating this module, it may very well be your first time doing any computer programming. If so, you may be wondering what exactly computer programming is and what the ActionScript 3.0 programming language is. The following is a quick, introductory explanation.
 
 ###What is Computer Programming
