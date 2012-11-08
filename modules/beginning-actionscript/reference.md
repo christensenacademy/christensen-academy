@@ -45,7 +45,7 @@ In this module, you will learn ActionScript 3.0, which came after--believe it or
 
 We'll start out writing what you might call *frame script*. The idea is pretty simple; we'll be writing ActionScript code in individual frames on the timeline. We'll be creating a special layer called "Actions" that we'll use exclusively for writing our code in.
 
-![An example of the Actions Layer]()
+![An example of the Actions Layer](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/actions-layer.png)
 
 Notice the 
 
