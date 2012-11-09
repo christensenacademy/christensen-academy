@@ -169,7 +169,7 @@ Programmers often refer to runtime and logic errors as "bugs". Debugging code is
 
 ##Variables
 
-Every program stores information of some kind. Think about a computer game. A game needs to store things like health, points, and the time remaining in the game. All of this information or data is stored in **variables**. When you think of variables in programming, try not to think of them in the same way that you might think of variables in math class. In math, variables represent something that is unknown. In programming, variables are like little buckets or containers that store something. Sometimes variables store numbers, but they can also store text, sounds, and other objects like instances of movie clip symbols.
+Every program stores information of some kind. Think about a computer game. A game needs to store things like health, points, and the names of the players in the game. All of this information or data is stored in **variables**. When you think of variables in programming, try not to think of them in the same way that you might think of variables in math class. In math, variables represent something that is unknown. In programming, variables are like little buckets or containers that store something. Sometimes variables store numbers, but they can also store text (called "strings"), sounds, and other objects like instances of movie clip symbols.
 
 In ActionScript 3.0, you can *declare* (i.e., make) new variables by typeing `var` followed by the name you want to give to the variable, a colon, and the type of data you want to store in the variable.
 
@@ -208,9 +208,17 @@ cam = new Teacher();
 
 In the examples above, notice how the values on the right were assigned to the variables on the left. This is very important to remember. Unlike in math, you can't switch this around. That is, writing `5 = score` makes no sense in programming. The "=" sign is actually called the *assignments operator* because it takes the value of the expression on the right side of the "=" sign and *assigns* it to the variable on the left side of the equals sign.
 
+It should also be noted that you can combine variable declaration and assignment onto a single line of code like this:
+
+```java
+var player1:Number = "Cam";
+```
+
+####Why are they called "Strings"?
+There's really no good answers here. Some people thinks it makes sense to use the phrase "string of characters" because strings just store a sequence (string) of letters, numbers, spaces, and other characters that people can type on their keyboards. Personally, I think the name "string" was a bad choice and that it would have made much more sense to call these things "text". Oh well, we're stuck with what we've got. Whenever you're programming and you want to store or work with text in some way, you'll be working with *strings*.
+
 ####Naming Variables
 When naming variables, you should use [camelCase](#camelcase).
-
 
 ###Give it a try!
 Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/variable-declaration-and-assignment.fla) to help you understand how variables work.
@@ -223,7 +231,7 @@ Consider the following example:
 score = 3;
 ```
 
-The variable named "score" has a type of "Number", which means that is can only be used to store numbers like 3, 5, 2.74, and -553.89222. When we write numbers like these directly in our code, we call them *number literals*. Here are some examples:
+The variable named "score" has a type of "Number", which means that is can only be used to store numbers like 3, 5, 2.74, and -553.89222. When we write numbers like these directly in our code, we call them *number literals*. Using the word "literal" is really just a fancy piece of terminology, but I think it's a helpful one. If I just said "number" and not "number literal", I might be talking about a variable or a literal in the code. Here are some more examples of number literals:
 
 ```java
 //notice that we don't use commas in large numbers
@@ -233,21 +241,45 @@ The variable named "score" has a type of "Number", which means that is can only 
 -3.14
 ```
 
-Just like there are number literals, there are *string literals*, which are used for text. Here are some examples:
+Just like there are number literals, there are *string literals*, which are used for text. Again, this may sound like overly fancy terminology, but I think it is helpful to call these things "string literals" instead of just "strings" because it helps clarify what we're talking about. Here are some examples:
 
 ```java
 "Hello World"
 "This is a string!!!"
-"This is also a string!"
-"We can also put numbers in strings: 89897948327423"
+"This is also a string."
+"We can also put numbers and other symbols in strings: 898&*(*@#$979423"
 "89" //note: this is not the same as the number literal 89
 ```
 
-####Why are they called "Strings"?
-There's really no good answers here. Some people thinks it makes sense to use the phrase "string of characters" because strings just store a sequence (string) of letters, numbers, spaces, and other characters that people can type on their keyboards. Personally, I think the name "string" was a bad choice and that it would have made much more sense to call these things "text". Oh well, we're stuck with what we've got. Whenever you're programming and you want to store or work with text in some way, you'll be working with *strings*.
+Hmmmm.... but how do you put a quote symbol inside of a string? Very interesting...
 
+###Some Math
+Try these:
+```java
+var pointsPossible:Number = 20;
+var questionsMissed:Number = 3;
+var pointsEarned:Number = pointsPossible - questionsMissed;
+var percentage:Number = pointsEarned/pointsPossible;
+trace(percentage);
 
+var score1:Number = 44.6;
+var score2:Number = 45.9;
+var score3:Number = 42.1;
+var average:Number = (score1 + score2 + score3)/3;
+trace(average);
+```
 
+###Concatenation
+When working with strings, "+" has a whole new meaning. Instead of adding numbers together, it "concatenates" strings, which is a fancy word that just means the strings join together.
+
+```java
+var name1:String = "Cam";
+var name2:String = "Eric";
+var newMessage:String = name1 + " is " + name2 + "'s younger brother."
+trace(newMessage);
+```
+
+**Explore:** What happens when you put a "+" sign in between a number and a string? Using more technical language, what does the *expression* `"Points: " + points` *evaluate* to (assuming that points is a variable of type Number)?
 
 ##Playhead Commands on Instances
 
