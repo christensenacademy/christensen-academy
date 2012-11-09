@@ -38,7 +38,7 @@ If you're navigating this module, it may very well be your first time doing any 
 ###What is Computer Programming?
 Computer programming is basically just telling the computer what to do. When you program, you write commands for the computer to follow. The computer will always do EXACTLY what you say, so you'll need to be very carefull and pay really close attention to small details.
 
-Also, I should point out that programs are more than just sequences of commands. Programs use *logic*, which means that they behave differently under different circumstances. For example, whenever you click on you computer screen, the computer program you're using has to decide what to do based on your click. If you click on [this link](http://www.youtube.com/watch?v=oHg5SJYRHA0)... point being, programs behave in different ways based on conditions. If you want to become a great programmer, you'll need to get ready to use lots and lots of logic.
+Also, I should point out that programs are more than just sequences of commands. Programs use *logic*. For example, whenever you click on you computer screen, the computer program you're using has to decide what to do based on your click. If you click on [this link](http://www.youtube.com/watch?v=oHg5SJYRHA0)... point being, programs behave in different ways based on conditions, such as what the user clicked on. If you want to become a great programmer, you'll need to get ready to use lots of logic.
 
 ###What is ActionScript?
 
@@ -60,8 +60,8 @@ Notice the "a" symobl in the keyframes of the Actions layer. This symbol lets yo
 
 * **Perseverence:** Everyone encounters challenges when programming. Your success as a programmer has everything to do with your willingness to tackle difficult problems and work through them til completion. This takes time. You may encounter problems that stump you for 30 minutes, an hour, a day, and even longer! Albert Einstein once said, "It's not that I'm so smart, it's just that I stay with problems longer." The same is true, I think, of all really good programmers. Becomming an expert won't just magically happen. It takes hard work, dedication, and above all, perseverence in the face of failure. This module is just an introduction to programming, but sometimes just starting out can be the hardest part. Stick with it, and you'll succeed.
 * **Joy of Problem Solving:** I highly doubt anyone can become a really good programmer without deeply enjoying solving difficult problems that stretch their abilities to the max. The longer you stick with a problem before getting it, the greater the thrill you'll have and the deeper your learning will be.
-* **Play and Curiosity:** Great programmers love playing around with code. As they learn, they try new things out on hunches just to see what might work. Even when they get something right, they play around with it a bit more just to see what happens. This is similar to how babies learn to stand and walk. Babies fall down over and over again as they try to stand. Eventually, when they finally get it, they don't stop; instead, they try to walk, which inevitably leads to more falling. Yet, they keep at it, driven by some strange playful curiosity about the world around them. Never satisfied with their progress, they press on, eventually learning to walk and eventually run. This, I think, is the way to approach learning programming--with a playful and unquenchable curiosity.
-* **Logic:** The types of problems you'll encounter in programming are very logical in nature. The type of logic you'll encountering doesn't come naturally to most people, but the more you practice, the easier it becomes. Have patience and take the time to think logically and reason through different scenarios until you discover the answer. You'll get better at it as you go, but only if you invest the time and energy to really *think*.
+* **Play and Curiosity:** Great programmers love playing around with code. As they learn, they try new things out on hunches just to see what might work. Even when they get something right, they play around with it a bit more just to see what happens. This is similar to how babies learn to stand and walk. Babies fall down over and over again as they try to stand. Eventually, when they finally get it, they don't stop; instead, they try to walk, which inevitably leads to more falling. Yet, they keep at it, driven by some strange playful curiosity about the world around them. Never satisfied with their progress, they press on, eventually learning to walk and even run. This, I think, is the way to approach learning programming--with a playful and unquenchable curiosity.
+* **Logic:** The types of problems you'll encounter in programming are very logical in nature. The type of logic you'll encounter doesn't come naturally to most people, but the more you practice, the easier it becomes. Have patience and take the time to think logically and reason through different scenarios until you discover the answer. You'll get better at it as you go, but only if you invest the time and energy to really *think*.
 * **Creativity:** Programming is an exceptionally creative process. Programmers enjoy designing and building new things. If writing computer programs were something a routine and mechanical, computers could probably write their own programs.
 
 ##Comments
@@ -90,9 +90,9 @@ multiple lines */
 ```
 
 ####Should I write lots of comments?
-Having lots of comments isn't always good because they clutter up the rest of the code. Most teachers encourage novice programmers to write lots of comments. I don't necessarily agree. My pragmatic advice: do what works for you. Your focus should be on learning programming. If you love writing comments in your code to make it more clear, then go for it. Otherwise, don't worry about writing many comments early on.
+Having lots of comments isn't always good because they clutter up the rest of the code. Most teachers encourage novice programmers to write lots of comments. I don't necessarily agree. My pragmatic advice: do what works for you. Your focus should be on learning programming. If you love writing comments in your code to make things more clear, then go for it. Otherwise, don't worry about writing many comments early on.
 
-I'll be writing lots of comments in my examples throughout this document because I'm trying to help you learn. I normally would write comments much less frequently.
+I'll be writing lots of comments in my examples throughout this document because I'm trying to help you learn. I normally would not write quite so many comments.
 
 
 
@@ -109,13 +109,13 @@ In Flash, we write ActionScript code inside of frames. Here's how:
 
 1. Create a new layer called "Actions". You'll use this layer to hold **all** of your ActionScript code.
 2. Add a keyframe on this layer where you'd like to put some code.
-3. Right click on the keyframe and select "Actions" to open the Actions panel. Note: wherever you right click is where your code will end up, so be careful. If you don't right click on a keyframe, the code will be inserted in the nearest keyframe to the left of where you clicked.
+3. Right click on the keyframe and select "Actions" to open the Actions panel. **Note:** Wherever you right-click is where your code will end up, so be careful. If you don't right-click on a keyframe, the code will be inserted in the nearest keyframe to the left of where you clicked.
 4. Type the commands you want the computer to follow.
 
 **Tip:** Use F9 on the keyboard to open the ActionsPanel more quickly.
 
 #####Editing ActionScript on an Existing Frame
-Right-click on the frame and go to Actions or, if the Actions panel is already open, find the correct frame on the left side of hte panel.
+Right-click on the frame and go to Actions or, if the Actions panel is already open, you can find the correct frame on the left side of the panel, which is easier, I think.
 
 ![](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/editing-existing-actionscript.png)
 
@@ -132,15 +132,6 @@ trace("Hello World"); // writes a message to the Output panel
 ####Give It a Try
 Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/basic-commands.fla) to see if you can figure out what the code is doing. To test the program press ctrl+enter on PC or command+return on Mac. Look at the code for each frame. Try changing up some of the commands and predict the results.
 
-#####Code executes (runs) line by line
-```java
-trace("me first");
-trace("then me");
-trace("I'm last");
-```
-
-#####Code executes frame by frame
-The moment the playhead moves to a new frame, the code for that frame is executed.
 
 
 
