@@ -161,14 +161,15 @@ Some errors aren't caught at "compile time" and instead appear during "run time"
 The last type of error is a logic error. When your program has a logic error, it runs without compiler or runtime errors, but it doesn't do what it's supposed to. These can be the most difficult errors to fix because Flash won't give you any hints or even tell you that an error exists. If you play computer games, you may be familiar with logic errors already; perhaps you know them as *glitches*.
 
 ####Bugs
-Programmers often refer to runtime and logic errors as "bugs". Debugging code is a skill all programmers need to develop.
+Programmers often refer to runtime and logic errors as "bugs". Debugging code is a skill all programmers naturally develop as they continue writing programs.
 
 
 
 
 
 ##Variables
-Every program stores information of some kind. Think about a computer game. A game needs to store things like health, points, and the time remaining in the game. All of this information or data is stored in **variables**. When you think of variables in programming, try not to think of them in the same way as you might think of variables in math class. In math, variables represent something that is unknown. In programming, variables are like little buckets or containers that store something. Sometimes variables store numbers, but they can also store text, sounds, and other objects like instances of movie clip symbols.
+
+Every program stores information of some kind. Think about a computer game. A game needs to store things like health, points, and the time remaining in the game. All of this information or data is stored in **variables**. When you think of variables in programming, try not to think of them in the same way that you might think of variables in math class. In math, variables represent something that is unknown. In programming, variables are like little buckets or containers that store something. Sometimes variables store numbers, but they can also store text, sounds, and other objects like instances of movie clip symbols.
 
 In ActionScript 3.0, you can *declare* (i.e., make) new variables by typeing `var` followed by the name you want to give to the variable, a colon, and the type of data you want to store in the variable.
 
@@ -208,7 +209,7 @@ cam = new Teacher();
 In the examples above, notice how the values on the right were assigned to the variables on the left. This is very important to remember. Unlike in math, you can't switch this around. That is, writing `5 = score` makes no sense in programming. The "=" sign is actually called the *assignments operator* because it takes the value of the expression on the right side of the "=" sign and *assigns* it to the variable on the left side of the equals sign.
 
 ####Give it a try!
-Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/basic-commands.fla) to help you understand how variables work.
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/variable-declaration-and-assignment.fla) to help you understand how variables work.
 
 ###Literals
 Consider the following example:
