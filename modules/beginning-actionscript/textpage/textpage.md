@@ -1,4 +1,6 @@
-#Reference Guide for Beginning ActionScript (FIRST DRAFT)
+#Beginning ActionScript
+###by Cameron Christensen
+####2012
 
 * [Intro to ActionScript](#intro-to-actionscript)
 * [Comments](#comments)
