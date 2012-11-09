@@ -3,7 +3,7 @@
 * [Intro to ActionScript](#intro-to-actionscript)
 * [Comments](#comments)
 * [Basic Commands](#basic-commands)
-* [SWFs and Compilers](#swfs-and-compilers)
+* [Fixing Errors](#fixing-errors)
 * [Playhead Commands on Instances](#playhead-commands-on-instances)
 * [Buttons](#buttons)
 * [Movie Clip Properties](#movie-clip-properties)
@@ -45,11 +45,11 @@ In this module, you will learn ActionScript 3.0, which came after--believe it or
 
 We'll start out writing what you might call *frame script*. The idea is pretty simple; we'll be writing ActionScript code in individual frames on the timeline. We'll be creating a special layer called "Actions" that we'll use exclusively for writing our code in.
 
-![An example of the Actions layer](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/actions-layer.png)
+![An example of the Actions layer](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/actions-layer.png)
 
 Notice the "a" symobl in the keyframes of the Actions layer. This symbol lets you know that code has been written for that frame. To see and edit the code, right-click and go to Actions to open the Actions panel, which will display the code for that frame.
 
-![An example of the Actions panel](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/actions-panel.png)
+![An example of the Actions panel](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/actions-panel.png)
 
 **Side Note:** The Actions panel is an example of what's known as a *text editor*. When writing ActionScript, you'll use the Actions panel, but if you someday write computer code in another language, you'll end up using a different text editor. Unlike Word Processors, such as Microsoft Word, text editors only allow you to edit *plain text*, which is what computer programs are written in.
 
@@ -102,7 +102,7 @@ I'll be writing lots of comments in my examples throughout this document because
 ####Adding ActionScript to a Frame
 In Flash, we write ActionScript code inside of frames. Here's how:
 
-![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/adding-actionscript-to-a-frame.png)
+![](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/adding-actionscript-to-a-frame.png)
 
 1. Create a new layer called "Actions". You'll use this layer to hold **all** of your ActionScript code.
 2. Add a keyframe on this layer where you'd like to put some code.
@@ -112,9 +112,9 @@ In Flash, we write ActionScript code inside of frames. Here's how:
 #####Editing ActionScript on an Existing Frame
 Right-click on the frame and go to Actions or, if the Actions panel is already open, find the correct frame on the left side of hte panel.
 
-![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/beginning-actionscript/editing-existing-actionscript.png)
+![](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/editing-existing-actionscript.png)
 
-####Some Examples
+####Some Examples of Basic Commands
 ```java
 // Pay close attention to small details like spaces, capital letters, and semicolons.*/
 
@@ -124,34 +124,43 @@ gotoAndPlay(56); // commands the playhead to jump to the frame whose number is i
 trace("Hello World"); // writes a message to the Output panel
 ```
 
-Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/basic-commands.fla) to see if you can figure out what the code is doing.
+####Give It a Try
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/basic-commands.fla) to see if you can figure out what the code is doing. To test the program press ctrl+enter on PC or command+return on Mac. Look at the code for each frame. Try chaning up some of the commands and predict the results.
 
-
-
-Try adding `stop();` to one of your frames then test your program (ctrl+enter on PC and command+return on Mac)
-
-####Code executes (runs) line by line
+#####Code executes (runs) line by line
 ```java
 trace("me first");
 trace("then me");
 trace("I'm last");
 ```
 
-####Code for each
+#####Code executes frame by frame
+The moment the playhead moves to a new frame, the code for that frame is executed.
 
 
-##SWFs and Compilers
 
-**Video:** [SWFs, Compilers, and Fixing Errors](http://www.youtube.com/watch?v=dyoRl2LikIQ)
+##Fixing Errors
+*"Everybody makes mistakes. Everybody has those days." --Miley Cyrus
 
-When you run your program--ctrl+enter (Windows) or command+return (Mac)--an SWF file is created that will be run by the Flash Player. When this happens, the computer "compliles" your ActionScript code. It's probably not worth it at this point to try to go into specifics here. Just realize that it is durring this process of generating an SWF file that the computer finds "[compiler errors](#compiler-errors)".
+####Compiler Errors
+When you run your program--ctrl+enter (Windows) or command+return (Mac)--your ActionScript code gets *compiled* and an SWF file is generated. What exactly "compiling" means is somewhat irrelevant right now. Just realize that Flash attempts to find *compiler errors* before your program actually runs. These errors will be shown to you in the Compiler Errors panel.
 
-###Compiler Errors
+![An example of the Actions layer](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/compiler-error.png)
 
-Whe you make a mistake writing code, you'll get a compiler error. These errors mean your program won't work, at least not completely correctly, so it's absolutely essential to fix them. These errors will appear in the Compiler Errors panel where the timeline usually displays. Each error will provide a short description you should read to try to understand the error. Then, **double click on the error to see it in the Actions panel** where you can try to fix it.
+**Key Idea:** Compiler errors mean your program won't work, at least not completely correctly, so it's absolutely essential to fix them. I find it very annoying that Flash tries to run your program even though there are errors. It gives you a false sense of things actually work. Don't be tricked, you must **fix all compiler errors before doing anything elese**.
 
-**Friendly Advice:** Whenever you need to fix an error--that is, debug your code--take the time to try to fully understand your mistake. Every error you make is a learning opportunity. If you take full advantage of these learning opportunities, you'll find much more success farther down the road.
+Each compiler error will provide a short description you should read to try to understand the error. Then, **double click on the error to see it in the Actions panel** where you can try to fix it.
 
+####Friendly Advice
+Whenever you need to fix an error--that is, debug your code--take the time to try to fully understand your mistake. Every error you make is a learning opportunity. If you take full advantage of these learning opportunities, you'll find much more success farther down the road.
+
+####Runtime Errors
+At onle
+
+![An example of the Actions layer](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/runtime-error.png)
+
+####Logic Errors
+The last type of error is a logic error. When your program has a logic error, it runs without compiler or runtime errors, but it doesn't do what it's supposed to. These can be the most difficult errors to fix because Flash won't give you any hints.
 
 ##Playhead Commands on Instances
 
