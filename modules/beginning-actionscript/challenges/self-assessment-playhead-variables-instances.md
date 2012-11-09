@@ -20,6 +20,7 @@ Answer the following questions to the best of your ability. Then, watch the solu
 1. How would you declare a new String variable named myString then assign it the value "Hello World"?
 1. Give three examples of String literals.
 1. Give three exmaples of Number literals.
+1. How is the equals sign different in programming than it is in math?
 1. How do you use code snippets to make a clickable button?
 
 ###Solution Video

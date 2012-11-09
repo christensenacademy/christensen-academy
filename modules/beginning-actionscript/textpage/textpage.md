@@ -208,7 +208,11 @@ cam = new Teacher();
 
 In the examples above, notice how the values on the right were assigned to the variables on the left. This is very important to remember. Unlike in math, you can't switch this around. That is, writing `5 = score` makes no sense in programming. The "=" sign is actually called the *assignments operator* because it takes the value of the expression on the right side of the "=" sign and *assigns* it to the variable on the left side of the equals sign.
 
-####Give it a try!
+####Naming Variables
+When naming variables, you should use [camelCase](#camelcase).
+
+
+###Give it a try!
 Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/variable-declaration-and-assignment.fla) to help you understand how variables work.
 
 ###Literals
@@ -219,22 +223,28 @@ Consider the following example:
 score = 3;
 ```
 
-The variable named "score" has a type of "Number", which means that is can only be used to store numbers like 3, 5, 2.74, and -553.89222. Interestingly
+The variable named "score" has a type of "Number", which means that is can only be used to store numbers like 3, 5, 2.74, and -553.89222. When we write numbers like these directly in our code, we call them *number literals*. Here are some examples:
 
-###Numbers
+```java
+//notice that we don't use commas in large numbers
+5
+32592
+3.14
+-3.14
+```
 
-###Strings
+Just like there are number literals, there are *string literals*, which are used for text. Here are some examples:
 
+```java
+"Hello World"
+"This is a string!!!"
+"This is also a string!"
+"We can also put numbers in strings: 89897948327423"
+"89" //note: this is not the same as the number literal 89
+```
 
-There's really no good answer here. Some people thinks it makes sense to use the phrase "string of characters" because strings just store a sequence (string) of letters, numbers, spaces, and other characters that people can type on their keyboards. Personally, I think the name "string" was a bad choice and that it would have made much more sense to call these things "text". Oh well, we're stuck with what we've got. Whenever you're programming and you want to store or work with text in some way, you'll be working with *strings*.
-
-###Assignment Statements
-
-##Literals
-
-
-
-
+####Why are they called "Strings"?
+There's really no good answers here. Some people thinks it makes sense to use the phrase "string of characters" because strings just store a sequence (string) of letters, numbers, spaces, and other characters that people can type on their keyboards. Personally, I think the name "string" was a bad choice and that it would have made much more sense to call these things "text". Oh well, we're stuck with what we've got. Whenever you're programming and you want to store or work with text in some way, you'll be working with *strings*.
 
 
 
@@ -275,8 +285,6 @@ No matter whether you have an instance of a button symbol or a movie clip symbol
 
 ###Stop, Play, and Restart Buttons
 
-**Video:** [Stop, Play, and Restart Buttons](http://www.youtube.com/watch?v=6To3XOAyY9A)
-
 Once you've used code snippets, add code to control the playhead. Here's an example of what your code might look like for a restart button:
 
 ```java
@@ -290,8 +298,6 @@ function fl_MouseClickHandler(event:MouseEvent):void
 ```
 
 ##Movie Clip Properties
-
-**Video:** [Movie Clip Properties]()
 
 We can do a whole lot more with instances than just control their playheads. Instances have lots of properties we can change.
 
@@ -317,8 +323,6 @@ trace(blueSquare.alpha);
 ```
 
 ##Creating Instances from Code
-
-**Video:** [Creating Instances from Code](http://www.youtube.com/watch?v=wRpG-OzPins)
 
 You know how you usually created instances of symbols by dragging out copies of symbols from the library? Well, you can actually just create new instances straight from the code. Here's how:
 
@@ -380,13 +384,3 @@ FlyingSquirrelWithSupermanCape
 ```
 
 **Friendly Advice:** It's a good idea to make your linkage names descriptive. If the symbol is a picture of a hammer, you should probably name it "Hammer".
-
-
-
-
-* [Functions](#functions)
-* [Parameters (Arguments) of Functions](#parameters-arguments-of-functions)
-* [Returning Values from Functions](#returning-values-from-functions)
-
-
-* [Code Formatting](#code-formatting)
