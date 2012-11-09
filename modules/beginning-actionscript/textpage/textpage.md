@@ -1,6 +1,5 @@
 #Beginning ActionScript
-###by Cameron Christensen
-####2012
+###by Cameron Christensen (2012)
 
 * [Intro to ActionScript](#intro-to-actionscript)
 * [Comments](#comments)
@@ -127,7 +126,7 @@ trace("Hello World"); // writes a message to the Output panel
 ```
 
 ####Give It a Try
-Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/basic-commands.fla) to see if you can figure out what the code is doing. To test the program press ctrl+enter on PC or command+return on Mac. Look at the code for each frame. Try chaning up some of the commands and predict the results.
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/basic-commands.fla) to see if you can figure out what the code is doing. To test the program press ctrl+enter on PC or command+return on Mac. Look at the code for each frame. Try changing up some of the commands and predict the results.
 
 #####Code executes (runs) line by line
 ```java
@@ -142,7 +141,7 @@ The moment the playhead moves to a new frame, the code for that frame is execute
 
 
 ##Fixing Errors
-*"Everybody makes mistakes. Everybody has those days." --Miley Cyrus
+*"Everybody makes mistakes. Everybody has those days." --Miley Cyrus*
 
 ####Compiler Errors
 When you run your program--ctrl+enter (Windows) or command+return (Mac)--your ActionScript code gets *compiled* and an SWF file is generated. What exactly "compiling" means is somewhat irrelevant right now. Just realize that Flash attempts to find *compiler errors* before your program actually runs. These errors will be shown to you in the Compiler Errors panel.
