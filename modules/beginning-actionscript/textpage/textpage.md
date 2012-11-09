@@ -32,6 +32,7 @@
 * [Review](#review)
 
 ##Intro to ActionScript
+*"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program." --Linus Torvalds*
 
 If you're navigating this module, it may very well be your first time doing any computer programming. If so, you may be wondering what exactly computer programming is and what the ActionScript 3.0 programming language is. The following is a quick, introductory explanation.
 
@@ -101,6 +102,8 @@ I'll be writing lots of comments in my examples throughout this document because
 
 
 ##Basic Commands
+
+*"When I say jump, you say, 'How high?'" --My father's early attempts at programming me...*
 
 ####Adding ActionScript to a Frame
 In Flash, we write ActionScript code inside of frames. Here's how:
