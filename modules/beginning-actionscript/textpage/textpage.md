@@ -169,9 +169,11 @@ Programmers often refer to runtime and logic errors as "bugs". Debugging code is
 
 ##Variables
 
-Every program stores information of some kind. Think about a computer game. A game needs to store things like health, points, and the names of the players in the game. All of this information or data is stored in **variables**. When you think of variables in programming, try not to think of them in the same way that you might think of variables in math class. In math, variables represent something that is unknown. In programming, variables are like little buckets or containers that store something. Sometimes variables store numbers, but they can also store text (called "strings"), sounds, and other objects like instances of movie clip symbols.
+Every program stores information of some kind. Think about a computer game. A game needs to store things like health, points, and the names of the players in the game. All of this information or data is stored in **variables**.
 
-In ActionScript 3.0, you can *declare* (i.e., make) new variables by typeing `var` followed by the name you want to give to the variable, a colon, and the type of data you want to store in the variable.
+When you think of variables in programming, try not to think of them in the same way that you might think of variables in math class. In math, variables represent something that is unknown. In programming, variables are like little buckets or containers that store something. Sometimes variables store numbers, but they can also store text (called "strings"), sounds, and other objects like instances of movie clip symbols.
+
+In ActionScript 3.0, you can *declare* (i.e., make) new variables by typing `var` followed by the name you want to give to the variable, a colon, and the type of data you want to store in the variable.
 
 Some examples of *declaring variables*:
 ```java
@@ -223,14 +225,10 @@ When naming variables, the following rules apply:
 * No spaces
 * No weird characters--just alphanumeric ones--though you'll sometimes see programmers use the "_" character as well.
 * You can't start a name with a number
-* You can't use a *reserved word* such as 
+* You can't use a *reserved word* such as "var", "Number", "String, etc.
+* You can't use the same name for two variables
 
 **Important:** You should use [camelCase](#camelcase) for naming variables. This isn't strictly required, but I highly recommend it.
-
-**Important:** You can't use duplicate names. Whene
-
-###Give it a try!
-Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/variable-declaration-and-assignment.fla) to help you understand how variables work.
 
 ###Literals
 Consider the following example:
@@ -259,8 +257,6 @@ Just like there are number literals, there are *string literals*, which are used
 "We can also put numbers and other symbols in strings: 898&*(*@#$979423"
 "89" //note: this is not the same as the number literal 89
 ```
-
-Hmmmm.... but how do you put a quote symbol inside of a string? Very interesting...
 
 ###Some Math
 Try these:
@@ -291,6 +287,8 @@ trace(newMessage);
 **Explore:** What happens when you put a "+" sign in between a number and a string? Using more technical language, what does the *expression* `"Points: " + points` *evaluate* to (assuming that points is a variable of type Number)?
 
 
+###Give it a try!
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/variable-declaration-and-assignment.fla) to help you understand how variables work.
 
 
 ##Functions
