@@ -292,49 +292,48 @@ Play around with [this example](http://www.christensenacademy.org/modules/beginn
 
 
 ##Functions
-Functions are reusable segments of code that we can "call" whenever we need them. Check out this example:
+Functions are reusable segments of code that we can "call" whenever we need them.
 
-**Advice:** Copy and paste this code into Flash to see how it actually runs.
+Check out this example:
 
 ```java
-var score:Number = 0;
-var henchmenDefeated:Number = 0;
-var level:Number = 0;
+// declare a function named "helloWorld" that returns "void" (i.e., doesn't return anything)
+function helloWorld():void
+{
+  trace("Hello World!");
+  trace("Isn't this function a bit pointless?");
+}
+
+//call the helloWorld function a couple of times
+helloWorld();
+trace("-----");
+helloWorld();
 
 /*
-Functions are read at compile time, so you can
-call them before they occur in the code, even if
-the actual function is on another frame.
+OUTPUT:
+Hello World!
+Isn't this function a bit pointless?
+-----
+Hello World!
+Isn't this function a bit pointless?
 */
-printStats(); //this funciton is on frame 2
-
-defeatHenchman();
-defeatHenchman();
-defeatHenchman();
-defeatBoss();
-defeatHenchman();
-defeatHenchman();
-defeatBoss();
-
-printStats();
-
-function defeatHenchman():void //NOTE: no semicolon at the end of this line
-{
-  score = score + 1;
-  henchmenDefeated = henchmenDefeated + 1;
-  /* If this were code for a real game, there would be all sorts of other things happening in this
-     function too, such as playing a sound effect and perhaps displaying a certain animation */
-}
-
-function defeatBoss():void
-{
-  score = score + 20;
-  level = level + 1;
-}
 ```
 
+Notice how the code for a function is written between `{` and `}` symbols and that this code executes only when the function is called by writing `helloWorld()`. Even though this example is contrived and may seem pointless, you'll soon find that using functions is actually incredibly useful.
+
+**Note:** In other programming languages, funcitons are sometimes known as methods or subroutines. Again, the basic idea behind a function is that it is a reusable segment of code.
+
+**Note:** Naming conventions are the same for functions as they are for variables.
+
+**Note:** Functions are "processed" at compile time and can be called before or after they are declared. That is, even if you declare a function on frame 300, you can still call it on frame 1.
+
+###Give it a try!
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/functions-example1.fla) to help you understand how variables work.
+
 ###Built-In Functions
-Whenever you type a command like `stop()`, you're actually calling a function named `stop`. Unlike the functions that you write, functions like `stop` are built-in.
+Whenever you find yourself typeing parenthesis, such as when you tell the playhead to stop by typing `stop()`, know that
+
+type a command like `stop()`, you're actually calling a function named `stop`. Unlike the functions that you write, functions like `stop` are built-in.
 
 ###Curly Brackets
 The "{" and "}" symbols are called curly brackets, the former being the opening curly bracket and the later being the closed curly bracket.
@@ -481,3 +480,5 @@ FlyingSquirrelWithSupermanCape
 ```
 
 **Friendly Advice:** It's a good idea to make your linkage names descriptive. If the symbol is a picture of a hammer, you should probably name it "Hammer".
+
+
