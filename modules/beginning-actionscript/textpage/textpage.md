@@ -301,7 +301,22 @@ var score:Number = 0;
 var henchmenDefeated:Number = 0;
 var level:Number = 0;
 
-printStats(); //this line won't work because it comes before the printStats function has been created.
+/*
+Functions are read at compile time, so you can
+call them before they occur in the code, even if
+the actual function is on another frame.
+*/
+printStats(); //this funciton is on frame 2
+
+defeatHenchman();
+defeatHenchman();
+defeatHenchman();
+defeatBoss();
+defeatHenchman();
+defeatHenchman();
+defeatBoss();
+
+printStats();
 
 function defeatHenchman():void //NOTE: no semicolon at the end of this line
 {
@@ -316,36 +331,12 @@ function defeatBoss():void
   score = score + 20;
   level = level + 1;
 }
-
-function printStats():void
-{
-  trace("CURRENT STATS");
-  trace("Score:" + score);
-  trace("Henchmen Defeated:" + henchmenDefeated);
-  trace("Level:" + level);
-}
-
-printStats(); //call the printStats function
-
- //call the defeatHenchman function three times
-defeatHenchman();
-defeatHenchman();
-defeatHenchman();
-defeatBoss();
-defeatHenchman();
-defeatHenchman();
-defeatBoss();
-
-printStats();
 ```
 
-
-
 ###Built-In Functions
-Whenever you type a command like `stop()`, you're actually call
+Whenever you type a command like `stop()`, you're actually calling a function named `stop`. Unlike the functions that you write, functions like `stop` are built-in.
 
 ###Curly Brackets
-
 The "{" and "}" symbols are called curly brackets, the former being the opening curly bracket and the later being the closed curly bracket.
 
 ###Arguments
