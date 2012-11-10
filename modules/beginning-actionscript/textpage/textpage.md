@@ -3,25 +3,30 @@
 
 **Goal:** By the end of the module, you should be able to create your own unique computer game. This will not be an easy journey, but if you stick with it, you'll be amazed at what you can accomplish.
 
+####Programming Basics
 * [Intro to ActionScript](#intro-to-actionscript)
 * [Getting Started](#getting-started)
 * [Fixing Errors](#fixing-errors)
 * [Variables](#variables)
 * [Functions](#functions)
 
+####Instances and Events
 * [Instances of Movie Clips](#Instances of Movie Clips)
 * [Instances of Text Fields](#Instances of Text Fields)
 * [Creating Instances from Code](#creating-instances-from-code)
 * [Instances of Sounds](#Instances of Text Fields)
 * [Events](#events)
 
+####Coding Conventions
 * [camelCase and UpperCamelCase](#camelcase-and-uppercamelcase)
 * [Code Formatting](#code-formatting)
 
+####Working with Numbers and Strings
 * [Working with Numbers](#working-with-numbers)
 * [Working with Strings](#working-with-strings)
 * [Operators](#operators)
 
+####Control Structures
 * [If Statements](#if-statements)
 * [While Loops](#while-loops)
 * [For Loops](#for-loops)
