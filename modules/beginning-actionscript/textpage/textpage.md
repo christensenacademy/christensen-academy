@@ -4,32 +4,29 @@
 **Goal:** By the end of the module, you should be able to create your own unique computer game. This will not be an easy journey, but if you stick with it, you'll be amazed at what you can accomplish.
 
 * [Intro to ActionScript](#intro-to-actionscript)
-* [Comments](#comments)
-* [Basic Commands](#basic-commands)
+* [Getting Started](#getting-started)
 * [Fixing Errors](#fixing-errors)
-* [Playhead Commands on Instances](#playhead-commands-on-instances)
-* [Buttons](#buttons)
-* [Movie Clip Properties](#movie-clip-properties)
-* [Registration Points](#registration-points)
-* [Creating Instances from Code](#creating-instances-from-code)
 * [Variables](#variables)
-* [camelCase and UpperCamelCase](#camelcase-and-uppercamelcase)
 * [Functions](#functions)
-* [Parameters (Arguments) of Functions](#parameters-arguments-of-functions)
-* [Returning Values from Functions](#returning-values-from-functions)
-* [Code Formatting](#code-formatting)
-* [Working with Numbers](#working-with-numbers)
-* [Math Functions](#math-functions)
-* [Working with Strings](#working-with-strings)
-* [String Methods](#string-methods)
-* [Operators](#operators)
-* [If Statements](#if-statements)
+
+* [Instances of Movie Clips](#Instances of Movie Clips)
+* [Instances of Text Fields](#Instances of Text Fields)
+* [Creating Instances from Code](#creating-instances-from-code)
+* [Instances of Sounds](#Instances of Text Fields)
 * [Events](#events)
+
+* [camelCase and UpperCamelCase](#camelcase-and-uppercamelcase)
+* [Code Formatting](#code-formatting)
+
+* [Working with Numbers](#working-with-numbers)
+* [Working with Strings](#working-with-strings)
+* [Operators](#operators)
+
+* [If Statements](#if-statements)
 * [While Loops](#while-loops)
 * [For Loops](#for-loops)
 * [Timer Events](#timer-events)
 * [Frame Events](#frame-events)
-* [Review](#review)
 
 ##Intro to ActionScript
 *"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program." --Linus Torvalds*
@@ -37,9 +34,7 @@
 If you're navigating this module, it may very well be your first time doing any computer programming. If so, you may be wondering what exactly computer programming is and what the ActionScript 3.0 programming language is. The following is a quick, introductory explanation.
 
 ###What is Computer Programming?
-Computer programming is basically just telling the computer what to do. When you program, you write commands for the computer to follow. The computer will always do EXACTLY what you say, so you'll need to be very carefull and pay really close attention to small details.
-
-Also, I should point out that programs are more than just sequences of commands. Programs use *logic*. For example, whenever you click on you computer screen, the computer program you're using has to decide what to do based on your click. If you click on [this link](http://www.youtube.com/watch?v=oHg5SJYRHA0)... point being, programs behave in different ways based on conditions, such as what the user clicked on. If you want to become a great programmer, you'll need to get ready to use lots of logic.
+Computer programming is basically just telling the computer what to do. When you program, you write commands for the computer to follow. The computer will always do EXACTLY what you say, so you'll need to be very carefull and pay close attention to small details.
 
 ###What is ActionScript?
 
@@ -63,11 +58,19 @@ Notice the "a" symobl in the keyframes of the Actions layer. This symbol lets yo
 * **Joy of Problem Solving:** I highly doubt anyone can become a really good programmer without deeply enjoying solving difficult problems that stretch their abilities to the max. The longer you stick with a problem before getting it, the greater the thrill you'll have and the deeper your learning will be.
 * **Play and Curiosity:** Great programmers love playing around with code. As they learn, they try new things out on hunches just to see what might work. Even when they get something right, they play around with it a bit more just to see what happens. This is similar to how babies learn to stand and walk. Babies fall down over and over again as they try to stand. Eventually, when they finally get it, they don't stop; instead, they try to walk, which inevitably leads to more falling. Yet, they keep at it, driven by some strange playful curiosity about the world around them. Never satisfied with their progress, they press on, eventually learning to walk and even run. This, I think, is the way to approach learning programming--with a playful and unquenchable curiosity.
 * **Logic:** The types of problems you'll encounter in programming are very logical in nature. The type of logic you'll encounter doesn't come naturally to most people, but the more you practice, the easier it becomes. Have patience and take the time to think logically and reason through different scenarios until you discover the answer. You'll get better at it as you go, but only if you invest the time and energy to really *think*.
-* **Creativity:** Programming is an exceptionally creative process. Programmers enjoy designing and building new things. If writing computer programs were something a routine and mechanical, computers could probably write their own programs.
+* **Creativity:** Programming is an exceptionally creative process. Programmers enjoy designing and building new things. If writing computer programs were something routine and mechanical, computers could probably write their own programs.
 
-##Comments
 
-All programming languages have a way to write *comments*. Comments are not actual code. They're just notes programmers leave themselves and each other to explain the code.
+
+
+
+##Getting Started
+
+*"When I say jump, you say, 'How high?'" --My father's early attempts at programming me...*
+
+###Comments
+
+All programming languages have a way to write *comments*. Comments are not actual code. They're just notes programmers leave themselves and each other to explain their code.
 
 Here is an example:
 
@@ -95,16 +98,6 @@ Having lots of comments isn't always good because they clutter up the rest of th
 
 I'll be writing lots of comments in my examples throughout this document because I'm trying to help you learn. I normally would not write quite so many comments.
 
-
-
-
-
-
-
-##Basic Commands
-
-*"When I say jump, you say, 'How high?'" --My father's early attempts at programming me...*
-
 ####Adding ActionScript to a Frame
 In Flash, we write ActionScript code inside of frames. Here's how:
 
@@ -118,7 +111,7 @@ In Flash, we write ActionScript code inside of frames. Here's how:
 **Tip:** Use F9 on the keyboard to open the ActionsPanel more quickly.
 
 #####Editing ActionScript on an Existing Frame
-Right-click on the frame and go to Actions or, if the Actions panel is already open, you can find the correct frame on the left side of the panel, which is easier, I think.
+Right-click on the frame and go to Actions or, if the Actions panel is already open, you can find the correct frame on the left side of the panel. This is easier and faster than right-clicking on a frame in the timeline.
 
 ![](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/editing-existing-actionscript.png)
 
@@ -141,8 +134,10 @@ Play around with [this example](http://www.christensenacademy.org/modules/beginn
 ##Fixing Errors
 *"Everybody makes mistakes. Everybody has those days." --Miley Cyrus*
 
+*"Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code." --Christopher Thompson*
+
 ####Compiler Errors
-When you run your program--ctrl+enter (Windows) or command+return (Mac)--your ActionScript code gets *compiled* and an SWF file is generated. What exactly "compiling" means is somewhat irrelevant right now. Just realize that Flash attempts to find *compiler errors* before your program actually runs. These errors will be shown to you in the Compiler Errors panel.
+When you run your program--ctrl+enter (Windows) or command+return (Mac)--your ActionScript code gets *compiled* and an SWF file is generated. What exactly "compiling" means is somewhat irrelevant right now. Just realize that Flash attempts to find compiler errors before your program actually runs. These errors will be shown to you in the Compiler Errors panel.
 
 ![An example of the Actions layer](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/compiler-error.png)
 
@@ -190,7 +185,7 @@ var cam:Teacher;
 
 The reason they're called *variables* is that what they contain may *vary* or change throughout the program. For example, if you made a game in which the player tried to earn points, you would need to have a variable for keeping track of the points, and the value stored in that variable would change throughout the game.
 
-Of course, a variable doesn't store anything unless we tell it to. In the examples above, we created lots of new variables, but they haven't been *assigned* any values yet. That is, they aren't actually storing anything. Here's how we might go about *assigning values to variables*:
+Of course, a variable doesn't store anything unless we tell it to. In the examples above, we *declared* lots of new variables, but they haven't been *assigned* any values yet. That is, they aren't actually storing anything. Here's how we might go about assigning values to the variables we've already declared:
 
 ```java
 score = 5; //assign the number 5 to the score variable.
@@ -206,7 +201,7 @@ badGuy = new Tank(); //create a new instance of the Tank symbol and assign it to
 cam = new Teacher();
 ```
 
-In the examples above, notice how the values on the right were assigned to the variables on the left. This is very important to remember. Unlike in math, you can't switch this around. That is, writing `5 = score` makes no sense in programming. The "=" sign is actually called the *assignments operator* because it takes the value of the expression on the right side of the "=" sign and *assigns* it to the variable on the left side of the equals sign.
+In the examples above, notice how the values on the right were assigned to the variables on the left. This is very important to remember. Unlike in math, you can't switch this around. That is, writing `5 = score` makes no sense in programming. The "=" sign is actually called the *assignments operator* because it takes the stuff (i.e., the value of the expression) on the right side of the "=" sign and *assigns* it to the variable on the left side of the equals sign.
 
 It should also be noted that you can combine variable declaration and assignment onto a single line of code like this:
 
@@ -214,11 +209,20 @@ It should also be noted that you can combine variable declaration and assignment
 var player1:Number = "Cam";
 ```
 
+
 ####Why are they called "Strings"?
-There's really no good answers here. Some people thinks it makes sense to use the phrase "string of characters" because strings just store a sequence (string) of letters, numbers, spaces, and other characters that people can type on their keyboards. Personally, I think the name "string" was a bad choice and that it would have made much more sense to call these things "text". Oh well, we're stuck with what we've got. Whenever you're programming and you want to store or work with text in some way, you'll be working with *strings*.
+There's really no good answers here. Some people thinks it makes sense to use the phrase "string of characters" because strings just store a sequence (i.e., string) of letters, numbers, spaces, and other characters that people can type on their keyboards. Personally, I think the name "string" was a bad choice and that it would have made much more sense to just call these things "text". Oh well, we're stuck with what we've got. Whenever you're programming and you want to store or work with text in some way, you'll be working with *strings*. All programming languages use them, not just ActionScript.
 
 ####Naming Variables
-When naming variables, you should use [camelCase](#camelcase).
+When naming variables, the following rules apply:
+* No spaces
+* No weird characters--just alphanumeric ones--though you'll sometimes see programmers use the "_" character as well.
+* You can't start a name with a number
+* You can't use a *reserved word* such as 
+
+**Important:** You should use [camelCase](#camelcase) for naming variables. This isn't strictly required, but I highly recommend it.
+
+**Important:** You can't use duplicate names. Whene
 
 ###Give it a try!
 Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/variable-declaration-and-assignment.fla) to help you understand how variables work.
@@ -281,7 +285,74 @@ trace(newMessage);
 
 **Explore:** What happens when you put a "+" sign in between a number and a string? Using more technical language, what does the *expression* `"Points: " + points` *evaluate* to (assuming that points is a variable of type Number)?
 
-##Playhead Commands on Instances
+
+
+
+##Functions
+Functions are reusable segments of code that we can "call" whenever we need them. Check out this example:
+
+**Advice:** Copy and paste this code into Flash to see how it actually runs.
+
+```java
+var score:Number = 0;
+var henchmenDefeated:Number = 0;
+var level:Number = 0;
+
+printStats(); //this line won't work because it comes before the printStats function has been created.
+
+function defeatHenchman():void //NOTE: no semicolon at the end of this line
+{
+  score = score + 1;
+  henchmenDefeated = henchmenDefeated + 1;
+  /* If this were code for a real game, there would be all sorts of other things happening in this
+     function too, such as playing a sound effect and perhaps displaying a certain animation */
+}
+
+function defeatBoss():void
+{
+  score = score + 20;
+  level = level + 1;
+}
+
+function printStats():void
+{
+  trace("CURRENT STATS");
+  trace("Score:" + score);
+  trace("Henchmen Defeated:" + henchmenDefeated);
+  trace("Level:" + level);
+}
+
+printStats(); //call the printStats function
+
+ //call the defeatHenchman function three times
+defeatHenchman();
+defeatHenchman();
+defeatHenchman();
+defeatBoss();
+defeatHenchman();
+defeatHenchman();
+defeatBoss();
+
+printStats();
+```
+
+
+
+###Built-In Functions
+Whenever you type a command like `stop()`, you're actually call
+
+###Curly Brackets
+
+The "{" and "}" symbols are called curly brackets, the former being the opening curly bracket and the later being the closed curly bracket.
+
+###Arguments
+
+###Return Types
+
+
+
+
+##Instances of Movie Clips
 
 When animating in Flash, you've created symbols, which appear in the library. When you drag copies of a symbol onto the stage, you're creating **instances** of that symbol. By default, these instances don't have names, and, if we want to be able to write code that affects instances, we need to be able to somehow refer to them in the code. Here's how we do it:
 
