@@ -20,12 +20,11 @@
 ####Coding Conventions
 * [camelCase and UpperCamelCase](#camelcase-and-uppercamelcase)
 * [Semicolons](#semicolons)
-* [indenting](#indenting)
+* [Indenting](#indenting)
 
 ####Working with Numbers and Strings
 * [Working with Numbers](#working-with-numbers)
 * [Working with Strings](#working-with-strings)
-* [Operators](#operators)
 
 ####Control Structures
 * [If Statements](#if-statements)
@@ -758,7 +757,7 @@ I'm not going to explain code snippets right here, but if you're already familia
 
 
 
-
+#Coding Conventions
 ##camelCase and UpperCamelCase
 ###camelCase
 When naming instances, variables, and functions in ActionScript, you should use what's called "camel case", or, as I like to write it, camelCase. In camelCase, there are no spaces all characters are lower case except for the first letters of words after the first. Notice how the capital letters add "humps" like a camel to the names. Here are some examples:
@@ -788,4 +787,112 @@ FlyingSquirrelWithSupermanCape
 
 **Friendly Advice:** It's a good idea to make your linkage names descriptive. If the symbol is a picture of a hammer, you should probably name it "Hammer".
 
+##Semicolons
+Semicolons go at the end of most lines of code. The only exceptions to this rule is for lines of code that come just before blocks of code in `{` and `}` symbols, such as [functions](#functions), [if statements](#if-statements), and other control structures.
+
+**Note:** Each line of code that ends in a semicolon is technically called a *statement*.
+
+**Note:** In ActionScript 3.0, most of the time your program will still work even if you forget semicolons. This seems silly to me. Why would the language technically require something then not strictly enforce it? As good practice, don't leave off the semicolons. There are a few edge cases where this will cause your code not to work.
+
+##Indenting
+You may have noticed how the code inside of a function is indented. The basic rule of thumb is that any time you have a code block (i.e., some code in between `{` and `}` symbols) you should indent the code inside of the block.
+
+```
+function bestSoda(soda:String):String
+{
+  // notice how this code is indented
+  if(soda == "Mountain Dew")
+  {
+    // notice how this code is indented even further!
+    return "Yes, indeed!";
+  }
+  else
+  {
+    return "No way! Get out of town!";
+  }
+}
+```
+
+#Working with Numbers and Strings
+##Working with Numbers
+As you saw previously, you can use number variables and literals to perform basic mathimatical operations. This section just covers a few more useful things you can do with numbers.
+
+###Advanced Assignment
+```java
+var pebbles:Number = 1;
+pebbles += 2; // pebbles now has a value of 3
+pebbles += 2; // pebbles now has a value of 5
+
+var luckyCharms:Number = 1;
+luckyCharms *= 3; // luckyCharms now has a value of 3
+luckyCharms *= 3; // luckyCharms now has a value of 9
+
+var slicesOfToast:Number = 8;
+slicesOfToast -= 4; // slicesOfToast now has a value of 4
+
+var bananas:Number = 5;
+bananas /= 2; // bananas now has a value of 2.5
+
+bananas++; // bananas now has a value of 3.5
+bananas--; // bananas now has a value of 2.5
+```
+###Using Built-In Math Functions
+```java
+Math.abs(-3); // returns the absolute value of -3
+Math.ceil(2.3); // returns the "ceiling" of 2.3, which is 3
+Math.floor(2.7); // returns the "floor" of 2.7, which is 2. This is sometimes known as truncation
+Math.round(2.5); // returns 3 as you would expect
+Math.max(2, 5, 9, 4.6); // returns 9, which is the largest number
+Math.min(2, 5, 9, 4.6); // returns 2, which is the smallest number
+Math.pow(2, 3); // returns 8, which is the value of 2 raised to the third power
+Math.sqrt(81); // returns 9, which is the square root of 81
+
+Math.random(); // returns a pseudo-random value between 0 and 1
+Math.random()*10; // returns a pseudo-random value between 0 and 10
+Math.ceil(Math.random()*10); // returns a random integer between 1 and 10
+Math.ceil(Math.random()*10 + 5); // returns a random integer between 6 and 15
+```
+
+**Note:** These built-in functions are all part of the Math class. The [official ActionScript 3.0 reference](http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/Math.html) has a complete list of everything you can do with Math.
+
+##Working with Strings
+There are a lot of things we can do with strings. You already learned two of the most important ones: concatenation and converting to and from numbers. Here's a quick review:
+
+```java
+// concatenation
+"Gr" + 8 + "!" // this expression evaluates to "Gr8!"
+
+// converting numbers to strings
+"" + 4 // this expression evaluates to "4"
+
+// converting strings to numbers
+Number("89") // this expression evaluates to 89
+```
+
+###String Methods
+Remember how movie clip instances have properties like `alpha` and `height`? We were able to do things like `ghost.alpha = 0.5`, which assigned a new value to the alpha property of an instance named ghost. Like movie clip instances, strings have a property too:
+
+```java
+var example:String = "Hello World";
+trace(example.length); // prints 11 because there are 11 characters in the string
+```
+**Note:** Unlike the properties of instances, the length property of Strings cannot be set directly; all it's good for is telling you how long the string is.
+
+It turns out that `length` is the only property of strings. Instead of properties, strings have a lot of *methods*. Just as properties are variables attached to an instance, methods are functions attached to an instance. Here are some examples of useful string methods:
+
+```java
+var example:String = "Hello World";
+
+example.indexOf("llo"); // returns 2, which is the position of the first occurrence of "llo" in "Hello World"
+// Note: Each character has a position in the string. Numbering starts at zero with the leftmost character
+example.lastIndexOf("o"); // returns 7, which is the position of the last occurrence of "o" in "Hello World"
+example.lastIndexOf("kowabunga"); // returns -1 because "kowabunga" does not occur in "Hello World"
+example.substr(0,5); // returns "Hello", which is the substring from position 0 up to but not including position 5
+example.toUpperCase(); // returns "HELLO WORLD"
+example.toLowerCase(); // returns "hello world"
+```
+
+**Note:** These methods do not change the value of the string variable; they just return a new string. If you wanted to change the value of a string variable, you'd have to do something like `example = example.toUpperCase();`.
+
+**Note:** These are just some of the methods for strings. The [official ActionScript 3.0 reference](http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/String.html) has a complete list of everything you can do with String.
 
