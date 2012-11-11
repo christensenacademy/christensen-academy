@@ -3,14 +3,14 @@
 
 **Goal:** By the end of the module, you should be able to create your own unique computer game. This will not be an easy journey, but if you stick with it, you'll be amazed at what you can accomplish.
 
-####[Programming Basics](#programming-basics)
+####Programming Basics
 * [Intro to ActionScript](#intro-to-actionscript)
 * [Getting Started](#getting-started)
 * [Fixing Errors](#fixing-errors)
 * [Variables](#variables)
 * [Functions](#functions)
 
-####[Instances and Events](#instances-and-events)
+####Instances and Events
 * [Instances of Movie Clips](#Instances of Movie Clips)
 * [Instances of Text Fields](#Instances of Text Fields)
 * [Creating Instances from Code](#creating-instances-from-code)
