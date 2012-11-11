@@ -120,7 +120,7 @@ Right-click on the frame and go to Actions or, if the Actions panel is already o
 
 ![](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/editing-existing-actionscript.png)
 
-####Some Examples of Basic Commands
+####Some Examples of Basic Code
 ```java
 // Pay close attention to small details like spaces, capital letters, and semicolons.*/
 
@@ -129,6 +129,8 @@ play(); // starts a stopped playhead in the current timeline
 gotoAndPlay(56); // commands the playhead to jump to the frame whose number is in parenthesis
 trace("Hello World"); // writes a message to the Output panel
 ```
+
+**Note:** Each line of code above can be thought of as a command telling the computer to do something. I think this is a good way to think about it for the time being, but realize that technically what's going in each line is that [functions](#functions) are being called.
 
 ####Give It a Try
 Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/basic-commands.fla) to see if you can figure out what the code is doing. To test the program press ctrl+enter on PC or command+return on Mac. Look at the code for each frame. Try changing up some of the commands and predict the results.
@@ -297,50 +299,71 @@ Functions are reusable segments of code that we can "call" whenever we need them
 Check out this example:
 
 ```java
-// declare a function named "helloWorld" that returns "void" (i.e., doesn't return anything)
+// declare a function named helloWorld
 function helloWorld():void
 {
   trace("Hello World!");
   trace("Isn't this function a bit pointless?");
 }
 
-//call the helloWorld function a couple of times
-helloWorld();
-trace("-----");
-helloWorld();
-
-/*
-OUTPUT:
-Hello World!
-Isn't this function a bit pointless?
------
-Hello World!
-Isn't this function a bit pointless?
-*/
+helloWorld(); //call the helloWorld function
 ```
 
 Notice how the code for a function is written between `{` and `}` symbols and that this code executes only when the function is called by writing `helloWorld()`. Even though this example is contrived and may seem pointless, you'll soon find that using functions is actually incredibly useful.
-
-**Note:** In other programming languages, funcitons are sometimes known as methods or subroutines. Again, the basic idea behind a function is that it is a reusable segment of code.
 
 **Note:** Naming conventions are the same for functions as they are for variables.
 
 **Note:** Functions are "processed" at compile time and can be called before or after they are declared. That is, even if you declare a function on frame 300, you can still call it on frame 1.
 
+####Two Ways to Write Curly Brackets for Functions
+```java
+function example1():void {
+  //code goes here;
+}
+
+function example2():void //notice that there is no semicolon at the end of this line
+{
+  //code goes here;
+}
+```
+
+Both of the examples above are perfectly valid. Choose which one you like best then do your best to stick with it.
+
 ###Give it a try!
-Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/functions-example1.fla) to help you understand how variables work.
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/functions-example1.fla) to help you understand how functions work.
 
 ###Built-In Functions
-Whenever you find yourself typeing parenthesis, such as when you tell the playhead to stop by typing `stop()`, know that
-
-type a command like `stop()`, you're actually calling a function named `stop`. Unlike the functions that you write, functions like `stop` are built-in.
-
-###Curly Brackets
-The "{" and "}" symbols are called curly brackets, the former being the opening curly bracket and the later being the closed curly bracket.
+Whenever you find yourself typing parenthesis, such as when you tell the playhead to stop by typing `stop()`, you're actually calling a function. In the case of `stop()`, you're calling a function named stop. Realize that even though you didn't write the stop function, somebody else did. Functions like the stop function are "built-in" and you can call them any time you need to.
 
 ###Arguments
+Some functions take input called *arguments* or *parameters*. Here's are some examples:
+
+```java
+gotoAndPlay(3); //this function takes one number as a parameter
+trace("Hello World"); //this function takes one string or number as a parameter
+trace(3);
+
+function thankYou(recipient:String):void
+{
+  trace("Thank you, " + recipient);
+}
+
+thankYou("Brooke");
+
+function happyBirthday(person:String, age:Number)
+{
+  trace("Happy Birthday, " + person + ", on turning " + age + "!");
+}
+
+happyBirthday("Covington", 1); 
+```
 
 ###Return Types
+Every function has a return type. When a function has "void" as a return type...
+
+
+###Give it a try!
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/functions-example2.fla) to help you understand how functions work.
 
 
 
