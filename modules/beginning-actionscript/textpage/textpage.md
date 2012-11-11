@@ -433,8 +433,9 @@ When you create movie clip symbols, they appear in the library. When you drag co
 1. Select an instance on the stage.
 2. Go to the Properties panel.
 3. Give the instance a name making sure not to include spaces in the name or start the name with a number. **Note:** I strongly recommend following the "[camelCase](#camelcase)" convention. As you'll see in a bit, instance names are really no different from variable names.
-4. Use the instance name in the code to change the instance's properties, stop it from playing, and do other interesting things with it.
 
+
+###Controlling an Instance's Playhead
 ```java
 /* The following code assumes there is an instance of a movie clip symbol named "shootingStar"
    that has an animation of a shooting star inside of it. */
@@ -444,8 +445,98 @@ shootingStar.stop(); // tells the playhead of the instance to stop
 shootingStar.play(); // tells the playhead of the instance to play 
 ```
 
+###Movie Clip Properties
+
+We can do a whole lot more with instances than just control their playheads. Instances have lots of properties we can change. You can think of these properties as varaibles that are attached specifically to each instance. We can use assignment statements to assign new values to property.
+
+```java
+// The following code assumes there is an instance of a movie clip symbol named "blueSquare."
+
+// The following lines of code set the instance's various properties to new values.
+blueSquare.x = 55; // other values: any positive or negative number
+blueSquare.y = 400;
+blueSquare.rotation = 180; // (works in degrees) other values: any positive or negative number
+blueSquare.alpha = 0.5; // other values: 0.0 (transparent) to 1.0 (opaque)
+blueSquare.width = 100; // other values: any positive number
+blueSquare.height = 100;
+blueSquare.scaleX = 1.5; // (works as a percent where 1.0 = 100%) other values: any positive number
+blueSquare.scaleY = 2;
+blueSquare.visible = false; // other values: true
+
+trace(blueSquare.x);
+trace(blueSquare.y);
+trace(blueSquare.alpha);
+```
+
+##Instances of Text Fields
+The following only describes how to work with classic text fields, not TLF text. 
+
+![](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/classic-text.png)
+
+There are three types of classic text you can create--static, dynamic, and input. If you play around with these three types, you'll notice that Flash doesn't let you add an instance name to static text. This makes sense, I think, because static text won't change, so you shouldn't be able to manipulate it in the code. Dynamic and input text, however, can have instance names because we would like to be able to get the values from input text fields and assign new values to dynamic text fields.
+
+![picture showing how to add an instance name](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/text-field-instance-name.png)
+
+**Note:** I highly recommend using [camelCase](#camelcase) for these instance names as well.
+
+###Retrieving Input
+```
+//The following example assumes an input text field named passwordBox exists on the same frame as this code.
+var password:String = passwordBox.text;
+```
+
+####But, what the input was a number?
+```
+//The following examples assume an input text field named difficultyInput exists on the same frame as this code
+var difficulty:Number = difficultyInput.text; //this will fail
+
+//here's how to do it
+var difficulty:Number = Number(difficultyInput.text);
+```
+
+In this example, the built-in function `Number` took a string as a parameter and returned a number.
+
+###Assigning a Dynamic Text Field a New Value
+```
+//The following examples assume dynamic text fields named outputScore and outputName
+outputName.text = playerName; //assume playerName is a variable of type String
+outputScore.text = "" + score; //assume score is a variable of type Number.
+```
+
+**Note:** Writing `"" + score` concatenates an empty string with a number, which essentially converts the number into a String. This is necessary to do because the text property is of type String, not Number.
+
+
+##Creating Instances from Code
+
+You know how you usually created instances of symbols by dragging out copies of symbols from the library? You can actually create new instances straight from the code. Here's how:
+
+![Picture showing how to create a new instance from code](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/linkage-name.png)
+
+1. Add a linkage name to the symbol in the library. You can do this by double clicking in the linkage column of the library where the symbol resides. This might seem like a strange, uneccessary step, so I've provided an additional short explanation of [why we need linkage](#why-we-need-linkage).
+2. Create a new instance and add it to the "display stack" as shown below.
+
+```java
+//Note: The following code assumes that there is a symbol in the library with a linkage name "Spaceship"
+
+var milleniumFalcon:Spaceship = new Spaceship(); //Note: "milleniumFalcon" is the instance name for this instance
+addChild(milleniumFalcon); //This line adds the instance to the "display stack"
+```
+
+**Note:** Linkage names should be in [UpperCamelCase](#uppercamelcase). Otherwise, they follow the same naming conventions as variables.
+
+**Note:** It's pretty easy to forget the line of code where you add the instance to the display stack. Realize that if you forget this line of code, your newly created instance will never actually appear even though you technically created it.
+
+Your instance will have all of the same properties that any of your previous instances had before. For example, typing `milleniumFalcon.x = 100;` would change the x-coordinate of the ship as you would expect.
+
+###Why We Need Linkage
+
+First of all, I personally think that the designers of Flash would have been wise to not make the linkage name necessary, but this would have required them to enforce stricter naming conventions for the common names we give symbols. Such restrictions include things like not allowing spaces in names and not allowing names to start with numbers. Alas, because our common names for symbols are not forced to conform to these more rigid standards, we must supply a secondary name (a "linkage" name) that actually does conform to those more rigid standards.
+
+##Instances of Sounds
+
+
 ##Events
-##Buttons
+###Buttons
 
 My definition of a button: *any instance on the stage that does something when clicked on*.
 
@@ -475,60 +566,20 @@ function fl_MouseClickHandler(event:MouseEvent):void
 
 ```
 
-##Movie Clip Properties
 
-We can do a whole lot more with instances than just control their playheads. Instances have lots of properties we can change.
 
-```java
-// The following code assumes there is an instance of a movie clip symbol named "blueSquare."
 
-// The following lines of code set the instance's various properties to new values.
-blueSquare.x = 55; // other values: any positive or negative number
-blueSquare.y = 400;
-blueSquare.rotation = 180; // (works in degrees) other values: any positive or negative number
-blueSquare.alpha = 0.5; // other values: 0.0 (transparent) to 1.0 (opaque)
-blueSquare.width = 100; // other values: any positive number
-blueSquare.height = 100;
-blueSquare.scaleX = 1.5; // (works as a percent where 1.0 = 100%) other values: any positive number
-blueSquare.scaleY = 2;
-blueSquare.visible = false; // other values: true
 
-// The following lines of code write the values of various properties of the instance in the output panel.
-trace(blueSquare.x);
-trace(blueSquare.y);
-trace(blueSquare.alpha);
-// and so on and so forth
-```
 
-##Creating Instances from Code
 
-You know how you usually created instances of symbols by dragging out copies of symbols from the library? Well, you can actually just create new instances straight from the code. Here's how:
 
-1. Add a linkage name to the symbol in the library. You can do this by double clicking in the linkage column of the library where the symbol resides. This might seem like a strange, uneccessary step, so I've provided an additional short explanation of [why we need linkage](#why-we-need-linkage).
-2. Create a new instance and add it to the "display stack" as shown below.
 
-```java
-//Note: The following code assumes that there is a symbol in the library with a linkage name "Spaceship"
 
-var milleniumFalcon:Spaceship = new Spaceship(); //Note: "milleniumFalcon" is the instance name for this instance
-addChild(milleniumFalcon); //This line adds the instance to the "display stack"
-```
 
-**Note:** It's pretty easy to forget the line of code where you add the instance to the display stack. Realize that if you forget this line of code, your newly created instance will never actually appear even though you technically created it.
 
-Your instance will have all of the same properties that any of your previous instances had before. For example, typing `milleniumFalcon.x = 100;` would change the x-coordinate of the ship as you would expect.
 
-###Why We Need Linkage
 
-First of all, I personally think that the designers of Flash would have been wise to not make the linkage name necessary, but this would have required them to enforce stricter naming conventions for the common names we give symbols. Such restrictions include things like not allowing spaces in names and not allowing names to start with numbers. Alas, because our common names for symbols are not forced to conform to these more rigid standards, we must supply a secondary name (a "linkage" name) that actually does conform to those more rigid standards. In addition to not having spaces and not starting with numbers, linkage names should be "[UpperCamelCase](#uppercamelcase)". Here are some examples:
 
-```
-Spaceship
-BlueSpaceship
-FloatingButterfly
-MaleFigureSkater
-ThreeBillyGoats
-```
 
 
 
