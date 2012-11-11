@@ -34,6 +34,7 @@
 * [Timer Events](#timer-events)
 * [Frame Events](#frame-events)
 
+#
 #Programming Basics
 ##Intro to ActionScript
 *"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program." --Linus Torvalds*
@@ -143,8 +144,6 @@ Play around with [this example](http://www.christensenacademy.org/modules/beginn
 ##Fixing Errors
 *"Everybody makes mistakes. Everybody has those days." --Miley Cyrus*
 
-*"Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code." --Christopher Thompson*
-
 ####Compiler Errors
 When you run your program--ctrl+enter (Windows) or command+return (Mac)--your ActionScript code gets *compiled* and an SWF file is generated. What exactly "compiling" means is somewhat irrelevant right now. Just realize that Flash attempts to find compiler errors before your program actually runs. These errors will be shown to you in the Compiler Errors panel.
 
@@ -175,7 +174,7 @@ Programmers often refer to runtime and logic errors as "bugs". Debugging code is
 
 Every program stores information of some kind. Think about a computer game. A game needs to store things like health, points, and the names of the players in the game. All of this information or data is stored in **variables**.
 
-When you think of variables in programming, try not to think of them in the same way that you might think of variables in math class. In math, variables represent something that is unknown. In programming, variables are like little buckets or containers that store something. Sometimes variables store numbers, but they can also store text (called "strings"), sounds, and other objects like instances of movie clip symbols.
+When you think of variables in programming, try not to think of them in the same way that you might think of variables in math class. In math, variables represent something that is unknown. In programming, variables are like little containers that store something. Sometimes variables store numbers, but they can also store text (called "strings"), sounds, and other objects like instances of movie clip symbols.
 
 In ActionScript 3.0, you can *declare* (i.e., make) new variables by typing `var` followed by the name you want to give to the variable, a colon, and the type of data you want to store in the variable.
 
@@ -282,7 +281,7 @@ trace(average);
 In addition to using `*`, `/`, `-`, and `+` symbols, you can use the `%` symbol, which gives a remainder. For example, `11%5` evaluates to `1` and `17%6` evaluates to `5`.
 
 ###Concatenation
-When working with strings, "+" has a whole new meaning. Instead of adding numbers together, it "concatenates" strings, which is a fancy word that just means the strings join together.
+When working with strings, `+` has a whole new meaning. Instead of adding numbers together, it "concatenates" strings, which is a fancy word that just means the strings join together.
 
 ```java
 var name1:String = "Cam";
@@ -308,13 +307,13 @@ Check out this example:
 function helloWorld():void
 {
   trace("Hello World!");
-  trace("Isn't this function a bit pointless?");
+  trace("My name is Cam!");
 }
 
 helloWorld(); //call the helloWorld function
 ```
 
-Notice how the code for a function is written between `{` and `}` symbols and that this code executes only when the function is called by writing `helloWorld()`. Even though this example is contrived and may seem pointless, you'll soon find that using functions is actually incredibly useful.
+**Big Idea:** The code for the function (i.e., the stuff written between `{` and `}`) only executes when the function is called by writing `helloWorld()`.
 
 **Note:** Naming conventions are the same for functions as they are for variables.
 
@@ -326,7 +325,7 @@ function example1():void {
   //code goes here
 }
 
-function example2():void //notice that there is no semicolon at the end of this line
+function example2():void
 {
   //code goes here
 }
@@ -341,7 +340,7 @@ Play around with [this example](http://www.christensenacademy.org/modules/beginn
 Whenever you find yourself typing parenthesis, such as when you tell the playhead to stop by typing `stop()`, you're actually calling a function. In the case of `stop()`, you're calling a function named stop. Realize that even though you didn't write the stop function, somebody else did. Functions like the stop function are "built-in" and you can call them any time you need to.
 
 ###Arguments
-Some functions require *arguments* or *parameters*, which can be thought of as input. Here's are some examples:
+Some functions require *arguments* or *parameters*, which can be thought of as input. Here are some examples:
 
 ```java
 //the gotoAndPlay function takes a number as a parameter
@@ -351,7 +350,7 @@ gotoAndPlay(3);
 trace("Hello World");
 trace(3);
 
-//here's how to make a function with a Strig as a parameter
+//here's how to make a function with a String as a parameter
 function thankYou(recipient:String):void
 {
   trace("Thank you, " + recipient);
@@ -360,7 +359,7 @@ function thankYou(recipient:String):void
 thankYou("Brooke");
 
 //here's how to make a function that takes two parameters--first a string, then a number
-function happyBirthday(person:String, age:Number)
+function happyBirthday(person:String, age:Number):void
 {
   trace("Happy Birthday, " + person + ", on turning " + age + "!");
 }
@@ -369,7 +368,15 @@ happyBirthday("Eric", 28);
 ```
 
 ###Return Types
-Every function has a return type, which is written after the parentheses in the function declaration. For example, in the function declaration `function searchForMeaningOfLife():Number`, the return type is Number. This means that `searchForMeaningOfLife()` at some other point in your code will evaluate to a number. When a function has "void" as a return type, that just means that the function doesn't return anything and will return `undefined` when called.
+Functions can *return* values when called.
+
+```java
+var lotteryTicket:Number = randomLotteryNumber();
+```
+
+In the example above, we're assuming that calling the `randomLotteryNumber` function returns a value, and that that value gets assigned to the variable `lotteryTicket`. Said another way, the code `randomLotteryNumber()` will evaluate to a number, which will then get assigned to the `lotteryTicket` variable.
+
+**Note:** Every function has a return type. However, so far you've mostly seen functions with a return type of void (e.g., `function example():void`). A function with this return type evaluates to `undefined` when called.
 
 ####Example function returning a number
 ```java
@@ -404,7 +411,7 @@ trace(login("cam","kowabunga"));
 ```
 ####Example function returning nothing (void)
 ```java
-function activateBonus()
+function activateBonus():void
 {
   score = score + 8;
   health = health + 12;
@@ -415,7 +422,7 @@ function activateBonus()
 
 **Note:** The line of code that says `return` followed by an expression should almost always be the last line of your function. It terminates the execution of the function, so any code that might come after it is pretty pointless most of the time.
 
-
+#
 #Instances and Events
 ##Instances of Movie Clips
 
