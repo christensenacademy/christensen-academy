@@ -11,8 +11,8 @@
 * [Functions](#functions)
 
 ####Instances and Events
-* [Instances of Movie Clips](#Instances of Movie Clips)
-* [Instances of Text Fields](#Instances of Text Fields)
+* [Instances of Movie Clips](#instances-of-movie-clips)
+* [Instances of Text Fields](#instances-of-text-fields)
 * [Creating Instances from Code](#creating-instances-from-code)
 * [Instances of Sounds](#Instances of Text Fields)
 * [Events](#events)
@@ -34,7 +34,6 @@
 * [Timer Events](#timer-events)
 * [Frame Events](#frame-events)
 
-#
 #Programming Basics
 ##Intro to ActionScript
 *"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program." --Linus Torvalds*
@@ -422,15 +421,18 @@ function activateBonus():void
 
 **Note:** The line of code that says `return` followed by an expression should almost always be the last line of your function. It terminates the execution of the function, so any code that might come after it is pretty pointless most of the time.
 
-#
 #Instances and Events
 ##Instances of Movie Clips
 
-When animating in Flash, you've created symbols, which appear in the library. When you drag copies of a symbol onto the stage, you're creating **instances** of that symbol. By default, these instances don't have names, but we can give them names. It turns out that if we want to be able to write code that affects instances, we need to be able to somehow refer to them in the code. Here's how we do it:
+When you create movie clip symbols, they appear in the library. When you drag copies of a movie clip symbol onto the stage, you're creating **instances** of that symbol. By default, these instances don't have names, but we can give them names. If we do, we can then do stuff with them in the code.
+
+###Providing Instance Names
+
+![picture showing how to add an instance name](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/instance-name.png)
 
 1. Select an instance on the stage.
 2. Go to the Properties panel.
-3. Give the instance a name making sure not to include spaces in the name or start the name with a number. I strongly recommend following the "[camelCase](#camelcase)" convention described below.
+3. Give the instance a name making sure not to include spaces in the name or start the name with a number. **Note:** I strongly recommend following the "[camelCase](#camelcase)" convention. As you'll see in a bit, instance names are really no different from variable names.
 4. Use the instance name in the code to change the instance's properties, stop it from playing, and do other interesting things with it.
 
 ```java
