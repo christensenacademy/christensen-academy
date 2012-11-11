@@ -19,7 +19,8 @@
 
 ####Coding Conventions
 * [camelCase and UpperCamelCase](#camelcase-and-uppercamelcase)
-* [Code Formatting](#code-formatting)
+* [Semicolons](#semicolons)
+* [indenting](#indenting)
 
 ####Working with Numbers and Strings
 * [Working with Numbers](#working-with-numbers)
@@ -133,7 +134,7 @@ trace("Hello World"); // writes a message to the Output panel
 **Note:** Each line of code above can be thought of as a command telling the computer to do something. I think this is a good way to think about it for the time being, but realize that technically what's going in each line is that [functions](#functions) are being called.
 
 ####Give It a Try
-Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/basic-commands.fla) to see if you can figure out what the code is doing. To test the program press ctrl+enter on PC or command+return on Mac. Look at the code for each frame. Try changing up some of the commands and predict the results.
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/basic-code-1.fla) to see if you can figure out what the code is doing. To test the program press ctrl+enter on PC or command+return on Mac. Look at the code for each frame. Try changing up some of the commands and predict the results.
 
 
 
@@ -272,9 +273,12 @@ trace(percentage);
 var score1:Number = 44.6;
 var score2:Number = 45.9;
 var score3:Number = 42.1;
-var average:Number = (score1 + score2 + score3)/3;
+var average:Number = (score1 + score2 + score3)/3; 
+//NOTE: Order of operations works as you'd expect
 trace(average);
 ```
+
+In addition to using `*`, `/`, `-`, and `+` symbols, you can use the `%` symbol, which gives a remainder. For example, `11%5` evaluates to `1` and `17%6` evaluates to `5`.
 
 ###Concatenation
 When working with strings, "+" has a whole new meaning. Instead of adding numbers together, it "concatenates" strings, which is a fancy word that just means the strings join together.
@@ -286,7 +290,7 @@ var newMessage:String = name1 + " is " + name2 + "'s younger brother."
 trace(newMessage);
 ```
 
-**Explore:** What happens when you put a "+" sign in between a number and a string? Using more technical language, what does the *expression* `"Points: " + points` *evaluate* to (assuming that points is a variable of type Number)?
+**Note:** If you put `+` in between a string and a number, concatenation occurs. For example, `4 + "ever"` evaluates to `"4ever"`.
 
 
 ###Give it a try!
@@ -318,31 +322,35 @@ Notice how the code for a function is written between `{` and `}` symbols and th
 ####Two Ways to Write Curly Brackets for Functions
 ```java
 function example1():void {
-  //code goes here;
+  //code goes here
 }
 
 function example2():void //notice that there is no semicolon at the end of this line
 {
-  //code goes here;
+  //code goes here
 }
 ```
 
 Both of the examples above are perfectly valid. Choose which one you like best then do your best to stick with it.
 
 ###Give it a try!
-Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/functions-example1.fla) to help you understand how functions work.
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/functions-example.fla) to help you understand how functions work.
 
 ###Built-In Functions
 Whenever you find yourself typing parenthesis, such as when you tell the playhead to stop by typing `stop()`, you're actually calling a function. In the case of `stop()`, you're calling a function named stop. Realize that even though you didn't write the stop function, somebody else did. Functions like the stop function are "built-in" and you can call them any time you need to.
 
 ###Arguments
-Some functions take input called *arguments* or *parameters*. Here's are some examples:
+Some functions require *arguments* or *parameters*, which can be thought of as input. Here's are some examples:
 
 ```java
-gotoAndPlay(3); //this function takes one number as a parameter
-trace("Hello World"); //this function takes one string or number as a parameter
+//the gotoAndPlay function takes a number as a parameter
+gotoAndPlay(3);
+
+//the trace function can take a string or a number as a parameter
+trace("Hello World");
 trace(3);
 
+//here's how to make a function with a Strig as a parameter
 function thankYou(recipient:String):void
 {
   trace("Thank you, " + recipient);
@@ -350,21 +358,61 @@ function thankYou(recipient:String):void
 
 thankYou("Brooke");
 
+//here's how to make a function that takes two parameters--first a string, then a number
 function happyBirthday(person:String, age:Number)
 {
   trace("Happy Birthday, " + person + ", on turning " + age + "!");
 }
 
-happyBirthday("Covington", 1); 
+happyBirthday("Eric", 28); 
 ```
 
 ###Return Types
-Every function has a return type. When a function has "void" as a return type...
+Every function has a return type, which is written after the parentheses in the function declaration. For example, in the function declaration `function searchForMeaningOfLife():Number`, the return type is Number. This means that `searchForMeaningOfLife()` at some other point in your code will evaluate to a number. When a function has "void" as a return type, that just means that the function doesn't return anything and will return `undefined` when called.
 
+####Example function returning a number
+```java
+// What is 1+2+3+...+n? This function returns the answer
+function triangleNumber(n:Number):Number
+{
+  var answer = n*(n+1)/2;
+  return answer;
+}
 
-###Give it a try!
-Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/functions-example2.fla) to help you understand how functions work.
+var example1:Number = triangleNumber(6);
+trace(example1); //prints 21
+trace(triangleNumber(10)); //prints 55
+var example2:Number = triangleNumber(6) - triangleNumber(5);
+trace(example2); //prints 6
+```
+####Example function returning a string
+```java
+function login(username:String, password:String):String
+{
+  if(username=="cam" && password=="kowabunga")
+  {
+    return "Login successful";
+  }
+  else
+  {
+    return "Login failed";
+  }
+}
+trace(login("cam","strawberryshake"));
+trace(login("cam","kowabunga"));
+```
+####Example function returning nothing (void)
+```java
+function activateBonus()
+{
+  score = score + 8;
+  health = health + 12;
+}
+```
 
+**Note:** Whereas you can have multiple parameters for a single function, you can only have one return type.
+
+**Note:** The line of code that says `return` followed by an expression should almost always be the last line of your function. It terminates the execution of the function, so any code that might come after it is pretty pointless most of the time.
 
 
 
