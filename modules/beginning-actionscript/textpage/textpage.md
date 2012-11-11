@@ -3,14 +3,14 @@
 
 **Goal:** By the end of the module, you should be able to create your own unique computer game. This will not be an easy journey, but if you stick with it, you'll be amazed at what you can accomplish.
 
-####Programming Basics
+####[Programming Basics](#programming-basics)
 * [Intro to ActionScript](#intro-to-actionscript)
 * [Getting Started](#getting-started)
 * [Fixing Errors](#fixing-errors)
 * [Variables](#variables)
 * [Functions](#functions)
 
-####Instances and Events
+####[Instances and Events](#instances-and-events)
 * [Instances of Movie Clips](#Instances of Movie Clips)
 * [Instances of Text Fields](#Instances of Text Fields)
 * [Creating Instances from Code](#creating-instances-from-code)
@@ -34,6 +34,7 @@
 * [Timer Events](#timer-events)
 * [Frame Events](#frame-events)
 
+#Programming Basics
 ##Intro to ActionScript
 *"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program." --Linus Torvalds*
 
@@ -415,10 +416,10 @@ function activateBonus()
 **Note:** The line of code that says `return` followed by an expression should almost always be the last line of your function. It terminates the execution of the function, so any code that might come after it is pretty pointless most of the time.
 
 
-
+#Instances and Events
 ##Instances of Movie Clips
 
-When animating in Flash, you've created symbols, which appear in the library. When you drag copies of a symbol onto the stage, you're creating **instances** of that symbol. By default, these instances don't have names, and, if we want to be able to write code that affects instances, we need to be able to somehow refer to them in the code. Here's how we do it:
+When animating in Flash, you've created symbols, which appear in the library. When you drag copies of a symbol onto the stage, you're creating **instances** of that symbol. By default, these instances don't have names, but we can give them names. It turns out that if we want to be able to write code that affects instances, we need to be able to somehow refer to them in the code. Here's how we do it:
 
 1. Select an instance on the stage.
 2. Go to the Properties panel.
@@ -434,6 +435,7 @@ shootingStar.stop(); // tells the playhead of the instance to stop
 shootingStar.play(); // tells the playhead of the instance to play 
 ```
 
+##Events
 ##Buttons
 
 My definition of a button: *any instance on the stage that does something when clicked on*.
