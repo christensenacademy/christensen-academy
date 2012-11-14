@@ -1,5 +1,5 @@
-#Khan Academy CS Textpage
-##Drawing
+#Drawing
+##Khan Academy CS
 ####Cameron Christensen (2012)
 
 
