@@ -20,7 +20,7 @@ You want to get comforable being able to create rectangles, triangles, ellipses,
 **Note:** There's little need to memorize anything as you'll always have access to the documentation on the Khan Academy which explains how the various functions work and gives you code examples.
 
 ####Can You Draw a House?
-![]()
+![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/khan-cs/textpages/house-drawing.png)
 
 ####Can You Draw a Car?
-![]()
+![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/khan-cs/textpages/car-drawing.png)
