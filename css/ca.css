@@ -29,10 +29,11 @@ h4 {color:#111;font-size:130%;}
 .reference-guide {display:inline-block;width:40px;height:40px;background-image: url("../img/ref-icon.png");}
 .textpage {display:inline-block;height:40px;background: url("../img/ref-icon-black.png") no-repeat;padding-left:40px;color:#111;line-height:40px;}
 .textpage small{color:#ccc;}
+.textpage-heading {font-size:1.5em !important;}
 .textpage:hover {background-image:url("../img/ref-icon.png");color:#eee;text-decoration:none;}
 .challenge-map-heading {color:#111; text-decoration:none;}
 .challenge-map-heading:hover {color:#eee; text-decoration:none;}
-.module-subheading {color:#111;margin:10px 0;font-size:1.25em;}
+.module-subheading {color:#111 !important;margin:10px 0;font-size:1.25em;}
 
 .challenge-map {background-repeat:no-repeat;position:relative;}
 .intro:hover {background-image: url("../img/glyphicons-halflings-white.png");}

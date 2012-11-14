@@ -849,14 +849,7 @@
             </div>
           </div>
           
-          <div class="row-fluid playlist">
-            <div class="span12" id="processing-khan">
-              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Khan Academy and Processing <small class="hidden-phone">This is Some Really Amazing Stuff!</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              
-            </div>
-          </div>
+<?php echo file_get_contents('./modules/khan-cs/module.html', true); ?>
           
           <div class="row-fluid playlist">
             <div class="span12" id="processing-intermediate">
