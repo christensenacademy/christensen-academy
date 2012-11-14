@@ -1,0 +1,71 @@
+#cs-basics, .cs-basics-color:hover { background-color: #3C29A3 !important;}
+#web, .web-color:hover { background-color: #1b54b0 !important;}
+#game-maker, .game-maker-color:hover { background-color: #0E710E !important;}
+#processing, .processing-color:hover { background-color: #A88000 !important;}
+#java, .java-color:hover { background-color: #C66D03 !important;}
+#flash, .flash-color:hover { background-color: #9C0800 !important;}
+#brain-teasers, .brain-teasers-color:hover { background-color: #8E0039 !important;}
+#image-manipulation, .image-manipulation-color:hover { background-color: #000 !important;}
+#office, .office-color:hover { background-color: #555 !important;}
+
+.hero-unit .btn-group {margin:1em 0;}
+h2 {color:#fff;}
+h2 small {color:#ddd;}
+h4 {color:#111;font-size:130%;}
+.playlist h3 small {color:#ccc}
+.playlist h3 {color:#eee; margin:1em 0;}
+.module h3 small {color:#ccc}
+.module h3 {color:#eee; margin:1em 0;}
+.videos a, .videos a:link {color:#ddd;}
+.videos a:hover {color:#eee;}
+.videos a:active {color:#fff;}
+.videos a:visited {color:#ddd;}
+.videos ul {margin:0}
+.playlist {margin:2em 0;}
+.playlist p{font-size:1em; font-color:#444; text-indent:2em;}
+.module-header {margin-top:50px;}
+.module-header h3{font-size:200%;}
+
+.reference-guide {display:inline-block;width:40px;height:40px;background-image: url("../img/ref-icon.png");}
+.textpage {display:inline-block;height:40px;background: url("../img/ref-icon-black.png") no-repeat;padding-left:40px;color:#111;line-height:40px;}
+.textpage small{color:#ccc;}
+.textpage:hover {background-image:url("../img/ref-icon.png");color:#eee;text-decoration:none;}
+.challenge-map-heading {color:#111; text-decoration:none;}
+.challenge-map-heading:hover {color:#eee; text-decoration:none;}
+.module-subheading {color:#111;margin:10px 0;font-size:1.25em;}
+
+.challenge-map {background-repeat:no-repeat;position:relative;}
+.intro:hover {background-image: url("../img/glyphicons-halflings-white.png");}
+.challenge {height:16px;width:16px;background-image: url("../img/logo16-black.png");display:block;}
+.challenge:hover {background-image: url("../img/logo16-white.png");}
+.big-project {height:32px;width:32px;background: url("../img/logo32-black.png");display:block;}
+.big-project:hover {background:url("../img/logo32-white.png");}
+.small-project {height:21px;width:21px;background: url("../img/logo21-black.png");display:block;}
+.small-project:hover {background:url("../img/logo21-white.png");}
+
+.future-video {
+  color:#222 !important;
+  text-decoration:none !important;
+}
+
+#challenge-popup h1 {color:#222; margin:8px 0;}
+#challenge-popup h2 {color:#333; margin:6px 0;}
+#challenge-popup h3, #challenge-popup h4, #challenge-popup h5, #challenge-popup h6 {color:#444; margin:4px 0;}
+
+.hero-unit {padding:35px;margin-bottom: 35px;}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .hero-unit {padding:30px;margin-bottom: 30px;}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .hero-unit {padding:25px;margin-bottom: 25px;}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .hero-unit {padding:20px;margin-bottom: 15px;}
+}
+

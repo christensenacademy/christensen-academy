@@ -1124,8 +1124,7 @@
             </div>
           </div>
           
-<?php "hello" ?>
-  <!-- echo file_get_contents('./modules/beginning-actionscript/module.html', true); -->
+<?php echo file_get_contents('./modules/beginning-actionscript/module.html', true); ?>
 
           
           <div class="row-fluid playlist">
