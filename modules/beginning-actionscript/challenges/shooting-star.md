@@ -1,4 +1,5 @@
 * **Estimated Time:** 30 minutes
+* [video](http://www.youtube.com/watch?v=OdCB_gWrAFw)
 
 ###Challenge
 **Goal:** Create a frame-by-frame animation of a shooting star by writing code only.

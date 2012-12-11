@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JQuery Webpage</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <style>
+      h1{
+        color:white;
+        background-color:blue;
+      }
+    </style>
+  </head>
+  <body>
+    <input>Hello World</input>
+    <button onclick="cam();">Period 8</button>
+    <script>
+      var val = 31;
+			var counter = 0;
+			$('input').val(val);
+			var cam = function(){
+				counter++;
+				console.log("" + counter + ": " +val.toString(2));
+				val = parseInt($('input').val());
+				if(val%2===0){
+					val = val/2;
+				}
+				else{
+					val = val*3+1;
+				}
+				$('input').val(val);
+			}
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

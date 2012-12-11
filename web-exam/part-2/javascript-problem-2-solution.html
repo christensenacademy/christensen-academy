@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript Problem 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<style>
+      body {
+        color:#ddd;
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+      }
+			#container {
+				width: 800px;
+				background:#333;
+				margin-left: auto;
+				margin-right: auto;
+        padding:20px;
+			}
+		</style>
+    <script> 
+      var changeLookAndFeel = function(){
+        $("body").css("color", "#333");
+        $("body").css("background", "#333");
+        $("#container").css("background", "#ddd");
+        $("h1").css("text-align", "center");
+        $("img").css("float", "right");
+      }
+    </script>
+	</head>
+	<body>
+		<div id="container">
+			<h1>Lorem Ipsum</h1>
+      <img src="abstract-art-1-mini.jpg" style="float:left;">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id turpis tortor. In velit risus, mollis a tempus nec, volutpat in lacus. Morbi at consectetur metus. Donec fringilla tellus adipiscing leo pharetra interdum. Donec faucibus nunc eget libero tincidunt auctor. In congue magna ac dui lacinia pretium. Ut ac urna nulla, vel aliquam massa. Nunc risus lacus, fringilla quis condimentum sed, porttitor ac diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie semper nisi, non pharetra sapien auctor non. Nullam non orci at libero porttitor blandit nec in nunc. Etiam luctus tellus in est elementum congue. Mauris tristique arcu eget dui mollis eget tempor purus consecte</p>
+      <button onclick="changeLookAndFeel()">Call a function to change the look and feel of the whole page</button>
+		</div>
+	</body>
+</html>

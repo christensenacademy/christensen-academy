@@ -1,4 +1,5 @@
 * **Estimated Time:** 15 minutes.
+* [video](http://www.youtube.com/watch?v=t4mcAxRMW0Y)
 
 ###Challenge
 

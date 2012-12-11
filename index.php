@@ -892,72 +892,8 @@
         <div class="hero-unit" id="java" >
           <h2>JAVA <small class="hidden-phone">Learn how to program in Java!</small></h2>
           
-          <div class="row-fluid playlist">
-            <div class="span12" id="java-intro">
-              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Intro to Java <small class="hidden-phone"></small></h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/D73umIWtdk4">Hello World</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="java-basics">
-              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">The Basics <small class="hidden-phone">Data Types, Variables, and Control Structures</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              
-            </div>
-          </div>
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="java-classes-and-objects">
-              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Classes and Objects <small class="hidden-phone">Understanding Java's Object-Oriented Programming Model</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              
-            </div>
-          </div>
-          
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="java-programming-competitions">
-              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Programming Competitions <small class="hidden-phone">A Jumpstart for Beginners</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Intro to Programming Competitions</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Using Java for Programming Competitions</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Basic Template and Strategy that Works for Most Problems</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Intro to Variables</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Strings and Scanners</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Primitive Types</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Doing Math</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">If Statements</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Loops</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">For Loops</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Nested Loops</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Arrays</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Classes</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">ArrayList</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">HashMap</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+<?php echo file_get_contents('./modules/java-getting-started/module.php', true); ?>
+
         </div>
       </div><!--/row-->
       
@@ -997,7 +933,7 @@
                 <ul class="unstyled">
 <li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/jkscZYqAUWY?rel=0">Workspace: Library and Properties Panels</a></li>
 <li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/KPKAXHlChAM?rel=0">Workspace: Actions Panel</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.?rel=0">Flash Workspace: Recap with Game Examples</a></li>
+<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Flash Workspace: Recap with Game Examples</a></li>
                 </ul>
               </div>
             </div>
