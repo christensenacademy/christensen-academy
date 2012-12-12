@@ -1,9 +1,9 @@
-#Java Platform Vs. Java Programming Language
+#Java Platform vs. Java Programming Language
 Understanding the differences between the Java Platform and the Java Programming language won't help you write your first program, but it may help you understand *why* you'd want to use Java in the first place and provide you with a deeper understanding of Java in general.
 
 **Note:** Should you start reading this article and find it exceptionally confusing, just skip it for the time being. You might want to come back to these ideas later after you've gained more programming experience.
 
-##Protability
+##Portability
 *"Write once, run anywhere."*
 
 In everyday language, we use the term *portable* to describe those things that can easily be transported from one place to another. My luggage, for example, is portable; my house, in contrast, is less portable.
@@ -18,7 +18,7 @@ Understanding why Java programs are portable requires us to understand how Java 
 
 ##How Programs Work
 ###Step 1: Writing a Program
-Here are some examples of code for computer programs written in three different languages. The job of a programmer is to write code like the following.
+Here are some examples of code for computer programs written in three different languages. The job of a programmer is to write code like the following:
 
 **Example Program in C++ (a Traditional Language)**
 ```c++
@@ -50,7 +50,7 @@ In traditional languages like C++, code is compiled into machine language code. 
 
 In Java, code is compiled into special bytecode, not machine language code. This is necessary to employ the folloing clever trick: bytecode is not run directly by the processor of the computer as machine code would be. Instead, another program called the JRE (Java Runtime Environment) runs the bytecode. This trick is what allows Java programs to be portable. As long as a computer has the JRE installed on it, that computer can run Java bytecode.
 
-**Note:** The JVM (Java Virtual Machine) is part of the JRE and is essentially a computer program that pretends to be a processor. The JVM is the part of the JRE that executes (runs) Java bytecode.
+**Note:** The JVM (Java Virtual Machine) is part of the JRE and is essentially a computer program that pretends to be a processor.
 
 **Note:** Other programming languages, not just Java, can be compiled into Java bytecode. These languages are called [JVM languages](http://en.wikipedia.org/wiki/List_of_JVM_languages). A great example is JRuby, which is Ruby code that can be compiled into Java bytecode. Cool stuff!
 
@@ -61,8 +61,8 @@ Similar to how Java uses a special program (i.e., the JRE) to run bytecode, inte
 ###Step 3: Run the Program
 I basically already explained this, but here's a quick recap:
 
-* Traditional Languages: Machine language code was create at compile time. The processor of the computer can run this code directly, which makes programs fast but lacking in portability.
-* Virtual Machine Languages (e.g., Java): Bytecode is create at compile time. A special program must run this bytecode, which makes programs slightly slower but much more portable.
+* Traditional Languages: Machine language code was created at compile time. The processor of the computer can run this code directly, which makes programs fast but lacking in portability.
+* Virtual Machine Languages (e.g., Java): Bytecode is created at compile time. A special program must run this bytecode, which makes programs slightly slower but much more portable.
 * Interpreted Languages (e.g. Ruby, Python, and JavaScript): No compilation necessary. A special program must interpret the plain text, which makes programs slower but portable similar to Java.
 
 ##APIs
@@ -71,7 +71,7 @@ The term API (Application Programming Interface) is used whenever a programming 
 APIs are very common in the programming world. Anytime software interacts with other software, you'll see an API. Well-designed APIs tend to make programming easier and more productive. For the time being, I'll reserve judgement on the Java API.
 
 ##Why Use Java
-If you've read the rest of this document, I hope you can see the ambiguity inherent in the question, "Why use Java?" In this question, does "Java" refer to the platform or the programming language? I have very different responses in each case.
+If you've read the rest of this document, I hope you can see the ambiguity inherent in the question, "Why use Java?" In this question, does "Java" refer to the platform or the programming language?
 
 ###Why Use The Java Platform?
 This could be a very complicated answer, but for now I'll leave you with a one-word answer: portability.

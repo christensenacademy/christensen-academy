@@ -11,6 +11,8 @@
   <div class="span12">
     <h4 class="module-subheading">
       <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/java-getting-started/textpages/java-platform-vs-language.md" class="textpage">Platform vs. Language <small class="hidden-phone"> Understanding How Java Works</small></a>
+      <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/java-getting-started/textpages/finding-an-ide.md" class="textpage">Finding an IDE <small class="hidden-phone"> Integrated Development Environment</small></a>
+      <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/java-getting-started/textpages/your-first-program.md" class="textpage">Your First Program <small class="hidden-phone"> Hello World!</small></a>
     </h4>
   </div>
 
