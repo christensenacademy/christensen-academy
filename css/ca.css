@@ -8,9 +8,6 @@
 #image-manipulation, .image-manipulation-color:hover { background-color: #000 !important;}
 #office, .office-color:hover { background-color: #555 !important;}
 
-.hero-unit .btn-group {margin:1em 0;}
-h2 {color:#fff;}
-h2 small {color:#ddd;}
 h4 {color:#111;font-size:130%;}
 .playlist h3 small {color:#ccc}
 .playlist h3 {color:#eee; margin:1em 0;}
@@ -26,11 +23,19 @@ h4 {color:#111;font-size:130%;}
 .module-header {margin-top:50px;}
 .module-header h3{font-size:200%;}
 
+
+.module a, .module a:link {color:#ddd;}
+.module a:hover {color:#eee;}
+.module a:active {color:#fff;}
+.module a:visited {color:#ddd;}
+
+
+/* old stuff -- delete eventually */
 .reference-guide {display:inline-block;width:40px;height:40px;background-image: url("../img/ref-icon.png");}
-.textpage {display:inline-block;height:40px;background: url("../img/ref-icon-black.png") no-repeat;padding-left:40px;color:#111;line-height:40px;}
+.textpage {font-size:0.9em;margin-bottom:12px;display:inline-block;height:16px;background: url("../img/logo16-black.png") no-repeat;padding-left:22px;color:#111;line-height:16px;}
 .textpage small{color:#ccc;}
 .textpage-heading {font-size:1.5em !important;}
-.textpage:hover {background-image:url("../img/ref-icon.png");color:#eee;text-decoration:none;}
+.textpage:hover {background-image:url("../img/logo16-white.png");color:#eee;text-decoration:none;}
 .challenge-map-heading {color:#111; text-decoration:none;}
 .challenge-map-heading:hover {color:#eee; text-decoration:none;}
 .module-subheading {color:#111 !important;margin:10px 0;font-size:1.25em;}
@@ -48,25 +53,14 @@ h4 {color:#111;font-size:130%;}
   color:#222 !important;
   text-decoration:none !important;
 }
-
-#challenge-popup h1 {color:#222; margin:8px 0;}
-#challenge-popup h2 {color:#333; margin:6px 0;}
-#challenge-popup h3, #challenge-popup h4, #challenge-popup h5, #challenge-popup h6 {color:#444; margin:4px 0;}
-
-.hero-unit {padding:35px;margin-bottom: 35px;}
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  .hero-unit {padding:30px;margin-bottom: 30px;}
-}
-
-/* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-  .hero-unit {padding:25px;margin-bottom: 25px;}
-}
-
-/* Landscape phones and down */
-@media (max-width: 480px) {
-  .hero-unit {padding:20px;margin-bottom: 15px;}
+  body{
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .container-fluid {
+    padding-left:20px;
+    padding-right:20px;
+  }
 }
 

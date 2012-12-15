@@ -1,9 +1,9 @@
-#Java Platform vs. Java Programming Language
 Understanding the differences between the Java Platform and the Java Programming language won't help you write your first program, but it may help you understand *why* you'd want to use Java in the first place and provide you with a deeper understanding of Java in general.
 
 **Note:** Should you start reading this article and find it exceptionally confusing, just skip it for the time being. You might want to come back to these ideas later after you've gained more programming experience.
 
 ##Portability
+
 *"Write once, run anywhere."*
 
 In everyday language, we use the term *portable* to describe those things that can easily be transported from one place to another. My luggage, for example, is portable; my house, in contrast, is less portable.

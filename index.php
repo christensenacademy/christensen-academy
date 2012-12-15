@@ -86,22 +86,7 @@
 	  </div>
 	  <div class="modal-body">
       <p>
-        <a href="http://www.youtube.com/embed/YOA0bDe4DdA">A video explanation</a>
-      </p>
-      <p>
-        Hi, my name is Cameron Christensen, and I'm a high school teacher who has been inspired by Sal Khan and the <a href="http://www.khanacademy.org">Khan Academy</a>. If you'd like to learn about computers and computer programming, the Christensen Academy is for you!
-      </p>
-      <p>
-         You'll notice that all of the videos are free. In addition, the software needed is free as well (except if you want to learn Flash). Simply put, all you need is a computer (Mac, Windows, or Linux), and you can learn everything I have to teach.
-      </p>
-      <p>
-         I started making christensenacademy.org at the beginning of June 2012. You'll notice that I'm still actively creating content. At the moment, my efforts are focused on Web stuff, Adobe Flash, and office applications. I'll be producing videos on a regular basis throughout the remainder of 2012 and hopefully well into the future.
-      </p>
-      <p>
-         My long-term vision for this site goes far beyond what you see on the site currently. If you're interested in reading my evolving thoughts on education and the Christensen Academy, you can follow <a href="http://christensenacademy.blogspot.com/">my blog</a>.
-      </p>
-      <p>
-        If you'd like to learn even more about the Christensen Academy, you can check out my most recent <a href="http://www.youtube.com/embed/YOA0bDe4DdA">video explanation</a>.
+        Hi, my name is Cameron Christensen, and I want to help people learn about computers and computer programming. Please realize that it's just me working on all of this and that I'm still actively developing content on a daily basis. I have no intentions of using it as a way to make money. I'm doing this in my spare time because I enjoy it and find it very rewarding. If you end up using this site to help you learn, please email me and tell me about your experience. I'd love to get some feedback!
       </p>
       <p>
          Kowabunga,<br><br> &ndash; Cam
@@ -111,61 +96,25 @@
 	<!--/modals-->
 	
   <div class="container-fluid">
-      <div class="hero-unit hidden-phone" style="background:none">
-        <div class="row-fluid">
-          <div class="span2">
-            <a href="http://www.youtube.com/embed/YOA0bDe4DdA"><img src="img/logo112.png" style="display:block;margin:0 auto;" alt="The Christensen Academy Logo" title="Learn about the Christensen Academy"></a>
-          </div>
-          <div class="span10">
-            <h1>Hello, World!</h1>
-            <p>Welcome to the Christensen Academy, where you can learn about computers and computer programming for free!</p>
-          </div>
+    <div class="hero-unit hidden-phone" style="background:none">
+      <div class="row-fluid">
+        <div class="span2">
+          <img src="img/logo112.png" style="display:block;margin:0 auto;" alt="The Christensen Academy Logo">
         </div>
-      </div>   
-          
+        <div class="span10">
+          <h1>Hello World!</h1>
+          <p>Welcome to the Christensen Academy, where you can learn about computers and computer programming for free.</p>
+        </div>
+      </div>
+    </div>   
+  </div>
 
 <!-- *****************************
       START CS BASICS SECTION
      ***************************** -->
-      <div class="row-fluid">
-        <div class="hero-unit" id="cs-basics" >
-          <h2>Computer Science Basics <small class="hidden-phone">Binary and More...</small></h2>
-          
-          <div class="row-fluid playlist"  id="cs-basics-hardware-software">
-            <div class="span12">
-              <h3>
-                Computer Basics <small class="hidden-phone">Understanding Hardware, Software, and File Systems</small>
-              </h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/S-5Bf9S3lVY?rel=0">Original Purpose of Computers</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/W2cdW0Dycco?rel=0">Binary System Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/-nuSLln-pY8?rel=0">Computer Hardware Basics</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/-3nWC29Uyug?rel=0">Computer Software Basics</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Iow1svZ3QQQ?rel=0">Computer Speed</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/sHm4L9VIJl0?rel=0">Computer File Sizes (Part 1)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/BchvDqb972Y?rel=0">Computer File Sizes (Part 2)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/j9EKn1rtUCY?rel=0">Computer Directory (Folder) Structure</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/mgWb3aWpAws?rel=0">File Systems (an additional thought)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/3SGs6TizpSI?rel=0">Files and Filenames</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/RPh3y2JJp_A?rel=0">File Types and Extensions</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Basic File Operations</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">The Command Line (Part 1)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">The Command Line (Part 2)</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+  <div class="container-fluid" id="cs-basics">   
+    <?php echo file_get_contents('./modules/computer-basics/module.php', true); ?>
+         
           <div class="row-fluid playlist">
             <div class="span12" id="cs-basics-binary">
               <h3>Binary <small class="hidden-phone"> Numbers, Character Encodings, and More!</small></h3>
@@ -204,7 +153,6 @@
               </div>
             </div>
           </div>
-        </div>
       </div><!--/row-->
       
 <!-- *****************************
@@ -230,19 +178,19 @@
               <div class="span6 challenge-map" style="background-image:url('img/challenge-map_web-design-and-development-intro.png');height:349px;">             
 
 <div style="position:absolute;top:27px;left:23px;">
-  <a class="icon-leaf intro challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/web-design-and-development-intro/intro.md" rel="tooltip" title="Intro"></a></div>
+  <a class="icon-leaf intro challenge" data-toggle="modal" href="#popup" data-link="./modules/web-design-and-development-intro/intro.md" rel="tooltip" title="Intro"></a></div>
 
 <div style="position:absolute;top:69px;left:108px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/web-design-and-development-intro/challenges/internet-vs-www-challenge.md" rel="tooltip" title="Internet vs. WWW Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/web-design-and-development-intro/challenges/internet-vs-www-challenge.md" rel="tooltip" title="Internet vs. WWW Challenge"></a></div>
 
 <div style="position:absolute;top:130px;left:110px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/web-design-and-development-intro/challenges/http-request-response-challenge.md" rel="tooltip" title="HTTP Request-Response Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/web-design-and-development-intro/challenges/http-request-response-challenge.md" rel="tooltip" title="HTTP Request-Response Challenge"></a></div>
 
 <div style="position:absolute;top:180px;left:96px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/web-design-and-development-intro/challenges/web-standards-challenge.md" rel="tooltip" title="Web Standards Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/web-design-and-development-intro/challenges/web-standards-challenge.md" rel="tooltip" title="Web Standards Challenge"></a></div>
 
 <div style="position:absolute;top:277px;left:104px;">
-  <a class="big-project challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/web-design-and-development-intro/projects/ftp-project.md" rel="tooltip" title="FTP Project"></a></div>
+  <a class="big-project challenge" data-toggle="modal" href="#popup" data-link="./modules/web-design-and-development-intro/projects/ftp-project.md" rel="tooltip" title="FTP Project"></a></div>
               </div>
               <div class="span6">
                 <ul class="unstyled">
@@ -275,43 +223,43 @@
               <div class="span6 challenge-map" style="background-image:url('img/challenge-map_html-basics.png');height:476px;">             
 
 <div style="position:absolute;top:18px;left:220px;">
-  <a class="icon-leaf intro challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/intro.md" rel="tooltip" title="Intro"></a></div>
+  <a class="icon-leaf intro challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/intro.md" rel="tooltip" title="Intro"></a></div>
 
 <div style="position:absolute;top:65px;left:195px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/challenges/text-editor-challenge.md" rel="tooltip" title="Text Editor Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/text-editor-challenge.md" rel="tooltip" title="Text Editor Challenge"></a></div>
 
 <div style="position:absolute;top:14px;left:71px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/challenges/keyboard-shortcut-challenge.md" rel="tooltip" title="Keyboard Shortcut Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/keyboard-shortcut-challenge.md" rel="tooltip" title="Keyboard Shortcut Challenge"></a></div>
 
 <div style="position:absolute;top:88px;left:78px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/challenges/basic-webpage-challenge.md" rel="tooltip" title="Basic Webpage Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/basic-webpage-challenge.md" rel="tooltip" title="Basic Webpage Challenge"></a></div>
 
 <div style="position:absolute;top:84px;left:22px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/challenges/list-challenge.md" rel="tooltip" title="List Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/list-challenge.md" rel="tooltip" title="List Challenge"></a></div>
 
 <div style="position:absolute;top:166px;left:108px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/challenges/self-assessment.md" rel="tooltip" title="Self Assessment"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/self-assessment.md" rel="tooltip" title="Self Assessment"></a></div>
 
 <div style="position:absolute;top:241px;left:176px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/challenges/absolute-path-challenge.md" rel="tooltip" title="Absolute Path Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/absolute-path-challenge.md" rel="tooltip" title="Absolute Path Challenge"></a></div>
 
 <div style="position:absolute;top:222px;left:109px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/challenges/zip-challenge.md" rel="tooltip" title="Zip Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/zip-challenge.md" rel="tooltip" title="Zip Challenge"></a></div>
 
 <div style="position:absolute;top:272px;left:39px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/challenges/meta-challenge.md" rel="tooltip" title="Meta Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/meta-challenge.md" rel="tooltip" title="Meta Challenge"></a></div>
 
 <div style="position:absolute;top:284px;left:291px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/challenges/html-entities-challenge.md" rel="tooltip" title="HTML Entities Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/html-entities-challenge.md" rel="tooltip" title="HTML Entities Challenge"></a></div>
 
 <div style="position:absolute;top:292px;left:152px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/challenges/relative-path-challenge.md" rel="tooltip" title="Relative Path Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/relative-path-challenge.md" rel="tooltip" title="Relative Path Challenge"></a></div>
 
 <div style="position:absolute;top:360px;left:208px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/challenges/validation-challenge.md" rel="tooltip" title="Validation Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/validation-challenge.md" rel="tooltip" title="Validation Challenge"></a></div>
   
 <div style="position:absolute;top:420px;left:125px;">
-  <a class="big-project challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/html-basics/projects/website-project.md" rel="tooltip" title="Website Project"></a></div>
+  <a class="big-project challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/projects/website-project.md" rel="tooltip" title="Website Project"></a></div>
               </div>
               <div class="span6">
                 <ul class="unstyled">
@@ -361,31 +309,31 @@
               <div class="span6 challenge-map" style="background-image:url('img/challenge-map_css-basics.png');height:383px;">             
 
 <div style="position:absolute;top:21px;left:132px;">
-  <a class="icon-leaf intro challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-basics/intro.md" rel="tooltip" title="Intro"></a></div>
+  <a class="icon-leaf intro challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/intro.md" rel="tooltip" title="Intro"></a></div>
   
 <div style="position:absolute;top:72px;left:115px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-basics/challenges/three-types-of-css-challenge.md" rel="tooltip" title="Three Types of CSS Challenge"></a></div>  
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/three-types-of-css-challenge.md" rel="tooltip" title="Three Types of CSS Challenge"></a></div>  
   
 <div style="position:absolute;top:138px;left:128px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-basics/challenges/css-validation-challenge.md" rel="tooltip" title="CSS Validation Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/css-validation-challenge.md" rel="tooltip" title="CSS Validation Challenge"></a></div>
   
 <div style="position:absolute;top: 189px;left:48px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-basics/challenges/color-challenge.md" rel="tooltip" title="Color Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/color-challenge.md" rel="tooltip" title="Color Challenge"></a></div>
 
 <div style="position:absolute;top: 198px;left:87px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-basics/challenges/selectors-challenge.md" rel="tooltip" title="Selectors Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/selectors-challenge.md" rel="tooltip" title="Selectors Challenge"></a></div>
   
 <div style="position:absolute;top:220px;left:160px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-basics/challenges/pixel-percent-em-challenge.md" rel="tooltip" title="Pixel-Percent-EM Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/pixel-percent-em-challenge.md" rel="tooltip" title="Pixel-Percent-EM Challenge"></a></div>
   
 <div style="position:absolute;top:272px;left:105px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-basics/challenges/text-challenge.md" rel="tooltip" title="Text Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/text-challenge.md" rel="tooltip" title="Text Challenge"></a></div>
   
 <div style="position:absolute;top:274px;left:165px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-basics/challenges/font-challenge.md" rel="tooltip" title="Font Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/font-challenge.md" rel="tooltip" title="Font Challenge"></a></div>
 
 <div style="position:absolute;top:341px;left:128px;">
-  <a class="big-project challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-basics/projects/site-remodelling-project.md" rel="tooltip" title="Site Remodelling Project"></a></div>
+  <a class="big-project challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/projects/site-remodelling-project.md" rel="tooltip" title="Site Remodelling Project"></a></div>
               </div>
               <div class="span6">
                 <ul class="unstyled">
@@ -429,58 +377,58 @@
               <div class="span6 challenge-map" style="background-image:url('img/challenge-map_css-layouts.png');height:441px;">             
 
 <div style="position:absolute;top:5px;left:75px;">
-  <a class="icon-leaf intro challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/intro.md" rel="tooltip" title="Intro"></a></div>
+  <a class="icon-leaf intro challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/intro.md" rel="tooltip" title="Intro"></a></div>
 
 <div style="position:absolute;top:75px;left:45px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/box-model-basics-challenge.md" rel="tooltip" title="Box Model Basics Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/box-model-basics-challenge.md" rel="tooltip" title="Box Model Basics Challenge"></a></div>
 
 <div style="position:absolute;top:52px;left:155px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/parents-challenge.md" rel="tooltip" title="Parents (Boxes in Boxes) Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/parents-challenge.md" rel="tooltip" title="Parents (Boxes in Boxes) Challenge"></a></div>
 
 <div style="position:absolute;top:115px;left:162px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/self-assessment.md" rel="tooltip" title="Self Assessment"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/self-assessment.md" rel="tooltip" title="Self Assessment"></a></div>
 
 <div style="position:absolute;top:170px;left:45px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/basic-layout-challenge-1.md" rel="tooltip" title="Basic Layout Challenge 1"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/basic-layout-challenge-1.md" rel="tooltip" title="Basic Layout Challenge 1"></a></div>
   
 <div style="position:absolute;top:171px;left:81px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/basic-layout-challenge-2.md" rel="tooltip" title="Basic Layout Challenge 2"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/basic-layout-challenge-2.md" rel="tooltip" title="Basic Layout Challenge 2"></a></div>
   
 <div style="position:absolute;top:166px;left:198px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/basic-layout-challenge-3.md" rel="tooltip" title="Basic Layout Challenge 3"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/basic-layout-challenge-3.md" rel="tooltip" title="Basic Layout Challenge 3"></a></div>
   
 <div style="position:absolute;top:117px;left:228px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/background-image-challenge.md" rel="tooltip" title="Background Image Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/background-image-challenge.md" rel="tooltip" title="Background Image Challenge"></a></div>
     
 <div style="position:absolute;top:232px;left:91px;">
-  <a class="small-project challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/projects/basic-layout-project.md" rel="tooltip" title="Basic Layout Project"></a></div>
+  <a class="small-project challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/projects/basic-layout-project.md" rel="tooltip" title="Basic Layout Project"></a></div>
       
 <div style="position:absolute;top:298px;left:25px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/absolute-positioning-challenge.md" rel="tooltip" title="Absolute Positioning Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/absolute-positioning-challenge.md" rel="tooltip" title="Absolute Positioning Challenge"></a></div>
         
 <div style="position:absolute;top:298px;left:61px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/absolute-positioning-layout-challenge.md" rel="tooltip" title="Absolute Positioning Layout Challenge"></a></div>        
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/absolute-positioning-layout-challenge.md" rel="tooltip" title="Absolute Positioning Layout Challenge"></a></div>        
 
 <div style="position:absolute;top:298px;left:129px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/float-text-wrapping-challenge.md" rel="tooltip" title="Float: Text Wrapping Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/float-text-wrapping-challenge.md" rel="tooltip" title="Float: Text Wrapping Challenge"></a></div>
   
 <div style="position:absolute;top:298px;left:168px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/float-menu-challenge.md" rel="tooltip" title="Float: Menu Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/float-menu-challenge.md" rel="tooltip" title="Float: Menu Challenge"></a></div>
 
 <div style="position:absolute;top:295px;left:200px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/float-layout-challenge.md" rel="tooltip" title="Float: Layout Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/float-layout-challenge.md" rel="tooltip" title="Float: Layout Challenge"></a></div>
   
 <div style="position:absolute;top:323px;left:292px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/float-faux-columns-challenge.md" rel="tooltip" title="Float: Faux Columns Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/float-faux-columns-challenge.md" rel="tooltip" title="Float: Faux Columns Challenge"></a></div>
     
 <div style="position:absolute;top:362px;left:178px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/full-page-layout-challenge.md" rel="tooltip" title="Full Page Layout Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/full-page-layout-challenge.md" rel="tooltip" title="Full Page Layout Challenge"></a></div>
       
 <div style="position:absolute;top:388px;left:178px;">
-  <a class="challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/challenges/zen-garden-challenge.md" rel="tooltip" title="Zen Garden Challenge"></a></div>
+  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/zen-garden-challenge.md" rel="tooltip" title="Zen Garden Challenge"></a></div>
   
 <div style="position:absolute;top:396px;left:290px;">
-  <a class="big-project challenge" data-toggle="modal" href="#challenge-popup" data-link="./modules/css-layouts/projects/complex-layout-project.md" rel="tooltip" title="Complex Layout Project"></a></div>
+  <a class="big-project challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/projects/complex-layout-project.md" rel="tooltip" title="Complex Layout Project"></a></div>
               </div>
               
               <div class="span6">
@@ -889,11 +837,9 @@
      ***************************** -->
       
       <div class="row-fluid">
-        <div class="hero-unit" id="java" >
-          <h2>JAVA <small class="hidden-phone">Learn how to program in Java!</small></h2>
-          
+        <div class="hero-unit" id="java" >          
 <?php echo file_get_contents('./modules/java-getting-started/module.php', true); ?>
-
+<?php echo file_get_contents('./modules/beginning-java/module.php', true); ?>
         </div>
       </div><!--/row-->
       
@@ -1355,12 +1301,12 @@
      </footer>
 	</div> <!-- End container -->
 
-<div id="challenge-popup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div id="popup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h1 id="challenge-header"></h1>
+    <h1 id="popup-header"></h1>
   </div>
-  <div class="modal-body" id="challenge-popup-content">
+  <div class="modal-body" id="popup-content">
     
   </div>
 </div>
@@ -1396,14 +1342,14 @@ $('.small-project').blend();
 $(document).ready(function(){
   var converter = new Showdown.converter();
   
- $(".challenge").click(function(event){   
+ $(".popupper").click(function(event){   
    event.preventDefault();
    var pathToChallenge = $(this).attr("data-link");
-   $('#challenge-header').html($(this).attr("data-original-title"));
+   $('#popup-header').html($(this).attr("data-original-title"));
    $.ajax({  
     url: pathToChallenge,  
     cache: false}).done(function( html ) {  
-    $('#challenge-popup-content').html(converter.makeHtml(html));
+    $('#popup-content').html(converter.makeHtml(html));
   });
  });
  
