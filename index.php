@@ -44,56 +44,38 @@
           <a class="brand" href="#">Christensen Academy</a>
           <div class="nav-collapse">
             <ul class="nav">
-				<li class="dropdown">
-					<a href="#"
-						  class="dropdown-toggle"
-						  data-toggle="dropdown">
-						  Learn
-						  <b class="caret"></b>
-					</a>
-					<ul class="dropdown-menu">
-					  <li><a href="#cs-basics" class="cs-basics-color">Computer Science Basics</a></li>
-					  <li><a href="#web" class="web-color">Web Design and Development</a></li>
-					  <li><a href="#game-maker" class="game-maker-color">Game Maker</a></li>
-					  <li><a href="#processing" class="processing-color">Processing</a></li>
-					  <li><a href="#java" class="java-color">Java</a></li>
-					  <li><a href="#flash" class="flash-color">Flash</a></li>
-					  <li><a href="#brain-teasers" class="brain-teasers-color">Brain Teasers</a></li>
-					  <li><a href="#image-manipulation" class="image-manipulation-color">Image Manipulation</a></li>
-					  <li><a href="#office" class="office-color">Office Applications</a></li>
-					</ul>
-				</li>
-				<li><a data-toggle="modal" href="#about">About</a></li>
-				<li><a data-toggle="modal" href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a href="#"
+                    class="dropdown-toggle"
+                    data-toggle="dropdown">
+                    Learn
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#cs-basics" class="cs-basics-color">Computer Science Basics</a></li>
+                  <li><a href="#web" class="web-color">Web Design and Development</a></li>
+                  <li><a href="#game-maker" class="game-maker-color">Game Maker</a></li>
+                  <li><a href="#processing" class="processing-color">Processing</a></li>
+                  <li><a href="#java" class="java-color">Java</a></li>
+                  <li><a href="#flash" class="flash-color">Flash</a></li>
+                  <li><a href="#brain-teasers" class="brain-teasers-color">Brain Teasers</a></li>
+                  <li><a href="#image-manipulation" class="image-manipulation-color">Image Manipulation</a></li>
+                  <li><a href="#office" class="office-color">Office Applications</a></li>
+                </ul>
+              </li>
+              <li><a data-toggle="modal" href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
 
-	<!--modals-->
 	<div class="modal hide fade" id="contact">
 	  <div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal">×</button>
 		<h3>cameron@christensenacademy.org</h3>
 	  </div>
 	</div>
-	
-	<div class="modal hide fade" id="about">
-	  <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal">×</button>
-		<h3>About the Christensen Academy</h3>
-	  </div>
-	  <div class="modal-body">
-      <p>
-        Hi, my name is Cameron Christensen, and I want to help people learn about computers and computer programming. Please realize that it's just me working on all of this and that I'm still actively developing content on a daily basis. I have no intentions of using it as a way to make money. I'm doing this in my spare time because I enjoy it and find it very rewarding. If you end up using this site to help you learn, please email me and tell me about your experience. I'd love to get some feedback!
-      </p>
-      <p>
-         Kowabunga,<br><br> &ndash; Cam
-      </p>
-	  </div>
-	</div>
-	<!--/modals-->
 	
   <div class="container-fluid">
     <div class="hero-unit hidden-phone" style="background:none">
@@ -109,55 +91,11 @@
     </div>   
   </div>
 
-<!-- *****************************
-      START CS BASICS SECTION
-     ***************************** -->
-  <div class="container-fluid" id="cs-basics">   
+  <div class="container-fluid subject-area" id="cs-basics">   
     <?php echo file_get_contents('./modules/computer-basics/module.php', true); ?>
-         
-          <div class="row-fluid playlist">
-            <div class="span12" id="cs-basics-binary">
-              <h3>Binary <small class="hidden-phone"> Numbers, Character Encodings, and More!</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/UFrd2nje2xU?rel=0">Binary Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/L3TYt3hqqO4?rel=0">Binary Numbers Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/m14v6PLiRa4?rel=0">Ambiguity and Writing Binary Numbers</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/q0YUb1OIjP4?rel=0">Binary Numbers and Place Value</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/xaAkGXOWKiU?rel=0">Decimal to Binary Conversions</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/g8GSAESZV48?rel=0">Introduction to Other Number Systems</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/E4CBQAzbMe8?rel=0">Hexadecimal Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/YRVk-83qo_4?rel=0">Hexadecimal-Binary Conversions</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Negative Binary Integers</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Two's Compliment</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Binary Floating Point Numbers (Part 1)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Binary Floating Point Numbers (Part 2)</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Character Encoding</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Unicode and UTF-8</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Text File Sizes</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Computer Images and Binary</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Standard RGB Color</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Image File Sizes Types</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Digital Sound</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      </div><!--/row-->
+    <?php echo file_get_contents('./modules/binary/module.php', true); ?>
+  </div>
       
-<!-- *****************************
-      END CS BASICS SECTION
-     ***************************** -->
       
 <!-- *****************************
       START WEB SECTION

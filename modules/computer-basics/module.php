@@ -75,19 +75,19 @@
     <h4 class="module-subheading">Textpages</h4>
     <ul>
     
-      <li><a href="">
+      <li><a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/computer-basics/textpages/computer-file-sizes.md">
       Computer File Sizes</a></li>
     
-      <li><a href="">
+      <li><a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/computer-basics/textpages/computer-hardware-and-software.md">
       Computer Hardware and Software</a></li>
       
-      <li><a href="">
+      <li><a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/computer-basics/textpages/file-system-basics.md">
       File System Basics</a></li>
       
-      <li><a href="">
+      <li><a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/computer-basics/textpages/cut-copy-and-paste.md">
       Cut, Copy, and Paste</a></li>
       
-      <li><a href="">
+      <li><a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/computer-basics/textpages/the-command-line.md">
       The Command Line</a></li>
       
       

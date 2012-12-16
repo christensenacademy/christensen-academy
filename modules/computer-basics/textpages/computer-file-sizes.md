@@ -13,7 +13,7 @@ With this incredible fact in mind, we're ready, I think, to discuss computer fil
 
 ##Computer File Sizes
 
-We use the term `bit` to refer to a 0 or 1 in a computer. We use the term 'byte' to refer to a sequence of 8 bits. The following are all examples of bytes:
+We use the term `bit` to refer to a 0 or 1 in a computer. We use the term `byte` to refer to a sequence of 8 bits. The following are all examples of bytes:
 
 ```
 10011101
