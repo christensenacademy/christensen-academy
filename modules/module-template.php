@@ -22,7 +22,7 @@
         echo "<div class='challenge-map' style='background-image:url(\"modules/" . $module_name . "/challenge-map.png\");height:" . $map_height . "px;'>";
         foreach ($module_challenges as $challenge) {
           echo "<div style='position:absolute;left:" . $challenge->left . "px;top:" . $challenge->top . "px;'>";
-          echo "<a class='challenge popupper' data-toggle='modal' href='#popup' data-link='./modules/css-layouts/challenges/" . $challenge->filename . "'";
+          echo "<a class='challenge popupper' data-toggle='modal' href='#popup' data-link='./modules/" . $module_name . "/challenges/" . $challenge->filename . "'";
           echo " rel='tooltip' title='" . $challenge->title . "'></a></div>";
         }
         echo "</div>"
