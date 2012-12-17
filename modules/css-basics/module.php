@@ -13,7 +13,7 @@ $module_challenges = array(
   new challenge('pixel-percent-em-challenge.md', 'Pixel-Percent-EM Challenge', '160', '220'),
   new challenge('text-challenge.md', 'Text Challenge', '105', '272'),
   new challenge('font-challenge.md', 'Font Challenge', '165', '274'),
-  new challenge('../projects/site-remodelling-project.md', 'Site Remodelling Project', '128', '341'),
+  new challenge('site-remodelling-project.md', 'Site Remodelling Project', '128', '341'),
 );
 
 $module_videos = array(
@@ -43,7 +43,17 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  new textpage('css-layouts-decimal-hexadecimal-numbers.md', 'Binary-Decimal-Hexadecimal Numbers'),
+  new textpage('css-quick-reference.md', 'CSS Quick Reference'),
+  new textpage('three-types-of-css', 'The Three Types of CSS'),
+  new textpage('css-comments.md', 'CSS Comments'),
+  new textpage('rules-selectors-properties-values.md', 'Rules, Selectors, Properties, and Values'),
+  new textpage('class-and-id-attributes.md', 'Class and ID Attributes'),
+  new textpage('selectors-in-more-depth', 'Selectors in More Depth'),
+  new textpage('colors.md', 'Colors'),
+  new textpage('px-pt-percent-em.md', 'px, pt, %, and em'),
+  new textpage('the-cascade.md', 'The Cascade'),
+  new textpage('font-and-text-properties.md', 'font-and-text-properties'),
+  new textpage('pre-and-whitespace.md', 'pre-and-whitespace'),
 );
 
 include('./modules/module-template.php');

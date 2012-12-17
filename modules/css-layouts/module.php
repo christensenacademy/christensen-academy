@@ -57,12 +57,18 @@ $module_videos = array(
 );
 
 $module_textpages = array(  
-  new textpage('css-layouts-decimal-hexadecimal-numbers.md', 'css-layouts-Decimal-Hexadecimal Numbers'),
-  new textpage('twos-compliment.md', 'Two\'s Compliment'),
-  new textpage('floating-point-numbers.md', 'Floating Point Numbers'),
-  new textpage('character-encodings.md', 'Character Encodings'),
-  new textpage('digital-images.md', 'Digital Images'),
-  new textpage('digital-sound.md', 'Digital Sound')
+  new textpage('quick-reference.md', 'Quick Reference'),
+  new textpage('span-vs-div.md', 'Span vs. Div'),
+  new textpage('css-box-model.md', 'CSS Box Model'),
+  new textpage('background-images.md', 'Background Images'),
+  new textpage('normal-flow-block-vs-inline.md', 'Normal Flow (Block vs. Inline)'),
+  new textpage('relative-positioning.md', 'Relative Positioning'),
+  new textpage('absolute-positioning.md', 'Absolute Positioning'),
+  new textpage('floating-elements.md', 'Floating Elements'),
+  new textpage('simple-menu.md', 'Simple Menu'),
+  new textpage('single-column-layout.md', 'Single-Colum Layout'),
+  new textpage('multi-column-layout.md', 'Multi-Colum Layout'),
+  new textpage('example-page-layout.md', 'Example Page Layout')
 );
 
 

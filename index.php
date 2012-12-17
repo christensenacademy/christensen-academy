@@ -132,7 +132,7 @@
     <?php include('./modules/css-basics/module.php'); ?>
     <?php include('./modules/css-layouts/module.php'); ?>
           
-          
+          <!--
           <div class="row-fluid playlist">
             <div class="span12" id="javascript-basics">
               <h3>
@@ -263,8 +263,8 @@
           </div>
           
         </div>
-      </div><!--/row-->
-      
+       -->
+      </div>
 
 
 

@@ -22,7 +22,6 @@ $module_challenges = array(
 );
 
 $module_videos = array(
-  new video('EbccXUin5Kw', 'Internet vs. WWW: A Brief History'),
   new video('GKyGPRgpa5g', 'HTML, CSS, and JavaScript Overview'),
   new video('GoL1ZW3Lk38', 'Text Editor for Web Development'),
   new video('dVOC77VvlIE', 'HTML Intro'),
