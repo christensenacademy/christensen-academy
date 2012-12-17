@@ -131,7 +131,7 @@
     <?php include('./modules/html-basics/module.php'); ?>
     <?php include('./modules/css-basics/module.php'); ?>
     <?php include('./modules/css-layouts/module.php'); ?>
-          
+  </div>     
           <!--
           <div class="row-fluid playlist">
             <div class="span12" id="javascript-basics">
@@ -264,7 +264,6 @@
           
         </div>
        -->
-      </div>
 
 
 
@@ -273,97 +272,10 @@
       GAME MAKER
      ***************************** -->
       
-      <div class="row-fluid">
-        <div class="hero-unit" id="game-maker" >
-          <h2>Game Maker <small class="hidden-phone">Learn how to make computer games!</small></h2>
-
-          <div class="row-fluid playlist">
-            <div class="span12" id="game-maker-intro">
-              <h3>Intro to Game Maker</h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/tOasHfeLIGc?rel=0">Game Maker Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/KA3WEs0aZJ0?rel=0">Game Maker Versions</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/9lu_t4odW2M?rel=0">Why Learn Game Maker?</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/NFFFjP9EQFw?rel=0">Why Learn through Projects?</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/19ixFAFsmZc?rel=0">A Successful Attitude</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="game-maker-p1">
-              <h3>Project: On the Loose! <small class="hidden-phone">Create Your First Game!</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="">Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/gXJuQ0MN_gw?rel=0">Create, Save, and Play</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/zf4LE4ImH0g?rel=0>Resources (Images and Sounds)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/ho_l7QDl3jk?rel=0">Sprites</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/r3TGBebLSU0?rel=0">Objects, Rooms, and Instances</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/DhdB9pvBmVg?rel=0">Events and Actions (Part 1)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/OJ4QyCI7zL4?rel=0">Events and Actions (Part 2)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Ah6ae2sBC0s?rel=0">Music and Sounds</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/NLB_0sRW2Bc?rel=0">Alarms</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/uzNxavrvefQ?rel=0">Increasing the Difficulty</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/t1Wn7TQTX94?rel=0">Relative Speeds</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/z-ei8xibAxY?rel=0">Game Info</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/dR1YdUNHe4U?rel=0">Rubric Discussion</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="game-maker-p2">
-              <h3>Project: Projectile Comet <small class="hidden-phone">A Game of Intergalactic Wizardry!</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="">Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/tOqGYO6nuQ0?rel=0">Sprites</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/VPRjRuACJjI?rel=0">Coordinates and Wizard Movement</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/127tmb9qwX4?rel=0">Set Wizard Boundaries</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/EW2RaIfyk04?rel=0">Shoot Comets</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/EW2RaIfyk04?rel=0">Bad Guys</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/UK-NwGetJGE?rel=0">Comets Hit Bad Guys</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/9jnT4_tszdE?rel=0">Moving Background</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/41Xi8j-TAQQ?rel=0">Score and Health</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/f4k_qth1sFk?rel=0">Enhancement Ideas</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+      <div class="container-fluid subject-area" id="cs-basics">
+        <?php include('./modules/beginning-game-maker/module.php'); ?>
+      </div>
+          <!--
           
           <div class="row-fluid playlist">
             <div class="span12" id="game-maker-p3">
@@ -435,11 +347,7 @@
             </div>
           </div>
         </div>
-      </div><!--/row-->
-      
-<!-- *****************************
-      GAME MAKER
-     ***************************** -->      
+      </div> -->   
      
 
 
