@@ -1,96 +1,45 @@
-<div class="row-fluid module">
-  <div class="span12 module-header" id="computer-basics">
-    <h3>
-      Computer Basics <small class="hidden-phone"> Understanding Hardware, Software, and File Systems</small>
-    </h3>
-  </div>
-</div>
-  
-<div class="row-fluid module">
-  <!-- CHALLENGE MAP -->
- 
-  <div class="span4">
-    <h4 class="module-subheading">Challenge Map</h4>
-    
-    <!-- START MAP -->
-    <div class="challenge-map" style="background-image:url('modules/computer-basics/challenge-map.png');height:305px;">             
+<?php
+$module_name = 'computer-basics';
+$module_title = 'Computer Basics';
+$module_subtitle = 'Understanding Hardware, Software, and File Systems';
+$map_height = '305';
+$module_playlist = 'PL56DFFE4571D8BFC6';
 
-      <div style="position:absolute;left:39px;top:41px;">
-        <a class="challenge popupper" data-toggle="modal" href="#popup" 
-        data-link="./modules/computer-basics/challenges/hardware-and-software.md" rel="tooltip" title="Hardware and Software"></a></div>
+$module_challenges = array(
+  new challenge('hardware-and-software.md', 'Hardware and Software', '39', '41'),
+  new challenge('show-extensions.md', 'Show File Extensions', '68', '65'),
+  new challenge('explore-your-file-system-1.md', 'Explore Your File System', '32', '128'),
+  new challenge('files-and-folders-1.md', 'Files and Folders', '98', '102'),
+  new challenge('explore-your-file-system-2.md', 'Explore Your File System (Part 2)', '44', '213'),
+  new challenge('files-and-folders-2.md', 'Files and Folders (Part 2)', '86', '216'),
+  new challenge('quiz.md', 'Quiz', '69', '250')
+);
 
-      <div style="position:absolute;left:68px;top:65px;">
-        <a class="challenge popupper" data-toggle="modal" href="#popup" 
-        data-link="./modules/computer-basics/challenges/show-extensions.md" rel="tooltip" title="Show File Extensions"></a></div>
+$module_videos = array(
+  new video('S-5Bf9S3lVY', 'Original Purpose of Computers'),
+  new video('W2cdW0Dycco', 'Binary System Intro'),
+  new video('-nuSLln-pY8', 'Computer Hardware Basics'),
+  new video('-3nWC29Uyug', 'Computer Software Basics'),
+  new video('Iow1svZ3QQQ', 'Computer Speed'),
+  new video('sHm4L9VIJl0', 'Computer File Sizes (Part 1)'),
+  new video('BchvDqb972Y', 'Computer File Sizes (Part 2)'),
+  new video('j9EKn1rtUCY', 'Computer Directory (Folder) Structure'),
+  new video('mgWb3aWpAws', 'File Systems (an additional thought)'),
+  new video('3SGs6TizpSI', 'Files and Filenames'),
+  new video('RPh3y2JJp_A', 'File Types and Extensions')
+  # Basic File Operations
+  # The Command Line (Part 1)
+  # The Command Line (Part 2)
+);
 
-      <div style="position:absolute;left:32px;top:128px;">
-        <a class="challenge popupper" data-toggle="modal" href="#popup" 
-        data-link="./modules/computer-basics/challenges/explore-your-file-system-1.md" rel="tooltip" title="Explore Your File System"></a></div>
+$module_textpages = array(
+  new textpage('computer-file-sizes.md', 'Computer File Sizes'),
+  new textpage('computer-hardware-and-software.md', 'Computer Hardware and Software'),
+  new textpage('file-system-basics.md', 'File System Basics'),
+  new textpage('cut-copy-and-paste.md', 'Cut, Copy, and Paste'),
+  new textpage('the-command-line.md', 'The Command Line')
+);
 
-      <div style="position:absolute;left:98px;top:102px;">
-        <a class="challenge popupper" data-toggle="modal" href="#popup" 
-        data-link="./modules/computer-basics/challenges/files-and-folders-1.md" rel="tooltip" title="Files and Folders"></a></div>
 
-      <div style="position:absolute;left:44px;top:213px;">
-        <a class="challenge popupper" data-toggle="modal" href="#popup" 
-        data-link="./modules/computer-basics/challenges/explore-your-file-system-2.md" rel="tooltip" title="Explore Your File System (Part 2)"></a></div>
-
-      <div style="position:absolute;left:86px;top:216px;">
-        <a class="challenge popupper" data-toggle="modal" href="#popup" 
-        data-link="./modules/computer-basics/challenges/files-and-folders-2.md" rel="tooltip" title="Files and Folders (Part 2)"></a></div>
-
-      <div style="position:absolute;left:69px;top:250px;">
-        <a class="challenge popupper" data-toggle="modal" href="#popup" 
-        data-link="./modules/computer-basics/challenges/quiz.md" rel="tooltip" title="Quiz"></a></div>
-
-    </div>
-    <!-- END MAP -->
-  </div>
-  
-  
-  <!-- VIDEO PLAYLIST -->
-  <div class="span4">
-    <h4 class="module-subheading">Video Playlist</h4>
-    <ul> 
-      <li><a href="http://www.youtube.com/watch?v=S-5Bf9S3lVY">Original Purpose of Computers</a></li>
-      <li><a href="http://www.youtube.com/watch?v=W2cdW0Dycco">Binary System Intro</a></li>
-      <li><a href="http://www.youtube.com/watch?v=-nuSLln-pY8">Computer Hardware Basics</a></li>
-      <li><a href="http://www.youtube.com/watch?v=-3nWC29Uyug">Computer Software Basics</a></li>
-      <li><a href="http://www.youtube.com/watch?v=Iow1svZ3QQQ">Computer Speed</a></li>
-      <li><a href="http://www.youtube.com/watch?v=sHm4L9VIJl0">Computer File Sizes (Part 1)</a></li>
-      <li><a href="http://www.youtube.com/watch?v=BchvDqb972Y">Computer File Sizes (Part 2)</a></li>
-      <li><a href="http://www.youtube.com/watch?v=j9EKn1rtUCY">Computer Directory (Folder) Structure</a></li>
-      <li><a href="http://www.youtube.com/watch?v=mgWb3aWpAws">File Systems (an additional thought)</a></li>
-      <li><a href="http://www.youtube.com/watch?v=3SGs6TizpSI">Files and Filenames</a></li>
-      <li><a href="http://www.youtube.com/watch?v=RPh3y2JJp_A">File Types and Extensions</a></li>
-      <li><a class="future-video" rel="tooltip" title="Video no yet made.">Basic File Operations</a></li>
-      <li><a class="future-video" rel="tooltip" title="Video no yet made.">The Command Line (Part 1)</a></li>
-      <li><a class="future-video" rel="tooltip" title="Video no yet made.">The Command Line (Part 2)</a></li>
-    </ul>
-  </div>
-  
-  <!-- TEXTPAGES -->
-  
-  <div class="span4 textpages">
-    <h4 class="module-subheading">Textpages</h4>
-    <ul>
-    
-      <li><a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/computer-basics/textpages/computer-file-sizes.md">
-      Computer File Sizes</a></li>
-    
-      <li><a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/computer-basics/textpages/computer-hardware-and-software.md">
-      Computer Hardware and Software</a></li>
-      
-      <li><a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/computer-basics/textpages/file-system-basics.md">
-      File System Basics</a></li>
-      
-      <li><a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/computer-basics/textpages/cut-copy-and-paste.md">
-      Cut, Copy, and Paste</a></li>
-      
-      <li><a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/computer-basics/textpages/the-command-line.md">
-      The Command Line</a></li>
-      
-      
-    </ul>
-  </div>
-</div>
+include('./modules/module-template.php');
+?>

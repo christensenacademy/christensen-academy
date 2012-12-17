@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Cameron Christensen">
 		<meta name="keywords" content="computer science, programming, learn, java, javascript, html, css, binary, processing, flash, actionscript, image manipulation, game maker">
-		<meta name="description" content="Learn about computers and computer programming for free!">
+		<meta name="description" content="A gateway to the world of computer science, a place where you can learn about computers and computer programming for free!">
     <link rel="shortcut icon" href="img/logo16.png">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/colorbox.css" />
@@ -33,7 +33,7 @@
 <script src="js/jquery.colorbox.js"></script>
 	</head>
 	<body>
-	<div class="navbar nav-top">
+	<div class="navbar nav-top navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -41,7 +41,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Christensen Academy</a>
+          <a class="brand">Christensen Academy</a>
           <div class="nav-collapse">
             <ul class="nav">
               <li class="dropdown">
@@ -52,15 +52,43 @@
                     <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a href="#cs-basics" class="cs-basics-color">Computer Science Basics</a></li>
-                  <li><a href="#web" class="web-color">Web Design and Development</a></li>
-                  <li><a href="#game-maker" class="game-maker-color">Game Maker</a></li>
-                  <li><a href="#processing" class="processing-color">Processing</a></li>
-                  <li><a href="#java" class="java-color">Java</a></li>
-                  <li><a href="#flash" class="flash-color">Flash</a></li>
-                  <li><a href="#brain-teasers" class="brain-teasers-color">Brain Teasers</a></li>
-                  <li><a href="#image-manipulation" class="image-manipulation-color">Image Manipulation</a></li>
-                  <li><a href="#office" class="office-color">Office Applications</a></li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#cs-basics" class="cs-basics-color">Computer Science Basics</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#computer-basics" class="cs-basics-color">Computer Basics</a></li>
+                      <li><a href="#binary" class="cs-basics-color">Binary</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#web" class="web-color">Web Design and Development</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#web-design-and-development-intro" class="web-color-color">Web Design and Development Intro</a></li>
+                      <li><a href="#html-basics" class="web-color-color">HTML Basics</a></li>
+                      <li><a href="#css-basics" class="web-color-color">CSS Basics</a></li>
+                      <li><a href="#css-layouts" class="web-color-color">CSS Layouts</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#game-maker" class="game-maker-color">Game Maker</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#processing" class="processing-color">Processing</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#java" class="java-color">Java</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#flash" class="flash-color">Flash</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#brain-teasers" class="brain-teasers-color">Brain Teasers</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#image-manipulation" class="image-manipulation-color">Image Manipulation</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#office" class="office-color">Office Applications</a>
+                  </li>
                 </ul>
               </li>
               <li><a data-toggle="modal" href="#contact">Contact</a></li>
@@ -85,323 +113,25 @@
         </div>
         <div class="span10">
           <h1>Hello World!</h1>
-          <p>Welcome to the Christensen Academy, where you can learn about computers and computer programming for free.</p>
+          <p>Welcome to the Christensen Academy&ndash;a gateway to the world of computer science, a place where you can learn about computers and computer programming for free!</p>
         </div>
       </div>
     </div>   
   </div>
 
+  <?php include('./modules/classes.php'); ?>
+  
   <div class="container-fluid subject-area" id="cs-basics">   
-    <?php echo file_get_contents('./modules/computer-basics/module.php', true); ?>
-    <?php echo file_get_contents('./modules/binary/module.php', true); ?>
+    <?php include('./modules/computer-basics/module.php'); ?>
+    <?php include('./modules/binary/module.php'); ?>
   </div>
       
-      
-<!-- *****************************
-      START WEB SECTION
-     ***************************** -->
-      
-      <div class="row-fluid">
-        <div class="hero-unit" id="web" >
-          <h2>Web Design and Development <small class="hidden-phone">Learn HTML, CSS, JavaScript, and more</small></h2>
+  <div class="container-fluid subject-area" id="web">   
+    <?php include('./modules/web-design-and-development-intro/module.php'); ?>
+    <?php include('./modules/html-basics/module.php'); ?>
+    <?php include('./modules/css-basics/module.php'); ?>
+    <?php include('./modules/css-layouts/module.php'); ?>
           
-          <div class="row-fluid playlist">
-            <div class="span12" id="web-intro">
-              <h3>
-                 <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/web-design-and-development-intro/reference.md" rel="tooltip" title="Reference Guide" class="reference-guide"></a>
-                Introduction <small class="hidden-phone"> to Web Design and Development</small>
-              </h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span6 challenge-map" style="background-image:url('img/challenge-map_web-design-and-development-intro.png');height:349px;">             
-
-<div style="position:absolute;top:27px;left:23px;">
-  <a class="icon-leaf intro challenge" data-toggle="modal" href="#popup" data-link="./modules/web-design-and-development-intro/intro.md" rel="tooltip" title="Intro"></a></div>
-
-<div style="position:absolute;top:69px;left:108px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/web-design-and-development-intro/challenges/internet-vs-www-challenge.md" rel="tooltip" title="Internet vs. WWW Challenge"></a></div>
-
-<div style="position:absolute;top:130px;left:110px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/web-design-and-development-intro/challenges/http-request-response-challenge.md" rel="tooltip" title="HTTP Request-Response Challenge"></a></div>
-
-<div style="position:absolute;top:180px;left:96px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/web-design-and-development-intro/challenges/web-standards-challenge.md" rel="tooltip" title="Web Standards Challenge"></a></div>
-
-<div style="position:absolute;top:277px;left:104px;">
-  <a class="big-project challenge" data-toggle="modal" href="#popup" data-link="./modules/web-design-and-development-intro/projects/ftp-project.md" rel="tooltip" title="FTP Project"></a></div>
-              </div>
-              <div class="span6">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/EbccXUin5Kw?rel=0">Internet vs. WWW: A Brief History</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/DbT6-GMWMmc?rel=0">Internet vs. WWW: Protocols</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/GZewdrk_gK8?rel=0">HTTP: Servers and Clients</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">HTTP: Domain Names and URLs</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">HTML, CSS, JavaScript, and Other Resources</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">"Bandwidth"</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Download vs. Upload</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">The Browser Wars</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Web Standards and W3C</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Hosting</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Web Design vs. Web Development</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">FTP</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Wordpress and Friends</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="html-basics">
-              <h3>
-                <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/html-basics/reference.md" rel="tooltip" title="Reference Guide" class="reference-guide"></a>
-                HTML Basics <small class="hidden-phone">Learn How to Create Basic Websites</small>
-              </h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span6 challenge-map" style="background-image:url('img/challenge-map_html-basics.png');height:476px;">             
-
-<div style="position:absolute;top:18px;left:220px;">
-  <a class="icon-leaf intro challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/intro.md" rel="tooltip" title="Intro"></a></div>
-
-<div style="position:absolute;top:65px;left:195px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/text-editor-challenge.md" rel="tooltip" title="Text Editor Challenge"></a></div>
-
-<div style="position:absolute;top:14px;left:71px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/keyboard-shortcut-challenge.md" rel="tooltip" title="Keyboard Shortcut Challenge"></a></div>
-
-<div style="position:absolute;top:88px;left:78px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/basic-webpage-challenge.md" rel="tooltip" title="Basic Webpage Challenge"></a></div>
-
-<div style="position:absolute;top:84px;left:22px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/list-challenge.md" rel="tooltip" title="List Challenge"></a></div>
-
-<div style="position:absolute;top:166px;left:108px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/self-assessment.md" rel="tooltip" title="Self Assessment"></a></div>
-
-<div style="position:absolute;top:241px;left:176px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/absolute-path-challenge.md" rel="tooltip" title="Absolute Path Challenge"></a></div>
-
-<div style="position:absolute;top:222px;left:109px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/zip-challenge.md" rel="tooltip" title="Zip Challenge"></a></div>
-
-<div style="position:absolute;top:272px;left:39px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/meta-challenge.md" rel="tooltip" title="Meta Challenge"></a></div>
-
-<div style="position:absolute;top:284px;left:291px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/html-entities-challenge.md" rel="tooltip" title="HTML Entities Challenge"></a></div>
-
-<div style="position:absolute;top:292px;left:152px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/relative-path-challenge.md" rel="tooltip" title="Relative Path Challenge"></a></div>
-
-<div style="position:absolute;top:360px;left:208px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/challenges/validation-challenge.md" rel="tooltip" title="Validation Challenge"></a></div>
-  
-<div style="position:absolute;top:420px;left:125px;">
-  <a class="big-project challenge" data-toggle="modal" href="#popup" data-link="./modules/html-basics/projects/website-project.md" rel="tooltip" title="Website Project"></a></div>
-              </div>
-              <div class="span6">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/GKyGPRgpa5g?rel=0">HTML, CSS, and JavaScript Overview</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/GoL1ZW3Lk38?rel=0">Text Editor for Web Development</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/dVOC77VvlIE?rel=0">HTML Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/5k0nTTwG1ys?rel=0">HTML Indentation</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/T9Mu-ViFdX8?rel=0">HTML Comments</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/9Ce85vnzAgM?rel=0">HTML Basic Structure</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/dIYKATMBwIc?rel=0">HTML Basic Elements</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/XrqC7giRuNg?rel=0">HTML Block vs. Inline (introductory explanation)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/LOdepOlsVX0?rel=0">HTML Lists (ordered and unordered)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/RwSNaS9XiYs?rel=0">HTML Nested (Hierarchical) Lists</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/z3STv2PZQ4w?rel=0">Keyboard Shortcuts</a></li>
-<!-- The following videos need to be redone. The language I used to describe paths was very poor. Students got confused by what I meant when I said "link" -->
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/y05_twXvacU?rel=0">HTML Attributes Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/r38j0rnQ17Q?rel=0">HTML Relative Links</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/87B0pFlc7Xc?rel=0">Working with Zip Files</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/qItZlfOmG3o?rel=0">HTML Absolute Links</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">URLs and Absolute Links</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/sQ5-v9MmPI0?rel=0">HTML Links to Other Resources</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/KU4V-bCN4Ag?rel=0">HTML Email Link</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/ilRD2T9qiAU?rel=0">HTML Void (Empty) Elements: br, hr, and img</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Xa3m4xP4QTk?rel=0">HTML Image (img) Tag</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/twCSSSsF3PM?rel=0">HTML Accessibility Intro (alt and longdesc)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/reZC1VpnotE?rel=0">HTML Title Attribute (making tool tips)</a></li>
-<!-- REDO with talk of SEO, better description of description, and no wrong info about UTF-8 -->
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/POwgA7u3h4E?rel=0">HTML Meta Tag</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/QVP9FQi7tiA?rel=0">HTML Validation Service</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/oRQTw_J1dgA?rel=0">HTML Validation Service (Part 2)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/1wpus8NNl5g?rel=0">HTML Reserved and Special Characters</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/OJUyMP5QaKM?rel=0">HTML Review (Chipmunk Voice)</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-              
-          <div class="row-fluid playlist">
-            <div class="span12" id="css-basics">
-              <h3>
-                <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/css-basics/reference.md"  rel="tooltip" title="Reference Guide" class="reference-guide"></a>
-              
-                CSS Basics <small class="hidden-phone">Learn How to Add Visual Styling to Your Webpages</small>
-              </h3>
-            </div>
-<div class="row-fluid videos">
-              <div class="span6 challenge-map" style="background-image:url('img/challenge-map_css-basics.png');height:383px;">             
-
-<div style="position:absolute;top:21px;left:132px;">
-  <a class="icon-leaf intro challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/intro.md" rel="tooltip" title="Intro"></a></div>
-  
-<div style="position:absolute;top:72px;left:115px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/three-types-of-css-challenge.md" rel="tooltip" title="Three Types of CSS Challenge"></a></div>  
-  
-<div style="position:absolute;top:138px;left:128px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/css-validation-challenge.md" rel="tooltip" title="CSS Validation Challenge"></a></div>
-  
-<div style="position:absolute;top: 189px;left:48px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/color-challenge.md" rel="tooltip" title="Color Challenge"></a></div>
-
-<div style="position:absolute;top: 198px;left:87px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/selectors-challenge.md" rel="tooltip" title="Selectors Challenge"></a></div>
-  
-<div style="position:absolute;top:220px;left:160px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/pixel-percent-em-challenge.md" rel="tooltip" title="Pixel-Percent-EM Challenge"></a></div>
-  
-<div style="position:absolute;top:272px;left:105px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/text-challenge.md" rel="tooltip" title="Text Challenge"></a></div>
-  
-<div style="position:absolute;top:274px;left:165px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/challenges/font-challenge.md" rel="tooltip" title="Font Challenge"></a></div>
-
-<div style="position:absolute;top:341px;left:128px;">
-  <a class="big-project challenge" data-toggle="modal" href="#popup" data-link="./modules/css-basics/projects/site-remodelling-project.md" rel="tooltip" title="Site Remodelling Project"></a></div>
-              </div>
-              <div class="span6">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/q6aHmSzzt7Y?rel=0">CSS (Cascading Style Sheets) Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/D47UsLHs7Rw?rel=0">An Intuitive Feel for CSS</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/tqhhpwO67Pc?rel=0">3 Types of CSS (Inline CSS)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/l0QXi4ryvDc?rel=0">3 Types of CSS (Internal / Embedded)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/PGH01VxYhv8?rel=0">3 Types of CSS (External)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/SPp_hKEpMeQ?rel=0">Internal and External CSS Equivalency</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/eIkDr8r2gRw?rel=0">CSS Comments</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/d_v322FfpXM?rel=0">CSS Inheritance</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Rsnq8H3UiBw?rel=0">Google Chrome and CSS Inheritance</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/9L91PUMoyAg?rel=0">CSS Validator</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/JlXAYLo2ohA?rel=0">CSS Colors (RGB)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/ZUAM-IMdwE4?rel=0">CSS Colors (Hexadecimal)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.?rel=0">Eyedroppers and Color Pickers</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/VN3Z6VM4Fr8?rel=0">HTML and CSS: Classes and IDs</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/EVJzZaDq0oM?rel=0">CSS: The Cascade</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/6p29D0tetDQ?rel=0">Google Chrome and the Cascade</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/FhYgNI_0DiI?rel=0">HTML Multiple Classes</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">More CSS Selectors</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/7GuBcFWlGVc?rel=0">CSS Size Units (em, %, px, and pt)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/nBgpS74f5Z4?rel=0">CSS Text Properties</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/5Zt2KbxBqA4?rel=0">CSS Basic Font Properties</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Zjk0hK6jNvk?rel=0">CSS Fonts (font-family property)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Basics Review</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-           <div class="row-fluid playlist">
-            <div class="span12" id="css-layouts">
-              <h3>
-                <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/css-layouts/reference.md"  rel="tooltip" title="Reference Guide" class="reference-guide"></a>
-              
-                CSS Layouts <small class="hidden-phone">Learn How to Create Page Layouts in CSS</small>
-              </h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span6 challenge-map" style="background-image:url('img/challenge-map_css-layouts.png');height:441px;">             
-
-<div style="position:absolute;top:5px;left:75px;">
-  <a class="icon-leaf intro challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/intro.md" rel="tooltip" title="Intro"></a></div>
-
-<div style="position:absolute;top:75px;left:45px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/box-model-basics-challenge.md" rel="tooltip" title="Box Model Basics Challenge"></a></div>
-
-<div style="position:absolute;top:52px;left:155px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/parents-challenge.md" rel="tooltip" title="Parents (Boxes in Boxes) Challenge"></a></div>
-
-<div style="position:absolute;top:115px;left:162px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/self-assessment.md" rel="tooltip" title="Self Assessment"></a></div>
-
-<div style="position:absolute;top:170px;left:45px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/basic-layout-challenge-1.md" rel="tooltip" title="Basic Layout Challenge 1"></a></div>
-  
-<div style="position:absolute;top:171px;left:81px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/basic-layout-challenge-2.md" rel="tooltip" title="Basic Layout Challenge 2"></a></div>
-  
-<div style="position:absolute;top:166px;left:198px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/basic-layout-challenge-3.md" rel="tooltip" title="Basic Layout Challenge 3"></a></div>
-  
-<div style="position:absolute;top:117px;left:228px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/background-image-challenge.md" rel="tooltip" title="Background Image Challenge"></a></div>
-    
-<div style="position:absolute;top:232px;left:91px;">
-  <a class="small-project challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/projects/basic-layout-project.md" rel="tooltip" title="Basic Layout Project"></a></div>
-      
-<div style="position:absolute;top:298px;left:25px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/absolute-positioning-challenge.md" rel="tooltip" title="Absolute Positioning Challenge"></a></div>
-        
-<div style="position:absolute;top:298px;left:61px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/absolute-positioning-layout-challenge.md" rel="tooltip" title="Absolute Positioning Layout Challenge"></a></div>        
-
-<div style="position:absolute;top:298px;left:129px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/float-text-wrapping-challenge.md" rel="tooltip" title="Float: Text Wrapping Challenge"></a></div>
-  
-<div style="position:absolute;top:298px;left:168px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/float-menu-challenge.md" rel="tooltip" title="Float: Menu Challenge"></a></div>
-
-<div style="position:absolute;top:295px;left:200px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/float-layout-challenge.md" rel="tooltip" title="Float: Layout Challenge"></a></div>
-  
-<div style="position:absolute;top:323px;left:292px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/float-faux-columns-challenge.md" rel="tooltip" title="Float: Faux Columns Challenge"></a></div>
-    
-<div style="position:absolute;top:362px;left:178px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/full-page-layout-challenge.md" rel="tooltip" title="Full Page Layout Challenge"></a></div>
-      
-<div style="position:absolute;top:388px;left:178px;">
-  <a class="challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/challenges/zen-garden-challenge.md" rel="tooltip" title="Zen Garden Challenge"></a></div>
-  
-<div style="position:absolute;top:396px;left:290px;">
-  <a class="big-project challenge" data-toggle="modal" href="#popup" data-link="./modules/css-layouts/projects/complex-layout-project.md" rel="tooltip" title="Complex Layout Project"></a></div>
-              </div>
-              
-              <div class="span6">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/ctneMmLjqRE?rel=0">Span (inline) vs Div (block) Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/XQTfdsKFY-w?rel=0">Span vs. Div Example</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/69dakFTlK7Q?rel=0">Box Model Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/HkutufcDyCU?rel=0">Chrome Developer Tools Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Qs_8vUzD7qQ?rel=0">Width and Height</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/yQxn9kW7REE?rel=0">Margins</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/-fVkpWtVm9U?rel=0">Margins (Centering Elements)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/QKCLjHBrG6o?rel=0">Collapsing Margins</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/CdgA2bOZbt4?rel=0">Padding</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/smzwIEwAEEc?rel=0">Borders</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/OJiWobKJ12I?rel=0">Background Images</a></li>
-<!-- Background Image Position Video Needed -->
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/nnjjTS3RtDA?rel=0">Background Image Gradient</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/v6bGsJvaWUw?rel=0">Normal Flow</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/pgy58w1N1_I?rel=0">Relative Positioning</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/gM-XYH5uGuw?rel=0">Absolute Positioning</a></li>
-<!-- Redo Stretch Effect: Focus needs to be on layouts -->
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/7Flnyl2fabY?rel=0">Absolute Positioning "Stretch" Effect</a></li>
-<!-- Redo Stretch Effect Challenge: focus needs to be on creating a column in a layout -->
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Mwdb3Vx6FmU?rel=0">Float Property</a></li>
-<!-- Add in a float challenge for making a column -->
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/C1bd0luue6s?rel=0">Clear</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/AoI1uWL1w-c?rel=0">Floating Menu Items</a></li>
-<!-- Add in another page layout challenge -->
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">ZG Case Study (Part 1)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">ZG Case Study (Part 2)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">ZG Case Study (Part 3)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">CSS Layouts Review</a></li>
-                </ul>
-            </div>
-          </div>
           
           <div class="row-fluid playlist">
             <div class="span12" id="javascript-basics">
@@ -534,10 +264,6 @@
           
         </div>
       </div><!--/row-->
-      
-<!-- *****************************
-      END WEB SECTION
-     ***************************** -->
       
 
 
@@ -735,7 +461,7 @@
             </div>
           </div>
           
-<?php echo file_get_contents('./modules/khan-cs/module.html', true); ?>
+<?php include('./modules/khan-cs/module.html'); ?>
           
           <div class="row-fluid playlist">
             <div class="span12" id="processing-intermediate">
@@ -776,8 +502,8 @@
       
       <div class="row-fluid">
         <div class="hero-unit" id="java" >          
-<?php echo file_get_contents('./modules/java-getting-started/module.php', true); ?>
-<?php echo file_get_contents('./modules/beginning-java/module.php', true); ?>
+<?php include('./modules/java-getting-started/module.php'); ?>
+<?php include('./modules/beginning-java/module.php'); ?>
         </div>
       </div><!--/row-->
       
@@ -937,7 +663,7 @@
             </div>
           </div>
           
-<?php echo file_get_contents('./modules/beginning-actionscript/module.html', true); ?>
+<?php include('./modules/beginning-actionscript/module.html'); ?>
 
           
           <div class="row-fluid playlist">
@@ -1280,18 +1006,23 @@ $('.small-project').blend();
 $(document).ready(function(){
   var converter = new Showdown.converter();
   
- $(".popupper").click(function(event){   
-   event.preventDefault();
-   var pathToChallenge = $(this).attr("data-link");
-   $('#popup-header').html($(this).attr("data-original-title"));
-   $.ajax({  
-    url: pathToChallenge,  
-    cache: false}).done(function( html ) {  
-    $('#popup-content').html(converter.makeHtml(html));
+  $(".popupper").click(function(event){   
+    event.preventDefault();
+    var pathToChallenge = $(this).attr("data-link");
+    $('#popup-header').html($(this).attr("data-original-title"));
+    $.ajax({  
+      url: pathToChallenge,  
+      cache: false,
+      beforeSend: function() {
+        $('#popup-content').html("<img src='/img/loading.gif' />");
+      },
+      success: function(html) {
+        $('#popup-content').html(converter.makeHtml(html));
+      }
+    });
   });
- });
  
-$(".youtube").colorbox({iframe:true, innerWidth:853, innerHeight:480});
+  $(".youtube").colorbox({iframe:true, innerWidth:853, innerHeight:480});
 });
   </script>
 	</body>
