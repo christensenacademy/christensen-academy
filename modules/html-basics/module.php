@@ -55,7 +55,18 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  new textpage('css-layouts-decimal-hexadecimal-numbers.md', 'Binary-Decimal-Hexadecimal Numbers'),
+  new textpage('element-quick-reference.md', 'Element Quick Reference'),
+  new textpage('basic-html-template.md', 'Basic HTML Template'),
+  new textpage('text-editors.md', 'Text Editors'),
+  new textpage('useful-keyboard-shortcuts.md', 'Useful Keyboard Shortcuts'),
+  new textpage('html-basics.md', 'HTML Basics'),
+  new textpage('attributes.md', 'HTML Basics'),
+  new textpage('block-vs-inline.md', 'Block vs. Inline Elements'),
+  new textpage('absolute-and-relative-paths.md', 'Absolute and Relative Paths'),
+  new textpage('links-and-images.md', 'Links and Images'),
+  new textpage('meta-tag.md', 'Meta Tag'),
+  new textpage('html-entities.md', 'HTML Entities'),
+  new textpage('validation.md', 'Validation'),
 );
 
 include('./modules/module-template.php');

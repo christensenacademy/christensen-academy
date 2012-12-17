@@ -7,7 +7,7 @@ $module_playlist = 'PL468E998CB5692EFA';
 
 $module_challenges = array(
   new challenge('binary-decimal-hexadecimal-conversions.md', 'Binary Decimal Hexadecimal Conversions', '29', '36'),
-  new challenge('add-and-subtract-twos-compliment.md', 'Add and Subtract with Two\'s Compliment', '68', '52'),
+  new challenge('add-and-subtract-twos-compliment.md', 'Add and Subtract with Twos Compliment', '68', '52'),
   new challenge('floating-point-practice.md', 'Floating Point Practice', '30', '72'),
   new challenge('youtf.md', 'YouTF', '12', '116'),
   new challenge('bitmap-builder.md', 'Bitmap Builder', '33', '122'),
