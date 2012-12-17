@@ -266,88 +266,11 @@
        -->
 
 
-
-
-<!-- *****************************
-      GAME MAKER
-     ***************************** -->
-      
-      <div class="container-fluid subject-area" id="cs-basics">
-        <?php include('./modules/beginning-game-maker/module.php'); ?>
-      </div>
-          <!--
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="game-maker-p3">
-              <h3>Project: Global Thermonuclear Pong <small class="hidden-phone">Why Not....</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/6U6zMyJgRvo?rel=0">Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/q4uTJIESNXg?rel=0">Variables</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/MJEbu1NNbt4?rel=0">Sprites</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/yl4xiCifmxE?rel=0">Left Paddle Movement</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/1b_XwfoD3tQ?rel=0">Left Paddle (Part 2)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/GQhbN5mblUo?rel=0">Right Paddle</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/PzR1C8qR2o0?rel=0">Ball Direction and Speed</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Lp8Lf5HFg6Q?rel=0">Ball Bounce</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/a2THVUyZS8k?rel=0">Smart Bounce (Left Paddle)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/MrK2XbTovz8?rel=0">Smart Bounce (Right Paddle)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/SiN9FBR2qag?rel=0">Score Variables</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/7rnUMPNRFjY?rel=0">Drawing the Score (Part 1)</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/DiZCaNYmlwM?rel=0">Drawing the Score (Part 2)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/h5muYUKlwOk?rel=0">Explosoin Animation</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/wa3i5AB0MRQ?rel=0">Animation Strips with the GIMP</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/38NZoaKCeCk?rel=0">Animation Sprites from Sprite Sheets</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/b_UByqcP-eA?rel=0">Escalating Difficulty</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/DJTV4LBkOH4?rel=0">Wrapping Things Up</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="game-maker-p4">
-              <h3>Project: Four <small class="hidden-phone">Great Name. Great Game.</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/DPpHEgtZ82k?rel=0">Background Tile Set (Part 1)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/z1xyrDn3dUI?rel=0">Background Tile Set (Part 2)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/LzqltQ3vEtg?rel=0">Walking Sprite</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Yxg8Z9PoKfw?rel=0">Animated Sprites from Tile Sets</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/T2udr1XO1Bg?rel=0">Game Maker: Finding Animated Sprites</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/SAZUg6Eoogs?rel=0">Grid Movement</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/HaYv0Xzzz2g?rel=0">Inheritance Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/alEfhT7bPec?rel=0">Inheritance for Collisions</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/LqMDg7O5HLo?rel=0">Sprite Speed</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/628EtUSeUuw?rel=0">Change Instance</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/CYIfwN1AXFM?rel=0">Toggle Sprite Subimages</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/tL0Xrzho8cQ?rel=0">Rooms and Persistence</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->   
+     
+  <div class="container-fluid subject-area" id="game-maker">
+    <?php include('./modules/beginning-game-maker/module.php'); ?>
+    <?php include('./modules/intermediate-game-maker/module.php'); ?>
+  </div> 
      
 
 
