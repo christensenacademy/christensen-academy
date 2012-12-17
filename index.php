@@ -70,9 +70,16 @@
                   </li>
                   <li class="dropdown-submenu">
                     <a tabindex="-1" href="#game-maker" class="game-maker-color">Game Maker</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#beginning-game-maker" class="game-maker-color">Beginning Game Maker</a></li>
+                      <li><a href="#intermediate-game-maker" class="game-maker-color">Intermediate Game Maker</a></li>
+                    </ul>
                   </li>
                   <li class="dropdown-submenu">
                     <a tabindex="-1" href="#processing" class="processing-color">Processing</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#khan-cs" class="processing-color">Khan Academy CS</a></li>
+                    </ul>
                   </li>
                   <li class="dropdown-submenu">
                     <a tabindex="-1" href="#java" class="java-color">Java</a>
@@ -272,76 +279,15 @@
     <?php include('./modules/intermediate-game-maker/module.php'); ?>
   </div> 
      
+  <div class="container-fluid subject-area" id="processing">
+    <?php include('./modules/khan-cs/module.php'); ?>
+  </div> 
 
-
-
-<!-- *****************************
-      PROCESSING
-     ***************************** -->
+  <div class="container-fluid subject-area" id="java" >          
+    <?php include('./modules/java-getting-started/module.php'); ?>
+    <?php include('./modules/beginning-java/module.php'); ?>
+  </div>
       
-      <div class="row-fluid">
-        <div class="hero-unit" id="processing" >
-          <h2>Processing <small class="hidden-phone">Learn how to program using the Processing language!</small></h2>
- 
-          <div class="row-fluid playlist">
-            <div class="span12" id="processing-intro">
-              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Intro to Processing <small class="hidden-phone"> Why Processing is a Great Intro to Computer Programming</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              
-            </div>
-          </div>
-          
-<?php include('./modules/khan-cs/module.html'); ?>
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="processing-intermediate">
-              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Processing Intermediate <small class="hidden-phone">A Step Beyond the Basics</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              
-            </div>
-          </div>
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="processing-advanced">
-              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Processing Advanced <small class="hidden-phone">Digging Deeper Into Advanced Features</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              
-            </div>
-          </div>
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="processing-expert">
-              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Processing Expert <small class="hidden-phone">Go Big or Go Home...</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              
-            </div>
-          </div>
-        </div>
-      </div><!--/row-->
-      
-<!-- *****************************
-      PROCESSING
-     ***************************** -->        
-
-<!-- *****************************
-      JAVA
-     ***************************** -->
-      
-      <div class="row-fluid">
-        <div class="hero-unit" id="java" >          
-<?php include('./modules/java-getting-started/module.php'); ?>
-<?php include('./modules/beginning-java/module.php'); ?>
-        </div>
-      </div><!--/row-->
-      
-<!-- *****************************
-      JAVA
-     ***************************** -->   
-
 <!-- *****************************
       FLASH
      ***************************** -->
