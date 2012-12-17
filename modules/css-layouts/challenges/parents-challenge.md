@@ -1,5 +1,3 @@
-#Parents (Boxes in Boxes) Challenge
-
 * **Challenge:** Make a webpage (shown below) that exercises your understanding of parent and child elements.
 * **Estimated Time:** 25 minutes.
 

@@ -1,5 +1,3 @@
-#Box Model Basics Challenge
-
 * **Challenge:** Make a webpage (shown below) that exercises your understanding of the CSS box model.
 * **Estimated Time:** 25 minutes.
 

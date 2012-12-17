@@ -1,5 +1,3 @@
-#Absolute Positioning Layout Challenge
-
 * **Challenge:** Use absolute positioning to get the following HTML to look like the picutre below by absolutely positioning the column.
 * **Estimated Time:** 35 minutes.
 

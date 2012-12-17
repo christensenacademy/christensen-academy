@@ -1,5 +1,3 @@
-#Faux Columns Challenge
-
 Your challenge is to achieve the result shown in the picture below without setting an explicit height for the "container", the "main", or the "column". In addition, you must create your column using a float, not absolute positioning. In order to achieve this, you'll need to employ a trick: faux columns. The idea is that you can add a background image to the "container" and have it repeat vertically. Don't give "column" or "main" a background color or image. This will give the illusion of having both columns extend equally far down the page.
 
 Note: This trick also relies on clearing the float with the following code `<div style="clear:both;visibility:hidden;"></div>`. Try taking this code out to see what happens.

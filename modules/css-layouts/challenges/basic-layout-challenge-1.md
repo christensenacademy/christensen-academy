@@ -1,5 +1,3 @@
-#Basic Layout Challenge 1
-
 **Estimated Time:** 60 minutes
 
 Your challenge is laid out for you in [this video](http://www.youtube.com/watch?v=NuUDce1UC04), which also shows the solution. The second half of the solution can be found in [this video](http://www.youtube.com/watch?v=bxJetHA3ZeY).

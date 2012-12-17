@@ -1,5 +1,3 @@
-#Background Image Challenge
-
 * **Challenge:** Use background images to make a webpage that looks like the image below.
 * **Estimated Time:** 40 minutes
 

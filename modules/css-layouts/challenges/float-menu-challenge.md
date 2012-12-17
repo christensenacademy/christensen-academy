@@ -1,5 +1,3 @@
-#Float: Menu Challenge
-
 * **Challenge:** Create a webpage that looks like the image below.
 * **Estimated Time:** 25 minutes
 

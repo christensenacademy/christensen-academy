@@ -18,10 +18,10 @@ $module_challenges = array(
   new challenge('absolute-positioning-layout-challenge.md', 'Absolute Positioning Layout Challenge', '61', '298'),        
   new challenge('float-text-wrapping-challenge.md', 'Float: Text Wrapping Challenge', '129', '298'),
   new challenge('float-menu-challenge.md', 'Float: Menu Challenge', '168', '298'),
-  new challenge('float-layout-challenge.md', 'Float: Layout Challenge', '200', '295'),
-  new challenge('float-faux-columns-challenge.md', 'Float: Faux Columns Challenge', '292', '323'),
+  # new challenge('float-layout-challenge.md', 'Float: Layout Challenge', '200', '295'),
+  new challenge('faux-columns-challenge.md', 'Float: Faux Columns Challenge', '292', '323'),
   new challenge('full-page-layout-challenge.md', 'Full Page Layout Challenge', '178', '362'),
-  new challenge('zen-garden-challenge.md', 'Zen Garden Challenge', '178', '338'),
+  # new challenge('zen-garden-challenge.md', 'Zen Garden Challenge', '178', '388'),
   new challenge('complex-layout-project.md', 'Complex Layout Project', '290', '396')
 );
 
