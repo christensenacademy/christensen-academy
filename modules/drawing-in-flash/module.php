@@ -26,12 +26,12 @@ $module_videos = array(
   new video('Cbh7pUGEXuU', 'Controlling Curves (Types of Anchor Points)'),
   new video('hnRW6_XCdGI', 'Pen Tool Intro'),
   new video('fyixUWnK8Q0', 'Layers Intro'),
-  # Paste in Place
+  # Pasting Technique: Paste in Place
   new video('WMlukBMuouE', 'Transform Tool'),
-  new video('jHF1SQgxahQ', 'Yin Yang Drawing Challenge'),
-  new video('BH1i0mNWCSI', 'Drawing a class="youtube" hand (Example)'),
-  new video('BoVxZjuiF_E', 'Drawing a Car (Example)'),
-  new video('YRNv8hXEh-M', 'Drawing a T-Shirt Design (Example)'),
+  # new video('jHF1SQgxahQ', 'Yin Yang Drawing Challenge'), # Challenge
+  # new video('BH1i0mNWCSI', 'Drawing a class="youtube" hand (Example)'),  # Challenge
+  # new video('BoVxZjuiF_E', 'Drawing a Car (Example)'),  # Challenge
+  # new video('YRNv8hXEh-M', 'Drawing a T-Shirt Design (Example)'),  # Challenge
   new video('GEGJLV0n2pg', 'Intro to the Rest of the Drawing Playlist'),
   new video('IRXCVialMsw', 'Symbols and Instances'),
   new video('V9pLXuVQum0', 'Copy Symbols Between Projects'),
@@ -45,8 +45,8 @@ $module_videos = array(
   new video('8OdAX4UfBRM', 'Gradients'),
   # Colors Panel in Depth
   new video('2lPFE4W3E-Q', 'Text Intro'),
-  new video('czGCxGP2c3Y', 'Fruit Basket Scene (Example)'),
-  new video('g-Pbdvdc0Vg', 'Monster Example (Example)')
+  # new video('czGCxGP2c3Y', 'Fruit Basket Scene (Example)'), # Challenge
+  # new video('g-Pbdvdc0Vg', 'Monster Example (Example)') # Challenge
 );
 
 $module_textpages = array(

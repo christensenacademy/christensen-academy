@@ -304,66 +304,7 @@
     <?php include('./modules/animating-in-flash/module.php'); ?>
     <?php include('./modules/beginning-actionscript/module.html'); ?>
   </div>
-      
-<!-- 
-      
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="flash-animation">
-              <h3>
-                <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/animating-in-flash/reference.md"  rel="tooltip" title="Reference Guide" class="reference-guide"></a>
-                Animating in Flash <small class="hidden-phone">Using Flash to Make Animated "Movies" with Some Interactive Parts</small>
-              </h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Intro to Playlist</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Examples of Animations Online</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/4IJtl99pT7I?rel=0">Timeline (Layers and Frames)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/ALom2HMiDbs?rel=0">Intro to Reading the Timeline</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/u-BTUgiGkOk?rel=0">Frame-by-Frame Animation</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/jS3lRTL5Mk8?rel=0">Frame-by-Frame Animation (Eye Example)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/v0R9RBkewqQ?rel=0">Christensen Academy-Style (Example)</a></li>
-<li><i class="icon-leaf"></i> <a class="youtube" href="http://bit.ly/OM5RXq">Frame-by-Frame Animation Challenge</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Graphic Symbols vs. Movie Clip Symbols</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/olRhUq2ZkkQ?rel=0">Animation in Movie Clip Symbol (Example 1)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/5VPc3imRNCQ?rel=0">Animations in Movie Clips (Example 2)</a></li>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/waMFV2GLy0k?rel=0">Motion Tweens Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/NP5LMNTAuJ4?rel=0">Types of Keyframes Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/st4UXzXmGSc?rel=0">Controlling Tween Paths </a></li>
-<li><i class="icon-leaf"></i> <a class="youtube" href="http://bit.ly/RnTHR3">Butterfly Animation Challenge</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/YGt9ZSWznfw?rel=0">Pan and Zoom Effects</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/ptMVy_a4Qcc?rel=0">Bone Tool on Primitives</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/zxiy4LAtxe0?rel=0">Bone Tool on Instances</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/HDgmn2Flx0w?rel=0">More on the Bone Tool</a></li>
-<li><i class="icon-leaf"></i> <a class="youtube" href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/animating-in-flash/challenges/bone-tool-animation-challenge.md">Bone Tool Animation Challenge</a></li>
-<!-- Get rid of this project. It is unecessary. 
-<li><i class="icon-leaf"></i> <a href="http://bit.ly/VMYjE0">Single Scene Animation Project</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<!-- Make new sound video with the recommendation that audio editing skills be exercised instead of telling sounds to stop 
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/j7X42K0fGfw?rel=0">Inserting a Sound</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/5splLSEcbac?rel=0">Inserting Music</a></li>
-<!-- Get rid of this video. Scenes are a distraction. 
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Shape Tweens</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Complex Timelines</a></li>
-<!-- Alter this challenge to use my example project animation. Give clear specific instructions for what the playback controls should do. 
-<li><i class="icon-leaf"></i> <a class="youtube" href="http://bit.ly/VAJgi8">Multi-Scene Animation Project</a></li>
-                </ul>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
- -->   
-     
-     
+ 
 <!-- *****************************
       Brain Teasers
      ***************************** -->
