@@ -4,8 +4,6 @@ This is not an in-depth discussion of computer hardware and softare. Rather, it 
 
 ##Three Main Parts of Hardware
 
-Computers need to be able to run programs, work with data, and store data.
-
 ###Hard Drive
 Your computer hard drive is what stores all of the data on your computer. It stores all of your programs, documents, music, videos, and so on. Most hard drives store hundreds of gigabytes of data. If you plan on storing lots of media like images, music, and videos on your computer, you'll want to make sure you have a hard drive that can store all of that stuff.
 
