@@ -45,7 +45,7 @@
 Students at the Dakota School aren't just kids. The Dakota School learning community is composed of people of all ages. Students at the Dakota School never stop learning. Thus, there is no such thing as graduation.
 
 ##Family Enrollment
-Child . Grandparents are highly encouraged to enroll as well if possible. The achievement requirements for adults will be less than students
+The school is a community of families, not just kids and teachers. Everyoneone--kids, parents, and teachers--is enrolled as a student.
 
 ##Academics
 ###Modules and Age-Level Curriculum
@@ -78,6 +78,11 @@ Academic Competitions fuel
 
 
 
+##Leveling System
+
+A level is not a measure of content knowledge but aptitude and expertise as a learner or teacher. Students progress levels as they demonstrate their abilities to stick with difficult problems, research on their own, reason accurately, and evaluate their own learning. Teachers progress levels as they demonstrate responsibility and the ability to design learning experiences.
+
+Also, I'm not necessarily in favor of a strict, linear leveling system. Points and badges might make more sense.
 
 Student Levels
 1. Illiterate

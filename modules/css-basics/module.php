@@ -34,11 +34,13 @@ $module_videos = array(
   new video('EVJzZaDq0oM', 'CSS: The Cascade'),
   new video('6p29D0tetDQ', 'Google Chrome and the Cascade'),
   new video('FhYgNI_0DiI', 'HTML Multiple Classes'),
-  # More CSS Selectors
+  new video('C1-gW70Wszc', 'CSS Nested Selectors'),
+  # Multiple Selectors
   new video('7GuBcFWlGVc', 'CSS Size Units (em, %, px, and pt)'),
   new video('nBgpS74f5Z4', 'CSS Text Properties'),
   new video('5Zt2KbxBqA4', 'CSS Basic Font Properties'),
   new video('Zjk0hK6jNvk', 'CSS Fonts (font-family property)'),
+  new video('5t_4_UMo4JY', 'Pre Element and Whitespace')
   # CSS Basics Review
 );
 

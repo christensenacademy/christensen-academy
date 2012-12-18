@@ -4,8 +4,16 @@
 #processing, .processing-color:hover { background: #AE9300 !important;}
 #java, .java-color:hover { background: #C66D03 !important;}
 #flash, .flash-color:hover { background: #9E0800 !important;}
-#brain-teasers, .brain-teasers-color:hover { background: #5F219F !important;}
-#image-manipulation, .image-manipulation-color:hover { background: #666 !important;}
+#image-manipulation, .image-manipulation-color:hover { background: #5F219F !important;}
+#brain-teasers, .brain-teasers-color:hover { background: #666 !important;}
+.cs-basics-text-color { color: #3C29A3 !important;}
+.web-text-color { color: #1b54b0 !important;}
+.game-maker-text-color { color: #499000 !important;}
+.processing-text-color { color: #AE9300 !important;}
+.java-text-color { color: #C66D03 !important;}
+.flash-text-color { color: #9E0800 !important;}
+.image-manipulation-text-color { color: #5F219F !important;}
+.brain-teasers-text-color { color: #666 !important;}
 
 h4 {color:#111;font-size:130%;}
 .playlist h3 small {color:#ccc}
@@ -22,7 +30,7 @@ h4 {color:#111;font-size:130%;}
 .module-header h3{font-size:200%;}
 
 body {padding-top: 40px;}
-
+.subject-area {margin:12px;}
 .module {padding-top:50px;}
 
 .module a, .module a:link {color:#ddd;}
