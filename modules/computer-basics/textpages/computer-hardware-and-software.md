@@ -7,18 +7,18 @@ This is not an in-depth discussion of computer hardware and softare. Rather, it 
 ###Hard Drive
 Your computer hard drive is what stores all of the data on your computer. It stores all of your programs, documents, music, videos, and so on. Most hard drives store hundreds of gigabytes of data. If you plan on storing lots of media like images, music, and videos on your computer, you'll want to make sure your hard drive is big enough.
 
-[The Wikipedia Article](http://en.wikipedia.org/wiki/Hard_disk_drive)
+[The Wikipedia Article on Hard Drives](http://en.wikipedia.org/wiki/Hard_disk_drive)
 
 ###RAM (Memory)
-Like a hard drive, RAM stores data. However, unlike a hard drive, it doesn't store the entire contents of your computer. Instead, it really just stores the data needed by whatever software you have running on your computer. The main reason we need RAM is that retrieving data from the hard drive is much slower than retrieving data from RAM.
+Like a hard drive, RAM (Random Access Memory) stores data. However, unlike a hard drive, it doesn't store the entire contents of your computer. Instead, it really just stores the data needed by whatever software you have running on your computer. The main reason we need RAM is that retrieving data from the hard drive is much slower than retrieving data from RAM.
 
 If you have lots software running on your computer simultaneously, you may be in danger of running out of RAM. If this happens, your computer will slow down tremendously. If your computer is continously running slowly, it may very likely be because you don't have enough RAM. Whereas a typical hard drive has hundreds of gigabytes of storage, RAM usually only has a few gigabytes of storage.
 
-When you restart your computer, the RAM gets cleared out. As the computer starts back up, programs and other data are loaded back into RAM, which is essentially what's happening as you're waiting for your computer to start back up.
+When you restart your computer, the RAM gets cleared out. As the computer starts back up, programs and other data are loaded back into RAM, which can take quite a bit of time.
 
-Have you ever been working on something on your computer and forgotten to save it? Did you lose all of your work? If so, realize that before you saved your work, the changes you'd been making were only in RAM. Only when you save your work does the computer write the data to the hard drive.
+Have you ever been working on something on your computer and forgotten to save it? Did you lose all of your work? If so, realize that before you saved your work, the changes you'd been making were only in RAM. Only when you save your work does the computer write the data to the hard drive. **Note:** Newer software tends to be more sophisticated and doesn't always require you to save your work; it just does it automatically for you as you go.
 
-[The Wikipedia Article](http://en.wikipedia.org/wiki/RAM)
+[The Wikipedia Article on RAM](http://en.wikipedia.org/wiki/RAM)
 
 ###CPU (Processor)
 The job of the processor is to run programs. Processors are extraordinarily fast and can excecute roughly a billion instructions in a single second. Processor speed is measured in gigahertz (GHz).
@@ -36,7 +36,7 @@ I came across a video by Common Craft a couple of years ago called [Computer Har
 
 
 ##Software
-Without software computers wouldn't actually *do* anything. Think of software as the instructions computers follow. The processors job is to run software. With that said, there are really two main types of software: operating systems and software programs.
+Without software computers wouldn't actually *do* anything. Think of software as the instructions computers follow. The processor's job is to run software. With that said, there are really two main types of software: operating systems and software programs.
 
 ###Operating Systems
 Personal computers, tablets, and smartphones all have their own operating systems. Windows computers have a version of the Windows operating system, Apple computers have a version of the Mac operating system, iPhones have a versions of the iOS operating system, and so on. The operating system gives the computer its core functionality.
@@ -56,4 +56,4 @@ We use software programs everyday. Right now as I type this document on my Windo
 * Windows Explorer
 * Software Update (interestingly enough, some updates for my operating system are ready)
 
-Of course, in the background of all of this, is my operating system: Windows 7.
+Of course, in the background of all of this is my operating system: Windows 7.
