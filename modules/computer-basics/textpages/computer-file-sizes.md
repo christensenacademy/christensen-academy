@@ -1,6 +1,6 @@
 #Computer File Sizes
 
-##Binary
+###First, a bit of history...
 
 In the 1830's, a man named Charles Babbage invented and attempted to build the first computer. This computer, however, didn't work the same as computers do today. There were two major differences:
 
