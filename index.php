@@ -83,9 +83,19 @@
                   </li>
                   <li class="dropdown-submenu">
                     <a tabindex="-1" href="#java" class="java-color">Java</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#java-getting-started" class="java-color">Java: Getting Started</a></li>
+                      <li><a href="#beginning-java" class="java-color">Beginning Java</a></li>
+                    </ul>
                   </li>
                   <li class="dropdown-submenu">
                     <a tabindex="-1" href="#flash" class="flash-color">Flash</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#intro-to-flash-and-actionscript-3" class="flash-color">Intro to Flash and ActionScript 3</a></li>
+                      <li><a href="#drawing-in-flash" class="flash-color">Drawing in Flash</a></li>
+                      <li><a href="#animating-in-flash" class="flash-color">Animating in Flash</a></li>
+                      <li><a href="#beginning-actionscript" class="flash-color">Beginning ActionScript</a></li>
+                    </ul>
                   </li>
                   <li class="dropdown-submenu">
                     <a tabindex="-1" href="#brain-teasers" class="brain-teasers-color">Brain Teasers</a>
@@ -112,15 +122,15 @@
 	  </div>
 	</div>
 	
-  <div class="container-fluid">
-    <div class="hero-unit hidden-phone" style="background:none">
+  <div class="container-fluid  hidden-phone">
+    <div class="hero-unit" style="background:none">
       <div class="row-fluid">
         <div class="span2">
-          <img src="img/logo112.png" style="display:block;margin:0 auto;" alt="The Christensen Academy Logo">
+          <img src="img/logo112.png" width="112px" height="112px" style="display:block;margin:0 auto;" alt="The Christensen Academy Logo">
         </div>
         <div class="span10">
           <h1>Hello World!</h1>
-          <p>Welcome to the Christensen Academy&ndash;a gateway to the world of computer science, a place where you can learn about computers and computer programming for free!</p>
+          <p>Welcome to the Christensen Academy, a gateway to the world of computer science and computer programming!</p>
         </div>
       </div>
     </div>   
@@ -287,105 +297,16 @@
     <?php include('./modules/java-getting-started/module.php'); ?>
     <?php include('./modules/beginning-java/module.php'); ?>
   </div>
+  
+  <div class="container-fluid subject-area" id="flash" >          
+    <?php include('./modules/intro-to-flash-and-actionscript-3/module.php'); ?>
+    <?php include('./modules/drawing-in-flash/module.php'); ?>
+    <?php include('./modules/animating-in-flash/module.php'); ?>
+    <?php include('./modules/beginning-actionscript/module.html'); ?>
+  </div>
       
-<!-- *****************************
-      FLASH
-     ***************************** -->
+<!-- 
       
-      <div class="row-fluid">
-        <div class="hero-unit" id="flash" >
-          <h2>Adobe Flash <small class="hidden-phone">and ActionScript 3</small></h2>
-    
-          <div class="row-fluid playlist">
-            <div class="span12" id="flash-intro">
-              <h3>Intro to Flash and ActionScript 3 <small class="hidden-phone">An Overview of What You Can Make in Flash and What is Involved in the Process</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/EdauXIWYOQ4?rel=0">Intro to Flash and ActionScript</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/cfEch0V5dvw?rel=0">Don't Worry about the Version</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/w5Qp7nHyYGY?rel=0">.fla vs .swf</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/sDFjfEqnySM?rel=0">Workspace: Reset Essentials</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/sU3-Ur8s910?rel=0">Workspace: Stage and Tools Panel</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/bEPHpfsi4dY?rel=0">Zoom</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/PaCKvUtwGTQ?rel=0">Workspace: Timeline and Animation</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/jkscZYqAUWY?rel=0">Workspace: Library and Properties Panels</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/KPKAXHlChAM?rel=0">Workspace: Actions Panel</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Flash Workspace: Recap with Game Examples</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="flash-drawing">
-              <h3>
-                <a href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/drawing-in-flash/reference.md"  rel="tooltip" title="Reference Guide" class="reference-guide"></a>
-                Drawing in Flash<small class="hidden-phone"> Using Flash as a Drawing Tool to Create Vector Graphics</small>
-              </h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/JqyyhDKqfrk?rel=0">Intro to Drawing Playlist</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/PBR5QpDvm-o?rel=0">Stroke and Fill</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/VGI1YYa_d8A?rel=0">Ink Bottle and Paint Bucket</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/BbCZcPeDrl8?rel=0">Primitive Shapes vs. Objects Drawings</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/cLxPEVbTNFQ?rel=0">Ordering Objects on the Stage (Arrange)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/_wGWhbQnV2k?rel=0">Colors Basics</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/RZ9nTquwmXo?rel=0">Alpha (Transparency and Opacity)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/7-VP3A8Htqw?rel=0">Eyedropper Tool</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/6MqxZBJRLik?rel=0">Line, Pencil, and Paintbrush Tools</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/YRf3LDKf7zQ?rel=0">Vector vs Bitmap (Raster)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/K6g8YAumxnU?rel=0">Subselection Tool (Anchor Points)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/ptG9DBSSFf0?rel=0">More on Anchor Points</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/1wSg0Ork5XI?rel=0">Paint Bucket Tool (Gap Options)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/CZbM9_hypqg?rel=0">Controlling Curves (Anchor Points and Handlebars)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Cbh7pUGEXuU?rel=0">Controlling Curves (Types of Anchor Points)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/hnRW6_XCdGI?rel=0">Pen Tool Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/fyixUWnK8Q0?rel=0">Layers Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Paste in Place</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/WMlukBMuouE?rel=0">Transform Tool</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/jHF1SQgxahQ?rel=0">Yin Yang Drawing Challenge</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/BH1i0mNWCSI?rel=0">Drawing a class="youtube" hand (Example)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/BoVxZjuiF_E?rel=0">Drawing a Car (Example)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/YRNv8hXEh-M?rel=0">Drawing a T-Shirt Design (Example)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/GEGJLV0n2pg?rel=0">Intro to the Rest of the Drawing Playlist</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/IRXCVialMsw?rel=0">Symbols and Instances</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/V9pLXuVQum0?rel=0">Copy Symbols Between Projects</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/hNSEfcsxIgA?rel=0">Editing Symbols</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/jSgzLy54yiU?rel=0">Editing Instances</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/2WKb1gH5qJU?rel=0">Symbols Inside of Symbols</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/iRaxebpt9R0?rel=0">Flash Coordinate System</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/FTRozSAJ8pg?rel=0">Registration Points</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/fICj7OX56gM?rel=0">Transformation Points</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/KdOvIjK3wy4?rel=0">Rulers, Grids, and Alignment</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/8OdAX4UfBRM?rel=0">Gradients</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Colors Panel in Depth</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/2lPFE4W3E-Q?rel=0">Text Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/czGCxGP2c3Y?rel=0">Fruit Basket Scene (Example)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/g-Pbdvdc0Vg?rel=0">Monster Example (Example)</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
           
           <div class="row-fluid playlist">
             <div class="span12" id="flash-animation">
@@ -420,19 +341,19 @@
 <li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/zxiy4LAtxe0?rel=0">Bone Tool on Instances</a></li>
 <li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/HDgmn2Flx0w?rel=0">More on the Bone Tool</a></li>
 <li><i class="icon-leaf"></i> <a class="youtube" href="https://github.com/christensenacademy/christensen-academy/blob/master/modules/animating-in-flash/challenges/bone-tool-animation-challenge.md">Bone Tool Animation Challenge</a></li>
-<!-- Get rid of this project. It is unecessary. -->
+<!-- Get rid of this project. It is unecessary. 
 <li><i class="icon-leaf"></i> <a href="http://bit.ly/VMYjE0">Single Scene Animation Project</a></li>
                 </ul>
               </div>
               <div class="span4">
                 <ul class="unstyled">
-<!-- Make new sound video with the recommendation that audio editing skills be exercised instead of telling sounds to stop -->
+<!-- Make new sound video with the recommendation that audio editing skills be exercised instead of telling sounds to stop 
 <li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/j7X42K0fGfw?rel=0">Inserting a Sound</a></li>
 <li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/5splLSEcbac?rel=0">Inserting Music</a></li>
-<!-- Get rid of this video. Scenes are a distraction. -->
+<!-- Get rid of this video. Scenes are a distraction. 
 <li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Shape Tweens</a></li>
 <li><i class="icon-play-circle icon-white"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Complex Timelines</a></li>
-<!-- Alter this challenge to use my example project animation. Give clear specific instructions for what the playback controls should do. -->
+<!-- Alter this challenge to use my example project animation. Give clear specific instructions for what the playback controls should do. 
 <li><i class="icon-leaf"></i> <a class="youtube" href="http://bit.ly/VAJgi8">Multi-Scene Animation Project</a></li>
                 </ul>
                 </ul>
@@ -440,36 +361,7 @@
             </div>
           </div>
           
-<?php include('./modules/beginning-actionscript/module.html'); ?>
-
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="flash-as3-intermediate">
-              <h3 class="future-playlist" rel="tooltip" title="Playlist not yet made.">Intermediate ActionScript <small class="hidden-phone">Using Classes and More...</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-leaf"></i> <a class="future-video" rel="tooltip" title="Video no yet made.">Intro to Playlist</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div><!--/row-->
-      
-<!-- *****************************
-      FLASH
-     ***************************** -->   
+ -->   
      
      
 <!-- *****************************
@@ -655,88 +547,6 @@
           
         </div>
       </div><!--/row-->
-      
-<!-- *****************************
-      IMAGE MANIPULATION
-     ***************************** -->        
-     
-      
-<!-- *****************************
-      START OFFICE
-     ***************************** -->
-      
-      <div class="row-fluid">
-        <div class="hero-unit" id="office" >
-          <h2>Office Applications <small class="hidden-phone">Learn How to Use Word Processors, Spreadsheets, and More!</small></h2>
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="office-word-processing">
-              <h3>Word Processing <small class="hidden-phone"> Learn the Basics of Microsoft Word</small></h3>
-            </div>
-            <div class="row-fluid videos">
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/NNz3n0CDSsA?rel=0">Intro to Word Processing</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/WaD06I9esx8?rel=0">Word Processor vs. Text Editor</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/gd1RVv1JB5M?rel=0">Ribbon Hero</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Fk5u6pt37V4?rel=0">New Document</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/8wlFWU-MnU8?rel=0">Save and Save As</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Kke054AzHNU?rel=0">Opening Files</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/sEHWLv0R8nc?rel=0">Cut, Copy, and Paste (Keyboard Shortcuts)</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/vTx6ZhZsGp4?rel=0">Paste Special</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/E26pJ3FIRKM?rel=0">Undo and Redo</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/s5qh7DciNpU?rel=0">Zoom</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/XNRNTLJXuQo?rel=0">Fonts (Size and Type)</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/GrExHDdLvSo?rel=0">Bold, Italic, Underling</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/xi5ODkx60Cg?rel=0">Subscripts and Superscripts</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/ZU5ekrlHLsA?rel=0">Colors, Background Colors, and Text Effects</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/giLVFoOu8Pc?rel=0">Clear Formatting and the Format Painter</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/8GhV3EbestE?rel=0">Font Defaults</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/nboSYtmiPRA?rel=0">Styles and Themes Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/RbpcXDwWQeg?rel=0">Lists Intro</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/WZagxWWwqVQ?rel=0">Multi-Level Lists</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/KNJ165mv9GU?rel=0">Spacing between List Items</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/JnvxJuAcMOA?rel=0">Controlling List Numbering</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/XtnzLzfFWMA?rel=0">Selecting Text with the Keyboard</a></li>
-                </ul>
-              </div>
-              <div class="span4">
-                <ul class="unstyled">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/Q4guX_Z3BaQ?rel=0">Find and Replace</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/kvYc4L04wCI?rel=0">Page Size</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/4zikfQcBItA?rel=0">Portrait and Landscape</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/MWAf01eOYlc?rel=0">Margins</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/T2OAmp30nDE?rel=0">Line Spacing</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/MeUlaSuusx4?rel=0">Aligning (and Justifying) Text</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/ASv7jU3pQjg?rel=0">Indenting</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/T0BbQBc6Xcw?rel=0">Tabs</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/YE69f48pU1U?rel=0">Tabs (Part 2)</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row-fluid playlist">
-            <div class="span12" id="office-spreadsheets">
-              <h3>Spreadsheets <small class="hidden-phone">Learn the Basics of Microsoft Excel and Other Spreadsheet Applications</small></h3>
-            </div>
-            <div class="row-fluid videos">
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="http://www.youtube.com/embed/xDswIATeNDk">Custom Shortcuts</a></li>
-<li><i class="icon-play-circle icon-white"></i> <a class="youtube" href="">Macros</a></li>
-
-            </div>
-          </div>
-          
-        </div>
-      </div><!--/row-->
-      
-<!-- *****************************
-       END OFFICE
-     ***************************** -->   
 
      <footer>
      </footer>

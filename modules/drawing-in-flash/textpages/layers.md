@@ -1,0 +1,2 @@
+##Layers
+The timeline in Flash allows you to add layers. This is helpful for organizing your work. For example, you can add an image to a background layer and lock it in place to make sure it doesn't more. What's more, you can hide layers you don't want to see at the moment.

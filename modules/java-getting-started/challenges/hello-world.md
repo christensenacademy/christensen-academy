@@ -1,6 +1,4 @@
-* **Estimated Time:** 10-45 minutes
+* **Estimated Time:** 30 minutes 
 
 ##Challenge
-Your first Java program...
-
-dada
+CHALLENGE UNFINISHED...

@@ -1,14 +1,11 @@
 #cs-basics, .cs-basics-color:hover { background: #3C29A3 !important;}
 #web, .web-color:hover { background: #1b54b0 !important;}
-#game-maker, .game-maker-color:hover { background: #0E710E !important;}
-#processing, .processing-color:hover { background: #A68C00 !important;}
+#game-maker, .game-maker-color:hover { background: #499000 !important;}
+#processing, .processing-color:hover { background: #AE9300 !important;}
 #java, .java-color:hover { background: #C66D03 !important;}
-#flash, .flash-color:hover { background: #9C0800 !important;}
-#brain-teasers, .brain-teasers-color:hover { background: #8E0039 !important;}
-#image-manipulation, .image-manipulation-color:hover { background: #000 !important;}
-#office, .office-color:hover { background: #555 !important;}
-
-body {padding-top:40px;}
+#flash, .flash-color:hover { background: #9E0800 !important;}
+#brain-teasers, .brain-teasers-color:hover { background: #5F219F !important;}
+#image-manipulation, .image-manipulation-color:hover { background: #666 !important;}
 
 h4 {color:#111;font-size:130%;}
 .playlist h3 small {color:#ccc}
@@ -23,6 +20,8 @@ h4 {color:#111;font-size:130%;}
 .playlist {margin:2em 0;}
 .playlist p{font-size:1em; font-color:#444; text-indent:2em;}
 .module-header h3{font-size:200%;}
+
+body {padding-top: 40px;}
 
 .module {padding-top:50px;}
 
@@ -54,6 +53,9 @@ h4 {color:#111;font-size:130%;}
 .future-video {
   color:#222 !important;
   text-decoration:none !important;
+}
+@media (max-width: 979px) {
+  body {padding-top:0px;}
 }
 @media (max-width: 767px) {
   body{

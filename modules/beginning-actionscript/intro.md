@@ -1,5 +1,0 @@
-###Welcome To The Beginning ActionScript Module
-
-Now that you've learned the basics of drawing and animating using Flash Professional, it's time to start bringing your "movies" to life. In fact, it soon won't make sense to even think of them as "movies" anymore because you will be creating interactive programs like games. Instead of *viewing* your work, now people will be able to *use* it and even *play* it. In fact, the final challenge of this module requires you to create your own, unique game in Flash that you design and build from the ground up.
-
-Completing this module means completing **all** of the challenges. How exactly you go about that is up to you. I've created a textpage and a video playlist to help you along. My advice: do what works for you. If you discover a better way to learn this stuff, go for it. All that matters is that you are able to apply your learning to complete the challenges.

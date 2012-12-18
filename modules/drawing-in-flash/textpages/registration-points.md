@@ -1,0 +1,2 @@
+#Registration Points
+Each symbol has a registration point--it looks like a plus sign. Each instance of a symbol inherits the same registration point, which is used to determine the x- and y-values of the instance. The registration point of an instance must be changed by editing the symbol itself.

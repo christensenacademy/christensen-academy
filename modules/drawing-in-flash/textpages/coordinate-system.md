@@ -1,0 +1,2 @@
+#Flash Coordinate System
+The coordinate system in flash starts in the top-left corner (i.e., the point where x=0 and y=0 is in the top-left corner). It's important to remember that x-values moving to the right and y-values increase moving downwards.

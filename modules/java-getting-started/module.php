@@ -23,12 +23,12 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  new textpage('java-platform-vs-language.rb', 'Java Platform vs. Language'),
-  new textpage('why-learn-java.rb', 'Why Learn Java?'),
-  new textpage('finding-java-ide.rb', 'Finding an IDE'),
-  new textpage('jdk-vs-jre.rb', 'JDK vs. JRE'),
-  new textpage('your-first-program.rb', 'Your First Program'),
-  new textpage('dot-class-vs-dot-java.rb', '.class vs. .java')
+  new textpage('java-platform-vs-language.md', 'Java Platform vs. Language'),
+  new textpage('why-learn-java.md', 'Why Learn Java?'),
+  new textpage('finding-java-ide.md', 'Finding an IDE'),
+  new textpage('jdk-vs-jre.md', 'JDK vs. JRE'),
+  new textpage('your-first-program.md', 'Your First Program'),
+  new textpage('dot-class-vs-dot-java.md', '.class vs. .java')
 );
 
 include('./modules/module-template.php');
