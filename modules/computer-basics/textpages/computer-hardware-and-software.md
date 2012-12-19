@@ -36,7 +36,7 @@ I came across a video by Common Craft a couple of years ago called [Computer Har
 
 
 ##Software
-Without software computers wouldn't actually *do* anything. Think of software as the instructions computers follow. The processor's job is to run software. With that said, there are really two main types of software: operating systems and software programs.
+Without software computers wouldn't actually *do* anything. Think of software as the instructions computers follow. Software is written by computer programmers. The processor's job is to run software. With that said, there are really two main types of software: operating systems and software programs.
 
 ###Operating Systems
 Personal computers, tablets, and smartphones all have their own operating systems. Windows computers have a version of the Windows operating system, Apple computers have a version of the Mac operating system, iPhones have a versions of the iOS operating system, and so on. The operating system gives the computer its core functionality.
