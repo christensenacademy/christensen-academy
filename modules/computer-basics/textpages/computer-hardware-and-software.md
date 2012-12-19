@@ -23,7 +23,7 @@ Have you ever been working on something on your computer and forgotten to save i
 ###CPU (Processor)
 The job of the processor is to run programs. Processors are extraordinarily fast and can excecute roughly a billion instructions in a single second. Processor speed is measured in gigahertz (GHz).
 
-In the past, computers typically only had one processor. In recent years, computers have begun to be built with miltiple processors or "cores". The computer I'm typing on right now had a dual-core processor; that is, it actually has two processors working together to run software.
+In the past, computers typically only had one processor. In recent years, computers have begun to be built with miltiple processors or "cores". The computer I'm typing on right now has a dual-core processor.
 
 ###House Metaphor
 I came across a video by Common Craft a couple of years ago called [Computer Hardware in Plain English](http://www.youtube.com/watch?v=LrXeDF4Qqz4). I enjoyed the house metaphor they used in the video, which went something like this:
@@ -36,7 +36,7 @@ I came across a video by Common Craft a couple of years ago called [Computer Har
 
 
 ##Software
-Without software computers wouldn't actually *do* anything. Think of software as the instructions computers follow. The processor's job is to run software. With that said, there are really two main types of software: operating systems and software programs.
+Without software computers wouldn't actually *do* anything. Think of software as the instructions computers follow. Software is written by computer programmers. The processor's job is to run software. With that said, there are really two main types of software: operating systems and software programs.
 
 ###Operating Systems
 Personal computers, tablets, and smartphones all have their own operating systems. Windows computers have a version of the Windows operating system, Apple computers have a version of the Mac operating system, iPhones have a versions of the iOS operating system, and so on. The operating system gives the computer its core functionality.
