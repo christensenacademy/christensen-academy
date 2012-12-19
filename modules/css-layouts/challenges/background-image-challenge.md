@@ -1,18 +1,12 @@
 * **Challenge:** Use background images to make a webpage that looks like the image below.
 * **Estimated Time:** 40 minutes
 
-###Prerequisite Knowledge
-
-* CSS background images
-* Repeating background images
-* Positioning background images
-
 ###Your Page Should Look like This
-![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/background-image-challenge.png)
+![](http://christensenacademy.org/modules/css-layouts/challenges/background-image-challenge.png)
 
 ###Images to Use
 
-![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/gradient.png)
+![](http://christensenacademy.org/modules/css-layouts/challenges/gradient.png)
 
 ##Starter Code
 

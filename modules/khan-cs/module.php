@@ -12,9 +12,9 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  new textpage('drawing.md', 'Drawing'),
-  new textpage('variables-and-animation.md', 'Variables and Animation'),
-  new textpage('if-statements-and-interactivity.md', 'If Statements and Interactivity')
+  # new textpage('drawing.md', 'Drawing'),
+  # new textpage('variables-and-animation.md', 'Variables and Animation'),
+  # new textpage('if-statements-and-interactivity.md', 'If Statements and Interactivity')
 );
 
 include('./modules/module-template.php');

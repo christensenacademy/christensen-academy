@@ -3,7 +3,7 @@
 * **Content:** The focus should be on the style of the page, not the content. Because of this, I recommend using lorem ipsum text for all of the content. For images, I recommend sticking with abstract art that fits with your color scheme.
 * **Estimated Time:** 60 minutes.
 
-##Rurbric
+###Rurbric
 
 * **Consistent Color Theme:** Hopefully it's obvious that you chose your colors carefully.
 * **Creativity / Uniqueness:** It should be clear that you experimented and tried new, innovative ways of manipulating the CSS box model.

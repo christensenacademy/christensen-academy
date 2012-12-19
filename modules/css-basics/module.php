@@ -7,12 +7,12 @@ $module_playlist = 'PLbdhPIoiglaUF8qcTJRfnWqzORnaIJwuI';
 
 $module_challenges = array(
   new challenge('three-types-of-css-challenge.md', 'Three Types of CSS Challenge', '115', '72'),  
-  new challenge('css-validation-challenge.md', 'CSS Validation Challenge', '128', '138'),
+  # new challenge('css-validation-challenge.md', 'CSS Validation Challenge', '128', '138'),
   new challenge('color-challenge.md', 'Color Challenge', '48', '189'),
-  new challenge('selectors-challenge.md', 'Selectors Challenge', '87', '198'),
-  new challenge('pixel-percent-em-challenge.md', 'Pixel-Percent-EM Challenge', '160', '220'),
-  new challenge('text-challenge.md', 'Text Challenge', '105', '272'),
-  new challenge('font-challenge.md', 'Font Challenge', '165', '274'),
+  # new challenge('selectors-challenge.md', 'Selectors Challenge', '87', '198'),
+  # new challenge('pixel-percent-em-challenge.md', 'Pixel-Percent-EM Challenge', '160', '220'),
+  # new challenge('text-challenge.md', 'Text Challenge', '105', '272'),
+  # new challenge('font-challenge.md', 'Font Challenge', '165', '274'),
   new challenge('site-remodelling-project.md', 'Site Remodelling Project', '128', '341'),
 );
 
@@ -49,7 +49,7 @@ $module_textpages = array(
   new textpage('three-types-of-css.md', 'The Three Types of CSS'),
   new textpage('css-comments.md', 'CSS Comments'),
   new textpage('rules-selectors-properties-values.md', 'Rules, Selectors, Properties, and Values'),
-  new textpage('selectors-in-more-depth.md', 'Selectors in More Depth'),
+  # new textpage('selectors-in-more-depth.md', 'Selectors in More Depth'),
   new textpage('colors.md', 'Colors'),
   new textpage('px-pt-percent-em.md', 'px, pt, %, and em'),
   new textpage('the-cascade.md', 'The Cascade'),

@@ -6,18 +6,17 @@ $map_height = '476';
 $module_playlist = 'PLbdhPIoiglaUeOryD1kJfZYD1QWbT2x3U';
 
 $module_challenges = array(
-  new challenge('internet-vs-www-challenge.md', 'Internet vs. WWW', '108', '69'),
   new challenge('text-editor-challenge.md', 'Text Editor Challenge', '195', '65'),
-  new challenge('keyboard-shortcut-challenge.md', 'Keyboard Shortcut Challenge', '71', '14'),
+  new challenge('keyboard-shortcuts-challenge.md', 'Keyboard Shortcuts Challenge', '71', '14'),
   new challenge('basic-webpage-challenge.md', 'Basic Webpage Challenge', '78', '88'),
   new challenge('list-challenge.md', 'List Challenge', '22', '84'),
   new challenge('self-assessment.md', 'Self Assessment', '108', '166'),
   new challenge('absolute-path-challenge.md', 'Absolute Path Challenge', '176', '241'),
-  new challenge('zip-challenge.md', 'Zip Challenge', '109', '222'),
-  new challenge('meta-challenge.md', 'Meta Challenge', '39', '272'),
-  new challenge('html-entities-challenge.md', 'HTML Entities Challenge', '291', '284'),
-  new challenge('relative-path-challenge.md', 'Relative Path Challenge', '152', '292'),
-  new challenge('validation-challenge.md', 'Validation Challenge', '208', '360'),
+  # new challenge('zip-challenge.md', 'Zip Challenge', '109', '222'),
+  # new challenge('meta-challenge.md', 'Meta Challenge', '39', '272'),
+  # new challenge('html-entities-challenge.md', 'HTML Entities Challenge', '205', '253'),
+  # new challenge('relative-path-challenge.md', 'Relative Path Challenge', '152', '292'),
+  # new challenge('validation-challenge.md', 'Validation Challenge', '212', '364'),
   new challenge('../projects/website-project.md', 'Website Project', '125', '420')
 );
 

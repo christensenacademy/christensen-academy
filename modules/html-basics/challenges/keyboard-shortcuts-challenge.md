@@ -1,6 +1,4 @@
-#Keyboard Shortcuts Challenge
-
-* **Challenge:** Try out each of [the shortcuts listed on the reference guide](https://github.com/christensenacademy/christensen-academy/blob/master/modules/html-basics/reference.md#useful-keyboard-shortcuts). Figure out which ones you find useful.
+* **Challenge:** Try out each of [these useful keyboard shortcuts](https://github.com/christensenacademy/christensen-academy/blob/master/modules/html-basics/textpages/useful-keyboard-shortcuts.md). Figure out which ones you find useful.
 * **Estimated Time:** 20 minutes
 
 I hope you find this challenge helpful. Good luck! You'll be doing a lot of coding in the challenges to come. If you don't remember these after this challenge, no worries! Just come back and check them out whenever you want to get a little faster at developing webpages.

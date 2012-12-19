@@ -1,5 +1,3 @@
-#Absolute Path Challenge
-
 * **Challenge:** Copy the code below to create a new webpage. Follow the instructions in the comments of the code to make absolute paths for links and images work properly. 
 * **Estimated Time:** 25 minutes
 

@@ -1,23 +1,19 @@
 * **Challenge:** Use the float property to make the following HTML appear like the picture below.
 * **Estimated Time:** 10 minutes
 
-##Prerequisite Knowledge
-
-* The CSS float property
-
-##Use These Images
+###Use These Images
 
 ![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/abstract1.png)
 
 ![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/abstract2.png)
 
-##Finished Page Should Look like This
+###Finished Page Should Look like This
 ![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/float-text-wrapping-challenge.png)
 
-##Friendly Advice
+###Friendly Advice
 The placement of your img elements is crucial. Think carefully about how floating elements work, how they get moved out of normal flow, and how the elements that come **after** them move up to fill the space, wrapping around the floating element. If you get stuck, keep experimenting with the placement of your img elements.
 
-##Starter Code
+###Starter Code
 
 **NOTE:** You'll need to add the img elements to the page. They should be sibling elements to the paragraphs.
 

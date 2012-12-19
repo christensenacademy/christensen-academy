@@ -6,8 +6,8 @@ $map_height = '305';
 $module_playlist = '';
 
 $module_challenges = array(
-  new challenge('project-1.md', 'Project-1', '39', '41'),
-  new challenge('project-2.md', 'Project-2', '89', '41')
+  # new challenge('project-1.md', 'Project-1', '39', '41'),
+  # new challenge('project-2.md', 'Project-2', '89', '41')
 );
 
 $module_videos = array(
@@ -36,18 +36,18 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  new textpage('sprites.md', 'Sprites'),
-  new textpage('images.md', 'Images'),
-  new textpage('objects-rooms-and-instances.md', 'Objects, Rooms, and Instances'),
-  new textpage('events-and-actions.md', 'Events and Actions'),
-  new textpage('score.md', 'Score'),
-  new textpage('sounds.md', 'Sounds'),
-  new textpage('alarms.md', 'Alarms'),
-  new textpage('coordinates.md', 'Coordinates'),
-  new textpage('movement.md', 'Movement'),
-  new textpage('collisions.md', 'Collisions'),
-  new textpage('health.md', 'Health'),
-  new textpage('moving-background.md', 'moving-background')
+  # new textpage('sprites.md', 'Sprites'),
+  # new textpage('images.md', 'Images'),
+  # new textpage('objects-rooms-and-instances.md', 'Objects, Rooms, and Instances'),
+  # new textpage('events-and-actions.md', 'Events and Actions'),
+  # new textpage('score.md', 'Score'),
+  # new textpage('sounds.md', 'Sounds'),
+  # new textpage('alarms.md', 'Alarms'),
+  # new textpage('coordinates.md', 'Coordinates'),
+  # new textpage('movement.md', 'Movement'),
+  # new textpage('collisions.md', 'Collisions'),
+  # new textpage('health.md', 'Health'),
+  # new textpage('moving-background.md', 'moving-background')
 );
 
 

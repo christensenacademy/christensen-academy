@@ -3,14 +3,8 @@
 
 **HINT:** Try negative values when using absolute positioning on the column.
 
-##Prerequisite Knowledge
-
-* Normal flow
-* Relative positioning
-* Absolute positioning
-
 ##Finished Page Should Look like This
-![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/absolute-positioning-layout-challenge.png)
+![](http://christensenacademy.org/modules/css-layouts/challenges/absolute-positioning-layout-challenge.png)
 
 ###What the Image does not Show
 

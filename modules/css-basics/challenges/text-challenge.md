@@ -1,1 +1,0 @@
-#(UNFINISHED) Text Challenge

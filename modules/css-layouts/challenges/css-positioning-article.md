@@ -4,5 +4,5 @@ Your challenge is to read [this article on positioning](http://www.alistapart.co
 
 **Note:** One of the reasons for this challenge is that being able to understand articles like these is a tremendously helpful skill to have. The Internet is full of articles like these--though not always as good--and if you can understand them, you can learn almost anything.
 
-##Friendly Advice
+###Friendly Advice
 Take it slow. Read carefully. Examine the examples. Take time to look up stuff you don't understand. Then, experiment, experiment, experiment. If you get stuck or something doesn't make sense, persevere. 

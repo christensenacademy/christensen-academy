@@ -1,15 +1,8 @@
-* **Estimated Time:** 10 minutes
 
-##Challenge
+The purpose of this challenge is just to get some practice doing basic file operations like cut, copy, and paste.
 
-###Part 1
-Create the following folder structure on your computer:
-
-**Note:** Names following "-" are folders and names following "*" are files
-
-**Note:** I've written this text so that children are indented 2 spaces from their parents. Thus, the mammalia folder has two childre: the mammals.txt file and the primates folder. The primates folder has two children: the hominidae folder and the 
-
-**Note:** For the .txt files, just create empty files.
+####Part 1
+Create the files and folder structure shown here:
 
 ```
 - mammalia
@@ -25,7 +18,13 @@ Create the following folder structure on your computer:
       * stump-tailed-macaque.txt
 ```
 
-###Part 2
+**Note:** Names following "-" are folders and names following "*" are files
+
+**Note:** I've written this text so that children are indented 2 spaces from their parents. Thus, the mammalia folder has two childre: the mammals.txt file and the primates folder. The primates folder has two children: the hominidae folder and the 
+
+**Note:** For the .txt files, just create empty text files.
+
+####Part 2
 Using only Cut, Copy, and Paste, reorganize the folder stucture as follows:
 
 ```
@@ -40,8 +39,9 @@ Using only Cut, Copy, and Paste, reorganize the folder stucture as follows:
       * humans.txt
       * orangutans.txt
       * gibbons.txt
-    
 ```
+
+**Advice:** Try to get comfortable using cut. It's a lot better than doing copy and paste followed by deleting the copied files from the old location.
 
 ![an infant stump-tailed-macaque](http://upload.wikimedia.org/wikipedia/commons/3/3c/Stump-Tailed_Macaque.jpg)
 

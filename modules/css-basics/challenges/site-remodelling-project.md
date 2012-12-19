@@ -1,5 +1,3 @@
-#Site Remodelling Project
-
 Your goal is to remodel a pure-HTML website you've already created.
 
 ##Mastery

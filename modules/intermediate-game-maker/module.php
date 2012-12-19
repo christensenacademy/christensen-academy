@@ -6,8 +6,8 @@ $map_height = '305';
 $module_playlist = '';
 
 $module_challenges = array(
-  new challenge('project-1.md', 'Project-1', '39', '41'),
-  new challenge('project-2.md', 'Project-2', '89', '41')
+  # new challenge('project-1.md', 'Project-1', '39', '41'),
+  # new challenge('project-2.md', 'Project-2', '89', '41')
 );
 
 $module_videos = array(
@@ -44,20 +44,20 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  new textpage('variables.md', 'Variables'),
-  new textpage('math-expressions.md', 'Math Expressions'),
-  new textpage('animated-sprites.md', 'Animated Sprites'),
-  new textpage('sprite-speed.md', 'Sprite Speed'),
-  new textpage('animation-strips.md', 'Animation Strips'),
-  new textpage('background-tile-set.md', 'Background Tile Sets'),
-  new textpage('animated-sprites-from-tile-sets.md', 'Animated Sprites from Tile Sets'),
-  new textpage('grid-movement.md', 'Grid Movement'),
-  new textpage('inheritance.md', 'Inheritance'),
-  new textpage('change-instance.md', 'Change Instance'),
-  new textpage('toggle-sprite-subimage.md', 'Toggle Sprite Subimage'),
-  new textpage('rooms-and-persistance.md', 'Rooms and Persistence'),
-  new textpage('viewports.md', 'viewports'),
-  new textpage('basic-game-design-principles.md', 'Basic Game Design Principles')
+  # new textpage('variables.md', 'Variables'),
+  # new textpage('math-expressions.md', 'Math Expressions'),
+  # new textpage('animated-sprites.md', 'Animated Sprites'),
+  # new textpage('sprite-speed.md', 'Sprite Speed'),
+  # new textpage('animation-strips.md', 'Animation Strips'),
+  # new textpage('background-tile-set.md', 'Background Tile Sets'),
+  # new textpage('animated-sprites-from-tile-sets.md', 'Animated Sprites from Tile Sets'),
+  # new textpage('grid-movement.md', 'Grid Movement'),
+  # new textpage('inheritance.md', 'Inheritance'),
+  # new textpage('change-instance.md', 'Change Instance'),
+  # new textpage('toggle-sprite-subimage.md', 'Toggle Sprite Subimage'),
+  # new textpage('rooms-and-persistance.md', 'Rooms and Persistence'),
+  # new textpage('viewports.md', 'viewports'),
+  # new textpage('basic-game-design-principles.md', 'Basic Game Design Principles')
 );
 
 include('./modules/module-template.php');

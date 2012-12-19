@@ -1,16 +1,11 @@
 * **Challenge:** Create a webpage that looks like the image below.
 * **Estimated Time:** 25 minutes
 
-##Prerequisite Knowledge
-
-* The CSS float property
-* Floating menu items
-
-##Your page should look like this
+###Your page should look like this
 
 ![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/float-menu-challenge.png)
 
-##Starter Code
+###Starter Code
 
 ```html
 <!DOCTYPE html>

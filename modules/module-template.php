@@ -36,7 +36,8 @@
       <ul>
         <?php
           foreach ($module_videos as $video) {
-            echo "<li><a href='http://www.youtube.com/watch\?v=" . $video->code . "&list=" . $module_playlist ."'>" . $video->title . "</a></li>";
+            
+            echo "<li><a href='http://www.youtube.com/watch?v=" . $video->code . "&list=" . $module_playlist ."'>" . $video->title . "</a></li>";
           }
         ?>
       </ul>

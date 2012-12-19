@@ -29,8 +29,6 @@
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/showdown.js"></script>
-<script src="js/jquery.blend-min.js"></script>
-<script src="js/jquery.colorbox.js"></script>
 	</head>
 	<body>
 	<div class="navbar navbar-fixed-top">
@@ -109,11 +107,10 @@
 		<button type="button" class="close" data-dismiss="modal">×</button>
 		<h3>About</h3>
     <br>
-    <p>Hi, my name is Cameron Christensen. I'm a high school computer science teacher, and I have been inspired by Sal Khan and the Khan Academy to try my hand at recording educational YouTube videos. My focus is on introductory computer science topics because that's what I'm most passionate about.</p>
-    <p>I've also begun to write text pages to supplement the videos. These documents are intended to be good reference guides, not the primary content-delivery mechanism.</p>
-    <p>You'll also notice that I've begun to build challenge maps. Completing these challenge maps helps learners prove to themselves that they've mastered the content at hand.</p>
-    <p>This mostly a hobby I'm doing in my spare time, although I am using some of this content for courses I teach at my school. I've only been at this for about seven months now, and I've learned a lot in that time. My vision for this site continues to evolve. The only thing I know for sure is that I'll never charge people to use these resources to learn.</p>
-    <p>If you have any comments or questions, I'd love to hear from you. My email is cameron@christensenacademy.org.</p>
+    <p>Hi, my name is Cameron Christensen. I've been developing this site since June 2012. I've tried hard to make it easy to navigate, and I hope its purpose is self-explanatory.</p>
+    <p>I'm hoping the Christensen Academy will evolve into a free, world-class learning platform that focuses on introducing people to the world of computer science.</p>
+    <p>If you'd like to contact me, feel free to shoot me an email at cameron@christensenacademy.org.</p>
+    <p>If you're interested in contributing to the project, check out the <a href="https://github.com/christensenacademy/christensen-academy">code repository</a> on GitHub.</p>
     <p>Kowabunga,</p>
     <p>Cam</p>
 	  </div>
@@ -206,38 +203,29 @@
   </div>
 
   <script>
-$('.future-video').each(function(index) {
-    var messages = ["Rome wasn't built in a day...", "Hold you horses, cowboy!", "Patience, young grasshopper.", "I'm workin' on it...", "This video has not yet been made.", "IN PRODUCTION", "Google it for now...", "Please check back later.", "Yet to be made...", "I haven't made this yet.", "I'm plannin' on makin' it...", "Video not yet made." ];
-    $(this).attr("title", messages[Math.floor(Math.random()*messages.length)]);
-});
-$('.future-video').tooltip({
-  placement: 'right'
-});
-$('.challenge').tooltip({
-  placement: 'top'
-});
-
-$('.challenge').blend();
-
-$(document).ready(function(){
-  var converter = new Showdown.converter();
-  
-  $(".popupper").click(function(event){   
-    event.preventDefault();
-    var pathToChallenge = $(this).attr("data-link");
-    $('#popup-header').html($(this).attr("data-original-title"));
-    $.ajax({  
-      url: pathToChallenge,  
-      cache: false,
-      beforeSend: function() {
-        $('#popup-content').html("<img src='/img/loading.gif' />");
-      },
-      success: function(html) {
-        $('#popup-content').html(converter.makeHtml(html));
-      }
+    $('.challenge').tooltip({
+      placement: 'top'
     });
-  });
-});
+
+    $(document).ready(function(){
+      var converter = new Showdown.converter();
+      
+      $(".popupper").click(function(event){   
+        event.preventDefault();
+        var pathToChallenge = $(this).attr("data-link");
+        $('#popup-header').html($(this).attr("data-original-title"));
+        $.ajax({  
+          url: pathToChallenge,  
+          cache: false,
+          beforeSend: function() {
+            $('#popup-content').html("<img src='/img/loading.gif' />");
+          },
+          success: function(html) {
+            $('#popup-content').html(converter.makeHtml(html));
+          }
+        });
+      });
+    });
   </script>
 	</body>
 </html>

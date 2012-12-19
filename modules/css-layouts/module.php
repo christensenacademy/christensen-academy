@@ -2,27 +2,27 @@
 $module_name = 'css-layouts';
 $module_title = 'CSS Layouts';
 $module_subtitle = 'Learn How to Create Page Layouts in CSS';
-$map_height = '441';
+$map_height = '425';
 $module_playlist = '';
 
 $module_challenges = array(
-  new challenge('box-model-basics-challenge.md', 'Box Model Basics Challenge', '45', '75'),
-  new challenge('parents-challenge.md', 'Parents (Boxes in Boxes) Challenge', '155', '52'),
+  new challenge('box-model-basics-challenge.md', 'Box Model Basics', '45', '75'),
+  new challenge('parents-challenge.md', 'Parents (Boxes in Boxes)', '155', '52'),
   new challenge('self-assessment.md', 'Self Assessment', '162', '115'),
-  new challenge('basic-layout-challenge-1.md', 'Basic Layout Challenge 1', '45', '170'),
-  new challenge('basic-layout-challenge-2.md', 'Basic Layout Challenge 2', '81', '171'),
-  new challenge('basic-layout-challenge-3.md', 'Basic Layout Challenge 3', '198', '166'),
-  new challenge('background-image-challenge.md', 'Background Image Challenge', '228', '117'),
+  new challenge('basic-layout-challenge-1.md', 'Basic Layout 1', '45', '170'),
+  new challenge('basic-layout-challenge-2.md', 'Basic Layout 2', '81', '171'),
+  new challenge('basic-layout-challenge-3.md', 'Basic Layout 3', '198', '166'),
+  new challenge('background-image-challenge.md', 'Background Image', '228', '117'),
   new challenge('basic-layout-project.md', 'Basic Layout Project', '91', '232'),
-  new challenge('absolute-positioning-challenge.md', 'Absolute Positioning Challenge', '25', '298'),
-  new challenge('absolute-positioning-layout-challenge.md', 'Absolute Positioning Layout Challenge', '61', '298'),        
-  new challenge('float-text-wrapping-challenge.md', 'Float: Text Wrapping Challenge', '129', '298'),
-  new challenge('float-menu-challenge.md', 'Float: Menu Challenge', '168', '298'),
-  # new challenge('float-layout-challenge.md', 'Float: Layout Challenge', '200', '295'),
-  new challenge('faux-columns-challenge.md', 'Float: Faux Columns Challenge', '292', '323'),
-  new challenge('full-page-layout-challenge.md', 'Full Page Layout Challenge', '178', '362'),
-  # new challenge('zen-garden-challenge.md', 'Zen Garden Challenge', '178', '388'),
-  new challenge('complex-layout-project.md', 'Complex Layout Project', '290', '396')
+  new challenge('absolute-positioning-challenge.md', 'Absolute Positioning', '25', '298'),
+  new challenge('absolute-positioning-layout-challenge.md', 'Absolute Positioning Layout', '61', '298'),        
+  new challenge('float-text-wrapping-challenge.md', 'Float: Text Wrapping', '129', '298'),
+  new challenge('float-menu-challenge.md', 'Float: Menu', '168', '298'),
+  # new challenge('float-layout-challenge.md', 'Float: Layout', '200', '295'),
+  new challenge('faux-columns-challenge.md', 'Float: Faux Columns', '237', '300'),
+  new challenge('full-page-layout-challenge.md', 'Full Page Layout', '178', '362'),
+  # new challenge('zen-garden-challenge.md', 'Zen Garden', '178', '388'),
+  new challenge('complex-layout-project.md', 'Complex Layout Project', '215', '375')
 );
 
 $module_videos = array(
@@ -60,15 +60,15 @@ $module_textpages = array(
   new textpage('quick-reference.md', 'Quick Reference'),
   new textpage('span-vs-div.md', 'Span vs. Div'),
   new textpage('css-box-model.md', 'CSS Box Model'),
-  new textpage('background-images.md', 'Background Images'),
-  new textpage('normal-flow-block-vs-inline.md', 'Normal Flow (Block vs. Inline)'),
-  new textpage('relative-positioning.md', 'Relative Positioning'),
-  new textpage('absolute-positioning.md', 'Absolute Positioning'),
-  new textpage('floating-elements.md', 'Floating Elements'),
-  new textpage('simple-menu.md', 'Simple Menu'),
-  new textpage('single-column-layout.md', 'Single-Colum Layout'),
-  new textpage('multi-column-layout.md', 'Multi-Colum Layout'),
-  new textpage('example-page-layout.md', 'Example Page Layout')
+  # new textpage('background-images.md', 'Background Images'),
+  # new textpage('normal-flow-block-vs-inline.md', 'Normal Flow (Block vs. Inline)'),
+  # new textpage('relative-positioning.md', 'Relative Positioning'),
+  # new textpage('absolute-positioning.md', 'Absolute Positioning'),
+  # new textpage('floating-elements.md', 'Floating Elements'),
+  # new textpage('simple-menu.md', 'Simple Menu'),
+  # new textpage('single-column-layout.md', 'Single-Colum Layout'),
+  # new textpage('multi-column-layout.md', 'Multi-Colum Layout'),
+  # new textpage('example-page-layout.md', 'Example Page Layout')
 );
 
 

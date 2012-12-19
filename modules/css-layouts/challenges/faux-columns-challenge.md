@@ -26,12 +26,9 @@ Note: This trick also relies on clearing the float with the following code `<div
   </body>
 </html>
 ```
-##Gradient Image
+###Gradient Image
 
 ![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/horizontal-gradient.png)
 
-##Finished Page Should Look like This
+###Finished Page Should Look like This
 ![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/faux-columns-challenge.png)
-
-##Mastery
-Precise replication is the key.

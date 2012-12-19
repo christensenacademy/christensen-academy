@@ -1,4 +1,3 @@
-#Three Types of CSS Challenge
 Your challenge is to develop a webpage that uses all three types of CSS.
 
 Consider the following HTML document:

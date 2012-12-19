@@ -15,53 +15,25 @@
 .image-manipulation-text-color { color: #5F219F !important;}
 .brain-teasers-text-color { color: #666 !important;}
 
-h4 {color:#111;font-size:130%;}
-.playlist h3 small {color:#ccc}
-.playlist h3 {color:#eee; margin:1em 0;}
 .module h3 small {color:#ccc}
 .module h3 {color:#eee; margin:1em 0;}
-.videos a, .videos a:link {color:#ddd;}
-.videos a:hover {color:#eee;}
-.videos a:active {color:#fff;}
-.videos a:visited {color:#ddd;}
-.videos ul {margin:0}
-.playlist {margin:2em 0;}
-.playlist p{font-size:1em; font-color:#444; text-indent:2em;}
 .module-header h3{font-size:200%;}
 
 body {padding-top: 40px;}
-.subject-area {margin:12px;}
+.subject-area {margin: 0 12px 12px 12px;}
 .module {padding-top:50px;}
-
 .module a, .module a:link {color:#ddd;}
 .module a:hover {color:#eee;}
 .module a:active {color:#fff;}
 .module a:visited {color:#ddd;}
 .subject-area{padding-bottom:70px;}
 
-/* old stuff -- delete eventually */
-.reference-guide {display:inline-block;width:40px;height:40px;background-image: url("../img/ref-icon.png");}
-.textpage {font-size:0.9em;margin-bottom:12px;display:inline-block;height:16px;background: url("../img/logo16-black.png") no-repeat;padding-left:22px;color:#111;line-height:16px;}
-.textpage small{color:#ccc;}
-.textpage-heading {font-size:1.5em !important;}
-.textpage:hover {background-image:url("../img/logo16-white.png");color:#eee;text-decoration:none;}
-.challenge-map-heading {color:#111; text-decoration:none;}
-.challenge-map-heading:hover {color:#eee; text-decoration:none;}
 .module-subheading {color:#111 !important;margin:10px 0;font-size:1.25em;}
 
 .challenge-map {background-repeat:no-repeat;position:relative;}
-.intro:hover {background-image: url("../img/glyphicons-halflings-white.png");}
 .challenge {height:16px;width:16px;background-image: url("../img/logo16-black.png");display:block;}
 .challenge:hover {background-image: url("../img/logo16-white.png");}
-.big-project {height:32px;width:32px;background: url("../img/logo32-black.png");display:block;}
-.big-project:hover {background:url("../img/logo32-white.png");}
-.small-project {height:21px;width:21px;background: url("../img/logo21-black.png");display:block;}
-.small-project:hover {background:url("../img/logo21-white.png");}
 
-.future-video {
-  color:#222 !important;
-  text-decoration:none !important;
-}
 @media (max-width: 979px) {
   body {padding-top:0px;}
 }
