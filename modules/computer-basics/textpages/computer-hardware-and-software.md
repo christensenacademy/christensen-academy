@@ -23,7 +23,7 @@ Have you ever been working on something on your computer and forgotten to save i
 ###CPU (Processor)
 The job of the processor is to run programs. Processors are extraordinarily fast and can excecute roughly a billion instructions in a single second. Processor speed is measured in gigahertz (GHz).
 
-In the past, computers typically only had one processor. In recent years, computers have begun to be built with miltiple processors or "cores". The computer I'm typing on right now had a dual-core processor; that is, it actually has two processors working together to run software.
+In the past, computers typically only had one processor. In recent years, computers have begun to be built with miltiple processors or "cores". The computer I'm typing on right now has a dual-core processor.
 
 ###House Metaphor
 I came across a video by Common Craft a couple of years ago called [Computer Hardware in Plain English](http://www.youtube.com/watch?v=LrXeDF4Qqz4). I enjoyed the house metaphor they used in the video, which went something like this:
