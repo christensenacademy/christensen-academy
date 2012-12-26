@@ -1,10 +1,16 @@
-Fun
+#The Fun Game
 
-Game Board, Action Cards, Event Cards, Asset Cards, Player Cards
+* [Player Cards](http://christensenacademy.org/modules/board-games/fun/players.html)
+* [Game Boards](http://christensenacademy.org/modules/board-games/fun/game-board.html)
+* [Events](http://christensenacademy.org/modules/board-games/fun/events.html)
+* [Actions](http://christensenacademy.org/modules/board-games/fun/actions.html)
+* [Assets](http://christensenacademy.org/modules/board-games/fun/assets.html)
 
+###Catch Phrase
 It's not about whether you win or lose. It's how you play the game.
 
-The board game about playing a board game where the winner is determined by who has the most fun.
+###Subtitle
+The board game about playing a board game where the winner is the one who has the most fun, literally.
 
 Obviously, Fun (the game) is meant to be fun, but sometimes we lose patience, run out of focus, and our enthusiasm all but disappears. Your goal is simple: manage your Patience, Focus, and Enthusiasm in an attempt to maximize the amount of Fun you have. The game is over when there is no more Fun to be had. The winner is the Player who has accumulated the most Fun.
 
