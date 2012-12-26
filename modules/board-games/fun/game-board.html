@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fun</title>
+    <link href='http://fonts.googleapis.com/css?family=New+Rocker' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="game-board.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="board">
+      <div class="board-inner">
+        <div style="position:absolute;left:10px;top:210px;" class="number">1</div>
+        <div style="position:absolute;left:550px;top:210px;" class="number">2</div>
+        <div style="position:absolute;left:10px;top:430px;" class="number">3</div>
+        <div style="position:absolute;left:40px;top:430px;" class="number">4</div>
+        <div style="position:absolute;left:10px;top:898px;" class="number">5</div>
+        <div style="position:absolute;left:-60px;top:-25px;"><img src="img/christensenacademy.png"></div>
+        
+        <div class="board-title">Fun</div>
+        <div class="board-subtitle">It's not whether you win or lose. It's how you play the game.</div>
+        <div class="player-order">
+          <div class="token-box lefty"></div>
+          <div class="token-box lefty"></div>
+          <div class="token-box lefty"></div>
+          <div class="token-box lefty"></div>
+          <div class="token-box lefty"></div>
+          <div class="token-box lefty"></div>
+        </div>
+        <div class="player-order-title">Player Order</div>
+        <hr>
+        <div class="event ">
+          <div class="event-title">Event!</div>
+          <div class="event-description">Draw an event card <br> face up.</div>
+        </div>
+        <div class="event ">
+          <div class="distraction-title">Majorly <br> Distracted</div>
+          <div class="distraction-description">Spin higher than your Focus and lose a placement here.</div>
+        </div>
+        <div class="distraction">
+          <div class="distraction-title">Minorly <br> Distracted</div>
+          <div class="distraction-description">Spin higher than your Focus and lose a placement here.</div>
+          <div class="next">
+            <div class="next-text">if distracted...</div>
+            <div>&rarr;</div>
+          </div>
+        </div>
+        <hr>
+        <br>
+        
+        <div class="draw-row-title">Acquire Actions:</div>
+        <div class="draw-row">
+          <div class="token-box2 lefty">3-2</div>
+          <div class="token-box2 lefty">2-2</div>
+          <div class="token-box2 lefty">2-2</div>
+          <div class="token-box2 lefty">2-1</div>
+          <div class="token-box2 lefty">2-1</div>
+          <div class="token-box2 lefty">1-1</div>
+        </div>
+        <div class="draw-row-description">Draw x Action cards. Keep y of them.</div>
+        <br style="clear:both">
+        
+        <div class="resource-boost-title">Resource Boost:</div>
+        <div class="resource-boost">
+          <div class="token-box3 lefty">+3 P<hr>+2 F<hr>+2 E</div>
+          <div class="token-box3 lefty">+1 P<hr>+3 F<hr>+2 E</div>
+          <div class="token-box3 lefty">+2 P<hr>+2 F<hr>+1 E</div>
+          <div class="token-box3 lefty">+2 P<hr>+1 F<hr>+2 E</div>
+          <div class="token-box3 lefty">+2 P<hr>+1 F<hr>+1 E</div>
+          <div class="token-box3 lefty">+1 P<hr>+1 F<hr>+1 E</div>
+        </div>
+        <div class="resource-boost-description"></div>
+        <br style="clear:both">
+        
+        <div class="draw-row-title">Acquire Assets:</div>
+        <div class="draw-row">
+          <div class="token-box2 lefty">2-1</div>
+          <div class="token-box2 lefty">2-1</div>
+          <div class="token-box2 lefty">2-1</div>
+          <div class="token-box2 lefty">1-1</div>
+          <div class="token-box2 lefty">1-1</div>
+          <div class="token-box2 lefty">1-1</div>
+        </div>
+        <div class="draw-row-description">Draw x Asset cards. Keep y of them.</div>
+        <br style="clear:both">
+        
+        <div class="queue-title">Play Actions:</div>
+        <div class="queue">
+          <div class="token-box lefty">1</div>
+          <div class="token-box lefty">2</div>
+          <div class="token-box lefty">3</div>
+          <div class="token-box lefty">4</div>
+          <div class="token-box lefty">5</div>
+          <div class="token-box lefty">6</div>
+          <div class="token-box lefty">7</div>
+          <div class="token-box lefty">8</div>
+          <div class="token-box lefty">9</div>
+        </div>
+        <div class="queue-description"></div>
+        <br style="clear:both">
+        
+        <div class="queue-title">Anticipate:</div>
+        <div class="queue">
+          <div class="token-box lefty">1</div>
+          <div class="token-box lefty">2</div>
+          <div class="token-box lefty">3</div>
+          <div class="token-box lefty">4</div>
+          <div class="token-box lefty">5</div>
+        </div>
+        <div class="queue-description"></div>
+        <br style="clear:both">
+        
+        <hr>
+        <br>
+        <div class="upkeep">Upkeep:</div>
+        <div class="upkeep-description">Each player loses 1 Resource for every minorly distracted player and 2 resources for every majorly distracted player. Then, each player with no Patience left must remove one of their Fun from the game.</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+body {
+  margin:0;
+  font-family: 'New Rocker', cursive;
+}
+
+.tablet {
+  width:1150px;/*345px;*/ /*Ratio: 1.42898*/
+  height:600px;/*493px;*/
+  background:#333;
+  border-radius:10px;
+  position:relative;
+  margin:64px auto;
+  page-break-after:always;
+  -webkit-print-color-adjust:exact;
+}
+.tablet-inner{
+  background:#ddd;
+  position:absolute;
+  top:2%;
+  bottom:2%;
+  left:1.4%;
+  right:1.4%;
+}
+.tablet-name {
+  width:100%;
+  padding:5px 0;
+  margin: 22px 0 42px 0;
+  font-size:40px;
+  background:#444;
+  color:#ddd;
+  text-align:center;
+}
+
+.resource-row{
+  width:99%;
+  height:40px;
+  margin:22px auto;
+  color:#333;
+  font-size:2.5em;
+  line-height:50px;
+  text-align:center;
+}
+.resource{
+  float:left;
+  width:40px;
+  height:40px;
+  margin-left:18px;
+  margin-right:18px;
+}
+.resource-title{
+  float:left;
+  text-align:right;
+  width:195px;
+  height:50px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.patience{
+  background:url('patience-light.png') center no-repeat;
+  background-size:100% 100%;
+ }
+.focus{
+  background:url('focus-light.png') center no-repeat;
+  background-size:100% 100%;
+}
+.enthusiasm{
+  background:url('enthusiasm-light.png') center no-repeat;
+  background-size:100% 100%;
+}
+.patience-dark{
+  background:url('patience.png') center no-repeat;
+  background-size:100% 100%;
+ }
+.focus-dark{
+  background:url('focus.png') center no-repeat;
+  background-size:100% 100%;
+}
+.enthusiasm-dark{
+  background:url('enthusiasm.png') center no-repeat;
+  background-size:100% 100%;
+}
+
+.greyed-out{
+  border:none;
+  height: 18px;
+}
+
+.fun{
+  float:right;
+  margin-right:18px;
+  font-size:4.5em;
+  color:#ddd;
+  padding-right:10px;
+  text-align:center;
+  line-height:240px;
+  width:335px;
+  height:250px;
+  background: #666;
+  border:3px solid #444;
+  border-radius:10px;
+}
+.asset{
+  float:right;
+  margin-top:18px;
+  margin-right:18px;
+  font-size:1.5em;
+  color:#666;
+  text-align:center;
+  width:345px;
+  height:146px;
+  background:#eee;
+  border:3px solid #666;
+  border-bottom:none;
+  border-top-right-radius:10px;
+  border-top-left-radius:10px;
+}
+.asset .asset-name{
+  margin-top:20px;
+  font-size:1.6em;
+}
+.asset .asset-description{
+  margin-top:20px;
+  font-size:1.0em;
+}
+.competitiveness{
+  float:left;
+  font-size:4.5em;
+  color:#333;
+  text-align:center;
+  width:345px;
+  height:105px;
+}
+.competitive-text{
+  font-size:20px;
+}

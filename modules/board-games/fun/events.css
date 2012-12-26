@@ -1,0 +1,62 @@
+body {
+  margin:0;
+  font-family: 'New Rocker', cursive;
+}
+
+.sheet-of-cards {
+  width:1035px;
+  height:986px;
+  position:relative;
+  margin:0 auto;
+}
+
+.card {
+  width:345px;/*345px;*/ /*Ratio: 1.42898*/
+  height:493px;/*493px;*/
+  background:#333;
+  border-radius:10px;
+  position:absolute;
+  -webkit-print-color-adjust:exact;
+}
+.card-inner{
+  background:#ddd;
+  position:absolute;
+  top:8px;
+  bottom:8px;
+  left:8px;
+  right:8px;
+}
+.card-name {
+  width:100%;
+  padding:2% 0;
+  font-size:1.5em;
+  color:#333;
+  text-align:center;
+  margin:0;
+}
+
+.card-text{
+  height:220px;
+  width:306px;
+  border:#333 solid;
+  border-width:2%;
+  margin:5px auto;
+  background:white;
+  color:#333;
+  text-align:center;
+}
+.card-description{
+  height:60%;
+}
+.card-image{
+  height:180px;
+  width:306px;
+  border:#333 solid;
+  border-width:2%;
+  margin:5px auto;
+  background:#eee;
+}
+.flavor-text{
+  color:#888;
+  font-style:italic;
+}

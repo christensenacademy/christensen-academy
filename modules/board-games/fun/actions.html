@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Card Template</title>
+    <link href='http://fonts.googleapis.com/css?family=New+Rocker' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="actions.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <script>
+      var cards = [
+        {
+          "name": "Brooke Farted",
+          "description": "Everyone loses 2 Focus and 1 Enthusiasm",
+          "flavor-text": "Atta boy, Brooke!",
+          "image": "mom-farted.png",
+        },
+        {
+          "name": "Mom Farted",
+          "description": "Everyone loses 2 Focus and 1 Enthusiasm",
+          "flavor-text": "Just because it's a cat doesn't make it cute...",
+          "image": "mom-farted.png",
+        },
+        {
+          "name": "Mom Farted",
+          "description": "Everyone loses 2 Focus and 1 Enthusiasm",
+          "flavor-text": "Just because it's a cat doesn't make it cute...",
+          "image": "mom-farted.png",
+        },
+        {
+          "name": "Mom Farted",
+          "description": "Everyone loses 2 Focus and 1 Enthusiasm",
+          "flavor-text": "Just because it's a cat doesn't make it cute...",
+          "image": "mom-farted.png",
+        },
+        {
+          "name": "Mom Farted",
+          "description": "Everyone loses 2 Focus and 1 Enthusiasm",
+          "flavor-text": "Just because it's a cat doesn't make it cute...",
+          "image": "mom-farted.png",
+        },
+        {
+          "name": "Mom Farted",
+          "description": "Everyone loses 2 Focus and 1 Enthusiasm",
+          "flavor-text": "Just because it's a cat doesn't make it cute...",
+          "image": "mom-farted.png",
+        },
+        {
+          "name": "Mom Farted",
+          "description": "Everyone loses 2 Focus and 1 Enthusiasm",
+          "flavor-text": "Just because it's a cat doesn't make it cute...",
+          "image": "mom-farted.png",
+        },
+        {
+          "name": "Mom Farted",
+          "description": "Everyone loses 2 Focus and 1 Enthusiasm",
+          "flavor-text": "Just because it's a cat doesn't make it cute...",
+          "image": "mom-farted.png",
+        },
+        {
+          "name": "Mom Farted",
+          "description": "Everyone loses 2 Focus and 1 Enthusiasm",
+          "flavor-text": "Just because it's a cat doesn't make it cute...",
+          "image": "mom-farted.png",
+        },
+        {
+          "name": "Mom Farted",
+          "description": "Everyone loses 2 Focus and 1 Enthusiasm",
+          "flavor-text": "Just because it's a cat doesn't make it cute...",
+          "image": "mom-farted.png",
+        },
+        {
+          "name": "Mom Farted",
+          "description": "Everyone loses 2 Focus and 1 Enthusiasm",
+          "flavor-text": "Just because it's a cat doesn't make it cute...",
+          "image": "mom-farted.png",
+        },
+        {
+          "name": "Mom Farted",
+          "description": "Everyone loses 2 Focus and 1 Enthusiasm",
+          "flavor-text": "Just because it's a cat doesn't make it cute...",
+          "image": "mom-farted.png",
+        },
+      ]
+      
+      var row;
+      for (var i = 0; i < cards.length; i++) {
+        if(i%6===0){
+          $('body').append('<div class="sheet-of-cards"></div>');
+        }
+        $('.sheet-of-cards').last().append(
+   '<div class="card" id="card' + i + '">\
+      <div class="card-inner">\
+        <p class="card-name"></p>\
+        <div class="card-image"></div>\
+        <div class="card-text">\
+          <p class="card-description"></p>\
+          <p class="flavor-text"></p>\
+        </div>\
+      </div>\
+    </div>');
+        var temp = $(".card").last();
+        var offset_x = i%3;
+        var i2 = i%6;
+        var offset_y = Math.floor(i2/3);
+        temp.css('top', "" + (offset_y * 493) + "px");
+        temp.css('left', "" + (offset_x * 345) + "px");
+        $(".card-name").last().html(cards[i]["name"]);
+        $(".card-description").last().html(cards[i]["description"]);
+        $(".flavor-text").last().html(cards[i]["flavor-text"]);
+        $(".card-image").last().css("background-image","url('actions/" + cards[i]["image"] + "')");
+        if(i%6==5){
+          $('body').append('<div style="page-break-after:always;"></div>');
+        }
+      }
+      
+    </script>
+  </body>
+</html>

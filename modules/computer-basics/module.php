@@ -36,7 +36,6 @@ $module_textpages = array(
   new textpage('computer-file-sizes.md', 'Computer File Sizes'),
   new textpage('computer-hardware-and-software.md', 'Computer Hardware and Software'),
   new textpage('file-system-basics.md', 'File System Basics'),
-  # new textpage('cut-copy-and-paste.md', 'Cut, Copy, and Paste'),
   # new textpage('the-command-line.md', 'The Command Line')
 );
 
