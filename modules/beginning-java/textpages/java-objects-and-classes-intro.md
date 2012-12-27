@@ -26,6 +26,9 @@ In a sense, the class is like the mold from which objects are created.
 
 As a Java programmer, you will find yourself frequently creating new objects of classes to do interesting things.
 
+###Primitive Types
+If you haven't actually written any programs yet, this probably sounds quite confusing. To make matters worse, Java isn't a completely object-oriented language. Almost everything in Java revolves around classes and objects, except for *primitive types*, such as basic numbers like my favorite number 89 and characters like my favorite character '$'. Oddly enough, I'll actually start out teaching you to program with primitive types before moving on to working with objects. This is because it's nearly impossible to do anything without using primitive types. Sorry for the confusion this may cause, although I really shouldn't be the one apologizing; Java should be.
+
 ##Conclusion
 
 As you first start programming in Java, you'll find yourself mostly relying on the classes provided by the Java API. That is, you won't be writing your own classes. Instead, you'll mostly be working with objects from classes that have already been written for you. Later on, you'll start writing your own classes. Honestly, I think it's pretty much impossible to have a thorough understanding of what classes and objects are until you've written and used your own classes.
