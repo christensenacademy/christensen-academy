@@ -15,6 +15,8 @@ In this way, we can say that objects have both *state* (i.e., properties) and *b
 
 ###So, what are classes?
 
+In a sense, the class is like the mold from which objects are created.
+
 It turns out that every object comes from a class. Another way of saying this is that an object is an *instance* of a class. The class literally defines the properties and methods that an object of that class can have. For example, if there were a Stapler class in Java, it might the following properties and methods:
 
 * **Properties:** Color, size, the number of staples remaining, the number of pages that can be stapled at once.
@@ -22,7 +24,6 @@ It turns out that every object comes from a class. Another way of saying this is
 
 Each Stapler *object* would then have its own values for each of the properties of the stapler. You might have a green, 1 Kg stapler with 11 staples remaining and the ability to staple up to 15 sheets of paper at once. You might also have an orange, 0.5 Kg stapler with 50 staples remaining and the ability to staple up to 10 sheets of paper at once. Each of these staplers would be an *object* of the Stapler *class*.
 
-In a sense, the class is like the mold from which objects are created.
 
 As a Java programmer, you will find yourself frequently creating new objects of classes to do interesting things.
 
