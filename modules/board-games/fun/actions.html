@@ -249,36 +249,40 @@
         },
       ]
       
-      var row;
+      var count=0;
       for (var i = 0; i < cards.length; i++) {
-        if(i%6===0){
-          $('body').append('<div class="sheet-of-cards"></div>');
-        }
-        $('.sheet-of-cards').last().append(
-   '<div class="card" id="card' + i + '">\
-      <div class="card-inner">\
-        <p class="card-name"></p>\
-        <div class="card-image"></div>\
-        <div class="card-text">\
-          <p class="card-description"></p>\
-          <p class="flavor-text"></p>\
+        for(var j=0; j<cards[i]["count"];j++){
+          if(count%6===0){
+            $('body').append('<div class="sheet-of-cards"></div>');
+          }
+          $('.sheet-of-cards').last().append(
+     '<div class="card">\
+        <div class="card-inner">\
+          <p class="card-name"></p>\
+          <div class="card-image"></div>\
+          <div class="card-text">\
+            <p class="card-description"></p>\
+            <p class="flavor-text"></p>\
+          </div>\
         </div>\
-      </div>\
-    </div>');
-        var temp = $(".card").last();
-        var offset_x = i%3;
-        var i2 = i%6;
-        var offset_y = Math.floor(i2/3);
-        temp.css('top', "" + (offset_y * 493) + "px");
-        temp.css('left', "" + (offset_x * 345) + "px");
-        $(".card-name").last().html(cards[i]["name"]);
-        $(".card-description").last().html(cards[i]["description"]);
-        $(".flavor-text").last().html(cards[i]["flavor-text"]);
-        $(".card-image").last().css("background-image","url('actions/" + cards[i]["image"] + "')");
-        if(i%6==5){
-          $('body').append('<div style="page-break-after:always;"></div>');
+      </div>');
+          var temp = $(".card").last();
+          var offset_x = count%3;
+          var i2 = count%6;
+          var offset_y = Math.floor(i2/3);
+          temp.css('top', "" + (offset_y * 493) + "px");
+          temp.css('left', "" + (offset_x * 345) + "px");
+          $(".card-name").last().html(cards[i]["name"]);
+          $(".card-description").last().html(cards[i]["description"]);
+          $(".flavor-text").last().html(cards[i]["flavor-text"]);
+          $(".card-image").last().css("background-image","url('actions/" + cards[i]["image"] + "')");
+          if(count%6==5){
+            $('body').append('<div style="page-break-after:always;"></div>');
+          }
+          count++;
         }
       }
+      console.log(count);
       
     </script>
   </body>
