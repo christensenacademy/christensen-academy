@@ -10,3 +10,12 @@ APIs are very common in the programming world. Anytime software interacts with o
 If you're new to the Java language and you're confused about why everyone is always talking about the Java API, just realize that most of the code you write in Java will be in some way using the Java API. You'll get familiar with certain parts of the API as you start programming.
 
 If you're interested, you can see the entire [API specification for Java 7](http://docs.oracle.com/javase/7/docs/api/)
+
+###Versions of Java
+New versions of the Java platform (the JRE including the JVM) continue to be released. Each time this happens the Java API changes accordingly. For example, when Java 5.0 (or 1.5.0 as it is sometimes called) was released, the Scanner class, which I'll be using extensively for teaching purposes, was first included in the Java API. With that said, most of the core classes used in Java haven't changed much if at all in recent history.
+
+If you're wondering about the difference between Java SE, EE, FX, and ME, I'll let you do some Google searching on it. Just realize that I'll be teaching using SE (Standard Edition), though I highly doubt anything I teach wouldn't also work on another version. Except for ME, the other versions just add extra "stuff" to the Java API.
+
+Kowabunga,
+
+Cam
