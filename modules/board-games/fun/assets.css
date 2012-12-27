@@ -37,14 +37,15 @@ body {
 }
 
 .card-text{
-  height:220px;
-  width:306px;
+  height:196px;
+  width:284px;
   border:#333 solid;
   border-width:2%;
   margin:5px auto;
   background:white;
   color:#333;
   text-align:center;
+  padding:12px;
 }
 .card-description{
   height:60%;

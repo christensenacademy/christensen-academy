@@ -14,213 +14,247 @@
           "description": "Re-spin a failed distraction spin.",
           "flavor-text": "It's a good thing Health isn't a resource in this game...",
           "image": "energy-drink.png",
+          "count": 2
         },
         {
           "name": "Grammarphile",
           "description": "Other players get -1 to their maximum Patience.",
           "flavor-text": "",
           "image": "grammarphile.png",
+          "count": 1
         },
         {
           "name": "Indominatable Will",
           "description": "+1 Competitiveness. You are incapable of losing Fun.",
           "flavor-text": "",
           "image": "indominatable-will.png",
+          "count": 1
         },
         {
           "name": "Eye Glasses",
           "description": "+1 Maximum Focus. +1 Focus when equipped.",
           "flavor-text": "Ahhhhhh... I see.",
           "image": "eye-glasses.png",
+          "count": 2
         },
         {
           "name": "Humor",
           "description": "You are +2 maximum Enthusiasm. Everyone else is +1 maximum Enthusiasm. +1 Fun when equipped.",
           "flavor-text": "hehehe",
           "image": "humor.png",
+          "count": 2
         },
         {
           "name": "Pizza",
           "description": "+1 everyone's maximimun enthusiasm. -1 everyone's maximum focus.",
           "flavor-text": "",
           "image": "pizza.png",
+          "count": 1
         },
         {
           "name": "Control of the TV",
           "description": "At the start of each round, you may turn on the TV to make everyone lose 1 Focus. Focus lost in this way will be regained at the end of the round.",
           "flavor-text": "",
           "image": "control-of-the-tv.png",
+          "count": 1
         },
         {
           "name": "Lack of Hygene",
           "description": "Everyone else has -1 maximum focus.",
           "flavor-text": "Taking a bath!",
           "image": "lack-of-hygene.png",
+          "count": 1
         },
         {
           "name": "Distinctive Laugh",
           "description": "+1 to all Fun spins and rolls",
           "flavor-text": "",
           "image": "distinctive-laugh.png",
+          "count": 1
         },
         {
           "name": "Baby",
           "description": "Everyone is automatically minorly distracted.",
           "flavor-text": "",
           "image": "baby.png",
+          "count": 1
         },
         {
           "name": "Cat on Lap",
           "description": "+1 maximum Patience. +1 maximum Focus. +1 maximum Enthusiasm.",
           "flavor-text": "",
           "image": "cat-on-lap.png",
+          "count": 2
         },
         {
           "name": "Diligence",
           "description": "+1 focus every round you're not distracted.",
           "flavor-text": "",
           "image": "diligence.png",
+          "count": 1
         },
         {
           "name": "Rulebook",
           "description": "Once per round, force another player to re-roll or re-spin.",
           "flavor-text": "",
           "image": "rulebook.png",
+          "count": 1
         },
         {
           "name": "Good Manners",
           "description": "-1 or +1 Competitiveness, you choose. You may change your choice at any time.",
           "flavor-text": "No, ma'am. We don't do that sort of thing here.",
           "image": "good-manners.png",
+          "count": 1
         },
         {
           "name": "Irksome Habbit",
           "description": "",
           "flavor-text": "",
           "image": "irksome-habbit.png",
+          "count": 1
         },
         {
           "name": "Good Will Towards Men",
           "description": "",
           "flavor-text": "",
           "image": "good-will-towards-men.png",
+          "count": 1
         },
         {
           "name": "Glass of Milk",
           "description": "",
           "flavor-text": "",
           "image": "glass-of-milk.png",
+          "count": 1
         },
         {
           "name": "Bloodlust",
           "description": "Have fun when others lose it (proportionally, of course).",
           "flavor-text": "",
           "image": "bloodlust.png",
+          "count": 1
         },
         {
           "name": "Justice",
           "description": "",
           "flavor-text": "",
           "image": "justice.png",
+          "count": 1
         },
         {
           "name": "Sloth",
           "description": "",
           "flavor-text": "",
           "image": "sloth.png",
+          "count": 1
         },
         {
           "name": "Wrath",
           "description": "",
           "flavor-text": "",
           "image": "wrath.png",
+          "count": 1
         },
         {
           "name": "Pride",
           "description": "",
           "flavor-text": "",
           "image": "pride.png",
+          "count": 1
         },
         {
           "name": "Envy",
           "description": "At the start of each round, choose an asset belonging to another player. Use that asset as if it were your own.",
           "flavor-text": "",
           "image": "envy.png",
+          "count": 1
         },
         {
           "name": "Charity",
           "description": "-2 Competitiveness. +1 maximum patience.",
           "flavor-text": "",
           "image": "charity.png",
+          "count": 1
         },
         {
           "name": "Humility",
           "description": "",
           "flavor-text": "",
           "image": "humility.png",
+          "count": 1
         },
         {
           "name": "Valor",
           "description": "",
           "flavor-text": "",
           "image": "valor.png",
+          "count": 1
         },
         {
           "name": "Inner Peace",
           "description": "",
           "flavor-text": "",
           "image": "inner-peace.png",
+          "count": 1
         },
         {
           "name": "Schmoozing",
           "description": "",
           "flavor-text": "",
           "image": "schmoozing.png",
+          "count": 1
         },
         {
           "name": "Obliviousness",
           "description": "Infinite patience. When you equip this asset, you lose two Focus and your maximum focus decreases by two. You will regain what is lost when you are no longer oblivious.",
           "flavor-text": "",
           "image": "obliviousness.png",
+          "count": 1
         },
         {
           "name": "A Positive Outlook on Life",
           "description": "",
           "flavor-text": "",
           "image": "a-positive-outlook-on-life.png",
+          "count": 1
         }
       ]
       
-      var row;
+      var count=0;
       for (var i = 0; i < cards.length; i++) {
-        if(i%6===0){
-          $('body').append('<div class="sheet-of-cards"></div>');
-        }
-        $('.sheet-of-cards').last().append(
-   '<div class="card" id="card' + i + '">\
-      <div class="card-inner">\
-        <div class="card-image"></div>\
-        <p class="card-name"></p>\
-        <div class="card-text">\
-          <p class="card-description"></p>\
-          <p class="flavor-text"></p>\
+        for(var j = 0; j < cards[i]["count"]; j++){
+          if(count%6===0){
+            $('body').append('<div class="sheet-of-cards"></div>');
+          }
+          $('.sheet-of-cards').last().append(
+     '<div class="card" id="card' + i + '">\
+        <div class="card-inner">\
+          <div class="card-image"></div>\
+          <p class="card-name"></p>\
+          <div class="card-text">\
+            <p class="card-description"></p>\
+            <p class="flavor-text"></p>\
+          </div>\
         </div>\
-      </div>\
-    </div>');
-        var temp = $(".card").last();
-        var offset_x = i%3;
-        var i2 = i%6;
-        var offset_y = Math.floor(i2/3);
-        temp.css('top', "" + (offset_y * 493) + "px");
-        temp.css('left', "" + (offset_x * 345) + "px");
-        $(".card-name").last().html(cards[i]["name"]);
-        $(".card-description").last().html(cards[i]["description"]);
-        $(".flavor-text").last().html(cards[i]["flavor-text"]);
-        $(".card-image").last().css("background-image","url('actions/" + cards[i]["image"] + "')");
-        if(i%6==5){
-          $('body').append('<div style="page-break-after:always;"></div>');
+      </div>');
+          var temp = $(".card").last();
+          var offset_x = count%3;
+          var i2 = count%6;
+          var offset_y = Math.floor(i2/3);
+          temp.css('top', "" + (offset_y * 493) + "px");
+          temp.css('left', "" + (offset_x * 345) + "px");
+          $(".card-name").last().html(cards[i]["name"]);
+          $(".card-description").last().html(cards[i]["description"]);
+          $(".flavor-text").last().html(cards[i]["flavor-text"]);
+          $(".card-image").last().css("background-image","url('actions/" + cards[i]["image"] + "')");
+          if(count%6==5){
+            $('body').append('<div style="page-break-after:always;"></div>');
+          }
+          count++;
         }
       }
+      console.log(count);
       
     </script>
   </body>
