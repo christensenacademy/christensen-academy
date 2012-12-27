@@ -1,8 +1,8 @@
 #Java Objects and Classes Intro
 
-Java was the first programming language I learned. I knew nothing about computer science and programming when I started, so when I started hearing people use the term *object-oriented* to describe Java as if this somehow made Java special, I was quite confused. From my perspective, I just sort of assumed that all languages must work more or less like Java in how they use objects, classes, methods, and so on. It turns out that I was wrong. There's actually an incredible variety of programming paradigms out there, and each language is unique in it's own way.
+Java was the first programming language I learned. I knew nothing about computer science and programming when I started, so when I started hearing people use the term *object-oriented* to describe Java as if this somehow made Java special, I was quite confused. From my perspective, I just sort of assumed that all languages must work more or less like Java. When I learned about objects, classes, and methods in Java, I assumed that other languages would have these things too. It turns out that I was wrong. To be fair, a lot of languages are object-oriented in some fashion nowadays, but there's actually an incredible variety of programming paradigms out there, and object-oriented is just one of them.
 
-The purpose of this textpage is to explain what objects and classes are in Java. This is an introductory explanation only. I hope you realize that your understanding of objects and classes will necessarily be limited until you begin writing your own complex Java programs. You'll get there eventually. Just stick with it.
+The purpose of this textpage is to give you a basic idea what objects and classes are in Java. This is an introductory explanation only. I hope you realize that your understanding of objects and classes will necessarily be limited until you begin writing your own complex Java programs. You'll get there eventually. Just stick with it.
 
 ##Objects and Classes
 In Java (and other object-oriented languages) programmers are constantly working with *objects.* All objects come from corresponding *classes*.
