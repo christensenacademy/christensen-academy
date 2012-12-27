@@ -21,3 +21,7 @@ My code examples in these textpages will have lots of comments aimed at helping 
 Lastly, I should point out that comments are also used to create official code documentation. The idea with documentation is closely related to the idea of encapsulation, which is a fancy word people in the Java world are particularly fond of. Basically, the idea is that other programmers should be able to use the code you've written without needing to understand the details of how your code works. If you wrote good documentation, I shouldn't have any problem using the code you've developed. This will make more and more sense as your understanding of Java classes and objects evolves. For now, just realize that if you wanted to leave a comments to document your code, you would start the comment with `/**` and end it with `*/`.
 
 If you'd like to know more about creating official documentation for your code, you should look into the Javadoc tool.
+
+Kowabunga,
+
+Cam
