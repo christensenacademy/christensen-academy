@@ -6,8 +6,8 @@ $map_height = '185';
 $module_playlist = '';
 
 $module_challenges = array(
-  new challenge('install-ide.md', 'Install IDE', '87', '70')
-  # new challenge('hello-world.md', 'Hello World', '88', '147')
+  new challenge('install-ide.md', 'Install IDE', '87', '70'),
+  new challenge('hello-world.md', 'Hello World', '88', '147')
 );
 
 $module_videos = array(

@@ -12,11 +12,11 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  new textpage('comments.md', 'Comments in Java')
-  # new textpage('java-objects-and-classes-into.md', 'Java Objects and Classes Intro'),
-  # new textpage('java-api.md', 'Java API'),
-  # new textpage('variables-intro.md', 'Variables Intro'),
-  # new textpage('primitive-types.md', 'Primitive Types')
+  new textpage('comments.md', 'Comments in Java'),
+  new textpage('java-objects-and-classes-into.md', 'Java Objects and Classes Intro'),
+  new textpage('java-api.md', 'Java API'),
+  new textpage('variables-intro.md', 'Variables Intro'),
+  new textpage('primitive-types.md', 'Primitive Types')
 );
 
 

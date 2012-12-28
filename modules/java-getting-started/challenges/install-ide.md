@@ -1,6 +1,6 @@
 * **Estimated Time:** 10 minutes (if all goes well)
 
-##Challenge
+###Challenge
 Install and run an IDE (Integrated Development Environment) for writing Java Programs. I recommend choosing one of the following, all of which are free:
 
 * **Dr. Java** (for simplicity)

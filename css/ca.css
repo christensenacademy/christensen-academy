@@ -31,8 +31,19 @@ body {padding-top: 40px;}
 .module-subheading {color:#111 !important;margin:10px 0;font-size:1.25em;}
 
 .challenge-map {background-repeat:no-repeat;position:relative;}
-.challenge {height:16px;width:16px;background-image: url("../img/logo16-black.png");display:block;}
+.challenge {min-height:16px;min-width:16px;background: url("../img/logo16-black.png") no-repeat;display:block;}
 .challenge:hover {background-image: url("../img/logo16-white.png");}
+
+.video-playlist{list-style-type:none;margin-left:0;}
+.discussion-link {margin-top:2px;height:16px;width:16px;background: url("../img/disqus-logo-dark.png") no-repeat;display:block;float:left;}
+.discussion-link:hover {background-image: url("../img/disqus-logo-light.png");}
+.video-link{padding-left:8px;}
+
+.textpages{list-style-type:none;margin-left:0;}
+.textpage-link{padding-left:8px;}
+
+#back-to-top{text-decoration:none;display:block;position:fixed;padding:8px;font-size:1em;background:#333;color:#ddd;bottom:20px;right:0px}
+#back-to-top:hover{background:#222;color:#fff;}
 
 @media (max-width: 979px) {
   body {padding-top:0px;}
@@ -47,4 +58,3 @@ body {padding-top: 40px;}
     padding-right:20px;
   }
 }
-

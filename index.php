@@ -12,7 +12,6 @@
 		<link rel="stylesheet" href="css/colorbox.css" />
 		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 		<link href="css/ca.css" rel="stylesheet">
-    
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -110,12 +109,13 @@
     <p>Hi, my name is Cameron Christensen. I've been developing this site since June 2012. I've tried hard to make it easy to navigate, and I hope its purpose is self-explanatory.</p>
     <p>I'm hoping the Christensen Academy will evolve into a free, world-class learning platform that focuses on introducing people to the world of computer science.</p>
     <p>If you'd like to contact me, feel free to shoot me an email at cameron@christensenacademy.org.</p>
-    <p>If you're interested in contributing to the project, check out the <a href="https://github.com/christensenacademy/christensen-academy">code repository</a> on GitHub.</p>
+    </p>
     <p>Kowabunga,</p>
     <p>Cam</p>
 	  </div>
 	</div>
 	
+  
   <div class="container-fluid">
     <div class="hero-unit" style="background:none">
       <div class="row-fluid" style="text-align:left" >
@@ -125,14 +125,48 @@
         <div class="span10">
           <h1>Hello World!</h1>
           <p>Welcome to the Christensen Academy, a gateway to the world of computer science and programming!</p>
-          <p>
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://christensenacademy.org/" data-text="Check out this site for learning computer science and programming!" data-via="christensenacad" data-size="large">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </p>
         </div>
       </div>
     </div>   
   </div>
+  
+  
+  <script>
+    var updateDISQUS = function(module_name, thread_title, page_title){
+      $('#discussion #myModalLabel').html(page_title);
+      DISQUS.reset({
+        reload: true,
+        config: function () {  
+          this.page.identifier = module_name + '/' + thread_title;
+          this.page.url = 'http://christensenacademy.org/#!' + module_name + '/' + thread_title;
+          this.page.title = page_title;
+        }
+      });
+    };
+  </script>
+  <div class="modal hide fade" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" id="discussion">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <h3 id="myModalLabel">Modal header</h3>
+    </div>
+    <div class="modal-body">
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = 'christensen-academy';
+        var disqus_identifier = 'newidentifier';
+        var disqus_url = 'http://example.com/newthread';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+  </div>
+  
+  
 
   <?php include('./modules/classes.php'); ?>
   
@@ -201,10 +235,16 @@
       
     </div>
   </div>
+  
+  <a href="#" id="back-to-top">Back to Top</a>
+  
 
   <script>
     $('.challenge').tooltip({
       placement: 'top'
+    });
+    $('.discussion-link').tooltip({
+      placement: 'left'
     });
 
     $(document).ready(function(){
