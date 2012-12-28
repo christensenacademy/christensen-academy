@@ -31,6 +31,11 @@ Large-size files, such as videos, are often billions of bytes. We use the term `
 
 You'll notice that the prefixes kilo, mega, and giga work exactly the same with computer file sizes as they do with any SI units (i.e., the metric system). For example, a kilometer is a thousand meters just as a kilobyte is a thousand bytes.
 
+Kowabunga,
+
+Cam
+
+
 ####A technical point that will probably never impact your life... but I find it interesting, so here you go:
 
 Interestingly, these prefixes are all somewhat ambiguous when it comes to computer file sizes. This has to do with the fact that computers use the binary system, which uses powers of 2 instead of powers of 10. Whereas kilo usually means 10^3 (1000), many people in computer science take it to mean 2^10 (1024). It's actually unclear what people mean when they use the term kilobyte.
