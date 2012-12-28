@@ -1,7 +1,7 @@
 #Java Variables Intro
-Variables in programming are different from variables in math. In math, variables often represent values we don't know and are trying to figure out. In Java and other programming languages, variables a more like containers that store objects or primitive values. The term "variable" actually makes more sense in programming, I think, because what a variable stores may change or vary as the program runs.
+Variables in programming are different from variables in math. In math, variables often represent values we don't know and are trying to figure out. In Java and other programming languages, variables a more like containers that store stuff. The term "variable" actually makes more sense in programming, I think, because what a variable stores may change or vary as the program runs.
 
-So, if variables are used to store stuff (i.e., primitive types and objects), there must be some way to write code to tell variables what to store. We call a line of code that assigns a new value to a variable an *assignment statement*. Here are some examples of code that stores different integer values in a variable using assignment statements:
+So, if variables are used to store stuff (i.e., values for primitive data types, such as numbers and characters, and objects), there must be some way to write code to tell variables what to store. We call a line of code that assigns a new value to a variable an *assignment statement*. Here are some examples of code that stores different integer values in a variable using assignment statements:
 
 ```java
   int favoriteNumber; // Declare a new integer variable called favoriteNumber
@@ -21,6 +21,9 @@ There are three extremely important things to realize about the code above:
 * Every variable has a type. The type of the variable in the example is int, which is short for integer and is a primitive type, not an object. There are seven other primitive types to choose from and an almost limitless number of types of objects to choose from. For now, just realize that a variable cannot change types once it has been declared. The variable in the example above will always only be able to store an integer value.
 * Assignment statements must have the variable receiving a new value on the left of the equals sign. The "stuff" on the right side of the equals sign must evaluate to value that can be assigned to the variable on the left. So, while `favoriteNumber = 3` makes perfect sense, `3 = favoriteNumber` makes no sense at all and is not valid Java code.
 * Whenever a variable name appears anywhere other than on the left-hand side of an assignment statement, the variable will be *evaluated* as the primitive value or object it is currently storing. In the example above, the variable name was simply replaced with the value the variable was storing, which was different at different points in the program.
+
+##Primitive Data Types vs. Objects
+Although I said that variables *store* primitive values and objects, but this is really only true for primitive data type variables--`byte`, `short`, `int`, `long`, `char`, `double`, `float`, `boolean`. For objects, variables are really just point *references* to objects in memory. Because of this, it is possible to have multiple variables refer to exactly the same object, which will be important to understand later on. You probably won't need to worry about this technical detail for a while though, so I encourage you to continue thinking of all variables simply as containers that store stuff.
 
 ##Variable Naming Conventions
 
