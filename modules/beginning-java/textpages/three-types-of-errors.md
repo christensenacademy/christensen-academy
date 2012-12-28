@@ -22,3 +22,7 @@ Sometimes your program runs without runtime errors but doen't do what you wanted
 
 ##Debugging Techniques
 Being able to spot and fix errors is essential for programmers. As you gain experience, you will develop some of your own methods for debugging your code. For now, I'd like to suggest that a good way of finding runtime and logic errors is to write extra `System.out.println()` statements in your code that print out useful information that might give you clues as to what's wrong with your program.
+
+Kowabunga,
+
+Cam
