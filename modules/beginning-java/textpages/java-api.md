@@ -16,6 +16,6 @@ New versions of the Java platform (the JRE including the JVM) continue to be rel
 
 If you're wondering about the difference between Java SE, EE, FX, and ME, I'll let you do some Google searching on it. Just realize that I'll be teaching using SE (Standard Edition), though I highly doubt anything I teach wouldn't also work on another version. Except for ME, the other versions just add extra "stuff" to the Java API.
 
-Kowabunga,
+Kowabunga, 
 
 Cam
