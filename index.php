@@ -107,7 +107,6 @@
 		<h3>About</h3>
     <br>
     <p>Hi, my name is Cameron Christensen. I've been developing this site since June 2012. I've tried hard to make it easy to navigate, and I hope its purpose is self-explanatory.</p>
-    <p>I'm hoping the Christensen Academy will evolve into a free, world-class learning platform that focuses on introducing people to the world of computer science.</p>
     <p>If you'd like to contact me, feel free to shoot me an email at cameron@christensenacademy.org.</p>
     </p>
     <p>Kowabunga,</p>
@@ -216,7 +215,7 @@
     <div class="hero-unit" style="background:none">
       <div class="row-fluid" style="text-align:right">
         <div class="span10">
-          <p>It's not that you're so smart, it's just that you stay with problems longer.</p>
+          <p>It's not that we're so smart, it's just that we stay with problems longer.</p>
           <h1>Goodbye World!</h1>
         </div>
         <div class="span2">

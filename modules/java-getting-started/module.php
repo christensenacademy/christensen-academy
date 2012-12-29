@@ -2,12 +2,12 @@
 $module_name = 'java-getting-started';
 $module_title = 'Java: Getting Started';
 $module_subtitle = 'Finding an IDE and Writting "Hello World"';
-$map_height = '185';
+$map_height = '160';
 $module_playlist = '';
 
 $module_challenges = array(
-  new challenge('install-ide.md', 'Install IDE', '87', '70'),
-  new challenge('hello-world.md', 'Hello World', '88', '147')
+  new challenge('install-ide.md', 'Install IDE', '70', '53'),
+  new challenge('hello-world.md', 'Hello World', '70', '129')
 );
 
 $module_videos = array(

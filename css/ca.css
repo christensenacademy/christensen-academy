@@ -33,6 +33,8 @@ body {padding-top: 40px;}
 .challenge-map {background-repeat:no-repeat;position:relative;}
 .challenge {min-height:16px;min-width:16px;background: url("../img/logo16-black.png") no-repeat;display:block;}
 .challenge:hover {background-image: url("../img/logo16-white.png");}
+.challenge-discussion-link {height:16px;width:16px;background: url("../img/disqus-logo-light.png") no-repeat;display:inline-block;float:left;}
+.challenge-discussion-link:hover {background-image: url("../img/disqus-logo-dark.png");}
 
 .video-playlist{list-style-type:none;margin-left:0;}
 .discussion-link {margin-top:2px;height:16px;width:16px;background: url("../img/disqus-logo-dark.png") no-repeat;display:block;float:left;}
