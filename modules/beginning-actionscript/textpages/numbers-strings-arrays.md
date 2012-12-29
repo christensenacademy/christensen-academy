@@ -1,17 +1,5 @@
-#Beginning ActionScript
-##Numbers, Strings, and Arrays
-####by Cameron Christensen (2012)
-
-**Goal:** By the end of the module, you should be able to create your own unique computer game.
-
-* [Working with Numbers](#working-with-numbers)
-* [Working with Strings](#working-with-strings)
-* [Arrays](#arrays)
-
-#Working with Numbers and Strings
-##Working with Numbers
-As you saw previously, you can use number variables and literals to perform basic mathimatical operations. This section just covers a few more useful things you can do with numbers.
-
+#Numbers, Strings, and Arrays in ActionScript 3.0
+##Numbers
 ###Advanced Assignment
 ```java
 var pebbles:Number = 1;
