@@ -35,6 +35,7 @@ body {padding-top: 40px;}
 .challenge:hover {background-image: url("../img/logo16-white.png");}
 .challenge-discussion-link {height:16px;width:16px;background: url("../img/disqus-logo-light.png") no-repeat;display:inline-block;float:left;}
 .challenge-discussion-link:hover {background-image: url("../img/disqus-logo-dark.png");}
+.challenge-map .tooltip-inner{width:110px;}
 
 .video-playlist{list-style-type:none;margin-left:0;}
 .discussion-link {margin-top:2px;height:16px;width:16px;background: url("../img/disqus-logo-dark.png") no-repeat;display:block;float:left;}
