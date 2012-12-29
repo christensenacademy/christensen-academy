@@ -1,5 +1,21 @@
-#Numbers, Strings, and Arrays in ActionScript 3.0
-##Numbers
+#Numbers in ActionScript 3.0
+```java
+// declare a new variable named 'dollars' and assign it a value
+var pesos:Number;
+pesos = 11;
+
+// same as above but in a single line
+var dollars:Number = 5.99;
+
+// note: only use the 'var' keyword when declaring a variable (i.e., the first time you use it)
+
+// order of operations works as you'd expect
+dollars = (4+3*2)/2; // evaluates to 5
+
+// remember, the right side of an assignment statement always evaluates to a value
+dolloars = dollars*dollars + 2; // evaluates to 27
+```
+
 ###Advanced Assignment
 ```java
 var pebbles:Number = 1;
@@ -19,6 +35,7 @@ bananas /= 2; // bananas now has a value of 2.5
 bananas++; // bananas now has a value of 3.5
 bananas--; // bananas now has a value of 2.5
 ```
+
 ###Using Built-In Math Functions
 ```java
 Math.abs(-3); // returns the absolute value of -3
@@ -37,48 +54,3 @@ Math.ceil(Math.random()*10 + 5); // returns a random integer between 6 and 15
 ```
 
 **Note:** These built-in functions are all part of the Math class. The [official ActionScript 3.0 reference](http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/Math.html) has a complete list of everything you can do with Math.
-
-##Working with Strings
-There are a lot of things we can do with strings. You already learned two of the most important ones: concatenation and converting to and from numbers. Here's a quick review:
-
-```java
-// concatenation
-"Gr" + 8 + "!" // this expression evaluates to "Gr8!"
-
-// converting numbers to strings
-"" + 4 // this expression evaluates to "4"
-
-// converting strings to numbers
-Number("89") // this expression evaluates to 89
-```
-
-###String Methods
-Remember how movie clip instances have properties like `alpha` and `height`? We were able to do things like `ghost.alpha = 0.5`, which assigned a new value to the alpha property of an instance named ghost. Like movie clip instances, strings have a property too:
-
-```java
-var example:String = "Hello World";
-trace(example.length); // prints 11 because there are 11 characters in the string
-```
-**Note:** Unlike the properties of instances, the length property of Strings cannot be set directly; all it's good for is telling you how long the string is.
-
-It turns out that `length` is the only property of strings. Instead of properties, strings have a lot of *methods*. Just as properties are variables attached to an instance, methods are functions attached to an instance. Here are some examples of useful string methods:
-
-```java
-var example:String = "Hello World";
-
-example.indexOf("llo"); // returns 2, which is the position of the first occurrence of "llo" in "Hello World"
-// Note: Each character has a position in the string. Numbering starts at zero with the leftmost character
-example.lastIndexOf("o"); // returns 7, which is the position of the last occurrence of "o" in "Hello World"
-example.lastIndexOf("kowabunga"); // returns -1 because "kowabunga" does not occur in "Hello World"
-example.substr(0,5); // returns "Hello", which is the substring from position 0 up to but not including position 5
-example.toUpperCase(); // returns "HELLO WORLD"
-example.toLowerCase(); // returns "hello world"
-```
-
-**Note:** These methods do not change the value of the string variable; they just return a new string. If you wanted to change the value of a string variable, you'd have to do something like `example = example.toUpperCase();`.
-
-**Note:** These are just some of the methods for strings. The [official ActionScript 3.0 reference](http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/String.html) has a complete list of everything you can do with String.
-
-##Arrays
-
-
