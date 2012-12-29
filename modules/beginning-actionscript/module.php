@@ -56,7 +56,9 @@ $module_textpages = array(
   new textpage('programming-basics.md', 'Programming Basics'),
   new textpage('instances-and-events.md', 'Instances and Events'),
   new textpage('coding-conventions.md', 'Coding Conventions'),
-  new textpage('numbers-strings-arrays.md', 'Numbers, Strings, and Arrays'),
+  new textpage('numbers.md', 'Numbers'),
+  new textpage('strings.md', 'Strings'),
+  new textpage('arrays.md', 'Arrays'),
   new textpage('control-structures.md', 'Control Structures')
 );
 
