@@ -6,7 +6,7 @@ Making errors is a natural part of programming. Even the best programmers make l
 **Side Note:** I encourage you to do some searching for example of famous software errors. There are some really interesting example of major catastrophes that have occurred because of relatively simple programming errors.
 
 ##Compile-time Errors
-When you compile your source code your *.java files get converted into *.class files--that is, your plain text code gets converted into bytecode. This will only happen if the compiler doesn't catch any errors in your code. If the compiler finds errors, your code will not compile; instead, you will be shown compiler error messages that give you hits as to what might be wrong with your code.
+When you compile your source code your *.java files get converted into *.class files--that is, your plain text code gets converted into bytecode. This will only happen if the compiler doesn't catch any errors in your code. If the compiler finds errors, your code will not be compiled; instead, you will be shown compiler error messages that give you hints as to what might be wrong with your code.
 
 **Note:** In fancy IDEs like NetBeans and Eclipse, your code is automatically compiled for you as you program--actually, sometimes you need to save your code before it gets compiled, but the point is that you never have to explicitly tell the IDE to compile your code. The little red error messages you get are the error messages from the compiler.
 
