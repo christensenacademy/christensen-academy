@@ -3,7 +3,7 @@ There are three types of errors you'll encounter while programming: compile-time
 
 Making errors is a natural part of programming. Even the best programmers make lots of errors. As you gain experience, you won't necessarily make fewer errors, but you will get very good at debugging (i.e., fixing the errors you make).
 
-On a side note, I encourage you to do some searching for example of famous software errors. There are some really interesting example of major catastrophes that have occurred because of relatively simple programming errors.
+**Side Note:** I encourage you to do some searching for example of famous software errors. There are some really interesting example of major catastrophes that have occurred because of relatively simple programming errors.
 
 ##Compile-time Errors
 When you compile your source code your *.java files get converted into *.class files--that is, your plain text code gets converted into bytecode. This will only happen if the compiler doesn't catch any errors in your code. If the compiler finds errors, your code will not compile; instead, you will be shown compiler error messages that give you hits as to what might be wrong with your code.
@@ -19,9 +19,6 @@ If you don't have a clue what I'm talking about, you will. Fixing runtime errors
 
 ##Logic Errors
 Sometimes your program runs without runtime errors but doen't do what you wanted it to do. This type of error is a logic error and can be the most difficult type of error to spot and fix. For example, imagine you designed a video game in which bad guys gained health when you hit them instead of losing it. This type of thing is what we refer to as a logic error.
-
-##Debugging Techniques
-Being able to spot and fix errors is essential for programmers. As you gain experience, you will develop some of your own methods for debugging your code. For now, I'd like to suggest that a good way of finding runtime and logic errors is to write extra `System.out.println()` statements in your code that print out useful information that might give you clues as to what's wrong with your program.
 
 Kowabunga,
 
