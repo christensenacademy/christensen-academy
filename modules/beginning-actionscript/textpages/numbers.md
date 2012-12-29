@@ -16,6 +16,12 @@ dollars = (4+3*2)/2; // evaluates to 5
 dolloars = dollars*dollars + 2; // evaluates to 27
 ```
 
+####Modulus Operator (for Finding Remainders)
+```java
+var remainder:Number = 12%5; // evaluates to 2 because 12/5 has a remainder of 2
+remainder = 32%4; // evaluates to 0 because there is no remainder when 32 is divided by 4
+```
+
 ###Advanced Assignment
 ```java
 var pebbles:Number = 1;
