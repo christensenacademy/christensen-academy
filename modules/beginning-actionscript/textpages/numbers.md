@@ -8,6 +8,7 @@ pesos = 11;
 var dollars:Number = 5.99;
 
 // note: only use the 'var' keyword when declaring a variable (i.e., the first time you use it)
+// note: when we type values like 5.99, we refer to these as Number literals (as opposed to variables)
 
 // order of operations works as you'd expect
 dollars = (4+3*2)/2; // evaluates to 5
@@ -20,6 +21,17 @@ dolloars = dollars*dollars + 2; // evaluates to 27
 ```java
 var remainder:Number = 12%5; // evaluates to 2 because 12/5 has a remainder of 2
 remainder = 32%4; // evaluates to 0 because there is no remainder when 32 is divided by 4
+```
+
+####Convert Numbers To and From Strings
+```java
+var value:Number = 3;
+var text:String = "" + value; // converts the Number variable to a string
+text = "" + 5; // converts the Number literal to a string
+
+value = Number("548"); // converts the String literal "548" to a Number and assigns it to value
+text = "32.592";
+value = Number(text); // converts the String variable to a Number and assigns it to value
 ```
 
 ###Advanced Assignment
