@@ -1,22 +1,10 @@
-#Beginning ActionScript
-##Instances and Events
-####by Cameron Christensen (2012)
-
-**Goal:** By the end of the module, you should be able to create your own unique computer game.
-
-* [Instances of Movie Clips](#instances-of-movie-clips)
-* [Instances of Text Fields](#instances-of-text-fields)
-* [Creating Instances from Code](#creating-instances-from-code)
-* [Instances of Sounds](#Instances of Text Fields)
-* [Events](#events)
-
 ##Instances of Movie Clips
 
 When you create movie clip symbols, they appear in the library. When you drag copies of a movie clip symbol onto the stage, you're creating **instances** of that symbol. By default, these instances don't have names, but we can give them names. If we do, we can then do stuff with them in the code.
 
 ###Providing Instance Names
 
-![picture showing how to add an instance name](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/instance-name.png)
+![picture showing how to add an instance name](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/instance-name.png)
 
 1. Select an instance on the stage.
 2. Go to the Properties panel.
@@ -59,11 +47,11 @@ trace(blueSquare.alpha);
 ##Instances of Text Fields
 The following only describes how to work with classic text fields, not TLF text. 
 
-![](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/classic-text.png)
+![](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/classic-text.png)
 
 There are three types of classic text you can create--static, dynamic, and input. If you play around with these three types, you'll notice that Flash doesn't let you add an instance name to static text. This makes sense, I think, because static text won't change, so you shouldn't be able to manipulate it in the code. Dynamic and input text, however, can have instance names because we would like to be able to get the values from input text fields and assign new values to dynamic text fields.
 
-![picture showing how to add an instance name](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/text-field-instance-name.png)
+![picture showing how to add an instance name](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/text-field-instance-name.png)
 
 **Note:** I highly recommend using [camelCase](#camelcase) for these instance names as well.
 
@@ -98,7 +86,7 @@ outputScore.text = "" + score; //assume score is a variable of type Number.
 
 You know how you usually created instances of symbols by dragging out copies of symbols from the library? You can actually create new instances straight from the code. Here's how:
 
-![Picture showing how to create a new instance from code](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/linkage-name.png)
+![Picture showing how to create a new instance from code](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/linkage-name.png)
 
 1. Add a linkage name to the symbol in the library. You can do this by double clicking in the linkage column of the library where the symbol resides. This might seem like a strange, uneccessary step, so I've provided an additional short explanation of [why we need linkage](#why-we-need-linkage).
 2. Create a new instance and add it to the "display stack" as shown below.
@@ -124,7 +112,7 @@ First of all, I personally think that the designers of Flash would have been wis
 
 In the same way that you can work with instances of movie clips and text fields in ActionScript code, you can also work with instances of sounds. 
 
-![Picture showing how to create a new instance of a sound in code](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/sound-instance.png)
+![Picture showing how to create a new instance of a sound in code](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/sound-instance.png)
 
 The first thing you need to do to play a sound in your code is create a linkage name in the library for the sound you wish to use. You should use [UpperCamelCase](#uppercamelcase) for the linkage name.
 
