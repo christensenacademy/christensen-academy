@@ -25,6 +25,6 @@ example.toUpperCase(); // returns "HELLO WORLD"
 example.toLowerCase(); // returns "hello world"
 ```
 
-**Note:** These methods do not change the value of the string variable; they just return a new string. If you wanted to change the value of a string variable, you'd have to do something like `example = example.toUpperCase();`. Unlike most objects in ActionScript 3.0, Strings are immutable (i.e., they cannot be changed.
+**Note:** These methods do not change the value of the string variable; they just return a new string. If you wanted to change the value of a string variable, you'd have to do something like `example = example.toUpperCase();`. Unlike most objects in ActionScript 3.0, Strings are immutable (i.e., they cannot be changed).
 
 **Note:** These are just some of the methods for strings. The [official ActionScript 3.0 reference](http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/String.html) has a complete list of everything you can do with String.
