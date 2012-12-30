@@ -25,13 +25,18 @@ remainder = 32%4; // evaluates to 0 because there is no remainder when 32 is div
 
 ####Convert Numbers To and From Strings
 ```java
-var value:Number = 3;
-var text:String = "" + value; // converts the Number variable to a string
-text = "" + 5; // converts the Number literal to a string
+var value:Number;
+var text:String;
 
-value = Number("548"); // converts the String literal "548" to a Number and assigns it to value
+// convert a Number to a String
+value = 3;
+text = "" + value; // text == "3"
+text = "" + 5; // text == "5"
+
+// convert a String to a Number
+value = Number("548"); // value == 592
 text = "32.592";
-value = Number(text); // converts the String variable to a Number and assigns it to value
+value = Number(text); // value == 32.592
 ```
 
 ###Advanced Assignment
