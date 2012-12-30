@@ -5,7 +5,7 @@ Arrays are for storing a collection of objects in an ordered sequence. The follo
 var myBadGuys:Array; // declare a new array
 myBadGuys = new Array(); // create a new array object and assign in to the badGuys variable
 
-// add an element to the array--this assumes a movie clip in the Library has a linkage name BadGuy
+// add an element to the array--this example assumes a movie clip in the Library has a linkage name BadGuy
 myBadGuys.push(new BadGuy); // add (push) an element onto the array.
 myBadGuys.push(new BadGuy); // add another element
 
