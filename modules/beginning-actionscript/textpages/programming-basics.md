@@ -25,11 +25,11 @@ In this module, you will learn the basics of ActionScript 3.0, which came after-
 
 We'll start out writing what you might call *frame script*. The idea is pretty simple; we'll be writing ActionScript code in individual frames on the timeline. We'll be creating a special layer called "Actions" that we'll use exclusively for writing our code in.
 
-![An example of the Actions layer](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/actions-layer.png)
+![An example of the Actions layer](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/actions-layer.png)
 
 Notice the "a" symobl in the keyframes of the Actions layer. This symbol lets you know that code has been written for that frame. To see and edit the code, right-click and go to Actions to open the Actions panel, which will display the code for that frame. Alternatively, you can press F9 to open the Actions panel.
 
-![An example of the Actions panel](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/actions-panel.png)
+![An example of the Actions panel](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/actions-panel.png)
 
 **Side Note:** The Actions panel is an example of what's known as a *text editor*. When writing ActionScript, you'll use the Actions panel, but if you someday write computer code in another language, you'll end up using a different text editor. Unlike Word Processors, such as Microsoft Word, text editors only allow you to edit *plain text*, which is what computer programs are written in.
 
@@ -82,7 +82,7 @@ I'll be writing lots of comments in my examples throughout this document because
 ####Adding ActionScript to a Frame
 In Flash, we write ActionScript code inside of frames. Here's how:
 
-![](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/adding-actionscript-to-a-frame.png)
+![](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/adding-actionscript-to-a-frame.png)
 
 1. Create a new layer called "Actions". You'll use this layer to hold **all** of your ActionScript code.
 2. Add a keyframe on this layer where you'd like to put some code.
@@ -94,7 +94,7 @@ In Flash, we write ActionScript code inside of frames. Here's how:
 #####Editing ActionScript on an Existing Frame
 Right-click on the frame and go to Actions or, if the Actions panel is already open, you can find the correct frame on the left side of the panel. This is easier and faster than right-clicking on a frame in the timeline.
 
-![](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/editing-existing-actionscript.png)
+![](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/editing-existing-actionscript.png)
 
 ####Some Examples of Basic Code
 ```java
@@ -109,7 +109,7 @@ trace("Hello World"); // writes a message to the Output panel
 **Note:** Each line of code above can be thought of as a command telling the computer to do something. I think this is a good way to think about it for the time being, but realize that technically what's going in each line is that [functions](#functions) are being called.
 
 ####Give It a Try
-Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/basic-code-1.fla) to see if you can figure out what the code is doing. To test the program press ctrl+enter on PC or command+return on Mac. Look at the code for each frame. Try changing up some of the commands and predict the results.
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/basic-code-1.fla) to see if you can figure out what the code is doing. To test the program press ctrl+enter on PC or command+return on Mac. Look at the code for each frame. Try changing up some of the commands and predict the results.
 
 
 
@@ -120,7 +120,7 @@ Play around with [this example](http://www.christensenacademy.org/modules/beginn
 ####Compiler Errors
 When you run your program--ctrl+enter (Windows) or command+return (Mac)--your ActionScript code gets *compiled* and an SWF file is generated. What exactly "compiling" means is somewhat irrelevant right now. Just realize that Flash attempts to find compiler errors before your program actually runs. These errors will be shown to you in the Compiler Errors panel.
 
-![An example of the Actions layer](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/compiler-error.png)
+![An example of the Actions layer](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/compiler-error.png)
 
 **Key Idea:** Compiler errors mean your program won't work correctly. You must **fix all compiler errors before doing anything elese**.
 
@@ -131,7 +131,7 @@ Each compiler error will provide a short description you should read to try to u
 ####Runtime Errors
 Some errors aren't caught at "compile time" and instead appear during "run time". Runtime errors are a little trickier to fix in general because you only discover them when your program actually runs your code. For example, if there is a runtime error on frame 203, you won't even know it exists until the playhead gets to frame 203. These errors show up in the Output panel and can be harder to decipher than compiler errors.
 
-![An example of the Actions layer](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/runtime-error.png)
+![An example of the Actions layer](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/runtime-error.png)
 
 ####Logic Errors
 The last type of error is a logic error. When your program has a logic error, it runs without compiler or runtime errors, but it doesn't do what it's supposed to. These can be the most difficult errors to fix because Flash won't give you any hints or even tell you that an error exists. If you play computer games, you may be familiar with logic errors already; perhaps you know them as *glitches*.
@@ -267,7 +267,7 @@ trace(newMessage);
 
 
 ###Give it a try!
-Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/variable-declaration-and-assignment.fla) to help you understand how variables work.
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/variable-declaration-and-assignment.fla) to help you understand how variables work.
 
 
 ##Functions
