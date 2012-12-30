@@ -37,7 +37,7 @@ function example2():void
 Both of the examples above are perfectly valid. Choose which one you like best then do your best to stick with it.
 
 ###Give it a try!
-Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpage/functions-example.fla) to help you understand how functions work.
+Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/functions-example.fla) to help you understand how functions work.
 
 ###Built-In Functions
 Whenever you find yourself typing parenthesis, such as when you tell the playhead to stop by typing `stop()`, you're actually calling a function. In the case of `stop()`, you're calling a function named stop. Realize that even though you didn't write the stop function, somebody else did. Functions like the stop function are "built-in" and you can call them any time you need to.
