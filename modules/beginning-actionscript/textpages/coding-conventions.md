@@ -1,13 +1,3 @@
-#Beginning ActionScript
-##Coding Conventions
-####by Cameron Christensen (2012)
-
-**Goal:** By the end of the module, you should be able to create your own unique computer game.
-
-* [camelCase and UpperCamelCase](#camelcase-and-uppercamelcase)
-* [Semicolons](#semicolons)
-* [Indenting](#indenting)
-
 #Coding Conventions
 ##camelCase and UpperCamelCase
 ###camelCase
@@ -41,6 +31,13 @@ FlyingSquirrelWithSupermanCape
 ##Semicolons
 Semicolons go at the end of most lines of code. The only exception to this rule is for lines of code that come just before blocks of code (i.e., code in between `{` and `}` symbols), such as those used for functions, if statemetns, and other control structures.
 
+```java
+if(time>1000) //notice that there is no semicolon here. If there were, we'd have major problems.
+{
+  gameOver();
+}
+```
+
 **Note:** Each line of code that ends in a semicolon is technically called a *statement*.
 
 **Note:** In ActionScript 3.0, most of the time your program will still work even if you forget semicolons. This seems silly to me. Why would the language technically require something then not strictly enforce it? As good practice, don't leave off the semicolons. There are a few edge cases where this will cause your code not to work.
@@ -63,3 +60,22 @@ function bestSoda(soda:String):String
   }
 }
 ```
+
+**Note:** Indenting is extremely important. The only programmers who don't indent properly are those without experience who don't yet recognize the tremendous value in it. If you ignore proper indentation, you'll surely pay the price later when you make an error and your code is nearly impossible to debug.
+
+**Note:** It's possible to write curly brackets in a slightly different manner than shown above. Either method is acceptable:
+```java
+// notice the placement of the opening brackets
+function bestSoda(soda:String):String {
+  if(soda == "Mountain Dew") {
+    return "Yes, indeed!";
+  }
+  else {
+    return "No way! Get out of town!";
+  }
+}
+```
+
+Kowabunga,
+
+Cam

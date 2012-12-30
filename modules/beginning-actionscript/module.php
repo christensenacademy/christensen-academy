@@ -53,7 +53,13 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  new textpage('programming-basics.md', 'Programming Basics'),
+  new textpage('what-is-programming.md', 'What is Programming?'),
+  new textpage('frame-script.md', 'Frame Script'),
+  new textpage('comments.md', 'Comments'),
+  new textpage('playhead-controls.md', 'Playhead Controls'),
+  new textpage('fixing-errors.md', 'Fixing Errors'),
+  new textpage('variables.md', 'Variables'),
+  new textpage('functions.md', 'Functions'),
   new textpage('instances-and-events.md', 'Instances and Events'),
   new textpage('coding-conventions.md', 'Coding Conventions'),
   new textpage('numbers.md', 'Numbers'),
