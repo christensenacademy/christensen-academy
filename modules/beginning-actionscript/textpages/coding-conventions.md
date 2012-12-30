@@ -1,13 +1,3 @@
-#Beginning ActionScript
-##Coding Conventions
-####by Cameron Christensen (2012)
-
-**Goal:** By the end of the module, you should be able to create your own unique computer game.
-
-* [camelCase and UpperCamelCase](#camelcase-and-uppercamelcase)
-* [Semicolons](#semicolons)
-* [Indenting](#indenting)
-
 #Coding Conventions
 ##camelCase and UpperCamelCase
 ###camelCase
@@ -63,3 +53,7 @@ function bestSoda(soda:String):String
   }
 }
 ```
+
+Kowabunga,
+
+Cam
