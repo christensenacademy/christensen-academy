@@ -53,7 +53,7 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  new textpage('what-is-programming.md', 'What is Programming?'),
+  new textpage('intro-to-programming-and-actionscript.md', 'Intro to Programming and ActionScript?'),
   new textpage('frame-script.md', 'Frame Script'),
   new textpage('comments.md', 'Comments'),
   new textpage('playhead-controls.md', 'Playhead Controls'),
