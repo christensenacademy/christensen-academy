@@ -1,15 +1,4 @@
-#Beginning ActionScript
-##Programming Basics
-####by Cameron Christensen (2012)
-**Goal:** By the end of the module, you should be able to create your own unique computer game.
-
-* [Intro to ActionScript](#intro-to-actionscript)
-* [Getting Started](#getting-started)
-* [Fixing Errors](#fixing-errors)
-* [Variables](#variables)
-* [Functions](#functions)
-
-##Intro to ActionScript
+#Intro to ActionScript
 *"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program." --Linus Torvalds*
 
 If you're navigating this module, it may very well be your first time doing any computer programming. If so, you may be wondering what exactly computer programming is and what the ActionScript 3.0 programming language is. The following is a quick, introductory explanation.
