@@ -25,7 +25,7 @@ gotoAndPlay(56); // commands the playhead to jump to the frame whose number is i
 trace("Hello World"); // writes a message to the Output panel
 ```
 
-**Note:** Each line of code above can be thought of as a command telling the computer to do something. I think this is a good way to think about it for the time being, but realize that technically what's going in each line is that [functions](#functions) are being called.
+**Note:** Each line of code above can be thought of as a command telling the computer to do something. I think this is a good way to think about it for the time being, but realize that technically what's going in each line is that *functions* are being called.
 
 ####Give It a Try
 Play around with [this example](http://www.christensenacademy.org/modules/beginning-actionscript/textpages/basic-code-1.fla) to see if you can figure out what the code is doing. To test the program press ctrl+enter on PC or command+return on Mac. Look at the code for each frame. Try changing up some of the commands and predict the results.
