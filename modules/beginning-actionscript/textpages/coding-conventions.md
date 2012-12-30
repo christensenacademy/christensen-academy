@@ -61,21 +61,16 @@ function bestSoda(soda:String):String
 }
 ```
 
+**Note:** Indenting is extremely important. The only programmers who don't indent properly are those without experience who don't yet recognize the tremendous value in it. If you ignore proper indentation, you'll surely pay the price later when you make an error and your code is nearly impossible to debug.
 
-##Code Blocks (Curly Brackets)
-New programmers 
-
-```
-function bestSoda(soda:String):String
-{
-  // notice how this code is indented
-  if(soda == "Mountain Dew")
-  {
-    // notice how this code is indented even further!
+**Note:** It's possible to write curly brackets in a slightly different manner than shown above. Either method is acceptable:
+```java
+// notice the placement of the opening brackets
+function bestSoda(soda:String):String {
+  if(soda == "Mountain Dew") {
     return "Yes, indeed!";
   }
-  else
-  {
+  else {
     return "No way! Get out of town!";
   }
 }
