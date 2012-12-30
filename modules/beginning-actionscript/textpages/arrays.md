@@ -1,84 +1,27 @@
-#Numbers, Strings, and Arrays in ActionScript 3.0
-##Numbers
-###Advanced Assignment
-```java
-var pebbles:Number = 1;
-pebbles += 2; // pebbles now has a value of 3
-pebbles += 2; // pebbles now has a value of 5
-
-var luckyCharms:Number = 1;
-luckyCharms *= 3; // luckyCharms now has a value of 3
-luckyCharms *= 3; // luckyCharms now has a value of 9
-
-var slicesOfToast:Number = 8;
-slicesOfToast -= 4; // slicesOfToast now has a value of 4
-
-var bananas:Number = 5;
-bananas /= 2; // bananas now has a value of 2.5
-
-bananas++; // bananas now has a value of 3.5
-bananas--; // bananas now has a value of 2.5
-```
-###Using Built-In Math Functions
-```java
-Math.abs(-3); // returns the absolute value of -3
-Math.ceil(2.3); // returns the "ceiling" of 2.3, which is 3
-Math.floor(2.7); // returns the "floor" of 2.7, which is 2. This is sometimes known as truncation
-Math.round(2.5); // returns 3 as you would expect
-Math.max(2, 5, 9, 4.6); // returns 9, which is the largest number
-Math.min(2, 5, 9, 4.6); // returns 2, which is the smallest number
-Math.pow(2, 3); // returns 8, which is the value of 2 raised to the third power
-Math.sqrt(81); // returns 9, which is the square root of 81
-
-Math.random(); // returns a pseudo-random value between 0 and 1
-Math.random()*10; // returns a pseudo-random value between 0 and 10
-Math.ceil(Math.random()*10); // returns a random integer between 1 and 10
-Math.ceil(Math.random()*10 + 5); // returns a random integer between 6 and 15
-```
-
-**Note:** These built-in functions are all part of the Math class. The [official ActionScript 3.0 reference](http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/Math.html) has a complete list of everything you can do with Math.
-
-##Working with Strings
-There are a lot of things we can do with strings. You already learned two of the most important ones: concatenation and converting to and from numbers. Here's a quick review:
+#Arrays
+Arrays are for storing a collection of objects in an ordered sequence. The following example uses an array to store a bunch of instances of movie clips.
 
 ```java
-// concatenation
-"Gr" + 8 + "!" // this expression evaluates to "Gr8!"
+var myBadGuys:Array; // declare a new array
+myBadGuys = new Array(); // create a new array object and assign in to the badGuys variable
 
-// converting numbers to strings
-"" + 4 // this expression evaluates to "4"
+// add an element to the array--this assumes a movie clip in the Library has a linkage name BadGuy
+myBadGuys.push(new BadGuy); // add (push) an element onto the array.
+myBadGuys.push(new BadGuy); // add another element
 
-// converting strings to numbers
-Number("89") // this expression evaluates to 89
+/* note: arrays store elements in positions starting at position 0, so myBadGuys now has an element at
+  position 0 and another element at position 1. We can access each element by typing myBadGuys[i] where i
+  is the position of the element we want. */
+
+myBadGuys[0].x = 100; // assigns 100 to the x-value of the first movie clip in the array
+myBadGuys[1].x = 200; // same as the previous line but this time for the second movie clip in the array
+
+/* It's often useful to do something to each element in an array. In the following example, we're adding each
+   movie clip in the array to the display stack so that our movie clips will actually appear on the screen.
+   What's cool about this code is that it works regardless of the number of elements in the array.*/
+for(var i:Number = 0; i < myBadGuys.length; i++){
+  addChild(myBadGuys[i]);
+}
 ```
 
-###String Methods
-Remember how movie clip instances have properties like `alpha` and `height`? We were able to do things like `ghost.alpha = 0.5`, which assigned a new value to the alpha property of an instance named ghost. Like movie clip instances, strings have a property too:
-
-```java
-var example:String = "Hello World";
-trace(example.length); // prints 11 because there are 11 characters in the string
-```
-**Note:** Unlike the properties of instances, the length property of Strings cannot be set directly; all it's good for is telling you how long the string is.
-
-It turns out that `length` is the only property of strings. Instead of properties, strings have a lot of *methods*. Just as properties are variables attached to an instance, methods are functions attached to an instance. Here are some examples of useful string methods:
-
-```java
-var example:String = "Hello World";
-
-example.indexOf("llo"); // returns 2, which is the position of the first occurrence of "llo" in "Hello World"
-// Note: Each character has a position in the string. Numbering starts at zero with the leftmost character
-example.lastIndexOf("o"); // returns 7, which is the position of the last occurrence of "o" in "Hello World"
-example.lastIndexOf("kowabunga"); // returns -1 because "kowabunga" does not occur in "Hello World"
-example.substr(0,5); // returns "Hello", which is the substring from position 0 up to but not including position 5
-example.toUpperCase(); // returns "HELLO WORLD"
-example.toLowerCase(); // returns "hello world"
-```
-
-**Note:** These methods do not change the value of the string variable; they just return a new string. If you wanted to change the value of a string variable, you'd have to do something like `example = example.toUpperCase();`.
-
-**Note:** These are just some of the methods for strings. The [official ActionScript 3.0 reference](http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/String.html) has a complete list of everything you can do with String.
-
-##Arrays
-
-
+For the official documentation of Arrays in ActionScript 3.0, go to the [official reference page](http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/Array.html);
