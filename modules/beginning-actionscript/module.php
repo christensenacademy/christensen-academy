@@ -53,19 +53,23 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  new textpage('intro-to-programming-and-actionscript.md', 'Intro to Programming and ActionScript?'),
+  new textpage('intro-to-programming-and-actionscript.md', 'Intro to Programming and ActionScript'),
   new textpage('frame-script.md', 'Frame Script'),
   new textpage('comments.md', 'Comments'),
   new textpage('playhead-controls.md', 'Playhead Controls'),
   new textpage('fixing-errors.md', 'Fixing Errors'),
   new textpage('variables.md', 'Variables'),
   new textpage('functions.md', 'Functions'),
-  new textpage('instances-and-events.md', 'Instances and Events'),
   new textpage('coding-conventions.md', 'Coding Conventions'),
+  new textpage('instances-of-movie-clips.md', 'Instances of Movie Clips'),
+  new textpage('instances-of-sounds.md', 'Instances of Sounds'),
+  new textpage('instances-of-text-fields.md', 'Instances of Text Fields'),
+  new textpage('mouse-events.md', 'Mouse Events'),
+  new textpage('keyboard-events.md', 'Keyboard Events'),
   new textpage('numbers.md', 'Numbers'),
   new textpage('strings.md', 'Strings'),
   new textpage('arrays.md', 'Arrays'),
-  new textpage('control-structures.md', 'Control Structures')
+  # new textpage('control-structures.md', 'Control Structures')
 );
 
 include('./modules/module-template.php');
