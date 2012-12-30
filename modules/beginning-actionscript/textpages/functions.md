@@ -71,7 +71,7 @@ happyBirthday("Eric", 28);
 ```
 
 ###Return Types
-Functions can *return* values when called.
+Functions can *return* values when called. Take a look at the following example:
 
 ```java
 var lotteryTicket:Number = randomLotteryNumber();
@@ -122,6 +122,8 @@ function activateBonus():void
 ```
 
 **Note:** Whereas you can have multiple parameters for a single function, you can only have one return type.
+
+**Note:** Technically you don't need to specify a return type, but this is generally considered bad practice. For example, you could write `function activateBonus(){...` and it would work just as well as `function activateBonus():void{...`.
 
 **Note:** The line of code that says `return` followed by an expression should almost always be the last line of your function. It terminates the execution of the function, so any code that might come after it is pretty pointless most of the time.
 
