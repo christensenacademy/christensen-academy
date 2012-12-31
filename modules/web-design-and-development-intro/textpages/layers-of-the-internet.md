@@ -16,37 +16,23 @@ The Internet is called the Internet because it is a bunch of networks all connec
 
 In order for a packet to reach its destination, it will likely have to make several "hops" as it traverses the various networks between the sending and receiving hosts. Each "hop" involves a router examining a packet and sending it onwards towards its destination.
 
-**Note:** It's entirely possible that packets belonging to the same message will be sent by routers along different routes to their final destination. Amazingly, everything works out just fine when this happens.
+**Interesting Fact:** Packets of the same message may actually take different routes to their destination.
 
-###A Simplified Diagram
-
-
-##The Internet Protocol Stack
-As packets "hop" around the Internet, 
+###A Diagram
 
 
+##The Internet Protocol Suite
+All of the devices connected to the Internet need to play by the same rules, otherwise things just won't work. These rules are called *protocols*. The designers of the Internet were brilliant in the way they devised these protocols. As you'll see, the protocols of the Internet build on each other in a stack, the upper protocols always relying on the protocols below. These protocols occur in four layers, which we call the [Internet Protocol Suite](http://en.wikipedia.org/wiki/Internet_protocol_suite).
 
+###The Bottom of the Stack: The Link Layer
+The most foundational protocols in the Internet Protocol Suite are those that govern how computers send messages to other computers they are directly connected to them (i.e., on the same network). For example, how does your computer send a message to your router? Perhaps the two are connected with an Ethernet cable; or perhaps by WiFi; or maybe even a combination of the two if you're using a wireless access point. The rules governing how messages are sent using these various technologies are the protocols of the Link Layer of the Internet Protocol Suite.
 
+###Up One Layer: The Internet Layer
+Assuming that the protocols of the Link Layer have been implemented correctly, we're ready to start thinking about sending messages to computers that aren't on the same network. For this, we need the *IP Protocol*.
 
+The IP protocol gives each host on the Internet a unique address called an IP address. Each packet contains information about the IP address of its destination host, and routers use this IP address to figure out which direction to send the packet in.
 
-
-
-
-
-The World Wide Web can be best thought of as an application of the Internet. To more fully understand how this is the case, you'll need to have a basic understanding of the Internet protocol stack that makes the Internet work. This stack is composed of several layers, which I'll do my best to describe in this textpage.
-
-###Packets
-First, I think it's important to explain the idea of packets. One of the most amazing facts about the Internet is that messages aren't sent in one piece as you might expect. All messages are broken up into lots of little pieces called *packets*. For example, the webpage you're reading right now wasn't sent all in one piece. Instead, the page was broken up into lots of little pieces which traveled across the Internet and were reassembled once they reached your computer.
-
-Even more amazing is that these packets can take different paths across the Internet, some packets can arrive out of order, some packets can get lost along the way, data can get corrupted, and everything still works out in the end. Sound magical? Hopefully the following description of the four layers of the Internet will provide some insight into how this can be the case.
-
-###Layer 1: Link Layer (Connecting Computers on the Same Network)
-This layer is for sending and recieving packets between two computers that are directly connected (i.e., on the same network). Link layer technologies are things like Ethernet and WiFi.
-
-But, what about computers that are on opposite sides of the planet?
-
-###Layer 2: Internet Layer (Connecting Computers Across Networks Around the World)
-The next layer on the Internet protocol stack is the Internet layer, which ensures that each device connected to the Internet has a unique *IP address*. Thanks to the IP protocol, computers on opposite sides of the world can send each other messages if they have each others' IP addresses. Devices called routers help ensure that messages get sent in the right direction as they traverse the Internet hopping from network to network towards their destination.
+###Ensuring D
 
 ####Transport Layer (Ensuring Messages are Successful)
 Even though the Internet Layer is enough to allow computers to communicate with one another over the Internet, there needs to be some assurance that messages get transported properly. For this reason, we have TCP (trasport control protocol).
@@ -62,3 +48,10 @@ Each layer of the Internet depends on the ones below it. In order for the World 
 With these pieces in place, we can start inventing interesting types of messages to send over the Internet. Who would have guessed that the most popular type of message to send would become a webpage?
 
 There are other applications of the Internet than just the World Wide Web...
+
+
+#####DNS
+IP addresses usually look something like 132.78.5.199, which isn't very nice (for humans) to read. So, we 
+
+
+
