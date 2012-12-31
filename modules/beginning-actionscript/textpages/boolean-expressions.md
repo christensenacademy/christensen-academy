@@ -77,6 +77,7 @@ You can also use parenthesis to organize complex boolean expressions.
 ```java
 (( 3 <= 3 && ( 4 < 3 || 9 == 4 )) || "Hello" == "Hello" )
 ```
+This is obviously difficult to read, and I recommend avoiding using expressions like these unless absolutely necessary.
 
 Kowabunga,
 
