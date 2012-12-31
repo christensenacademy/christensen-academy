@@ -77,3 +77,7 @@ Math.ceil(Math.random()*10 + 5); // returns a random integer between 6 and 15
 ```
 
 **Note:** These built-in functions are all part of the Math class. The [official ActionScript 3.0 reference](http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/Math.html) has a complete list of everything you can do with Math.
+
+Kowabunga,
+
+Cam
