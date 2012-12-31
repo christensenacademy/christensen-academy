@@ -32,6 +32,8 @@ num2 != 4 // false. The '!' means 'not'; hence '!=' means 'not equal to'
 
 **Note:** It's easy to confuse the assignment operator `=` with the equality comparison operator `==`. Just remember that when you want to compare things you need to use `==`, not `=`. Honestly, I feel like a lot of programming languages would have been wise to use a differnt symbol than `=` for assigning values to variables because all programmers inevitably use `=` accidentally when they really meant to use `==`.
 
+**Note:** `!=` and `==` can be used to compare Strings as well as Numbers.
+
 ###Boolean Variables
 It may be useful every once in a while to create a boolean variable to store either true or false.
 ```java
@@ -52,6 +54,7 @@ if( heartRate < 40 || heartRate > 200 ){
 }
 ```
 
+Similar to the logical OR operator (`||`), there is a logical AND operator `&&`.
 
 Kowabunga,
 
