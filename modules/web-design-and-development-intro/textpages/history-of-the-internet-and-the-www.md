@@ -1,3 +1,4 @@
+#History of the Internet and the World Wide Web
 The history of computers is facinating, and within that history, the evolution of the Internet and the World Wide Web are among the most amazing pieces.
 
 If you're interested in learning more about the history of computers, the Internet, and the World Wide Web, I highly recommend taking this (Coursera course)[https://class.coursera.org/insidetheinternet-2012-001] from a University of Michigan professor.
