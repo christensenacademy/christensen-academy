@@ -3,7 +3,7 @@
 A *boolean* is either `true` or `false`. Boolean values allow us to use *logic* in our programs. Consider the following bit of code:
 
 ```java
-double distance = 2.54;
+double distance = Math.random()*5; // generates a random number between 0 and 5 and assigns it to the distance variable
 if(distance < 3) {
   System.out.println("Target in Range");
 } else {
@@ -18,27 +18,26 @@ The example above would print out "Target in Range" because the *boolean express
 In the example boolean expression above, we used the `<` comparison operator. Here are some more examples using other comparison operators:
 
 ```java
-var num1:Number = 3;
-var num2:Number = 4;
+var num1:Number = Math.ceil((Math.random()*6); // generates a random integer from 1 to 6
+var num2:Number = Math.ceil(Math.random()*6);
 
-num1 < num2 // true. '<' means 'less than'
-num1 <= 10 // true. '<=' means 'less than or equal to'
-3 > num1 // false. '>' means 'greater than'
-3 >= num1 // true. '>=' means 'greater than or equal to'
-num2 == 3 // false. '==' tests for equality
-num2 == 4 // true
-num2 != 4 // false. The '!' means 'not'; hence '!=' means 'not equal to'
+num1 < num2 // '<' means 'less than'
+num1 <= 5 // '<=' means 'less than or equal to'
+3 > num1 // '>' means 'greater than'
+3 >= num1 // '>=' means 'greater than or equal to'
+num1 == num2 // '==' tests for equality 
+num1 != 4 // The '!' means 'not'; hence '!=' means 'not equal to'
 ```
 
 **Note:** It's easy to confuse the assignment operator `=` with the equality comparison operator `==`. Just remember that when you want to compare things you need to use `==`, not `=`. Honestly, I feel like a lot of programming languages would have been wise to use a differnt symbol than `=` for assigning values to variables because all programmers inevitably use `=` accidentally when they really meant to use `==`.
 
-**Note:** `!=` and `==` can be used to compare Strings as well as Numbers.
+**Note:** `!=` and `==` can be used to compare Strings as well as Numbers: `"hello" == "hello"` evaluates to true, but `"Hello" == "hello"` evaluates to false.
 
 ###Boolean Variables
 It may be useful every once in a while to create a boolean variable to store either true or false.
 ```java
 var example1:Boolean = true;
-var example2:Boolean = 34 < 22; // the boolean expression evaluates to false, hence example2 now stores false
+var example2:Boolean = Math.random()*6 < 3;
 ```
 
 ###Logical Operators
