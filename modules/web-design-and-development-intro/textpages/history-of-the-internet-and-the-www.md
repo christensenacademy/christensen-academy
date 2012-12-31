@@ -1,7 +1,7 @@
 #History of the Internet and the World Wide Web
 The history of computers is facinating, and within that history, the evolution of the Internet and the World Wide Web are among the most amazing pieces.
 
-If you're interested in learning more about the history of computers, the Internet, and the World Wide Web, I highly recommend taking this (Coursera course)[https://class.coursera.org/insidetheinternet-2012-001] from a University of Michigan professor.
+If you're interested in learning more about the history of computers, the Internet, and the World Wide Web, I highly recommend taking this [Coursera course](https://class.coursera.org/insidetheinternet-2012-001) from a University of Michigan professor.
 
 ###A Brief History of the Internet
 The basic idea of a computer network (i.e., finding a way for computers to send messages back and forth) has been around in various forms since the earliest days of electronic computers (1940's and 1950's). It wasn't until the late 1960's and early 1970's, however, that the real foundations of what has become the Internet were actually created.
