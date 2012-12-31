@@ -23,7 +23,7 @@
         foreach ($module_challenges as $challenge) {
           echo "<div style='margin-left:-16px;position:absolute;left:" . $challenge->left . "px;top:" . $challenge->top . "px;'>";
           echo "  <a class='challenge-discussion-link' onclick=\"updateDISQUS('" . $module_name . "-challenge', '" . $challenge->filename . "-challenge', '" . $challenge->title . "')\" href='#discussion' data-toggle='modal'></a>";
-          echo "  <a style='display:inline-block;' class='challenge popupper' data-toggle='modal' href='#popup' data-link='./modules/" . $module_name . "/challenges/" . $challenge->filename . "'";
+          echo "  <a style='display:inline-block;' class='challenge' href='https://github.com/christensenacademy/christensen-academy/blob/master/modules/" . $module_name . "/challenges/" . $challenge->filename . "'";
           echo " rel='tooltip' title='" . $challenge->title . "'></a>";
           echo "</div>";
         }

@@ -71,12 +71,12 @@ $module_textpages = array(
   new textpage('numbers.md', 'Numbers'),
   new textpage('strings.md', 'Strings'),
   new textpage('arrays.md', 'Arrays'),
-  # new textpage('boolean-expressions.md', 'boolean-expressions'),
-  # new textpage('if-statement.md', 'If Statements'),
-  # new textpage('while-loops.md', 'While Loops'),
-  # new textpage('for-loops.md', 'For Loops'),
-  # new textpage('timer-events.md', 'Timer Events'),
-  # new textpage('frame-events.md', 'Frame Events')
+  new textpage('boolean-expressions.md', 'Boolean Expressions'),
+  new textpage('if-statements.md', 'If Statements'),
+  new textpage('while-loops.md', 'While Loops'),
+  new textpage('for-loops.md', 'For Loops'),
+  new textpage('timer-events.md', 'Timer Events'),
+  new textpage('frame-events.md', 'Frame Events')
 );
 
 include('./modules/module-template.php');

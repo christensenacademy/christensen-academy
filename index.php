@@ -122,7 +122,7 @@
           <img src="img/logo112.png" width="112px" height="112px" alt="The Christensen Academy Logo">
         </div>
         <div class="span10">
-          <h1>Hello World!</h1>
+          <h1>Hello, World!</h1>
           <p>Welcome to the Christensen Academy, a gateway to the world of computer science and programming!</p>
         </div>
       </div>
@@ -216,7 +216,7 @@
       <div class="row-fluid" style="text-align:right">
         <div class="span10">
           <p>It's not that we're so smart, it's just that we stay with problems longer.</p>
-          <h1>Goodbye World!</h1>
+          <h1>Goodbye, World!</h1>
         </div>
         <div class="span2">
           <img src="img/logo112.png" width="112px" height="112px" alt="The Christensen Academy Logo">
