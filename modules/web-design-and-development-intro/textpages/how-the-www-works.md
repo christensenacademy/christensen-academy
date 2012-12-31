@@ -1,7 +1,9 @@
-ecome a webpage?
-
 ##How the World Wide Web Works
-It turns out that the most popular application of this amazing technology has been the World Wide Web, which is essentially the system of websites and webpages that we've come to know. Websites exist on special computers connected to the Internet called Web servers. When you visit a website, you are sending an HTTP request for a webpage. The Web server receives your request and kindly responds with the webpage you requested, sending it to you in a message.
+The World Wide Web is an application of the Internet, which I describe in the previous textpage on how the Internet workds.
+
+This textpage focuses on explaining how Web browsers on client computers interact with Web servers.
+
+##What is a Web Browser?
 
 ##Domain names and URLs
 
@@ -9,4 +11,3 @@ It turns out that the most popular application of this amazing technology has be
 ###Clients and Servers
 ###Example of a Server
 
-DOCUMENT UNFINISHED
