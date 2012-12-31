@@ -14,10 +14,16 @@ The following is a short timeline showcasing some of the major highlights in the
 * **(1985-1995)** The National Science Foundation created the NSFNET, which became the "backbone" of the Internet in the United States allowing for high-speed data transfer across the country. Other parts of the world have also developed their own regional backbones.
 
 ###A Brief History of the World Wide Web
-The World Wide Web came about much later than the Internet. By 1990, the basic infrastructure of the Internet was in place, but common people didn't use it. It was at this time that two new protocols were developed: GOPHER and HTTP. At first, the GOPHER protocol, which provided a convenient mechanism for people to share files over the Internet, was the most popular. However, in 1994 following the release of the first graphical Web browser in 1993 called Mosaic, the World Wide Web (the HTTP protocol) surged ahead. The explosive growth of the Web is difficult to describe. Within two decades of its inception in 1990, the World Wide Web had penetrated nearly every facet of modern life.
+The World Wide Web can best be thought of as an *application* of the Internet, not the Internet itself. By 1990, the basic infrastructure of the Internet was in place, but common people didn't use it. It was at this time that two new protocols were developed: GOPHER and HTTP. At first, the GOPHER protocol, which provided a convenient mechanism for people to share files over the Internet, was the most popular. However, in 1994--following the release of the first graphical Web browser in 1993 called Mosaic--the World Wide Web (the HTTP protocol) surged ahead. The explosive growth of the Web is difficult to describe. Within two decades of its inception in 1990, the World Wide Web had penetrated nearly every facet of modern life. The Web, as they say, is ubiquitous.
 
-The following is a (very) short timeline showcasing some of the major highlights in the development of the World Wide Web:
-* **(1990)** Time Berners-Lee and Robert Cailliau built all of the tools necessary for a working World Wide Web--a browser, an HTTP server, and an editor. Adoption of their system, however, was slow. Their intended audience, after all, were researchers and academics like themselves.
+The following is a short timeline showcasing some of the major highlights in the development of the World Wide Web:
+* **(1990)** Time Berners-Lee and Robert Cailliau built all of the tools necessary for a working World Wide Web--a browser, an HTTP server, and an editor. Adoption of their system, however, was slow. Their intended audience, after all, was researchers and academics like themselves.
 * **(1993)** Mosaic, the first graphical Web browser, leads to the popularization of the Web
+* **(1994)** "The Year of the Web" sees explosive growth.
 * **(1996-1998)** The Web gets commercialized, which furthers its already explosive growth.
-* **(1998-present)** Web technologies improve and the Web becomes ubiquitous. The websites that fascinated people in 1994 are laughable by todays standards.
+* **(1998-present)** Web technologies improve and the Web becomes ubiquitous.
+
+And Bob's your uncle,
+
+Cam
+
