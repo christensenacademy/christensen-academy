@@ -17,7 +17,7 @@ The key idea here, is that the scope of the `example` variable is the entire tim
 ####Movie Clip Timelines
 If you find yourself writing code in frames on the timelines of movie clip symbols (not the Scene 1 timeline), realize that these variables are separate (have different scope) from the variables on the Scene 1 timeline. So, for example, if you have a variable that keeps track of a player's score on the Scene 1 timeline, you won't be able to access that variable from a movie clip timeline. Likewise, if you have a health variable declared inside a movie clip timeline, it won't be accessible from the Scene 1 timeline.
 
-**Key Idea:** Variable are unique to each timeline.
+**Key Idea:** Variables are unique to each timeline.
 
 ###Function Scope
 Within a timeline, we can further limit the scope of variables by placing them inside of functions.
