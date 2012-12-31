@@ -37,24 +37,47 @@ num2 != 4 // false. The '!' means 'not'; hence '!=' means 'not equal to'
 ###Boolean Variables
 It may be useful every once in a while to create a boolean variable to store either true or false.
 ```java
-var outOfAmmo:Boolean = true;
-var reloading = false;
-
-if( outOfAmmo ){
-  reloading = true;
-}
+var example1:Boolean = true;
+var example2:Boolean = 34 < 22; // the boolean expression evaluates to false, hence example2 now stores false
 ```
 
 ###Logical Operators
-Sometimes you'll want to make a more complex boolean expressions. For example, imagine you were developing medical software that alerted a doctor when a patient's heart rate dipped below 40 bpm *OR* a raced above 200 bpm. We could write a two-part boolean expression using the logical OR operator `||` as follows:
+We can combine boolean expression with `||` and `&&` to make more complex expressions.
 
+`||` is the logical OR operator. Example: `3 < 7 || 3 > 10`. This complex expression will be true of either `3 < 7` OR `3 > 10` is true. In this case, just `3 < 7` is true, and even though `3 > 10` is false, the entire expression `3 < 7 || 3 > 10` is true.
+
+`&&` is the logical AND operator. Example: `4 <= 9 && 3 < 2`. This complex expression will evaluate to false. In order for it to be true, the expression to the left of `&&` and the expression to the right of `&&` would have needed to be true.
+
+####Truth Table
 ```java
-if( heartRate < 40 || heartRate > 200 ){
-  trace("DANGER!");
-}
+true && true // true
+true && false // false
+false && true // false
+false && false // false
+
+true || true // true
+true || false // true
+false || true // true
+false || false // false
 ```
 
-Similar to the logical OR operator (`||`), there is a logical AND operator `&&`.
+###Not (!)
+While the `!` symbol can be placed next to the `=` to mean "not equal to" (e.g., `3 != 4`), it can also be used to get the opposite boolean value from an entire expression.
+
+```java
+var example:Number = 3;
+example > 4 // false
+!(example > 4) // true
+
+var exampleBool:Boolean = true;
+!exampleBool // false
+```
+
+###Parenthesis
+You can also use parenthesis to organize complex boolean expressions.
+```java
+(( 3 <= 3 && ( 4 < 3 || 9 == 4 )) || "Hello" == "Hello" )
+```
 
 Kowabunga,
 
