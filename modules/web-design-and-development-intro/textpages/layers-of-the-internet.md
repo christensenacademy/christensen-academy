@@ -21,35 +21,7 @@ In order for a packet to reach its destination, it will likely have to make seve
 ###A Diagram
 
 
-##The Internet Protocol Suite
-All of the devices connected to the Internet need to play by the same rules, otherwise things just won't work. These rules are called *protocols*. As you'll see, the protocols of the Internet build on each other in a stack, the upper protocols always relying on the protocols below. These protocols occur in four layers, which we call the [Internet Protocol Suite](http://en.wikipedia.org/wiki/Internet_protocol_suite).
+##The World Wide Web is Literally an Application of the Internet
+The Internet is built in four layers as follows:
 
-###The Bottom of the Stack: The Link Layer
-The most foundational protocols in the Internet Protocol Suite are those that govern how computers send messages to other computers they are directly connected to them (i.e., on the same network). These are the protocols of the Link Layer.
-
-###Up One Layer: The Internet Layer
-Built on top of the Link Layer, the Internet Layer really only adds in one new protocol: the IP Protocol. Internet Layer allows hosts to send messages across networks using *IP addresses*. Each host on the Internet is assigned a unique IP address which other computers can use to send it messages.
-
-This works because each packet contains information about the IP address of its destination host. Routers use this information to figure out which direction to send packets in.
-
-###Transport Layer
-P
-
-It turns out that messages sent using TCP are broken into small packets that are reassembled at their destination. These packets don't all follow the same path, and it is possible that some of them arrive out of order. It's also possible that some packets get lost along the way. TCP provides some assurance that everything will work out in the end.
-
-####Application Layer (With the other layers in place, what cool stuff can we do?)
-Each layer of the Internet depends on the ones below it. In order for the World Wide Web to work, which uses the HTTP protocol, it must rely on the three layers below it to do their jobs:
-* Computers on the same network must be able to communicate (Link Layer).
-* Messages must be able to go from a computer on one network to a computer on any other network in the world (Internet Layer).
-* There must be some reliability assurances for this all to work (Transport Layer).
-
-With these pieces in place, we can start inventing interesting types of messages to send over the Internet. Who would have guessed that the most popular type of message to send would become a webpage?
-
-There are other applications of the Internet than just the World Wide Web...
-
-
-#####DNS
-IP addresses usually look something like 132.78.5.199, which isn't very nice (for humans) to read. So, we 
-
-
-
+* The Link Layer: 
