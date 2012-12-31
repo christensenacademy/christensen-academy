@@ -25,3 +25,7 @@ for(var i:Number = 0; i < myBadGuys.length; i++){
 ```
 
 For the official documentation of Arrays in ActionScript 3.0, go to the [official reference page](http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/Array.html);
+
+Kowabunga,
+
+Cam
