@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Card Template</title>
+    <link href='http://fonts.googleapis.com/css?family=New+Rocker' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="events.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <script>
+      var cards = [
+        {
+          "name": "Everybody's First Time Playing",
+          "description": "Everyone starts with +1 Enthusiasm, +1 Focus, and +1 Patience.",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "Nobody Read the Rules",
+          "description": "Everyone starts with -1 Patience and -1 Focus. Additionally, everyone starts with +1 Action Cards in their hand.",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "The Stakes are High",
+          "description": "Everyone's competitive rating is +1 to start.",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "Just Killin' Some Time",
+          "description": "Everyone's competitiveness is 2 less than it would have been.",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "Everyone's Got Something to Prove",
+          "description": "Nobody can drop below 2 Focus this Game",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "Late Night Game",
+          "description": "At the end of each round in which one or more players were Majorly Distracted, everyone loses an additional focus.",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "TV is on in the Background",
+          "description": "Everybody's Max Focus is -2",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "The Power is Out",
+          "description": "Add 2 addition Fun to the Fun Pot for each player. Also, cards that would require electricity are meaningless and have no effect.",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "On Vacation",
+          "description": "",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "Giant Storm Outside",
+          "description": "",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "Playing Outdoors",
+          "description": "",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "Over the Lunch Break",
+          "description": "",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "Only One of Us Actually Wants to Play",
+          "description": "",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        },
+        {
+          "name": "Playing with Family",
+          "description": "All of your stats are ampliphied",
+          "flavor-text": "",
+          "image": ".png",
+          "count": 1
+        }
+      ]
+      
+      var count=0;
+      for (var i = 0; i < cards.length; i++) {
+        for(var j=0; j<cards[i]["count"];j++){
+          if(count%6===0){
+            $('body').append('<div class="sheet-of-cards"></div>');
+          }
+          $('.sheet-of-cards').last().append(
+     '<div class="card" id="card' + i + '">\
+        <div class="card-inner">\
+          <p class="card-name"></p>\
+          <div class="card-image"></div>\
+          <div class="card-text">\
+            <p class="card-description"></p>\
+            <p class="flavor-text"></p>\
+          </div>\
+        </div>\
+      </div>');
+          var temp = $(".card").last();
+          var offset_x = count%3;
+          var i2 = count%6;
+          var offset_y = Math.floor(i2/3);
+          temp.css('top', "" + (offset_y * 493) + "px");
+          temp.css('left', "" + (offset_x * 345) + "px");
+          $(".card-name").last().html(cards[i]["name"]);
+          $(".card-description").last().html(cards[i]["description"]);
+          $(".flavor-text").last().html(cards[i]["flavor-text"]);
+          $(".card-image").last().css("background-image","url('actions/" + cards[i]["image"] + "')");
+          if(count%6==5){
+            $('body').append('<div style="page-break-after:always;"></div>');
+          }
+          count++
+        }
+      }
+      console.log(count);
+      
+    </script>
+  </body>
+</html>

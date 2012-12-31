@@ -31,14 +31,14 @@ $module_videos = array(
 
 $module_textpages = array(
   new textpage('history-of-the-internet-and-the-www.md', 'History of the Internet and the WWW'),
-  new textpage('layers-of-the-internet.md', 'Layers of the Internet')
-  # new textpage('how-the-www-works.md', 'How the World Wide Web Works'),
-  # new textpage('domain-names-and-urls.md', 'Domain Names and URLs'),
-  # new textpage('html-css-javascript-overview.md', 'HTML, CSS, and JavaScript Overview'),
-  # new textpage('browser-wars-and-web-standards.md', 'Browser Wars and Web Standards'),
-  # new textpage('hosting-101.md', 'Hosting 101'),
-  # new textpage('ftp.md', 'FTP (File Transfer Protocol)'),
-  # new textpage('wordpress-and-friends.md', 'WordPress and Friends')
+  new textpage('layers-of-the-internet.md', 'Layers of the Internet'),
+  new textpage('how-the-www-works.md', 'How the World Wide Web Works'),
+  new textpage('domain-names-and-urls.md', 'Domain Names and URLs'),
+  new textpage('html-css-javascript-overview.md', 'HTML, CSS, and JavaScript Overview'),
+  new textpage('browser-wars-and-web-standards.md', 'Browser Wars and Web Standards'),
+  new textpage('hosting-101.md', 'Hosting 101'),
+  new textpage('ftp.md', 'FTP (File Transfer Protocol)'),
+  new textpage('wordpress-and-friends.md', 'WordPress and Friends')
 );
 
 include('./modules/module-template.php');
