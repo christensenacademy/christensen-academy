@@ -39,7 +39,7 @@ text = "32.592";
 value = Number(text); // value == 32.592
 ```
 
-###Advanced Assignment
+###Assignment Shortcuts
 ```java
 var pebbles:Number = 1;
 pebbles += 2; // pebbles now has a value of 3
