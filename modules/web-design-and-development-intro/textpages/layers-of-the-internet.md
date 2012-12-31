@@ -22,7 +22,7 @@ In order for a packet to reach its destination, it will likely have to make seve
 
 
 ##The Internet Protocol Suite
-All of the devices connected to the Internet need to play by the same rules, otherwise things just won't work. These rules are called *protocols*. The designers of the Internet were brilliant in the way they devised these protocols. As you'll see, the protocols of the Internet build on each other in a stack, the upper protocols always relying on the protocols below. These protocols occur in four layers, which we call the [Internet Protocol Suite](http://en.wikipedia.org/wiki/Internet_protocol_suite).
+All of the devices connected to the Internet need to play by the same rules, otherwise things just won't work. These rules are called *protocols*. As you'll see, the protocols of the Internet build on each other in a stack, the upper protocols always relying on the protocols below. These protocols occur in four layers, which we call the [Internet Protocol Suite](http://en.wikipedia.org/wiki/Internet_protocol_suite).
 
 ###The Bottom of the Stack: The Link Layer
 The most foundational protocols in the Internet Protocol Suite are those that govern how computers send messages to other computers they are directly connected to them (i.e., on the same network). For example, how does your computer send a message to your router? Perhaps the two are connected with an Ethernet cable; or perhaps by WiFi; or maybe even a combination of the two if you're using a wireless access point. The rules governing how messages are sent using these various technologies are the protocols of the Link Layer of the Internet Protocol Suite.
