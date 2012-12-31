@@ -3,7 +3,7 @@
 A *boolean* is either `true` or `false`. Boolean values allow us to use *logic* in our programs. Consider the following bit of code:
 
 ```java
-double distance = Math.random()*5; // generates a random number between 0 and 5 and assigns it to the distance variable
+double distance = Math.random()*5; // random number between 0 and 5 and assigns it to the distance variable
 if(distance < 3) {
   System.out.println("Target in Range");
 } else {
