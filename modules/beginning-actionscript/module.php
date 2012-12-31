@@ -60,6 +60,7 @@ $module_textpages = array(
   new textpage('fixing-errors.md', 'Fixing Errors'),
   new textpage('variables.md', 'Variables'),
   new textpage('functions.md', 'Functions'),
+  new textpage('variable-scope.md', 'Variable Scope'),
   new textpage('semicolons.md', 'Semicolons'),
   new textpage('camelcase.md', 'CamelCase'),
   new textpage('indenting.md', 'Indenting'),
