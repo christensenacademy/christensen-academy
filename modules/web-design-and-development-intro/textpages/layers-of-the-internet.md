@@ -25,17 +25,15 @@ In order for a packet to reach its destination, it will likely have to make seve
 All of the devices connected to the Internet need to play by the same rules, otherwise things just won't work. These rules are called *protocols*. As you'll see, the protocols of the Internet build on each other in a stack, the upper protocols always relying on the protocols below. These protocols occur in four layers, which we call the [Internet Protocol Suite](http://en.wikipedia.org/wiki/Internet_protocol_suite).
 
 ###The Bottom of the Stack: The Link Layer
-The most foundational protocols in the Internet Protocol Suite are those that govern how computers send messages to other computers they are directly connected to them (i.e., on the same network). For example, how does your computer send a message to your router? Perhaps the two are connected with an Ethernet cable; or perhaps by WiFi; or maybe even a combination of the two if you're using a wireless access point. The rules governing how messages are sent using these various technologies are the protocols of the Link Layer of the Internet Protocol Suite.
+The most foundational protocols in the Internet Protocol Suite are those that govern how computers send messages to other computers they are directly connected to them (i.e., on the same network). These are the protocols of the Link Layer.
 
 ###Up One Layer: The Internet Layer
-Assuming that the protocols of the Link Layer have been implemented correctly, we're ready to start thinking about sending messages to computers that aren't on the same network. For this, we need the *IP Protocol*.
+Built on top of the Link Layer, the Internet Layer really only adds in one new protocol: the IP Protocol. Internet Layer allows hosts to send messages across networks using *IP addresses*. Each host on the Internet is assigned a unique IP address which other computers can use to send it messages.
 
-The IP protocol gives each host on the Internet a unique address called an IP address. Each packet contains information about the IP address of its destination host, and routers use this IP address to figure out which direction to send the packet in.
+This works because each packet contains information about the IP address of its destination host. Routers use this information to figure out which direction to send packets in.
 
-###Ensuring D
-
-####Transport Layer (Ensuring Messages are Successful)
-Even though the Internet Layer is enough to allow computers to communicate with one another over the Internet, there needs to be some assurance that messages get transported properly. For this reason, we have TCP (trasport control protocol).
+###Transport Layer
+P
 
 It turns out that messages sent using TCP are broken into small packets that are reassembled at their destination. These packets don't all follow the same path, and it is possible that some of them arrive out of order. It's also possible that some packets get lost along the way. TCP provides some assurance that everything will work out in the end.
 
