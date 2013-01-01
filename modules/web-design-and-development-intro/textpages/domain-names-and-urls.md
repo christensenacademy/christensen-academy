@@ -1,3 +1,13 @@
-#Domain Names and URLs
+#Search Engines
 
-Sending messages across the Internet requires knowing a host's IP address, right? So, how in the world can I type `http://christensenacademy.org` into my browser and still communicated
+We use them every day.
+
+Would the Web be popular if search engines didn't exist?
+
+###Crawling the Web
+
+###Machine Learning
+
+Kowabunga,
+
+Cam
