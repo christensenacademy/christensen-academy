@@ -5,7 +5,7 @@ The World Wide Web is just an application of the Internet. Just like every other
 ###Client-Server Model
 The World Wide Web is an example of a client-server model. This model is surprisingly simple. Just like in a restaurant, the job of the client is to make requests of the server. The job of the server is to take requests and fulfill them if possible.
 
-The World Wide Web works exactly like this. Websites are maintained on special computers called *Web severs* that stand ready and waiting to process requests from computers like ours--the clients. As you browse the Web, your computer, the client, is sending requests to Web servers each and every time you visit a new page. The Web server is then in charge of processing requests from all around the world and sending back webpages to whomever asked for them.
+The World Wide Web works exactly like this. Websites are maintained on special computers called *Web severs* that stand ready and waiting to process requests from computers like ours--the clients. As you browse the Web, your computer, the client, is sending requests to a Web server each and every time you visit a new page. The Web server is then in charge of processing requests from all around the world and sending back webpages to whomever asked for them.
 
 Although not always the case, most websites are "hosted" on a single Web server, which may be located anywhere in the world.
 
