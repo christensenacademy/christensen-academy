@@ -1,6 +1,6 @@
 #Search Engines
 
-When you send a request to a search engine, such as Google, Yahoo, Bing, and others, the search engine magically returns a webpage full of links to what it feels are relevant websites.
+When you send a request to a search engine, such as Google, Yahoo, Bing, and others, the search engine magically returns a webpage full of links to what it feels are relevant websites. The purpose of this textpage is to briefly explain how this is possilbe.
 
 The popularity of the World Wide Web is due in large part to the effectiveness of search engines. Without search engines, it would be nearly impossible to find what you're looking for on the Web unless you already knew the name of the website you wanted to go to.
 
