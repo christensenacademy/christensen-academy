@@ -26,6 +26,8 @@ There are four "layers" of the Internet (see [Internet Protocol Suite](http://en
 3. The **Transport Layer** makes sure that the packets of a message are assembled correctly when they arrive at their destination. It does things like check to make sure no packets are missing or damaged, and if they are, it makes sure they're sent again.
 4. The **Aplication Layer** is where all the fun is at. This is where all of the interesting applications of the Internet reside, such as email, the Web, and more.
 
+####Protocols
+
 Each of these layers specifies various *protocols*, which are strict rules for hosts and routers to follow when sending and receiving messages.
 
 #####Link Layer Protocols
