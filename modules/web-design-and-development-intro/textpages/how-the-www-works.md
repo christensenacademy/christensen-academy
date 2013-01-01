@@ -1,13 +1,22 @@
 ##How the World Wide Web Works
-The World Wide Web is an application of the Internet 
 
-This textpage focuses on explaining how Web browsers on client computers interact with Web servers.
+Application of the Internet...
 
-##What is a Web Browser?
+###Web Browser and Websites
 
-##Domain names and URLs
+* Allow us to visit websites
+* Displays webpages, which are made of HTML, CSS, and JavaScript
 
-##HTTP Requests and Responses
-###Clients and Servers
-###Example of a Server
+###Web Servers
+
+* Process requests
+* Send responses
+
+###Domain Name System (DNS)
+
+* Resolves domain name to an IP address
+
+Kowabunga,
+
+Cam
 
