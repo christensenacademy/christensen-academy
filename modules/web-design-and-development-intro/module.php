@@ -2,7 +2,7 @@
 $module_name = 'web-design-and-development-intro';
 $module_title = 'Web Design and Development Intro';
 $module_subtitle = 'an Overview of the World Wide Web';
-$map_height = '349';
+$map_height = '214';
 $module_playlist = 'PLbdhPIoiglaXJyRqNx3X0VadCj38iF4ad';
 
 $module_challenges = array(
