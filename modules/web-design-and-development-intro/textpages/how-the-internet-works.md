@@ -28,9 +28,26 @@ There are four "layers" of the Internet (see [Internet Protocol Suite](http://en
 
 Each of these layers specifies various *protocols*, which are strict rules for hosts and routers to follow when sending and receiving messages.
 
-The two most notable protocols are TCP (Transmission Control Protocol for the Transport Layer) and IP (Internet Protocol for the Internet Layer).
+#####Link Layer Protocols
 
-At the Application Layer, there are all sorts of protocols such as FTP (File Transfer Protocol for transfering files between hosts), SSH (Secure Shell for remote login), SMTP (Simple Mail Transfer Protocol for email), DNS (Domain Name System for resolving domain names to IP addresses), and HTTP (HyperText Transfer Protocol for the Web).
+Protocols at the Link Layer set rules for things like how WiFi should work, how Ethernet should work, and so on.
+
+#####Internet Layer Protocols
+
+* IP (Internet Protocol)
+
+#####Transport Layer Protocols
+
+* TCP (Transmission Control Protocol)
+* UDP (User Datagram Protocol)
+
+#####Aplication Layer Protocols
+
+* FTP (File Transfer Protocol for transfering files between hosts)
+* SSH (Secure Shell for remote login)
+* SMTP (Simple Mail Transfer Protocol for email)
+* DNS (Domain Name System for resolving domain names to IP addresses)
+* HTTP (HyperText Transfer Protocol for the Web)
 
 Each layer depends upon the layer before it. When Tim Burners-Lee invented the HTTP protocol (i.e., invented the World Wide Web), the Link, Internet, and Transport layers were already in place. He could not have done what he did without the existing infrastructure that had been building throughout the 1970s and 1980s.
 
