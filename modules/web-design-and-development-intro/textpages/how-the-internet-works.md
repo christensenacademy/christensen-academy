@@ -1,7 +1,5 @@
 #How the Internet Works
-**Note:** This explanation is going to be *very* limited. The goal is to introduce most (not all) of the major concepts related to how the Internet Works.
-
-**Note:** This is an explanation of how the Internet works, not an explanation of how the World Wide Web works. Although the two are related, the World Wide Web is really just an application of the Internet.
+This explanation is going to be *very* limited. The goal is to introduce most (not all) of the major concepts related to how the Internet Works. Also, this is an explanation of how the Internet works, not an explanation of how the World Wide Web works. Although the two are related, the World Wide Web is really just an application of the Internet.
 
 ###Hosts
 Every computer connected to the Internet is called a host. On the Internet, hosts have the ability to send messages to other hosts.
