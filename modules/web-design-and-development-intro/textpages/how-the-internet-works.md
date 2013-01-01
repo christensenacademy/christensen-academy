@@ -18,9 +18,6 @@ In order for a packet to reach its destination, it will likely have to make seve
 
 **Interesting Fact:** Packets of the same message may actually take different routes to their destination.
 
-###A Diagram
-
-
 ##The World Wide Web is Literally an Application of the Internet
 The Internet is built in four layers as follows:
 
