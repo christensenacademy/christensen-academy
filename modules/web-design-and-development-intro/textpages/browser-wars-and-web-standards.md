@@ -9,8 +9,11 @@ The story of this battle is less about who won or lost and more about the battle
 * Who decides how HTML, CSS, and JavaScript should work?
 * What incentives to browser makers have to follow the rules.
 
+##Prelude to the Browser Wars
+###An Open Platform
 ###Mosaic: The First Popular Web Browser
-
+Before the browser wars started, 
+###Commerial Restrictions
 
 
 ###Who Makes Web Browsers?
