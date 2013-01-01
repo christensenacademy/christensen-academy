@@ -1,3 +1,3 @@
-#HTML, CSS, and JavaScript Overview
+#The Anatomy of a Webpage
 
-Most webpages are actually composed of several different files...
+Webpages are composed of an interesting mix of HTML, CSS, JavaScript and some other resources like images. 
