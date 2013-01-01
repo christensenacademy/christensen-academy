@@ -1,5 +1,5 @@
 ##How the World Wide Web Works
-The World Wide Web is an application of the Internet, which I describe in the previous textpage on how the Internet workds.
+The World Wide Web is an application of the Internet 
 
 This textpage focuses on explaining how Web browsers on client computers interact with Web servers.
 
