@@ -1,6 +1,16 @@
 #Browser Wars and Web Standards
 
-###Who Controls the Web?
+In the late 1990's, there was an intense battle between a company called Netscape and Microsoft. Both companies made Web browsers. Netscape had its Netscape browser, and Microsoft had its Internet Explorer browser. Back then, Safari, Chrome, and Firefox didn't exist.
+
+The story of this battle is less about who won or lost and more about the battle itself. Examining this bit of history helps us answer some very important questions:
+
+* Who controls the Web?
+* Who makes Browsers?
+* Who decides how HTML, CSS, and JavaScript should work?
+* What incentives to browser makers have to follow the rules.
+
+###Mosaic: The First Popular Web Browser
+
 
 
 ###Who Makes Web Browsers?
@@ -12,9 +22,7 @@ The job of a Web Browser is to ...
 ###The Necessity of Standards
 
 
-###Who is Responsible for Making the Web the Best it Can Be?
-
-We all are.
+###Conclusion
 
 Kowabunga,
 
