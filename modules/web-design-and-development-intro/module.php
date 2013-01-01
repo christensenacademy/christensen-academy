@@ -13,12 +13,12 @@ $module_challenges = array(
 );
 
 $module_videos = array(
-  new video('EbccXUin5Kw', 'Internet vs. WWW: A Brief History'),
-  new video('DbT6-GMWMmc', 'Internet vs. WWW: Protocols'),
-  new video('GZewdrk_gK8', 'HTTP: Servers and Clients'),
+  # new video('EbccXUin5Kw', 'Internet vs. WWW: A Brief History'),
+  # new video('DbT6-GMWMmc', 'Internet vs. WWW: Protocols'),
+  # new video('GZewdrk_gK8', 'HTTP: Servers and Clients'),
   # HTTP: Domain Names and URLs'),
   # HTML, CSS, JavaScript, and Other Resources'),
-  new video('6sch0T2PUS4', 'Browser Cache Explanation')
+  # new video('6sch0T2PUS4', 'Browser Cache Explanation')
   # "Bandwidth"'),
   # Download vs. Upload'),
   # The Browser Wars'),
