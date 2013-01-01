@@ -7,6 +7,8 @@ Every computer connected to the Internet is called a host. On the Internet, host
 The computer I'm typing on right now is connected to the Internet and is therefore a host. I can use my computer to send messages to other hosts. If I knew your computer's IP address, I could even send a message directly to you.
 
 ###Messages and Packets
+**Note:** A message can be anything from a webpage to an image to an audio file
+
 Messages aren't sent across the Internet in one piece. Instead, they're broken up into a bunch of little *packets* that are reassembled once they reach their destination. For example, the webpage you're reading right now didn't arrive at your computer all in one piece. Instead, it arrived in a bunch of little parts called packets that were reassembled once they arrived.
 
 ###Routers
