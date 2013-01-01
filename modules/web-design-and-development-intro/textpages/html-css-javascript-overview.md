@@ -31,8 +31,23 @@ p {
 ```
 
 ###JavaScript
+JavaScript is the programming language of the Web. JavaScript code add *interactivity* and special effects to webpages.
+
+**Note:** "Java" is not short for "JavaScript". Java and JavaScript are two entirely different programming languages. JavaScript is the one used for webpages.
+
+Here's an example of JavaScript code:
+
+```javascript
+var x = 4;
+var y = Math.random()*4;
+console.log(x*y);
+```
 
 ###Other Resources
+Other resources that get sent along with webpages are mostly images; however, sounds, movies, and other media like Adobe Flash content can also get sent along with webpages.
+
+###Viewing Source Code
+If you'd like to view the source code (i.e., HTML) of a webpage you're viewing, you can right-click and go to "view source"--or something similar. This should take you to the HTML code of the webpage.
 
 ###Exploring with Developer Tools
 If you'd like to explore the "stuff" that composes your webpage, I recommend using the Google Chrome Web browser and using the [developer tools](https://developers.google.com/chrome-developer-tools/docs/overview) and poking around a bit. Can you find the images that came with the webpage? Can you find the HTML, CSS, and JavaScript files? Can you see how long it took each part of the page to load?
@@ -41,4 +56,6 @@ If you'd like to explore the "stuff" that composes your webpage, I recommend usi
 
 Webpages are rendered by Web browsers that interpret HTML, CSS, and JavaScript code. What's more, webpages often make use of other resources like images. All of this "stuff" gets sent to our browsers (the clients) from Web servers whenever we browse the Web.
 
-Webpages can be very complex. Originally, webpages 
+Kowabunga,
+
+Cam
