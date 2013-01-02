@@ -1,11 +1,16 @@
 #Web Standards
 
-Web Standards come from an organization called the [W3C](http://www.w3.org/) (World Wide Web Consortium) and specify how various Web technologies like HTML, CSS, and JavaScript should work. Two groups of people need to know about and adhere to these standards:
+Web Standards come from an organization called the [W3C](http://www.w3.org/) (World Wide Web Consortium) and specify how various Web technologies like HTML, CSS, and JavaScript should work. For example, the [CSS 2.1 Specification](http://www.w3.org/TR/CSS21/) details how CSS code should be written and how Web browsers should interpret it.
+
+Two groups of people need to know about and adhere to these standards:
 
 * Web developers: people who make websites
-* Browser vendors: people who make Web browsers--Google (Chrome), Mozilla (Firefox), Apple (Safari), and Microsoft (Internet Explorer)
+* Browser vendors: people who make Web browsers, such as Google (Chrome), Mozilla (Firefox), Apple (Safari), and Microsoft (Internet Explorer)
 
-If browser vendors don't adhere to the standards, Web developers don't have any assurance that the websites they make will work as intended on all browsers. If Web developers don't adhere to the standards, their websites are likely to behave with unexpected results in some or all browsers.
+###Why are Web Standards Important?
+If browser vendors don't adhere to Web Standards, Web developers don't have any assurance that the websites they make will work as intended on all browsers.
+
+If Web developers don't adhere to the standards, their websites are likely to behave with unexpected results in some or all browsers.
 
 ###Who Controls the Web?
 When talking about Web Standards, it's good start by thinking about the question of who controls the Web. The answer, surprisingly or not, is that nobody really controls the World Wide Web or even the underlying Internet. The protocols and standards on which the Internet and World Wide Web are built--IP, TCP, HTTP, HTML, etc.--are entirely open and free for anyone to use.
