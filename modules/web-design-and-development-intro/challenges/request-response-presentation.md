@@ -3,7 +3,10 @@
 Your challenge is to create a presentation explaining what happens when you click on [this link](http://christensenacademy.org/) from the moment you click to the moment the page loads in your browser.
 
 ###Target Audience
-Other students your age who haven't taken this course.
+Yourself a month ago.
+
+##Format
+Whatever you think would be most effective. Videos, skits, posters with diagrams, and classic PowerPoint presentations are all acceptable. So is pretty much anything else you might think up. As long as it is effective...
 
 ###Keywords to Include
 * HTTP
