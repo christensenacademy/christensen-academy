@@ -1,6 +1,6 @@
 #Web Standards
 
-Web Standards are essentially the specifications for how various Web technologies like HTML, CSS, and JavaScript should work. On the surface, this seems simple enough, but stop for a second to consider some basic questions about the Web:
+Web Standards specify how various Web technologies like HTML, CSS, and JavaScript should work. On the surface, this seems simple enough, but stop for a second to consider some basic questions about the Web:
 
 * Who controls the Web?
 * Who makes Web browsers?
