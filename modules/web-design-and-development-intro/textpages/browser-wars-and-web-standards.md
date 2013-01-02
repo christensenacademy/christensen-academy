@@ -11,16 +11,16 @@ The story of this battle is less about who won or lost and more about the battle
 
 ##Prelude to the Browser Wars
 ###An Open Platform
-The protocols surrounding the Internet and the World Wide Web are almost all non-proprietary. That is, no company or government owns them, and everyone has full access to knowing how they work. Everyone is free to create devices that use these protocols.
+The protocols surrounding the Internet and the World Wide Web are almost all non-proprietary. That is, no company or government owns them, and everyone has full access to knowing how they work and creating devices that use them.
 
-With regards specifically to the Web, the HTTP protocol is completely open, as are the specifications for HTML, CSS, JavaScript, and a bunch of other Web-related technologies. Said another way, nobody *owns* these technologies, and everyone is free to use them as they please. 
-
-In my mind, the developers of these technologies are modern society's unsung heros. Names like Vint Cerf and Tim-Berners Lee are not the household names they ought to be. These are men who had the vision and wisdom to build an open platform that all society could benefit from.
-
-But if the Web is open, who controls it? Who shapes its future?
+In this sense, the Web is an "open platform". But, if the Web is open, who controls it? Who decides how it works? Who builds the hardware and software that make it work?
 
 ###Mosaic: The First Popular Web Browser
-Before the browser wars started, 
+The first popular Web browser was created in 1993. It was called Mosaic, and many point to it as the reason for the Web's explosive growth in 1994. 
+
+[Wikipedia article](http://en.wikipedia.org/wiki/Mosaic_(web_browser))
+
+This happened a few years before the browser wars started. I mention it here to point out that before Mosaic, images didn't display on Webpages. The makers of Mosaic essentially broke the rules and did their own thing. People used their product because it gave them what they wanted...
 
 ###Commerial Restrictions
 
