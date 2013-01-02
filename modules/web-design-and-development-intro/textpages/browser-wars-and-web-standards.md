@@ -1,4 +1,4 @@
-#Browser Wars and Web Standards
+#Web Standards
 In the late 1990's, there was an intense battle between two companies--Netscape and Microsoft--to dominate the Web browser market. When people use the term "browser wars", they are usually refering to this specific battle between Netscape and Microsoft. However, other "browser wars" continue to rage on to this day.
 
 The purpose of this textpage is to explain some basic history behind the past and present browser wars in the hopes that understanding history will help us answer some very important and intriguing questions; namely, these:
