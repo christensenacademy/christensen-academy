@@ -5,7 +5,7 @@ Your challenge is to create a presentation explaining what happens when you clic
 ###Target Audience
 Yourself a month ago.
 
-##Format
+###Format
 Whatever you think would be most effective. Videos, skits, posters with diagrams, and classic PowerPoint presentations are all acceptable. So is pretty much anything else you might think up. As long as it is effective...
 
 ###Keywords to Include
