@@ -36,6 +36,4 @@ Getting browser vendors to adhere to Web standards is only half of the battle. W
 
 To the extent that browser vendors and Web developers continue making strides towards Web Standards, the better the Web will be for everyone.
 
-Kowabunga,
-
-Cam
+I hope this has been a decent introduction to Web Standards. I recommend doing some reading on Wikipedia if you'd like more information
