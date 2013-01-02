@@ -36,7 +36,7 @@ $module_textpages = array(
   new textpage('domain-names-and-urls.md', 'Domain Names and URLs'),
   new textpage('search-engines.md', 'Search Engines'),
   new textpage('anatomy-of-a-webpage.md', 'The Anatomy of a Webpage'),
-  new textpage('browser-wars-and-web-standards.md', 'Browser Wars and Web Standards'),
+  new textpage('web-standards.md', 'Browser Wars and Web Standards'),
   new textpage('hosting-101.md', 'Hosting 101'),
   new textpage('ftp.md', 'FTP (File Transfer Protocol)'),
   new textpage('wordpress-and-friends.md', 'WordPress and Friends')
