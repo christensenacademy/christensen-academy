@@ -8,7 +8,6 @@ The goal of this textpage is to explain Web standards by answering five importan
 * Who makes Web browsers?
 * Why do we need Web standards?
 * Who creates Web standards?
-* What incentives to browser makers have to adhere to the standards?
 
 ###Who Controls the Web?
 Nobody, really. For the most part, the Internet and the World Wide Web are free from the control of individual companies or governments. The protocols and standards on which the Internet and World Wide Web are built are entirely *open*.
@@ -30,13 +29,17 @@ Browsers that followed were mostly made by companies looking to make some money.
 
 It's important to think about the job a browser from the perspective a company or organization making it.
 
-Willing to accomodate bad code...
+* Willing to accomodate bad code...
+* Race to the latest and greatest
+* Breaking standards is compelling if it helps set your browser apart or somehow gives you an edge over the competition
 
 ###Why do we need Web standards?
 We need standards because the Web needs consistency to flourish. Webpages need to work the same across all browsers
 
 ###Who creates Web standards?
 The World Wide Web consortium...
+
+
 
 ###Conclusion
 
