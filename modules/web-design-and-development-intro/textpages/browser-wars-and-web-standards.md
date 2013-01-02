@@ -1,22 +1,23 @@
 #Browser Wars and Web Standards
+In the late 1990's, there was an intense battle between two companies--Netscape and Microsoft--to dominate the Web browser market. When people use the term "browser wars", they are usually refering to this specific battle between Netscape and Microsoft. However, other "browser wars" continue to rage on to this day.
 
-In the late 1990's, there was an intense battle between a company called Netscape and Microsoft. Both companies made Web browsers. Netscape had its Netscape browser, and Microsoft had its Internet Explorer browser. Back then, Safari, Chrome, and Firefox didn't exist.
-
-The story of this battle is less about who won or lost and more about the battle itself. Examining this bit of history will help us answer some very important questions:
+The purpose of this textpage is to explain some basic history behind the past and present browser wars in the hopes that understanding history will help us answer some very important and intriguing questions; namely, these:
 
 * Who controls the Web?
 * Who makes Browsers?
 * Who decides how HTML, CSS, and JavaScript should work?
 * What incentives to browser makers have to follow the rules?
 
-##Prelude to the Browser Wars
-###An Open Platform
-The protocols surrounding the Internet and the World Wide Web are almost all non-proprietary. That is, no company or government owns them, and everyone has full access to knowing how they work and creating devices that use them.
+###The First Web Browser
+When Tim Berners-Lee invented the HTTP protocol--that is, when he invented the World Wide Web--he also built the first Web browser called [WorldWideWeb](http://en.wikipedia.org/wiki/WorldWideWeb). There are two very interesting things to note about this first Web browser:
 
-In this sense, the Web is an "open platform". But, if the Web is open, who controls it? Who decides how it works? Who builds the hardware and software that make it work?
+* It never became popular on a large scale.
+* It didn't have the ability display pictures on webpages.
+
+These two things were quite possibly related.
 
 ###Mosaic: The First Popular Web Browser
-The first popular Web browser was created in 1993. It was called Mosaic, and many point to it as the reason for the Web's explosive growth in 1994. 
+The first popular Web browser was created in 1993. It was called Mosaic, and many point to it as the reason for the Web's explosive growth in 1994. It was popular mainly because of its nice user interface, which included allowing for images on webpages. Interestingly, 
 
 [Wikipedia article](http://en.wikipedia.org/wiki/Mosaic_(web_browser))
 
