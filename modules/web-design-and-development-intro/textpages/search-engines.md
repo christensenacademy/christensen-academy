@@ -13,9 +13,6 @@ The data Web crawlers pick up from the pages they visit is stored and *indexed* 
 ###Searching
 When someone does a Google search, for example, a google server recieves the search request and must figure out how to respond based on all of the data that had been indexed from Web crawlers.
 
-###Conclusion
-This was a very brief overview of how search engines work. Obviously, the details would get very, very complex.
+Here's [a Wikipedia article](http://en.wikipedia.org/wiki/Web_search_engine) for further reading.
 
-Kowabunga,
-
-Cam
+-Cam
