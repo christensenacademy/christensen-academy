@@ -10,7 +10,7 @@ The goal of this textpage is to explain Web standards by answering five importan
 * Who creates Web standards?
 * What incentives to browser makers have to adhere to the standards?
 
-##Who Controls the Web?
+###Who Controls the Web?
 Nobody, really. For the most part, the Internet and the World Wide Web are free from the control of individual companies or governments. The protocols and standards on which the Internet and World Wide Web are built are entirely *open*.
 
 With that said, there are a few international organizations such as ICANN and the W3C that play an active role in shaping the Web.
