@@ -1,6 +1,6 @@
 #Web Standards
 
-Web Standards come from an organization called the W3C (World Wide Web Consortium) and specify how various Web technologies like HTML, CSS, and JavaScript should work. It's the job of the people who make Web browsers and websites to adhere to these standards. 
+Web Standards come from an organization called the [W3C](http://www.w3.org/) (World Wide Web Consortium) and specify how various Web technologies like HTML, CSS, and JavaScript should work. It's the job of the people who make Web browsers and websites to adhere to these standards. 
 
 The goal of this textpage is to provide some insight into what Web Standards are and why we need them. The intended audience for this textpage is people new to learning about the Internet and the World Wide Web.
 
