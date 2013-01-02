@@ -11,8 +11,8 @@ I like to think about it like this:
 
 * Does anyone have the power to completely shut down the Web or the Internet? No.
 * Is anyone fundamentally prevented from connecting to and using the Internet? In general, no. Unless you're in prison or something...
-* Can anyone build new networks and connect them to the Internet? Yes.
-* Can anyone aquire domain names and build new websites? Yes.
+* Can anyone build new networks and connect them to the Internet? Generally speaking, yes.
+* Can anyone aquire domain names and build new websites? Generally speaking, yes.
 
 With this said, there are two groups of people who play particularly large roles in shaping the World Wide Web: people who make websites, and people who make Web browsers.
 
