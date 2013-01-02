@@ -63,6 +63,4 @@ The Internet is obviously far more complex than described here. The most importa
 * Messages sent across the Internet are broken up into packets
 * The World Wide Web is an application of the Internet, not the Internet itself
 
-Kowabunga,
-
-Cam
+-Cam
