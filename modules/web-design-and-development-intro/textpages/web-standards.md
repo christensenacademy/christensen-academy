@@ -5,7 +5,7 @@ Web Standards come from an organization called the [W3C](http://www.w3.org/) (Wo
 The goal of this textpage is to provide some insight into what Web Standards are and why we need them. The intended audience for this textpage is people new to learning about the Internet and the World Wide Web.
 
 ###Who Controls the Web?
-When talking about Web Standards, it's good start by thinking about the question of who controls the Web. The answer, surprisingly or not, that nobody really controls the World Wide Web or even the underlying Internet. The protocols and standards on which the Internet and World Wide Web are built--IP, TCP, HTTP, HTML, etc.--are entirely open and free for anyone to use.
+When talking about Web Standards, it's good start by thinking about the question of who controls the Web. The answer, surprisingly or not, is that nobody really controls the World Wide Web or even the underlying Internet. The protocols and standards on which the Internet and World Wide Web are built--IP, TCP, HTTP, HTML, etc.--are entirely open and free for anyone to use.
 
 I like to think about it like this:
 
