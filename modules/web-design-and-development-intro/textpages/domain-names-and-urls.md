@@ -9,7 +9,7 @@ http://christensenacademy.org/img/logo112.png
 This URL points to a specific resource on the server for the Christensen Academy. In this case, the resource happens to be an image, but a resource could really be any type of computer file, though most URLs point to webpages.
 
 ###Protocol
-The `http://` part of the domain name is usually not displayed by Web browsers nowadays, though it was in the past. This part of the URL simply states that the HTTP protocol is being used. If you're browsing the Web, you're really never using any protocol but HTTP, so this inforation seems uneccessary; hence, many modern browsers don't show it, but it is still an important part of every URL
+The `http://` part of the domain name is usually not displayed by Web browsers nowadays, though it was in the past. This part of the URL simply states that the HTTP protocol is being used. If you're browsing the Web, you're really never using any other protocol besides HTTP, so this inforation seems uneccessary; hence, many modern browsers don't show it, but it is still an important part of every URL
 
 #####HTTPS
 
