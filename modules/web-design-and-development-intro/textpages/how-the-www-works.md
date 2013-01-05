@@ -1,5 +1,7 @@
 ##How the World Wide Web Works
 
+Hello World,
+
 The World Wide Web is just an application of the Internet. Just like every other application of the Internet, the World Wide Web relies upon hosts (computers) to have unique IP addresses for sending and receiving messages. What's interesting about the World Wide Web is the type of messages being sent--namely, webpages. It's also interesting to understand where these messages are going to and coming from.
 
 ###Client-Server Model
@@ -29,6 +31,6 @@ I should also point out that the requests from clients and responses from server
 ###Conclusion
 Although many people don't have much of a clue as to how the World Wide Web works, it really isn't all that complicated. Websites live on special computers called Web servers. When we, the clients, want to visit a website, we send a request through our Web browser for a webpage. Thanks to the Internet, this message reaches the appropriate Web server. The server processes our request and sends back a webpage as a response. Our browser then receives the response, processes it, and displays the results to us.
 
-And there you have it. Kowabunga,
+Until next time, World,
 
 Cam
