@@ -16,7 +16,7 @@ $module_videos = array(
   new video('Lrlzu9f-3is', 'History of the Internet and the World Wide Web '),
   new video('55NUUjVOapM', 'How the Internet Works'),
   new video('UM_JKZys1O0', 'How the World Wide Web Works'),
-  # HTTP: Domain Names and URLs'),
+  new video('vW1EmDcwjrE', 'Domain Names and URLs'),
   new video('Sq3DL8YFcEY', 'Search Engines'),
   new video('8IFYI-JyhqA','Anatomy of a Webpage'),
   new video('i51xFd--kds','Web Standards'),
