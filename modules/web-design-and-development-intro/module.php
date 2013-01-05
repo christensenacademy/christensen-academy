@@ -13,9 +13,9 @@ $module_challenges = array(
 );
 
 $module_videos = array(
-  # new video('EbccXUin5Kw', 'Internet vs. WWW: A Brief History'),
-  # new video('DbT6-GMWMmc', 'Internet vs. WWW: Protocols'),
-  # new video('GZewdrk_gK8', 'HTTP: Servers and Clients'),
+  new video('Lrlzu9f-3is', 'History of the Internet and the World Wide Web '),
+  new video('55NUUjVOapM', 'How the Internet Works'),
+  new video('UM_JKZys1O0', 'How the World Wide Web Works'),
   # HTTP: Domain Names and URLs'),
   # HTML, CSS, JavaScript, and Other Resources'),
   # new video('6sch0T2PUS4', 'Browser Cache Explanation')
