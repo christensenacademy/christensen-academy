@@ -9,34 +9,28 @@ $module_challenges = array(
   new challenge('request-response-presentation.md', 'Request-Response Presentation', '108', '69'),
   new challenge('set-up-a-website.md', 'Set Up a Website', '110', '130'),
   new challenge('quiz.md', 'Quiz', '96', '180')
-  # new challenge('ftp-project.md', 'FTP Project', '104', '277')
 );
 
 $module_videos = array(
   new video('Lrlzu9f-3is', 'History of the Internet and the World Wide Web '),
   new video('55NUUjVOapM', 'How the Internet Works'),
   new video('UM_JKZys1O0', 'How the World Wide Web Works'),
+  new video('8IFYI-JyhqA', 'Anatomy of a Webpage'),
   new video('vW1EmDcwjrE', 'Domain Names and URLs'),
   new video('Sq3DL8YFcEY', 'Search Engines'),
-  new video('8IFYI-JyhqA','Anatomy of a Webpage'),
-  new video('i51xFd--kds','Web Standards'),
-  # Hosting'),
-  # Web Design vs. Web Development'),
-  # FTP'),
-  # Wordpress and Friends'),
+  new video('i51xFd--kds', 'Web Standards'),
+  new video('T9IEVLRAdp4', 'Hosting')
 );
 
 $module_textpages = array(
   new textpage('history-of-the-internet-and-the-www.md', 'History of the Internet and the WWW'),
   new textpage('how-the-internet-works.md', 'How the Internet Works'),
   new textpage('how-the-www-works.md', 'How the World Wide Web Works'),
+  new textpage('anatomy-of-a-webpage.md', 'The Anatomy of a Webpage'),
   new textpage('domain-names-and-urls.md', 'Domain Names and URLs'),
   new textpage('search-engines.md', 'Search Engines'),
-  new textpage('anatomy-of-a-webpage.md', 'The Anatomy of a Webpage'),
   new textpage('web-standards.md', 'Web Standards'),
-  new textpage('hosting.md', 'Hosting'),
-  # new textpage('ftp.md', 'FTP (File Transfer Protocol)'),
-  # new textpage('wordpress-and-friends.md', 'WordPress and Friends')
+  new textpage('hosting.md', 'Hosting')
 );
 
 include('./modules/module-template.php');
