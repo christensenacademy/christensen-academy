@@ -19,7 +19,7 @@ In order for a packet to reach its destination, it will likely have to make seve
 **Interesting Fact:** Packets of the same message may actually take different routes to their destination.
 
 ###Diagram
-![](http://christensenacademy.org/modules/intro-to-web-design-and-development/resources/internet-diagram.png)
+![](http://christensenacademy.org/modules/web-design-and-development-intro/resources/internet-diagram.png)
 
 ###The World Wide Web is Literally an Application of the Internet
 There are four "layers" of the Internet (see [Internet Protocol Suite](http://en.wikipedia.org/wiki/Internet_protocol_suite) on Wikipedia):
