@@ -1,5 +1,5 @@
 #History of the Internet and the World Wide Web
-Hello, World.
+Hello World,
 
 The history of computers is facinating, and within that history, the evolution of the Internet and the World Wide Web are among the most amazing pieces.
 
@@ -25,7 +25,7 @@ The following is a short timeline showcasing some of the major highlights in the
 * **(1996-1998)** The Web gets commercialized, which furthers its already explosive growth.
 * **(1998-present)** Web technologies improve and the Web becomes ubiquitous.
 
-Peace, World,
+Peace World,
 
 Cam
 
