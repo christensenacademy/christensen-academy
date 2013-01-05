@@ -17,8 +17,9 @@ $module_videos = array(
   new video('55NUUjVOapM', 'How the Internet Works'),
   new video('UM_JKZys1O0', 'How the World Wide Web Works'),
   # HTTP: Domain Names and URLs'),
-  # HTML, CSS, JavaScript, and Other Resources'),
-  # new video('6sch0T2PUS4', 'Browser Cache Explanation')
+  new video('Sq3DL8YFcEY', 'Search Engines'),
+  new video('8IFYI-JyhqA','Anatomy of a Webpage'),
+  new video('i51xFd--kds','Web Standards'),
   # "Bandwidth"'),
   # Download vs. Upload'),
   # The Browser Wars'),
