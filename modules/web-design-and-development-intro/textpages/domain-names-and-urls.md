@@ -42,3 +42,7 @@ This query string lets YouTube's server know what video is being requested and f
 URLs are used to specify the location of a resource on the World Wide Web. Usually the resource being specified is a webpage, but it can also be another type of file, such as an image.
 
 --Cam
+
+###Links to Other Resources
+* **[Wikipedia: Domain Name](http://en.wikipedia.org/wiki/Domain_name)**
+* **[Wikipedia: URL](http://en.wikipedia.org/wiki/Uniform_resource_locator)**
