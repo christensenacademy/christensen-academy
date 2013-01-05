@@ -30,11 +30,11 @@ $module_textpages = array(
   new textpage('history-of-the-internet-and-the-www.md', 'History of the Internet and the WWW'),
   new textpage('how-the-internet-works.md', 'How the Internet Works'),
   new textpage('how-the-www-works.md', 'How the World Wide Web Works'),
-  # new textpage('domain-names-and-urls.md', 'Domain Names and URLs'),
+  new textpage('domain-names-and-urls.md', 'Domain Names and URLs'),
   new textpage('search-engines.md', 'Search Engines'),
   new textpage('anatomy-of-a-webpage.md', 'The Anatomy of a Webpage'),
   new textpage('web-standards.md', 'Web Standards'),
-  # new textpage('hosting.md', 'Hosting'),
+  new textpage('hosting.md', 'Hosting'),
   # new textpage('ftp.md', 'FTP (File Transfer Protocol)'),
   # new textpage('wordpress-and-friends.md', 'WordPress and Friends')
 );
