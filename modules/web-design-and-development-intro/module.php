@@ -20,10 +20,6 @@ $module_videos = array(
   new video('Sq3DL8YFcEY', 'Search Engines'),
   new video('8IFYI-JyhqA','Anatomy of a Webpage'),
   new video('i51xFd--kds','Web Standards'),
-  # "Bandwidth"'),
-  # Download vs. Upload'),
-  # The Browser Wars'),
-  # Web Standards and W3C'),
   # Hosting'),
   # Web Design vs. Web Development'),
   # FTP'),
@@ -38,7 +34,7 @@ $module_textpages = array(
   new textpage('search-engines.md', 'Search Engines'),
   new textpage('anatomy-of-a-webpage.md', 'The Anatomy of a Webpage'),
   new textpage('web-standards.md', 'Web Standards'),
-  # new textpage('hosting-101.md', 'Hosting 101'),
+  # new textpage('hosting.md', 'Hosting'),
   # new textpage('ftp.md', 'FTP (File Transfer Protocol)'),
   # new textpage('wordpress-and-friends.md', 'WordPress and Friends')
 );
