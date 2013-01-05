@@ -1,6 +1,10 @@
-Your challenge is to write a blog post (**in your own words**) explaining how when you click on a link on a webpage a new webpage magically appears on your computer.
+#Set Up a Website
+Your challenge is to find set up a webite following these general steps:
 
-As with the previous challenge, try not to assume too much knowledge on the part of the person reading what you've written.
+1. Search for hosting
+2. Purchase a domain name (possibly through the hosting service)
+3. Purchase hosting if necessary
+4. Download File Zilla (or a similar program) for FTP
+5. Locate the FTP info for your server (your hosting service should provide this) and upload your website files to the server.
 
-##Length Requirements
-500-700 words.
+**Note:** If you don't have any website files, you can just upload [a simple HTML file](https://github.com/christensenacademy/christensen-academy/blob/master/modules/web-design-and-development-intro/resources/index.html). Just click that link to download the HTML file, then use your FTP program to put it on the Web server.
