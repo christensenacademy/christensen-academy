@@ -25,13 +25,19 @@ Whatever you think would be most effective. Videos, skits, posters with diagrams
 
 ###Rubric 
 
-* (1/3) Clarity and Effectiveness
+* (1/4) Clarity and Effectiveness
   * Your presentation style was organized and easy to follow.
   * You used visuals effectively.
   * You spoke clearly.
-* (1/3) Correctness
+* (1/4) Correctness
   * The information you presented was free from error
   * Your presentation demonstrated a depth of understanding
-* (1/3) Professionalism
+* (1/4) Professionalism
   * You were well-prepared for the presentation
   * You stayed within the time limits of the presentation
+* (1/8) Peer Assessment
+  * Other students experiencing your presentation will rate the quality of your presentation
+* (1/8) Self Assessment and reflection
+  * You will be asked to rate your own presentation
+  * What did you do well?
+  * What could you have improved?
