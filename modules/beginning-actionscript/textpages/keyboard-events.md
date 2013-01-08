@@ -166,6 +166,4 @@ F14 = 125
 F15 = 126
 ```
 
-Kowabunga,
-
-Cam
+--Cam
