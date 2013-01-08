@@ -6,7 +6,7 @@ Your challenge is to create a presentation explaining what happens when you clic
 Yourself a month ago. That is, imagine presenting to yourself before you you knew much of anything about how the Internet and the World Wide Web worked.
 
 ###Format
-Whatever you think would be most effective. Videos, skits, posters with diagrams, and classic PowerPoint presentations are all acceptable. So is pretty much anything else you might think up. As long as it's effective...
+Whatever you think would be most effective. Videos, skits, posters with diagrams, a story book, and classic PowerPoint presentations are all acceptable. So is pretty much anything else you might think up. As long as it's effective...
 
 ###Keywords to Include
 * HTTP
