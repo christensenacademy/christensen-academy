@@ -18,8 +18,4 @@ var exampleSound2:Buzzer = new Buzzer();
 exampleSound2.play();
 ```
 
-That's it!
-
-Kowabunga,
-
-Cam
+--Cam
