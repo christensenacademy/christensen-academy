@@ -6,4 +6,4 @@
 4. Explain the parts of the following URL: `http://en.wikipedia.org/wiki/Computer`
 3. Agree or Disagree: The only people that need to know about Web Standards are browser vendors. Explain your answer thoroughly.
 4. What do HTML, CSS, and JavaScript do? Provide a brief summary.
-5. If you had already written some HTML webpages, how might you actually get them on the Internet?
+5. If you had already written some HTML webpages, how might you actually get them on the Internet? Force your explanation to fit into a 3-step process.
