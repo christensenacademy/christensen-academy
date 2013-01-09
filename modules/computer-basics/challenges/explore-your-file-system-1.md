@@ -1,1 +1,3 @@
+#Explore Your File System (Part 1)
+
 Open up your file browser, navigate to the root folded, and simply explore for a while. What files and folders do you see? Can you find where your programs are stored on your hard drive? Does the operating system ever tell you there are files you don't have permission to see?
