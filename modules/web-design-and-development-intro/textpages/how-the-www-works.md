@@ -9,8 +9,6 @@ The World Wide Web works exactly like this. Websites are maintained on special c
 
 Although not always the case, most websites are "hosted" on a single Web server, which may be located anywhere in the world.
 
-**Interesting Aside:** In fact, with many website nowadays your computer is actually sending request even more frequently than this using something called AJAX to do partial page updates.
-
 **Terminology Clarification:** There are other examples of computer software systems that operate on a client-server model like the World Wide Web, which is why I usually try to say "Web server" instead of just "server" to be clear that I'm talking about a server on the World Wide Web.
 
 **A Point of Confusion:** Although I said Web servers were special computers, I think it's more accurate to think of them as regular computers with special software installed on them. Any computer could theoretically become a server if it had the right software installed on it. It wouldn't actually be that hard, for example, to turn the laptop computer I'm typing on right now into a Web server.
