@@ -9,7 +9,20 @@ var lives:Number = 3;
 var health:Number = 100;
 ```
 
-###
+###Logic
+You'll need to add code to your game loop that affects these variables. For example, imagine you've just detected a collision between and would like to deduct health from the player. Perhaps your code might look something like this:
+```actionscript
+health -= 10;
+if(health < 1){
+  lives -= 1;
+  if(lives < 1){
+    gameOver();
+  }
+  else{
+    health = 100;
+  }
+}
+```
 
 
 ###Displaying Health and Lives
