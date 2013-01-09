@@ -42,10 +42,4 @@ Using only Cut, Copy, and Paste, reorganize the folder stucture as follows:
       * gibbons.txt
 ```
 
-**Advice:** Try to get comfortable using cut. It's a lot better than doing copy and paste followed by deleting the copied files from the old location.
-
-![an infant stump-tailed-macaque](http://upload.wikimedia.org/wikipedia/commons/3/3c/Stump-Tailed_Macaque.jpg)
-
-Kowabunga,
-
-Cam
+**Advice:** Try to get comfortable using cut. It's a lot better than doing copy and paste followed by deleting the copied files from the old location. It's faster, and it ensures that you only have one copy of the file. I've seen lots of students haphazardly copy files into new locations only to end up (accidentally) using the old file in the old location. Having multiple versions of the same file stored in different folders gets confusing in a hurry. Cut helps you avoid this confusion.
