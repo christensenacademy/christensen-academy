@@ -49,7 +49,12 @@ $module_videos = array(
   new video('YfHferKq3mE', 'Boolean Variables'),
   new video('NdV1MpbYgOk', 'Boolean Expressions'),
   new video('fJow_DE8CU4', 'If Statements'),
-  new video('weyQ75vaCTM', 'Random Numbers')
+  new video('weyQ75vaCTM', 'Random Numbers'),
+  new video('CCAvUgV4Un8', 'For Loops'),
+  new video('CRG2ouLynBU', 'Arrays'),
+  new video('zaT6ULyTBcI', 'While Loops'),
+  new video('ACHTQJjkwqc', 'Timer Events'),
+  new video('4Meg9_DNk7E', 'Frame Events'),
 );
 
 $module_textpages = array(

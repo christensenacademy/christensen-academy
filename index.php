@@ -8,6 +8,7 @@
 		<meta name="keywords" content="computer science, programming, learn, java, javascript, html, css, binary, processing, flash, actionscript, image manipulation, game maker">
 		<meta name="description" content="A gateway to the world of computer science and programming!">
     <link rel="shortcut icon" href="img/logo16.png">
+    <link rel="icon" type="image/png" Shref="http://example.com/myicon.png">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/colorbox.css" />
 		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -94,26 +95,12 @@
                 <li><a href="#gimp-basics" class="image-manipulation-color">GIMP Basics</a></li>
               </ul>
             </li>
-            <li><a data-toggle="modal" href="#about">About</a></li>
+            <li><a href="http://christensenacademy.org/blog">Blog</a></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
-
-	<div class="modal hide fade" id="about">
-	  <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal">×</button>
-		<h3>About</h3>
-    <br>
-    <p>Hi, my name is Cameron Christensen. I've been developing this site since June 2012. I've tried hard to make it easy to navigate, and I hope its purpose is self-explanatory.</p>
-    <p>If you'd like to contact me, feel free to shoot me an email at cameron@christensenacademy.org.</p>
-    </p>
-    <p>Kowabunga,</p>
-    <p>Cam</p>
-	  </div>
-	</div>
-	
   
   <div class="container-fluid">
     <div class="hero-unit" style="background:none">
