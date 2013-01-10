@@ -1,7 +1,7 @@
-* **Estimated Time:** 45 minutes
+#Click-a-Mania: Customization Challenge
 
-##Challenge
+* **Estimated Time:** 120 minutes
 
-Enhance your Click-a-Mania game however you see fit. Here are some ideas to get you started:
+###Challenge
 
-* 
+Your challenge is to take what you've learned about Flash and ActionScript to make some creative enhancements to your game. These enhancements should be significant and demonstrate your depth of knowledge.
