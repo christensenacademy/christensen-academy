@@ -5,7 +5,7 @@ There is more than one way to write a number. For example, the number we call ei
 
 Sound crazy? Perhaps it is. But, in my opinion, these number systems really aren't that hard to understand. The key is understanding how place value works. Once you've done that, you'll easily be able to work with any number system and even invent your own.
 
-**Note:** Unless indicated otherwise, you should assume that all numbers in this document are the same as the ones you're used to. That is, assume they are base 10 (the decimal system) numbers.
+**Note:** Unless indicated otherwise, you should assume that all numbers in this document are the same as the ones you're used to. That is, assume they are base 10 (the decimal system) numbers. Because base 10 numbers are so ingrained in our way of thinking, we often need to translate numbers from other number system back into the base 10 number system in order to really understand them.
 
 ###Digits
 The basic difference between number systems is in the number of digits they use to represent numbers. Here are some examples of the digits used in a few different number systems:
@@ -32,3 +32,19 @@ Amazingly, even though the binary number system only uses two digits (0 and 1), 
 (9, 1001)
 (10, 1010)
 ```
+
+###Place Value
+
+No matter what number system we're using, when we write numbers, each digit has a certain *place value*. For example, the decimal (base 10) number 32592 has five digits, each of which is worth a different amount. Here's a quick breakdown of what each digits is worth:
+
+```
+32592 = 30000 + 2000 + 500 + 90 + 2
+```
+
+Notice digits on the left are worth far more than the digits on the right. In the base 10 number system, we calculate the value of each digit based on the number 10 (duh!). Each "place" in a number is worth ten times more than the place to the right. Hence, in the decimal number system, we have the "ones place", "tens place", "hundreds place", "thousands place", and so on.
+
+In other number systems, place value is not based off the number 10. Instead, place value is based off whatever the base of the number system is.
+
+Let's take the octal number system (base 8) as an example. Place value in this system is based off of eight, so each "place" in a number is worth eight times more than the place to the right. So, instead of having "ones place", "tens place", "hundreds place", and so on, we have "ones place", "eights place", "sixty-fours place", and so on. To find the value of the next place, just multiply by eight.
+
+With this in mind, lets think about what the value of this octal number is in base 10.
