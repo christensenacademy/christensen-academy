@@ -1,3 +1,5 @@
+#Dodge Game: Bad Guys Array Challenge
+
 * **Estimated Time:** 45 minutes
 * [video](http://www.youtube.com/watch?v=Y96oDSou2_g)
 
