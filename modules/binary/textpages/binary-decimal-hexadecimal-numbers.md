@@ -47,4 +47,22 @@ In other number systems, place value is not based off the number 10. Instead, pl
 
 Let's take the octal number system (base 8) as an example. Place value in this system is based off of eight, so each "place" in a number is worth eight times more than the place to the right. So, instead of having "ones place", "tens place", "hundreds place", and so on, we have "ones place", "eights place", "sixty-fours place", and so on. To find the value of the next place, just multiply by eight.
 
-With this in mind, lets think about what the value of this octal number is in base 10.
+With this in mind, lets think about what the value of this octal number is in base 10: 1582.
+
+Ha! Gotcha! Just seeing if you're awake. 1582 isn't an octal number because octal numbers only use the digits 0-7! 
+
+Let's try this octal number instead: 736
+
+```
+If 736 is an octal number (base 8), what is the equivalent in decimal (base 10)?
+
+Since the 6 is in the ones place, it is worth 6
+
+Since the 3 is in the eights place, it is worth 3*8, which is 24
+
+Since the 7 is in the sixty-fours place, it is worth 64*7, which is 448
+
+6 + 24 + 448 = 578 in decimal
+
+Thus, 736 (base 8) is the same as 578 (base 10). These are just two different ways of representing the same number!
+```
