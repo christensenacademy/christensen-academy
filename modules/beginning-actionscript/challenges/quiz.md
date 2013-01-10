@@ -1,3 +1,5 @@
+#Click-a-Mania: Quiz Challenge
+
 * **Estimated Time:** 60 minutes
 
 ###Challenge
