@@ -1,3 +1,5 @@
+#Beginning ActionScript: Function Challenge
+
 * **Estimated Time:** 25 minutes
 
 ###Challenge
