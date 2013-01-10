@@ -1,3 +1,5 @@
+#Click-a-Mania: Basic Game Challenge
+
 * **Estimated Time:** 40 minutes
 * [video](http://www.youtube.com/watch?v=mKQ2MihOJ_0)
 
