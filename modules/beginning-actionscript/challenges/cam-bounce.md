@@ -1,3 +1,5 @@
+#Click-a-Mania: Bounce Challenge
+
 * **Estimated Time:** 30 minutes
 * [video](http://www.youtube.com/watch?v=SMo7832g8L4)
 
