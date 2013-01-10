@@ -66,3 +66,6 @@ Since the 7 is in the sixty-fours place, it is worth 64*7, which is 448
 
 Thus, 736 (base 8) is the same as 578 (base 10). These are just two different ways of representing the same number!
 ```
+
+###Binary
+Binary works the same way, but it only has two digits: 0 and 1. Thus, place value is calculated so that each place is twice as bit as the one before it.
