@@ -1,4 +1,4 @@
-#Dodge Game: Bad Guys
+#Dodge Game: Bad Guys Challenge
 
 * **Estimated Time:** 45 minutes
 * [video](http://www.youtube.com/watch?v=EG8JcniouzI)
