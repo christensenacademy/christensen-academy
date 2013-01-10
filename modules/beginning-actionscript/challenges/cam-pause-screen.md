@@ -1,3 +1,5 @@
+#Click-a-Mania: Pause Screen Challenge
+
 * **Estimated Time:** 40 minutes
 * [video](http://www.youtube.com/watch?v=LrMzoflw6L4)
 
