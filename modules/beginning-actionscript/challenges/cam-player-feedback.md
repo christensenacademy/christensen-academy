@@ -1,3 +1,5 @@
+#Click-a-Mania: Player Feedback Challenge
+
 * **Estimated Time:** 15 minutes
 * [video](http://www.youtube.com/watch?v=gL9Ds6nCCpU)
 
