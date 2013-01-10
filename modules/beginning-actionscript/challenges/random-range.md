@@ -1,3 +1,5 @@
+#Beginning ActionScript: Random Range Challenge
+
 * **Estimated Time:** 30 minutes
 
 ###Challenge
