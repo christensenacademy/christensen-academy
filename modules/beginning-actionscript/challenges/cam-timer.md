@@ -1,3 +1,5 @@
+#Click-a-Mania: Timer Challenge
+
 * **Estimated Time:** 25 minutes
 * [video](http://www.youtube.com/watch?v=JXvAbbq_0OU)
 
