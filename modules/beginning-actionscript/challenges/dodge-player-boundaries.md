@@ -2,7 +2,7 @@
 
 Your challenge is to limit the range of motion for the player. This can be done with if-statements in the game loop.
 
-**[Video](http://www.youtube.com/watch?v=YDt76BdIOVY)**
+###[Video](http://www.youtube.com/watch?v=YDt76BdIOVY)
 
 You probably already have code like this for moving the player:
 ```actionscript
