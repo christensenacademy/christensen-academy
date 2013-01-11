@@ -2,7 +2,7 @@
 
 Your challenge is to modify your games so that the play can lose health and lose lives. If the player runs out of health on his or her last life, the game is over.
 
-##[video](http://www.youtube.com/watch?v=bLZemXSK2qk)
+###[video](http://www.youtube.com/watch?v=bLZemXSK2qk)
 
 ###Getting Started
 You'll need to set up variables outside of the game loop for `health` and `lives`.
