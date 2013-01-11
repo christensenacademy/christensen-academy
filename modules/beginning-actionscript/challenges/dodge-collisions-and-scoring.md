@@ -2,6 +2,8 @@
 
 Your challenge is to set up collision detection between objects in your game and the player. Some objects might be bad while others might be good. That is, some might increase the player's score while others might make the player lose health or something.
 
+**[Video](http://www.youtube.com/watch?v=D9f3PG_03I8)**
+
 Imagine that you have an array of "bad guys" called `badGuys`. If so, your code for detecting collisions might be something like this:
 
 ```actionscript
