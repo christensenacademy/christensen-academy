@@ -26,7 +26,7 @@ two direct children (head and body), but these children have many children withi
 </html>
 ```
 
-##Basic HTML Elements
+##Paragraphs and Headings
 
 ```html
 <p>Lorem Ipsum</p>    <!-- The paragraph element is used whenever you want a paragraph of text on your webpage. -->
@@ -38,12 +38,4 @@ two direct children (head and body), but these children have many children withi
 <h4>Lorem Ipsum</h4>
 <h5>Lorem Ipsum</h5>
 <h6>Lorem Ipsum</h6>  <!-- The h2 element is the least significant (displays smallest) heading element. -->
-<ul>                  <!-- Unordered List: Creates a bulleted list. -->
-  <li>lorem</li>      <!-- List Item: Creates a list item inside of a list. -->
-  <li>ipsum</li>
-</ul>
-<ol>                  <!-- Ordered List: Creates a numbered list. -->
-  <li>lorem</li>
-  <li>ipsum</li>
-</ol>
 ```
