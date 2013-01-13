@@ -1,4 +1,3 @@
-
 #Common Mistakes
 These are four common mistakes you should watch out for. Most of thes occur because of bad indentation.
 ##Elements Outside of Head and Body
@@ -32,7 +31,7 @@ These are four common mistakes you should watch out for. Most of thes occur beca
 ```
 ##Unclosed Tags
 ```html
-<img src="lorem.png" <!-- There should be a closing > here -->
+<img src="lorem.png"
 <p>
   Etiam iaculis dui eu mauris pellentesque fringilla interdum elit euismod. Praesent in lacinia arcu. 
   Duis a magna quis elit tincidunt pulvinar. Nulla aliquam nibh sed dolor molestie volutpat. Nullam 
