@@ -29,7 +29,7 @@ In HTML, a tag looks like `<*>`, where the * can be any number of characters. Fo
 ###Elements
 Tags provide meaning to a browser by creating HTML elements. Most elements require two tags, an opening and a closing tag, as shown below.
 
-####Some Examples of "Normal" Elements
+####Some Examples
 ```html
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 <h1>Nam Ut Orci</h1>
