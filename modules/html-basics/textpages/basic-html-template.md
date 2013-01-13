@@ -1,5 +1,6 @@
 #Basic HTML Template
-```
+
+```html
 <!DOCTYPE html>
 <html>
   <head>
