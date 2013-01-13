@@ -22,12 +22,27 @@ When writing computer code, the word syntax refers the rules of the language you
 <p>This is the content of the paragraph element.</p>
 ```
 ####Syntax Highlighting
-Most text editors attempt to display code in a colorful fashion that helps you more easily spot errors. The following example is what the basic HTML template might look like in an editor that uses syntax highlighting:
+Most text editors attempt to display code in a colorful fashion that helps you more easily spot errors.
 
+#####Example without Syntax Highlighing
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    // this is a comment
+    <title>Example Webpage</title>
+  </head>
+  <body>
+
+  </body>
+</html>
+
+#####Example with Syntax Highlighing
 ```html
 <!DOCTYPE html>
 <html>
   <head>
+    // this is a comment
     <title>Example Webpage</title>
   </head>
   <body>
