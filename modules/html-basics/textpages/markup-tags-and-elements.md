@@ -24,7 +24,7 @@ Notice how the two examples above are *exactly the same* except that the second 
 HTML is composed of *tags*, which mark the start and end of *elements*.
 
 ###Tags
-In HTML, a tag looks like `<*>`, where the * can be any number of characters. For example, in HTML there is a `<body>` tag that has special meaning to a browser. I could invent my own tags--`<dakota>`, `<mountaindew code="red">`, and `<kowabunga dudes>`--but tags I make up that aren't part of the official HTML specification wouldn't mean anything to a browser.
+In HTML, a tag looks like `<*>`, where the * can be any number of characters. For example, in HTML there is a `<body>` tag that has special meaning to a browser. I could invent my own tags--`<dakota>`, `<mountaindew code="red">`, and `<kowabunga>`--but tags I make up that aren't part of the official HTML specification wouldn't mean anything to a browser.
 
 ###Elements
 Tags provide meaning to a browser by creating HTML elements. Most elements require two tags, an opening and a closing tag, as shown below.
