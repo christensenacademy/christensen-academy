@@ -21,6 +21,7 @@ When writing computer code, the word syntax refers the rules of the language you
 ```
 <p>This is the content of the paragraph element.</p>
 ```
+
 ####Syntax Highlighting
 Most text editors attempt to display code in a colorful fashion that helps you more easily spot errors.
 
@@ -36,6 +37,7 @@ Most text editors attempt to display code in a colorful fashion that helps you m
 
   </body>
 </html>
+```
 
 #####Example with Syntax Highlighing
 ```html
