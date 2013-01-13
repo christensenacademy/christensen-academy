@@ -29,7 +29,7 @@ In HTML, a tag looks like `<*>`, where the * can be any number of characters. Fo
 ###Elements
 Tags provide meaning to a browser by creating HTML elements. Most elements require two tags, an opening and a closing tag, as shown below.
 
-###Some Examples of "Normal" Elements
+####Some Examples of "Normal" Elements
 ```html
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 <h1>Nam Ut Orci</h1>
@@ -42,5 +42,5 @@ Tags provide meaning to a browser by creating HTML elements. Most elements requi
 
 **Note:** Closing tags are easy to spot because they have a forward slash before their name (e.g., `</p>`).
 
-###Parents and Children
+####Parents and Children
 You'll also notice that it is possible to have HTML elements inside of other HTML elements. In the example above, there are several *child* `li` elements inside of a *parent* `ul` element.
