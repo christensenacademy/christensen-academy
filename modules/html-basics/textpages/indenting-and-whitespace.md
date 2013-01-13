@@ -1,8 +1,9 @@
 #Whitespace
 Browsers ignore whitespace when they interpret your code. The term "whitespace" refers to spaces, tabs, newlines, and all other characters that don't visibly appear in your code.
 
-##Two Examples that would Display the Same
-###Example 1
+###Two Examples that would Display the Same
+
+####Example 1
 ```html
 <body>
         <p>This                             is    
@@ -11,7 +12,8 @@ Browsers ignore whitespace when they interpret your code. The term "whitespace" 
        a sentence.
               </p></body>
 ```
-###Example 2
+
+####Example 2
 ```html
 <body><p>This is a sentence.</p></body>
 ```
