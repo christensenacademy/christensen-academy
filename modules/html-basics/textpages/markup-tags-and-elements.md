@@ -40,7 +40,10 @@ Tags provide meaning to a browser by creating HTML elements. Most elements requi
 </ul>
 ```
 
-**Note:** Closing tags are easy to spot because they have a forward slash before their name (e.g., `</p>`).
+###Closing Tags
+Closing tags are easy to spot because they have a forward slash before their name (e.g., `</p>`).
+
+**Note:** It is very important not to forget the forward slash in your closing tags. I encourage you to experiment writing code with and without the closing tag so that you can get a feel for what might happen if you accidentally forget the forward slash in the future.
 
 ####Parents and Children
 You'll also notice that it is possible to have HTML elements inside of other HTML elements. In the example above, there are several *child* `li` elements inside of a *parent* `ul` element.
