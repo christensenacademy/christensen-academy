@@ -1,5 +1,5 @@
 #Lists
-List in HTML come in a few different varieties. The main two types are *ordered* and *unordered*.
+Lists in HTML come in a few different varieties. The main two types are *ordered* and *unordered*.
 ```html
 <!-- This is an ordered list -->
 <ol>
