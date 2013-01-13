@@ -1,3 +1,3 @@
-* **Estimated Time:** 10 minutes
+#Floating Point Practice Challenge
 
-CHALLENGE UNFINISHED
+**Estimated Time:** 45 minutes.
