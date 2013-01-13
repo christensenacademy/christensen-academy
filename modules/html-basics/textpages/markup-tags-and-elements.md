@@ -15,7 +15,7 @@ A Poem Roses are red Violets are blue
 </p>
 ```
 
-Notice how the two examples above are *exactly the same* except that the second one has markup added to it. The markup *describes* the content and let the Web browser know more info about the content so that the browser can display the page properly.
+Notice how the two examples above are *exactly the same* except that the second one has markup added to it. The markup *describes* the content and lets the Web browser know more info about the content so that the browser can display the page properly.
 
 **Note:** There are other types of markup besides HTML. The term "markup" really just refers to the general idea of adding extra code to plain text to describe that text in some way. HTML is a special type of markup that is used to describe webpages.
 
