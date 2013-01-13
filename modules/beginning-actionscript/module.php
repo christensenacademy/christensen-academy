@@ -17,7 +17,7 @@ $module_challenges = array(
   new challenge('cam-player-feedback.md', 'Click-a-Mania: Player Feedback', '119', '187'),
   new challenge('cam-pause-screen.md', 'Click-a-Mania: Pause Screen', '119', '220'),
   new challenge('cam-high-score.md', 'Click-a-Mania: High Score', '119', '250'),
-  new challenge('cam-timer-bounce.md', 'Click-a-Mania: Timer', '119', '280'),
+  new challenge('cam-timer.md', 'Click-a-Mania: Timer', '119', '280'),
   new challenge('cam-bounce.md', 'Click-a-Mania: Bounce', '119', '310'),
   new challenge('cam-customization.md', 'Click-a-Mania: Customization', '116', '343'),
   new challenge('function-challenge.md', 'Function Challenge', '185', '84'),
@@ -29,6 +29,11 @@ $module_challenges = array(
   new challenge('dodge-getting-started.md', 'Dodge: Getting Started', '246', '252'),
   new challenge('dodge-bad-guys.md', 'Dodge: Bad Guys', '247', '281'),
   new challenge('dodge-bad-guys-array.md', 'Dodge: Bad Guys Array', '248', '314'),
+  new challenge('dodge-collisions-and-scoring.md', 'Dodge: Collisions and Scoring', '248', '347'),
+  new challenge('dodge-player-boundaries.md', 'Dodge: Player Boundaries', '248', '380'),
+  new challenge('dodge-health-and-lives.md', 'Dodge: Health and Lives', '248', '412'),
+  new challenge('dodge-projectiles.md', 'Dodge: Projectiles', '248', '445'),
+  new challenge('dodge-levels.md', 'Dodge: Levels', '248', '478'),
   new challenge('custom-game-project.md', 'Custom Game Project', '79', '456')
 );
 
@@ -55,6 +60,7 @@ $module_videos = array(
   new video('zaT6ULyTBcI', 'While Loops'),
   new video('ACHTQJjkwqc', 'Timer Events'),
   new video('4Meg9_DNk7E', 'Frame Events'),
+  new video('4Meg9_DNk7E', 'For Each Loop'),
 );
 
 $module_textpages = array(

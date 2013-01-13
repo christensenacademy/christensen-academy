@@ -34,70 +34,63 @@
 	<div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container-fluid">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-        <a class="brand" href="#">Christensen Academy</a>        
-        <div class="nav-collapse">
-          <ul class="nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle cs-basics-text-color" data-toggle="dropdown"> CS Basics <b class="caret"></b> </a>
-              <ul class="dropdown-menu">
-                <li><a href="#computer-basics" class="cs-basics-color">Computer Basics</a></li>
-                <li><a href="#binary" class="cs-basics-color">Binary</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle web-text-color" data-toggle="dropdown"> Web <b class="caret"></b> </a>
-              <ul class="dropdown-menu">
-                <li><a href="#web-design-and-development-intro" class="web-color-color">Web Design and Development Intro</a></li>
-                <li><a href="#html-basics" class="web-color-color">HTML Basics</a></li>
-                <li><a href="#css-basics" class="web-color-color">CSS Basics</a></li>
-                <li><a href="#css-layouts" class="web-color-color">CSS Layouts</a></li>
+        <ul class="nav">
+          <li><a class="brand" href="#">Christensen Academy</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle cs-basics-text-color" data-toggle="dropdown"> CS Basics <b class="caret"></b> </a>
+            <ul class="dropdown-menu">
+              <li><a href="#computer-basics" class="cs-basics-color">Computer Basics</a></li>
+              <li><a href="#binary" class="cs-basics-color">Binary</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle web-text-color" data-toggle="dropdown"> Web <b class="caret"></b> </a>
+            <ul class="dropdown-menu">
+              <li><a href="#web-design-and-development-intro" class="web-color-color">Web Design and Development Intro</a></li>
+              <li><a href="#html-basics" class="web-color-color">HTML Basics</a></li>
+              <li><a href="#css-basics" class="web-color-color">CSS Basics</a></li>
+              <li><a href="#css-layouts" class="web-color-color">CSS Layouts</a></li>
 
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle game-maker-text-color" data-toggle="dropdown"> Game Maker <b class="caret"></b> </a>
-              <ul class="dropdown-menu">
-                <li><a href="#beginning-game-maker" class="game-maker-color">Beginning Game Maker</a></li>
-                <li><a href="#intermediate-game-maker" class="game-maker-color">Intermediate Game Maker</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle processing-text-color" data-toggle="dropdown"> Processing <b class="caret"></b> </a>
-              <ul class="dropdown-menu">
-                <li><a href="#khan-cs" class="processing-color">Khan Academy CS</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle java-text-color" data-toggle="dropdown"> Java <b class="caret"></b> </a>
-              <ul class="dropdown-menu">
-                <li><a href="#java-getting-started" class="java-color">Java: Getting Started</a></li>
-                <li><a href="#beginning-java" class="java-color">Beginning Java</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle flash-text-color" data-toggle="dropdown"> Flash <b class="caret"></b> </a>
-              <ul class="dropdown-menu">
-                <li><a href="#intro-to-flash-and-actionscript-3" class="flash-color">Intro to Flash and ActionScript 3</a></li>
-                <li><a href="#drawing-in-flash" class="flash-color">Drawing in Flash</a></li>
-                <li><a href="#animating-in-flash" class="flash-color">Animating in Flash</a></li>
-                <li><a href="#beginning-actionscript" class="flash-color">Beginning ActionScript</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle image-manipulation-text-color" data-toggle="dropdown"> GIMP <b class="caret"></b> </a>
-              <ul class="dropdown-menu">
-                <li><a href="#image-manipulation-intro" class="image-manipulation-color">Image Manipulation Intro</a></li>
-                <li><a href="#gimp-basics" class="image-manipulation-color">GIMP Basics</a></li>
-              </ul>
-            </li>
-            <li><a href="http://christensenacademy.org/blog">Blog</a></li>
-          </ul>
-        </div>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle game-maker-text-color" data-toggle="dropdown"> Game Maker <b class="caret"></b> </a>
+            <ul class="dropdown-menu">
+              <li><a href="#beginning-game-maker" class="game-maker-color">Beginning Game Maker</a></li>
+              <li><a href="#intermediate-game-maker" class="game-maker-color">Intermediate Game Maker</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle processing-text-color" data-toggle="dropdown"> Processing <b class="caret"></b> </a>
+            <ul class="dropdown-menu">
+              <li><a href="#khan-cs" class="processing-color">Khan Academy CS</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle java-text-color" data-toggle="dropdown"> Java <b class="caret"></b> </a>
+            <ul class="dropdown-menu">
+              <li><a href="#java-getting-started" class="java-color">Java: Getting Started</a></li>
+              <li><a href="#beginning-java" class="java-color">Beginning Java</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle flash-text-color" data-toggle="dropdown"> Flash <b class="caret"></b> </a>
+            <ul class="dropdown-menu">
+              <li><a href="#intro-to-flash-and-actionscript-3" class="flash-color">Intro to Flash and ActionScript 3</a></li>
+              <li><a href="#drawing-in-flash" class="flash-color">Drawing in Flash</a></li>
+              <li><a href="#animating-in-flash" class="flash-color">Animating in Flash</a></li>
+              <li><a href="#beginning-actionscript" class="flash-color">Beginning ActionScript</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle image-manipulation-text-color" data-toggle="dropdown"> GIMP <b class="caret"></b> </a>
+            <ul class="dropdown-menu">
+              <li><a href="#image-manipulation-intro" class="image-manipulation-color">Image Manipulation Intro</a></li>
+              <li><a href="#gimp-basics" class="image-manipulation-color">GIMP Basics</a></li>
+            </ul>
+          </li>
+          <li><a href="http://christensenacademy.org/blog">Blog</a></li>
+        </ul>
       </div>
     </div>
   </div>
