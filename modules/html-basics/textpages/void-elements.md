@@ -6,8 +6,10 @@ In English, "void" generally alludes to the idea of nothingness. In the case of 
 
 ###Some Examples of "Empty" (Void) Elements
 ```html
-<img src="smiley.jpg">
-<hr>
-<br>
-<meta name="author" content="Cameron Christensen">
+<hr>                  <!-- Horizontal Rule: Creates a horizontal rule (line) across the page. -->
+<br>                  <!-- Break: Creates an extra vertical space on the page. -->
+<a href="ipsum.html"> <!-- Anchor: Creates a hyperlink to another resources on the Web (usually another webpage). -->
+  Lorem
+</a>
+<img src="ipsum.png"> <!-- Image: Makes an image appear on the page -->
 ```
