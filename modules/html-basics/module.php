@@ -12,11 +12,11 @@ $module_challenges = array(
   new challenge('list-challenge.md', 'List Challenge', '22', '84'),
   new challenge('self-assessment.md', 'Self Assessment', '108', '166'),
   new challenge('absolute-path-challenge.md', 'Absolute Path Challenge', '176', '241'),
-  # new challenge('zip-challenge.md', 'Zip Challenge', '109', '222'),
-  # new challenge('meta-challenge.md', 'Meta Challenge', '39', '272'),
-  # new challenge('html-entities-challenge.md', 'HTML Entities Challenge', '205', '253'),
-  # new challenge('relative-path-challenge.md', 'Relative Path Challenge', '152', '292'),
-  # new challenge('validation-challenge.md', 'Validation Challenge', '212', '364'),
+  new challenge('zip-challenge.md', 'Zip Challenge', '109', '222'),
+  new challenge('meta-challenge.md', 'Meta Challenge', '39', '272'),
+  new challenge('html-entities-challenge.md', 'HTML Entities Challenge', '205', '253'),
+  new challenge('relative-path-challenge.md', 'Relative Path Challenge', '152', '292'),
+  new challenge('validation-challenge.md', 'Validation Challenge', '212', '364'),
   new challenge('../projects/website-project.md', 'Website Project', '125', '420')
 );
 
