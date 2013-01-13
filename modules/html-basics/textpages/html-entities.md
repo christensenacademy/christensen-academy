@@ -1,7 +1,9 @@
 #HTML Entities
-Some characters in HTML are "reserved" because they carry special meaning in the eyes of the web browser. For example `<` and `>` are reserved characters because they signal the start and end of tags. Other characters, such as the copyright symbol, are "special" characters that we might like to have show up on our webpages. **HTML entities** provide developers a way to get reserved and special character to appear on their webpages.
+Some characters in HTML are "reserved" because they carry special meaning in the eyes of the web browser. For example `<` and `>` are reserved characters because they signal the start and end of tags. Other characters, such as the copyright symbol, are "special" characters that we might like to have show up on our webpages.
 
-All html entities look like `&*;` where `*` is a sequence of alphanumeric characters.
+**HTML entities** provide developers a way to get reserved and special character to appear on their webpages.
+
+All html entities look like `&*;` where `*` is a sequence of alphanumeric characters. Take a look at these examples:
 
 ```html
 &amp;   <!-- ampersand -->
