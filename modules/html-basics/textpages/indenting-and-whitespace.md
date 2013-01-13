@@ -1,9 +1,11 @@
 #Indenting and Whitespace
+
+###Whitespace
 Browsers ignore whitespace when they interpret your code. The term "whitespace" refers to spaces, tabs, newlines, and all other characters that don't visibly appear in your code.
 
-###Two Examples that would Display the Same
+####Two Examples that would Display the Same
 
-####Example 1
+#####Example 1
 ```html
 <body>
         <p>This                             is    
@@ -13,17 +15,17 @@ Browsers ignore whitespace when they interpret your code. The term "whitespace" 
               </p></body>
 ```
 
-####Example 2
+#####Example 2
 ```html
 <body><p>This is a sentence.</p></body>
 ```
 
-##Indentation
+###Indentation
 Although browsers don't care about whitespace, you should. Properly indenting is essential for developers to understand their own code and avoid making basic syntax errors, such as forgetting or mistyping a closing tag.
 
 Also, indenting is easy once you get used to it. The only rule is that child elements are indented inside of their parent elements.
 
-##Good Indentation Example
+####Good Indentation Example
 ```html
 <!DOCTYPE html>
 <html>
@@ -60,7 +62,7 @@ Also, indenting is easy once you get used to it. The only rule is that child ele
   </body>
 </html>
 ```
-##Bad Indentation Example
+####Bad Indentation Example
 ```html
 <!DOCTYPE html>
 <html>
