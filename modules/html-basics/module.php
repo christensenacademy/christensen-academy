@@ -61,6 +61,7 @@ $module_textpages = array(
   new textpage('comments-in-html.md', 'Comments in HTML'),
   new textpage('lorem-ipsum.md', 'Lorem Ipsum'),
   new textpage('basic-html-elements.md', 'Basic HTML Elements'),
+  new textpage('void-elements.md', 'Void Elements'),
   new textpage('lists.md', 'Lists'),
   new textpage('indenting-and-whitespace.md', 'Indenting and Whitespace'),
   new textpage('common-mistakes.md', 'Common Mistakes'),
