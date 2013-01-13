@@ -3,7 +3,7 @@ Comments in html are completely ignored by browsers. Developers use them to leav
 
 Comments always start with `<!--` and end with `-->`.
 
-###Examples of Comments
+###Example
 ```html
 <!-- TODO: Fix broken links -->
 <p>
