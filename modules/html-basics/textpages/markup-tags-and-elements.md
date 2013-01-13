@@ -40,21 +40,4 @@ Tags provide meaning to a browser by creating HTML elements. Most elements requi
 </ul>
 ```
 
-Closing tags are easy to spot because they have a forward slash before their name (e.g., `</p>`). You'll also notice that it is possible to have HTML elements inside of other HTML elements. In the example above, there are several *child* `li` elements inside of a *parent* `ul` element. Whenever we have a hierarchical system of children inside of parents like this, we use the word *nested* to describe the structure. In this example, the `li` elements were *nested* inside of the `ul` elements. Whenever nesting occurs, it is important to [indent your code](#indentation) correctly.
-
-###Some Examples of "Empty" (Void) Elements
-```html
-<img src="smiley.jpg">
-<hr>
-<br>
-<meta name="author" content="Cameron Christensen">
-```
-
-Not all elements have both opening and closing tags. Some just have opening tags. In the examples above, notice that these opening tags have no closing tags. Because of this, there is no possible way to put any content (either text nodes or other elements) "in" these elements. Normal elements have text or other elements in them, but empty (void) elements in HTML have no content whatsoever, which is why they're called empty.
-
-```html
-<!-- TODO: Fix broken links -->
-<p>
-  The best soda is <a href="http://christensenacademy.org/mountaindew.hmlt">Mountain Dew</a>.
-</p>
-```
+**Note:** Closing tags are easy to spot because they have a forward slash before their name (e.g., `</p>`). You'll also notice that it is possible to have HTML elements inside of other HTML elements. In the example above, there are several *child* `li` elements inside of a *parent* `ul` element. Whenever we have a hierarchical system of children inside of parents like this, we use the word *nested* to describe the structure. In this example, the `li` elements were *nested* inside of the `ul` elements. Whenever nesting occurs, it is important to [indent your code](#indentation) correctly.
