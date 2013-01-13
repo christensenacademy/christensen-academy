@@ -30,7 +30,7 @@ Most text editors attempt to display code in a colorful fashion that helps you m
 <!DOCTYPE html>
 <html>
   <head>
-    // this is a comment
+    <!-- this is a comment -->
     <title>Example Webpage</title>
   </head>
   <body>
@@ -44,7 +44,7 @@ Most text editors attempt to display code in a colorful fashion that helps you m
 <!DOCTYPE html>
 <html>
   <head>
-    // this is a comment
+    <!-- this is a comment -->
     <title>Example Webpage</title>
   </head>
   <body>
