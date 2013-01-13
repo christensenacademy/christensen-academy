@@ -1,148 +1,15 @@
-#HTML Basics
-HTML (Hypertext Markup Language) is the code that a web designer or developer writes to create the basic content of a webpage. Most webpages are also composed of CSS and JavaScript, but this document only discusses basic HTML.
+#Lorem Ipsum
+[Lorem Ipsum](http://www.lipsum.com/) is temporary "dummy" or "filler" text used by Web developers when creating websites. Using lorem ipsum allows designers to focus on making a website look good without worrying about creating the actual content of the website. Later on, the content can be changed from lorem ipsum to the actual content of the site.
 
-**Key Idea:** HTML is just plain text code that can be written in a simple text editor.
+**Note:** Although lorem ipsum looks a bit like latin, it is really just dummy text void of meaning.
 
-**Key Idea:** Web browser programs--Firefox, Chrome, Safari, IE, etc.--must read and interpret HTML, CSS, and JavaScript in order to display webpages to people browsing the Web.
+###Example of Lorem Ipsum Text
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in felis ornare leo sodales viverra. Mauris posuere lorem eu ipsum porttitor a tempus odio laoreet. Nunc congue dui eu tellus iaculis congue. Duis eleifend ligula iaculis quam tincidunt condimentum sollicitudin turpis pulvinar. Nunc purus mi, aliquam eget sagittis a, bibendum nec sapien. Sed facilisis, mi rhoncus iaculis ultricies, dolor tortor aliquet purus, et elementum augue odio et nunc. Mauris sed dolor elit, congue aliquet felis. Fusce pretium tellus sed ligula lacinia ac tincidunt leo ornare. Integer rutrum felis quis velit tincidunt ut vulputate justo mattis. Etiam quis erat nunc, vitae ullamcorper libero. Praesent bibendum pharetra semper. Aenean vel risus non ligula eleifend pretium nec non diam. Sed orci tortor, lobortis vitae ultricies a, euismod eget nibh. Vivamus urna lacus, faucibus id aliquam vitae, elementum dignissim lectus. Etiam sed mauris eros, placerat tincidunt urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
-##Markup, Tags, and Elements
-HTML is built on the ideas of elements and tags, which are used to *describe* the content of a webpage. For example, instead of just writing `Christensen Academy` at the top of the HTML file for my website, I had to write `<h1>Christensen Academy</h1>`. The `<h1>` and `</h1>` are called **tags**. The entire `<h1>Christensen Academy</h1>` is called an element.
+Donec convallis lacus id diam consequat non faucibus elit posuere. Nam lectus magna, elementum sit amet scelerisque egestas, dictum ac lectus. Cras mollis adipiscing nulla, at consectetur leo ultricies non. Suspendisse hendrerit turpis a massa venenatis dictum sodales odio auctor. Nulla molestie auctor tortor, non accumsan quam cursus et. Donec quis sem ante. Nunc felis sapien, ultricies quis laoreet eget, auctor vel lacus. Ut rhoncus congue nibh, ac vestibulum dui viverra et. Vestibulum imperdiet lectus vitae nisi ultrices feugiat. Integer massa dui, lacinia et luctus sit amet, luctus at elit. Quisque quam urna, aliquam quis aliquam ut, placerat at augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed sem nisi, fermentum a pretium vitae, vehicula ut neque. Nullam pharetra, massa at imperdiet eleifend, ante sem fringilla ante, eget sodales nibh metus vitae felis.
 
-In HTML, a tag looks like `<*>`, where the * can be any number of characters. For example, in HTML there is a `<body>` tag that has special meaning to a browser. I could invent my own tags--`<dakota>`, `<mountaindew code="red">`, and `<kowabunga dudes>`--but tags I make up that aren't part of the official HTML specification wouldn't mean anything to a browser.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed velit purus. Nunc non neque non nisi luctus eleifend sed ut sapien. Phasellus felis ipsum, luctus eget aliquet bibendum, vehicula eu nisl. Aenean interdum ligula id risus auctor et malesuada ipsum pretium. Ut at justo velit, et pellentesque odio. Suspendisse condimentum malesuada nisl, nec tempus libero consectetur ut. Vivamus nec mauris quis mi vestibulum molestie ac quis metus. Curabitur dignissim ullamcorper commodo. Proin neque lacus, commodo aliquam dictum ac, tincidunt eu lorem. In velit libero, ultrices vel posuere in, cursus id ligula. Quisque vehicula consectetur erat at vestibulum. Ut eu tellus sed leo consectetur faucibus sit amet venenatis mi. Duis et tristique est. Ut id arcu sit amet leo pretium aliquet at eu quam. Ut metus velit, condimentum non imperdiet id, sagittis a lorem.
 
-Tags provide meaning to a browser by creating HTML elements. Most elements require two tags, an opening and a closing tag, as shown below.
+Nunc elementum dignissim felis, eu bibendum metus congue vitae. Nam mauris metus, vestibulum posuere feugiat a, congue sed neque. Pellentesque leo sem, mollis a viverra sed, vestibulum vel sapien. Morbi varius tempus justo nec sollicitudin. Sed mattis, urna at congue congue, nulla leo placerat lacus, condimentum fermentum eros urna ac augue. Proin tellus erat, egestas pretium aliquet a, ullamcorper at lacus. Duis vel purus lectus. Phasellus tempus luctus purus.
 
-###Some Examples of "Normal" Elements
-```html
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-<h1>Nam Ut Orci</h1>
-<ul>
-  <li><a href="index.html">Lorem</a></li>
-  <li>Ipsum</li>
-  <li>Dolor</li>
-</ul>
-```
-
-Closing tags are easy to spot because they have a forward slash before their name (e.g., `</p>`). You'll also notice that it is possible to have HTML elements inside of other HTML elements. In the example above, there are several *child* `li` elements inside of a *parent* `ul` element. Whenever we have a hierarchical system of children inside of parents like this, we use the word *nested* to describe the structure. In this example, the `li` elements were *nested* inside of the `ul` elements. Whenever nesting occurs, it is important to [indent your code](#indentation) correctly.
-
-###Some Examples of "Empty" (Void) Elements
-```html
-<img src="smiley.jpg">
-<hr>
-<br>
-<meta name="author" content="Cameron Christensen">
-```
-
-Not all elements have both opening and closing tags. Some just have opening tags. In the examples above, notice that these opening tags have no closing tags. Because of this, there is no possible way to put any content (either text nodes or other elements) "in" these elements. Normal elements have text or other elements in them, but empty (void) elements in HTML have no content whatsoever, which is why they're called empty.
-
-##Lorem Ipsum
-[Lorem Ipsum](http://www.lipsum.com/) text was used in moderate amounts in the examples above. It looks a bit like latin but is really just dummy text. It has no meaning, but its purpose is to serve as a placeholder during the web development process until the real cotent for the website is created.
-
-##HTML Comments
-Comments in html are completely ignored by browsers. Developers use them to leave notes to themselves and to other developers.
-
-Comments always start with `<!--` and end with `-->`.
-
-###Examples of Comments
-```html
-<!-- TODO: Fix broken links -->
-<p>
-  The best soda is <a href="http://christensenacademy.org/mountaindew.hmlt">Mountain Dew</a>.
-</p>
-```
-
-##Basic Structure of a Webpage
-```html
-<!-- The DOCTYPE tag lets the browser know which version of HTML you page was written in. -->
-<!DOCTYPE html> <!-- This is the HTML5 doctype -->
-
-<!-- The html element is the parent element to all other elements on your page. NOTE: It only has 
-two direct children (head and body), but these children have many children within them. -->
-<html>
-  
-  <!-- The head element is the parent element to elements that provide extra information about the 
-  page but that don't actually display on the page. Examples of such elements include title and meta
-  elements -->
-  <head>
-  
-    <!-- The title element displays in the tab of the browser above the webpage. It is also used by 
-    search engines to return search results -->
-    <title>Example Webpage</title>
-  </head>
-  
-  <!-- The body element contains all of the elements that will display on the page. -->
-  <body>
-
-  </body>
-</html>
-```
-
-##Basic HTML Elements
-
-```html
-<p>Lorem Ipsum</p>    <!-- The paragraph element is used whenever you want a paragraph of text on your webpage. -->
-<h1>Lorem Ipsum</h1>  <!-- The h1 element is used whenever you want a very important heading on your page.
-                          By default it displays the largest of all of the headings. -->
-<h2>Lorem Ipsum</h2>  <!-- The h2 element is interpreted to have slightly less importance than an h1 element.
-                          By default it displays slightly smaller than an h1. -->
-<h3>Lorem Ipsum</h3>
-<h4>Lorem Ipsum</h4>
-<h5>Lorem Ipsum</h5>
-<h6>Lorem Ipsum</h6>  <!-- The h2 element is the least significant (displays smallest) heading element. -->
-<hr>                  <!-- Horizontal Rule: Creates a horizontal rule (line) across the page. -->
-<br>                  <!-- Break: Creates an extra vertical space on the page. -->
-<ul>                  <!-- Unordered List: Creates a bulleted list. -->
-  <li>lorem</li>      <!-- List Item: Creates a list item inside of a list. -->
-  <li>ipsum</li>
-</ul>
-<ol>                  <!-- Ordered List: Creates a numbered list. -->
-  <li>lorem</li>
-  <li>ipsum</li>
-</ol>
-<a href="ipsum.html"> <!-- Anchor: Creates a hyperlink to another resources on the Web (usually another webpage). -->
-  Lorem
-</a>
-<img src="ipsum.png"> <!-- Image: Makes an image appear on the page -->
-```
-
-##Lists
-List in HTML come in a few different varieties. The main two types are *ordered* and *unordered*.
-```html
-<!-- This is an ordered list -->
-<ol>
-  <li>Lorem Ipsum</li> <!-- This is a list item element. -->
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
-</ol>
-
-<!-- This is an unordered list -->
-<ul>
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
-</ul>
-```
-###Nested (Multi-Level) Lists
-Lists can occur inside of lists. When this happens, simply put the child list inside of one of the list items of the parent.
-```html
-<ul>
-  <li>Lorem Ipsum</li>
-  <li>
-    Lorem Ipsum
-    <ul>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-    </ul>
-  </li>
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
-</ul>
-```
+Vestibulum bibendum venenatis lacus sed tristique. Morbi faucibus, diam quis aliquet sagittis, tortor enim tempor erat, nec ultricies felis velit sed ipsum. Fusce tempus massa in dui consectetur consequat. Nulla fermentum nibh non risus lobortis quis blandit sem lacinia. Nunc pellentesque, tortor eget vehicula aliquam, lectus eros auctor turpis, vitae ultrices leo lectus vitae dui. Integer turpis odio, facilisis eget laoreet ut, euismod nec quam. Quisque euismod purus lorem. Donec elementum tristique mauris sit amet tempor. Donec a nisi non dolor blandit vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas dignissim justo id turpis egestas sit amet tincidunt diam lacinia. Donec viverra ornare urna, nec imperdiet urna vestibulum sit amet. Suspendisse pretium tincidunt purus sed accumsan. Nullam ipsum velit, aliquam eget dapibus sed, commodo ac augue. Donec erat metus, fringilla gravida pharetra sed, porttitor sit amet magna.
