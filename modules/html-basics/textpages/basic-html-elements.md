@@ -38,8 +38,6 @@ two direct children (head and body), but these children have many children withi
 <h4>Lorem Ipsum</h4>
 <h5>Lorem Ipsum</h5>
 <h6>Lorem Ipsum</h6>  <!-- The h2 element is the least significant (displays smallest) heading element. -->
-<hr>                  <!-- Horizontal Rule: Creates a horizontal rule (line) across the page. -->
-<br>                  <!-- Break: Creates an extra vertical space on the page. -->
 <ul>                  <!-- Unordered List: Creates a bulleted list. -->
   <li>lorem</li>      <!-- List Item: Creates a list item inside of a list. -->
   <li>ipsum</li>
