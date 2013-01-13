@@ -40,4 +40,7 @@ Tags provide meaning to a browser by creating HTML elements. Most elements requi
 </ul>
 ```
 
-**Note:** Closing tags are easy to spot because they have a forward slash before their name (e.g., `</p>`). You'll also notice that it is possible to have HTML elements inside of other HTML elements. In the example above, there are several *child* `li` elements inside of a *parent* `ul` element. Whenever we have a hierarchical system of children inside of parents like this, we use the word *nested* to describe the structure. In this example, the `li` elements were *nested* inside of the `ul` elements. Whenever nesting occurs, it is important to [indent your code](#indentation) correctly.
+**Note:** Closing tags are easy to spot because they have a forward slash before their name (e.g., `</p>`).
+
+###Parents and Children
+You'll also notice that it is possible to have HTML elements inside of other HTML elements. In the example above, there are several *child* `li` elements inside of a *parent* `ul` element.
