@@ -1,7 +1,7 @@
 #HTML Basics
 HTML (Hypertext Markup Language) is code that a web designer or developer writes to create the basic content of a webpage. Most webpages are also composed of CSS and JavaScript, which enhance basic HTML by providing style and interactivity to the page. This document focuses only on basic HTML.
 
-**Key Idea:** HTML, CSS, and JavaScript are code (plain text) that has specific meaning to the Web browsers that read it--common browsers include IE, Firefox, Safari, Chrome, and Opera. In a sense, developing webpages is nothing more than writing out a bunch of instructions for browsers to follow. In HTML, these instructions take the form of [tags](#markup-tags-and-elements) and [attributes](#attributes).
+**Key Idea:** HTML, CSS, and JavaScript are code (plain text) that has specific meaning to the Web browsers that read it. In a sense, developing webpages is nothing more than writing out a bunch of instructions for Web browsers to follow. In HTML, these instructions take the form of [tags](#markup-tags-and-elements) and [attributes](#attributes).
 
 ##Markup, Tags, and Elements
 HTML (Hypertext *Markup* Language) is built on the ideas of tags and elements, which can more generally be called "markup." In HTML, a tag looks like `<*>`, where the * can be any number of characters. For example, in HTML there is a `<body>` tag that has special meaning to a browser. I could invent my own tags--`<dakota>`, `<mountaindew code="red">`, and `<kowabunga dudes>`--but tags I make up that aren't part of the official HTML specification wouldn't mean anything to a browser.
