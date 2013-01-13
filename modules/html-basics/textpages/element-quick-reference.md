@@ -25,7 +25,7 @@
     <li>lorem</li>
     <li>ipsum</li>
   </ol>
-  <a href="ipsum.html"> <!-- Anchor: Creates a hyperlink to another resources on the Web (usually another webpage). -->
+  <a href="ipsum.html"> <!-- Anchor: Hyperlink to another resources on the Web (usually another webpage). -->
     Lorem
   </a>
   <img src="ipsum.png" alt="lorem ipsum"> <!-- Image: Makes an image appear on the page -->
