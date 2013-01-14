@@ -1,3 +1,5 @@
+#Keyboard Shortcuts Challenge
+
 * **Challenge:** Try out each of [these useful keyboard shortcuts](https://github.com/christensenacademy/christensen-academy/blob/master/modules/html-basics/textpages/useful-keyboard-shortcuts.md). Figure out which ones you find useful.
 * **Estimated Time:** 20 minutes
 
