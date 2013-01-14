@@ -29,9 +29,10 @@ If the other resource is in the same folder as your HTML file, then just specify
 2 To go into a child folder, type `name_of_folder/`
 
 ###Examples of Relative Paths
-* A path from about.html to index.html: `index.html`
-* A path from candy_bars.html to twinkies.html: `twinkies.html`
-* A path from about.html to cam.html: `employees/cam.html`
-* A path from index.html to twinkies.html: `products/candy/twinkies.html`
-* A path from twinkies.html to index.html: `../../index.html`
-* A path from cam.html to twinkies.html: `../products/candy/twinkies.html`
+`index.html` is a path to a file called index.html in the same folder as the current file.
+
+`employees/cam.png` is a path to a file called cam.png in a folder called employees, which is in the same folder as the current file.
+
+`products/candy/sucker.html` is a path to a file called sucker.html, which is inside of a folder called candy, which is inside a folder called products, which is in the same folder as the current file.
+
+`../finances/cam.html` is a path that starts by going up out of the current folder to the parent folder. From there, the path goes into a folder called finances and points to a file named cam.html.
