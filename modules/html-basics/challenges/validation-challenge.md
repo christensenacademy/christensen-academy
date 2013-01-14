@@ -1,12 +1,5 @@
 #Validation Challenge
 
-Your challenge is to create four webpages using basic HTML that look like the four webpages shown in the [pictures provided](https://github.com/christensenacademy/christensen-academy/tree/master/modules/html-basics/challenges/replication-challenge).
+**Warning:** This challenge is unfinished.
 
-*Note*: Pay attention to the paths shown in Chrome's "omni bar" in the images provided. These paths reveal the correct folder structure for these webpages. For example, Page_A.html is in Folder-1.
-
-##Requirements
-* Correct folder structure
-* All elements accounted for on each page
-* Working links
-* Correct indentation
-* Error-free validation
+Your challenge is to fix up [this website]() until the [W3C validator](http://validator.w3.org/) shows no more errors on any of the pages.
