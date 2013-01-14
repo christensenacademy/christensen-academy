@@ -1,4 +1,4 @@
-#(UNFINISHED) Validation Challenge
+#Validation Challenge
 
 Your challenge is to create four webpages using basic HTML that look like the four webpages shown in the [pictures provided](https://github.com/christensenacademy/christensen-academy/tree/master/modules/html-basics/challenges/replication-challenge).
 
