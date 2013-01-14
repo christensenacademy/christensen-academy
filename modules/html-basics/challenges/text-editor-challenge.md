@@ -50,6 +50,3 @@ The text editor has a much different job than the browser. Instead of interpreti
 **Note:** By default, your computer probably won't open your HTML files in your text editor, so you'll probably need to right-click on them and choose "open with" to find your text editor. Alternatively, you can use the open option from the toolbar of your text editor, which would also work just fine. If you want to change your computers default behavior when you double-click on a file, you can. For that, I'll let Google be your guide.
 
 Again, the key idea is that whether you're opening your file in a text editor or a browser, **it is the same exact file.** Some people, I think, get confused thinking that they're somehow working with two separate files.
-
-###Another Important Concept to Understand
-The HTML files you create are not live on the Internet. They exist only on your computer, which other people cannot access. I've created [a whole module] to explain how World Wide Web actually works and how to get your webpages live on the Internet.
