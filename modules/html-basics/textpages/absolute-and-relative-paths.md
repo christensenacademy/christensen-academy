@@ -20,7 +20,7 @@ We can break this URL up into two main parts. The first part, `http://christense
 
 The second part, `img/logo.png` is the path to the resource on that server, which in this case is an image file. On the server for the Christensen Academy is a folder called img, and in that folder is the file logo.png. This should make a bit more sense if you understand how relative paths work.
 
-##Relative Path
+##Relative Paths
 Relative paths specify the path to a resource on your site. When constructing a relative path, the goal is to describe how to get to the other resource.
 
 If the other resource is in the same folder as your HTML file, then just specify the file name (e.g., `href="lorem.png"`). If the other resource is in another folder, just follow these two rules:
