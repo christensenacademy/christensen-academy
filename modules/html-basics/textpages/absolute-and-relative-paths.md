@@ -9,7 +9,7 @@ These paths are often specified in an attribute of an element. Here are some exa
 <a href="reports/january_2013.pdf">Download the latest report.</a>
 ```
 ##URLs and Absolute Paths
-When you specify a path to a resource on the World Wide Web that isn't on your own website, you'll need to specify the *URL* (Uniform Resource Locator) for that resource. We call this type of link an *absolute* link. Of course, you can also specify paths to resources on your own site using absolute paths, but when resources are on your own site, it usually makes more senes to use a [relative path](#relative-paths) instead.
+When you specify a path to a resource on the World Wide Web that isn't on your own website, you'll need to specify the *URL* (Uniform Resource Locator) for that resource. We call this type of path an *absolute* path.
 
 ##URLs
 URLs (Uniform Resource Locators), provide all of the information necessary to locate a resource on the World Wide Web.
@@ -21,9 +21,12 @@ We can break this URL up into two main parts. The first part, `http://christense
 The second part, `img/logo.png` is the path to the resource on that server, which in this case is an image file. On the server for the Christensen Academy is a folder called img, and in that folder is the file logo.png. This should make a bit more sense if you understand how relative paths work.
 
 ##Relative Path
-Relative paths specify the path to a resource on your site. When constructing a relative path, the goal is to describe how to get to the other resource. If the other resource is in the same folder as your HTML file, then just specify the file name (e.g., `href="lorem.png"`). If the other resource is in another folder, just follow these two rules:
-* To go up to a parent folder, type `../`
-* To go into a child folder, type `name_of_folder/`
+Relative paths specify the path to a resource on your site. When constructing a relative path, the goal is to describe how to get to the other resource.
+
+If the other resource is in the same folder as your HTML file, then just specify the file name (e.g., `href="lorem.png"`). If the other resource is in another folder, just follow these two rules:
+
+1 To go up to a parent folder, type `../`
+2 To go into a child folder, type `name_of_folder/`
 
 All of the examples in this section will be based off of the following folder structure ([actual files found here](https://github.com/christensenacademy/web-design-intro/tree/master/1_HTML_basics/relative-links)):
 
