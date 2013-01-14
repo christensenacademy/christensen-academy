@@ -17,6 +17,6 @@ If you want to learn about programming, go to the <a href="http://christensenaca
 ####Email Link
 ```html
 <a href="mailto:lorem@ipsum.com?subject=Kowabunga!"> <!-- the ?subjet= part is optional -->
-  Email Homer
+  Email Lorem
 </a>
 ```
