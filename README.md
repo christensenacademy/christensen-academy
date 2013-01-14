@@ -4,7 +4,7 @@ The [Christensen Academy](http://christensenacademy.org) is a project I started 
 
 To date, the main feature of the site has been the YouTube videos I've been recording. However, I've also begun building challenge maps and textpages (reference guides) to supplement the video playlists for each learning module.
 
-The content of the challenge maps and textpages written in markdown, which you can see in the module folders.
+The content of the challenge maps and textpages is written in markdown, which you can see in the module folders.
 
 Please send me an email at cameron@christensenacademy.org if you're interested in this project.
 
