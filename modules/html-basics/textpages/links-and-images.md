@@ -3,7 +3,7 @@ The anchor (`a`) element is used for creating hyperlinks to resources on the Wor
 
 **Note:** Every anchor element needs an `href` attribute with a path (relative or absolute) as a value.
 
-##Examples of the Anchor Element
+###Examples of the Anchor Element
 ```html
 <!-- an example of turning text into a hyperlink -->
 If you want to learn about programming, go to the <a href="http://christensenacademy.org"> Christensen Academy </a>
@@ -14,14 +14,14 @@ If you want to learn about programming, go to the <a href="http://christensenaca
 </a>
 ```
 
-##Email Link
+####Email Link
 ```html
 <a href="mailto:lorem@ipsum.com?subject=Kowabunga!"> <!-- the ?subjet= part is optional -->
   Email Homer
 </a>
 ```
 
-#Image Element
+##Image Element
 The image element uses links just like the anchor element, but instead of creating a hyperlink, it displays the image on the page.
 
 ```html
@@ -30,7 +30,7 @@ The image element uses links just like the anchor element, but instead of creati
                                                             absolute just like anchor elements -->
 ```
 
-##Alt Attribute
+###Alt Attribute
 The alt attribute is used to provide a short description of the image. This might seem unnecessary, but it is essential in order to make your page accessible to blind people.
 
 ```html
