@@ -3,8 +3,6 @@
 * **Challenge:** Copy the code below to create a new webpage. Follow the instructions in the comments of the code to make absolute paths for links and images work properly. 
 * **Estimated Time:** 25 minutes
 
-##Getting Started
-
 ```html
 <!DOCTYPE html>
 <html>
@@ -33,6 +31,6 @@
 </html>
 ```
 
-##Friendly Advice
+###Friendly Advice
 
 * Make sure that you use the `src` attribute for *img* elements and the `href` attribute for *a* (anchor or "link") elements.
