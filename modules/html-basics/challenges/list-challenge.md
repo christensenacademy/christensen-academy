@@ -1,9 +1,11 @@
+#HTML List Challenge
+
 * **Challenge:** Create a webpage with a top 5 list about something you find interesting.
 * **Estimated Time:** 20 minutes
 
 ##Example
 
-![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/html-basics/challenges/list-challenge.png)
+![](http://christensenacademy.org/modules/html-basics/challenges/list-challenge.png)
 
 ##Requirements
 * An appropriate title element (don't confuse this with a heading element)
@@ -12,4 +14,4 @@
 * Proper indentation
 
 ##Friendly Advice
-* Focus on proper code indentation. Get used to doing it right from the very beginning. As you learn more HTML and CSS, this will get more and more important. It's a readability issue. If you don't indent properly, your code will become unreadable.
+Focus on proper code indentation. Get used to doing it right from the very beginning. As you learn more HTML and CSS, this will get more and more important. It's a readability issue. If you don't indent properly, your code will become unreadable.
