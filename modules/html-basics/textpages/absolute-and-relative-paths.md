@@ -28,29 +28,6 @@ If the other resource is in the same folder as your HTML file, then just specify
 1 To go up to a parent folder, type `../`
 2 To go into a child folder, type `name_of_folder/`
 
-All of the examples in this section will be based off of the following folder structure ([actual files found here](https://github.com/christensenacademy/web-design-intro/tree/master/1_HTML_basics/relative-links)):
-
-```html
-<!-- Note: Not real html. Think of this as a diagram describing a folder structure. -->
-<folder name="relative-links">
-  <folder name="employees">
-    <resource type="webpage" name="cam.html">
-    <resource type="webpage" name="eric.html">
-  </folder>
-  <folder name="products">
-    <folder name="candy">
-      <resource type="webpage" name="candy_bars.html">
-      <resource type="webpage" name="twinkies.html">
-    </folder>
-    <folder name="electronics">
-      <resource type="webpage" name="computers.html">
-      <resource type="webpage" name="electric_violins.html">
-    </folder>
-  </folder>
-  <resource type="webpage" name="about.html">
-  <resource type="webpage" name="index.html">
-</folder>
-```
 ###Examples of Relative Paths
 * A path from about.html to index.html: `index.html`
 * A path from candy_bars.html to twinkies.html: `twinkies.html`
