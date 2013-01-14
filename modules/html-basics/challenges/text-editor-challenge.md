@@ -1,3 +1,5 @@
+#Text Editor Challenge
+
 * **Challenge:** Download and install a new text editor that you can use to write your HTML code, then use it to create a new webpage.
 * **Estimated Time:** 25 minutes
 
