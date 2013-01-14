@@ -1,5 +1,5 @@
 #Anchor Element
-Use this element for creating hyperlinks to resources on the World Wide Web. If the resource is another webpage, the new page will appear in the browser. If the resource is something else, say a PDF document or computer program, the browser will likely download the document and allow an external application to open it, but that is up to the browser. For example, some browsers open PDF documents and display them themselves while others have an external program (Adobe Reader) open them.
+The anchor (`a`) element is used for creating hyperlinks to resources on the World Wide Web. If the resource is another webpage, the new page will appear in the browser. If the resource is something else, say a PDF document or computer program, the browser will likely download the document and allow an external application to open it, but that is up to the browser. For example, some browsers open PDF documents and display them themselves while others have an external program (Adobe Reader) open them.
 
 The anchor element's name is just the letter `a`. Every anchor element needs an href attribute with a link (relative or absolute) as a value.
 
