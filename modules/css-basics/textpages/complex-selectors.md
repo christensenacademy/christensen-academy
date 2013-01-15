@@ -24,3 +24,16 @@ p span {
   color:green;
 }
 ```
+
+###Multiple Selectors
+
+If you want a CSS rule to apply to multiple selectors, separate the selectors by commas:
+
+```css
+/* In this example, the CSS applies to all elements with class "menu-item", all elements of type "p", and all
+   Span elements when the mouse is hovering over them. */
+.menu-item, p, span:hover {
+   background:black;
+   color:white;
+}
+```
