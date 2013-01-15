@@ -1,5 +1,7 @@
 #Color Challenge
 
+**Estimated Time:** 25 minutes
+
 Your challenge is to create two webpages that look like the following pictures while using **as little CSS as possible**:
 
 ###Page 1
