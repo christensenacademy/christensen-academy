@@ -11,9 +11,8 @@ $module_challenges = array(
   new challenge('color-challenge.md', 'Color Challenge', '48', '189'),
   new challenge('selectors-challenge.md', 'Selectors Challenge', '87', '198'),
   new challenge('pixel-percent-em-challenge.md', 'Pixel-Percent-EM Challenge', '160', '220'),
-  new challenge('text-challenge.md', 'Text Challenge', '105', '272'),
-  new challenge('font-challenge.md', 'Font Challenge', '165', '274'),
-  new challenge('site-remodelling-project.md', 'Site Remodelling Project', '128', '341'),
+  new challenge('text-and-font-properties-challenge.md', 'Text and Font Properties Challenge', '105', '272'),
+  new challenge('site-remodelling-project.md', 'Site Remodelling Project', '135', '344'),
 );
 
 $module_videos = array(
