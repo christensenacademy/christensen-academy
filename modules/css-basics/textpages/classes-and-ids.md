@@ -1,4 +1,4 @@
-#Class and Id Attributes.
+#Class and Id Attributes
 Class and id attributes help you have greater precision over which elements you select to style. For example, instead of styling *all* paragraphs the same using the *p* selector, you could style only some (using class attributes) or exactly one (using an id attribute) of the paragraphs.
 
 ###HTML
