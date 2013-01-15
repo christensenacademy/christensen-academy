@@ -72,4 +72,4 @@ Your challange is to add selectors to the CSS rules in the following webpage. Co
 
 If done correctly, your page should display like this (with a hover effect for the main heading):
 
-![](http://christensenacademy.org/modules/css-basics/challenges/selectors.png)
+![](http://christensenacademy.org/modules/css-basics/challenges/selectors-challenge.png)
