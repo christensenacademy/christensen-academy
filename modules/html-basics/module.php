@@ -17,7 +17,7 @@ $module_challenges = array(
   new challenge('html-entities-challenge.md', 'HTML Entities Challenge', '205', '253'),
   new challenge('relative-path-challenge.md', 'Relative Path Challenge', '152', '292'),
   new challenge('validation-challenge.md', 'Validation Challenge', '212', '364'),
-  new challenge('../projects/website-project.md', 'Website Project', '125', '420')
+  new challenge('../projects/website-project.md', 'Website Project', '135', '430')
 );
 
 $module_videos = array(
@@ -53,8 +53,6 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  new textpage('element-quick-reference.md', 'Element Quick Reference'),
-  new textpage('basic-html-template.md', 'Basic HTML Template'),
   new textpage('text-editors.md', 'Text Editors'),
   new textpage('useful-keyboard-shortcuts.md', 'Useful Keyboard Shortcuts'),
   new textpage('markup-tags-and-elements.md', 'Markup, Tags, and Elements'),
@@ -73,6 +71,7 @@ $module_textpages = array(
   new textpage('meta-tag.md', 'Meta Tag'),
   new textpage('html-entities.md', 'HTML Entities'),
   new textpage('validation.md', 'Validation'),
+  new textpage('element-quick-reference.md', 'Element Quick Reference'),
 );
 
 include('./modules/module-template.php');

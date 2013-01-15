@@ -7,12 +7,12 @@ $module_playlist = 'PLbdhPIoiglaUF8qcTJRfnWqzORnaIJwuI';
 
 $module_challenges = array(
   new challenge('three-types-of-css-challenge.md', 'Three Types of CSS Challenge', '115', '72'),  
-  # new challenge('css-validation-challenge.md', 'CSS Validation Challenge', '128', '138'),
+  new challenge('css-validation-challenge.md', 'CSS Validation Challenge', '128', '138'),
   new challenge('color-challenge.md', 'Color Challenge', '48', '189'),
-  # new challenge('selectors-challenge.md', 'Selectors Challenge', '87', '198'),
-  # new challenge('pixel-percent-em-challenge.md', 'Pixel-Percent-EM Challenge', '160', '220'),
-  # new challenge('text-challenge.md', 'Text Challenge', '105', '272'),
-  # new challenge('font-challenge.md', 'Font Challenge', '165', '274'),
+  new challenge('selectors-challenge.md', 'Selectors Challenge', '87', '198'),
+  new challenge('pixel-percent-em-challenge.md', 'Pixel-Percent-EM Challenge', '160', '220'),
+  new challenge('text-challenge.md', 'Text Challenge', '105', '272'),
+  new challenge('font-challenge.md', 'Font Challenge', '165', '274'),
   new challenge('site-remodelling-project.md', 'Site Remodelling Project', '128', '341'),
 );
 
@@ -36,6 +36,7 @@ $module_videos = array(
   new video('FhYgNI_0DiI', 'HTML Multiple Classes'),
   new video('C1-gW70Wszc', 'CSS Nested Selectors'),
   # Multiple Selectors
+  # Hover Effects
   new video('7GuBcFWlGVc', 'CSS Size Units (em, %, px, and pt)'),
   new video('nBgpS74f5Z4', 'CSS Text Properties'),
   new video('5Zt2KbxBqA4', 'CSS Basic Font Properties'),
@@ -49,7 +50,9 @@ $module_textpages = array(
   new textpage('three-types-of-css.md', 'The Three Types of CSS'),
   new textpage('css-comments.md', 'CSS Comments'),
   new textpage('rules-selectors-properties-values.md', 'Rules, Selectors, Properties, and Values'),
-  # new textpage('selectors-in-more-depth.md', 'Selectors in More Depth'),
+  new textpage('classes-and-ids.md', 'Classes and IDs'),
+  new textpage('complex-selectors.md', 'Complex Selectors'),
+  new textpage('hover-effects.md', 'Hover Effects'),
   new textpage('colors.md', 'Colors'),
   new textpage('px-pt-percent-em.md', 'px, pt, %, and em'),
   new textpage('the-cascade.md', 'The Cascade'),

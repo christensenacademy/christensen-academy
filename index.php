@@ -31,67 +31,43 @@
 <script src="js/showdown.js"></script>
 	</head>
 	<body>
-	<div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container-fluid">
-        <ul class="nav">
-          <li><a class="brand" href="#">Christensen Academy</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle cs-basics-text-color" data-toggle="dropdown"> CS Basics <b class="caret"></b> </a>
-            <ul class="dropdown-menu">
-              <li><a href="#computer-basics" class="cs-basics-color">Computer Basics</a></li>
-              <li><a href="#binary" class="cs-basics-color">Binary</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle web-text-color" data-toggle="dropdown"> Web <b class="caret"></b> </a>
-            <ul class="dropdown-menu">
-              <li><a href="#web-design-and-development-intro" class="web-color-color">Web Design and Development Intro</a></li>
-              <li><a href="#html-basics" class="web-color-color">HTML Basics</a></li>
-              <li><a href="#css-basics" class="web-color-color">CSS Basics</a></li>
-              <li><a href="#css-layouts" class="web-color-color">CSS Layouts</a></li>
-
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle game-maker-text-color" data-toggle="dropdown"> Game Maker <b class="caret"></b> </a>
-            <ul class="dropdown-menu">
-              <li><a href="#beginning-game-maker" class="game-maker-color">Beginning Game Maker</a></li>
-              <li><a href="#intermediate-game-maker" class="game-maker-color">Intermediate Game Maker</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle processing-text-color" data-toggle="dropdown"> Processing <b class="caret"></b> </a>
-            <ul class="dropdown-menu">
-              <li><a href="#khan-cs" class="processing-color">Khan Academy CS</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle java-text-color" data-toggle="dropdown"> Java <b class="caret"></b> </a>
-            <ul class="dropdown-menu">
-              <li><a href="#java-getting-started" class="java-color">Java: Getting Started</a></li>
-              <li><a href="#beginning-java" class="java-color">Beginning Java</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle flash-text-color" data-toggle="dropdown"> Flash <b class="caret"></b> </a>
-            <ul class="dropdown-menu">
-              <li><a href="#intro-to-flash-and-actionscript-3" class="flash-color">Intro to Flash and ActionScript 3</a></li>
-              <li><a href="#drawing-in-flash" class="flash-color">Drawing in Flash</a></li>
-              <li><a href="#animating-in-flash" class="flash-color">Animating in Flash</a></li>
-              <li><a href="#beginning-actionscript" class="flash-color">Beginning ActionScript</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle image-manipulation-text-color" data-toggle="dropdown"> GIMP <b class="caret"></b> </a>
-            <ul class="dropdown-menu">
-              <li><a href="#image-manipulation-intro" class="image-manipulation-color">Image Manipulation Intro</a></li>
-              <li><a href="#gimp-basics" class="image-manipulation-color">GIMP Basics</a></li>
-            </ul>
-          </li>
-          <li><a href="http://christensenacademy.org/blog">Blog</a></li>
-        </ul>
-      </div>
+  
+  <div style="position:fixed;right:0;top:0;left:0;z-index:1;">
+    <div class="nav-col">
+    </div>
+    <div class="nav-col">
+      <a rel="tooltip" title="Computer Basics" href="#computer-basics" class="cs-basics-background nav-item"></a>
+      <a rel="tooltip" title="Binary" href="#binary" class="cs-basics-background nav-item"></a>
+    </div>
+    <div class="nav-col">
+      <a rel="tooltip" title="Web Intro" href="#web-design-and-development-intro" class="web-background nav-item"></a>
+      <a rel="tooltip" title="HTML Basics" href="#html-basics" class="web-background nav-item"></a>
+      <a rel="tooltip" title="CSS Basics" href="#css-basics" class="web-background nav-item"></a>
+      <a rel="tooltip" title="CSS Layouts" href="#css-layouts" class="web-background nav-item"></a>
+    </div>
+    <div class="nav-col">
+      <a rel="tooltip" title="Beginning Game Maker" href="#beginning-game-maker" class="game-maker-background nav-item"></a>
+      <a rel="tooltip" title="Intermediate Game Maker" href="#intermediate-game-maker" class="game-maker-background nav-item"></a>
+    </div>
+    <div class="nav-col">
+    <a r  el="tooltip" title="Khan Academy CS" href="#khan-cs" class="processing-background nav-item"></a>
+    </div>
+    <div class="nav-col">
+      <a rel="tooltip" title="Java: Getting Started" href="#java-getting-started" class="java-background nav-item"></a>
+      <a rel="tooltip" title="Beginning Java" href="#beginning-java" class="java-background nav-item"></a>
+    </div>
+    <div class="nav-col">
+      <a rel="tooltip" title="Intro to Flash and ActionScript 3" href="#intro-to-flash-and-actionscript-3" class="flash-background nav-item"></a>
+      <a rel="tooltip" title="Drawing in Flash" href="#drawing-in-flash" class="flash-background nav-item"></a>
+      <a rel="tooltip" title="Animating in Flash" href="#animating-in-flash" class="flash-background nav-item"></a>
+      <a rel="tooltip" title="Beginning ActionScript" href="#beginning-actionscript" class="flash-background nav-item"></a>
+    </div>
+    <div class="nav-col">
+      <a rel="tooltip" title="Image Manipulation Intro" href="#image-manipulation-intro" class="image-manipulation-background nav-item"></a>
+      <a rel="tooltip" title="GIMP Basics" href="#gimp-basics" class="image-manipulation-background nav-item"></a>
+    </div>
+    <div class="nav-col">
+      <a rel="tooltip" title="Brain Teasers" href="#brain-teasers" class="brain-teasers-background nav-item""></a>
     </div>
   </div>
   
@@ -191,19 +167,13 @@
     <?php include('./modules/brain-teasers/module.php'); ?>
   </div>
 
-  <div class="container-fluid">
-    <div class="hero-unit" style="background:none">
-      <div class="row-fluid" style="text-align:right">
-        <div class="span10">
-          <p>It's not that we're so smart, it's just that we stay with problems longer.</p>
-          <h1>Goodbye, World!</h1>
-        </div>
-        <div class="span2">
-          <img src="img/logo112.png" width="112px" height="112px" alt="The Christensen Academy Logo">
-        </div>
-      </div>
-    </div>   
-  </div>
+
+  <p style="text-align:center;font-size:1.5em;padding:20px;">
+    It's not that we're so smart, it's just that we stay with problems longer.
+  </p>  
+  <p style="text-align:center;">
+    <a href="http://christensenacademy.org/blog">About</a>
+  </p>
   
   <div id="popup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-header">
@@ -214,9 +184,6 @@
       
     </div>
   </div>
-  
-  <a href="#" id="back-to-top">Back to Top</a>
-  
 
   <script>
     $('.challenge').tooltip({
@@ -224,6 +191,9 @@
     });
     $('.discussion-link').tooltip({
       placement: 'left'
+    });
+    $('.nav-item').tooltip({
+      placement: 'bottom'
     });
 
     $(document).ready(function(){

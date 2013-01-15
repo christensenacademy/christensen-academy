@@ -1,19 +1,23 @@
-#cs-basics, .cs-basics-color:hover { background: #3C29A3 !important;}
-#web, .web-color:hover { background: #1b54b0 !important;}
-#game-maker, .game-maker-color:hover { background: #499000 !important;}
-#processing, .processing-color:hover { background: #AE9300 !important;}
-#java, .java-color:hover { background: #C66D03 !important;}
-#flash, .flash-color:hover { background: #9E0800 !important;}
-#image-manipulation, .image-manipulation-color:hover { background: #5F219F !important;}
-#brain-teasers, .brain-teasers-color:hover { background: #666 !important;}
-.cs-basics-text-color { color: #3C29A3 !important;}
-.web-text-color { color: #1b54b0 !important;}
-.game-maker-text-color { color: #499000 !important;}
-.processing-text-color { color: #AE9300 !important;}
-.java-text-color { color: #C66D03 !important;}
-.flash-text-color { color: #9E0800 !important;}
-.image-manipulation-text-color { color: #5F219F !important;}
-.brain-teasers-text-color { color: #666 !important;}
+#cs-basics, .cs-basics-color:hover, .cs-basics-background { background: #3C29A3;}
+#web, .web-color:hover,  .web-background{ background: #1b54b0;}
+#game-maker, .game-maker-color:hover, .game-maker-background { background: #499000;}
+#processing, .processing-color:hover, .processing-background { background: #AE9300;}
+#java, .java-color:hover, .java-background { background: #C66D03;}
+#flash, .flash-color:hover, .flash-background { background: #9E0800;}
+#image-manipulation, .image-manipulation-color:hover, .image-manipulation-background { background: #5F219F;}
+#brain-teasers, .brain-teasers-color:hover, .brain-teasers-background { background: #666;}
+.cs-basics-text-color { color: #3C29A3;}
+.web-text-color { color: #1b54b0;}
+.game-maker-text-color { color: #499000;}
+.processing-text-color { color: #AE9300;}
+.java-text-color { color: #C66D03;}
+.flash-text-color { color: #9E0800;}
+.image-manipulation-text-color { color: #5F219F;}
+.brain-teasers-text-color { color: #666;}
+
+.nav-col {z-index:10;float:left;width:10%;height:1px}
+.nav-item {position:relative;height:13px;border-bottom:1px solid #333;display:block;z-index:20;}
+.nav-item:hover {background-color:#444;border-bottom-color:#888;}
 
 .module h3 small {color:#ccc}
 .module h3 {color:#eee; margin:1em 0;}
@@ -28,7 +32,7 @@ body {padding-top: 40px;}
 .module a:visited {color:#ddd;}
 .subject-area{padding-bottom:70px;}
 
-.module-subheading {color:#111 !important;margin:10px 0;font-size:1.25em;}
+.module-subheading {color:#111;margin:10px 0;font-size:1.25em;}
 
 .challenge-map {background-repeat:no-repeat;position:relative;}
 .challenge {min-height:16px;min-width:16px;background: url("../img/logo16-black.png") no-repeat;display:block;}
@@ -45,11 +49,7 @@ body {padding-top: 40px;}
 .textpages{list-style-type:none;margin-left:0;}
 .textpage-link{padding-left:8px;}
 
-#back-to-top{text-decoration:none;display:block;position:fixed;padding:8px;font-size:1em;background:#333;color:#ddd;bottom:20px;right:0px}
-#back-to-top:hover{background:#222;color:#fff;}
-
 @media (max-width: 979px) {
-  body {padding-top:0px;}
 }
 @media (max-width: 767px) {
   body{
