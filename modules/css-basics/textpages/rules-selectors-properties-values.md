@@ -1,5 +1,5 @@
 #CSS Rules
-When writing CSS, you are writing *rules* for the browser to follow.
+When writing CSS, you are writing *rules* for the browser to follow. Each rule is composed of *selectors*, *properties*, and *values*.
 
 ##Inline CSS Rules
 When writing inline CSS, a rule is simply contained in a style attribute for an element:
