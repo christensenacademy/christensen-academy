@@ -1,4 +1,11 @@
 #Selectors Challenge
-I still need to devise this challenge. My initial thoughts are that it should serve the purpose of helping students get more familiar with writing selectors.
 
-In particular, students should be able to see
+**WARNING:** This challenge has not been finished yet.
+
+**Estimated Time:** 25 minutes
+
+Your challange is to add selectors to the CSS rules in the following webpage. Comments have been left above each rule explaining what elements each rule should apply to.
+
+```html
+
+```
