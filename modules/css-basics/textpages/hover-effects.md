@@ -12,4 +12,10 @@ p:hover {
 h1 a:hover {
   text-decoration:none;
 }
+
+/* makes elements with class "crazy" have text color orange background color blue when the user hovers over them */
+.crazy:hover {
+  color:orange;
+  background:blue;
+}
 ```
