@@ -9,16 +9,18 @@ If you want to apply css to an element only if that element is a descendent (chi
 ```css
 /* In this example, the CSS applies to all elements of type "a" that are descendents (children,
    grandchildren, etc.) of the element with ID "lorem" */
-#lorem a {text-decoration:none;}
+#lorem a {
+   text-decoration:none;
+}
 
 /* In this example, the CSS applies to all elements of class "menu-item" that are descendents of the element 
    with ID "header" */
 #header .menu-item {
-  
+  background:#333;
 }
 
 /* In this example, the CSS applies to all elements of type "span" that are descendents of elements of type "p" */
 p span {
-  
+  color:green;
 }
 ```
