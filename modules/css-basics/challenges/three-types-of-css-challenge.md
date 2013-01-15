@@ -1,6 +1,10 @@
+#Three Types of CSS Challenge
+
+**Estimated Time:** 30 minutes
+
 Your challenge is to develop a webpage that uses all three types of CSS.
 
-Consider the following HTML document:
+Start by making a new HTML file using the following code:
 
 ```html
 <!DOCTYPE html>
@@ -20,13 +24,13 @@ Consider the following HTML document:
 </html>
 ```
 
-Your challenge is to add inline, embedded, and external CSS to this webpage in the following manner:
+Once you have the code above saved to an HTML file, add inline, embedded, and external CSS to this webpage in the following manner:
 
-##Inline
+###Inline
 Turn the background color of the body element blue. Turn the text of the h1 element white.
 
-##Embedded
+###Embedded
 Turn the background color of the h1 orange. Turn the background color of the paragraphs white.
 
-##External
+###External
 Turn the color of the paragraphs red.
