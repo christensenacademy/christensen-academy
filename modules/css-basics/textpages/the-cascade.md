@@ -1,5 +1,5 @@
 #The Cascade
-CSS stands for Cascading Style Sheets. It's easy to understand that "style sheets" refers to the idea of using external CSS files. "Cascading," however, is a bit trickier to understand. Basically, "the cascade" is a set of rules for figuring out which styles apply when there are conflicting styles. For example, what happens when one piece of CSS turns the color of some text blue and another piece of CSS turns the same text orange? How does the browser choose which styles to actually apply?
+Basically, "the cascade" is a set of rules for figuring out which styles apply when there are conflicting styles. For example, what happens when one piece of CSS turns the color of some text blue and another piece of CSS turns the same text orange? How does the browser choose which styles to actually apply?
 
 ##Step 1: Sort by Specificity
 The most important thing to understand about the cascade is that more specific pieces of CSS always take precedence over less specific pieces of CSS.
