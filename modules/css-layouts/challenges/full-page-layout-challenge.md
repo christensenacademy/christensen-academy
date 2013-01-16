@@ -1,3 +1,5 @@
+#Full Page Layout Challenge
+
 * **Challenge:** Achieve the result shown in the picture below. To create your column, you may use absolute positioning or a floating element. The choice is yours. Both ways will work.
 * **Estimated Time:** 70 minutes.
 
