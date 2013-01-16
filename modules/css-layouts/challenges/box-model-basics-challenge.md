@@ -1,3 +1,5 @@
+#Box Model Basics Challenge
+
 * **Challenge:** Make a webpage (shown below) that exercises your understanding of the CSS box model.
 * **Estimated Time:** 25 minutes.
 
@@ -31,7 +33,14 @@ While you should focus on precise replication of the picture above, don't forget
   </head>
   <body>
     <h1>Lorem Ipsum</h1>
-    <p>Aliquam elit leo, aliquet quis mattis eu, ultricies in odio. Sed porttitor, ligula in placerat tempus, tellus nunc accumsan nisi, a laoreet nulla diam sed neque. Praesent felis orci, <span>dignissim</span> non consectetur ac, fermentum id lectus. Duis neque tortor, molestie vel dictum vitae, lacinia nec nisi. Proin ut est eros. Proin commodo est vitae dui scelerisque semper. Integer ut tortor eu nisl interdum aliquet ac sit amet odio. Proin ut neque dolor. In non elementum massa. In non fringilla nibh. Suspendisse a tortor neque.</p>
+    <p>
+      Aliquam elit leo, aliquet quis mattis eu, ultricies in odio. Sed porttitor, ligula 
+      in placerat tempus, tellus nunc accumsan nisi, a laoreet nulla diam sed neque. Praesent 
+      felis orci, <span>dignissim</span> non consectetur ac, fermentum id lectus. Duis neque tortor, 
+      molestie vel dictum vitae, lacinia nec nisi. Proin ut est eros. Proin commodo est vitae dui 
+      scelerisque semper. Integer ut tortor eu nisl interdum aliquet ac sit amet odio. Proin ut 
+      neque dolor. In non elementum massa. In non fringilla nibh. Suspendisse a tortor neque.
+    </p>
     <div></div>
   </body>
 </html>
