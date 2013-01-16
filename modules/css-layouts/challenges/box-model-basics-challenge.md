@@ -5,7 +5,7 @@
 
 ###Make a Webpage that Looks like This 
 
-![This picture shows what your page should look like](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/box-model-basics-challenge.png)
+![This picture shows what your page should look like](http://christensenacademy.org/modules/css-layouts/challenges/box-model-basics-challenge.png)
 
 ####What the Picture doesn't Show
 
