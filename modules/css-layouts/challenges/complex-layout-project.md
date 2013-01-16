@@ -2,7 +2,6 @@
 
 * **Goal:** Your goal is to create a CSS layout that is used across all pages (at least 3) of your website.
 * **Purpose:** Deepen understanding of CSS layouts while creating a meaningful product.
-* **Collaboration:** This project may be done alone or in pairs. 
 * **Content:** I encourage you to improve upon a site you've previously created. If you're starting from scratch, see the suggested ideas below. If you want to stick to using lorem ipsum, that's fine too.
 * **Estimated Time:** 200 minutes.
 
