@@ -15,9 +15,6 @@
 * Other widths are fixed (pixel values).
 * Heights are all auto except for the last one, which needs a height to be explicitly set because it lacks content.
 
-###Friendly Advice
-While you should focus on precise replication of the picture above, don't forget to experiment as you go. Even if you miraculously get things to work the first time around, test yourself and your knowledge of how the box model works by trying something different. Take time to play around with things and really figure out how they work.
-
 ###Starter Code
 
 ```html
