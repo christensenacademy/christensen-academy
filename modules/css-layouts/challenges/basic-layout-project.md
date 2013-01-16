@@ -1,3 +1,5 @@
+#Basic Layout Project
+
 * **Goal:** Create a unique webpage using what you've learned about the CSS box model.
 * **Purpose:** Deepen understanding of the CSS box model.
 * **Content:** The focus should be on the style of the page, not the content. Because of this, I recommend using lorem ipsum text for all of the content. For images, I recommend sticking with abstract art that fits with your color scheme.
