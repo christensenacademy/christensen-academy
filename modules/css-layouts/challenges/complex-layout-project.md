@@ -5,7 +5,7 @@
 * **Content:** I encourage you to improve upon a site you've previously created. If you're starting from scratch, see the suggested ideas below. If you want to stick to using lorem ipsum, that's fine too.
 * **Estimated Time:** 200 minutes.
 
-###Rurbric
+###Stuff You Should Have
 
 * **Consistent Color Theme:** Hopefully it's obvious that you chose your colors carefully.
 * **Creativity / Uniqueness:** It should be clear that you experimented and tried new, innovative ways of manipulating the CSS box model.
