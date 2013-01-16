@@ -18,11 +18,11 @@ $module_challenges = array(
   new challenge('absolute-positioning-layout-challenge.md', 'Absolute Positioning Layout', '61', '298'),        
   new challenge('float-text-wrapping-challenge.md', 'Float: Text Wrapping', '129', '298'),
   new challenge('float-menu-challenge.md', 'Float: Menu', '168', '298'),
-  # new challenge('float-layout-challenge.md', 'Float: Layout', '200', '295'),
-  new challenge('faux-columns-challenge.md', 'Float: Faux Columns', '237', '300'),
+  new challenge('float-layout-challenge.md', 'Float: Layout', '204', '295'),
+  new challenge('faux-columns-challenge.md', 'Float: Faux Columns', '243', '300'),
   new challenge('full-page-layout-challenge.md', 'Full Page Layout', '178', '362'),
-  # new challenge('zen-garden-challenge.md', 'Zen Garden', '178', '388'),
-  new challenge('complex-layout-project.md', 'Complex Layout Project', '215', '375')
+  new challenge('zen-garden-challenge.md', 'Zen Garden', '194', '388'),
+  new challenge('complex-layout-project.md', 'Complex Layout Project', '228', '375')
 );
 
 $module_videos = array(
@@ -60,15 +60,15 @@ $module_textpages = array(
   new textpage('quick-reference.md', 'Quick Reference'),
   new textpage('span-vs-div.md', 'Span vs. Div'),
   new textpage('css-box-model.md', 'CSS Box Model'),
-  # new textpage('background-images.md', 'Background Images'),
-  # new textpage('normal-flow-block-vs-inline.md', 'Normal Flow (Block vs. Inline)'),
-  # new textpage('relative-positioning.md', 'Relative Positioning'),
-  # new textpage('absolute-positioning.md', 'Absolute Positioning'),
-  # new textpage('floating-elements.md', 'Floating Elements'),
-  # new textpage('simple-menu.md', 'Simple Menu'),
-  # new textpage('single-column-layout.md', 'Single-Colum Layout'),
-  # new textpage('multi-column-layout.md', 'Multi-Colum Layout'),
-  # new textpage('example-page-layout.md', 'Example Page Layout')
+  new textpage('background-images.md', 'Background Images'),
+  new textpage('normal-flow-block-vs-inline.md', 'Normal Flow (Block vs. Inline)'),
+  new textpage('relative-positioning.md', 'Relative Positioning'),
+  new textpage('absolute-positioning.md', 'Absolute Positioning'),
+  new textpage('floating-elements.md', 'Floating Elements'),
+  new textpage('simple-menu.md', 'Simple Menu'),
+  new textpage('single-column-layout.md', 'Single-Colum Layout'),
+  new textpage('multi-column-layout.md', 'Multi-Colum Layout'),
+  new textpage('example-page-layout.md', 'Example Page Layout')
 );
 
 

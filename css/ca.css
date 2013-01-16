@@ -18,12 +18,14 @@
 .nav-col {z-index:10;float:left;width:10%;height:1px}
 .nav-item {position:relative;height:13px;border-bottom:1px solid #333;display:block;z-index:20;}
 .nav-item:hover {background-color:#444;border-bottom-color:#888;}
+.active-link, .nav-item:active {background-color:#eee;border-bottom-color:#333;}
 
 .module h3 small {color:#ccc}
 .module h3 {color:#eee; margin:1em 0;}
 .module-header h3{font-size:200%;}
 
 body {padding-top: 40px;}
+a {cursor: url("../img/mouse-active.png"),auto;}
 .subject-area {margin: 0 12px 12px 12px;}
 .module {padding-top:50px;}
 .module a, .module a:link {color:#ddd;}

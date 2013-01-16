@@ -45,7 +45,6 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  new textpage('css-quick-reference.md', 'CSS Quick Reference'),
   new textpage('three-types-of-css.md', 'The Three Types of CSS'),
   new textpage('css-comments.md', 'CSS Comments'),
   new textpage('rules-selectors-properties-values.md', 'Rules, Selectors, Properties, and Values'),
@@ -57,6 +56,7 @@ $module_textpages = array(
   new textpage('the-cascade.md', 'The Cascade'),
   new textpage('font-and-text-properties.md', 'Font and Text Properties'),
   new textpage('pre-and-whitespace.md', 'Pre and Whitespace'),
+  new textpage('css-quick-reference.md', 'CSS Quick Reference'),
 );
 
 include('./modules/module-template.php');

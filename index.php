@@ -10,7 +10,6 @@
     <link rel="shortcut icon" href="img/logo16.png">
     <link rel="icon" type="image/png" Shref="http://example.com/myicon.png">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/colorbox.css" />
 		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 		<link href="css/ca.css" rel="stylesheet">
 <script type="text/javascript">
@@ -85,7 +84,6 @@
     </div>   
   </div>
   
-  
   <script>
     var updateDISQUS = function(module_name, thread_title, page_title){
       $('#discussion #myModalLabel').html(page_title);
@@ -99,6 +97,7 @@
       });
     };
   </script>
+  
   <div class="modal hide fade" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" id="discussion">
     <div class="modal-header">
       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -185,36 +184,57 @@
     </div>
   </div>
 
-  <script>
-    $('.challenge').tooltip({
-      placement: 'top'
-    });
-    $('.discussion-link').tooltip({
-      placement: 'left'
-    });
-    $('.nav-item').tooltip({
-      placement: 'bottom'
-    });
+<script>
 
-    $(document).ready(function(){
-      var converter = new Showdown.converter();
-      
-      $(".popupper").click(function(event){   
-        event.preventDefault();
-        var pathToChallenge = $(this).attr("data-link");
-        $('#popup-header').html($(this).attr("data-original-title"));
-        $.ajax({  
-          url: pathToChallenge,  
-          cache: false,
-          beforeSend: function() {
-            $('#popup-content').html("<img src='/img/loading.gif' />");
-          },
-          success: function(html) {
-            $('#popup-content').html(converter.makeHtml(html));
-          }
-        });
-      });
+function scrolledOver(elem){
+  var docViewTop = $(window).scrollTop();
+  var docViewBottom = docViewTop + $(window).height();
+
+  var elemTop = $(elem).offset().top;
+
+  return((elemTop <= docViewBottom) && (elemTop >= docViewTop));
+  
+};
+
+$(window).scroll(function(){
+  $('.module').each(function(){
+    if(scrolledOver(this)){
+      $('.nav-item').each(function(){$(this).removeClass('active-link');});
+      $('.nav-item[href*="#'+$(this).attr('id')+'"]').addClass('active-link');
+      return false;
+    }
+  });
+});
+
+$('.challenge').tooltip({
+  placement: 'top'
+});
+$('.discussion-link').tooltip({
+  placement: 'left'
+});
+$('.nav-item').tooltip({
+  placement: 'bottom'
+});
+
+$(document).ready(function(){
+  var converter = new Showdown.converter();
+  
+  $(".popupper").click(function(event){   
+    event.preventDefault();
+    var pathToChallenge = $(this).attr("data-link");
+    $('#popup-header').html($(this).attr("data-original-title"));
+    $.ajax({  
+      url: pathToChallenge,  
+      cache: false,
+      beforeSend: function() {
+        $('#popup-content').html("<img src='/img/loading.gif' />");
+      },
+      success: function(html) {
+        $('#popup-content').html(converter.makeHtml(html));
+      }
     });
-  </script>
+  });
+});
+</script>
 	</body>
 </html>

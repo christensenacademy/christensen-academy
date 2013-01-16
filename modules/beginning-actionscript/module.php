@@ -33,7 +33,7 @@ $module_challenges = array(
   new challenge('dodge-player-boundaries.md', 'Dodge: Player Boundaries', '248', '380'),
   new challenge('dodge-health-and-lives.md', 'Dodge: Health and Lives', '248', '412'),
   new challenge('dodge-projectiles.md', 'Dodge: Projectiles', '248', '445'),
-  new challenge('dodge-levels.md', 'Dodge: Levels', '248', '478'),
+  # new challenge('dodge-customize.md', 'Dodge: Customize', '248', '478'),
   new challenge('custom-game-project.md', 'Custom Game Project', '79', '456')
 );
 
@@ -82,13 +82,14 @@ $module_textpages = array(
   new textpage('keyboard-events.md', 'Keyboard Events'),
   new textpage('numbers.md', 'Numbers'),
   new textpage('strings.md', 'Strings'),
+  # new textpage('sounds.md', 'Sounds'),
   new textpage('arrays.md', 'Arrays'),
   new textpage('boolean-expressions.md', 'Boolean Expressions'),
   new textpage('if-statements.md', 'If Statements'),
   new textpage('while-loops.md', 'While Loops'),
   new textpage('for-loops.md', 'For Loops'),
   new textpage('timer-events.md', 'Timer Events'),
-  new textpage('frame-events.md', 'Frame Events')
+  new textpage('frame-events.md', 'Frame Events'),
 );
 
 include('./modules/module-template.php');

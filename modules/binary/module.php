@@ -6,13 +6,13 @@ $map_height = '159';
 $module_playlist = 'PL468E998CB5692EFA';
 
 $module_challenges = array(
-  new challenge('binary-decimal-hexadecimal-conversions.md', 'Binary Decimal Hexadecimal Conversions', '29', '36'),
-  new challenge('add-and-subtract-twos-compliment.md', 'Add and Subtract with Twos Compliment', '68', '52'),
-  new challenge('floating-point-practice.md', 'Floating Point Practice', '30', '72'),
-  new challenge('youtf.md', 'YouTF', '12', '116'),
-  new challenge('bitmap-builder.md', 'Bitmap Builder', '33', '122'),
-  new challenge('waveform-analysis.md', 'Waveform Analysis', '59', '144'),
-  new challenge('quiz.md', 'Quiz', '34', '181'),
+  # new challenge('binary-decimal-hexadecimal-conversions.md', 'Binary Decimal Hexadecimal Conversions', '29', '36'),
+  # new challenge('add-and-subtract-twos-compliment.md', 'Add and Subtract with Twos Compliment', '68', '52'),
+  # new challenge('floating-point-practice.md', 'Floating Point Practice', '30', '72'),
+  # new challenge('youtf.md', 'YouTF', '12', '116'),
+  # new challenge('bitmap-builder.md', 'Bitmap Builder', '33', '122'),
+  # new challenge('waveform-analysis.md', 'Waveform Analysis', '59', '144'),
+  # new challenge('quiz.md', 'Quiz', '34', '181'),
 );
 
 $module_videos = array(
