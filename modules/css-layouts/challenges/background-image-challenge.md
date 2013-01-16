@@ -48,8 +48,6 @@
     <div id="both-repeat"></div>
     <div id="top-center-position"></div>
     <div id="bottom-right-position"></div>
-    
-    
   </body>
 </html>
 ```
