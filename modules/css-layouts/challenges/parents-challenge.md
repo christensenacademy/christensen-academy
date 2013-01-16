@@ -39,6 +39,3 @@ While you should focus on precise replication of the picture above, don't forget
 </html>
 
 ```
-
-###Solution Video
-I haven't made this yet, but I plan on making a video where I complete the challenge myself and talk through how I would do it.
