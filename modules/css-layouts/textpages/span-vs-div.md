@@ -48,3 +48,9 @@ Sometimes you may find yourself wanting to add style a small portion (span) of a
 In the example above, the word "feugiat" would display in the color red on the webpage. Here's a picture of what this would look like in the browser:
 
 ![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-span.png)
+
+Notice how a span element is useful when you want to apply CSS specifically to just a small bit of content.
+
+Also notice how span elements are inline elements and don't display on a new line as block elements would. For example, here's what would happen if you changed the span tags to div tags in the previous example:
+
+![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-span2.png)
