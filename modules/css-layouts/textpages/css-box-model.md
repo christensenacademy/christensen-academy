@@ -2,6 +2,8 @@
 The big idea behind the CSS Box Model is that every element on the page is rendered by the browser as a box (rectangle) composed of four components: content, padding, border, and margin. Understanding how this box model works is essential to understanding how to display.
 
 ![Box Model Diagram](http://www.w3.org/TR/CSS2/images/boxdim.png)
+Image taken from the official [CSS 2.1 Specification](http://www.w3.org/TR/CSS21/box.html)
+
 
 **Note:** Understanding the box model is essential to understanding how to create nice page layouts.
 
