@@ -47,4 +47,4 @@ Sometimes you may find yourself wanting to add style a small portion (span) of a
 
 In the example above, the word "feugiat" would display in the color red on the webpage. Here's a picture of what this would look like in the browser:
 
-![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-div2.png)
+![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-span.png)
