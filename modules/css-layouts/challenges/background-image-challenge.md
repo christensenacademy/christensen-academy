@@ -1,3 +1,5 @@
+#Background Image Challenge
+
 * **Challenge:** Use background images to make a webpage that looks like the image below.
 * **Estimated Time:** 40 minutes
 
@@ -46,8 +48,6 @@
     <div id="both-repeat"></div>
     <div id="top-center-position"></div>
     <div id="bottom-right-position"></div>
-    
-    
   </body>
 </html>
 ```

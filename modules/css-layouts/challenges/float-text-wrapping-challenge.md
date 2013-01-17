@@ -1,3 +1,5 @@
+#Float (Text Wrapping) Challenge
+
 * **Challenge:** Use the float property to make the following HTML appear like the picture below.
 * **Estimated Time:** 10 minutes
 

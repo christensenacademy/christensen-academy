@@ -1,3 +1,5 @@
+#Basic Layout Challenge 3
+
 **Estimated Time:** 60 minutes
 
 Here is a picture of what the final product should look like:
@@ -21,6 +23,3 @@ Here is a picture of what the final product should look like:
 ##Colors
 * Brown: 9C3E00
 * Green: 2DB096
-
-##Mastery
-An exact (or very, very close) replica of the page demonstrated in the video and picture above.

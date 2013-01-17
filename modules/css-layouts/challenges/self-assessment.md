@@ -1,4 +1,5 @@
-* **Challenge:** Carefully answer the questions and check your work by watching the solution video.
+#CSS Layouts Self Assessment
+
 * **Estimated Time:** 15 minutes.
 
 ###The Questions

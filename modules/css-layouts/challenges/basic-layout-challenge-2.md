@@ -1,3 +1,5 @@
+#Basic Layout Challenge 2
+
 **Estimated Time:** 60 minutes
 
 Your challenge is laid out for you in [this video](http://www.youtube.com/watch?v=LRwon0Jd1Hc), which also shows the solution. The second half of the solution can be found in [this video](http://www.youtube.com/watch?v=iEN4pZ2z3T4).
