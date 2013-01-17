@@ -32,7 +32,7 @@ Even a simple layout like this where we're seeing two groups of elements side by
 
 ###Span Elements
 
-Sometimes you may find yourself wanting to add style a small portion (span) of an existing element. In such cases, it is often best to use a span element, which can be thought of as a generic inline element.
+Sometimes you may find yourself wanting to add style a small portion (span) of an existing element. In such cases, it is often best to use a span element, which is an inline element.
 
 ```html
 <p>
@@ -44,3 +44,7 @@ Sometimes you may find yourself wanting to add style a small portion (span) of a
   aliquam sed nisi.
 </p>
 ```
+
+In the example above, the word "feugiat" would display in the color red on the webpage. Here's a picture of what this would look like in the browser:
+
+![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-div2.png)
