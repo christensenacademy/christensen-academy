@@ -28,7 +28,9 @@ However, with a bit of CSS applied to our `div` elements, we can make the page l
 
 ![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-div2.png)
 
-Div elements are used primarily to control page layouts by acting as containers (parent elements) for groups of other elements, as shown in the example above.
+Even a simple layout like this where we're seeing two groups of elements side by side is only possible through the use of `div` elements. Most Web designers make heavy use of `div` elements when laying out their pages.
+
+###Span Elements
 
 Sometimes you may find yourself wanting to add style a small portion (span) of an existing element. In such cases, it is often best to use a span element, which can be thought of as a generic inline element.
 
