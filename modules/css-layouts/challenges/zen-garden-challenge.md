@@ -1,3 +1,7 @@
+#Zen Garden Challenge
+
+**WARNING:** This challenge is unfinished
+
 * **Challenge:** Create a webpage that looks like the image below.
 * **Estimated Time:** 25 minutes
 
