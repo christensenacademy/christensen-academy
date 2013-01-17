@@ -1,48 +1,7 @@
-* **Challenge:** Create a webpage that looks like the image below.
+#Float Layout Challenge
+
 * **Estimated Time:** 25 minutes
 
-###Your page should look like this
+Your challenge is to create a webpage that looks exactly like the page created in the Absolute Positioning Layout Challenge, but this time you must do it only with floating elements (no absolute positioning allowed).
 
-![](https://raw.github.com/christensenacademy/christensen-academy/master/modules/css-layouts/challenges/float-menu-challenge.png)
-
-###Starter Code
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Float: Menu Challenge</title>
-    <style>
-      body {
-        background-color:#888;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin:0;
-      }
-      
-      #container {
-        width:800px;
-        margin:0 auto;
-      }
-      
-      #top #nav a {
-        display:block; /* so the links don't display inline... */
-      }
-      #top #nav a:hover {color:#000;}
-    </style>
-  </head>
-  <body>
-    <div id="container">
-      <div id="top">
-        <div id="nav">
-          <a href="#">Nullam</a>
-          <a href="#">Luctus</a>
-          <a href="#">Donec</a>
-          <a href="#">Sodales</a>
-          <a href="#">Faucibus</a>
-        </div>
-        <h1>Float: Menu Challenge</h1>
-      </div>
-    </div>
-  </body>
-</html>
-```
+![](http://christensenacademy.org/modules/css-layouts/challenges/absolute-positioning-layout-challenge.png)
