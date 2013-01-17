@@ -22,9 +22,13 @@ Sometimes you may find yourself wanting to add style to an entire *division* or 
 
 Without any CSS, this would display rather boring, and the fact that we're using div elements would be pointless. Here's what the code above would look like without CSS:
 
-![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-div.png)
+![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-div1.png)
 
-**Note:** Div elements are used primarily to control page layouts by acting as containers (parent elements) for groups of other elements.
+However, with a bit of CSS applied to our `div` elements, we can make the page look quite a bit different:
+
+![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-div2.png)
+
+Div elements are used primarily to control page layouts by acting as containers (parent elements) for groups of other elements, as shown in the example above.
 
 Sometimes you may find yourself wanting to add style a small portion (span) of an existing element. In such cases, it is often best to use a span element, which can be thought of as a generic inline element.
 
