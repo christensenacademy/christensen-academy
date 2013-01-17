@@ -18,7 +18,6 @@ $module_challenges = array(
   new challenge('absolute-positioning-layout-challenge.md', 'Absolute Positioning Layout', '61', '298'),        
   new challenge('float-text-wrapping-challenge.md', 'Float: Text Wrapping', '129', '298'),
   new challenge('float-menu-challenge.md', 'Float: Menu', '168', '298'),
-  new challenge('float-layout-challenge.md', 'Float: Layout', '204', '295'),
   new challenge('faux-columns-challenge.md', 'Float: Faux Columns', '243', '300'),
   new challenge('full-page-layout-challenge.md', 'Full Page Layout', '178', '362'),
   new challenge('zen-garden-challenge.md', 'Zen Garden', '194', '388'),
