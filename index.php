@@ -124,6 +124,11 @@
 
   <?php include('./modules/classes.php'); ?>
   
+  <div class="container-fluid subject-area" id="getting-started">   
+    <?php include('./modules/how-to-use-this-site/module.php'); ?>
+    <?php include('./modules/learning-advice/module.php'); ?>
+  </div>
+  
   <div class="container-fluid subject-area" id="cs-basics">   
     <?php include('./modules/computer-basics/module.php'); ?>
     <?php include('./modules/binary/module.php'); ?>

@@ -6,6 +6,9 @@ $map_height = '305';
 $module_playlist = '';
 
 $module_challenges = array(
+  # click-a-mania series similar to Flash -- close parallel to click the clown
+  # comets
+  # 
   # new challenge('project-1.md', 'Project-1', '39', '41'),
   # new challenge('project-2.md', 'Project-2', '89', '41')
 );
