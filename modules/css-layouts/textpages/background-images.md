@@ -1,8 +1,22 @@
 #Background Images
 Instead of (or in addition to) background colors, you can use background images on your webpages. [CSS Zen Garden](http://www.csszengarden.com/) makes extensive use of background-images.
 
+###Choosing the Image
+
+You can get a background image to display by using the `background-image` CSS property. The value for this property is essentially just the path to the image file you want to use, though you have to remember to place the path inside of the quotes in `url("")`.
+
 ```css
 background-image: url("lorem.png");
-background-repeat: repeat; /* other values: repeat-x, repeat-y, no-repeat */
-background: #F8E088 url("lorem.png") repeat-y; /* the shorthand property (order doesn't matter) */
 ```
+
+###Background Color
+
+###Background Repeat
+
+###Background Position
+
+The `background-position` property allows you to alter where
+
+###Background Attachment
+
+###Background Shorthand
