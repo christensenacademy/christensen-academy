@@ -7,7 +7,7 @@ As I think back on my own education--which is still in progress and will never b
 The purpose of this textpage is simply to share three examples from my own life where I solved problems that forced me to redefine "difficult".
 
 ###Dragon Puzzle
-When I was in middle school, I borrowed a dragon puzzle from a friend. The goal of the puzzle was to separate a metal ring from the larger metal dragon structure. There were some other rings on the puzzle and some string that was woven throughout the entire thing too.
+When I was in middle school, I borrowed a dragon puzzle from a friend. The goal of the puzzle was to separate a metal ring from the larger metal dragon structure. There were some other rings on the puzzle and some string that was woven throughout the aparatus.
 
 When I got home, I began trying to solve the puzzle and soon got frustrated. I remember being about ready to give up, but for some reason I stuck with it. The puzzle was so complicated that it was hard to tell if I was actually making progress. But after a while, my understanind of the puzzle began to grow. After what I recall being several hours on a lazy Saturday afternoon, I finally solved the puzzle. I was extremely excited... until I realized I needed to put the whole thing back together again.
 
