@@ -21,83 +21,55 @@
 
 ##Founding Tenets
 * K-Life
+  * We never stop learning.
+  * Schools are communities of learners
+  * Life-long learning should mean active involvement in a school community as a learner for life.
 * Family Enrollment
+  * Children (under age 14 or so, must have the parents/guardians at school as well)
+* Everyone is a learner (teachers, admins, lunch ladies, facilities, parents, etc.)
 * Modules
   * Self-paced
+  * Relatively short: 20-50 hours of work to complete. Shorter for young kids.
   * Parent and Guardian
   * Pass-fail/mastery
   * content-delivery via system not teacher
-  * teacher as coach
+  * teacher as coach, not content-deliverer
   * creative, real-world application of knowledge to complete a module
   * portfolio + summative assessment + interview = module completion
-  
 * Age-level curriculum (not self-paced)
+  * 1-3 hours a day
   * Similar to grade levels, but only for some subjects and only in certain areas. Some room for electives here, but not much. Most freedom comes in the self-paced modules.
   * Lots of this curriculum involves special lectures, field trips, inquiry-based learning, etc. Because learning content is not the focus here, this curriculum offers the best of what the current model hopes to be.
+* Internships are a big part of the school life. Because of the self-paced nature of most schoolwork, internships are easy to complete.
+* Credentialing philosophy that puts the burden of proof on the student. Portfolio + interview scheme.
 * Academic competitions
+  * Similar to the role of athletics today...
+  * Gives focus and purpose to the self-paced learning.
 * The Arts (for all ages)
+  * For children and adults alike, it is important to continue to engage with visual and performing arts throughout
 * Sports (for all ages)
-* Right of passage: students become teachers conferring real credit at age 14.
-* Full freedom over courses at age 16.
+  * Based on age-groups
+  * Adults have opportunities too
+* People in the school advance along four tracks:
+  * Abilities as a learner (after reaching certain
+    * Collaborator (level 1, 2, 3, 4, etc.) We want people who can thrive in a collaborative learning environment
+    * Independent (level 1, 2, 3, 4, etc.) We want people who can learn independently with self-confidence
+    * Self-directed 
+    * Self Assessment (level 1, 2, 3, 4, etc.) We want to develop people who can accurately evaluate their own work.
+    * Scientific Researcher (level 1, 2, 3, etc.) We want people to develop a strong understanding of scientific methods.
+    * Responsible 
+  * Knowledge and skills mastered
+  * Abilities as a teacher
+    * Tutor: Ability to work 1-on-1 to help someone learn in a question-answer format in person, digitally, or othrewise
+    * Presenter: We want people that can clearly articulate and explain concepts.
+    * Responsible: Able to responsibly facilitate learning, evaluation, and reporting.
+    * Designer of Self-Paced Learning Experiences (level 1, 2, 3, 4) We want people who have a deep understanding of how to design self-paced learning experiences.
+    * Designer and facilitator of group learning experiences (level 1, 2, 3, 4) We want people who know how to design and facilitate
+  * Content qualified to teach
+* Pay Structure:
+  * Some people are actually hired as teachers, admins, etc.
 
-
-##K-Life
-Students at the Dakota School aren't just kids. The Dakota School learning community is composed of people of all ages. Students at the Dakota School never stop learning. Thus, there is no such thing as graduation.
-
-##Family Enrollment
-The school is a community of families, not just kids and teachers. Everyoneone--kids, parents, and teachers--is enrolled as a student.
-
-##Academics
-###Modules and Age-Level Curriculum
-Academics are split between self-paced modules and age-level curriculum.
-####Modules
-Modules are much shorter than courses and in some ways are more similar to what might be referred to as units in the traditional system. The greatest difference is that these modules are self-paced, and completion of a module requires true demonstration of mastery. In this way, traditional grading schemes have no meaning for Dakota School students.
-
-In self-paced modules, individual teachers will evaluate mastery and otherwise serve as a coach to the students. Teachers will NOT be the main presenter's of conent to their students, at least not at the front of the room as in a traditional lecture.
-
-####Age-Level Curriculum
-As students advance through the school, they must also complete the age-level curriculum, which is not self-paced, though it still takes a modular form. Individual teachers create learning modules with a heavy focus on inquiry and real-world problem solving. At the end of each module, students receive performance reviews from teachers, but traditional grades are not given.
-
-###Portfolios
-Modules place emphasis on creative application of learning. At the end of each module, students will have produced a body of work that will be organized in a portfolio.
-
-##Students become Teachers
-
-
-
-##Academic Competitions
-Academic Competitions fuel 
-
-
-##Sports
-
-
-##The Arts
-
-
-
-
-
-##Leveling System
-
-A level is not a measure of content knowledge but aptitude and expertise as a learner or teacher. Students progress levels as they demonstrate their abilities to stick with difficult problems, research on their own, reason accurately, and evaluate their own learning. Teachers progress levels as they demonstrate responsibility and the ability to design learning experiences.
-
-Also, I'm not necessarily in favor of a strict, linear leveling system. Points and badges might make more sense.
-
-Student Levels
-1. Illiterate
-2. Literate
-3. Semi
-4. 
-5. 
-6. 
-7. 
-
-Teacher Levels
-1.
-2. 
-3. 
-4. Me
-5. 
-6.
-7. 
+  
+  
+  
+  

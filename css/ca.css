@@ -1,11 +1,11 @@
-#getting-started, .getting-started-color:hover, .getting-started-background { background: #666;}
+#getting-started, .getting-started-color:hover, .getting-started-background { background: #5F219F;}
 #cs-basics, .cs-basics-color:hover, .cs-basics-background { background: #3C29A3;}
 #web, .web-color:hover,  .web-background{ background: #1b54b0;}
 #game-maker, .game-maker-color:hover, .game-maker-background { background: #499000;}
 #processing, .processing-color:hover, .processing-background { background: #AE9300;}
 #java, .java-color:hover, .java-background { background: #C66D03;}
 #flash, .flash-color:hover, .flash-background { background: #9E0800;}
-#image-manipulation, .image-manipulation-color:hover, .image-manipulation-background { background: #5F219F;}
+#image-manipulation, .image-manipulation-color:hover, .image-manipulation-background { background: #A9188D;}
 #brain-teasers, .brain-teasers-color:hover, .brain-teasers-background { background: #666;}
 .cs-basics-text-color { color: #3C29A3;}
 .web-text-color { color: #1b54b0;}
@@ -16,7 +16,7 @@
 .image-manipulation-text-color { color: #5F219F;}
 .brain-teasers-text-color { color: #666;}
 
-.nav-col {z-index:10;float:left;width:10%;height:1px}
+.nav-col {z-index:10;float:left;width:9.09%;height:1px}
 .nav-item {position:relative;height:13px;border-bottom:1px solid #333;display:block;z-index:20;}
 .nav-item:hover {background-color:#444;border-bottom-color:#888;}
 .active-link, .nav-item:active {background-color:#eee;border-bottom-color:#333;}

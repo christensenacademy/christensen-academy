@@ -12,7 +12,7 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-
+  new textpage('polya-problem-solving.md', 'Polya Problem Solving'),
 );
 
 include('./modules/module-template.php');

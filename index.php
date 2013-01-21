@@ -35,6 +35,10 @@
     <div class="nav-col">
     </div>
     <div class="nav-col">
+      <a rel="tooltip" title="How to Use This Site" href="#how-to-use-this-site" class="getting-started-background nav-item"></a>
+      <a rel="tooltip" title="Learning Advice" href="#learning-advice" class="getting-started-background nav-item"></a>
+    </div>
+    <div class="nav-col">
       <a rel="tooltip" title="Computer Basics" href="#computer-basics" class="cs-basics-background nav-item"></a>
       <a rel="tooltip" title="Binary" href="#binary" class="cs-basics-background nav-item"></a>
     </div>
