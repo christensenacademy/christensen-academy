@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Cameron Christensen">
 		<meta name="keywords" content="computer science, programming, learn, java, javascript, html, css, binary, processing, flash, actionscript, image manipulation, game maker">
-		<meta name="description" content="A gateway to the world of computer science and programming!">
+		<meta name="description" content="Learn computer science and programming for free.">
     <link rel="shortcut icon" href="img/logo16.png">
     <link rel="icon" type="image/png" Shref="http://example.com/myicon.png">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -82,7 +82,7 @@
         </div>
         <div class="span10">
           <h1>Hello, World!</h1>
-          <p>Welcome to the Christensen Academy, a gateway to the world of computer science and programming!</p>
+          <p>Welcome to the Christensen Academy, where you can learn about computer science and programming for free!</p>
         </div>
       </div>
     </div>   
@@ -130,7 +130,7 @@
   
   <div class="container-fluid subject-area" id="getting-started">   
     <?php include('./modules/how-to-use-this-site/module.php'); ?>
-    <?php include('./modules/learning-advice/module.php'); ?>
+    <?php include('./modules/learning/module.php'); ?>
   </div>
   
   <div class="container-fluid subject-area" id="cs-basics">   
