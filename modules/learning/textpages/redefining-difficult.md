@@ -27,6 +27,6 @@ This was my first real attempt to do any programming that wasn't directly assign
 
 As with the Dragon Puzzle and the Geometry proof before, I emerged from this experience with a lot of confidence in my ability to solve problems that a lot of other people would probably give up on. My personal definition of "difficult" was forced to shift once again. The coding assignments I encountered in class no longer seemed very difficult, at least not relative to the Sudoku program I had completed just for fun.
 
-##Conclusion
+###Conclusion
 
 As you continue on with your education, I encourage you to look for opportunities to tackle problems that stretch your personal understanding of "difficult". These problems won't always be presented by your teachers; sometimes you'll need to seek them out on your own. I hope you learn to relish the genuinely difficult challenges you find in front of you. As you solve increasingly difficult problems, your confidence will grow until you begin to believe that there is no problem you are only incapable of solving. Maybe someday you will be quoted saying the same as Einstein, "It's not that I'm so smart, it's just that I stay with problems longer."
