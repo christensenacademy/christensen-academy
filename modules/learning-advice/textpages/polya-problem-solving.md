@@ -5,9 +5,8 @@ In 1945, a mathematician name George Polya described a method of problem solving
 As strange as it may seem, many people make the mistake of trying to solve a problem they don't actually understand. Before you start solving a problem, take the time to make sure you really understand the problem itself.
 
 * Are there components of this problem that seem unfamiliar to you and prevent you from fully understanding the problem?
-* What are you actually being asked to do?
-* Try to identify any unfounded assumptions you may be making.
-* Are there terms used in the statement of the problem that you don't understand?
+* Try to identify any erroneous assumptions you may be making about the problem.
+* Are there terms or phrases used in the statement of the problem that you don't understand?
 * Can you restate the objective in your own words?
 * Could you make a drawing or create a diagram to help you understand the problem?
 
