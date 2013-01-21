@@ -4,6 +4,8 @@
 
 As I think back on my own education--which is still in progress and will never be complete--I tend to remember those experiences that forced me to redefine my understanding of what it means for a problem to be difficult. I eventually learned to think about the difficulty of problems less in terms of whether or not I could solve them and more in terms of how long it would take me to solve them.
 
+The purpose of this textpage is simply to share three examples from my own life where I solved problems that forced me to redefine "difficult".
+
 ###Dragon Puzzle
 When I was in middle school, I borrowed a dragon puzzle from a friend. The goal of the puzzle was to separate a metal ring from the larger metal dragon structure. There were some other rings on the puzzle and some string that was woven throughout the entire thing too.
 
