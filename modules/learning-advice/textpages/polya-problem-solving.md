@@ -1,5 +1,5 @@
 #Polya Problem Solving
-In 1945, a mathematician name George Polya described a method of problem solving in a book title [How to Solve It](http://en.wikipedia.org/wiki/How_to_Solve_It). This textpage is my adaptation of his 4-step problem solving method for use by people starting out in computer science and programming.
+In 1945, a mathematician name George Polya described a method of problem solving in a book titled [How to Solve It](http://en.wikipedia.org/wiki/How_to_Solve_It). This textpage is my adaptation of his 4-step problem solving method for use by people starting out in computer science and programming.
 
 ##Step 1: Understand the Problem
 As strange as it may seem, many people make the mistake of trying to solve a problem they don't actually understand. Before you start solving a problem, take the time to make sure you really understand the problem itself.
