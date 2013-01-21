@@ -23,7 +23,7 @@ As I looked at my classmates around me, I realized that most of them defined "di
 ###Sudoku Program
 I more or less stumbled upon computer science in college and fell in love with it. I enjoyed the problem solving it presented me. After my first programming course in college, I decided to see if I could write a program that solved Sudoku puzzles. I wrote my program in the Java programming language, which I was only beginning to really understand at the time. I had no idea how long this project would take, but for some reason it seemed like an extremely interesting challenge.
 
-This was my first real attempt to do any programming that wasn't directly assigned by a professor, and I soon found myself making tons of errors. After what I imagine was close to 30 or 40 hours of work, I finally finished my program. It wasn't much to look at, but it worked against every sudoku puzzle I could find.
+This was my first real attempt at doing any programming that wasn't directly assigned by a professor, and I soon found myself making tons of errors. After what I imagine was close to 30 or 40 hours of work, I finally finished my program. It wasn't much to look at, but it worked against every sudoku puzzle I could find.
 
 As with the Dragon Puzzle and the Geometry proof before, I emerged from this experience with a lot of confidence in my ability to solve problems that a lot of other people would probably give up on. My personal definition of "difficult" was forced to shift once again. The coding assignments I encountered in class no longer seemed very difficult, at least not relative to the Sudoku program I had completed just for fun.
 
