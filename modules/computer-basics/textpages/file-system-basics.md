@@ -26,3 +26,5 @@ We use many different words to describe hierarchical structures like files syste
 The main point I want to make is that all files are stored on file systems somewhere. The advent of "the cloud" has confused this otherwise simple notion by allowing us to save our files "out there" without needing to think about where "out there" really is. However, I'd like to make the point that even files stored in "the cloud" are actually stored on a physical devices (i.e., hard drive) somewhere else in the world, probably in a data center somewhere. All of these physical devices have file systems just like your computer has a file system.
 
 Hard drives and file systems haven't really changed. The only thing that has changed is the way we use them.
+
+![](http://christensenacademy.org/img/signature.png)
