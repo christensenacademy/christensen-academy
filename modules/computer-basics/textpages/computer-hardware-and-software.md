@@ -57,3 +57,5 @@ We use software programs everyday. Right now as I type this document on my Windo
 * Software Update (interestingly enough, some updates for my operating system are ready)
 
 Of course, in the background of all of this is my operating system: Windows 7.
+
+![](http://christensenacademy.org/img/signature.png)
