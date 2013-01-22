@@ -12,3 +12,5 @@ Pick two examples of difficult problems you've solved in your life that stretche
 2. Why were you trying to solve it?
 3. How long did you spend trying to solve it?
 4. What did you gain from this experience?
+
+![](http://christensenacademy.org/img/signature.png)
