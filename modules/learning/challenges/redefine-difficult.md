@@ -1,6 +1,6 @@
 #Redefine "Difficult"
 
-**Estimated Time:** 15 minutes
+**Estimated Time:** 20 minutes
 
 ###Do This First
 Read [this textpage](https://github.com/christensenacademy/christensen-academy/blob/master/modules/learning/textpages/redefining-difficult.md).
