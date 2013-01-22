@@ -6,7 +6,7 @@
 Read [this textpage](https://github.com/christensenacademy/christensen-academy/blob/master/modules/learning/textpages/redefining-difficult.md).
 
 ###Then Do This
-Pick two examples of difficult problems you've solved in your life that stretched your understanding of what "difficult" really means.
+Pick **two examples** of difficult problems you've solved in your life that stretched your understanding of what "difficult" really means.
 
 1. What was the nature of the problem you solved?
 2. Why were you trying to solve it?
