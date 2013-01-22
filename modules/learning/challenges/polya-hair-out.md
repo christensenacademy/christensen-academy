@@ -1,4 +1,4 @@
-#Polya Hair Out
+#Polya Hair Out Challenge
 
 **Estimated Time:** 15 minutes
 
