@@ -10,3 +10,6 @@ For example, my computer has the following:
 * Hard Drive: 217 GB (66.2 GB Free Space)
 
 What does your computer have?
+
+
+![](http://christensenacademy.org/img/signature.png)
