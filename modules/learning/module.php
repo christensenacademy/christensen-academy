@@ -6,6 +6,8 @@ $map_height = '115';
 $module_playlist = '';
 
 $module_challenges = array(
+  new challenge('polya-hair-out', 'Polya Hair Out', 85, 35),
+  new challenge('redefine-difficult', 'Redefine Difficult', 160, 35),
 );
 
 $module_videos = array(
