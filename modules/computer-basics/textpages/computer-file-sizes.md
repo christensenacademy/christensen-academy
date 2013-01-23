@@ -51,3 +51,6 @@ tera (T)    10^12 (1,000,000,000,000) 2^40 (1,099,511,627,776)
 ```
 
 In my opinion, this is more confusing than it needs to be. I think that computer science should have embraced a new set of prefixes based on the binary number system instead of adopting the old SI prefixes that really only make sense with decimal numbers. Other people apparently feel the same way, which is why relatively recently new [binary prefix](http://en.wikipedia.org/wiki/Binary_prefix) names have been created. I doubt people will ever actually start using them, but they are fun to say; basically, just add "ebi" or "ibi" after the first letter of each of the old prefixes. For example, a megabyte (2^20 or 10^6) is now a mebibyte (2^20). I like this because it removes the ambiguity inherent in our current use of the SI prefixes to describe file sizes.
+
+
+![](http://christensenacademy.org/img/signature.png)

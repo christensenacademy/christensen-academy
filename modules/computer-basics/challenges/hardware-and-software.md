@@ -1,5 +1,7 @@
 #Hardware and Software Challenge
 
+**Estimated Time:** 15 minutes
+
 Figure out exactly what operating system your computer is currently running. Then, figure out exactly what RAM, CPU, and hard drive your computer has.
 
 For example, my computer has the following:
@@ -10,3 +12,6 @@ For example, my computer has the following:
 * Hard Drive: 217 GB (66.2 GB Free Space)
 
 What does your computer have?
+
+
+![](http://christensenacademy.org/img/signature.png)

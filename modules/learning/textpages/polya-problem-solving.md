@@ -32,3 +32,5 @@ It's always tempting when working with computers to accept solutions we don't fu
 
 ##What if this technique fails?
 If you still cannot solve the problem, try to solve an easier but related problem first. Once you've mastered that problem, look at the original problem again with fresh eyes.
+
+![](http://christensenacademy.org/img/signature.png)

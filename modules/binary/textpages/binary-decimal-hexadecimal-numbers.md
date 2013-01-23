@@ -69,3 +69,5 @@ Thus, 736 (base 8) is the same as 578 (base 10). These are just two different wa
 
 ###Binary
 Binary works the same way, but it only has two digits: 0 and 1. Thus, place value is calculated so that each place is twice as bit as the one before it.
+
+![](http://christensenacademy.org/img/signature.png)

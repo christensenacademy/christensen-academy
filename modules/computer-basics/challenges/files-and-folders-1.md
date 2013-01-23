@@ -1,5 +1,7 @@
 #Files and Folders Challenge (Part 1)
 
+**Estimated Time:** 20 minutes
+
 The purpose of this challenge is just to get some practice doing basic file operations like cut, copy, and paste.
 
 ####Part 1
@@ -43,3 +45,6 @@ Using only Cut, Copy, and Paste, reorganize the folder stucture as follows:
 ```
 
 **Advice:** Try to get comfortable using cut. It's a lot better than doing copy and paste followed by deleting the copied files from the old location. It's faster, and it ensures that you only have one copy of the file. I've seen lots of students haphazardly copy files into new locations only to end up (accidentally) using the old file in the old location. Having multiple versions of the same file stored in different folders gets confusing in a hurry. Cut helps you avoid this confusion.
+
+
+![](http://christensenacademy.org/img/signature.png)
