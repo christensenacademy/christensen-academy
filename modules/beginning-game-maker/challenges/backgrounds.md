@@ -1,4 +1,4 @@
-#
+#Backgrounds Challenge
 
-**Estimated Time:**
+**Estimated Time:** 10 minutes
 
