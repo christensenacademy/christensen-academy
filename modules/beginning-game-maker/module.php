@@ -2,15 +2,26 @@
 $module_name = 'beginning-game-maker';
 $module_title = 'Beginning Game Maker';
 $module_subtitle = 'The Basics of Using the Game Maker Software';
-$map_height = '305';
+$map_height = '377';
 $module_playlist = '';
 
 $module_challenges = array(
-  # click-a-mania series similar to Flash -- close parallel to click the clown
-  # comets
-  # 
-  # new challenge('project-1.md', 'Project-1', '39', '41'),
-  # new challenge('project-2.md', 'Project-2', '89', '41')
+  new challenge('create-save-and-play.md', 'Create, Save, and Play', '61', '45'),
+  new challenge('sprites.md', 'Sprites', '190', '55'),
+  new challenge('backgrounds.md', 'Backgrounds', '230', '55'),
+  new challenge('sounds-and-music.md', 'Sounds and Music', '132', '69'),
+  new challenge('wacky-walls.md', 'Wacky Walls', '42', '111'),
+  new challenge('fun-with-alarms.md', 'Fun with Alarms', '80', '112'),
+  new challenge('relative-reasoning.md', 'Relative Reasoning', '61', '158'),
+  new challenge('click-a-mania.md', 'Click-a-Mania!', '152', '136'),
+  new challenge('game-info.md', 'Game Info', '190', '154'),
+  new challenge('keyboard-king.md', 'Keyboard King', '69', '216'),
+  new challenge('coordinate-queen.md', 'Coordinate Queen', '69', '248'),
+  new challenge('movement-master.md', 'Movement Master', '146', '232'),
+  new challenge('health-and-healing.md', 'Health and Healing', '213', '256'),
+  new challenge('step-it-up-30.md', 'Step It Up 30!', '166', '283'),
+  new challenge('know-thy-self.md', 'Khow Thy Self', '68', '318'),
+  new challenge('projectile-comet.md', 'Projectile Comet', '220', '332'),
 );
 
 $module_videos = array(

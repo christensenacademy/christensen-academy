@@ -1,13 +1,13 @@
 <?php
 $module_name = 'learning';
 $module_title = 'Learning';
-$module_subtitle = 'My Thoughts on the Best Ways to Approach Learning';
+$module_subtitle = 'My Thoughts on the Best Ways to Approach Learning and Problem Solving';
 $map_height = '115';
 $module_playlist = '';
 
 $module_challenges = array(
-  new challenge('polya-hair-out', 'Polya Hair Out', 85, 35),
-  new challenge('redefine-difficult', 'Redefine Difficult', 160, 35),
+  new challenge('polya-hair-out.md', 'Polya Hair Out', 85, 35),
+  new challenge('redefine-difficult.md', 'Redefine Difficult', 160, 35),
 );
 
 $module_videos = array(
