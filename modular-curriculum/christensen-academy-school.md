@@ -27,16 +27,16 @@
     * Fewer self-paced modules.
     * Self-paced modules are shorter (2-10 hours for completion)
     * Majority of learning is lead by a teacher who leads students through authentic inquiry.
-  * Level 4:
+  * Level 4: Novice Learner**
     * 
     * 
-  * Level 3:
+  * **Level 3: Intermediate Learner**
     * Full free
     * 
-  * Level 2: Advanced Learner
+  * **Level 2: Advanced Learner**
     * Full freedom to explore and complete modules and even "off-road" into uncharted learning territory and still earn credit, though mastery must still be assessed by others.
     * Ability to join a learning guild, although learning guilds must always be composed of at least three master learners.
-  * Level 1: Master Learner
+  * **Level 1: Master Learner**
     * This is the highest level attainable and signifies special status in a learning guild.
     * No restrictions on learning methods that can be credentialed. Learning can be self reported and self evaluated, though it must still be approved by one's learning guild.
 * Earn Teaching Levels that serve as credentials for abilities as a teacher based on an apprentice-journeyman-master model
