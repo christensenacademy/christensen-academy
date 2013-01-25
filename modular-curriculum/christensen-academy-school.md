@@ -65,6 +65,7 @@ They say it takes 10 years of focused work in a domain to master it. What a sham
 ###Master Learner
 
 
+##Growing Expertise as a Learner
 ###Independence
 
 ###Integrity and Responsibility
