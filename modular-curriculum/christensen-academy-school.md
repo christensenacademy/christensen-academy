@@ -1,27 +1,15 @@
 #The Christensen School
 
-* *Welcome to your last first day of school.*
-* *We never stop*
-* *Because I was curious*
-* *The best I can be*
-* *We're not that smart; it's just that we stick with problems longer.*
-* *No homework (unless you want to)*
-* *Unafraid to fail*
-* *Everyone learns. Everyone teaches.*
-* *Charting my own course.*
-* *Together we grow.*
-* *Wonder and Awe*
-* *We don't know it all*
-* *Excellence in the arts*
-* *Athletics for all*
-* *Academic competition*
-* *Self-paced
 
-##
+###Possible Catch Phrases
+* *Welcome to your last first day of school.*
+* *It's not that we're so smart. It's just that we stick with problems longer.*
+* *An empowering community of learners*
+* *Young minds of all ages*
 
 ##Founding Tenets
 * K-Life
-  * We never stop learning.
+  * Not just for kids
   * Schools are communities of learners
   * Life-long learning should mean active involvement in a school community as a learner for life.
 * Family Enrollment
