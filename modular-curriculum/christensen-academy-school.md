@@ -1,5 +1,4 @@
-#The Christensen School
-
+#A More Flexible Model
 
 ###Possible Catch Phrases
 * *Welcome to your last first day of school.*
@@ -33,7 +32,8 @@
   * Coach: The person leading students through self-paced modules, the nature of which will vary according to student levels (i.e., advanced students will need little coaching).
   * Module Designer: The person who crafts and iteratively refines learning modules, which are often designed to be self-paced.
   * Interscholastic Game Designer: The person who creates and organizes academic competitions and other activities between schools.
-
+* Advisory System
+  * Each day, significant time is spent as a small community of learners and their advisor working on self-paced modules.
 * Empowerment over Coersion
   * The best students are not those that do exactly what the teacher asked for. Rather, the best students are those that take learning into their own hands.
 * Fexible Schedule enabled by self-paced modules that allows for inquiry-based, real-world learning experiences.
