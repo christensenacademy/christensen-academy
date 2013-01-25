@@ -10,11 +10,8 @@
 ##Founding Tenets
 * K-Life
   * Not just for kids
-  * Schools are communities of learners
-  * Life-long learning should mean active involvement in a school community as a learner for life.
-* Family Enrollment
-  * Children (under age 14 or so, must have the parents/guardians at school as well)
-* Everyone is a learner (teachers, admins, lunch ladies, facilities, parents, etc.)
+  * A community of learners of all ages
+  * A strong push for parents to be active learners in the community as well
 * Modules
   * Self-paced
   * Relatively short: 20-50 hours of work to complete. Shorter for young kids.
@@ -58,6 +55,25 @@
   * Some people are actually hired as teachers, admins, etc.
 
   
-  
+##Expert Students
+They say it takes 10 years of focused work in a domain to master it. What a shame that most graduating high school students today are far from expert learners...
+
+###Young Learner
+###Novice Learner
+###Proficient Learner
+###Advanced Learner
+###Master Learner
+
+
+###Independence
+
+###Integrity and Responsibility
+
+###Ability to Accurately Self Evaluate
+
+###Collaborative Ability
+
+
+##Expert Teachers
   
   
