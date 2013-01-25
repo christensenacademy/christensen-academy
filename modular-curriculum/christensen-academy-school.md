@@ -59,10 +59,21 @@
 They say it takes 10 years of focused work in a domain to master it. What a shame that most graduating high school students today are far from expert learners...
 
 ###Young Learner
+Heavily guided learning modules. Continual feedback from teacher. Short learning modules. Outside of modules is given freedom to explore.
+
 ###Novice Learner
+More autonomy within learning module. Still continual feedback from teacher. Learning modules lengthened.
+
 ###Proficient Learner
+Full autonomy within learning module. Must p
+
 ###Advanced Learner
+Rough equivalent to college student, though even students at age 12 may be ready for this level of freedom and responsibility.
+
+Full choice over what learning modules to take.
+
 ###Master Learner
+Free range...
 
 
 ##Growing Expertise as a Learner
@@ -74,7 +85,43 @@ They say it takes 10 years of focused work in a domain to master it. What a sham
 
 ###Collaborative Ability
 
+###Sense of Humor
+
+
+
+##Expert Tutors
+
+###Novice
+###Intermediate
+###Advanced
+
+##Expert Learning Module Designers
+###Apprentice
+###Journeyman
+###Master
+
+##Expert Game Designers
+Largely for the academic competitions or games the school is involved in. 
+
+###Apprentice
+###Journeyman
+###Master
 
 ##Expert Teachers
-  
-  
+Not necessarily the person in direct contact with learners. These are the Sal Khan's of the world who figure out how to best explain concepts to people.
+
+###Apprentice
+###Journeyman
+###Master
+
+
+##Expert Coaches
+Coaches are facilitators of learning modules.
+
+###Apprentice
+###Journeyman
+###Master
+
+
+##Structure of a School Day
+...
