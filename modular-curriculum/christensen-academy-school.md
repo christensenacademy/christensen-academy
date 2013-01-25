@@ -10,7 +10,7 @@
 ##Founding Tenets
 * K-Life
   * Not just for kids
-  * Learners of all are part of the school community, and as such they are given opportunities to represent the school on athletic, academic, and artistic teams.
+  * Learners of all ages are part of the school community, and as such they are given opportunities to represent the school on athletic, academic, and artistic teams.
   * A strong push for parents to be active learners in the community as well
 * Modular Curriculum
   * Cohesive units of study that can be mastered, often in a self-paced fashion, that are often built around *products*
