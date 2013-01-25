@@ -12,6 +12,10 @@
   * Not just for kids
   * Learners of all are part of the school community, and as such they are given opportunities to represent the school on athletic, academic, and artistic teams.
   * A strong push for parents to be active learners in the community as well
+* No Grade Levels
+* No Graduation
+* Earn Degrees that serve as credentials for content mastery
+* Earn Ranks that serve as credentials for quality of learner, tutor, teacher, learning coach, module designer, and interscholastic game designer. 
 * Modular Curriculum
   * Cohesive units of study that can be mastered, often in a self-paced fashion, that are often built around *products*
   * Philosophical shift: the burden of proof falls on the learner
