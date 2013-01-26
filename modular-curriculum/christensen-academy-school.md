@@ -6,7 +6,37 @@
 * *An empowering community of learners*
 * *Young minds of all ages*
 
-##Founding Tenets
+##Mission Statement
+To establish a new model of education that serves the needs of society far better than the existing one. To empower individuals of all ages to take their education into their own hands and reach their fullest potential. To provide individuals of all ages an affordable means of earning highly respected academic credentials regardless of how or where their learning took place. To build stronger school communities in all corners of society. To allow the greatest minds to quickly rise to the top and push the limits of human knowledge and understanding of the universe. To improve the effectiveness of education. To improve the affordability of education. To make education more enjoyable. To offer truly individualized education that meets each student right where they are.
+
+##Learning Philosophy
+Learning happens through experience.
+
+##Tutoring Philosophy
+The best tutoring happens in the presence of a non-threatening, positive relationship. The best tutors are great listeners. They are able to identify a learner's prior knowledge, detect misconceptions, and guide a learner towards deep understanding of the topic at hand. The best tutors help leaner's sharpen their problem-solving skills and get them to think about problems in new ways. The best tutors are humble and honest about their own incomplete understanding of the world.
+
+##Inquiry Teaching Philosophy
+This is basically the philosophy we wrote for ESD and makes sense for group-paced modules.
+
+##Content Teaching Philosophy
+This is the traditional craft of teaching and many of the things I've learned and am still learning from my YouTube experience. The art of explaining concepts and helping students make meaningful connections is extremely important.
+
+##Coaching Philosophy
+It's all about learning... The Play Like a Champion stuff from Notre Dame is pretty awesome...
+
+##Module Design Philosophy
+Modules are based around products, which can be improved through iterative processes. This is essential for the future of education to continually make progress. Our current methods of research and classroom implementation are unlikely to yield anything but modest improvements in education...
+
+Modules are mostly self-paced. Jesse Schell's writing on game design is essential here. Module design is all about crafting a system that is likely to yield great educational experiences.
+
+The nature of how students complete modules changes as they advance learning levels, but a guiding principle is that the burden of proof for learning should shift from teacher to student. Throughout a module, a student must build a portfolio showcasing his or her work. Modules should tend to culminate with more authentic, open-ended, creative projects, which are even more proof of learning. However, the portfolio is really just an application of sorts for completing a module. Other forms of summative assessment will be combined as well. The portfolio is the work you need to do before you are allowed to fight the final boss...
+
+Backwards design is used, which means that the learning objectives for modules will be very clear. This creates a market for module designers to compete in. Each module designer wanting to create the best module... Schools could approve multiple modules
+
+##Interscholastic Gaming Philosophy
+While learning for learning's sake is great, some extra motivation through friendly competition has a huge opportunity to supercharge students' motivation for learning.
+
+##Founding Principles that deviate from the traditional model.
 * K-Life
   * Not just for kids
   * Learners of all ages are part of the school community, and as such they are given opportunities to represent the school on athletic, academic, and artistic teams.
@@ -36,8 +66,8 @@
   * **Collaboration**: Part of a learning community...
 * Earn Teaching Levels that serve as credentials for abilities as a teacher based on an apprentice-journeyman-master model
   * Tutor: ...for one-on-one interaction where the tutor helps the learner develop understanding of a concept. Even young kids can be tutors at the apprentice level
-  * Teacher: More prevalent at the younger ages, a teacher guides students through inquiry
-  * Instructor: The content-deliverer, which whill often take a video format
+  * Inquiry Teacher: More prevalent at the younger ages, a teacher guides students through inquiry
+  * Content Teacher: The content-deliverer, which whill often take a video format
   * Coach: The person leading students through self-paced modules, the nature of which will vary according to student levels (i.e., advanced students will need little coaching).
   * Module Designer: The person who crafts and iteratively refines learning modules, which are often designed to be self-paced.
   * Interscholastic Game Designer: The person who creates and organizes academic competitions and other activities between schools.
@@ -58,3 +88,6 @@
   * Like advisory time for self-paced learning, there is time every day for self-paced learning on competition teams that are preparing for academic competitions.
 * Promotion of the Arts
 * Promotion of Athletics
+
+##Learning Guilds
+
