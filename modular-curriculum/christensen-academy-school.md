@@ -9,6 +9,9 @@
 ##Mission Statement
 To establish a new model of education that serves the needs of society far better than the existing one. To empower individuals of all ages to take their education into their own hands and reach their fullest potential. To provide individuals of all ages an affordable means of earning highly respected academic credentials regardless of how or where their learning took place. To build stronger school communities in all corners of society. To allow the greatest minds to quickly rise to the top and push the limits of human knowledge and understanding of the universe. To improve the effectiveness of education. To improve the affordability of education. To make education more enjoyable. To offer truly individualized education that meets each student right where they are.
 
+##Credentialing Philosophy
+The burden of proof is on the student. The school community accepts or rejects a student's request to gain credit for completing modules.
+
 ##Learning Philosophy
 Learning happens through experience.
 
