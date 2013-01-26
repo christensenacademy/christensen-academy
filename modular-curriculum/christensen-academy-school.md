@@ -22,7 +22,7 @@
 * Earn Learning Degrees that serve as credentials for content mastery
   * Philosophically, the degree is backed by the community. It is a statement from the community saying, "Yes, this person really did learn this content, and they learned it with what we considered to be sufficient depth."
   * All students earning degrees have truly mastered the content at an "A" level. No partial mastery is accepted.
-* Earn **Learning Levels** that serve as credentials for quality of learner. Levels are also major milestones in a learner's career, comparable to graduating to the next level of school, except that one's level is more a mark of distinction and comes with new privelages.
+* Earn **Learning Levels** that serve as credentials for quality of learner. Levels are also major milestones in a learner's career, comparable to graduating to the next level of school, except that one's level is more a mark of distinction and comes with new privelages. Advancing a learning level is a rite of passage and comes with great ceremony. It is an achievement. The school community is recognizing a learner for having grown in the **5 Scholarly Virtues** (described below).
   * **(Level 1) Young Learner:** Fewer self-paced modules. Self-paced modules are shorter (2-10 hours for completion). Majority of learning is lead by a teacher who leads students through authentic inquiry.
   * **(Level 2) Novice Learner** More self-paced modules and more opportunity to choose modules. Module coach plays less hands-on role.
   * **(Level 3) Intermediate Learner:** Even more self-paced modules and almost full choice over modules. Coach is very hands-off.
