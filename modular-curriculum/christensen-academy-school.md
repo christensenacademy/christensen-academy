@@ -46,10 +46,15 @@
   * Multiple advisories in the same room at the same time working self-directedly. This allows teachers to work together.
 * Empowerment over Coersion
   * Students have large amounts of choice within learning modules, but they also have large amounts of choice over what learning modules to pursue. Because learning modules are relatively short and self-paced, there is lots of flexibility here.
+  * No grade levels and little attempt to move students together all at the same pace, although some modules are intentionally group-paced. Low and high students alike are finally allowed to soar to their greatest heights
+  * No teacher is capable of weilding the great pedagogical hammer of education lore to beat knowledge into student's heads
 * Fexible Schedule enabled by self-paced modules that allows for inquiry-based, real-world learning experiences.
+  * Focus on getting outside the school building into the real world. Because self-pace modules allow teachers to play the role of a coach, teachers' time is freed up to plan and implement a greater diversity of learning experiences.
 * Real-world work experience through internships can fit alongside self-paced modules.
+  * Even young students should be engaged in real work at least some of the time. Child labor is a good thing if done right.
 * Leader in academic competitions
   * Similar to the role of athletics today...
   * Gives focus and purpose to the self-paced learning.
+  * Like advisory time for self-paced learning, there is time every day for self-paced learning on competition teams that are preparing for academic competitions.
 * Promotion of the Arts
 * Promotion of Athletics
