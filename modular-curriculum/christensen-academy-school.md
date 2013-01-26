@@ -29,12 +29,11 @@
   * **(Level 4) Advanced Learner:** Full freedom to explore and complete modules and even "off-road" into uncharted learning territory and still earn credit, though mastery must still be assessed by others. Ability to join a learning guild, although learning guilds must always be composed of at least three master learners.
   * **(Level 5) Master Learner:** This is the highest level attainable and signifies special status in a learning guild. No restrictions on learning methods that can be credentialed. Learning can be self reported and self evaluated, though it must still be approved by one's learning guild.
 * **5 Scholarly Virtues** are tracked for each student. While these virtues typically go up, they can sometimes go down. Advisors submit student names for consideration in advancement in these virtues, which grow in a system that parallels learning levels. Basically, to achieve the next learning level, a student needs to advance in each of the five virtues (unless special circumstances warrant something different).
-  * **Integrity** Master learners are able to more or less self-credential, though this must be approved by their learning guild. High levels of integrity as judged by the community are a must.
-  * **Independence** This is important for being able to succeed on self-paced modules
-  * **Self Knowledge**
-  * **Ingenuity**
-  * **Collaboration** Comming from
-  * 
+  * **Integrity**: Master learners are able to more or less self-credential, though this must be approved by their learning guild. High levels of integrity as judged by the community are a must.
+  * **Independence**: This is important for being able to succeed on self-paced modules
+  * **Self Knowledge**: The goal is shift the burden of proof of learning from the teacher to the student, to get the student to be able to self evaluate. This requires self knowledge.
+  * **Ingenuity**: Producer vs. consumer + creativity with a practical twist
+  * **Collaboration**: Part of a learning community...
 * Earn Teaching Levels that serve as credentials for abilities as a teacher based on an apprentice-journeyman-master model
   * Tutor: ...for one-on-one interaction where the tutor helps the learner develop understanding of a concept. Even young kids can be tutors at the apprentice level
   * Teacher: More prevalent at the younger ages, a teacher guides students through inquiry
@@ -44,8 +43,9 @@
   * Interscholastic Game Designer: The person who creates and organizes academic competitions and other activities between schools.
 * Advisory System
   * Each day, significant time is spent as a small community of learners and their advisor working on self-paced modules.
+  * Multiple advisories in the same room at the same time working self-directedly. This allows teachers to work together.
 * Empowerment over Coersion
-  * The best students are not those that do exactly what the teacher asked for. Rather, the best students are those that take learning into their own hands.
+  * Students have large amounts of choice within learning modules, but they also have large amounts of choice over what learning modules to pursue. Because learning modules are relatively short and self-paced, there is lots of flexibility here.
 * Fexible Schedule enabled by self-paced modules that allows for inquiry-based, real-world learning experiences.
 * Real-world work experience through internships can fit alongside self-paced modules.
 * Leader in academic competitions
