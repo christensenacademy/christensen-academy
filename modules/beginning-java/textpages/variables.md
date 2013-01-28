@@ -33,10 +33,14 @@ For storing simple, basic forms of data, Java has eight primitive data types, wi
 Objects are a bit more complex than primitive data types because they have *state* and *behavior*. Here's a quick example:
 
 ```java
-Scanner sc = new Scanner(System.in); // Instantiate a new Scanner object
+Scanner sc = new Scanner( System.in ); // Instantiate a new Scanner object
 String input; // Declare a new String object 
 input = sc.nextLine(); // Have the scanner read the next line of input and assign that input to the "input" variable
+System.out.println( input.length() ); // Print out the length of the input string.
 ```
+
+Notice how we typed `sc.nextLine()` and `input.length()`. These are both examples of objects having *behavior*. Later on, we'll refer to this sort of thing as "calling a method on an object", but we'll wait until later to explain what that means.
+
 
 ##Variable Naming Conventions
 
