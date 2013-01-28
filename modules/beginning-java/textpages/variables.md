@@ -27,7 +27,12 @@ There are three extremely important things to realize about the code above:
 In the example above, we only used one type of variable--an "int"--but you will will quickly find that there are many types of variables you'll be working with in your programs. These variables can be thought of as coming in two major categories: primitive data types and objects.
 
 ###Primitive Data Types
-For storing simple, basic forms of data, Java has eight primitive data types, wich will be described in more detail elsewhere. Basically, these data types are for storing things like numbers and text. In the example above, "int" is a primitive data type.
+For storing simple, basic forms of data, Java has eight primitive data types, wich will be described in more detail elsewhere. Basically, these data types are for storing things like numbers and text. In the example above, `int` is a primitive data type, but there are 7 other primitive data types besides `int`. Here is another example of a primitive data type:
+
+```java
+double distance = 34.53221; // Assign the floating point number 34.53221 to the distance variable
+System.out.println( distance * 2 ); // Print out the value held by the distance variable divided by two
+```
 
 ###Objects
 Objects are a bit more complex than primitive data types because they have *state* and *behavior*. Here's a quick example:
