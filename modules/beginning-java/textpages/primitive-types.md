@@ -18,6 +18,8 @@ Believe it or not, but some numbers are even too big to even fit in a `long`. [P
 
 ###Integer Literals
 
+We use the term "literal" to refer to when we literally type numbers into our programs. For example, in the statement `int students = 12`, `students` is the variable, and `12` is the integer literal.
+
 ##Floating Point Numbers
 
 ##Booleans
