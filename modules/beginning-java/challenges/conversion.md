@@ -1,14 +1,7 @@
-#Poem Challenge
+#Conversion Challenge
 
-* **Estimated Time:** 10 minutes
+**Estimated Time:** 30 minutes
 
-Your challenge is to write a program that prints out the following poem to the terminal:
+Your challenge is to write a program that converts from one type of unit to another, such as inches to centimeters or celcius to farenheight.
 
-```
-Roses are red
-Violets are blue
-I like binary
-And I love 1110101
-```
-
-**Note:** What matters here is that the formatting is the same. Make sure the poem prints out line by line as shown here.
+Your program must prompt the user to enter a value, then perform the conversion on the value the user entered.
