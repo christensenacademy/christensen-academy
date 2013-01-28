@@ -7,6 +7,8 @@ This is not an in-depth discussion of computer hardware and softare. Rather, it 
 ###Hard Drive
 Your computer hard drive is what stores all of the data on your computer. It stores all of your programs, documents, music, videos, and so on. Most hard drives store hundreds of gigabytes of data. If you plan on storing lots of media like images, music, and videos on your computer, you'll want to make sure your hard drive is big enough.
 
+**Note:** Unlike RAM, a hard drive has a *file system* composed of files and folders. All of the "stuff" on your computer can be found in this file system.
+
 [The Wikipedia Article on Hard Drives](http://en.wikipedia.org/wiki/Hard_disk_drive)
 
 ###RAM (Memory)
@@ -14,7 +16,7 @@ Like a hard drive, RAM (Random Access Memory) stores data. However, unlike a har
 
 If you have lots software running on your computer simultaneously, you may be in danger of running out of RAM. If this happens, your computer will slow down tremendously. If your computer is continously running slowly, it may very likely be because you don't have enough RAM. Whereas a typical hard drive has hundreds of gigabytes of storage, RAM usually only has a few gigabytes of storage.
 
-When you restart your computer, the RAM gets cleared out. As the computer starts back up, programs and other data are loaded back into RAM, which can take quite a bit of time.
+When you restart your computer, the RAM gets cleared out. Thus, we say that RAM is "volatile", whereas a hard drive has "persistant storage". As the computer starts back up, programs and other data are loaded back into RAM from the hard drive, which can take quite a bit of time.
 
 Have you ever been working on something on your computer and forgotten to save it? Did you lose all of your work? If so, realize that before you saved your work, the changes you'd been making were only in RAM. Only when you save your work does the computer write the data to the hard drive. **Note:** Newer software tends to be more sophisticated and doesn't always require you to save your work; it just does it automatically for you as you go.
 
