@@ -2,13 +2,24 @@
 $module_name = 'beginning-java';
 $module_title = 'Beginning Java';
 $module_subtitle = 'The Basics of the Java Programming Language';
-$map_height = '115';
+$map_height = '600';
 $module_playlist = '';
 
 $module_challenges = array(
+  new challenge('poem.md', 'Poem Challenge', '55', '41'),
+  new challenge('debugging.md', 'Debugging Challenge 1', '119', '84'),
+  new challenge('echo.md', 'Echo', '143', '56'),
+  new challenge('smart-poem.md', 'Smart Poem', '219', '78'),
+  new challenge('rfc.md', 'RFC (Request for Comments)', '32', '110'),
+  new challenge('conversion.md', 'Conversion', '153', '118'),
+  # new challenge('.md', '', '', ''),
 );
 
 $module_videos = array(
+  new video('KTwHdVBQ-Ik', 'Classes, Objects, and Primitive Types Intro'),
+  new video('vVJOAP7Qg_Q', 'Primitive Types: byte, short, int, long'),
+  new video('MSxzdm4ev_8', 'Primitive Types: float, double'),
+  new video('-KZ9EZvNdms', 'Math Expressions Intro'),
 );
 
 $module_textpages = array(
