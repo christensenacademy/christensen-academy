@@ -2,7 +2,7 @@
 
 **Estimated Time:** 10 minutes
 
-Your challenge is to figure out what the program below does and how it works. Once you understand how each line of code works, write a comment at the end of the line (or above it) explaining the purpose of that line of code.
+Your challenge is to figure out what the program below does and how it works. Once you understand how each line of code works, write a comment at the end of each line (or above it) explaining the purpose of that line of code.
 
 ```java
 public class MoonWeight {
