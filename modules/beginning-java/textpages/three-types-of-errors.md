@@ -19,7 +19,3 @@ If you don't have a clue what I'm talking about, you will. Fixing runtime errors
 
 ##Logic Errors
 Sometimes your program runs without runtime errors but doen't do what you wanted it to do. This type of error is a logic error and can be the most difficult type of error to spot and fix. For example, imagine you designed a video game in which bad guys gained health when you hit them instead of losing it. This type of thing is what we refer to as a logic error.
-
-Kowabunga,
-
-Cam
