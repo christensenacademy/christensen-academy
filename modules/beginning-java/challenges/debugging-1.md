@@ -1,14 +1,15 @@
-#Poem Challenge
+#Debugging Challenge 1
 
-* **Estimated Time:** 10 minutes
+**Estimated Time:** 10 minutes
 
-Your challenge is to write a program that prints out the following poem to the terminal:
+Your challenge is to fix all of the syntax errors in the following code. Write comments in the code explaining each error you fixed. Make sure to actually run the program. The output of the program should be `Foo plus Bar = 7`.
 
+```java
+public Class debuggingChallenge1 {
+  public static void Main(String args) {;
+    foo = 4
+    int bar;
+    3 = bar;
+    System.out.println( "Foo plus Bar = " foo + bar );
+}
 ```
-Roses are red
-Violets are blue
-I like binary
-And I love 1110101
-```
-
-**Note:** What matters here is that the formatting is the same. Make sure the poem prints out line by line as shown here.
