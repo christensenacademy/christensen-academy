@@ -1,6 +1,6 @@
 #Poem Challenge
 
-* **Estimated Time:** 8 minutes
+**Estimated Time:** 8 minutes
 
 Your challenge is to write a program that prints out the following poem to the terminal:
 
