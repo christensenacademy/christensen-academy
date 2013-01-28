@@ -12,7 +12,7 @@ Primitive data types are used to store integers, floating point numbers, boolean
 * int: 32 bits [-2,147,483,648, 2,147,483,647]
 * long: 64 bits [-9,223,372,036,854,775,808, 9,223,372,036,854,775,807]
 
-Make sure you always choose a type you're sure will be big enough. If, for example, you were to use an `int` to store the value of the current U.S. national debt, it wouldn't be large enough, and you would get very strange, unpredictable results. **Note:** You really shouldn't be storing money using an int in the first place unless you don't care about cents.
+Make sure you always choose a type you're sure will be big enough. If, for example, you were to use an `int` to store the value of the current U.S. national debt, it wouldn't be large enough, and you would get very strange, unpredictable results. **Question:** What data type should we use for currency? This is actually a tricky question...
 
 Believe it or not, but some numbers are even too big to even fit in a `long`. [Project Euler](http://projecteuler.net/) often presents problems that stretch the limits of modern computers. Sometimes this involves working with really, really large numbers.
 
