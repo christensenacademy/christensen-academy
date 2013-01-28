@@ -1,6 +1,6 @@
 #Smart Poem Challenge
 
-**Estimated Time:** 10 minutes
+**Estimated Time:** 20 minutes
 
 Your challenge is to write a program that prompts the user to enter a word that rhymes with a word of your choosing. The program should store the response then print out a poem using that word to complete a rhyme.
 
