@@ -33,7 +33,3 @@ In the example above, I named my variable favoriteNumber. You may have found it 
 
 ##Conclusion
 To fully understand what variables are and how they work, you'll need to gain some real programming experience. I encourage you to continue trying to write interesting programs and push the limits of what you know.
-
-Kowabunga,
-
-Cam
