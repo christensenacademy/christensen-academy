@@ -41,7 +41,7 @@ Lists can occur inside of lists.
   * subitem 2
 * Item 3
 
-When this happens, simply put the child list inside of one of the list items of the parent.
+When this happens, simply put the inner list inside of one of the list items of the outer list.
 ```html
 <ul>
   <li>Item 1</li>
