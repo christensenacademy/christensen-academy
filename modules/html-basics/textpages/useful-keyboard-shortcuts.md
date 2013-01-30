@@ -1,4 +1,7 @@
 #Useful Keyboard Shortcuts
+
+Keyboard shortcuts are fun to use and help you work faster.
+
 If using Mac, replace ctrl (control) with the command key.
 ```
 ctrl + s = save
