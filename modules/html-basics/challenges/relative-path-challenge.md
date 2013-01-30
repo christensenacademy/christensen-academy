@@ -1,6 +1,6 @@
 #Relative Path Challenge
 
-**Estimated Time:** 35 minutes
+**Estimated Time:** 40 minutes
 
 Your challenge is to make all of the images and links work for the Joersz Academy, the arch rival of the Christensen Academy. In order to do this, you will need to follow these instructions:
 
