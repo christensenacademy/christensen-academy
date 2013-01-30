@@ -44,19 +44,14 @@ Lists can occur inside of lists.
 When this happens, simply put the child list inside of one of the list items of the parent.
 ```html
 <ul>
-  <li>Lorem Ipsum</li>
+  <li>Item 1</li>
   <li>
-    Lorem Ipsum
+    Item 2
     <ul>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
+      <li>subitem 1</li>
+      <li>subitem 2</li>
     </ul>
   </li>
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
+  <li>Item 3</li>
 </ul>
 ```
