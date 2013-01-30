@@ -1,13 +1,13 @@
 #Basic Website Project
 
-* **Challenge:** Exercise your creativity to build a unique website using HTML.
-* **Estimated Time:** 150 minutes.
+**Estimated Time:** 150 minutes.
 
 ##Project Ideas
 
+* a personal portfolio site--a resume of sorts
 * a school site
 * a business site
-* a fan site (e.g., I <3 Coldplay)
+* a fan site (e.g., I <3 Daft Punk)
 * a humor site
 
 ##Requirements
