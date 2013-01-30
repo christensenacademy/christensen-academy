@@ -7,10 +7,10 @@
 Answer the following questions to the best of your ability. Then, watch the solution video to see if you were right.
 
 1. Webpages are created...
-  a by magic.
-  b in much the same way you make things in a word processor like Microsoft Word.
-  c with a simple text editor in which you can write HTML code.
-  d on special computers that are used only by Web designers and developers.
+  1. by magic.
+  2. in much the same way you make things in a word processor like Microsoft Word.
+  3. with a simple text editor in which you can write HTML code.
+  4. on special computers that are used only by Web designers and developers.
 2. While HTML is plain text used to create the basic content of a webpage, CSS and JavaScript...
   * are also plain text used to create visual styling and add interactivity respectively.
   * have nothing to do with creating webpages.
