@@ -37,9 +37,9 @@ The rest of the elements should be used at least once unless specified otherwise
 ###Other Requirements
 
 * pages (min = 4)
-* Links to get from page to page
+* navigation: there need to be links to get from page to page
 * html entities (min = 2)
-* all pages must validate with zero errors (warnings are okay)
+* all pages must validate with zero errors
 
 ##Rubric
 
