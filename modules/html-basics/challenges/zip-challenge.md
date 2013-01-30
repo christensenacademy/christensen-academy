@@ -1,6 +1,6 @@
 #Zip Challenge
 
-**Estimated Time:** 30 minutes
+**Estimated Time:** 20 minutes
 
 ###Overview
 The big idea behind this challenge is that you (a) practice extracting the contents of zip files and (b) practice creating your own zip files.
