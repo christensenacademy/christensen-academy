@@ -1,29 +1,10 @@
 #Text Editor Challenge
 
-* **Challenge:** Download and install a new text editor that you can use to write your HTML code, then use it to create a new webpage.
 * **Estimated Time:** 25 minutes
 
-###Video
+Your challenge is to download and install a text editor for writing HTML code, then use it to create a basic webpage.
 
-There's [a video](http://www.youtube.com/watch?v=GoL1ZW3Lk38) that directly accompanies this challenge. If I were you, I'd watch it while completing the challenge at the same time. It's probably easiest that way.
-
-###Text Editors
-
-**Note:** You should feel free to research and download any text editor that you'd like to use. The following are just a few of my recommendations. I like Notepad++ on Windows, but that's just personal preference. Other people have other preferences. It really doesn't matter that much.
-
-#####Windows
-* [Notepad++](http://notepad-plus-plus.org/)
-* [Sublime Text 2](http://www.sublimetext.com/2)
-
-#####Mac
-* [Text Wrangler](http://www.barebones.com/products/TextWrangler/)
-* [Sublime Text 2](http://www.sublimetext.com/2)
-
-#####Linux
-* [gedit](http://projects.gnome.org/gedit/)
-* [Sublime Text 2](http://www.sublimetext.com/2)
-
-###Webpage
+###Code for Your Webpage
 
 Copy and paste the following HTML code into a new file in your text editor. Then, save it making sure to name it *something.html*. All webpages you create will need to end in either .html or .htm. Then, open it in your browser to see it in its full glory!
 
