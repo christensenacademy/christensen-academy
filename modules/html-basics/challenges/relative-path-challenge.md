@@ -1,7 +1,7 @@
 #Relative Path Challenge
 
 * **Challenge:** Make all of the images and links work for the Joersz Academy, the arch rival of the Christensen Academy.
-* **Estimated Time:** 45 minutes
+* **Estimated Time:** 35 minutes
 
 ###Getting Started
 1. Download the [zip file](http://christensenacademy.org/modules/html-basics/challenges/relative-path-challenge.zip) that contains all of the files and folders for the Joersz Academy.
