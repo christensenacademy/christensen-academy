@@ -25,8 +25,8 @@ Relative paths specify the path to a resource on your site. When constructing a 
 
 If the other resource is in the same folder as your HTML file, then just specify the file name (e.g., `href="lorem.png"`). If the other resource is in another folder, just follow these two rules:
 
-1 To go up to a parent folder, type `../`
-2 To go into a child folder, type `name_of_folder/`
+1. To go up to a parent folder, type `../`
+2. To go into a child folder, type `name_of_folder/`
 
 ###Examples of Relative Paths
 `index.html` is a path to a file called index.html in the same folder as the current file.
