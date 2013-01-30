@@ -6,7 +6,7 @@ Your challenge is to download and install a text editor for writing HTML code, t
 
 ###Code for Your Webpage
 
-Copy and paste the following HTML code into a new file in your text editor. Then, save it making sure to name it *something.html*. All webpages you create will need to end in either .html or .htm. Then, open it in your browser to see it in its full glory!
+Copy and paste the following HTML code into a new file in your text editor. Then, save it making sure to name it *something.html*. **All webpages you create will need to end in either .html or .htm**. Then, open it in your browser to see it in its full glory!
 
 ```html
 <!DOCTYPE html>
