@@ -4,6 +4,8 @@
 
 Your challenge is to figure out what the program below does and how it works. Once you understand how each line of code works, write a comment at the end of each line (or above it) explaining the purpose of that line of code.
 
+**Note:** You only need to write comments next to the lines of code *inside* of the main method. That is, you don't need to write comments for the first two lines.
+
 ```java
 public class MoonWeight {
   public static void main(String[] args) {
