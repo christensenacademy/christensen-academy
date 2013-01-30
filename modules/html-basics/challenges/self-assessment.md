@@ -7,10 +7,10 @@
 Answer the following questions to the best of your ability. Then, watch the solution video to see if you were right.
 
 1. Webpages are created...
-  * by magic.
-  * in much the same way you make things in a word processor like Microsoft Word.
-  * with a simple text editor in which you can write HTML code.
-  * on special computers that are used only by Web designers and developers.
+  a by magic.
+  b in much the same way you make things in a word processor like Microsoft Word.
+  c with a simple text editor in which you can write HTML code.
+  d on special computers that are used only by Web designers and developers.
 2. While HTML is plain text used to create the basic content of a webpage, CSS and JavaScript...
   * are also plain text used to create visual styling and add interactivity respectively.
   * have nothing to do with creating webpages.
@@ -26,9 +26,6 @@ Answer the following questions to the best of your ability. Then, watch the solu
   * Children of the head element appear at the top of the webpage, whereas children of the body element appear in the middle of the webpage.
   * None of the above.
 5. Give an example of an HTML comment.
-6. What's the difference between the terms "HTML tag" and "HTML element"? Include an explanation of opening and closing tags as part of your answer.
-7. Explain how HTML lists work making sure to use the following vocabulary: element, opening tag, closing tag, parent, child.
+6. What's the difference between the terms "tag" and "element" with regards to HTML?
+7. Explain how HTML lists work. If you can, try to incorporate the following vocabularly words into your explanation: element, opening tag, closing tag, parent, child.
 8. Explain why we have h1, h2, h3, h4, h5, and h6 elements but only one p element.
-
-##Solution Video
-I haven't made this yet, but I plan on making a video where I complete the challenge myself and talk through how I would do it.
