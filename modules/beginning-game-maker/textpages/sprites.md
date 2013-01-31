@@ -1,2 +1,7 @@
-#THIS DOCUMENT NEEDS TO BE CREATED
-Expect it to be finished sometime in the first quarter of 2013
+#Sprites
+
+The images for the objects in your game are called *sprites*. The purpose of this textpage is to teach the basics of using sprites in Game Maker.
+
+###Create a Sprite
+
+![](http://christensenacademy.org/modules/beginning-game-maker/textpages/sprites-create.png)
