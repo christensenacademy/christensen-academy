@@ -18,7 +18,7 @@ Make sure to give your sprites good, logical names. You'll be glad you did as yo
 
 ![](http://christensenacademy.org/modules/beginning-game-maker/textpages/sprite-editor-screen.png)
 
-The sprite editor is usually pretty easy to use. I recommend just playing around with it to get familiar with the basic things you can do.
+The image editor is usually pretty easy to use. I recommend just playing around with it to get familiar with the basic things you can do.
 
 ![](http://christensenacademy.org/modules/beginning-game-maker/textpages/sprites-editor.png)
 
