@@ -7,7 +7,7 @@ $module_playlist = '';
 
 $module_challenges = array(
   new challenge('poem.md', 'Poem Challenge', '55', '41'),
-  new challenge('debugging.md', 'Debugging Challenge 1', '119', '84'),
+  new challenge('debugging-1.md', 'Debugging Challenge 1', '119', '84'),
   new challenge('echo.md', 'Echo', '143', '56'),
   new challenge('smart-poem.md', 'Smart Poem', '219', '78'),
   new challenge('rfc.md', 'RFC (Request for Comments)', '32', '110'),
@@ -16,10 +16,13 @@ $module_challenges = array(
 );
 
 $module_videos = array(
-  new video('KTwHdVBQ-Ik', 'Classes, Objects, and Primitive Types Intro'),
+  new video('KTwHdVBQ-Ik', 'Classes, Objects, and Primitive Types'),
+  new video('-AoHFnlJ1r4', 'Comments'),
   new video('vVJOAP7Qg_Q', 'Primitive Types: byte, short, int, long'),
   new video('MSxzdm4ev_8', 'Primitive Types: float, double'),
-  new video('-KZ9EZvNdms', 'Math Expressions Intro'),
+  new video('k5R3skKKQBg', 'Characters and Strings'),
+  new video('xzkGiP5qyzs', 'Java Scanner Class'),
+  new video('-KZ9EZvNdms', 'Math Expressions'),
 );
 
 $module_textpages = array(

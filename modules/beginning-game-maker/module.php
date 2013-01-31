@@ -10,9 +10,8 @@ $module_challenges = array(
   new challenge('sprites.md', 'Sprites', '190', '55'),
   new challenge('backgrounds.md', 'Backgrounds', '230', '55'),
   new challenge('mouse-madness.md', 'Mouse Madness', '132', '69'),
-  new challenge('wacky-walls.md', 'Wacky Walls', '42', '111'),
-  new challenge('fun-with-alarms.md', 'Fun with Alarms', '80', '112'),
-  new challenge('relative-reasoning.md', 'Relative Reasoning', '61', '158'),
+  new challenge('score.md', 'Score', '80', '112'),
+  new challenge('fun-with-alarms.md', 'Fun with Alarms', '61', '158'),
   new challenge('click-a-mania.md', 'Click-a-Mania!', '152', '136'),
   new challenge('game-info.md', 'Game Info', '190', '154'),
   new challenge('keyboard-king.md', 'Keyboard King', '69', '216'),
@@ -35,7 +34,10 @@ $module_videos = array(
   new video('Wi-kG0Kv7Xg', 'Create Event Intro'),
   new video('li4n6HTkUcw', 'Alarms'),
   new video('jwRtxi_J4A8', 'Music and Sounds'),
-  new video('', ''),
+  new video('HbJV5W9wYSg', 'Coordinate System and Sprite Origins'),
+  new video('5Pq4TCyYHtc', 'Health, Lives, and Score'),
+  new video('yxNSHAp7O7Y', 'Relative Reasoning'),
+  # new video('', ''),
   # new video('uzNxavrvefQ', 'Increasing the Difficulty'),
   # new video('t1Wn7TQTX94', 'Relative Speeds'),
   # new video('z-ei8xibAxY', 'Game Info'),
@@ -52,7 +54,7 @@ $module_videos = array(
 );
 
 $module_textpages = array(
-  # new textpage('sprites.md', 'Sprites'),
+  new textpage('sprites.md', 'Sprites'),
   # new textpage('images.md', 'Images'),
   # new textpage('objects-rooms-and-instances.md', 'Objects, Rooms, and Instances'),
   # new textpage('events-and-actions.md', 'Events and Actions'),
