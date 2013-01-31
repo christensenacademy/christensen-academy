@@ -1,6 +1,8 @@
 #Sprites Challenge
 
-**Estimated Time:** 20 minutes
+**Estimated Time:** 35 minutes
+
+The purpose of this challenge is to get lots of practice working with different sprites.
 
 ###Part 1
 Create a sprite that has dimensions 200 by 100. The image for this sprite should simply be your name with a transparent background.
