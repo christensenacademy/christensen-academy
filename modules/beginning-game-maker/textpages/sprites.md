@@ -22,8 +22,8 @@ The image editor is usually pretty easy to use. I recommend just playing around 
 
 ![](http://christensenacademy.org/modules/beginning-game-maker/textpages/sprites-editor.png)
 
-Sprite size is measured in pixels. The game room is 640 pixels wide by 480 pixels high by default, but you can change that. You can also change the size of sprites while editing them.
+Sprite size is measured in pixels. The game room is 640 pixels wide by 480 pixels high by default, which is a nice frame of reference when thinking about how big you want your sprites to be.
 
-###Load a Sprite
+If you want to resize a sprite, I recommend using the transform menu and choosing "stretch".
 
-You can load a sprite
+![](http://christensenacademy.org/modules/beginning-game-maker/textpages/sprites-stretch.png)
