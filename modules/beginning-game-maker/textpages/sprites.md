@@ -14,6 +14,10 @@ Make sure to give your sprites good, logical names. You'll be glad you did as yo
 
 ![](http://christensenacademy.org/modules/beginning-game-maker/textpages/sprites-naming.png)
 
+###Editing a Sprite
+
+![](http://christensenacademy.org/modules/beginning-game-maker/textpages/sprite-editor-screen.png)
+
 ###Size of Sprites
 
 Sprite size is measured in pixels. The game room is 640 pixels wide by 480 pixels high by default, but you can change that. You can also change the size of sprites while editing them.
