@@ -1,5 +1,5 @@
 #Hyperlinks
-The anchor (`a`) element is used for creating hyperlinks to resources on the World Wide Web.
+The `a` element, which stands for "anchor" (which doesn't make a tremendous amount of sense), is used for creating hyperlinks to resources on the World Wide Web.
 
 **Note:** Every anchor element needs an `href` attribute with a path (relative or absolute) as a value.
 

@@ -53,7 +53,3 @@ If you haven't actually written any programs yet, this probably sounds quite con
 As you first start programming in Java, you'll find yourself mostly relying on the classes provided by the Java API. That is, you won't be writing your own classes. Instead, you'll mostly be working with objects from classes that have already been written for you. Later on, you'll start writing your own classes. Honestly, I think it's pretty much impossible to have a thorough understanding of what classes and objects are until you've written and used your own classes.
 
 In the meantime, I recommend just trying your best to learn the basics of the Java programming language. Your understanding of classes and objects will evolve over time. Don't worry if things seem a bit vague at this point. Just keep programming and your understanding will emerge as you gain experience.
-
-Kowabunga,
-
-Cam

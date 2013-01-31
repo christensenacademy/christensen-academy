@@ -1,14 +1,7 @@
-#Poem Challenge
+#Echo Challenge
 
-* **Estimated Time:** 10 minutes
+**Estimated Time:** 15 minutes
 
-Your challenge is to write a program that prints out the following poem to the terminal:
+Your challenge is to write a program that allows a user to type things into a terminal interface. When the user pressed enter, what they typed is echoed back to them.
 
-```
-Roses are red
-Violets are blue
-I like binary
-And I love 1110101
-```
-
-**Note:** What matters here is that the formatting is the same. Make sure the poem prints out line by line as shown here.
+**Note:** To complete this challenge, you will need to use a Scanner.

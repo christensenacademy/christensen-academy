@@ -1,14 +1,21 @@
-#Poem Challenge
+#RFC (Request for Comments)
 
-* **Estimated Time:** 10 minutes
+**Estimated Time:** 10 minutes
 
-Your challenge is to write a program that prints out the following poem to the terminal:
+Your challenge is to figure out what the program below does and how it works. Once you understand how each line of code works, write a comment at the end of each line (or above it) explaining the purpose of that line of code.
 
+**Note:** You only need to write comments next to the lines of code *inside* of the main method. That is, you don't need to write comments for the first two lines.
+
+```java
+public class MoonWeight {
+  public static void main(String[] args) {
+    double weightOnEarth;
+    weightOnEarth = 175.0;
+    double earthToMoonRatio = 6.013;
+    double weightOnMoon = ( weightOnEarth / earthToMoonRatio );
+    System.out.println( "Welcome!" );
+    System.out.println( "Did you know that if your weight on Earth is " + weightOnEarth + ", your weight on" );
+    System.out.println( "the moon would be " + weightOnMoon + "!!!");
+  }
+}
 ```
-Roses are red
-Violets are blue
-I like binary
-And I love 1110101
-```
-
-**Note:** What matters here is that the formatting is the same. Make sure the poem prints out line by line as shown here.

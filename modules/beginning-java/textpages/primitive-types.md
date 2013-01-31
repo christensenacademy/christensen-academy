@@ -2,21 +2,23 @@
 
 While Java is an object-oriented programming language, there are still some things in it that have nothing to do with objects; namely, Java has *primitive types*.
 
-Primitive data types are used to store integers, floating point numbers, booleans, and characters. If you're unsure what these things are or are merely in need of a refresher, I recommend you visit the module on [binary](http://christensenacademy.org/#binary).
+Primitive data types are used to store integers, floating point numbers, booleans, and characters. If these terms seem unfamiliar to you, I recommend you visit the module on [binary](http://christensenacademy.org/#binary).
 
 ##Integers
-`byte`, `short`, `int`, and `long` are used to store integer values using the two's compliment encoding scheme. The only difference between these types is the number of bits used for each:
+`byte`, `short`, `int`, and `long` are used to store integer values--which, if you're interested, uses the two's compliment encoding scheme for signed integers. The only difference between these types is the number of bits used for each:
 
 * byte: 8 bits, duh [-128, 127] 
 * short: 16 bits [-32,768, 32,767]
 * int: 32 bits [-2,147,483,648, 2,147,483,647]
-* long: 64 bits [-9,223,372,036,854,775,808, 9,223,372,036,854,775,807 ]
+* long: 64 bits [-9,223,372,036,854,775,808, 9,223,372,036,854,775,807]
 
-Make sure you always choose a type you're sure will be big enough. If, for example, you were to use an `int` to store the value of the current U.S. national debt, it wouldn't be large enough, and you would get very strange, unpredictable results. **Note:** You really shouldn't be storing money using an int in the first place unless you don't care about cents.
+Make sure you always choose a type you're sure will be big enough. If, for example, you were to use an `int` to store the value of the current U.S. national debt, it wouldn't be large enough, and you would get very strange, unpredictable results. **Question:** What data type should we use for currency? This is actually a tricky question...
 
 Believe it or not, but some numbers are even too big to even fit in a `long`. [Project Euler](http://projecteuler.net/) often presents problems that stretch the limits of modern computers. Sometimes this involves working with really, really large numbers.
 
 ###Integer Literals
+
+We use the term "literal" to refer to when we literally type numbers into our programs. For example, in the statement `int students = 12`, `students` is the variable, and `12` is the integer literal.
 
 ##Floating Point Numbers
 

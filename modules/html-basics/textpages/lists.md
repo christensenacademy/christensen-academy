@@ -33,22 +33,25 @@ Unordered lists display as bulleted lists like this:
 </ul>
 ```
 ###Nested (Multi-Level) Lists
-Lists can occur inside of lists. When this happens, simply put the child list inside of one of the list items of the parent.
+Lists can occur inside of lists.
+
+* Item 1
+* Item 2
+  * subitem 1
+  * subitem 2
+* Item 3
+
+When this happens, simply put the inner list inside of one of the list items of the outer list.
 ```html
 <ul>
-  <li>Lorem Ipsum</li>
+  <li>Item 1</li>
   <li>
-    Lorem Ipsum
+    Item 2
     <ul>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
+      <li>subitem 1</li>
+      <li>subitem 2</li>
     </ul>
   </li>
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
-  <li>Lorem Ipsum</li>
+  <li>Item 3</li>
 </ul>
 ```

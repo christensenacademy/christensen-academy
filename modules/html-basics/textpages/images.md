@@ -8,7 +8,7 @@ The image element uses links just like the anchor element, but instead of creati
 ```
 
 ###Alt Attribute
-The alt attribute is used to provide a short description of the image. This might seem unnecessary, but it is essential in order to make your page accessible to blind people.
+The alt attribute is used to provide a short description of the image. This might seem unnecessary, but it is essential in order to make your page accessible to people who are blind.
 
 ```html
 <img src="img/logo.png" alt="Logo for the website.">
