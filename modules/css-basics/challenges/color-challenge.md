@@ -52,7 +52,12 @@ Your challenge is to create two webpages that look like the following pictures m
     <ul>
       <li>Proin a mauris at libero ornare ornare ut at elit.</li>
       <li>Duis semper tincidunt arcu, ac tincidunt lorem suscipit sit amet.</li>
-      <li>Fusce laoreet, eros commodo tristique placerat, est leo dictum massa, ut rhoncus orci quam eu nunc. Fusce ut laoreet erat. Cras consequat semper blandit. Phasellus ut nunc arcu. Nunc at tempus mi. Cras aliquet malesuada molestie. Ut consequat sagittis est vulputate laoreet. Suspendisse vehicula, purus nec gravida blandit, urna elit volutpat arcu, vel euismod erat elit vel ipsum.</li>
+      <li>Fusce laoreet, eros commodo tristique placerat, est leo dictum massa, ut rhoncus orci quam eu nunc.</li>
+      <li>Fusce ut laoreet erat. Cras consequat semper blandit.</li>
+      <li>Phasellus ut nunc arcu. Nunc at tempus mi. Cras aliquet malesuada molestie.</li>
+      <li>Ut consequat sagittis est vulputate laoreet.</li>
+      <li>Suspendisse vehicula, purus nec gravida blandit.</li>
+      <li>Urna elit volutpat arcu, vel euismod erat elit vel ipsum.</li>
     </ul> 
   </body>
 </html>
