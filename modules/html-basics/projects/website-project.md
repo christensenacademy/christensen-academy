@@ -1,6 +1,6 @@
 #Basic Website Project
 
-**Estimated Time:** 120 minutes.
+**Estimated Time:** 120 minutes
 
 ##Project Ideas
 
