@@ -45,5 +45,6 @@ The rest of the elements should be used at least once unless specified otherwise
 
 * **Creativity and Uniqueness:** Your website should have unique content (no plagiarism, obviously), and you should seek to structure your pages in interesting ways making use of links, images, lists, and other HTML elements you've learned.
 * **Research:** You are expected to research and use at least two new HTML elements that were not coered in this module. **A Word of Caution:** Be wary of HTML elements that attempt to add style to your page. Remember, CSS (the next module) will allow you to add style to your webpages. Here are two example of *deprecated* (i.e., you're not supposed to use them anymore) elements: `<center>`, which was for centering text, and `<b>`, which was for making text bold.
+* **Page Navigation:** Your site is easy to navigate, and you've clearly spent a lot of time thinking about how to place links on your pages to make it as easy as possible for people to find their way around your site.
 * **Correctness:** Your code should be error free and have flawless indentation. There are some things you shouldn't get "creative" with. Indenting your code is one of them. Allowing errors in your code is another. Use the [HTML validator](http://validator.w3.org/) to help you find your errors.
 * **Requirements:** Fulfill all of the requirements listed above.
