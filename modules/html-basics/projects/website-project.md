@@ -11,28 +11,25 @@
 * a humor site
 
 ##Requirements
-
-**Note:** The following requirements are intended to help you flex all of your HTML muscles. Use this project as a way to help you solidify your knowledge and understanding of HTML.
-
 ###Required Tags
 
-The first five should be obvious:
+On every page:
 
-* !DOCTYPE
-* html
-* head
-* body
-* title
+* `!DOCTYPE html`
+* `html`
+* `head`
+* `body`
+* `title`
+* `meta`
 
-The rest of the elements should be used at least once unless specified otherwise:
+On at least one page:
 
-* meta
-* p
-* **headings:** h1, h2, h3, ..., h6 (use at least two different types)
-* br
-* hr
-* **lists:** ol, ul, li (have at least one list
-* img (min = 3)
+* `p`
+* **headings:** `h1`, `h2`, `h3`, ..., `h6` (use at least two different types)
+* `br`
+* `hr`
+* **a list:** `ol` or `ul`
+* `img` (min = 3)
 
 ###Other Requirements
 
