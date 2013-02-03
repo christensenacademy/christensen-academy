@@ -1,7 +1,7 @@
 #Meta Element
 Many people are confused by `<meta>` elements becasue they in no way impact the appearance of the webpage. The `<meta>` element is found only as a child of the `<head>` element because its only purpose is to provide extra information about the page. It is an empty (void) element. Here are some examples:
 ```html
-<meta charset="utf-8"> <!-- Lets the browser know what character encoding your browser is using. -->
+<meta charset="utf-8"> <!-- Lets the browser know what character encoding your HTML file is using. -->
 
 <!-- Provides keywords that might be looked at by search engines -->
 <meta name="keywords" content="computer science, programming, learning, html">
