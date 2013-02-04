@@ -43,3 +43,5 @@ These are four common mistakes you should watch out for. Most of thes occur beca
 <img scr="Lorem.png"> <!-- In this example, the attribute should be "src" not "scr". Also, it's possible 
                            that the file name was "lorem.png" instead of "Lorem.png" -->
 ```
+
+![](http://christensenacademy.org/img/signature.png)
