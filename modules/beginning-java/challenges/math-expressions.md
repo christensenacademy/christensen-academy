@@ -9,7 +9,7 @@ Then, once you've made your predictions--I recommend recording them in comments 
 ```java
 public class MathExpressions {
   public static void main(String[] args){
-    // running this program, write out your predictions for each expression
+    // Before running this program, write out your predictions for each expression.
     System.out.println(3+4*2);
     System.out.println( (3+4)*2);
     System.out.println( (15/(3+4))*5.0);
