@@ -29,7 +29,7 @@ two direct children (head and body), but these children have many children withi
 ##Paragraphs and Headings
 
 ```html
-<p>Lorem Ipsum</p>    <!-- The paragraph element is used whenever you want a paragraph of text on your webpage. -->
+<p>Lorem Ipsum</p>    <!-- The paragraph element: used whenever you want a paragraph of text on your webpage. -->
 <h1>Lorem Ipsum</h1>  <!-- The h1 element is used whenever you want a very important heading on your page.
                           By default it displays the largest of all of the headings. -->
 <h2>Lorem Ipsum</h2>  <!-- The h2 element is interpreted to have slightly less importance than an h1 element.
@@ -39,3 +39,6 @@ two direct children (head and body), but these children have many children withi
 <h5>Lorem Ipsum</h5>
 <h6>Lorem Ipsum</h6>  <!-- The h2 element is the least significant (displays smallest) heading element. -->
 ```
+
+
+![](http://christensenacademy.org/img/signature.png)
