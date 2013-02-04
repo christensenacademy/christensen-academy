@@ -17,39 +17,27 @@ $module_challenges = array(
   new challenge('html-entities-challenge.md', 'HTML Entities Challenge', '205', '253'),
   new challenge('relative-path-challenge.md', 'Relative Path Challenge', '152', '292'),
   new challenge('validation-challenge.md', 'Validation Challenge', '212', '364'),
-  new challenge('../projects/website-project.md', 'Website Project', '135', '430')
+  new challenge('website-project.md', 'Website Project', '135', '430')
 );
 
 $module_videos = array(
-  new video('GKyGPRgpa5g', 'HTML, CSS, and JavaScript Overview'),
-  new video('GoL1ZW3Lk38', 'Text Editor for Web Development'),
-  new video('dVOC77VvlIE', 'HTML Intro'),
-  new video('5k0nTTwG1ys', 'HTML Indentation'),
-  new video('T9Mu-ViFdX8', 'HTML Comments'),
-  new video('9Ce85vnzAgM', 'HTML Basic Structure'),
-  new video('dIYKATMBwIc', 'HTML Basic Elements'),
-  new video('XrqC7giRuNg', 'HTML Block vs. Inline (introductory explanation)'),
-  new video('LOdepOlsVX0', 'HTML Lists (ordered and unordered)'),
-  new video('RwSNaS9XiYs', 'HTML Nested (Hierarchical) Lists'),
-  new video('z3STv2PZQ4w', 'Keyboard Shortcuts'),
-  # The following videos need to be redone. The language I used to describe paths was very poor. Students got confused by what I meant when I said "link"
-  new video('y05_twXvacU', 'HTML Attributes Intro'),
-  new video('r38j0rnQ17Q', 'HTML Relative Links'),
-  new video('87B0pFlc7Xc', 'Working with Zip Files'),
-  new video('qItZlfOmG3o', 'HTML Absolute Links'),
-  # URLs and Absolute Links
-  new video('sQ5-v9MmPI0', 'HTML Links to Other Resources'),
-  new video('KU4V-bCN4Ag', 'HTML Email Link'),
-  new video('ilRD2T9qiAU', 'HTML Void (Empty) Elements: br, hr, and img'),
-  new video('Xa3m4xP4QTk', 'HTML Image (img) Tag'),
-  new video('twCSSSsF3PM', 'HTML Accessibility Intro (alt and longdesc)'),
-  new video('reZC1VpnotE', 'HTML Title Attribute (making tool tips)'),
-  # REDO with talk of SEO, better description of description, and no wrong info about UTF-8
-  new video('POwgA7u3h4E', 'HTML Meta Tag'),
-  new video('QVP9FQi7tiA', 'HTML Validation Service'),
-  new video('oRQTw_J1dgA', 'HTML Validation Service (Part 2)'),
-  new video('1wpus8NNl5g', 'HTML Reserved and Special Characters'),
-  new video('OJUyMP5QaKM', 'HTML Review (Chipmunk Voice)')
+  new video('TSWRh9PruTU', 'HTML, CSS, and JavaScript Intro'),
+  new video('bbTjT0jXLJ8', 'Text Editors'),
+  new video('d9CGdijb_Y8', 'Intro to HTML Basics'),
+  new video('lERL1N7YgQo', 'Indentation and White Space'),
+  new video('6xtpxQW1_bc', 'Comments'),
+  new video('BDfyofGW1iM', 'Basic Elements: title, h1-h6, and p'),
+  new video('Esuo3DpHjjM', 'Lorem Ipsum for Web Development'),
+  new video('V-pVG0C44ZI', 'Basic Keyboard Shortcuts for Web Development'),
+  new video('GMRG3d25E18', 'Lists'),
+  new video('GOkghoS8eN8', 'Void (Empty) Elements'),
+  new video('RyxJxageYMc', 'Attributes'),
+  new video('Z8-pjnNYhnU', 'Absolute Paths (URLs)'),
+  new video('9KHIdgA08hw', 'Relative Paths'),
+  new video('qk3HIpSbors', 'HTML Entities'),
+  new video('RdeJstmV34g', 'Meta Tags'),
+  
+  # alt, title, validation, and zip
 );
 
 $module_textpages = array(

@@ -1,7 +1,0 @@
-public class PrimitiveExample {
-  public static void main(String[] args) {
-    
-    char ham = 'c'
-    
-  }
-}

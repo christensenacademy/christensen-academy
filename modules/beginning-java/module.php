@@ -10,7 +10,7 @@ $module_challenges = array(
   new challenge('debugging-1.md', 'Debugging Challenge 1', '119', '84'),
   new challenge('echo.md', 'Echo', '143', '56'),
   new challenge('smart-poem.md', 'Smart Poem', '219', '78'),
-  new challenge('rfc.md', 'RFC (Request for Comments)', '32', '110'),
+  new challenge('rfc.md', 'RFC (Request for Comments)', '46', '106'),
   new challenge('conversion.md', 'Conversion', '153', '118'),
   # new challenge('.md', '', '', ''),
 );
@@ -21,7 +21,9 @@ $module_videos = array(
   new video('vVJOAP7Qg_Q', 'Primitive Types: byte, short, int, long'),
   new video('MSxzdm4ev_8', 'Primitive Types: float, double'),
   new video('k5R3skKKQBg', 'Characters and Strings'),
+  new video('Q4FCZYwFV_c', 'Escape Character'),
   new video('xzkGiP5qyzs', 'Java Scanner Class'),
+  new video('i8W3xn3UUbI', 'Syntax, Runtime, and Logic Errors'),
   new video('-KZ9EZvNdms', 'Math Expressions'),
 );
 
