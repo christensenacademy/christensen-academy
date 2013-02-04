@@ -16,3 +16,5 @@ Every primitive type has a "literal" representation of values of that type.
 * Boolean literals are either `true` or `false`
 
 Interestingly, the only object (i.e., non-primitive data type) that also has a literal representation is a String, which is just a sequence of characters inside of double quotes: `"This is a string!!!"`
+
+Every language uses literals of some kind. Here's a [Wikipedia page](http://en.wikipedia.org/wiki/Literal_(computer_programming)) with more info if you're interested.
