@@ -25,6 +25,9 @@ $module_videos = array(
   new video('xzkGiP5qyzs', 'Java Scanner Class'),
   new video('i8W3xn3UUbI', 'Syntax, Runtime, and Logic Errors'),
   new video('-KZ9EZvNdms', 'Math Expressions'),
+  # primitives vs. objects in memory
+  # using classes
+  # literals
 );
 
 $module_textpages = array(
