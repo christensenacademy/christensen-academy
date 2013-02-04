@@ -15,3 +15,7 @@
 
 ###Friendly Advice
 Focus on proper code indentation. Get used to doing it right from the very beginning. As you learn more HTML and CSS, this will get more and more important. It's a readability issue. If you don't indent properly, your code will become unreadable.
+
+
+
+![](http://christensenacademy.org/img/signature.png)
