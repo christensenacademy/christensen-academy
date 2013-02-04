@@ -12,3 +12,5 @@
 ###Friendly Advice
 * Don't type out of those nonsensical words for your page content! That would be a monumental waste of time. Instead, do what lots of Web designers do and use [Lorem Ipsum text](http://lipsum.com/feed/html). It's okay if the words are not exactly the same as the ones you see in the example picture.
 * Focus on proper code indentation.
+
+![](http://christensenacademy.org/img/signature.png)
