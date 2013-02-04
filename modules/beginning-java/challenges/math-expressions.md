@@ -24,17 +24,20 @@ public class MathExpressions {
     System.out.println(18%3*5);
     System.out.println(3+5*-3);
     System.out.println(5.2%2+1);
+    System.out.println( (int)5.2%2+1);
+    System.out.println( (double)5/(double)2+1);
+    System.out.println( (double)(5/2)+1);
     
-    int myFirstInt = ;
-    int mySecondInt = ;
-    double myFirstDouble = ;
-    double mySecondDouble = ;
+    int myFirstInt = 3;
+    int mySecondInt = 7;
+    double myFirstDouble = 2.5;
+    double mySecondDouble = 6.0;
     
-    System.out.println();
-    System.out.println();
-    System.out.println();
-    System.out.println();
-    System.out.println();
+    System.out.println(myFirstInt+mySecondInt/myFirstInt);
+    System.out.println(myFirstInt+mySecondInt/myFirstDouble);
+    System.out.println(myFirstInt+mySecondInt/(int)myFirstDouble);
+    System.out.println( (int)(mySecondDouble%myFirstDouble)-2 );
+    System.out.println( (int)mySecondDouble/mySecondInt);
   }
 }
 ```
