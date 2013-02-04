@@ -15,4 +15,4 @@ Every primitive type has a "literal" representation of values of that type.
 * For character values, we simply type the character in between single quotes: `'a'`, '`b'`, `'c'`, `'1'`, `'2'`, `'3'`, `'!'`
 * For boolean values, we simply type `true` or `false`
 
-Interestingly, the object that also has a literal representation is a String, which is just a sequence of characters inside of double quotes: `"This is a string!!!"`
+Interestingly, the only object (i.e., non-primitive data type) that also has a literal representation is a String, which is just a sequence of characters inside of double quotes: `"This is a string!!!"`
