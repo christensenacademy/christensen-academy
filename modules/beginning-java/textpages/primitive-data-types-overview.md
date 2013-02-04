@@ -16,3 +16,7 @@ Every primitive type has a "literal" representation of values of that type.
 * For boolean values, we simply type `true` or `false`
 
 Interestingly, the only object (i.e., non-primitive data type) that also has a literal representation is a String, which is just a sequence of characters inside of double quotes: `"This is a string!!!"`
+
+###Variables for Primitives are NOT References
+
+Variables for primitive data types simply hold primitive values. This is different from how variables for objects work. Variables for objects actually hold *references* to objects, not the objects themselves. This is a subtle difference that will make sense once you start working with objects and you begin to realize that you can do strange things like have multiple variables reference the same object.
