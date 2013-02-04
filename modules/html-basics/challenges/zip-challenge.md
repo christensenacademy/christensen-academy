@@ -13,3 +13,6 @@ The big idea behind this challenge is that you (a) practice extracting the conte
 ###Part 2: Creating a Zip File
 1. In your file browser, find all of the challenges you've completed for this module so far--hopefully you have them stored all in the same folder. Select all of the files, then create a zip file named "zip-challenge" that contains all of the files you had selected.
 2. Send the new zip file to a friend and have them open it. Hopefully, if they extract the contents of the zip file, they'll have all of the files for your challenges just as they were before you zipped them up.
+
+
+![](http://christensenacademy.org/img/signature.png)

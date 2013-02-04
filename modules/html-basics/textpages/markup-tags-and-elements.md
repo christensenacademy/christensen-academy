@@ -47,3 +47,6 @@ Closing tags are easy to spot because they have a forward slash before their nam
 
 ####Parents and Children
 You'll also notice that it is possible to have HTML elements inside of other HTML elements. In the example above, there are several *child* `li` elements inside of a *parent* `ul` element.
+
+
+![](http://christensenacademy.org/img/signature.png)

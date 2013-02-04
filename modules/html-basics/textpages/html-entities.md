@@ -16,3 +16,6 @@ All html entities look like `&*;` where `*` is a sequence of alphanumeric charac
 ```
 
 For a complete character entity list, here is a [Wikipedia page](http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references) that should help.
+
+
+![](http://christensenacademy.org/img/signature.png)

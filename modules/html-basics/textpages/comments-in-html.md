@@ -26,3 +26,6 @@ Sometimes you might find it useful to temporarily "comment out" your code. Basic
   -->
 </ul>
 ```
+
+
+![](http://christensenacademy.org/img/signature.png)

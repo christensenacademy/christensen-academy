@@ -11,3 +11,6 @@ In English, "void" generally alludes to the idea of nothingness. In the case of 
 <meta charset="utf-8"><!-- Lest the browser know what type of character encoding is being used -->
 <img src="ipsum.png"> <!-- Image: Makes an image appear on the page -->
 ```
+
+
+![](http://christensenacademy.org/img/signature.png)

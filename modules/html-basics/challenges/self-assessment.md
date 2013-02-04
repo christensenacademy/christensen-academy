@@ -29,3 +29,6 @@ Answer the following questions to the best of your ability. Then, watch the solu
 6. What's the difference between the terms "tag" and "element" with regards to HTML?
 7. Explain how HTML lists work. If you can, try to incorporate the following vocabularly words into your explanation: element, opening tag, closing tag, parent, child.
 8. Explain why we have h1, h2, h3, h4, h5, and h6 elements but only one p element.
+
+
+![](http://christensenacademy.org/img/signature.png)

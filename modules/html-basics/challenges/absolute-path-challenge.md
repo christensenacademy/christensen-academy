@@ -52,3 +52,7 @@
 ###Friendly Advice
 
 * Make sure that you use the `src` attribute for *img* elements and the `href` attribute for *a* (anchor or "link") elements.
+
+
+
+![](http://christensenacademy.org/img/signature.png)

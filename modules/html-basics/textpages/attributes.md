@@ -13,3 +13,5 @@ HTML elements often have attributes in their opening tags. Attributes all follow
 <img class="icon" src="img/logo112.png"> <!-- Notice that this element is exactly the same as the one before. -->
 <a href="lorem.html" alt="Lorem ipsum dolor et">lorem ipsum</a>
 ```
+
+![](http://christensenacademy.org/img/signature.png)
