@@ -45,3 +45,6 @@ On at least one page:
 * **Page Navigation:** Your site is easy to navigate, and you've clearly spent a lot of time thinking about how to place links on your pages to make it as easy as possible for people to find their way around your site.
 * **Correctness:** Your code should be error free and have flawless indentation. There are some things you shouldn't get "creative" with. Indenting your code is one of them. Allowing errors in your code is another. Use the [HTML validator](http://validator.w3.org/) to help you find your errors.
 * **Requirements:** Fulfill all of the requirements listed above.
+
+
+![](http://christensenacademy.org/img/signature.png)
