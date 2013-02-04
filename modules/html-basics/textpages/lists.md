@@ -55,3 +55,5 @@ When this happens, simply put the inner list inside of one of the list items of 
   <li>Item 3</li>
 </ul>
 ```
+
+![](http://christensenacademy.org/img/signature.png)
