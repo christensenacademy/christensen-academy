@@ -36,3 +36,6 @@ If the other resource is in the same folder as your HTML file, then just specify
 `products/candy/sucker.html` is a path to a file called sucker.html, which is inside of a folder called candy, which is inside a folder called products, which is in the same folder as the current file.
 
 `../finances/cam.html` is a path that starts by going up out of the current folder to the parent folder. From there, the path goes into a folder called finances and points to a file named cam.html.
+
+
+![](http://christensenacademy.org/img/signature.png)
