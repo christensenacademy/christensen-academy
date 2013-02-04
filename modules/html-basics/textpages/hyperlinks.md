@@ -6,7 +6,8 @@ The `a` element, which stands for "anchor" (which doesn't make a tremendous amou
 ###Examples of the Anchor Element
 ```html
 <!-- an example of turning text into a hyperlink -->
-If you want to learn about programming, go to the <a href="http://christensenacademy.org"> Christensen Academy </a>
+If you want to learn about programming, go
+to the <a href="http://christensenacademy.org"> Christensen Academy </a>
 
 <!-- an example of turning an image into a hyperlink -->
 <a href="index.html">
@@ -20,3 +21,6 @@ If you want to learn about programming, go to the <a href="http://christensenaca
   Email Lorem
 </a>
 ```
+
+
+![](http://christensenacademy.org/img/signature.png)
