@@ -17,3 +17,6 @@ Examine how this example displays in the browser to understand the difference be
 #Lorem Ipsum
 
 Lorem [ipsum](http://christensenacademy.org) dolor sit amet, consectetur ![](http://christensenacademy.org/img/logo.png) adipiscing elit.
+
+
+![](http://christensenacademy.org/img/signature.png)
