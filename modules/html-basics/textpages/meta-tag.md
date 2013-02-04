@@ -16,3 +16,6 @@ Many people are confused by `<meta>` elements becasue they in no way impact the 
 The following is an image of Google search results. How Google know what description to place below the title of each page? The answer, it turns out, is that Google's Web crawlers looked at the `<meta>` elements of these webpages.
 
 ![](http://christensenacademy.org/modules/html-basics/textpages/meta-example.png)
+
+
+![](http://christensenacademy.org/img/signature.png)
