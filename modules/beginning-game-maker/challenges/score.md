@@ -1,5 +1,5 @@
-#Relative Reasoning
+#Score
 
 **Estimated Time:** 20 minutes
 
-The first part of this challenge involves answering multiple choice questions. The second part involves modifying a game to test your theories.
+Your challenge is to create a basic game with two objects, a "good" one and a "bad" one. When the player clicks on the good one, they should gain a point, which is displayed on the screen. When they click the bad one, they should lose a point, which is displayed on the screen.
