@@ -4,7 +4,9 @@
 
 Before running the following program, your challenge is to predict the output using your knowledge of math expressions in Java. Watch out for tricky concepts like trucation, implicit conversion from ints to doubles, order of operations, and casting.
 
-Then, once you've made your predictions--I recommend recording them in comments at the end of each line of code--simply run the program and see how well you did. Make sure to take time going over any problems you missed. It will be well worth your time to clear up any confusion before moving on to the next challenge.
+Then, once you've recorded your predictions--make sure you take time to actually write them down--simply run the program and see how well you did. Take time going over any problems you missed.
+
+Lastly, take a few minutes to experiment and play around with different values in some of these expressions. This is often the best way to learn and really make sure you've understood the concepts.
 
 ```java
 public class MathExpressions {
