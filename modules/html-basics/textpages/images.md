@@ -13,3 +13,6 @@ The alt attribute is used to provide a short description of the image. This migh
 ```html
 <img src="img/logo.png" alt="Logo for the website.">
 ```
+
+
+![](http://christensenacademy.org/img/signature.png)
