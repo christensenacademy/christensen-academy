@@ -12,6 +12,19 @@ The important thing is to make sure you always choose a type that's big enough. 
 
 Believe it or not, but some numbers are even too big to even fit in a `long`. [Project Euler](http://projecteuler.net/) often presents problems that stretch the limits of modern computers. Sometimes this involves working with really, really large numbers.
 
+###Truncation
+The term truncation refers to the process of "chopping off" the digits after the decimal point in a floating point number. Sometimes this is also described as taking the "floor" of a number. Here are some examples:
+
+* 4.5 truncates to 4
+* 0.07 truncates to 0
+* 2.99999 truncates to 2
+* -3.892 truncates to -3
+
+In Java, there are two situations in which you need to realize trucation is happening:
+
+1. When dividing an int by an int, if the result is not an integer, it will be become one: `5/2` is not `2.5`; instead, the result truncates to `2`.
+2. When casting a floating point value to an int: `(int)4.9` truncates to `4`
+
 ###Integer Literals
 In our code, we call things like `3`, `-5`, and `834` "literals". As Java programmers, we use integer literals quite a bit. Consider the following examples:
 
