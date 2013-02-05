@@ -24,9 +24,9 @@ The expression `donationAmount<10.0` is an example of a boolean expression. This
 In the same way that you can create variables of type `byte`, `short`, `int`, `long`, `float`, `double`, and `char`, you can also create variables of type `boolean`.
 
 ```java
-// when naming boolean variables, try to make their name imply the fact that they are booleans
-boolean hasKey = false; // notice how "hasKey" implies it would either be true or false
+boolean hasKey = false;
 ```
+**Note:** When naming boolean variables, try to make the names you choose imply the fact that they are booleans. The name `hasKey` is good for a boolean because it implies that the value will either be true or false. The name `key` would be more confusing because it would not be immediately clear what types of values that variable would store.
 
 In the example above, there is a boolean variable named `hasKey` holding the value `false`. It's not too hard to imagine that we might do this sort of thing if we were programming a video game in which the player either has or does not have a key to get into a room or something.
 
