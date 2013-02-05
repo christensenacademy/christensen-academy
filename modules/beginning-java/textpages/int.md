@@ -12,11 +12,6 @@ The important thing is to make sure you always choose a type that's big enough. 
 
 Believe it or not, but some numbers are even too big to even fit in a `long`. [Project Euler](http://projecteuler.net/) often presents problems that stretch the limits of modern computers. Sometimes this involves working with really, really large numbers.
 
-###Examples
-
-###Basic Math Expressions with Integers
-
-
 ###Integer Literals
 In our code, we call things like `3`, `-5`, and `834` "literals". As Java programmers, we use integer literals quite a bit. Consider the following examples:
 
