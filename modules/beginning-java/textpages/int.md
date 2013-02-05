@@ -28,17 +28,18 @@ x = x + 3; // Use a literal as part of a math expression
 Interestingly, while there are four primitive data types for integers, there are only two types of integer literals. The first type is just a normal integer value, such as `7` or `-55`. These values are of type `int` and can be assigned to all four types of integer variables:
 
 ```java
-byte w = 10; // the int 10 is implicitly converted to a byte
-short x = 10; // the int 10 is implicitly converted to a short
+byte w = 10; // the int 10 is "narrowed" to a byte
+short x = 10; // the int 10 is "narrowed" to a short
 int y = 10;
-long z = 10; // the int 10 is implicitly converted to a long
+long z = 10; // the int 10 is "widened" to a long
 ```
 
-The second integer literal type is only used for longs bigger than the max int size: 2147483647. For example, the statement `long x = 2147483647;` would compile just fine, but the statement `long x = 2147483648;` would result in an error. Quite honestly, this seems absurdly stupid, but thankfully the solution is pretty easy. All you need to do is append an "L" or "l" to the integer literal as follows:
+The second integer literal type is only used for integer values bigger than the max int size: 2147483647. For such literals, the Java language requires you to add the suffix `L` to the literal. Note: You can also add the suffix `l` (lowercase `L`), but this looks like the digit one, so I'd avoid using it if I were you.
 
 ```java
-long x = 2147483648L;
-// I recommend always using "L" (uppercase) instead of "l" (lowercase). The "l" looks like a "1"...
+long x = 2147483647; // Compiles
+long y = 2147483648; // Does not compile
+long z = 2147483648L; // Compiles
 ```
 
 ####Other Bases
@@ -54,4 +55,4 @@ int x = 0b110011;
 int y = 0xfa078d;
 ```
 
-To see all of the things you can do with integer literals, check out the [Wikipedia Page on Java Syntax](http://en.wikipedia.org/wiki/Java_syntax#Literals).
+For a nice recap of all of the things you can do with integer literals, check out the [Wikipedia Page on Java Syntax](http://en.wikipedia.org/wiki/Java_syntax#Literals).
