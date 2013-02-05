@@ -1,6 +1,6 @@
 #Boolean Expressions
 
-Boolean values are either `true` or `false`. The term "boolean" was chosen to honor the mathematician [George Boole](http://en.wikipedia.org/wiki/George_Boole) who essentially developed what is now referred to as boolean logic, which is a system of logic involving just two values: true and false.
+Boolean values are either `true` or `false`. The term "boolean" was chosen to honor the mathematician [George Boole](http://en.wikipedia.org/wiki/George_Boole) who essentially developed what is now referred to as boolean logic, a system of logic involving just two values: `true` and `false`.
 
 Although they are simple, booleans are essential for adding logic to our programs. Consider this example:
 
@@ -9,6 +9,8 @@ Scanner sc = new Scanner(System.in);
 
 System.out.println("Please enter the amount of money you would like to donate.");
 double donationAmount = sc.nextDouble();
+
+// check out this boolean logic!
 if(donationAmount<10.0){
   System.out.println("You heartless person! Surely, you could give more than that!");
 } else {
