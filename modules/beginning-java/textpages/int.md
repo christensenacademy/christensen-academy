@@ -18,7 +18,40 @@ Believe it or not, but some numbers are even too big to even fit in a `long`. [P
 
 
 ###Integer Literals
-Integer literals like `3`, `-5`, and `834` are of type `int`.
+In our code, we call things like `3`, `-5`, and `834` "literals". As Java programmers, we use integer literals quite a bit. Consider the following examples:
 
+```java
+int x = 4; // Assign a literal to a variable
+x = x + 3; // Use a literal as part of a math expression
+```
+
+Interestingly, while there are four primitive data types for integers, there are only two types of integer literals. The first type is just a normal integer value, such as `7` or `-55`. These values are of type `int` and can be assigned to all four types of integer variables:
+
+```java
+byte w = 10; // the int 10 is implicitly converted to a byte
+short x = 10; // the int 10 is implicitly converted to a short
+int y = 10;
+long z = 10; // the int 10 is implicitly converted to a long
+```
+
+The second integer literal type is only used for longs bigger than the max int size: 2147483647. For example, the statement `long x = 2147483647;` would compile just fine, but the statement `long x = 2147483648;` would result in an error. Quite honestly, this seems absurdly stupid, but thankfully the solution is pretty easy. All you need to do is append an "L" or "l" to the integer literal as follows:
+
+```java
+long x = 2147483648L;
+// I recommend always using "L" (uppercase) instead of "l" (lowercase). The "l" looks like a "1"...
+```
+
+####Other Bases
+I'm not quite sure why you'd ever want to do this, but you are allowed to specify integers in binary and hexadecimal form as follows:
+
+```java
+// add "0b" to the front of a binary number to let the compiler
+// know this is a binary number, not a decimal number.
+int x = 0b110011;
+
+// add "0x" to the front of a hexadecimal number to let the compiler
+// know this is a hexadecimal number, not a decimal number
+int y = 0xfa078d;
+```
 
 To see all of the things you can do with integer literals, check out the [Wikipedia Page on Java Syntax](http://en.wikipedia.org/wiki/Java_syntax#Literals).
