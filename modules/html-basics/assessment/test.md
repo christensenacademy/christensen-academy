@@ -132,10 +132,10 @@ BONUS: Circle and explain an additional error.
 
 Create a webpages that look like these images, making sure to follow the directions on the images themselves.
 
-!()[http://christensenacademy.org/modules/html-basics/assessments/page-a.png]
+![](http://christensenacademy.org/modules/html-basics/assessments/page-a.png)
 
-!()[http://christensenacademy.org/modules/html-basics/assessments/page-b.png]
+![](http://christensenacademy.org/modules/html-basics/assessments/page-b.png)
 
-!()[http://christensenacademy.org/modules/html-basics/assessments/page-c.png]
+![](http://christensenacademy.org/modules/html-basics/assessments/page-c.png)
 
-!()[http://christensenacademy.org/modules/html-basics/assessments/page-d.png]
+![](http://christensenacademy.org/modules/html-basics/assessments/page-d.png)
