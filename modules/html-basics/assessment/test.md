@@ -7,7 +7,7 @@
 4. **True or False (Circle One)**: HTML attributes go inside of an element's closing tag.
 5. **True or False (Circle One)**: `img` elements need to have `href` attributes.
 6. **True or False (Circle One)**: `meta` tags display on the page in the browser.
-7. **True or False (Circle One)**: The HTML validator from the W3C always tells you exactly what your error was.
+7. **True or False (Circle One)**: The HTML validator from the W3C always tells you **exactly** what your error was.
 7. **True or False (Circle One)**: You can view but not edit the source code of webpages in a Web browser.
 
 ##Multiple Choice
