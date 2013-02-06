@@ -1,36 +1,31 @@
-#Primitive Data Types in Java
+#Boolean Expressions
 
-While Java is an object-oriented programming language, there are still some things in it that have nothing to do with objects; namely, Java has *primitive types*.
+Boolean values are either `true` or `false`. The term "boolean" was chosen to honor the mathematician [George Boole](http://en.wikipedia.org/wiki/George_Boole) who essentially developed what is now referred to as boolean logic, a system of logic involving just two values: `true` and `false`.
 
-Primitive data types are used to store integers, floating point numbers, booleans, and characters. If these terms seem unfamiliar to you, I recommend you visit the module on [binary](http://christensenacademy.org/#binary).
+Although they are simple, booleans are essential for adding logic to our programs. Consider this example:
 
-##Integers
-`byte`, `short`, `int`, and `long` are used to store integer values--which, if you're interested, uses the two's compliment encoding scheme for signed integers. The only difference between these types is the number of bits used for each:
+```java
+Scanner sc = new Scanner(System.in);
 
-* byte: 8 bits, duh [-128, 127] 
-* short: 16 bits [-32,768, 32,767]
-* int: 32 bits [-2,147,483,648, 2,147,483,647]
-* long: 64 bits [-9,223,372,036,854,775,808, 9,223,372,036,854,775,807]
+System.out.println("Please enter the amount of money you would like to donate.");
+double donationAmount = sc.nextDouble();
 
-Make sure you always choose a type you're sure will be big enough. If, for example, you were to use an `int` to store the value of the current U.S. national debt, it wouldn't be large enough, and you would get very strange, unpredictable results. **Question:** What data type should we use for currency? This is actually a tricky question...
+// check out this boolean logic!
+if(donationAmount<10.0){
+  System.out.println("You heartless person! Surely, you could give more than that!");
+} else {
+  System.out.println("Thank you very much for your generosity!");
+}
+```
 
-Believe it or not, but some numbers are even too big to even fit in a `long`. [Project Euler](http://projecteuler.net/) often presents problems that stretch the limits of modern computers. Sometimes this involves working with really, really large numbers.
+The expression `donationAmount<10.0` is an example of a boolean expression. This type of expression is similar to a math expression except that it evaluates to a `boolean` value instead of a `double` or an `int`.
 
-###Integer Literals
+###Boolean Variables
+In the same way that you can create variables of type `byte`, `short`, `int`, `long`, `float`, `double`, and `char`, you can also create variables of type `boolean`.
 
-We use the term "literal" to refer to when we literally type numbers into our programs. For example, in the statement `int students = 12`, `students` is the variable, and `12` is the integer literal.
+```java
+boolean hasKey = false;
+```
+**Note:** When naming boolean variables, try to make the names you choose imply the fact that they are booleans. The name `hasKey` is good for a boolean because it implies that the value will either be true or false. The name `key` would be more confusing because it would not be immediately clear what types of values that variable would store.
 
-##Floating Point Numbers
-
-##Booleans
-A `boolean` stores one of two values: `true` or `false`.
-
-###Boolean Literals
-`true` and `false`. That's it.
-
-##Characters
-
-##Strings
-In Java, a sequence of characters is called a String. Strings in Java are strange in that they aren't exactly primitive types and they aren't exactly objects either. One of the main things that makes Strings more like primitive types than objects is that you can use string literals like `"Hello World"`. Regular objects don't have literals. Just primitive data types and Strings have literals.
-
-
+###Boolean Expressions

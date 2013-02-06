@@ -1,36 +1,11 @@
-#Primitive Data Types in Java
+#Double
 
-While Java is an object-oriented programming language, there are still some things in it that have nothing to do with objects; namely, Java has *primitive types*.
+In Java, the primitive data type `double` is used to store floating point values, which are essentially all of the numbers that aren't integers, such as 3.4 and -45.298.
 
-Primitive data types are used to store integers, floating point numbers, booleans, and characters. If these terms seem unfamiliar to you, I recommend you visit the module on [binary](http://christensenacademy.org/#binary).
+Tchnically speaking `double` stores a 64-bit floating point number (IEEE 754). `Double`s kid brother, `float`, stores a 32-bit floating point number. The standard convention is to use `double` instead of `float` unless you have a good reason for doing otherwise. The basic difference between `double` and `float` is that a `double` can (a) hold larger numbers and (b) maintain greater precision.
 
-##Integers
-`byte`, `short`, `int`, and `long` are used to store integer values--which, if you're interested, uses the two's compliment encoding scheme for signed integers. The only difference between these types is the number of bits used for each:
+###Floating Point Literals
+In the code, we call things like `12.3` and `4.5` *literals*. Here are some interesting facts about Java floating point literals:
 
-* byte: 8 bits, duh [-128, 127] 
-* short: 16 bits [-32,768, 32,767]
-* int: 32 bits [-2,147,483,648, 2,147,483,647]
-* long: 64 bits [-9,223,372,036,854,775,808, 9,223,372,036,854,775,807]
-
-Make sure you always choose a type you're sure will be big enough. If, for example, you were to use an `int` to store the value of the current U.S. national debt, it wouldn't be large enough, and you would get very strange, unpredictable results. **Question:** What data type should we use for currency? This is actually a tricky question...
-
-Believe it or not, but some numbers are even too big to even fit in a `long`. [Project Euler](http://projecteuler.net/) often presents problems that stretch the limits of modern computers. Sometimes this involves working with really, really large numbers.
-
-###Integer Literals
-
-We use the term "literal" to refer to when we literally type numbers into our programs. For example, in the statement `int students = 12`, `students` is the variable, and `12` is the integer literal.
-
-##Floating Point Numbers
-
-##Booleans
-A `boolean` stores one of two values: `true` or `false`.
-
-###Boolean Literals
-`true` and `false`. That's it.
-
-##Characters
-
-##Strings
-In Java, a sequence of characters is called a String. Strings in Java are strange in that they aren't exactly primitive types and they aren't exactly objects either. One of the main things that makes Strings more like primitive types than objects is that you can use string literals like `"Hello World"`. Regular objects don't have literals. Just primitive data types and Strings have literals.
-
-
+* The default type of a literal is a `double`. Interestingly, while `double x = 3.3;` works just fine, `float y = 3.3` does not. If you want to specify a literal as a `float`, you must add the suffix `F`; for example, `float y = 3.3F`.
+* You can  write floating point literals in scientific notation as follows: `double x = 1.2e8;`

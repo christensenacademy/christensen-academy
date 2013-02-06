@@ -1,36 +1,20 @@
-#Primitive Data Types in Java
+#Primitive Data Types Overview
 
-While Java is an object-oriented programming language, there are still some things in it that have nothing to do with objects; namely, Java has *primitive types*.
+While Java is an object-oriented programming language, there are still some things in it that have nothing to do with objects; namely, Java has *primitive data types*, which some people refer to simply as *primitives*.
 
-Primitive data types are used to store integers, floating point numbers, booleans, and characters. If these terms seem unfamiliar to you, I recommend you visit the module on [binary](http://christensenacademy.org/#binary).
+Primitive data types are used to store integers, floating point numbers, booleans, and characters. If you'd like a more detailed discussion of these concepts, or if you have never heard of integers, floating point numbers, booleans, and characters before, please visit the [binary module](http://christensenacademy.org#binary).
 
-##Integers
-`byte`, `short`, `int`, and `long` are used to store integer values--which, if you're interested, uses the two's compliment encoding scheme for signed integers. The only difference between these types is the number of bits used for each:
+###No State or Behavior
+It's important to realize that these primitive data types only serve the purpose of storing simple data. Unlike objects, they do not have **state** or **behavior**. Primitives certainly can't *do* anything, and the only data they keep track of is the single value they hold, which is either an integer, floating point number, character, or boolean value.
 
-* byte: 8 bits, duh [-128, 127] 
-* short: 16 bits [-32,768, 32,767]
-* int: 32 bits [-2,147,483,648, 2,147,483,647]
-* long: 64 bits [-9,223,372,036,854,775,808, 9,223,372,036,854,775,807]
+###Literals
+Every primitive type has a "literal" representation of values of that type.
 
-Make sure you always choose a type you're sure will be big enough. If, for example, you were to use an `int` to store the value of the current U.S. national debt, it wouldn't be large enough, and you would get very strange, unpredictable results. **Question:** What data type should we use for currency? This is actually a tricky question...
+* Integer literals look like `0`, `-8`, `12452`, and so on.
+* Floating point literals look like `2.34`, `-8.8883`, and so on.
+* Character literals look like `'a'`, '`b'`, `'c'`, `'1'`, `'2'`, `'3'`, `'!'`
+* Boolean literals are either `true` or `false`
 
-Believe it or not, but some numbers are even too big to even fit in a `long`. [Project Euler](http://projecteuler.net/) often presents problems that stretch the limits of modern computers. Sometimes this involves working with really, really large numbers.
+Interestingly, the only object (i.e., non-primitive data type) that also has a literal representation is a String, which is just a sequence of characters inside of double quotes: `"This is a string!!!"`
 
-###Integer Literals
-
-We use the term "literal" to refer to when we literally type numbers into our programs. For example, in the statement `int students = 12`, `students` is the variable, and `12` is the integer literal.
-
-##Floating Point Numbers
-
-##Booleans
-A `boolean` stores one of two values: `true` or `false`.
-
-###Boolean Literals
-`true` and `false`. That's it.
-
-##Characters
-
-##Strings
-In Java, a sequence of characters is called a String. Strings in Java are strange in that they aren't exactly primitive types and they aren't exactly objects either. One of the main things that makes Strings more like primitive types than objects is that you can use string literals like `"Hello World"`. Regular objects don't have literals. Just primitive data types and Strings have literals.
-
-
+Every language uses literals of some kind. Here's a [Wikipedia page](http://en.wikipedia.org/wiki/Literal_(computer_programming)) with more info if you're interested.
