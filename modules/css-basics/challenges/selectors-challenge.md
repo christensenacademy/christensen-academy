@@ -37,7 +37,7 @@ Your challange is to add selectors to the CSS rules in the following webpage. Co
       /* this rule should be applied to all list items that are descendents of ordered lists */
       {
         color:white;
-        background:black;
+        background:yellow;
       }
     </style>
   </head>
