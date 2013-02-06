@@ -1,6 +1,6 @@
 #Web Design Test
 
-###True or False
+##True or False
 1. **True or False (Circle One)**: Programs used to edit HTML code are called "text editors".
 2. **True or False (Circle One)**: Extra whitespace in HTML code has no impact on the way the browser displays a page.
 3. **True or False (Circle One)**: All HTML elements have closing tags.
@@ -10,7 +10,7 @@
 7. **True or False (Circle One)**: The HTML validator from the W3C always tells you exactly what your error was.
 7. **True or False (Circle One)**: You can view but not edit the source code of webpages in a Web browser.
 
-###Multiple Choice
+##Multiple Choice
 1. Which of the following is a correctly written paragraph element?
   * `<p>This is a paragraph<p>`
   * `<p>This is a paragraph<p/>`
@@ -91,7 +91,7 @@
   * hearing impaired
   * visually impaired
   * village
-###Short Answer
+##Short Answer
 1. List four major Web browsers.
 2. What is one keyboard shortcut you've learned and use often?
 3. What is one keyboard shortcut you'd like to get better at using?
@@ -99,7 +99,7 @@
 5. Explain what the relative path `../img/example.png` means.
 6. Imagine you have an image named `example.png` in the same folder as the HTML file you're editing. Write code to display that image on the page such that if the viewer of the page clicks on the image, they will be taken to google.com.
 
-###Debugging
+##Debugging
 
 Circle and explain 5 errors in the following code:
 
@@ -128,9 +128,11 @@ BONUS: Circle and explain an additional error.
 </html>
 ```
 
-###Coding Challenges
+##Coding Challenges
 
 Create a webpages that look like these images, making sure to follow the directions on the images themselves.
+
+**Note:** Images don't need to be exact. Simply find reasonable replacements. The images I used generally came from [Wikimedia Commons](http://commons.wikimedia.org/wiki/Main_Page).
 
 ![](http://christensenacademy.org/modules/html-basics/assessments/page-a.png)
 
