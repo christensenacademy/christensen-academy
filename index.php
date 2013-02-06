@@ -33,44 +33,57 @@
   
   <div style="position:fixed;right:0;top:0;left:0;z-index:1;">
     <div class="nav-col">
+      <a class="nav-column-header hidden-phone" href="#">Home</a>
     </div>
     <div class="nav-col">
+      <a rel="tooltip" title="Getting Started with the Christensen Academy" class="nav-column-header hidden-phone" href="#getting-started">Intro</a>
       <a rel="tooltip" title="How to Use This Site" href="#how-to-use-this-site" class="getting-started-background nav-item"></a>
       <a rel="tooltip" title="Learning Advice" href="#learning-advice" class="getting-started-background nav-item"></a>
     </div>
     <div class="nav-col">
+      <a rel="tooltip" title="Computer Science" class="nav-column-header hidden-phone" href="#cs-basics">CS</a>
       <a rel="tooltip" title="Computer Basics" href="#computer-basics" class="cs-basics-background nav-item"></a>
       <a rel="tooltip" title="Binary" href="#binary" class="cs-basics-background nav-item"></a>
     </div>
     <div class="nav-col">
+      <a rel="tooltip" title="Web Design and Development" class="nav-column-header hidden-phone" href="#web">Web</a>
       <a rel="tooltip" title="Web Intro" href="#web-design-and-development-intro" class="web-background nav-item"></a>
       <a rel="tooltip" title="HTML Basics" href="#html-basics" class="web-background nav-item"></a>
       <a rel="tooltip" title="CSS Basics" href="#css-basics" class="web-background nav-item"></a>
       <a rel="tooltip" title="CSS Layouts" href="#css-layouts" class="web-background nav-item"></a>
     </div>
     <div class="nav-col">
+      <a rel="tooltip" title="Game Maker" class="nav-column-header hidden-phone" href="#game-maker">GM</a>
       <a rel="tooltip" title="Beginning Game Maker" href="#beginning-game-maker" class="game-maker-background nav-item"></a>
       <a rel="tooltip" title="Intermediate Game Maker" href="#intermediate-game-maker" class="game-maker-background nav-item"></a>
     </div>
     <div class="nav-col">
-    <a r  el="tooltip" title="Khan Academy CS" href="#khan-cs" class="processing-background nav-item"></a>
+      <a rel="tooltip" title="The Processing Programming Language" class="nav-column-header hidden-phone" href="#processing">PL</a>
+      <a rel="tooltip" title="Khan Academy CS" href="#khan-cs" class="processing-background nav-item"></a>
     </div>
     <div class="nav-col">
+      <a rel="tooltip" title="The Java Programming Language" class="nav-column-header hidden-phone" href="#java">Java</a>
       <a rel="tooltip" title="Java: Getting Started" href="#java-getting-started" class="java-background nav-item"></a>
       <a rel="tooltip" title="Beginning Java" href="#beginning-java" class="java-background nav-item"></a>
     </div>
     <div class="nav-col">
+      <a rel="tooltip" title="Adobe Flash and ActionScript" class="nav-column-header hidden-phone" href="#flash">Flash</a>
       <a rel="tooltip" title="Intro to Flash and ActionScript 3" href="#intro-to-flash-and-actionscript-3" class="flash-background nav-item"></a>
       <a rel="tooltip" title="Drawing in Flash" href="#drawing-in-flash" class="flash-background nav-item"></a>
       <a rel="tooltip" title="Animating in Flash" href="#animating-in-flash" class="flash-background nav-item"></a>
       <a rel="tooltip" title="Beginning ActionScript" href="#beginning-actionscript" class="flash-background nav-item"></a>
     </div>
     <div class="nav-col">
+      <a rel="tooltip" title="Working with Digital Images" class="nav-column-header hidden-phone" href="#image-manipulation">Image</a>
       <a rel="tooltip" title="Image Manipulation Intro" href="#image-manipulation-intro" class="image-manipulation-background nav-item"></a>
       <a rel="tooltip" title="GIMP Basics" href="#gimp-basics" class="image-manipulation-background nav-item"></a>
     </div>
     <div class="nav-col">
-      <a rel="tooltip" title="Brain Teasers" href="#brain-teasers" class="brain-teasers-background nav-item""></a>
+      <a  rel="tooltip" title="Fun Riddles and Brain Teasers" class="nav-column-header hidden-phone" href="#brain-teasers">Fun</a>
+      <a rel="tooltip" title="Brain Teasers" href="#brain-teasers" class="brain-teasers-background nav-item"></a>
+    </div>
+    <div class="nav-col">
+      <a class="nav-column-header hidden-phone" href="http://christensenacademy.org/blog">Blog</a>
     </div>
   </div>
   
@@ -78,7 +91,7 @@
     <div class="hero-unit" style="background:none">
       <div class="row-fluid" style="text-align:left" >
         <div class="span2">
-          <img src="img/logo112.png" width="112px" height="112px" alt="The Christensen Academy Logo">
+          <a rel="tooltip" title="The Blog" id="blog-link" href="http://christensenacademy.org/blog"></a>
         </div>
         <div class="span10">
           <h1>Hello, World!</h1>
@@ -175,12 +188,16 @@
     <?php include('./modules/brain-teasers/module.php'); ?>
   </div>
 
-
-  <p style="text-align:center;font-size:1.5em;padding:20px;">
-    It's not that we're so smart, it's just that we stay with problems longer.
-  </p>  
+  <div class="hero-unit" style="background:none">
+    <h2>It's not that we're so smart, it's just that we stay with problems longer.</h2>
+    <br>
+    <h3>
+      <a href="http://christensenacademy.org/blog">About</a>
+    </h3>
+  </div>
+     
   <p style="text-align:center;">
-    <a href="http://christensenacademy.org/blog">About</a>
+    
   </p>
   
   <div id="popup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -221,7 +238,13 @@ $('.challenge').tooltip({
 $('.discussion-link').tooltip({
   placement: 'left'
 });
-$('.nav-item').tooltip({
+$('a.nav-item').tooltip({
+  placement: 'bottom'
+});
+$('#blog-link').tooltip({
+  placement: 'left'
+});
+$('a.nav-column-header').tooltip({
   placement: 'bottom'
 });
 

@@ -32,10 +32,10 @@ $module_videos = array(
 
 $module_textpages = array(
   new textpage('comments.md', 'Comments in Java'),
-  new textpage('java-api.md', 'Java API'),
   new textpage('three-types-of-errors.md', 'Three Types of Errors'),
   new textpage('java-objects-and-classes-intro.md', 'Java Objects and Classes Intro'),
   # new textpage('class-basics.md', 'Class Basics'),
+  new textpage('java-api.md', 'Java API'),
   # new textpage('methods-messages-parameters-and-return-values.md', 'Methods, Messages, Parameters, and Return Values'),
   # new textpage('static.md', 'Static'),
   new textpage('variables.md', 'Variables'),

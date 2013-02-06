@@ -17,9 +17,14 @@
 .brain-teasers-text-color { color: #666;}
 
 .nav-col {z-index:10;float:left;width:9.09%;height:1px}
+.nav-column-header{color:#eee;text-align:center;font-size:10px;line-height:13px;letter-spacing:1px;background:#333;position:relative;height:13px;text-transform:uppercase;font-weight:bold;padding:5px 0;display:block;z-index:20;white-space:nowrap;}
+a.nav-column-header:hover, a.nav-column-header:active{text-decoration:none; color:#fff;background:#444;}
 .nav-item {position:relative;height:13px;border-bottom:1px solid #333;display:block;z-index:20;}
 .nav-item:hover {background-color:#444;border-bottom-color:#888;}
 .active-link, .nav-item:active {background-color:#eee;border-bottom-color:#333;}
+
+#blog-link {height:112px;width:112px;background:url('../img/logo112.png');display:block;}
+#blog-link:hover,  #blog-link:active {background:url('../img/logo112-hover.png');}
 
 .module h3 small {color:#ccc}
 .module h3 {color:#eee; margin:1em 0;}
