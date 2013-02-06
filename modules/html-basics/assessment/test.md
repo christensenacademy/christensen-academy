@@ -14,8 +14,8 @@
 1. Which of the following is a correctly written paragraph element?
   * `<p>This is a paragraph<p>`
   * `<p>This is a paragraph<p/>`
-  * `<p content="This is a pragraph">
-  * `<p This is a paragraph</p>
+  * `<p content="This is a pragraph">`
+  * `<p This is a paragraph</p>`
 2. What is the parent element of the `title` element?
   * `html`
   * `head`
