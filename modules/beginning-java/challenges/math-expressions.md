@@ -17,7 +17,7 @@ public class MathExpressions {
     System.out.println( (15/(3+4))*5.0);
     System.out.println(3+4-5);
     System.out.println(3+4*5);
-    System.out.println( (3+4*5) );
+    System.out.println( (3+4)*5 );
     System.out.println(8/(2+4) );
     System.out.println(8/3+4.2);
     System.out.println(10-5-6-2);
