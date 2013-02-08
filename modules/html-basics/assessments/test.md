@@ -91,6 +91,7 @@
   * hearing impaired
   * visually impaired
   * village
+
 ##Short Answer
 1. List four major Web browsers.
 2. What is one keyboard shortcut you've learned and use often?
