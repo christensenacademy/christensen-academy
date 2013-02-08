@@ -5,6 +5,7 @@ playlist_builder.py
 *.mp3
 cam-temp*
 cam_temp*
+IDR*.png
 
 #################
 ## Eclipse
