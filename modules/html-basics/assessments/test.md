@@ -62,10 +62,10 @@
   * `ln`
   * `hr`
 11. Which of the following is a proper example of an HTML entity?
-  * &lt;
-  * &lt
-  * lt;
-  * lt
+  * `&lt;`
+  * `&lt`
+  * `lt;`
+  * `lt`
 12. When you write this type of code, you're specifying the basic *content* of a webpage.
   * HTML
   * CSS
