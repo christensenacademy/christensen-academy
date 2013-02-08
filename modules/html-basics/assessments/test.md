@@ -14,7 +14,7 @@
 1. Which of the following is a correctly written paragraph element?
   * `<p>This is a paragraph<p>`
   * `<p>This is a paragraph<p/>`
-  * `<p content="This is a pragraph">`
+  * `<p content="This is a paragraph">`
   * `<p This is a paragraph</p>`
 2. What is the parent element of the `title` element?
   * `html`
@@ -31,7 +31,7 @@
   * `<!- This is a comment -->`
   * `<!-- This is a comment --!>`
   * `<!-- This is a comment -->`
-5. All elements that display on the page are descendents of the ________ element.
+5. All elements that display on the page are descendants of the ________ element.
   * head
   * DOCTYPE
   * p
