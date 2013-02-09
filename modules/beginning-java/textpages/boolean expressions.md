@@ -29,3 +29,5 @@ boolean hasKey = false;
 **Note:** When naming boolean variables, try to make the names you choose imply the fact that they are booleans. The name `hasKey` is good for a boolean because it implies that the value will either be true or false. The name `key` would be more confusing because it would not be immediately clear what types of values that variable would store.
 
 ###Boolean Expressions
+
+###Logical Operators

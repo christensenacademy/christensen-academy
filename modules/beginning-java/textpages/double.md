@@ -9,3 +9,5 @@ In the code, we call things like `12.3` and `4.5` *literals*. Here are some inte
 
 * The default type of a literal is a `double`. Interestingly, while `double x = 3.3;` works just fine, `float y = 3.3` does not. If you want to specify a literal as a `float`, you must add the suffix `F`; for example, `float y = 3.3F`.
 * You can  write floating point literals in scientific notation as follows: `double x = 1.2e8;`
+
+##Int vs. Double
