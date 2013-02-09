@@ -19,7 +19,7 @@ Syntax errors happen at "compile time". When you compile your source code your *
 **Note:** In fancy IDEs like NetBeans and Eclipse, your code is automatically compiled for you as you program--actually, sometimes you need to save your code before it gets compiled, but the point is that you never have to explicitly tell the IDE to compile your code. The little red error messages you get are the error messages from the compiler.
 
 ##Runtime Errors
-This probably won't happen to you much as you're starting out writing Java programs, but eventually you'll encounter runtime errors. Your program will be running just fine and then all of a sudden an error will occur. When this happens, you'll get some information about the error that will hopefully help you figure out what went wrong.
+Runtime errors occur while the program is running--duh! Just because a program compiles correctly doesn't mean something bad won't happen while the program actually runs. Runtime errors will generally cause your program to crash. When this happens, you will be shown an error message that may help you spot the error.
 
 ###Example
 ```
