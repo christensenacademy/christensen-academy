@@ -19,8 +19,6 @@ Syntax errors happen at "compile time". When you compile your source code your *
 
 **Note:** In fancy IDEs like NetBeans and Eclipse, your code is automatically compiled for you as you program--actually, sometimes you need to save your code before it gets compiled, but the point is that you never have to explicitly tell the IDE to compile your code. The little red error messages you get are the error messages from the compiler.
 
-Once you fix all of your compiler errors, your program will compile and you can actually run it. However, this doesn't mean that your program won't have anymore errors in it. It still might have runtime and logic erros.
-
 ##Runtime Errors
 This probably won't happen to you much as you're starting out writing Java programs, but eventually you'll encounter runtime errors. Your program will be running just fine and then all of a sudden an error will occur. When this happens, you'll get some information about the error that will hopefully help you figure out what went wrong.
 
