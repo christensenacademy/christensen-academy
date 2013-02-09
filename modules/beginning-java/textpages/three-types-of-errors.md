@@ -3,8 +3,6 @@ There are three types of errors you'll encounter while programming: syntax error
 
 Making errors is a natural part of the programming process. As you gain experience, you won't necessarily make fewer errors, but you will get very good identifying and fixing errors. We use the term *debugging* to refer to this process of fixing errors, or "bugs", in our code.
 
-**Side Note:** I encourage you to do some searching for example of famous software errors. There are some really interesting example of major catastrophes that have occurred because of relatively simple programming errors.
-
 ##Syntax (Compile-Time) Errors
 
 Every programming language has a certain syntax, or set of rules that must be followed when writing code. Basic syntax errors are difficult to avoid when programming, but they are usually easily fixed. Can you spot a syntax error in the following code?
