@@ -11,3 +11,6 @@ In the code, we call things like `12.3` and `4.5` *literals*. Here are some inte
 * You can  write floating point literals in scientific notation as follows: `double x = 1.2e8;`
 
 ##Int vs. Double
+
+
+![](http://christensenacademy.org/img/signature.png)
