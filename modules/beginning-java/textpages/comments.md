@@ -15,5 +15,3 @@ public static int factorial(int n) {
     else return n * factorial(n-1);
 }
 ```
-
-My code examples in these textpages will have lots of comments aimed at helping you understand what the code is doing.
