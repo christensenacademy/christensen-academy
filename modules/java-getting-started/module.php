@@ -27,8 +27,9 @@ $module_textpages = array(
   new textpage('why-learn-java.md', 'Why Learn Java?'),
   new textpage('finding-an-ide.md', 'Finding an IDE'),
   new textpage('jdk-vs-jre.md', 'JDK vs. JRE'),
+  new textpage('java-api.md', 'Java API'),
   new textpage('your-first-program.md', 'Your First Program'),
-  new textpage('dot-class-vs-dot-java.md', '.class vs. .java')
+  new textpage('dot-class-vs-dot-java.md', '.class vs. .java'),
 );
 
 include('./modules/module-template.php');
