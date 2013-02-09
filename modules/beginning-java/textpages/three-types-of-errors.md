@@ -1,5 +1,7 @@
 #Three Types of Errors
-There are three types of errors you'll encounter while programming: syntax errors, runtime errors, and logic errors. Making errors is a natural part of programming. Even the best programmers make lots of errors. As you gain experience, you won't necessarily make fewer errors, but you will get very good at debugging (i.e., fixing the errors you make).
+There are three types of errors you'll encounter while programming: syntax errors, runtime errors, and logic errors. 
+
+Making errors is a natural part of the programming process. As you gain experience, you won't necessarily make fewer errors, but you will get very good identifying and fixing errors. We use the term *debugging* to refer to this process of fixing errors, or "bugs", in our code.
 
 **Side Note:** I encourage you to do some searching for example of famous software errors. There are some really interesting example of major catastrophes that have occurred because of relatively simple programming errors.
 
