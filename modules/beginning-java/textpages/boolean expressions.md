@@ -31,3 +31,8 @@ boolean hasKey = false;
 ###Boolean Expressions
 
 ###Logical Operators
+
+
+
+![](http://christensenacademy.org/img/signature.png)
+

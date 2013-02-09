@@ -51,3 +51,6 @@ If you haven't actually written any programs yet, this probably sounds quite con
 ##Conclusion
 
 Because classes and objects are so foundational to the Java programming language, I encourage you to start writing your own classes as early as possible. However, please realize that you'll need a solid understanding of *primitive data types* before you're able to do much of anything with classes.
+
+
+![](http://christensenacademy.org/img/signature.png)
