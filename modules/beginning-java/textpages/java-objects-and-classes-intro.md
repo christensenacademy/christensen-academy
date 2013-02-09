@@ -20,7 +20,7 @@ In a sense, the class is like the mold from which objects are created.
 It turns out that every object comes from a class. Another way of saying this is that an object is an *instance* of a class. The class literally defines the properties and methods that an object of that class can have. For example, if there were a Stapler class in Java, it might the following properties and methods:
 
 * **Properties:** Color, the number of staples remaining, the maximum staples able to held in the stapler.
-* **Methods** (the stuff a stapler can do): Staple, refill staples.
+* **Methods:** (the stuff a stapler can do): Staple, refill staples.
 
 Each Stapler *object* would then have its own values for each of the properties of the stapler. You might have a green, 1 Kg stapler with 11 staples remaining and the ability to staple up to 15 sheets of paper at once. You might also have an orange, 0.5 Kg stapler with 50 staples remaining and the ability to staple up to 10 sheets of paper at once. Each of these staplers would be an *object* of the Stapler *class*.
 
@@ -45,9 +45,16 @@ public class Stapler {
 }
 ```
 
+Then, in another file, we could create objects of this class as follows:
 
-###Primitive Types
+```java
+Stapler officeStapler = new Stapler(); // This creates a new object, an instance of the Stapler class.
+officeStapler.refillStaples(); // This tells the officeStapler object to refill its staples
+```
+
+##Primitive Data Types
 If you haven't actually written any programs yet, this probably sounds quite confusing. To make matters worse, Java isn't a completely object-oriented language. Almost everything in Java revolves around classes and objects, except for *primitive data types*, which are things like numbers and characters.
+
 ##Conclusion
 
 Because classes and objects are so foundational to the Java programming language, I encourage you to start writing your own classes as early as possible. However, please realize that you'll need a solid understanding of *primitive data types* before you're able to do much of anything with classes.
