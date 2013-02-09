@@ -64,3 +64,6 @@ int y = 0xfa078d;
 ```
 
 For a nice recap of all of the things you can do with integer literals, check out the [Wikipedia Page on Java Syntax](http://en.wikipedia.org/wiki/Java_syntax#Literals).
+
+
+![](http://christensenacademy.org/img/signature.png)
