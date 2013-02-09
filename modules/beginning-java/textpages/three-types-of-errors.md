@@ -11,9 +11,8 @@ Every programming language has a certain syntax, or set of rules that must be fo
 
 ```java
 System.out.println("Hello World")
+// The line above should end with a semicolon. Since it doesn't have one, there is a syntax error.
 ```
-
-Yup! You guessed it! The syntax error in the code above is that there is no semicolon at the end of the statement.
 
 Syntax errors happen at "compile time". When you compile your source code your *.java files get converted into *.class files--that is, your plain text code gets converted into bytecode. This will only happen if the compiler doesn't catch any syntax errors in your code. If the compiler finds errors, your code will not be compiled; instead, you will be shown compiler error messages that give you hints as to what might be wrong with your code.
 
