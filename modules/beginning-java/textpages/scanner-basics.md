@@ -10,6 +10,7 @@ package christensenacademy.org.java;
 import java.util.Scanner; // This is the line of code you need. Notice its position near the top of the file.
 
 public class Example {
+...
 ```
 
 ###Scanning Standard Input
