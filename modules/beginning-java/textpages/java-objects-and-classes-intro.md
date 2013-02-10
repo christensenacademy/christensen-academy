@@ -13,40 +13,20 @@ In Java, every object has both *state* and *behavior*. The state of an object is
 
 In a sense, a class is a mold from which objects are created. The state and behavior of each object is specified in a class. Another way of saying this is that an object is an *instance* of a class. A class literally defines the variables and methods that an object of that class can have.
 
-###Code Example
-This is an example of what code might look like for a simple Stapler class in Java.
+###Example
 ```java
-public class Stapler {
-  // Each instance (object) of the Stapler class will have these three properties
-  private int staplesRemaining;
-  private int maxStaples;
-  public String color;
-  
-  // Each stapler will have a method called staple that 
-  public void staple(){
-    /*  Code for what happens when a Stapler staples goes here. For example, the number
-        staples remaining would decrease by 1.*/
-  }
-  
-  public void refillStaples(){
-    staplesRemaining=maxStaples;
-  }
-}
+Scanner sc = new Scanner(System.in); // Create a new object. That is, make an instance of the Scanner class
+String line = sc.nextLine(); // Have it DO something.
 ```
 
-Then, in another file, we could create objects of this class as follows:
-
-```java
-Stapler officeStapler = new Stapler(); // This creates a new object, an instance of the Stapler class.
-officeStapler.refillStaples(); // This tells the officeStapler object to refill its staples
-```
+**Note:** This is just an example of creating an object from a class. The code for the class itself, which would describe the state and behavior of the object, would be quite a bit longer.
 
 ##Primitive Data Types
-If you haven't actually written any programs yet, this probably sounds quite confusing. To make matters worse, Java isn't a completely object-oriented language. Almost everything in Java revolves around classes and objects, except for *primitive data types*, which are things like numbers and characters.
+While objects and classes are at the heart of the Java language, it is nearly impossible to study them in more depth without first developing an understanding of *primitive data types*. Primitive data types are used to store basic numerical and character data. Often, the state of an object is little more than a collection of "primitive" data.
 
 ##Conclusion
 
-Because classes and objects are so foundational to the Java programming language, I encourage you to start writing your own classes as early as possible. However, please realize that you'll need a solid understanding of *primitive data types* before you're able to do much of anything with classes.
+If you're new to learning Java, I encourage you to place your initial focus on learning about primitive data types and basic program logic before worrying much about classes and objects.
 
 
 ![](http://christensenacademy.org/img/signature.png)
