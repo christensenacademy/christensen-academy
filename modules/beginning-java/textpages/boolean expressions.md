@@ -28,25 +28,49 @@ boolean boomerang = true; // "boomerang" is a bad name because it does not imply
 boolean isWalking = false; // also a good name...
 ```
 
-###Boolean Expressions
-All boolean expressions evaluate to `true` or `false`.
+###Boolean Operators
+All boolean expressions evaluate to `true` or `false`. Boolean expressions involving primitive data types typically use the following boolean operators:
+
+* `<` for "less than"
+* `>` for "greater than"
+* `==` for "equal to" (notice the double "=" sign)
+* `<=` for "less than or equal to"
+* `>=` for "greater than or equal to"
+* `!=` for "not equal to"
 
 ```java
-// Some variables to be used in boolean expressions
-boolean hasCash = true;
-int dollars = 30;
-double tax = 0.08;
-
-// Some boolean expressions
-System.out.printn(true); // true, duh
-System.out.printn(hasCash); // true, duh
-System.out.printn(!hasCash); // false (! means "not")
-System.out.printn(dollars>20); // true
+3<4 // true
+4<3 // false
+3==3 // true
+3==4 // false
+4>=4 // true
+5>=4 // true
+4!=4 // false
 ```
 
 ###Logical Operators
+In order to add more complex logic to your programs, you may need to combine boolean expressions together with the followig so-calle "logical operators:"
 
+* `||` means "OR"
+* `&&` means "AND"
 
+```java
+3<4 && 5<4 // False. Both boolean expressions, 3<4 AND 5<4 would need to BOTH be true, but one of them isn't.
+3<4 || 5<4 // True. Either 3<4 OR 5<4 would need to be true, and one of them is.
+```
+
+In general:
+```java
+true && true == true;
+true && false == false;
+false && true == false;
+false && false == false;
+
+true || true == true;
+true || false == true;
+false || true == true;
+false || false == false;
+```
 
 ![](http://christensenacademy.org/img/signature.png)
 
