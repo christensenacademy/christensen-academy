@@ -68,7 +68,16 @@ int length = "Hello, World!".length(); // length = 13
 
 ###`.charAt(int index)`
 
-If you want to get the value of a specific char in a string, use
+If you want to get the value of a specific `char` in a string, use the `.charAt()` method making sure to provide the index of the character you're interested in as an argument to the method.
+
+**Note:** Indexes start at 0, not 1 as some people might expect.
+
+```java
+String s = "Hello";
+char c = s.charAt(0); // c = 'H'
+c = s.charAt(4); // c = 'o'
+c = s.charAt(s.length()); // Error! The length of the string is 5, but there are only characters in positions 0-4.
+```
 
 ###`.substring(int start, int end)`
 Another useful `String` method is `substring()`. This method will requires you to provide two values (i.e,. pass two "arguments"): a starting position and an ending position. 
