@@ -47,3 +47,5 @@ public class Example {
 ```
 
 
+
+![](http://christensenacademy.org/img/signature.png)
