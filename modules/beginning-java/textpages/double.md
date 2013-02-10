@@ -23,4 +23,6 @@ System.out.println(0.1+0.1+0.1); // The answer should be 0.3, right?
 
 The output of the above program is actually `0.30000000000000004`. Seem crazy? It actually makes sense if you think deeply about how floating point numbers are encoded in binary, but I'll save that discussion for another time and place.
 
+The rule of thumb I follow is to use `int` and `long` when I know for sure I'm working with exclusively integer values and use `double` for everything else.
+
 ![](http://christensenacademy.org/img/signature.png)
