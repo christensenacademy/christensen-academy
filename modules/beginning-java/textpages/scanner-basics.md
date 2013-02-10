@@ -22,7 +22,7 @@ For a complete list of all methods for Scanner objects, check out the [official 
 
 **Note:** In the eyes of the scanner, values are separated by whitespace. This is just a default, and you can change it if you want to.
 
-```
+```java
 /*
 Assume a scanner object named sc exists and that the input it is scanning is the following:
   
