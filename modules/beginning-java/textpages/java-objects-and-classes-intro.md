@@ -3,9 +3,9 @@
 Java is an "object oriented" programming language. Fully understanding what this means will take a long time, but hopefully you will find this brief introduction helpful.
 
 ##Objects: State and Behavior (Variables and Methods)
-In Java (and other object-oriented languages) programmers are constantly working with *objects.* You can think of objects in Java much like you think about the objects you see in your everyday life. I'm currently looking at a pair of headphones and stapler on the desk next to my computer.
+In Java (and other object-oriented languages) programmers are constantly working with *objects.* You can think of objects in Java much like you think about the objects you see in your everyday life.
 
-As I examine these objects, I notice things about them, such as their size, color, and position on the desk. In a sense, these properties can be thought of as the *state* of these objects. Over time, the *state* of a given object may change. For example, the stapler may run out of staples or move positions on my desk. In programming, the *state* of an object is stored in *variables*, which may change or "vary" while a program runs.
+I'm currently looking at a pair of headphones and stapler on the desk next to my computer. As I examine these objects, I notice things about them, such as their size, color, and position on the desk. In a sense, these properties can be thought of as the *state* of these objects. Over time, the *state* of a given object may change. For example, the stapler may run out of staples or move positions on my desk. In programming, the *state* of an object is stored in *variables*, which may change or "vary" while a program runs.
 
 Interestingly, many objects in the real world also **do** things. In the case of my stapler, it can staple papers. In the case of my headphones, they can produce sound. In programming, we refer to the stuff objects can **do** as *behavior*. In Java, each object has clearly-defined modes or *methods* of behavior.
 
