@@ -38,10 +38,10 @@ int dollars = 30;
 double tax = 0.08;
 
 // Some boolean expressions
-System.out.printn( true ); // true, duh
-System.out.printn( hasCash ); // true, duh
-System.out.printn( !hasCash ); // false (! means "not")
-System.out.printn( dollars ); > 20 // evaluates to t
+System.out.printn(true); // true, duh
+System.out.printn(hasCash); // true, duh
+System.out.printn(!hasCash); // false (! means "not")
+System.out.printn(dollars>20); // true
 ```
 
 ###Logical Operators
