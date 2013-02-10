@@ -53,7 +53,7 @@ System.out.println(message);
 
 For a full list of the methods of the `String` class, you can go to the [official documentation](http://docs.oracle.com/javase/7/docs/api/java/lang/String.html#method_summary).
 
-###`length()`
+###`.length()`
 Because `String` objects are objects not primitives, they have **behavior**; that is, they can **do** things. In order for an object to do something, we need to "call its methods." One such method for `String` objects is the `length()` method, which simply returns an integer telling you how many characters are in the string.
 
 #####Exampe 1
@@ -66,11 +66,11 @@ System.out.println(s.length() ); // Output: 59
 int length = "Hello, World!".length(); // length = 13
 ```
 
-###`charAt(int index)`
+###`.charAt(int index)`
 
 If you want to get the value of a specific char in a string, use
 
-###`substring(int start, int end)`
+###`.substring(int start, int end)`
 Another useful `String` method is `substring()`. This method will requires you to provide two values (i.e,. pass two "arguments"): a starting position and an ending position. 
 
 ```java
@@ -84,7 +84,7 @@ There are two strange things about the way this works:
 1. Numbering of characters in a string starts at 0.
 2. The starting position value is inclusive, but the ending position value is not.
 
-###`equals(String s)`
+###`.equals(String s)`
 
 ###
 
