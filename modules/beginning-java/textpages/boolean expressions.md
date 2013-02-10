@@ -48,6 +48,9 @@ All boolean expressions evaluate to `true` or `false`. Boolean expressions invol
 4!=4 // false
 ```
 
+####! (NOT)
+Boolean values can be flipped by using the `!` (NOT) operator. `!(3<4)`, for example, would be `false`.
+
 ###Logical Operators
 In order to add more complex logic to your programs, you may need to combine boolean expressions together with the followig so-calle "logical operators:"
 
