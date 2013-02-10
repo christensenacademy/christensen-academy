@@ -30,9 +30,8 @@ double distance = 34.53221; // Assign the floating point number 34.53221 to the 
 System.out.println(distance/2); // Print out the value held by the distance variable divided by two
 ```
 
-##Conclusion
-To fully understand what variables are and how they work, you'll need to gain some real programming experience. I encourage you to continue trying to write interesting programs and push the limits of what you know.
-
+##Learning Advice
+Don't try to memorize any of this stuff. You're way better off focusing on trying to actually write interesting programs and learning things that way.
 
 
 ![](http://christensenacademy.org/img/signature.png)
