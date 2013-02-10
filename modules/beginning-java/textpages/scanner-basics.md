@@ -31,7 +31,7 @@ Assume a scanner object named sc exists and that the input it is scanning is the
 */
 String firstWord = sc.next(); // Returns the string "In"
 double year = sc.nextDouble(); // Returns the double 1981.0. Note: We could also have used sc.nextInt();
-String restOfLine = sc.nextLine(); // Returns the rest of the line as a String: ", a movie named Scanners was released."
+String restOfLine = sc.nextLine(); // Returns the rest of the line as a String: "a movie named Scanners was released."
 String secondLine = sc.nextLine(); // Returns the entire second line of text.
 ```
 
