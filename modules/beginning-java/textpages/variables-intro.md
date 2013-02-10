@@ -31,7 +31,18 @@ System.out.println(distance/2); // Print out the value held by the distance vari
 ```
 
 ##Naming Conventions for Variables
-Variable names, also called identifiers, 
+Variable names, also called identifiers, should be written in "camelCase." Basically, this means that variables should not start with capital letters, and if they are composed of multiple words, every word after the first should start with a capital letter.
+
+```java
+int thisIsAValidButLongVariableName;
+double x; // This works, but watch out for naming variable in such a way that their purpose is unclear.
+int ticketsSold; // This is a good name because the purpose of this variable is clear.
+```
+
+Note also that varaible names can't have spaces in them or start with numbers.
+
+###Reserved Keywords
+Another thing to watch out for is accicentally naming a variable using a Java keyword like `int`, `double`, `final`, `class`, `return`, or any other word that has special meaning in the Java language.
 
 Here's a link to a [wikipedia article](http://en.wikipedia.org/wiki/Java_syntax#Identifier) for more information on this topic.
 
