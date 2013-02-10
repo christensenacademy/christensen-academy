@@ -30,6 +30,11 @@ double distance = 34.53221; // Assign the floating point number 34.53221 to the 
 System.out.println(distance/2); // Print out the value held by the distance variable divided by two
 ```
 
+##Naming Conventions for Variables
+Variable names, also called identifiers, 
+
+Here's a link to a [wikipedia article](http://en.wikipedia.org/wiki/Java_syntax#Identifier) for more information on this topic.
+
 ##Learning Advice
 Don't try to memorize any of this stuff. You're way better off focusing on trying to actually write interesting programs and learning things that way.
 
