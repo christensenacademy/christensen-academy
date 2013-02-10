@@ -46,8 +46,4 @@ Another thing to watch out for is accicentally naming a variable using a Java ke
 
 Here's a link to a [wikipedia article](http://en.wikipedia.org/wiki/Java_syntax#Identifier) for more information on this topic.
 
-##Learning Advice
-Don't try to memorize any of this stuff. You're way better off focusing on trying to actually write interesting programs and learning things that way.
-
-
 ![](http://christensenacademy.org/img/signature.png)
