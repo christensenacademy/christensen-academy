@@ -1,6 +1,6 @@
 #Java Objects and Classes Intro
 
-Java is an "object oriented" programming language. Fully understanding what this means will take some time, but hopefully you find this non-technical introduction helpful.
+Java is an "object oriented" programming language. Fully understanding what this means will take some time, but hopefully you will find this non-technical introduction helpful.
 
 ##Objects: State and Behavior
 In Java (and other object-oriented languages) programmers are constantly working with *objects.* All objects come from corresponding *classes*.
