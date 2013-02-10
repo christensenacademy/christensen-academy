@@ -17,7 +17,7 @@ Thus, each object in Java is composed of two parts: state (variables) and behavi
 
 ##Classes
 
-In a sense, a class is a mold from which objects are created. Another way of saying this is that each object is an "instance" of a class. This is useful because even if you create 100 objects from the same class, you'll only need to write the code once for describing how each object should work.
+In a sense, a class is a mold from which objects are created. Another way of saying this is that each object is an "instance" of a class.
 
 ##Primitive Data Types
 While objects and classes are at the heart of the Java language, it is nearly impossible to study them in more depth without first developing an understanding of primitive data types. Primitive data types are used to store basic numerical and text data. Often, the state of an object is little more than a collection of "primitive" data.
