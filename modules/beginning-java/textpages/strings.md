@@ -94,8 +94,13 @@ There are two strange things about the way this works:
 2. The starting position value is inclusive, but the ending position value is not.
 
 ###`.equals(String s)`
+The `.equals()` method is used for comparing strings. It turns out that you cant use `==` as you would with primitive data types to compare Strings. Check out this example:
 
-###
+```java
+String s = "Hello";
+System.out.println(s == "Hi"); // ERROR! Cannot use "==" to compare strings
+System.out.println(s.equals("Hi")); // This is the right way to compare strings
+```
 
 ##Immutability
 `String` objects in Java are "immutable," which means that no method is capable of changing the state of the string. The `substring()` method is a perfect example because it does not modify or "mutate" the contents of the string. All it does is return a new string that is a substring of the old one.
