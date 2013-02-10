@@ -39,7 +39,20 @@ String message = "Hello, " + name + "!"; // Concatenate three strings and assign
 ```Java
 int people = 8;
 double poundsOfChicken = 3.12;
-String 
+char punctuation = '!';
+String message = "There are " + people + " people coming to our house for dinner, so I bought " +
+                 poundsOfChicken + " pounds of chicken for us to eat" + punctuation;
+System.out.println(message);
+// Output: There are 8 people coming to our house for dinner, so I bought 3.12 pounds of chicken for us to eat!
+```
+
+####When `+` is Addition or Concatenation
+Consider four examples:
+```java
+System.out.println("Example " + 3); // "Example 3" (Java interpreted "+" as concatenation)
+System.out.println("Example " + 3 + 7); // "Example 37" (Java interpreted "+" as concatenation)
+System.out.println(3 + " Example"); // "3 Example" (Java interpreted "+" as concatenation)
+System.out.println(3 + 4 + " Example"); // "7 Example" (First "+" was addition, second "+" was concatenation)
 ```
 
 ###toString()
