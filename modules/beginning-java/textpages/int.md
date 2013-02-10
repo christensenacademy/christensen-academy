@@ -33,7 +33,8 @@ int x = 4; // Assign a literal to a variable
 x = x + 3; // Use a literal as part of a math expression
 ```
 
-Interestingly, while there are four primitive data types for integers, there are only two types of integer literals. The first type is just a normal integer value, such as `7` or `-55`. These values are of type `int` and can be assigned to all four types of integer variables:
+####What Data Type are Integer Literals?
+Integer literals are of type `int` by default. Thankfully, these literals are automatically "narrowed" and "widened" to fit in the other integer data types:
 
 ```java
 byte w = 10; // the int 10 is "narrowed" to a byte
@@ -42,7 +43,7 @@ int y = 10;
 long z = 10; // the int 10 is "widened" to a long
 ```
 
-The second integer literal type is only used for integer values bigger than the max int size: 2147483647. For such literals, the Java language requires you to add the suffix `L` to the literal. Note: You can also add the suffix `l` (lowercase `L`), but this looks like the digit one, so I'd avoid using it if I were you.
+The only exception is for integer values larger than the max `int` size: 2147483647. For such literals, the Java language requires you to add the suffix `L` to the literal.
 
 ```java
 long x = 2147483647; // Compiles
