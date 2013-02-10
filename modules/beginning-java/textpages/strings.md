@@ -55,8 +55,8 @@ Because `String` objects are objects not primitives, they have **behavior**; tha
 
 ###Exampe 1
 ```java
-String s = "Programming rocks! As opposed to programming computers..."; // 
-System.out.println(s.length() ); // Output: 57
+String s = "Programming rocks (as opposed to programming computers...)!";
+System.out.println(s.length() ); // Output: 59
 ```
 ###Example 2
 ```java
