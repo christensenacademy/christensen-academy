@@ -3,6 +3,42 @@ All objects in Java have **methods**, which allow them to **do** things. This te
 
 **Side Note:** In other programming languages, methods are often called "functions." Both methods and functions work essentially the same in that they are reusable bits of code.
 
+###Example of a Simple (and Rather Pointless) Method
+```java
+public void sayHello(){
+  System.out.println("Hello");
+}
+```
+The big idea here is that now we have a reusable piece of code that we can use in the following manner:
+
+```java
+sayHello(); // call the sayHello method
+sayHello(); // call the sayHello method again
+```
+
+Of course, most methods do something a bit more interesting than simply printing out "Hello." Consider this more useful method that determines whether or not a number is a prime:
+
+```java
+public boolean isPrime(int n){
+  if(n < 2) return false;
+  if(n == 2) return true;
+  int counter = 3;
+  while(counter < n){
+    if(n%counter == 0){
+      return false;
+    }
+    counter = counter + 2;
+  }
+  return true;
+}
+```
+
+Cool, now we have a method that actually does something useful! If you don't understand excatly how this method works, no worries for now. Just realize that it computer whether or not a number is a prime. We can use this method in the following manner:
+
+```java
+isPrime(89); // Call the isPrime method passing tshe numbder
+```
+
 ###Example
 ```java
 public class Integer() {
