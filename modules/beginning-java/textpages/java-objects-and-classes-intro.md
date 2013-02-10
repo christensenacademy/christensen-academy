@@ -15,7 +15,7 @@ In a sense, a class is a mold from which objects are created. The state and beha
 
 ###Example
 ```java
-Scanner sc = new Scanner(System.in); // Create a new object. That is, make an instance of the Scanner class
+Scanner sc = new Scanner(System.in); // Create a new object (i.e., make an instance of the Scanner class).
 String line = sc.nextLine(); // Have it DO something.
 ```
 
