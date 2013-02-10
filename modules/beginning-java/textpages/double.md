@@ -21,6 +21,6 @@ If you understand how floating point numbers work, you'll understand that they a
 System.out.println(0.1+0.1+0.1); // The answer should be 0.3, right?
 ```
 
-The output of the above program is actually `0.30000000000000004`. Seem crazy? It actually makes sense if you think deeply about how floating point numbers are actually stored in the computer, but I'll save that discussion for another time and place.
+The output of the above program is actually `0.30000000000000004`. Seem crazy? It actually makes sense if you think deeply about how floating point numbers are encoded in binary, but I'll save that discussion for another time and place.
 
 ![](http://christensenacademy.org/img/signature.png)
