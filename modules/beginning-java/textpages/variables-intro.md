@@ -32,3 +32,7 @@ System.out.println(distance/2); // Print out the value held by the distance vari
 
 ##Conclusion
 To fully understand what variables are and how they work, you'll need to gain some real programming experience. I encourage you to continue trying to write interesting programs and push the limits of what you know.
+
+
+
+![](http://christensenacademy.org/img/signature.png)
