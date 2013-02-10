@@ -1,7 +1,6 @@
 #Scanner Basics
 The `Scanner` class was introduced in version 1.5 of the Java language. It provides a simple means of input for your programs. Using a scanner will allow you to get basic user input while your program runs.
 
-###Importing
 You'll need to import the Scanner class before you can use it.
 
 ```java
@@ -12,16 +11,11 @@ public class Example {
 ```
 Notice that the import statement goes just above the class definition.
 
-###New Scanner: Scanning Standard Input
+To create a new instance of the `Scanner` class, do the following:
 ```java
 Scanner sc = new Scanner(System.in); // Instantiate a scanner that scans standard input
 ```
 This will allow the user to input data through a terminal interface. Basically, in the same area that your `System.out.println()` statements appear, users will be able to type in data.
-
-###New Scanner: Scanning a String
-```java
-Scanner sc = new Scanner("Hello, World!");
-```
 
 ##Scanner Methods
 For a complete list of all methods for Scanner objects, check out the [official documentation](http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html#method_summary).
@@ -46,6 +40,7 @@ public class Example {
 }
 ```
 
+**Note:** You can also set up a scanner to read a String: `Scanner sc = new Scanner("Hello World")`. This can be useful from time to time, especially in programming competitions.
 
 
 ![](http://christensenacademy.org/img/signature.png)
