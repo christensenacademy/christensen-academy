@@ -33,9 +33,9 @@ String message = "Hello, " + name + "!"; // Concatenate three strings and assign
 // The message variable now stores the string "Hello, Cam!"
 ```
 
-**Note:** In the example above we use the `+` operator for concatenation. Quite honestly, this is a bit confusing because we also use the `+` operator for adding numbers together. Just realize that if a String is involved in the operation, Java will be concatenating things together, not adding.
+**Note:** In the example above we use the `+` operator for concatenation. Quite honestly, this is a bit confusing because we also use the `+` operator for adding numbers together. Just realize that if a String is involved in the operation, Java will be concatenating things together instead of somehow trying to add an `int` and a `String` together or something. `String` is the more inclusive type, so it makes sense, I think, that other types of data would get converted into `String` form as opposed to the other way around.
 
-###Concatenation with Primitives
+###Another Example of Concatenation
 ```Java
 int people = 8;
 double poundsOfChicken = 3.12;
@@ -51,7 +51,7 @@ System.out.println(message);
 ```
 
 ##Length
-Because `String` objects are objects not primitives, they have **behavior**; that is, they can **do** things. In order for an object to do something, we need to "call its methods." One such method for `String` objects is the `length()` method.
+Because `String` objects are objects not primitives, they have **behavior**; that is, they can **do** things. In order for an object to do something, we need to "call its methods." One such method for `String` objects is the `length()` method, which simply returns an integer telling you how many characters are in the string.
 
 ###Exampe 1
 ```java
@@ -60,12 +60,24 @@ System.out.println(s.length() ); // Output: 59
 ```
 ###Example 2
 ```java
-int length = "Hello, World!".length(); // length = 13 because the string had 13 characters in it
+int length = "Hello, World!".length(); // length = 13
 ```
 
 ##Substring
+Another useful `String` method is `substring()`. This method will requires you to provide two values (i.e,. pass two "arguments"): a starting position and an ending position. 
 
-###Immutable
+```java
+String s = "Hello";
+System.out.println(s.substring(1,3) ); // Output: "el"
+System.out.println(s.substring(0,3) ); // Output: "Hel"
+System.out.println(s.substring(0, s.length() ) ); // Output: "Hello"
+```
 
+There are two strange things about the way this works:
+1. Numbering of characters in a string starts at 0.
+2. The starting position value is inclusive, but the ending position value is not.
+
+###Immutability
+`String` objects in Java are "immutable," which means that no method is capable of changing the state of the string. The `substring()` method is a perfect example because it does not modify or "mutate" the contents of the string. All it does is return a new string that is a substring of the old one.
 
 ![](http://christensenacademy.org/img/signature.png)
