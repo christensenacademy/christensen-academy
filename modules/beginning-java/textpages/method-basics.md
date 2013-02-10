@@ -36,8 +36,11 @@ public boolean isPrime(int n){
 Cool, now we have a method that actually does something useful! If you don't understand excatly how this method works, no worries for now. Just realize that it computer whether or not a number is a prime. We can use this method in the following manner:
 
 ```java
-isPrime(89); // Call the isPrime method passing tshe numbder
+// Call the isPrime method passing the number 89 as an argument.
+isPrime(89); // Since 89 is a prime, this expression evaluates to true.
 ```
+
+
 
 ###Example
 ```java
