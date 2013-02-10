@@ -7,7 +7,7 @@ In Java (and other object-oriented languages) programmers are constantly working
 
 You can think of objects in Java much like you think about the objects you see in your everyday life. I'm currently looking at a pair of headphones and stapler on the desk next to my computer. As I examine these objects, I notice things about them, such as their size, color, and position on the desk. In a sense, these properties can be thought of as the *state* of these objects. Perhaps what's most interesting about these objects is that they can **do** things, such as staple papers or produce sound. In this way, objects also have *behavior* or "stuff" we can do with them.
 
-In Java, every object has both *state* and *behavior*. The state of an object is really just the important data surrounding an object. When we program, we use *variables* to keep track of the state of an object. The behavior of an object is really just the things we can have objects do. When we program, we write *methods* to specify what objects can do.
+In Java, every object has both *state* and *behavior*. The state of an object is really just the data surrounding that object. When we program, we use *variables* to keep track of the state of an object. The behavior of an object is really just the things we can have objects do. When we program, we write *methods* to specify what objects can do.
 
 ##Classes
 
