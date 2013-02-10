@@ -43,16 +43,25 @@ char punctuation = '!';
 String message = "There are " + people + " people coming to our house for dinner, so I bought " +
                  poundsOfChicken + " pounds of chicken for us to eat" + punctuation;
 
-/* Note: You can split long string expression like this onto multiple lines
+/* Note: You can split long string expressions like this onto multiple lines
    if you end each line with the "+" operator.*/
 
 System.out.println(message);
 // Output: There are 8 people coming to our house for dinner, so I bought 3.12 pounds of chicken for us to eat!
 ```
 
-###toString()
-
 ##Length
+Because `String` objects are objects not primitives, they have **behavior**; that is, they can **do** things. In order for an object to do something, we need to "call its methods." One such method for `String` objects is the `length()` method.
+
+###Exampe 1
+```java
+String s = "Programming rocks! As opposed to programming computers..."; // 
+System.out.println(s.length() ); // Output: 57
+```
+###Example 2
+```java
+int length = "Hello, World!".length(); // length = 13 because the string had 13 characters in it
+```
 
 ##Substring
 
