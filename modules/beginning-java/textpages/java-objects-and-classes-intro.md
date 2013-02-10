@@ -9,11 +9,11 @@ You can think of objects in Java much like you think about the objects you see i
 
 In Java, every object has both *state* and *behavior*. The state of an object is really just the important data surrounding an object. When we program, we use *variables* to keep track of the state of an object. The behavior of an object is really just the things we can have objects do. When we program, we write *methods* to specify what objects can do.
 
-###Classes
+##Classes
 
 In a sense, a class is a mold from which objects are created. The state and behavior of each object is specified in a class. Another way of saying this is that an object is an *instance* of a class. A class literally defines the variables and methods that an object of that class can have.
 
-##Code Example
+###Code Example
 This is an example of what code might look like for a simple Stapler class in Java.
 ```java
 public class Stapler {
