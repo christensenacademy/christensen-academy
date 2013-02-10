@@ -13,6 +13,8 @@ Interestingly, many objects in the real world also *do* things. In the case of m
 
 In Java, each object has clearly-defined modes or **methods** of behavior.
 
+Thus, each object in Java is composed of two parts: state (variables) and behavior (methods).
+
 ##Classes
 
 In a sense, a class is a mold from which objects are created. Another way of saying this is that each object is an "instance" of a class. This is useful because even if you create 100 objects from the same class, you'll only need to write the code once for describing how each object should work.
