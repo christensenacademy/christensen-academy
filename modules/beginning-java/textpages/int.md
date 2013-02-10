@@ -1,12 +1,12 @@
 #Integers
-`byte`, `short`, `int`, and `long` are used to store integer values--which, if you're interested, uses the two's compliment encoding scheme for signed integers. The only difference between these types is the number of bits used for each:
+`byte`, `short`, `int`, and `long` are used to store integer values. The only difference between these types is the number of bits used for each:
 
 * byte (aptly named...): 8 bits [-128, 127] 
 * short: 16 bits [-32,768, 32,767]
 * int: 32 bits [-2,147,483,648, 2,147,483,647]
 * long: 64 bits [-9,223,372,036,854,775,808, 9,223,372,036,854,775,807]
 
-For most of the programs you write, you'll use `int`, and sometimes you'll use `long`. Most Java programmers that I know don't use `short` and `byte` very often if at all.
+For most of the programs you write, you'll use `int`. When necessary, you'll use `long`. `byte` and `short` are more or less pointless, and you'll probably never have a good reason to use them.
 
 The important thing is to make sure you always choose a type that's big enough. If, for example, you were to use an `int` to store the value of the current U.S. national debt, it wouldn't be large enough, and you would get very strange, unpredictable results due to [integer overflow](http://en.wikipedia.org/wiki/Integer_overflow).
 
