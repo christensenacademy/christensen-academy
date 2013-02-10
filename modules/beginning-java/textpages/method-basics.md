@@ -16,6 +16,7 @@ sayHello(); // call the sayHello method
 sayHello(); // call the sayHello method again
 ```
 
+###Example of a Much More Useful Method
 Of course, most methods do something a bit more interesting than simply printing out "Hello." Consider this more useful method that determines whether or not a number is a prime:
 
 ```java
