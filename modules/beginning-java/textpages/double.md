@@ -14,7 +14,7 @@ In the code, we call things like `12.3` and `4.5` *literals*. The default type o
 
 Furthermore, when performing basic math operations on `int`s and `double`s, if both an `int` and a `double` are involved in the same operation, such as when we divide 3.0 by 2 (`3.0/2`), the `int` (in this case, 2) will first get converted to a double before the division takes place. The expression will evaluate to a double, which in this case would be 1.5.
 
-##Why Would You Ever Want to Use Int Instead of Double?
+##Why Would You Ever Want to Use `int` Instead of `double`?
 If you understand how floating point numbers work, you'll understand that they are not perfectly precise and that wierd things can happen when working with them. Consider the following classic example of the pitfalls of limited precision in floating point numbers:
 
 ```java
