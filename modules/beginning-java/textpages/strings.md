@@ -77,7 +77,7 @@ There are two strange things about the way this works:
 1. Numbering of characters in a string starts at 0.
 2. The starting position value is inclusive, but the ending position value is not.
 
-###Immutability
+##Immutability
 `String` objects in Java are "immutable," which means that no method is capable of changing the state of the string. The `substring()` method is a perfect example because it does not modify or "mutate" the contents of the string. All it does is return a new string that is a substring of the old one.
 
 ![](http://christensenacademy.org/img/signature.png)
