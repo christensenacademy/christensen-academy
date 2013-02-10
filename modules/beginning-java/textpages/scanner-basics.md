@@ -5,24 +5,26 @@ The `Scanner` class was introduced in version 1.5 of the Java language. It provi
 You'll need to import the Scanner class before you can use it.
 
 ```java
-package christensenacademy.org.java;
-
 import java.util.Scanner; // This is the line of code you need. Notice its position near the top of the file.
 
 public class Example {
-...
+  //rest of code goes here...
 ```
+Notice that the import statement goes just above the class definition.
 
-###Scanning Standard Input
+###New Scanner: Scanning Standard Input
 ```java
 Scanner sc = new Scanner(System.in); // Instantiate a scanner that scans standard input
 ```
 This will allow the user to input data through a terminal interface. Basically, in the same area that your `System.out.println()` statements appear, users will be able to type in data.
 
-###Scanning a String
+###New Scanner: Scanning a String
 ```java
 Scanner sc = new Scanner("Hello, World!");
 ```
+
+##Scanner Methods
+For a complete list of all methods for Scanner objects, check out the [official documentation](http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html#method_summary).
 
 
 
