@@ -1,7 +1,7 @@
 #Java Variables Intro
-Variables in programming are different from variables in math. In math, variables often represent values we don't know and are trying to figure out. In Java and other programming languages, variables a more like containers that store objects or primitive values. The term "variable" actually makes more sense in programming, I think, because what a variable stores may change or vary as the program runs.
+Variables in programming are different from variables in math. In math, variables often represent values we don't know and are trying to figure out. In Java and other programming languages, variables a more like containers that store objects or primitive data type values.
 
-So, if variables are used to store stuff (i.e., primitive types and objects), there must be some way to write code to tell variables what to store. We call a line of code that assigns a new value to a variable an *assignment statement*. Here are some examples of code that stores different integer values in a variable using assignment statements:
+So, if variables are used to store stuff (i.e., objects and primitive values), there must be some way to write code to create new variables and tell them what to store. We call a piece of creates a new variable a **variable declaration**, can we call a piece of code that assigns a new value to a variable an **assignment statement**. Here are some examples of code that stores different integer values in a variable using assignment statements:
 
 ```java
   int favoriteNumber; // Declare a new integer variable called favoriteNumber
