@@ -20,7 +20,7 @@ There are three extremely important things to realize about the code above:
 
 * **Every variable has a type.** The type of the variable in the example is int, which is short for integer and is a primitive type, not an object. There are seven other primitive types to choose from and an almost limitless number of types of objects to choose from. For now, just realize that a variable cannot change types once it has been declared. The variable in the example above will always only be able to store an integer value.
 * **Assignment statements must have the variable receiving a new value on the left of the equals sign.** The "stuff" on the right side of the equals sign must evaluate to value that can be assigned to the variable on the left. So, while `favoriteNumber = 3` makes perfect sense, `3 = favoriteNumber` makes no sense at all and is not valid Java code.
-* Whenever a variable name appears anywhere other than on the left-hand side of an assignment statement, the variable will be *evaluated* as the primitive value or object it is currently storing. In the example above, the variable name was simply replaced with the value the variable was storing, which was different at different points in the program.
+* Except for when they occur on the left-hand side of assignment statements, **variables are *evaluated* as the primitive value or object they are currently storing.**
 
 ##Other Types of Variables
 
