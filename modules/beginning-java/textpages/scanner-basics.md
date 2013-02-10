@@ -1,7 +1,4 @@
 #Scanner Basics
-
-While you probably dream of writing graphically rich programs such as games or other software applications similar to those you use on a daily basis, doing so is complex--at least in Java--and it is probably wise to start with something a bit more practical albeit less visually pleasing.
-
 The `Scanner` class was introduced in version 1.5 of the Java language. It provides a simple means of input for your programs. Using a scanner will allow you to get basic user input while your program runs.
 
 ###Importing
