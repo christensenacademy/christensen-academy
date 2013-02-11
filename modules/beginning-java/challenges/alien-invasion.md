@@ -11,6 +11,7 @@ You and your fellow aliens are swooping down on Earth in your spaceships in an a
 You start the game with 13 dice. You attack the planet in rounds, which continue until you're out of dice.
 
 In each round, you do the following:
+
 1. Roll all of the remaining dice. For each die, there is a 1/6th chance of rolling a tank, chicken, cow, or human, and a 2/6th chance of rolling a spaceship.
 2. Immediately set all of the tank dice you rolled off to the side, adding them to the total number of tanks defending Earth.
 3. Count up the number of chickens, cows, humans, spaceships you've rolled.
