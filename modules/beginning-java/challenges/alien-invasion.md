@@ -23,3 +23,7 @@ In each round, you do the following:
 
 If the number or spaceships was greater than or equal to the number of tanks, your invasion was successful. You score one point for each specimen collected and an additional three points if all three types of specimens were collected.
 
+##Rubric
+* **Correct:** The game works as intended and is free of logic errors.
+* **Robust:** The game works in all circumstances, even if the user inputs "bad" values.
+* **Polished:** The user interface is as nice as possible. The game is intuitive and easy to play.
