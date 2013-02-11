@@ -27,4 +27,7 @@ If the number or spaceships was greater than or equal to the number of tanks, yo
 ##Rubric
 * **Correct:** The game works as intended and is free of logic errors.
 * **Robust:** The game works in all circumstances, even if the user inputs "bad" values.
-* **Polished:** The user interface is as nice as possible. The game is intuitive and easy to play.
+* **Polished:**
+  * The user interface is as nice as possible.
+  * The game is intuitive and easy to play.
+  * Messages are highly customized (e.g., if only one tank was rolled, the message says "1 tank" instead of "1 tanks")
