@@ -73,10 +73,10 @@ Embedded CSS (also called internal CSS) is written in an HTML document in the st
 </html>
 ```
 
-Notice how much readable the HTML is when using embedded CSS as opposed to [inline CSS](#inline-css). The other major benefit is in maintainability. Imagine you're trying to update the styles associated with each paragraph in the examples above. With embedded CSS, this is easy because you can make all of your changes in one single location. Imagine if your page had 10 paragraphs... or, what if you had 10 pages each with 10 paragraphs?!?!? Then, I think you might need [external CSS](#external-css).
+Notice how much readable the HTML is when using embedded CSS as opposed to inline CSS. The other major benefit is in maintainability. Imagine you're trying to update the styles associated with each paragraph in the examples above. With embedded CSS, this is easy because you can make all of your changes in one single location. Imagine if your page had 10 paragraphs... or, what if you had 10 pages each with 10 paragraphs?!?!? Then, I think you might need external CSS.
 
 ##External CSS
-External CSS is the best of the [three type of CSS](#three-types-of-css) for reasons previously discussed, the most important of which is site maintainability. External CSS offers complete separation of content (HTML) and style/presentation (CSS) in your webpage, as demonstrated beautifully on [CSS Zen Garden](http://www.csszengarden.com/).
+External CSS is the best of the three type of CSS for reasons previously discussed, the most important of which is site maintainability. External CSS offers complete separation of content (HTML) and style/presentation (CSS) in your webpage, as demonstrated beautifully on [CSS Zen Garden](http://www.csszengarden.com/).
 
 In external CSS, you write your CSS in one or more CSS files (text files that end in .css as opposed to .html or some other extension). Then, inside of your HTML files, you provide one line of code for each CSS file (stylesheet) you wish to link to:
 
