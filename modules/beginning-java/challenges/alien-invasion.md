@@ -15,7 +15,7 @@ In each round, you do the following:
 1. Roll all of the remaining dice. For each die, there is a 1/6th chance of rolling a tank, chicken, cow, or human, and a 2/6th chance of rolling a spaceship.
 2. Immediately set all of the tank dice you rolled off to the side, adding them to the total number of tanks defending Earth.
 3. Count up the number of chickens, cows, humans, spaceships you've rolled.
-4. Choose where to focus your energy this round (i.e., choose whether you want to select spaceships, chickens, cows, or humans). **Note** Whatever dice you select will be set aside thereby decreasing your number of remaining dice.
+4. Choose where to focus your energy this round (i.e., choose whether you want to select spaceships, chickens, cows, or humans). **Note:** Whatever dice you select will be set aside thereby decreasing your number of remaining dice.
   * **Collect All Chickens:** You may only do this if you have never collected chickens before and there are actually some chickens available to collect.
   * **Collect All Cows:** You may only do this if you have never collected cows before and there are actually some cows available to collect.
   * **Collect All Chickens:** You may only do this if you have never collected chickens before and there are actually some chickens available to collect.
