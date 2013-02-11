@@ -1,6 +1,6 @@
 #Complex Selectors
 
-In adition to element selectors (`p {color:blue}`), class selectors (`.lorem {color:blue}`), and ID selectors (`#ipsum {color:blue}`), there are many other ways to write more complex selectors for CSS rules. This textpage will explain two of the most common (and hopefully useful) or these more advanced and complex selectors.
+In adition to element selectors (`p {color:blue}`), class selectors (`.lorem {color:blue}`), and ID selectors (`#ipsum {color:blue}`), there are many other ways to write more complex selectors for CSS rules. This textpage will explain two of the most common (and hopefully useful) of these more advanced and complex selectors.
 
 ###Selecting Descendents
 

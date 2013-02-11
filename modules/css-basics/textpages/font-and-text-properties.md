@@ -6,8 +6,6 @@ line-height: 2em; /*each line of text in this element has 2em worth of vertical 
 letter-spacing: 2px; /*two pixels of space between each letter of text*/
 ```
 
-**Note:** You can center text vertically by...
-
 #List of Font Properties
 ```css
 font-weight: bold;

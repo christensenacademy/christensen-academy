@@ -1,12 +1,12 @@
 #Integers
-`byte`, `short`, `int`, and `long` are used to store integer values--which, if you're interested, uses the two's compliment encoding scheme for signed integers. The only difference between these types is the number of bits used for each:
+`byte`, `short`, `int`, and `long` are used to store integer values. The only difference between these types is the number of bits used for each:
 
-* byte: 8 bits (duh!) [-128, 127] 
+* byte (aptly named...): 8 bits [-128, 127] 
 * short: 16 bits [-32,768, 32,767]
 * int: 32 bits [-2,147,483,648, 2,147,483,647]
 * long: 64 bits [-9,223,372,036,854,775,808, 9,223,372,036,854,775,807]
 
-For most of the programs you write, you'll use `int`, and sometimes you'll use `long`. Most Java programmers that I know don't use `short` and `byte` very often if at all.
+For most of the programs you write, you'll use `int`. When necessary, you'll use `long`. `byte` and `short` are more or less pointless, and you'll probably never have a good reason to use them.
 
 The important thing is to make sure you always choose a type that's big enough. If, for example, you were to use an `int` to store the value of the current U.S. national debt, it wouldn't be large enough, and you would get very strange, unpredictable results due to [integer overflow](http://en.wikipedia.org/wiki/Integer_overflow).
 
@@ -33,7 +33,8 @@ int x = 4; // Assign a literal to a variable
 x = x + 3; // Use a literal as part of a math expression
 ```
 
-Interestingly, while there are four primitive data types for integers, there are only two types of integer literals. The first type is just a normal integer value, such as `7` or `-55`. These values are of type `int` and can be assigned to all four types of integer variables:
+####What Data Type are Integer Literals?
+Integer literals are of type `int` by default. Thankfully, these literals are automatically "narrowed" and "widened" to fit in the other integer data types:
 
 ```java
 byte w = 10; // the int 10 is "narrowed" to a byte
@@ -42,7 +43,7 @@ int y = 10;
 long z = 10; // the int 10 is "widened" to a long
 ```
 
-The second integer literal type is only used for integer values bigger than the max int size: 2147483647. For such literals, the Java language requires you to add the suffix `L` to the literal. Note: You can also add the suffix `l` (lowercase `L`), but this looks like the digit one, so I'd avoid using it if I were you.
+The only exception is for integer values larger than the max `int` size: 2147483647. For such literals, the Java language requires you to add the suffix `L` to the literal.
 
 ```java
 long x = 2147483647; // Compiles

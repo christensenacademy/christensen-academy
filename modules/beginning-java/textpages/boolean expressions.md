@@ -21,18 +21,59 @@ if(donationAmount<10.0){
 The expression `donationAmount<10.0` is an example of a boolean expression. This type of expression is similar to a math expression except that it evaluates to a `boolean` value instead of a `double` or an `int`.
 
 ###Boolean Variables
-In the same way that you can create variables of type `byte`, `short`, `int`, `long`, `float`, `double`, and `char`, you can also create variables of type `boolean`.
+```java
+// The following boolean variables might be useful if you were developing a video game
+boolean hasBossKey = false; // "hasBossKey" is a good name because it clearly implies storing boolean data.
+boolean boomerang = true; // "boomerang" is a bad name because it does not imply storing boolean data.
+boolean isWalking = false; // also a good name...
+```
+
+###Boolean Operators
+All boolean expressions evaluate to `true` or `false`. Boolean expressions involving primitive data types typically use the following boolean operators:
+
+* `<` for "less than"
+* `>` for "greater than"
+* `==` for "equal to" (notice the double "=" sign)
+* `<=` for "less than or equal to"
+* `>=` for "greater than or equal to"
+* `!=` for "not equal to"
 
 ```java
-boolean hasKey = false;
+3<4 // true
+4<3 // false
+3==3 // true
+3==4 // false
+4>=4 // true
+5>=4 // true
+4!=4 // false
 ```
-**Note:** When naming boolean variables, try to make the names you choose imply the fact that they are booleans. The name `hasKey` is good for a boolean because it implies that the value will either be true or false. The name `key` would be more confusing because it would not be immediately clear what types of values that variable would store.
 
-###Boolean Expressions
+####! (NOT)
+Boolean values can be flipped by using the `!` (NOT) operator. `!(3<4)`, for example, would be `false`.
 
 ###Logical Operators
+In order to add more complex logic to your programs, you may need to combine boolean expressions together with the followig so-calle "logical operators:"
 
+* `||` means "OR"
+* `&&` means "AND"
 
+```java
+3<4 && 5<4 // False. Both boolean expressions, 3<4 AND 5<4 would need to BOTH be true, but one of them isn't.
+3<4 || 5<4 // True. Either 3<4 OR 5<4 would need to be true, and one of them is.
+```
+
+In general:
+```java
+true && true == true;
+true && false == false;
+false && true == false;
+false && false == false;
+
+true || true == true;
+true || false == true;
+false || true == true;
+false || false == false;
+```
 
 ![](http://christensenacademy.org/img/signature.png)
 

@@ -1,6 +1,6 @@
 #CSS Site Remodelling Project
 
-Your goal is to remodel a pure-HTML website you've already created using CSS.
+Your goal is to remodel a pure HTML website you've already created using CSS.
 
 ##Requirements
 * A consistent theme is used to create a more professional feel.
