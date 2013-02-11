@@ -92,6 +92,4 @@ h1
   font-size:200%;
 }
 ```
-Looking at the code above, it should be clear that some of the CSS is being applied to *p* elements and some of it is being applied to *h1* elements. In the examples above, *p* and *h1* are called selectors because they *select* what elements to style. Selectors that use HTML element names are just one type of CSS selector. The next sections will demonstrate many more.
-
-*Note:* Styles (property-value pairs) for selectors are then written between "{" and "}" (curly bracket) symbols.
+Looking at the code above, it should be clear that some of the CSS is being applied to *p* elements and some of it is being applied to *h1* elements. In the examples above, *p* and *h1* are called selectors because they *select* what elements to style. Selectors that use HTML element names are just one type of CSS selector. I'll explain other types of selectors on future textpages.
