@@ -16,32 +16,24 @@ $module_challenges = array(
 );
 
 $module_videos = array(
-  new video('q6aHmSzzt7Y', 'CSS (Cascading Style Sheets) Intro'),
-  new video('D47UsLHs7Rw', 'An Intuitive Feel for CSS'),
-  new video('tqhhpwO67Pc', '3 Types of CSS (Inline CSS)'),
-  new video('l0QXi4ryvDc', '3 Types of CSS (Internal / Embedded)'),
-  new video('PGH01VxYhv8', '3 Types of CSS (External)'),
+  new video('TsXaXscBspM', 'CSS Introduction'),
+  new video('g3brTMhg6H0', 'Inline, Embedded (Internal), and External CSS'),
   new video('SPp_hKEpMeQ', 'Internal and External CSS Equivalency'),
-  new video('eIkDr8r2gRw', 'CSS Comments'),
-  new video('d_v322FfpXM', 'CSS Inheritance'),
-  new video('Rsnq8H3UiBw', 'Google Chrome and CSS Inheritance'),
-  new video('9L91PUMoyAg', 'CSS Validator'),
-  new video('JlXAYLo2ohA', 'CSS Colors (RGB)'),
-  new video('ZUAM-IMdwE4', 'CSS Colors (Hexadecimal)'),
-  # Eyedroppers and Color Pickers
-  new video('VN3Z6VM4Fr8', 'HTML and CSS: Classes and IDs'),
-  new video('EVJzZaDq0oM', 'CSS: The Cascade'),
-  new video('6p29D0tetDQ', 'Google Chrome and the Cascade'),
-  new video('FhYgNI_0DiI', 'HTML Multiple Classes'),
+  new video('eIkDr8r2gRw', 'Comments'),
+  new video('d_v322FfpXM', 'Inheritance'),
+  new video('1v4ncJ9hjHc', 'CSS Validator Intro'),
+  new video('r2BTqBykjNM', 'Colors: RGB and Hexadecimal Syntax'),
+  new video('pWHzJIHewTM', 'Class and ID Attributes with CSS'),
+  ### new video('EVJzZaDq0oM', 'The Cascade'),
+  ### new video('FhYgNI_0DiI', 'HTML Multiple Classes'),
   new video('C1-gW70Wszc', 'CSS Nested Selectors'),
   # Multiple Selectors
   # Hover Effects
-  new video('7GuBcFWlGVc', 'CSS Size Units (em, %, px, and pt)'),
-  new video('nBgpS74f5Z4', 'CSS Text Properties'),
+  new video('7GuBcFWlGVc', 'CSS Size Units (em, %, px, and pt)'), ##remake
   new video('5Zt2KbxBqA4', 'CSS Basic Font Properties'),
+  new video('nBgpS74f5Z4', 'CSS Text Properties'),
+  new video('5t_4_UMo4JY', 'Pre Element and Whitespace'), ##remake
   new video('Zjk0hK6jNvk', 'CSS Fonts (font-family property)'),
-  new video('5t_4_UMo4JY', 'Pre Element and Whitespace')
-  # CSS Basics Review
 );
 
 $module_textpages = array(
