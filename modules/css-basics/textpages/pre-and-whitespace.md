@@ -1,4 +1,4 @@
-#Pre and whitepace
+#Pre Element and Whitepace
 Use the `pre` element if you'd like your text to not ignore whitespace. "Pre" stands for "preformatted text."
 ```html
 <pre>
