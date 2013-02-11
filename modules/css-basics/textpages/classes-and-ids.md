@@ -17,7 +17,7 @@ h2 {font-style:italic;}
 would display in orange.*/
 .foo {color:orange;font-weight:bold;}
 
-/*The #bar selector (technically) selects all elements with id attributes of "bar", but really this should
+/*The #bar selector technically selects all elements with id attributes of "bar", but really this should
 only ever be a single element. You shouldn't assign the same id name to multiple elements. That's what the
 class attribute is for.*/
 #bar {font-size:300%;text-decoration:underline;} 
