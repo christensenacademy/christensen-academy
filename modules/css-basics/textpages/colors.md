@@ -24,6 +24,7 @@ p {color:rgb(20,123,97)}
 ```
 
 **Note:** Make sure not to have a space in between `rgb` and `(x,y,z)`.
+
 **Note:** 255 for each value makes white. 0 for each value makes black. The same number for each value makes a shade of gray.
 
 ###Drawbacks
