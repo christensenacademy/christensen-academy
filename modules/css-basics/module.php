@@ -24,16 +24,14 @@ $module_videos = array(
   new video('1v4ncJ9hjHc', 'CSS Validator Intro'),
   new video('r2BTqBykjNM', 'Colors: RGB and Hexadecimal Syntax'),
   new video('pWHzJIHewTM', 'Class and ID Attributes with CSS'),
-  ### new video('EVJzZaDq0oM', 'The Cascade'),
-  ### new video('FhYgNI_0DiI', 'HTML Multiple Classes'),
-  new video('C1-gW70Wszc', 'CSS Nested Selectors'),
-  # Multiple Selectors
-  # Hover Effects
-  new video('7GuBcFWlGVc', 'CSS Size Units (em, %, px, and pt)'), ##remake
+  new video('tcwao3kLrg8', 'The Cascade'),
+  new video('OmnXm0enV_o', 'Complex Selectors'),
+  new video('YbcR4hpKoBk', 'Pseudo Classes'),
+  new video('r7LGKtnEWmk', 'Font Size: %, em, px, and pt'),
   new video('5Zt2KbxBqA4', 'CSS Basic Font Properties'),
   new video('nBgpS74f5Z4', 'CSS Text Properties'),
-  new video('5t_4_UMo4JY', 'Pre Element and Whitespace'), ##remake
   new video('Zjk0hK6jNvk', 'CSS Fonts (font-family property)'),
+  new video('fFIf4yMpq-Y', 'Pre Element and Whitespace'),
 );
 
 $module_textpages = array(
