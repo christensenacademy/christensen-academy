@@ -20,4 +20,4 @@ Would people actually enjoy playing your game?
 ###Theme
 Your game should have a clear theme. I encourage you to try to go for something original.
 ###Requirements
-Did you hit all of the requirements listed above
+Did you hit all of the requirements listed above?
