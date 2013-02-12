@@ -39,10 +39,54 @@ Evaluate the following math expressions:
 ##Coding Challenges
 Write a program by hand for each of the following problems. You will be graded on syntax and the correctness of your program.
 
-1. Write a program that has a user enter their age in Earth years then outputs their age in Martian years. There are 686.98 Earth days in a Martian year, and there are 365.2564 Earth days in an Earth year. Format the output message as follows: "Your age in Martian years is x!", where "x" is replaced by the actual value the program calculated.
-2. Write a program that has the user to enter the number of hours they worked this week. They should earn 20 dollars per hour for the first 40 hours of work, and 30 dollars for each hour beyond 40 that they worked. Format the output as follows: "You earned $x this week for working $y hours.", where "x" is replaced by the amount of money they earned, and "y" is replaced by the number of hours they worked.
-3. Write a program that has the user to enter their age then outputs their max heart rate according to the following formula: 208-(0.7*age). Format the output of the program as follows: "Your maximum heart rate is x.", where "x" is the calculated value of their maximum heart rate.
-4. You're hosting Thanksgiving dinner for your extended family, and you know that the absolute minimum amount of turkey you'll need is one full turkey per 7 people; so, 14 people could get by on 2 turkeys, but 15 people would need 3 turkeys. Write a program that has the user enter the number of people attending Thanksgiving dinner and outputs the number of turkeys needed. The output should be formatted as follows: "Buy x turkeys!", where "x" is the calculated number of turkeys needed.
+###Martian Age
+Write a program that has a user enter their age in Earth years then outputs their age in Martian years. There are 686.98 Earth days in a Martian year, and there are 365.2564 Earth days in an Earth year. Format the output message as follows: "Your age in Martian years is x!", where "x" is replaced by the actual value the program calculated.
+
+###Payday
+Write a program that has the user to enter the number of hours they worked this week. They should earn 20 dollars per hour for the first 40 hours of work, and 30 dollars for each hour beyond 40 that they worked. Format the output as follows: "You earned $x this week for working $y hours.", where "x" is replaced by the amount of money they earned, and "y" is replaced by the number of hours they worked.
+
+###Heart Rate
+Write a program that has the user to enter their age then outputs their max heart rate according to the following formula: 208-(0.7*age). Format the output of the program as follows: "Your maximum heart rate is x.", where "x" is the calculated value of their maximum heart rate.
+
+#####Solution
+
+```java
+// import java.util.Scanner;
+
+Scanner sc = new Scanner(System.in);
+int age = sc.nextInt();
+System.out.println("Your maximum heart rate is " + (208-(0.7*age)) + ".");
+```
+
+###Turkey Time!
+You're hosting Thanksgiving dinner for your extended family, and you know that the absolute minimum amount of turkey you'll need is one full turkey per 7 people; so, 14 people could get by on 2 turkeys, but 15 people would need 3 turkeys. Write a program that has the user enter the number of people attending Thanksgiving dinner and outputs the number of turkeys needed. The output should be formatted as follows: "Buy x turkeys!", where "x" is the calculated number of turkeys needed.
+
+#####Solution
+
+Really, what we want to do here is divid the number of people by 7 and round up. There are many different solutions to this problem, all equally valid. Here are four possible solutions.
+
+```java
+// import java.util.Scanner;
+
+Scanner sc = new Scanner(System.in);
+int people = sc.nextInt();
+int turkeys;
+
+// Solution 1: If-Else Statement
+if(people%7 == 0){
+  turkeys = people/7;
+} else {
+  turkeys = (people/7) + 1; // truncate (i.e., round down) then add 1
+}
+
+
+// Solution 2: Make an Adjustment...
+turkeys = (people-1)/7 + 1;
+
+// Solution 3: Use Java's Math Class
+turkeys = Math.ceil(people/7); // "ceil" stands for ceiling. The opposite of truncating, Math.ceil always "rounds up."
+
+```
 
 ##Debugging Challenge
 
