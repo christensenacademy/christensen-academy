@@ -30,7 +30,4 @@ It's always tempting when working with computers to accept solutions we don't fu
 * **Look for a better solution:** Is there a faster solution? Is there a simpler solution that would be easier to understand?
 * **Examine your process:** Could you have solved the problem more easily if you had approached it differently?
 
-##What if this technique fails?
-If you still cannot solve the problem, try to solve an easier but related problem first. Once you've mastered that problem, look at the original problem again with fresh eyes.
-
 ![](http://christensenacademy.org/img/signature.png)
