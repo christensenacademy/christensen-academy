@@ -44,4 +44,5 @@ Turn the background color of the h1 orange. Turn the background color of the par
 
 Turn the color of the paragraphs red.
 
-**Note:** At the completion of this challenge you should have an HTML file named **3types.html** and a CSS file named **3types.css**. I recommend keeping all completed challenges for this module in a folder named css-basics. If you want to, you could also make a separate folder exclusively for this challenge.
+##Portfolio
+At the completion of this challenge you should have an HTML file named **3types.html** and a CSS file named **3types.css**. I recommend keeping all completed challenges for this module in a folder named css-basics. If you want to, you could also make a separate folder exclusively for this challenge.
