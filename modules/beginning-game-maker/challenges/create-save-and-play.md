@@ -1,6 +1,6 @@
 #Create, Save, and Play Challenge
 
-**Estimated Time:** 20 minutes
+**Estimated Time:** 30 minutes
 
 Your challenge is as follows:
 
