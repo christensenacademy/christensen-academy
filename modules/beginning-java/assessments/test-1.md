@@ -79,7 +79,6 @@ if(people%7 == 0){
   turkeys = (people/7) + 1; // truncate (i.e., round down) then add 1
 }
 
-
 // Solution 2: Make an Adjustment...
 turkeys = (people-1)/7 + 1;
 
