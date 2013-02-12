@@ -79,8 +79,10 @@ if(people%7 == 0){
   turkeys = (people/7) + 1; // truncate (i.e., round down) then add 1
 }
 
-// Solution 2: Make an Adjustment...
-turkeys = (people-1)/7 + 1;
+// Solution 2: Notice that people/7+1 is almost the correct solution, so make a small adjustment
+// The case that doesn't work is when people is a multiple of 7.
+// But, if we decrease the value of the people/7.0 by a tiny amount before truncating...
+turkeys = (int)((people/7.0)-0.0001) + 1;
 
 // Solution 3: Use Java's Math Class
 turkeys = Math.ceil(people/7.0); // "ceil" stands for ceiling. The opposite of truncating, Math.ceil always "rounds up."
