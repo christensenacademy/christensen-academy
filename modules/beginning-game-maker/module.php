@@ -11,7 +11,7 @@ $module_challenges = array(
   new challenge('backgrounds.md', 'Backgrounds', '230', '55'),
   new challenge('mouse-madness.md', 'Mouse Madness', '132', '69'),
   new challenge('score.md', 'Score', '80', '112'),
-  new challenge('fun-with-alarms.md', 'Fun with Alarms', '61', '158'),
+  new challenge('sound-the-alarm.md', 'Sound the Alarm!', '61', '158'),
   new challenge('click-a-mania.md', 'Click-a-Mania!', '152', '136'),
   new challenge('intro-screen.md', 'Intro Screen', '190', '154'),
   new challenge('keyboard-king.md', 'Keyboard King', '69', '216'),
