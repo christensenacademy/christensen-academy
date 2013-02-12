@@ -84,7 +84,7 @@ if(people%7 == 0){
 turkeys = (people-1)/7 + 1;
 
 // Solution 3: Use Java's Math Class
-turkeys = Math.ceil(people/7); // "ceil" stands for ceiling. The opposite of truncating, Math.ceil always "rounds up."
+turkeys = Math.ceil(people/7.0); // "ceil" stands for ceiling. The opposite of truncating, Math.ceil always "rounds up."
 
 ```
 
