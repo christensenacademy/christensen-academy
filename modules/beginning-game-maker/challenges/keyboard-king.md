@@ -4,7 +4,7 @@
 
 Your challenge is to create a sprite that looks like a king and assign it to an object. Use at least 5 different keyboard events for that object. Each event should have the king do something interesting.
 
-###Example:
+###Example
 * **Keyboard Event (Down)**: Move in a random direction.
 * **KeyPress Event (Up)**: King jumps to a new location.
 * **KeyPress Event (Space)**: Explosion appears behind the king.
