@@ -16,9 +16,9 @@ There are many ways to solve problems. Some work better than others in different
 * **Make a Step-by-Step Plan:** Sometimes it works to look at the problem and devise a series of steps that will lead you to a solution.
 * **Be Lazy-Smart:** Think: "Is there an easier way to do this that doesn't require so much effort?"
 * **Examine related problems:** Rarely will a problem be completely unique. Draw on your past experience with related problems to envision a solution.
-* **Logical step-by-step reasoning:** Especially when writing computer code, we can often detect errors when we force ourselves to go step-by-step through our code, thinking carefully about what's happening each step of the way.
-* **Divide and conquer:** Break the problem up into smaller, easier problems that can be solved individually.
-* **Work backwards:** Start by imagining the problem is solved and work backwards imagining the process that would have lead to that point.
+* **Logical Step-by-Step Reasoning:** Especially when writing computer code, we can often detect errors when we force ourselves to go step-by-step through our code, thinking carefully about what's happening each step of the way.
+* **Divide and Conquer:** Break the problem up into smaller, easier problems that can be solved individually.
+* **Work Backwards:** Start by imagining the problem is solved and work backwards imagining the process that would have lead to that point.
 
 ##Step 3: Carry Out the Plan
 It may happen that the plan you devised in step 2 doesn't work. If so, devise another plan and try again. This is how even the best computer scientists and programmers work. They make plenty of mistakes, but they stay with problems and continue trying new strategies until they final solve the problem at hand.
