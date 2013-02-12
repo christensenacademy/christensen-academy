@@ -20,7 +20,7 @@ There are many ways to solve problems. Some work better than others in different
 * **Divide and Conquer:** Break the problem up into smaller, easier problems that can be solved individually.
 * **Work Backwards:** Start by imagining the problem is solved and work backwards imagining the process that would have lead to that point.
 
-##Step 3: Try It, Scrap It, Try Something New
+##Step 3: Try It, Scrap It, Try Something New, Scrap It, Try Something New ... Conquer the World
 It may happen that the plan you devised in step 2 doesn't work. If so, devise another plan and try again. This is how even the best computer scientists and programmers work. They make plenty of mistakes, but they stay with problems and continue trying new strategies until they final solve the problem at hand.
 
 ##Step 4: Look Back on Your Work
