@@ -1,4 +1,4 @@
-#Project 1
+#Game Maker Project 1
 
 **Estimated Time:** 150 minutes
 
