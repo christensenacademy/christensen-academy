@@ -18,7 +18,7 @@ There are many ways to solve problems. Some work better than others in different
 * **Be Lazy-Smart:** Think: "Is there an easier way to do this that doesn't require so much effort?"
 * **Examine related problems:** Rarely will a problem be completely unique. Draw on your past experience with related problems to envision a solution.
 * **Logical Step-by-Step Reasoning:** Especially when writing computer code, we can often detect errors when we force ourselves to go step-by-step through our code, thinking carefully about what's happening each step of the way.
-* **Divide and Conquer:** Break the problem up into smaller, easier problems that can be solved individually.
+* **Divide and Conquer:** Don't try to solve the whole problem all at onece. Instead, break the problem up into smaller, easier problems that can be solved individually.
 * **Work Backwards:** Start by imagining the problem is solved and work backwards imagining the process that would have lead to that point.
 
 ##Step 3: Try it. Scrap it. Try something new. Scrap it. Try something new. Scrap it... Conquer the world.
