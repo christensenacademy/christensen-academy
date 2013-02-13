@@ -1,8 +1,10 @@
 #Selectors Challenge
 
-**Estimated Time:** 25 minutes
+**Estimated Time:** 10 minutes, assuming you already know how basic and complex selectors work.
 
 Your challange is to add selectors to the CSS rules in the following webpage. Comments have been left above each rule explaining what elements each rule should apply to.
+
+**Note:** Do NOT edit the HTML to make this work, and do not add extra CSS rules. The point of this challenge is to learn how to use CSS selectors better. Literally, all you need to do is add the correct CSS selectors in front of each CSS rule.
 
 ```html
 <!DOCTYPE html>
