@@ -46,10 +46,10 @@ Your challange is to add selectors to the CSS rules in the following webpage. Co
     <h2 class="big-yellow">Lorem Ipsum</h2> 
     <hr>
     <p>
-      Sed orci tortor, lobortis vitae ultricies a, <span class="big-yellow">vivamus</span> euismod eget nibh. Vivamus urna lacus, 
-      faucibus id aliquam vitae, elementum dignissim lectus. Etiam sed mauris eros, placerat 
-      tincidunt urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames 
-      ac turpis egestas.
+      Sed orci tortor, lobortis vitae ultricies a, <span class="big-yellow">vivamus</span> euismod
+      eget nibh. Vivamus urna lacus, faucibus id aliquam vitae, elementum dignissim lectus.
+      Etiam sed mauris eros, placerat tincidunt urna. Pellentesque habitant morbi tristique
+      senectus et netus et malesuada fames ac turpis egestas.
     </p>
     <p>
       This is another paragraph.
