@@ -13,7 +13,7 @@ Your challenge is to create two webpages that look like the following pictures m
 ![The second HTML file](http://christensenacademy.org/modules/css-basics/challenges/color-challenge-page-2.png)
 
 ###Starter Code
-####Page 1
+####Page 1: `page-1.html`
 ```html
 <!DOCTYPE html>
 <html>
@@ -40,7 +40,7 @@ Your challenge is to create two webpages that look like the following pictures m
   </body>
 </html>
 ```
-####Page 2
+####Page 2: `page-2.html`
 ```html
 <!DOCTYPE html>
 <html>
@@ -65,3 +65,6 @@ Your challenge is to create two webpages that look like the following pictures m
   </body>
 </html>
 ```
+
+##Portfolio
+You should create a folder named `color-challenge` inside of your `css-basics` folder. `page-1.html` and `page-2.html` along with a single external stylesheet should be present in this folder.
