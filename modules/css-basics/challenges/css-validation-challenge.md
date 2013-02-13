@@ -1,6 +1,6 @@
 #CSS Validation Challenge
 
-**Estimated Time:** 30 minutes
+**Estimated Time:** 15 minutes, assuming you already know the basics of writing CSS and understand how to use the CSS validator.
 
 Your challenge is to fix all of the errors in CSS (below) for the webpage (below). Use the [CSS validator](http://jigsaw.w3.org/css-validator/) so that you can be sure you've found all of the errors.
 
