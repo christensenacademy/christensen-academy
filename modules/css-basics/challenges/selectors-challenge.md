@@ -73,3 +73,7 @@ Your challange is to add selectors to the CSS rules in the following webpage. Co
 If done correctly, your page should display like this (with a hover effect for the main heading):
 
 ![](http://christensenacademy.org/modules/css-basics/challenges/selectors-challenge.png)
+
+##Portfolio
+
+At the end of this challenge, you should have an HTML file named `selectors.html` in your `css-basics` folder.
