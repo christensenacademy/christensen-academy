@@ -12,6 +12,7 @@ As strange as it may seem, many people make the mistake of trying to solve a pro
 There are many ways to solve problems. Some work better than others in different situations. We learn through experience which methods work best for us. Here are some suggested methods to get you started:
 
 * **Guess and Check:** Some of the most successful programmers I know are exceptionally good at this method. They are brilliant at creating brief testing scenarios that tell them what they need to know. This method is also a great way to learn, not just to solve problems.
+* **Solve an Easier Problem:** Can you solve an easier but related problem first? If so, do it. This will give you insight into the more challenging problem.
 * **Eliminate Possibilities:** This is a very helpful debugging strategy when you can't seem to get your computer programs to work. Some errors can be tricky, and often the easiest way to solve them is by eliminating possible sources of the error.
 * **Make a Step-by-Step Plan:** Sometimes it works to look at the problem and devise a series of steps that will lead you to a solution.
 * **Be Lazy-Smart:** Think: "Is there an easier way to do this that doesn't require so much effort?"
@@ -20,7 +21,7 @@ There are many ways to solve problems. Some work better than others in different
 * **Divide and Conquer:** Break the problem up into smaller, easier problems that can be solved individually.
 * **Work Backwards:** Start by imagining the problem is solved and work backwards imagining the process that would have lead to that point.
 
-##Step 3: Try It, Scrap It, Try Something New, Scrap It, Try Something New ... Conquer the World
+##Step 3: Try it. Scrap it. Try something new. Scrap it. Try something new. Scrap it... Conquer the world.
 It may happen that the plan you devised in step 2 doesn't work. If so, devise another plan and try again. This is how even the best computer scientists and programmers work. They make plenty of mistakes, but they stay with problems and continue trying new strategies until they final solve the problem at hand.
 
 ##Step 4: Look Back on Your Work
