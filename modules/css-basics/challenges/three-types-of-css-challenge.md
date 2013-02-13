@@ -1,6 +1,6 @@
 #Three Types of CSS Challenge
 
-**Estimated Time:** 30 minutes
+**Estimated Time:** 20 minutes, assuming you're already familiar with the basics of CSS and that you have an understanding of the three different types of CSS.
 
 Your challenge is to develop a webpage that uses all three types of CSS.
 
