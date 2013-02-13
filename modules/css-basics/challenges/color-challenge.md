@@ -67,4 +67,4 @@ Your challenge is to create two webpages that look like the following pictures m
 ```
 
 ##Portfolio
-You should create a folder named `color-challenge` inside of your `css-basics` folder. `page-1.html` and `page-2.html` along with a single external stylesheet should be present in this folder.
+You should create a folder named `color-challenge` inside of your `css-basics` folder. `page-1.html` and `page-2.html`, along with a single external stylesheet, should be present in this folder.
