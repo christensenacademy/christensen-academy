@@ -8,7 +8,7 @@ Your goal is to remodel a pure HTML website you've already created using CSS.
 * **Research:** You are expected to research and use at least two new css properties that were not coered in this module.
 * **Page Navigation:** The hyperlinks of your site need to have custom styles. Use pseudoclasses to to create hover effeccts and custom active and visited style.
 * **100% External CSS:** You must use a single stylesheet for your entire site, which must be at least four pages.
-* **`class` and `id` Attributes:** Your site should make intelligent use of `class` and `id` attributes.
+* **Use `class` and `id` Attributes:** Your site should make intelligent use of `class` and `id` attributes.
 * **Required Properties:**
   * color
   * background-color
