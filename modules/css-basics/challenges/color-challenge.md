@@ -12,7 +12,7 @@ Your challenge is to create two webpages that look like the following pictures m
 ###Page 2
 ![The second HTML file](http://christensenacademy.org/modules/css-basics/challenges/color-challenge-page-2.png)
 
-###Starter Code
+##Starter Code
 ####Page 1: `page-1.html`
 ```html
 <!DOCTYPE html>
