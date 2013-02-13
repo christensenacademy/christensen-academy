@@ -23,3 +23,14 @@ Your goal is to remodel a pure HTML website you've already created using CSS.
 * text-indent
 * letter-spacing
 * line-height
+
+##Rubric
+
+* **Color Theme:** Your site needs a strong, consistant color theme.
+* **Research:** You are expected to research and use at least two new HTML elements that were not coered in this module.
+* **Page Navigation:** The hyperlinks of your site need to have custom styles
+* **Correctness:** Your code should be error free and have flawless indentation. There are some things you shouldn't get "creative" with. Indenting your code is one of them. Allowing errors in your code is another. Use the [HTML validator](http://validator.w3.org/) to help you find your errors.
+* **Requirements:** Fulfill all of the requirements listed above.
+
+##Portfolio
+Make sure you create a new folder specifically for this website and put it in the `css-basics` folder.
