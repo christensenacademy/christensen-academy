@@ -14,7 +14,7 @@ You can get started by copying the following HTML into a new HTML file and the f
   <head>
     <title>Lorem Ipsum</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="validation-challenge.css">
+    <link rel="stylesheet" href="validate.css">
   </head>
   <body>
     <h1>Lorem Ipsum</h1>
