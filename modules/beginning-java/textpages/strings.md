@@ -108,7 +108,7 @@ System.out.println(s.equals("Hi")); // This is the right way to compare strings
 ```java
 String s = "Hello";
 s.substring(1,3); // This expression returns a new String, "el", but the value of s is still "Hello"
-s = s.substring(1,); // Now s has a new value.
+s = s.substring(1,3); // Now s has a new value.
 ```
 
 ![](http://christensenacademy.org/img/signature.png)
