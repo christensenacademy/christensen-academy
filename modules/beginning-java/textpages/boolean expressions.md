@@ -75,5 +75,8 @@ false || true == true;
 false || false == false;
 ```
 
+###Getting Some Practice
+I recommend practicing these concepts using [CodingBat](http://codingbat.com/java/Logic-1).
+
 ![](http://christensenacademy.org/img/signature.png)
 
