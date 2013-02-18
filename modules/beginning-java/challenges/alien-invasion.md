@@ -7,6 +7,8 @@ Your challenge is to create the Alien Invasion game. This game is modeled on the
 ###Overview
 You and your fellow aliens are swooping down on Earth in your spaceships in an attemp to collect specimens of chickens, cows, and humans for your alien research. Each time you swoop down upon the planet, tanks may come to the planet's defense. In order for your invasion to be successful, you must overpower the tanks with your spaceships in addition to collecting specimens of chickens, cows, and humans. The more chickens, cows, and humans you collect, the more points you will score. Also, you will receive a bonus if you manage to collect all three types of specimens.
 
+###[Demo Video]()
+
 ###How the Game Works
 You start the game with 13 dice. You attack the planet in rounds, which continue until you're out of dice.
 
