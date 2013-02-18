@@ -26,6 +26,11 @@ In each round, you do the following:
 
 If the number or spaceships was greater than or equal to the number of tanks, your invasion was successful. You score one point for each specimen collected and an additional three points if all three types of specimens were collected.
 
+##Problem Solving Techniques
+This is a large problem that may seem impossible unless you find ways to break it down into smaller pieces. This is the essence of the divide and conquer problem solving strategy. Don't try to do everything at once, and if you find yourself running into trouble, take a step back and try to solve an easier problem. For example, before trying to write code to simulate the rolling of a bunch of dice, see if you can write code to simulate rolling a single die. If that problem is still too difficult, see if you can solve an even easier problem, such as writing code to generate a random number 0-5.
+
+The big idea, I think, is to find ways to give yourself a feeling of continual progress. If you realize you don't know how to do something, start with something you do know how to do and work from their. Bit-by-bit, you'll find that you are capable of working your way to a solution.
+
 ##Rubric
 * **Correct:** The game works as intended and is free of logic errors.
 * **Robust:** The game works in all circumstances, even if the user inputs "bad" values.
