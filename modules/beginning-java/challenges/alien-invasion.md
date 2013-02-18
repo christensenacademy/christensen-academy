@@ -20,7 +20,7 @@ In each round, you do the following:
   * **Collect All Cows:** You may only do this if you have never collected cows before and there are actually some cows available to collect.
   * **Collect All Chickens:** You may only do this if you have never collected chickens before and there are actually some chickens available to collect.
   * **Select All Spaceships to Battle Tanks:** You may do this only if there are new spaceships ready for battle.
-5. If you unable to collect new specimens or assign spaceships to battle, or if you are simply out of dice, the game is over. Otherwise, continue a new round with the remaining dice.
+5. If you are unable to collect new specimens or assign spaceships to battle, or if you are simply out of dice, the game is over. Otherwise, continue a new round with the remaining dice.
 
 If the number or spaceships was greater than or equal to the number of tanks, your invasion was successful. You score one point for each specimen collected and an additional three points if all three types of specimens were collected.
 
