@@ -1,6 +1,6 @@
 #Alien Invasion
 
-**Estimated Time:** 200 minutes
+**Estimated Time:** 200 minutes, assuming you have a decent amount of experience working with boolean logic, scanners, generating random numbers, and so on.
 
 Your challenge is to create the Alien Invasion game. This game is modeled on the [Martian Dice](http://boardgamegeek.com/boardgame/99875/martian-dice) game.
 
