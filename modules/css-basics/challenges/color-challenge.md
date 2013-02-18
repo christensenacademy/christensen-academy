@@ -1,10 +1,10 @@
 #Color Challenge
 
-**Estimated Time:** 25 minutes
+**Estimated Time:** 25 minutes, assuming you understand how external CSS works, how `class` and `id` attributes work, and how CSS styles are inherited from parents.
 
 Your challenge is to create two webpages that look like the following pictures making sure to use **as little CSS as possible**.
 
-**Note:** Using as little CSS as possible means that you'll have to be smart about how you choose class and id names for your elements. It also means you should think carefully about which type of CSS you should use. Subtle Hint: **USE THE SAME EXTERNAL CSS FILE FOR BOTH PAGES!!!**
+**Note:** Using as little CSS as possible means that you'll have to be smart about how you choose class and id names for your elements. It also means you should think carefully about which type of CSS you should use. Subtle Hint: **USE THE SAME EXTERNAL CSS FILE FOR BOTH PAGES.**
 
 ###Page 1
 ![The first HTML file](http://christensenacademy.org/modules/css-basics/challenges/color-challenge-page-1.png)
@@ -12,8 +12,8 @@ Your challenge is to create two webpages that look like the following pictures m
 ###Page 2
 ![The second HTML file](http://christensenacademy.org/modules/css-basics/challenges/color-challenge-page-2.png)
 
-###Starter Code
-####Page 1
+##Starter Code
+####Page 1: `page-1.html`
 ```html
 <!DOCTYPE html>
 <html>
@@ -40,7 +40,7 @@ Your challenge is to create two webpages that look like the following pictures m
   </body>
 </html>
 ```
-####Page 2
+####Page 2: `page-2.html`
 ```html
 <!DOCTYPE html>
 <html>
@@ -65,3 +65,6 @@ Your challenge is to create two webpages that look like the following pictures m
   </body>
 </html>
 ```
+
+##Portfolio
+You should create a folder named `color-challenge` inside of your `css-basics` folder. `page-1.html` and `page-2.html`, along with a single external stylesheet, should be present in this folder.

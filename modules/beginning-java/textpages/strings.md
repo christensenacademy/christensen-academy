@@ -105,4 +105,10 @@ System.out.println(s.equals("Hi")); // This is the right way to compare strings
 ##Immutability
 `String` objects in Java are "immutable," which means that no method is capable of changing the state of the string. The `substring()` method is a perfect example because it does not modify or "mutate" the contents of the string. All it does is return a new string that is a substring of the old one.
 
+```java
+String s = "Hello";
+s.substring(1,3); // This expression returns a new String, "el", but the value of s is still "Hello"
+s = s.substring(1,3); // Now s has a new value.
+```
+
 ![](http://christensenacademy.org/img/signature.png)

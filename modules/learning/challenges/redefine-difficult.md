@@ -1,16 +1,19 @@
 #Redefine "Difficult"
 
-**Estimated Time:** 20 minutes
+**Estimated Time:** ???
 
-###Do This First
-Read [this textpage](https://github.com/christensenacademy/christensen-academy/blob/master/modules/learning/textpages/redefining-difficult.md).
+###Step 1
 
-###Then Do This
-Pick **two examples** of difficult problems you've solved in your life that stretched your understanding of what "difficult" really means.
+Find a problem you'd like to solve that's more difficult than anything you've ever solved before. Solve it. I realize this is easier said than done. Nonetheless, this is your challenge.
 
-1. What was the nature of the problem you solved?
-2. Why were you trying to solve it?
-3. How long did you spend trying to solve it?
-4. What did you gain from this experience?
+###Step 2
+
+Write up notes on the problem-solving methods you employed. Be sure to explain which methods were particularly effective and ineffective. This should be somewhat of a narrative of the problem-solving process you went through. The reader of these notes should be able to see your stumbling blocks and breakthroughs. The length of these notes will naturally vary according to your unique problem-solving journey.
+
+###Step 3
+
+Write an essay answering the following question: Does Albert Einstein's famous quote apply to you?
+
+> *"It's not that I'm so smart. It's just that I stay with problems Longer" --Albert Einstein*
 
 ![](http://christensenacademy.org/img/signature.png)

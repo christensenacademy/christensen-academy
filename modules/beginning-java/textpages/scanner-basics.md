@@ -58,7 +58,7 @@ import java.util.Scanner;
 public class Example {
   public static void main(String[] args) throws IOException { // "throws IOException" is needed to compile
    Scanner sc = new Scanner(new File("input.txt") );
-   while(sc.hasNextLine)) {
+   while(sc.hasNextLine()) {
      String line = sc.nextLine();
      // do stuff with each line of text from the file
    }

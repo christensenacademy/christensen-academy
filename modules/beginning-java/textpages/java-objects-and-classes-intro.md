@@ -2,6 +2,11 @@
 
 Java is an "object oriented" programming language. Fully understanding what this means will take a long time, but hopefully you will find this brief introduction helpful.
 
+##A Story: Two Versions of 20 Questions
+When I was a kid, my dad liked to play games in the car to pass the time. My favorite game was easily 20 Questions. If you're unfamiliar with the game it goes something like this: One person, let's call them the picker, thinks of something. Everybody else tries to guess what that something is. However, the picker is only allowed to respond to questions with simple "yes" and "no" answers. The general guessing strategy is to start with broad questions and narrow in on the solution....
+
+UNFINISHED STORY...
+
 ##Objects: State and Behavior (Variables and Methods)
 In Java (and other object-oriented languages) programmers are constantly working with *objects.* You can think of objects in Java much like you think about the objects you see in your everyday life.
 
