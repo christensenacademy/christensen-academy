@@ -38,7 +38,7 @@
     <div class="nav-col">
       <a rel="tooltip" title="Getting Started with the Christensen Academy" class="nav-column-header hidden-phone" href="#getting-started">Intro</a>
       <a rel="tooltip" title="How to Use This Site" href="#how-to-use-this-site" class="getting-started-background nav-item"></a>
-      <a rel="tooltip" title="Learning Advice" href="#learning-advice" class="getting-started-background nav-item"></a>
+      <a rel="tooltip" title="Learning Advice" href="#learning" class="getting-started-background nav-item"></a>
     </div>
     <div class="nav-col">
       <a rel="tooltip" title="Computer Science" class="nav-column-header hidden-phone" href="#cs-basics">CS</a>
@@ -239,7 +239,7 @@ $('.discussion-link').tooltip({
   placement: 'left'
 });
 $('a.nav-item').tooltip({
-  placement: 'bottom'
+  placement: 'right'
 });
 $('#blog-link').tooltip({
   placement: 'left'

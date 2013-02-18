@@ -6,13 +6,28 @@ $map_height = '600';
 $module_playlist = '';
 
 $module_challenges = array(
-  new challenge('poem.md', 'Poem Challenge', '55', '41'),
-  new challenge('debugging-1.md', 'Debugging Challenge 1', '119', '84'),
-  new challenge('echo.md', 'Echo', '143', '56'),
-  new challenge('smart-poem.md', 'Smart Poem', '219', '78'),
-  new challenge('rfc.md', 'RFC (Request for Comments)', '46', '106'),
-  new challenge('conversion.md', 'Conversion', '153', '118'),
-  # new challenge('.md', '', '', ''),
+  new challenge('hello-world-enhanced.md', 'Hello World Enhanced', '59', '57'),
+  new challenge('variable-output.md', 'Variable Output', '125', '22'),
+  new challenge('scanner.md', 'Scanner', '153', '49'),
+  new challenge('debugging-1.md', 'Debugging 1', '101', '110'),
+  new challenge('conversion.md', 'Conversion', '158', '104'),
+  new challenge('math-expressions.md', 'Math Expressions', '30', '115'),
+  new challenge('boolean-expressions.md', 'Boolean Expressions', '76', '155'),
+  new challenge('logic-practice.md', 'Logic Practice', '72', '176'),
+  new challenge('income-tax.md', 'Income Tax', '145', '174'),
+  new challenge('project-euler.md', 'Project Euler', '186', '200'),
+  new challenge('fibonacci.md', 'Fibonacci', '227', '225'),
+  new challenge('string-practice.md', 'String Practice', '105', '272'),
+  new challenge('login.md', 'Login', '100', '247'),
+  new challenge('math-class.md', 'Math Class', '106', '216'),
+  new challenge('alien-invasion.md', 'Alien Invasion Game', '162', '237'),
+  
+  new challenge('poem.md', 'Poem Challenge', '55', '341'),
+  new challenge('debugging-1.md', 'Debugging 1', '119', '384'),
+  new challenge('echo.md', 'Echo', '143', '356'),
+  new challenge('smart-poem.md', 'Smart Poem', '219', '378'),
+  new challenge('rfc.md', 'RFC (Request for Comments)', '46', '406'),
+  new challenge('conversion.md', 'Conversion', '153', '418'),
 );
 
 $module_videos = array(
