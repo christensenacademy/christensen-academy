@@ -15,4 +15,4 @@ public Class debuggingChallenge1 {
 ```
 
 ##Portfolio
-Make sure to create a file named `DebuggingChallenge1.java` and save it with the rest of your files for this module. Also, make sure you compile and run your program to verify that it is "bug" free.
+Make sure to create a file named `DebuggingChallenge1.java` and save it with the rest of your files for this module. Also, make sure you compile and run your program to verify that it is error free.
