@@ -4,7 +4,7 @@
 
 Your challenge is to modify the following code so that the program prints out the following message:
 
-The point of this challenge is to use the variables `quantity`, `itemName`, `unitPrice`, `currencySymbol`, and `customerName` to build a custom output message using string concatenation.
+The point of this challenge is to use the variables `quantity`, `itemName`, `unitPrice`, `currencySymbol`, and `customerName` to build a custom output message using string concatenation. Notice that the first line of output is done for you in the code. All you have left to do is write code for the next three lines of the message.
 
 ###Message
 The ouput of your program should be as follows:
