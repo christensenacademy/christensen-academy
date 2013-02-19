@@ -45,4 +45,5 @@ Note also that varaible names can't have spaces in them or start with numbers.
 Another thing to watch out for is accicentally naming a variable using a Java keyword like `int`, `double`, `final`, `class`, `return`, or any other word that has special meaning in the Java language.
 
 Here's a link to [a wikipedia article](http://en.wikipedia.org/wiki/Java_syntax#Identifier) for more information on Java identifiers and keywords.
+
 ![](http://christensenacademy.org/img/signature.png)
