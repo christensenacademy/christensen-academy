@@ -6,8 +6,6 @@ Your challenge is to write a program that converts from one type of unit to anot
 
 Your program must prompt the user to enter a value, then perform the conversion on the value the user entered and print out the result.
 
-**Note:** Stay away from simple conversions involving SI units. For example, converting from centimeters to meters is too easy. All you have to do is divide by 100.
-
 **Note:** Beware of the effects of truncation if integer division is involved.
 
 ###Example
