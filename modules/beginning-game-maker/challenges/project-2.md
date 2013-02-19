@@ -7,6 +7,18 @@
 Your challenge is to take everything you've learned about Game Maker so far and make a game that is genuinely fun to play.
 
 ###Basic Requirements
+* **Keyboard Movement:** You must use the keyboard to control the movement of the main character(s), which is(are) not allowed to move outside of the screen.
+* **Collision Events:** The game must feature the use of collision events, but exactly how this works is up to you.
+* **Health or Lives, and Score:** The game must keep track of either health or lives for the player and also display a score.
+* **Opening Menu Screen:** There must be an opening menu screen that introduces the player to the game before they actually start playing.
+* **Results Screen:** Instead of abruptly ending the game, there must be a final results screen that provides the player an opportunity to replay the game.
+* **Randomness:** Your game must feature some form of randomness to keep gameplay interesting.
+* **Create Instance:** You must use the Create Instance action in an interesting way. Here are some ideas:
+  * The main character shoots a projectile.
+  * The bad guys shoot projectiles.
+  * The main character can leave mines for bad guys to run into.
+  * Health packs randomly appear in the room ever 10 seconds.
+
 
 ###Rubric
 
