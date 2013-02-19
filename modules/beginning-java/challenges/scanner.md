@@ -15,7 +15,7 @@ Your challenge is to create a new scanner that reads this string: `new Scanner("
 
 ##Part 2: Scanning Standard Input
 
-Create a new scanner that reads from standard input: `new Scanner(System.in);`. Assume that the form of the input will be the same as it was in the last example. That is, assume the user of your program will type a name, a space, an integer, a space, a name, a space, an integer, a space, a name, a space, an integer, then press enter.
+Create a new scanner that reads from standard input: `new Scanner(System.in);`. Assume that the form of the input will be the same as it was in the last example. That is, assume the user of your program will type a name, a space, an integer, a space, a name, a space, an integer, a space, a name, a space, an integer, and then press enter.
 
 As before, your program should add up the numbers and print out the result.
 
