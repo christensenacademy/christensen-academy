@@ -1,5 +1,7 @@
 #Origin Cyclopse Laser Challenge
 
+![](http://christensenacademy.org/modules/beginning-game-maker/challenges/cyclopse.png)
+
 **Estimated Time:** 30 minutes
 
 Your challenge is to create a game where a cyclopse shoots lasers out of its eyeball each time the user presses the spacebar key.
