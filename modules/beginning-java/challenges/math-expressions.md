@@ -12,6 +12,11 @@ Lastly, take a few minutes to experiment and play around with different values i
 public class MathExpressions {
   public static void main(String[] args){
     // Before running this program, write out your predictions for each expression.
+    // I recommend writing out the solution step by step for the difficult problems as follows:
+    // (int)3.2*2+1.3
+    // = 3*2+1.3
+    // = 6+1.3
+    // = 7.3
     System.out.println(3+4*2);
     System.out.println( (3+4)*2);
     System.out.println( (15/(3+4))*5.0);
@@ -43,3 +48,6 @@ public class MathExpressions {
   }
 }
 ```
+
+##Portfolio
+Make sure you save your file as `MathExpressions.java` in a folder with the rest of your challenges for this module.
