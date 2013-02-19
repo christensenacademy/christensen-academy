@@ -27,7 +27,7 @@ In each round, you do the following:
 If the number or spaceships was greater than or equal to the number of tanks, your invasion was successful. You score one point for each specimen collected and an additional three points if all three types of specimens were collected.
 
 ##Problem Solving Techniques
-This is a large problem that may seem impossible unless you find ways to break it down into smaller pieces. This is the essence of the divide and conquer problem solving strategy. In computer science, this idea is also referred to as [decomposition](http://en.wikipedia.org/wiki/Decomposition_(computer_science)).
+This is a large problem that may seem impossible unless you find ways to break it down into smaller pieces. This is the essence of the divide and conquer problem solving strategy. In computer science, this idea is also referred to as [decomposition](http://en.wikipedia.org/wiki/Decomposition_(computer_science)). You'll do yourself a huge favor by breaking up your program into methods.
 
 Don't try to do everything at once, and if you find yourself running into trouble, take a step back and try to solve an easier problem. For example, before trying to write code to simulate the rolling of a bunch of dice, see if you can write code to simulate rolling a single die. If that problem is still too difficult, see if you can solve an even easier problem, such as writing code to generate a random number 0-5.
 
