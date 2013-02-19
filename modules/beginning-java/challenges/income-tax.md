@@ -2,7 +2,7 @@
 
 **Estimated Time:** 75 minutes, assuming you already have some experience working with boolean logic, using a scanner, and just generally being awesome.
 
-Your challenge is to write a program that calculates the amount of income tax a citizen must pay to the goverment of [Java](http://en.wikipedia.org/wiki/Java) in Rp(Rp stands for Rupiah, which is the Indonesian currency).
+Your challenge is to write a program that calculates the amount of income tax a citizen must pay to the goverment of [Java](http://en.wikipedia.org/wiki/Java) in Rupiah (Rp), which is the Indonesian currency.
 
 **Note:** You may assume the user will always input valid values.
 
@@ -11,10 +11,10 @@ In Java, income tax works as follows--actually, I just made this up, but you can
 1. You must state your total income.
 2. You must claim deductions that apply to you. There are only 3 possible deductions:
   * Robots: 200 Rp per robot (Java wants to encourage people to own robots)
-  * Full-Time Student: 800 Rp
+  * Student: 1800 Rp (Java wants to tax students less than non-students)
   * Kind Old Lady Deduction: 5000 Rp (for making the world a better place...)
 3. Your taxable income is calculated by subtracting your deductions from your taxable income.
-4. The amount you owe in taxes is computed according to the following "tax brackets:"
+4. The amount you owe in taxes is computed using your taxable income according to the following "tax bracket" system:
   * Poor Bracket (0-10,000 Rp): 8% tax
   * Lower Middle Class Bracket (10,001-25,000 Rp): 10% tax  
   * Middle Class Bracket (25,001-55,000 Rp): 12% tax  
