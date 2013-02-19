@@ -19,7 +19,7 @@ Create a new scanner that reads from standard input: `new Scanner(System.in);`. 
 
 As before, your program should add up the numbers and print out the result.
 
-##(BONUS) Part 3: Scanning a Text File
+##Part 3 (BONUS): Scanning a Text File
 
 First, you'll need to copy and paste the following text into a new file named `scanner-challenge.txt`.
 
