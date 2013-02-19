@@ -1,6 +1,6 @@
 #Scanner Challenge
 
-**Estimated Time:** 35 (60 with bonus) minutes, assuming that you
+**Estimated Time:** 35 (60 with bonus) minutes, assuming that you already know a thing or two about the Java Scanner class.
 
 There are three parts to this challenge, the third of which is an optional bonus problem. Each part will require you to use a scanner in a new way.
 
