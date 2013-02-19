@@ -1,5 +1,7 @@
 #Keyboard King
 
+![](http://christensenacademy.org/modules/beginning-game-maker/challenges/king.png)
+
 **Estimated Time:** 45 minutes
 
 Your challenge is to create a sprite that looks like a king and assign it to an object. Use at least 5 different keyboard events for that object. Each event should have the king do something interesting.
