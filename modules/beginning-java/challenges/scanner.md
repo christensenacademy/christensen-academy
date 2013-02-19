@@ -1,6 +1,6 @@
 #Scanner Challenge
 
-**Estimated Time:** 35 (60 with bonus) minutes, assuming that you
+**Estimated Time:** 35 (60 with bonus) minutes, assuming that you already know a thing or two about the Java Scanner class.
 
 There are three parts to this challenge, the third of which is an optional bonus problem. Each part will require you to use a scanner in a new way.
 
@@ -15,11 +15,11 @@ Your challenge is to create a new scanner that reads this string: `new Scanner("
 
 ##Part 2: Scanning Standard Input
 
-Create a new scanner that reads from standard input: `new Scanner(System.in);`. Assume that the form of the input will be the same as it was in the last example. That is, assume the user of your program will type a name, a space, an integer, a space, a name, a space, an integer, a space, a name, a space, an integer, then press enter.
+Create a new scanner that reads from standard input: `new Scanner(System.in);`. Assume that the form of the input will be the same as it was in the last example. That is, assume the user of your program will type a name, a space, an integer, a space, a name, a space, an integer, a space, a name, a space, an integer, and then press enter.
 
 As before, your program should add up the numbers and print out the result.
 
-##(BONUS) Part 3: Scanning a Text File
+##Part 3 (BONUS): Scanning a Text File
 
 First, you'll need to copy and paste the following text into a new file named `scanner-challenge.txt`.
 

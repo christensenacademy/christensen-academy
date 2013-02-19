@@ -14,7 +14,7 @@ Program outputs the first 5 Fibonacci numbers: `0 1 1 2 3`.
 
 User inputs `10`.
 
-Program outputs the first 8 Fibonacci numbers: `0 1 1 2 3 5 8 13 21 34`.
+Program outputs the first 10 Fibonacci numbers: `0 1 1 2 3 5 8 13 21 34`.
 
 ##Portfolio
 Create a file named `Fibonacci.java` and save it in the same folder as the rest of your files for this module.

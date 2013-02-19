@@ -30,6 +30,13 @@ double distance = 34.53221; // Assign the floating point number 34.53221 to the 
 System.out.println(distance/2); // Print out the value held by the distance variable divided by two
 ```
 
+###Reference Types (Objects)
+All variables that aren't primitive data types are objects, which can also be called "reference types." The basic idea behind these types of variables is that the variable stores a reference to an object, not the object itself. However, this subtle distinction and is completely irrelevant in this module. Basically, just realize that creating a variable for an object might look something like this:
+
+```java
+Scanner sc = new Scanner(System.in); // A new Scanner object is created and assigned to the sc variable.
+```
+
 ##Naming Conventions for Variables
 Variable names, also called identifiers, should be written in "camelCase." Basically, this means that variables should not start with capital letters, and if they are composed of multiple words, every word after the first should start with a capital letter.
 
@@ -44,6 +51,6 @@ Note also that varaible names can't have spaces in them or start with numbers.
 ###Reserved Keywords
 Another thing to watch out for is accicentally naming a variable using a Java keyword like `int`, `double`, `final`, `class`, `return`, or any other word that has special meaning in the Java language.
 
-Here's a link to a [wikipedia article](http://en.wikipedia.org/wiki/Java_syntax#Identifier) for more information on this topic.
+Here's a link to [a wikipedia article](http://en.wikipedia.org/wiki/Java_syntax#Identifier) for more information on Java identifiers and keywords.
 
 ![](http://christensenacademy.org/img/signature.png)
