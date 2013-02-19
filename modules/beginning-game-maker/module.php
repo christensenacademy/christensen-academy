@@ -13,14 +13,14 @@ $module_challenges = array(
   new challenge('score.md', 'Score', '80', '112'),
   new challenge('sound-the-alarm.md', 'Sound the Alarm!', '61', '158'),
   new challenge('intro-screen.md', 'Intro Screen', '152', '136'),
-  new challenge('click-a-mania.md', 'Click-a-Mania!', '190', '154'),
+  new challenge('project-1.md', 'Project 1', '190', '154'),
   new challenge('keyboard-king.md', 'Keyboard King', '69', '216'),
   new challenge('origin-cyclopse-laser.md', 'Origin Cyclopse Laser', '69', '248'),
   new challenge('movement-master.md', 'Movement Master', '146', '232'),
   new challenge('health-and-healing.md', 'Health and Healing', '213', '256'),
-  new challenge('step-it-up-30.md', 'Step It Up 30!', '166', '283'),
-  new challenge('know-thy-self.md', 'Khow Thy Self', '68', '318'),
-  new challenge('projectile-comet.md', 'Projectile Comet', '220', '332'),
+  new challenge('know-thy-self.md', 'Khow Thy Self', '166', '283'),
+  new challenge('random-numbers.md', 'Random Numbers', '123', '309'),
+  new challenge('project-2.md', 'Project 2', '220', '332'),
 );
 
 $module_videos = array(

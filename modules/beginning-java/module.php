@@ -49,11 +49,13 @@ $module_textpages = array(
   new textpage('strings.md', 'Strings'),
   new textpage('scanner-basics.md', 'Scanner Basics'),
   new textpage('boolean-expressions.md', 'Boolean Expressions'),
-  new textpage('class-basics.md', 'Class Basics'),
-  new textpage('method-basics.md', 'Method Basics'),
-  new textpage('naming-conventions.md', 'Naming Conventions'),
-  new textpage('math-expressions.md', 'Math Expressions'),
-  new textpage('if-statements.md', 'If Statements'),
+  # new textpage('class-basics.md', 'Class Basics'),
+  # new textpage('method-basics.md', 'Method Basics'),
+  # new textpage('math-expressions.md', 'Math Expressions'),
+  # new textpage('if-statements.md', 'If Statements'),
+  
+  
+  ### PUT THESE IN ANOTHER MODULE NAMED BEGINNING JAVA PART 2
   # new textpage('christensenacademy-drawing-package.md', 'Christensen Academy Drawing Package'),
   # new textpage('public-vs-private.md', 'Public vs. Private'),
   # new textpage('static-methods.md', 'Static Methods'),
