@@ -20,6 +20,18 @@ Your challenge is to take everything you've learned about Game Maker so far and 
   * Health packs randomly appear in the room ever 10 seconds.
 
 
+###Fun Analysis
+
+This will take the form of a short essay. Your goal is to analyze what exactly made your game fun or not fun to play. I encourage you to use the following template to write your essay:
+
+**Intro Paragraph:** My game involved... . In my game, the player needed to... to be successful. Some of the mechanics of my game made it fun to play, and others made it not so fun to play. The purpose of this essay is to analyze both.
+
+**Paragraph 1:** Mechanics of my game that made it fun to play include... . Mechanic 1 made the game fun because... . Mechanic 2 made the game fun because... Mechanic 3 made the game fun because... . (Note: You must have at least 2 mechanics in this paragraph)
+
+**Paragraph 2:** Mechanics of my game that are not so fun and ought to be improved include... . Mechanic 1 harmed gameplay because... . Mechanic 2 harmed gameplay because... Mechanic 3 harmed gameplay because... . (Note: You must have at least 2 menchanics in this paragraph)
+
+**Conclusion Paragraph:** Overall, my game was fun (or not very fun) to play because... .
+
 ###Rubric
 
 * **Basic Requirements Met (40%):** See above.
