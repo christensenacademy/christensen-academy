@@ -2,7 +2,7 @@
 $module_name = 'beginning-java';
 $module_title = 'Beginning Java';
 $module_subtitle = 'The Basics of the Java Programming Language';
-$map_height = '600';
+$map_height = '356';
 $module_playlist = '';
 
 $module_challenges = array(
@@ -21,13 +21,6 @@ $module_challenges = array(
   new challenge('login.md', 'Login', '100', '247'),
   new challenge('math-class.md', 'Math Class', '106', '216'),
   new challenge('alien-invasion.md', 'Alien Invasion Game', '162', '237'),
-  
-  new challenge('poem.md', 'Poem Challenge', '55', '341'),
-  new challenge('debugging-1.md', 'Debugging 1', '119', '384'),
-  new challenge('echo.md', 'Echo', '143', '356'),
-  new challenge('smart-poem.md', 'Smart Poem', '219', '378'),
-  new challenge('rfc.md', 'RFC (Request for Comments)', '46', '406'),
-  new challenge('conversion.md', 'Conversion', '153', '418'),
 );
 
 $module_videos = array(
@@ -57,21 +50,21 @@ $module_textpages = array(
   new textpage('scanner-basics.md', 'Scanner Basics'),
   new textpage('boolean-expressions.md', 'Boolean Expressions'),
   new textpage('class-basics.md', 'Class Basics'),
-  new textpage('christensenacademy-drawing-package.md', 'Christensen Academy Drawing Package'),
   new textpage('method-basics.md', 'Method Basics'),
-  new textpage('public-vs-private.md', 'Public vs. Private'),
-  new textpage('static-methods.md', 'Static Methods'),
-  new textpage('wrapper-classes-for-primitive-types.md', '"Wrapper" Classes for Primitive Types'),
   new textpage('naming-conventions.md', 'Naming Conventions'),
-  new textpage('constants.md', 'Constants'),
   new textpage('math-expressions.md', 'Math Expressions'),
-  new textpage('shortcut-operators.md', 'Shortcut Operators'),
-  new textpage('operators-in-depth.md', 'Operators in Depth'),
   new textpage('if-statements.md', 'If Statements'),
-  new textpage('while-loops.md', 'While Loops'),
-  new textpage('nested-control-structures.md', 'Nested Control Structures'),
-  new textpage('continue-and-break.md', 'Continue and Break'),
-  new textpage('arrays.md', 'Arrays'),
+  # new textpage('christensenacademy-drawing-package.md', 'Christensen Academy Drawing Package'),
+  # new textpage('public-vs-private.md', 'Public vs. Private'),
+  # new textpage('static-methods.md', 'Static Methods'),
+  # new textpage('wrapper-classes-for-primitive-types.md', '"Wrapper" Classes for Primitive Types'),
+  # new textpage('constants.md', 'Constants'),
+  # new textpage('shortcut-operators.md', 'Shortcut Operators'),
+  # new textpage('operators-in-depth.md', 'Operators in Depth'),
+  # new textpage('while-loops.md', 'While Loops'),
+  # new textpage('nested-control-structures.md', 'Nested Control Structures'),
+  # new textpage('continue-and-break.md', 'Continue and Break'),
+  # new textpage('arrays.md', 'Arrays'),
 );
 
 
