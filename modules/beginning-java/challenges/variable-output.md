@@ -4,7 +4,7 @@
 
 Your challenge is to modify the following code so that the program prints out the following message:
 
-**Note:** The point of this challenge is to use the variables--`quantity`, `itemName`, `unitPrice`, `currencySymbol`, and `customerName`--to build a custom output message. While you could simply type `System.out.println("Thank you, Brooke.")`, your challenge is to concatenate the values of variables onto strings, such as `System.out.println("Thank you, " + customerName + ".")`.
+The point of this challenge is to use the variables `quantity`, `itemName`, `unitPrice`, `currencySymbol`, and `customerName` to build a custom output message. While you could simply type `System.out.println("Thank you, Brooke.")`, your challenge is to concatenate the values of variables onto strings, such as `System.out.println("Thank you, " + customerName + ".")`.
 
 ###Message
 The ouput of your program should be as follows:
