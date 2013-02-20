@@ -8,7 +8,7 @@ In essence, the Christensen Academy is my attempt at building examples of such s
 
 **Note:** In my ideal world, I wouldn't be a one-man shop trying to create everything myself. I'd love some help. If you're interested in joining in, please let me know (cameron@christensenacademy.org).
 
-**Note:** It takes me a long time to record videos, write textpages, and design and write challenges. Because of this, many of the modules you currently see on christensenacademy.org are really works in progress. Even the most robust modules to date--the modules on [Web design and development](http://christensenacademy.org/#html-basics)--are in need of further refinement. The Christensen Academy will never be "finished." Rather, it will be continuously improved over time.
+**Note:** It takes me a long time to record videos, write textpages, and design and write challenges. Because of this, many of the modules you currently see on christensenacademy.org are really works in progress. Even the most robust modules to date--the modules on [Web design and development](http://christensenacademy.org/#html-basics)--are in need of further refinement.
 
 ###Challenge Maps
 
