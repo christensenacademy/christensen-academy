@@ -16,9 +16,9 @@ In essence, the Christensen Academy is my attempt at building examples of such s
 
 Although challenge maps have been the most recent addition to the site, they are undoubtedly the most important. In my view, completing a module is roughly synonymous with completing that module's challenge map.
 
-There is no "right" way to complete the challenge map. My advice to students is simple: follow the arrows. I try hard to scaffold challenges in a logical manner from easier, well-defined challenges near the start of the challenge map to harder, more open-ended projects at the end.
+There is no "right" way to complete the challenge map. My advice to students is simple: follow the arrows. I try hard to scaffold challenges in a logical manner from easy and well-defined challenges near the start of the challenge map to harder and more open-ended projects at the end.
 
-Each challenge generally requires students to *produce* something, and as students complete challenges, their work is saved in a portfolio. This portfolio is something students can look back on with pride. It can also be offered up as strong evidence of learning, especially if one or more of the challenges involved an open-ended project that required application of knowledge in new situations.
+Each challenge generally requires students to *produce* something. As students complete challenges, their work is saved in a portfolio. This portfolio is something students can look back on with pride. It can also be offered up as strong evidence of learning, especially if one or more of the challenges involved an open-ended project that required application of knowledge in new situations.
 
 ###Video Playlists
 
