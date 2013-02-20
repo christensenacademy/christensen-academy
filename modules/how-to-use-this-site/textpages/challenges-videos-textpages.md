@@ -28,7 +28,7 @@ Basically, these are just video lectures I put on YouTube. These video lectures 
 
 Textpages provide the same info as the videos, but in written form. I like to think of the textpages I write as small sections of a traditional textbook.
 
-Although I much prefer writing computer code to English prose, I realized that video playlists were not enough. Videos are great for students learning concepts for the first time, but for students that just need a quick refresher on a concept, it's hard to beat written language as a reference tool. What's more, I've also found that some students prefer skipping the videos all together and going straight to the textpages because it's more efficient and they're confident in their own abilities to understand what they've read.
+Although I much prefer writing computer code to English prose, I realized that video playlists were not enough. Videos are great for students learning concepts for the first time, but for students that just need a quick refresher on a concept, it's hard to beat written language as a reference tool. What's more, I've also found that some students prefer skipping the videos all together and going straight to the textpages. Reading is simply more efficient.
 
 ###Conclusion
 The general idea of student-paced modules doesn't need to be constrained to my system of challenge maps, video playlists, and textpages. This is merely the system I've devised based on what I thought would work well. I've also been constrained by the limited resources at my disposal; namely, time and my own teaching abilities.
