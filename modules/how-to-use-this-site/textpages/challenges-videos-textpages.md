@@ -2,7 +2,7 @@
 Welcome to the Christensen Academy! I started this website in June of 2012 for a variety of reasons. Since that time, my vision for it has been constantly evolving. While my initial focus was on creating educational YouTube videos, I've since begun reorganizing everything into learning modules composed of three components: challenge maps, video playlists, and textpages. The purpose of this textpage is to explain how challenge maps, video playlists, and textpages work.
 
 ###Student-Paced Learning Modules
-Without getting into my theories on education, I'd like to suggest that the single most important change in education over the next ten years will be a shift away from teacher-paced courses to student-paced learning modules. In essence, the Christensen Academy is my attempt at building examples of such student-paced learning modules.
+I'd like to suggest that the single most important change in education over the next ten years will be a shift away from teacher-paced courses to student-paced learning modules. In essence, the Christensen Academy is my attempt at building examples of such student-paced learning modules.
 
 **Note:** It takes me a long time to record videos, write textpages, and design and write challenges. Because of this, many of the modules you currently see on the site are really works in progress. Even the most robust modules to date--the modules on Web design and development--are in need of further refinement. The Christensen Academy will never be "finished." Rather, it will be continuously improved over time.
 
