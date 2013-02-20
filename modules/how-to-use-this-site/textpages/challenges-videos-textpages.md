@@ -14,7 +14,7 @@ In essence, the Christensen Academy is my attempt at building examples of such s
 
 ![](http://christensenacademy.org/modules/how-to-use-this-site/textpages/challenge-map.png)
 
-Although challenge maps have been the most recent addition to the site, they are undoubtedly the most important. In my view, completing a module is synonymous with completing that module's challenge map. However, for schools to grant real academic credit, further assessment of student knowledge is necessary, I think.
+Although challenge maps have been the most recent addition to the site, they are undoubtedly the most important. In my view, completing a module is roughly synonymous with completing that module's challenge map.
 
 There is no "right" way to complete the challenge map. My advice to students is simple: follow the arrows. I try hard to scaffold challenges in a logical manner from easier, well-defined challenges near the start of the challenge map to harder, more open-ended projects at the end.
 
