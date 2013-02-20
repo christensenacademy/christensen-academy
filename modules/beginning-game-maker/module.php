@@ -37,20 +37,10 @@ $module_videos = array(
   new video('HbJV5W9wYSg', 'Coordinate System and Sprite Origins'),
   new video('5Pq4TCyYHtc', 'Health, Lives, and Score'),
   new video('yxNSHAp7O7Y', 'Relative Reasoning'),
-  # new video('', ''),
-  # new video('uzNxavrvefQ', 'Increasing the Difficulty'),
-  # new video('t1Wn7TQTX94', 'Relative Speeds'),
-  # new video('z-ei8xibAxY', 'Game Info'),
-  # new video('dR1YdUNHe4U', 'Rubric Discussion'),
-  # new video('tOqGYO6nuQ0', 'Sprites'),
-  # new video('VPRjRuACJjI', 'Coordinates and Wizard Movement'),
-  # new video('127tmb9qwX4', 'Set Wizard Boundaries'),
-  # new video('EW2RaIfyk04', 'Shoot Comets'),
-  # new video('EW2RaIfyk04', 'Bad Guys'),
-  # new video('UK-NwGetJGE', 'Comets Hit Bad Guys'),
-  # new video('9jnT4_tszdE', 'Moving Background'),
-  # new video('41Xi8j-TAQQ', 'Score and Health'),
-  # new video('f4k_qth1sFk', 'Enhancement Ideas')
+  # new video('', 'Create and Change Instance'),
+  # new video('', 'Basic Menus'),
+  # new video('', 'Movement and Jump to Position'),
+  # new video('', 'Random Numbers'),
 );
 
 $module_textpages = array(
