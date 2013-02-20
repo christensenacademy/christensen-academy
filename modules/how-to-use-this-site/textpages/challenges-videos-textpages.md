@@ -1,5 +1,5 @@
 #Challenge Maps, Video Playlists, and Textpages
-Welcome to the Christensen Academy. I started this website in June of 2012 for a variety of reasons. Since that time, my vision for it has been constantly evolving. While my initial focus was on creating educational YouTube videos, I've since begun reorganizing everything into learning modules composed of three components: challenge maps, video playlists, and textpages. The purpose of this textpage is to explain how challenge maps, video playlists, and textpages work.
+Welcome to the Christensen Academy! I started this website in June of 2012 for a variety of reasons. Since that time, my vision for it has been constantly evolving. While my initial focus was on creating educational YouTube videos, I've since begun reorganizing everything into learning modules composed of three components: challenge maps, video playlists, and textpages. The purpose of this textpage is to explain how challenge maps, video playlists, and textpages work.
 
 ###Student-Paced Learning Modules
 Without getting into my theories on education, I'd simply like to suggest that the single most important change in education over the next ten years will be a shift away from teacher-paced courses to student-paced learning modules. In essence, the Christensen Academy is my attempt at building examples of such student-paced learning modules.
