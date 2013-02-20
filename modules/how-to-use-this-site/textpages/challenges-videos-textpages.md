@@ -6,7 +6,9 @@ I'd like to suggest that the single most important change in education over the 
 
 In essence, the Christensen Academy is my attempt at building examples of such student-paced learning modules. Sure, these modules can be used as part of a traditional course that attempts to educate a group of students at a uniform, teacher-controlled pace, but that's not really what they're indended for.
 
-**Note:** It takes me a long time to record videos, write textpages, and design and write challenges. Because of this, many of the modules you currently see on the site are really works in progress. Even the most robust modules to date--the modules on Web design and development--are in need of further refinement. The Christensen Academy will never be "finished." Rather, it will be continuously improved over time.
+**Note:** In my ideal world, I wouldn't be a one-man shop trying to create everything myself. Creating good student-paced learning modules isn't exactly easy. If you're interested in joining in, please let me know (cameron@christensenacademy.org).
+
+**Note:** It takes me a long time to record videos, write textpages, and design and write challenges. Because of this, many of the modules you currently see on christensenacademy.org are really works in progress. Even the most robust modules to date--the modules on [Web design and development](http://christensenacademy.org/#html-basics)--are in need of further refinement. The Christensen Academy will never be "finished." Rather, it will be continuously improved over time.
 
 ###Challenge Maps
 
