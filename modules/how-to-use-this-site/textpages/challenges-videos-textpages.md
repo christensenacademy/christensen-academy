@@ -4,7 +4,7 @@ Welcome to the Christensen Academy! I started this website in June of 2012 for a
 ###Student-Paced Learning Modules
 I'd like to suggest that the single most important change in education over the next ten years will be a shift away from teacher-paced courses toward student-paced learning modules. I contend that at our traditional model of education, which attempts to move groups of students together at a fixed pace, no longer makes much sense when we could be doing things more efficiently, effectively, affordably, flexibly, and enjoyably in a system built on student-paced learning modules.
 
-In essence, the Christensen Academy is my attempt at building examples of such student-paced learning modules. Sure, these modules can be used as part of a traditional course that attempts to educate a group of students at a uniform, teacher-controlled pace, but that's not really what they're intended for.
+In essence, the Christensen Academy is my attempt at building examples of student-paced learning modules. Sure, these modules can be used as part of a traditional course that attempts to educate a group of students at a uniform, teacher-controlled pace, but that's not really what they're intended for.
 
 **Note:** It takes me a long time to record videos, write textpages, and design and write challenges. Because of this, many of the modules you currently see on christensenacademy.org are really works in progress. Even the most robust modules to date--the modules on [Web design and development](http://christensenacademy.org/#html-basics)--are in need of further refinement.
 
