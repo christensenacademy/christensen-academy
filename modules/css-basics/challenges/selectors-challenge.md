@@ -24,7 +24,7 @@ Your challange is to add selectors to the CSS rules in the following webpage. Co
     <meta charset="utf-8">
     <style>
     
-      /* this rule should be applied to all paragraph elements */
+      /* the following rule should be applied to all paragraph elements */
       
       {
         font-style:italic;
@@ -32,14 +32,14 @@ Your challange is to add selectors to the CSS rules in the following webpage. Co
       }
       
       
-      /* this rule should be applied to the element with the id super-important-element */
+      /* the following rule should be applied to the element with the id super-important-element */
       
       {
         font-size:300%;
       }
       
       
-      /* this rule should be applied to all elements of class big-yellow and all list items */
+      /* the following rule should be applied to all elements of class big-yellow and all list items */
       
       {
         background:yellow;
@@ -47,7 +47,7 @@ Your challange is to add selectors to the CSS rules in the following webpage. Co
       }
       
       
-      /* this rule should be applied to all h1 elements when the mouse is hovering over them */
+      /* the following rule should be applied to all h1 elements when the mouse is hovering over them */
       
       {
         background:green;
@@ -55,7 +55,7 @@ Your challange is to add selectors to the CSS rules in the following webpage. Co
       }
       
       
-      /* this rule should be applied to all list items that are descendents of ordered lists */
+      /* the following rule should be applied to all list items that are descendents of ordered lists */
       
       {
         color:white;
