@@ -5,7 +5,7 @@
 **Prerequisite Knowledge:**
 
 * How to use the [CSS validator](http://jigsaw.w3.org/css-validator/).
-* Basic CSS syntax for writing CSS rules.
+* Basic syntax for writing CSS rules.
 
 **Your challenge is to fix all of the errors in the CSS (below).**
 
