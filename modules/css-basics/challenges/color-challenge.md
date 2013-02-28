@@ -1,6 +1,12 @@
 #Color Challenge
 
-**Estimated Time:** 25 minutes, assuming you understand how external CSS works, how `class` and `id` attributes work, and how CSS styles are inherited from parents.
+**Estimated Time:** 25 minutes
+
+**Prerequisite Knowledge:**
+
+* External CSS
+* Class `class` and `id` attributes and selectors
+* Inheritance of CSS properties from parents to children.
 
 Your challenge is to create two webpages that look like the following pictures making sure to use **as little CSS as possible**.
 
