@@ -1,9 +1,8 @@
 #CSS Layouts Self Assessment
 
-* **Estimated Time:** 15 minutes.
+**Estimated Time:** 15 minutes
 
 ###The Questions
-Answer the following questions to the best of your ability. Then, watch the solution video to see if you were right.
 
 1. Which of the three types of CSS can be used to manipulate the CSS box model?
   * inline
