@@ -32,4 +32,4 @@ p {background: blue;}
 
 ##Portfolio
 
-You should make a new folder called `css-validation-challenge` inside your `css-basics` folder. `validate.html` and `validate.css` should both be saved in the `css-validation-challenge` folder.
+Make sure you save your fixed-up file in your `css-basics` folder. Make sure to name it `validate.css`.
