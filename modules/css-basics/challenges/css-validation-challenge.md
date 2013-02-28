@@ -12,7 +12,7 @@
 You can get started by copying that CSS into a new CSS file *(validate.css)*. Once you've saved your file, you should start fixing the errors you see in the CSS. To be completely sure you've fixed all of the errors, you must use the [CSS validator](http://jigsaw.w3.org/css-validator/). If the validator tells you that errors still exist in your CSS, you must fix them.
 
 ###CSS
-```css
+```
 h1 {
   background;red:color:black;
 }
