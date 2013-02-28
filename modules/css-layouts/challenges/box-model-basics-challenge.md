@@ -1,6 +1,6 @@
 #Box Model Basics Challenge
 
-**Estimated Time:** 40 minutes
+**Estimated Time:** 60 minutes
 
 **Prerequisite Knowledge:** There's a lot you need to know for this first challenge...
 
