@@ -19,7 +19,8 @@
 
 ####What the Picture doesn't Show
 
-* The top box adjusts its width as the browser resizes. Its width was clearly not specified using a pixel value...
+* The top box adjusts its width as the browser resizes (i.e., its width is specified as a percent).
+* The left and right margins on the top box also resize as the browser width adjusts (i.e., they must be specified as `auto`, which is the default).
 * The margin on the right of the dotted box always stays exactly the same size as the browser adjusts size. 
 * The bottom white box appears to be centered, but when the browser width adjusts, the margin on the left of the white box always stays the same.
 * The height of the dotted box is fixed. If the width of the browser becomes too small, text begins to spill out the bottom of this box--we call this overflow.
