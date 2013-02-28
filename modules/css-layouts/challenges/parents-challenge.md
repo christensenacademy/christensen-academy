@@ -14,9 +14,9 @@
 
 ####What the Picture doesn't Show
 
-* The purple parent boxes have widths of "auto" (the default), not 100%. There's a subtle difference; see if you can spot it.
-* Top grey child box has a fluid (percent-based) width. As the broswer window's width adjust, so will the width of this elemetn.
-* The paragraph inside of the top grey child box has a fluid (percent-based) width. As its parent (the top grey child box) grows and shrinks, it grows and shrinks proportionally. Simply put: use a percent.
+* The purple parent boxes have widths of "auto" (the default), not 100%. Notice that they also have some margin on either side.
+* Top grey child box has a fluid (percent-based) width. As the broswer window's width adjusts, so will the width of this element.
+* The paragraph inside of the top grey child box has a fluid (percent-based) width. As its parent (the top grey child box) grows and shrinks, it grows and shrinks proportionally. Hint: use a percent.
 * Other widths are fixed (pixel values).
 * Heights are all auto except for the last one, which needs a height to be explicitly set because it lacks content.
 
