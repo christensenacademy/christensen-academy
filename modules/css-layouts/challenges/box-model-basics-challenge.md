@@ -30,6 +30,8 @@ While you should focus on precise replication of the picture above, don't forget
 
 ###Starter Code
 
+**Note:** You do not need to alter the HTML in this code. All you need to do is write CSS.
+
 ```html
 <!DOCTYPE html>
 <html>
