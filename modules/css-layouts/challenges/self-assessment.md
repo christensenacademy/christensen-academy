@@ -2,18 +2,9 @@
 
 **Estimated Time:** 15 minutes
 
-###The Questions
-
-1. Which of the three types of CSS can be used to manipulate the CSS box model?
-  * inline
-  * embedded
-  * external
-  * all of the above
-2. By default, the width and the height of elements is set to "auto" for block-level elements, what does this actually mean?
-  * Block-level elements are as wide as possible and as tall as necessary based on what's inside them.
-  * Block-level elements are as narrow as possible based on what's inside of them. Likewise, they are only as tall as necessary.
-  * Block-level elements are as wide as possible and as tall as possible. 
-  * None of the above.
+1. All CSS properties have initial (i.e., default) values. The default values for the `width` and `height` properties are `auto`.
+  * Describe how (block-level) elements with `width:auto` display.
+  * Describe how (block-level) elements with `height:auto` display.
 3. True or False? The CSS box model does not apply to inline elements.
 4. Which of the following is correct CSS code to give an element no padding on top, 2 pixels of padding on the right, 8 pixels of padding on the bottom, and another 2 pixels of padding on the left?
   * `padding: 0 2px 8px 2px;`
