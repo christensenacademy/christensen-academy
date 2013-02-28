@@ -12,8 +12,6 @@ Your challenge is to create two webpages that look like the following pictures. 
 
 **Note:** Using as little CSS as possible means that you'll have to be smart about how you assign classes and ids to your elements. It also means you should think carefully about which type of CSS you should use. Subtle hint: **USE THE SAME EXTERNAL CSS FILE FOR BOTH PAGES.**
 
-##When You're Finished:
-
 ###Page 1
 ![The first HTML file](http://christensenacademy.org/modules/css-basics/challenges/color-challenge-page-1.png)
 
