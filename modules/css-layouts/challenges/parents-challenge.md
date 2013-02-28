@@ -1,7 +1,12 @@
 #Parents Challenge
 
-* **Challenge:** Make a webpage (shown below) that exercises your understanding of parent and child elements.
-* **Estimated Time:** 25 minutes.
+**Estimated Time:** 25 minutes
+
+**Prerequisite Knowledge:**
+
+* `span` and `div` elements
+* Box model basics: width, height, padding, border, margin
+* The relationship between parent and child elements
 
 ###Make a Webpage that Looks like This 
 
