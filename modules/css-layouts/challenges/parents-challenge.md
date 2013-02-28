@@ -1,6 +1,6 @@
 #Parents Challenge
 
-**Estimated Time:** 25 minutes
+**Estimated Time:** 45 minutes
 
 **Prerequisite Knowledge:**
 
