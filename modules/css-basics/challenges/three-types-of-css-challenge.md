@@ -10,7 +10,7 @@
 
 Your challenge is to develop a webpage that uses all three types of CSS.
 
-Start by making a new HTML file (*3types.html*) using the following code:
+Start by making a new HTML file *(3types.html)* using the following code:
 
 ```html
 <!DOCTYPE html>
