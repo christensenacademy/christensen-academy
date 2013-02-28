@@ -23,7 +23,7 @@
         color:#bbb;
       }
       div {
-        background: #888 url("abstract3.png") no-repeat;
+        background: #888;
         width: 200px;
         height: 150px;
         margin: 8px;
