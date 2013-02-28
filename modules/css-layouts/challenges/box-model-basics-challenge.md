@@ -1,7 +1,17 @@
 #Box Model Basics Challenge
 
-* **Challenge:** Make a webpage (shown below) that exercises your understanding of the CSS box model.
-* **Estimated Time:** 25 minutes.
+**Estimated Time:** 40 minutes
+
+**Prerequisite Knowledge:** There's a lot you need to know for this first challenge...
+
+* `span` and `div` elements
+* Box model basics
+* Width and height of elements
+* `%` vs. `px` vs. `auto` for widths and heights
+* Margins
+* Padding
+* Borders
+* How to center elements
 
 ###Make a Webpage that Looks like This 
 
