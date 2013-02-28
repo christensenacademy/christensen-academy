@@ -20,6 +20,10 @@ Your goal is to remodel a pure HTML website you've already created using CSS.
   * text-indent
   * letter-spacing
   * line-height
+* **Code Quality:**
+  * Perfect indentation
+  * Error free
+* **Images:** Images must be stored in a separate image folder. `src` attributes should have relative paths to image files as opposed to using absolute paths, such as URLs to someone else's site online.
 
 ##Portfolio
 Make sure you create a new folder specifically for this website and put it in the `css-basics` folder.
