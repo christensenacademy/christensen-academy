@@ -1,7 +1,10 @@
 #Background Image Challenge
 
-* **Challenge:** Use background images to make a webpage that looks like the image below.
-* **Estimated Time:** 40 minutes
+**Estimated Time:** 40 minutes
+
+**Prerequisite Knowledge:**
+
+* How to create, repeat, and position background images in CSS.
 
 ###Your Page Should Look like This
 ![](http://christensenacademy.org/modules/css-layouts/challenges/background-image-challenge.png)
