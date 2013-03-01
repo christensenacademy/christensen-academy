@@ -1,6 +1,10 @@
 #Absolute Positioning Challenge
 
-* **Estimated Time:** 25 minutes
+**Estimated Time:** 25 minutes
+
+**Prerequisite Knowledge:**
+
+* Absolute and relative positioning basics
 
 ##Finished Page Should Look like This
 ![](http://christensenacademy.org/modules/css-layouts/challenges/absolute-positioning-challenge.png)
