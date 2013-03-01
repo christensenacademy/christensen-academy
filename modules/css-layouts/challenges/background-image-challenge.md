@@ -10,6 +10,8 @@
 
 ![](http://christensenacademy.org/modules/css-layouts/challenges/gradient.png)
 
+![](http://christensenacademy.org/modules/css-layouts/challenges/abstract3.png)
+
 ##Starter Code
 
 ```html
