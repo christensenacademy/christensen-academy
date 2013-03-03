@@ -12,7 +12,7 @@ The initial (default) values of the CSS `height` and `width` properties are `aut
 
 Width and height can be specified as pixels or percents (e.g., `width:30%` or `height:400px`). Percents are generally based on the width of the parent element. Because such values change as the browser resizes, percents are said to be "fluid." On the other hand, pixel values never change, and are thus said to be "fixed."
 
-###[Width Examples](http://jsfiddle.net/cameron89/GbwFJ/)
+###[Width Examples](http://jsfiddle.net/cameron89/GbwFJ/1/)
 
 ###[Height Examples]()
 
