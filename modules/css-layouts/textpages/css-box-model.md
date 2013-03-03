@@ -16,7 +16,7 @@ Height, on the other hand, is really only specified in pixels. Note: normally it
 
 ###[Width Examples](http://jsfiddle.net/cameron89/GbwFJ/1/)
 
-###[Height Examples](http://jsfiddle.net/cameron89/qHLQC/1/)
+###[Height Examples](http://jsfiddle.net/cameron89/qHLQC/2/)
 
 ###[Width and Height Don't Work for Inline Elements]()
 
