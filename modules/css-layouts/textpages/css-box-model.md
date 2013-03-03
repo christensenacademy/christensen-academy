@@ -18,7 +18,7 @@ Height, on the other hand, is really only specified in pixels. Note: normally it
 
 ###[Height Examples](http://jsfiddle.net/cameron89/qHLQC/2/)
 
-###[Width and Height Don't Work for Inline Elements]()
+###[Width and Height Don't Work for Inline Elements](http://jsfiddle.net/cameron89/wL64c/1/)
 
 ##Margin
 Margins create empty space on the outside of an element. Margins can be specified in the following ways:
