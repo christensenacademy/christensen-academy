@@ -14,11 +14,11 @@ Width can be specified as pixels or percents (e.g., `width:30%` or `height:400px
 
 Height, on the other hand, is really only specified in pixels. Note: normally it is best to leave the `height` property at its default value of `auto`.
 
-###[Width Examples](http://jsfiddle.net/cameron89/GbwFJ/1/)
+####[Width Examples](http://jsfiddle.net/cameron89/GbwFJ/1/)
 
-###[Height Examples](http://jsfiddle.net/cameron89/qHLQC/2/)
+####[Height Examples](http://jsfiddle.net/cameron89/qHLQC/2/)
 
-###[Width and Height Don't Work for Inline Elements](http://jsfiddle.net/cameron89/wL64c/1/)
+####[Width and Height Don't Work for Inline Elements](http://jsfiddle.net/cameron89/wL64c/1/)
 
 ##Margin
 Margins create empty space on the outside of an element. Margins can be specified in the following ways:
