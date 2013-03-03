@@ -33,7 +33,7 @@ Image taken from the official [CSS 2.1 Specification](http://www.w3.org/TR/CSS21
 
 ###The HTML and CSS above results in the following webpage:
 
-![an example of the css box model](http://christensenacademy.org/modules/css-basics/textpages/box-model-example.png)
+![an example of the css box model](http://christensenacademy.org/modules/css-layouts/textpages/box-model-example.png)
 
 You can also [play around with this example in jsFiddle](http://jsfiddle.net/cameron89/45pLG/).
 
