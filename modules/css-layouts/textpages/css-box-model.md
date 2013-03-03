@@ -37,7 +37,7 @@ margin-bottom: 10px;
 margin-left: 10px;
 ```
 
-####[Margin Examples]()
+####[Margin Examples](http://jsfiddle.net/cameron89/bmEWU/1/)
 
 ###Centering Elements
 Centering text (and inline elements) can be done using the text-align property, but if you want to center an entire block-level element, you'll need to employ the following trick: set the left and right margins to "auto".
