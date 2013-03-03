@@ -10,8 +10,13 @@ The most important thing to understand about the content box is that when specif
 
 The initial (default) values of the CSS `height` and `width` properties are `auto`. In the case of width, this means that the element will be as wide as possible. In the case of height, this means that the element will be as short as possible.
 
-Checkout [this jsFiddle](http://jsfiddle.net/cameron89/GbwFJ/) to see what I mean the "auto" heights and widths at work. 
+Width and height can be specified as pixels or percents (e.g., `width:30%` or `height:400px`). Percents are generally based on the width of the parent element. Because such values change as the browser resizes, percents are said to be "fluid." On the other hand, pixel values never change, and are thus said to be "fixed."
 
+###[Width Examples](http://jsfiddle.net/cameron89/GbwFJ/)
+
+###[Height Examples]()
+
+###[Width and Height Don't Work for Inline Elements]()
 
 ##Margin
 Margins create empty space on the outside of an element. Margins can be specified in the following ways:
