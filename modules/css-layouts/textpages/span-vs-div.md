@@ -76,7 +76,7 @@ Also notice how span elements are inline elements and don't display on a new lin
 
 ![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-span2.png)
 
-##Conclusion
+##Semantics
 `<span>` elements are generic inline elements, while `div` elements are generic block-level elements. I say they're "generic" elements because they don't carry any special *semantic meaning*.
 
 Allow me to explain. Semantically speaking, the `<p>` element should have a paragraph of text as content. Similarly, the `<h1>` element should be used to create a very important heading on a webpage.
