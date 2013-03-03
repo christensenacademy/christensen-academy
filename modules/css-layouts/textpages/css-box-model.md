@@ -72,10 +72,10 @@ padding-left: 10px;
 
 ###Padding Examples
 
-* [Basic Padding]()
+* [Basic Padding](http://jsfiddle.net/cameron89/m6RF5/)
 
 ##Border
-Unlike the other parts of the box model, borders require three values: width (size), color, and style. Surprisingly, specifying the style is essential. You might assume that the default style is a solid line, but in actuality the default style is nothing at all. If you want your borders to show up, make sure you specify the style.
+Unlike the other parts of the box model, borders require three properties: width (size), color, and style. If a color is not specified, the color of the text (i.e., the `color` property) will be used. However, border style and width must be explicity specified or the border will not show up. You might assume that the default style is a solid line, but in actuality the default style is nothing at all.
 
 ```css
 border-width: 5px; /* individual properties follow form border-top-width */
@@ -86,4 +86,11 @@ border-top: 10px #AB0477 solid;
 border-right: 10px #AB0477 solid;
 border-bottom: 10px #AB0477 solid;
 border-left: 10px #AB0477 solid;
+
+
 ```
+
+###Border Examples
+
+* [border-width, border-color, and border-style]()
+* [Border Shorthand Property]()
