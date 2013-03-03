@@ -1,6 +1,6 @@
 #Span vs. Div
 
-###Div Elements
+##Div Elements
 Sometimes you may find yourself wanting to add style to an entire *division* or section of your webpage. In such cases, it is often best to use a `div` element. `div` elements are block-level elements that you can use in clever ways to alter the layout of your page. Consider this example:
 
 ```html
@@ -43,7 +43,7 @@ Even a simple layout like this where we're seeing two groups of elements side by
 </div>
 ```
 
-###Span Elements
+##Span Elements
 
 Sometimes you may find yourself wanting to add style a small portion (span) of an existing element. In such cases, it is often best to use a span element, which is an inline element.
 
