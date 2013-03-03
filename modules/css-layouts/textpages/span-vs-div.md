@@ -4,18 +4,16 @@
 Sometimes you may find yourself wanting to add style to an entire *division* or section of your webpage. In such cases, it is often best to use a `div` element. `div` elements are block-level elements that you can use in clever ways to alter the layout of your page. Consider this example:
 
 ```html
-<div id="blog-posts">
-  <div class="blog-post">
+<div>
+  <div>
     <h2>Lorem Ipsum</h2>
-    <p>...</p>
-    <p>...</p>
-    <p>...</p>
+    <p>Lorem ipsum et dolor</p>
+    <p>sit amet verbatum</p>
   </div>
-  <div class="blog-post">
+  <div>
     <h2>Lorem Ipsum</h2>
-    <p>...</p>
-    <p>...</p>
-    <p>...</p>
+    <p>Lorem ipsum et dolor</p>
+    <p>sit amet verbatum</p>
   </div>
 </div>
 ```
