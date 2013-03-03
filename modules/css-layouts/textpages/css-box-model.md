@@ -23,7 +23,10 @@ Image taken from the official [CSS 2.1 Specification](http://www.w3.org/TR/CSS21
     </style>
   </head>
   <body>
-    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet metus dui. Nunc gravida nibh eget elit dictum dictum. Vivamus posuere ante sit amet neque egestas vehicula. Praesent sollicitudin iaculis diam, nec blandit risus sodales fringilla.</div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet
+    metus dui. Nunc gravida nibh eget elit dictum dictum. Vivamus posuere ante
+    sit amet neque egestas vehicula. Praesent sollicitudin iaculis diam, nec
+    blandit risus sodales fringilla.</div>
   </body>
 </html> 
 ```
