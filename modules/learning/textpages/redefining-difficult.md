@@ -25,7 +25,7 @@ I more or less stumbled upon computer science in college and fell in love with i
 
 This was my first real attempt at doing any programming that wasn't directly assigned by a professor, and I soon found myself making tons of errors. After what I imagine was close to 30 or 40 hours of work, I finally finished my program. It wasn't much to look at, but it worked against every sudoku puzzle I could find.
 
-As with the Dragon Puzzle and the Geometry proof before, I emerged from this experience with a lot of confidence in my ability to solve problems that a lot of other people would probably give up on. My personal definition of "difficult" was forced to shift once again. The coding assignments I encountered in class no longer seemed very difficult, at least not relative to the Sudoku program I had completed just for fun.
+As with the dragon puzzle and the geometry proof before, I emerged from this experience with a lot of confidence in my ability to solve problems that a lot of other people would probably give up on. My personal definition of "difficult" was forced to shift once again. The coding assignments I encountered in class no longer seemed very difficult, at least not relative to the Sudoku program I had completed just for fun.
 
 ###Conclusion
 
