@@ -28,11 +28,10 @@ Sometimes you may find yourself wanting to add style to an entire *division* or 
 </div>
 ```
 
-Without any CSS, this would display rather boring, and the fact that we're using div elements would be pointless. Here's what the code above would look like without CSS:
-
+###Without CSS, the Divs are Pointless
 ![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-div1.png)
 
-However, with a bit of CSS applied to our `div` elements, we can make the page look quite a bit different:
+###With CSS, the Divs Allow Us to Style Entire "Divisions" of a Page
 
 ![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-div2.png)
 
