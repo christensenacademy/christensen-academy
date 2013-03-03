@@ -1,5 +1,7 @@
 #Span vs. Div
 
+`<span>` elements are generic inline elements, while `div` elements are generic block-level elements. Just as a quick review, block-level elements are elements like `<h1>`, `<p>`, and `<li>`. These elements notably have a line break automatically inserted above and below them on the webpage. Inline elements are elements like `<a>`, `<img>`, `<em>`, and `<strong>`. These elements should be used inside of block-level elements. Unlike block-level elements, inline elements don't have line breaks above and below them. Thus, they can be used "inline" with other content.
+
 ##Div Elements
 Sometimes you may find yourself wanting to add style to an entire *division* or section of your webpage. In such cases, it is often best to use a `div` element. `div` elements are block-level elements that you can use in clever ways to alter the layout of your page. Consider this example:
 
