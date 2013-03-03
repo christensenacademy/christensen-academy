@@ -52,7 +52,7 @@ When margins from different elements "touch" each other vertically, they "collap
 
 * [Basic Margins](http://jsfiddle.net/cameron89/bmEWU/)
 * [Centering Elements](http://jsfiddle.net/cameron89/C3prj/)
-* [Collapsing Margins]()
+* [Collapsing Margins](http://jsfiddle.net/cameron89/tA9tn/)
 
 
 ##Padding
