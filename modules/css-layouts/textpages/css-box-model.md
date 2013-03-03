@@ -26,9 +26,10 @@ The initial (default) values of the CSS `height` and `width` properties are `aut
 
 ####CSS
 ```css
-h1 {width: auto; height: 100px;} /* width of auto means that the element is the size of the parent element */
+h1 {width: auto; height: 100px;} /* width of auto means that the element will be as wide as possible */
 p {width: 50%;} /* percents are based off of the width of the parent element. */
-div {background: green; height: auto;} /* since the div has no content, the height will become zero */
+div {background: green; height: auto;} /* since the div has no content, and because height means the element
+                                          will be as short as possible, the height will become zero */
 ```
 
 ##Margin
