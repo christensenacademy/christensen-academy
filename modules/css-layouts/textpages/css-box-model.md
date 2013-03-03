@@ -81,16 +81,19 @@ Unlike the other parts of the box model, borders require three properties: width
 border-width: 5px; /* individual properties follow form border-top-width */
 border-color: #FF00C8; /* individual properties follow form border-top-color */
 border-style: dotted; /* other values: dashed, solid, double, groove, ridge, inset, outset */
+
 border: 10px #AB0477 solid; /* shorthand property applies to all borders (order doesn't matter) */
+
 border-top: 10px #AB0477 solid;
 border-right: 10px #AB0477 solid;
 border-bottom: 10px #AB0477 solid;
 border-left: 10px #AB0477 solid;
 
-
+border-left-style: solid;
+border-left-width: 5px;
+border-left-color: #444;
 ```
 
 ###Border Examples
 
-* [border-width, border-color, and border-style]()
-* [Border Shorthand Property]()
+* [Basic Borders](http://jsfiddle.net/cameron89/yYWHh/)
