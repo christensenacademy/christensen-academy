@@ -29,6 +29,6 @@ As with the dragon puzzle and the geometry proof before, I emerged from this exp
 
 ###Conclusion
 
-As you continue on with your education, I encourage you to look for opportunities to tackle problems that stretch your personal understanding of "difficult". These problems won't always be presented by your teachers; sometimes you'll need to seek them out on your own. I hope you learn to relish the genuinely difficult challenges you find in front of you. As you solve increasingly difficult problems, your confidence will grow until you begin to believe that there is no problem you are incapable of solving. Maybe someday you will be quoted saying the same as Einstein, "It's not that I'm so smart, it's just that I stay with problems longer."
+As you continue on with your education, I encourage you to look for opportunities to tackle problems that stretch your personal understanding of "difficult." These problems won't always be presented by your teachers; sometimes you'll need to seek them out on your own. I hope you learn to relish the genuinely difficult challenges you find in front of you. As you solve increasingly difficult problems, your confidence will grow until you begin to believe that there is no problem you are incapable of solving. Maybe someday you will be quoted saying the same as Einstein, "It's not that I'm so smart, it's just that I stay with problems longer."
 
 ![](http://christensenacademy.org/img/signature.png)
