@@ -43,6 +43,9 @@ left: 20px;
 
 float: right; /* anchor element to the right side of the page while siblings that follow fill space */
 float: left;
+clear: both; /* clears all previous floats so that they won't impact the positioning of this element */
+clear: left; /* clears only pervious left floats */
+clear: right;
 
 position: absolute; /* move out of normal flow while siblings that follow fill space */
 /* Position with respect to the nearest ancestor that is positioned relative or absolute.
