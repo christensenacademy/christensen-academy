@@ -14,11 +14,11 @@ Width can be specified as pixels or percents (e.g., `width:30%` or `height:400px
 
 Height, on the other hand, is really only specified in pixels. Note: normally it is best to leave the `height` property at its default value of `auto`.
 
-####[Width Examples](http://jsfiddle.net/cameron89/GbwFJ/)
+###Examples
 
-####[Height Examples](http://jsfiddle.net/cameron89/qHLQC/)
-
-####[Width and Height Don't Work for Inline Elements](http://jsfiddle.net/cameron89/wL64c/)
+* [Width Examples](http://jsfiddle.net/cameron89/GbwFJ/)
+* [Height Examples](http://jsfiddle.net/cameron89/qHLQC/)
+* [Width and Height Don't Work for Inline Elements](http://jsfiddle.net/cameron89/wL64c/)
 
 ##Margin
 Margins create empty space on the outside of an element. Margins can be specified in the following ways:
@@ -37,8 +37,6 @@ margin-bottom: 10px;
 margin-left: 10px;
 ```
 
-####[Margin Examples](http://jsfiddle.net/cameron89/bmEWU/)
-
 ###Centering Elements
 Centering text (and inline elements) can be done using the text-align property, but if you want to center an entire block-level element, you'll need to employ the following trick: set the left and right margins to "auto".
 
@@ -50,7 +48,14 @@ margin-right:auto;
 I usually just use the shorthand property `margin: 0 auto;`.
 
 ###Collapsing Margins
-When margins from different elements "touch" each other vertically, they collapse. This makes some sense when the two margins come from sibling elements, but when the touching margins are in a parent-child relationship, this "feature" of CSS doesn't make much sense (in my humble opinion).
+When margins from different elements "touch" each other vertically, they collapse. This makes some sense when the two margins come from sibling elements, but when the touching margins are in a parent-child relationship, this "feature" of CSS doesn't make much sense (in my humble opinion). Check out the examples below to see what I mean. Collapsing margins can be rather confusing.
+
+###Margin Examples
+
+* [Basic Margins](http://jsfiddle.net/cameron89/bmEWU/)
+* [Centering Elements]()
+* [Collapsing Margins]()
+
 
 ##Padding
 The important thing to remember about padding is that it displays the background color (or image) of the element. Use padding when you want some extra space between the content and border of an element.
