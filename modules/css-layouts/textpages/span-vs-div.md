@@ -10,7 +10,7 @@ Inline elements are elements like `<a>`, `<img>`, `<em>`, and `<strong>`. These 
 
 Check out [this jsFiddle](http://jsfiddle.net/cameron89/bpNWN/) example to see the difference between block-level and inline elements more clearly.
 
-##Div Elements
+##Div (Generic Block-Level Element for Creating a "Division")
 Sometimes you may find yourself wanting to add style to an entire *division* or section of your webpage. In such cases, it is often best to use a `div` element. `div` elements are block-level elements that you can use in clever ways to alter the layout of your page. Consider this example:
 
 ```html
@@ -53,7 +53,7 @@ Even a simple layout like this where we're seeing two groups of elements side by
 </div>
 ```
 
-##Span Elements
+##Span (Generic Inline Element for Styling a Small Bit of Content)
 
 Sometimes you may find yourself wanting to add style a small portion (span) of an existing element. In such cases, it is often best to use a span element, which is an inline element.
 
