@@ -6,31 +6,12 @@ The big idea behind the CSS Box Model is that every element on the page is rende
 Image taken from the official [CSS 2.1 Specification](http://www.w3.org/TR/CSS21/box.html)
 
 ##Content (Width and Height)
-In HTML, we think of elements as having an opening tag (e.g., `<p>`), some content, and a closing tag (e.g., `</p>`). In the case of the paragraph element, the content would be some text. I don't have a problem with this use of the term "content," but when speaking about the CSS box model, we'll be using the term "content" in a more specific and literal sense. "Content" is the inner-most box of the CSS box model
-
 The most important thing to understand about the content box is that when specifying `width` and `height` in CSS, you are specifying the dimensions of the content area of the box model.
 
 The initial (default) values of the CSS `height` and `width` properties are `auto`. In the case of width, this means that the element will be as wide as possible. In the case of height, this means that the element will be as short as possible.
 
-####HTML
-```html
-<body>
-  <h1>Lorem Ipsum</h1>
-  <p>
-    Donec vehicula felis eget nibh consequat aliquet. Proin purus nisi, porttitor ac tincidunt in, consectetur 
-    eu nisi. Donec et sodales leo. Nullam enim nunc, viverra in pellentesque vitae, placerat elementum tortor.
-  </p>
-  <div></div>
-</body>
-```
+Checkout [this jsFiddle](http://jsfiddle.net/cameron89/GbwFJ/) to see what I mean the "auto" heights and widths at work. 
 
-####CSS
-```css
-h1 {width: auto; height: 100px;} /* width of auto means that the element will be as wide as possible */
-p {width: 50%;} /* percents are based off of the width of the parent element. */
-div {background: green; height: auto;} /* since the div has no content, and because height means the element
-                                          will be as short as possible, the height will become zero */
-```
 
 ##Margin
 Margins create empty space on the outside of an element. Margins can be specified in the following ways:
