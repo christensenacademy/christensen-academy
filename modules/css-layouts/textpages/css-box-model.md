@@ -78,17 +78,22 @@ padding-left: 10px;
 Unlike the other parts of the box model, borders require three properties: width (size), color, and style. If a color is not specified, the color of the text (i.e., the `color` property) will be used. However, border style and width must be explicity specified or the border will not show up. You might assume that the default style is a solid line, but in actuality the default style is nothing at all.
 
 ```css
-border-width: 5px; /* individual properties follow form border-top-width */
-border-color: #FF00C8; /* individual properties follow form border-top-color */
-border-style: dotted; /* other values: dashed, solid, double, groove, ridge, inset, outset */
+/* This shorthand property applies to all four borders
+   and allows you to specify width, color, and style all at once. */
+border: 10px #AB0477 solid;
 
-border: 10px #AB0477 solid; /* shorthand property applies to all borders (order doesn't matter) */
-
+/* These shorthand properties allow you to specify width, color, and style for an individual border. */
 border-top: 10px #AB0477 solid;
 border-right: 10px #AB0477 solid;
 border-bottom: 10px #AB0477 solid;
 border-left: 10px #AB0477 solid;
 
+/* These let you set a single property for all four borders. */
+border-width: 5px; 
+border-color: #FF00C8;
+border-style: dotted;
+
+/* These let you set a single property for a single border. */
 border-left-style: solid;
 border-left-width: 5px;
 border-left-color: #444;
