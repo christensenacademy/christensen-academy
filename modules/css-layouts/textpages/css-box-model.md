@@ -5,14 +5,12 @@ The big idea behind the CSS Box Model is that every element on the page is rende
 
 Image taken from the official [CSS 2.1 Specification](http://www.w3.org/TR/CSS21/box.html)
 
-##Content
-In HTML, we think of elements as having an opening tag (e.g., `<p>`), some content, and a closing tag (e.g., `</p>`). In the case of the paragraph element, the content would be some text. While this is true, when speaking about the CSS box model, we use the word "content" to specifically refer to the box surrounding, in this case, the paragraph.
+##Content (Width and Height)
+In HTML, we think of elements as having an opening tag (e.g., `<p>`), some content, and a closing tag (e.g., `</p>`). In the case of the paragraph element, the content would be some text. I don't have a problem with this use of the term "content," but when speaking about the CSS box model, we'll be using the term "content" in a more specific and literal sense. "Content" is the inner-most box of the CSS box model
 
-When specifying width and height in CSS, you are specifying the dimensions of the content area of the box model.
+The most important thing to understand about the content box is that when specifying `width` and `height` in CSS, you are specifying the dimensions of the content area of the box model.
 
-**Note:** Height by default is auto, which means that an element will be only tall enough to hold the stuff inside it. If there's no stuff inside it, its height will be zero.
-
-**Note:** Width by default is auto, which means that an element will be as wide as its parent. This is close to the same as setting the width to be 100%, but not quite. Experiment with the two to discover the subtle differences.
+The initial (default) values of the CSS `height` and `width` properties are `auto`. In the case of width, this means that the element will be as wide as possible. In the case of height, this means that the element will be as short as possible.
 
 ####HTML
 ```html
