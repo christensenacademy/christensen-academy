@@ -26,7 +26,22 @@ However, with a bit of CSS applied to our `div` elements, we can make the page l
 
 ![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-div2.png)
 
-Even a simple layout like this where we're seeing two groups of elements side by side is only possible through the use of `div` elements. Most Web designers make heavy use of `div` elements when laying out their pages.
+Even a simple layout like this where we're seeing two groups of elements side by side is only possible through the use of `div` elements. Consider the code once more:
+
+```html
+<div> <!-- the outer dark box -->
+  <div> <!-- the left inner box -->
+    <h2>Lorem Ipsum</h2>
+    <p>Lorem ipsum et dolor</p>
+    <p>sit amet verbatum</p>
+  </div>
+  <div> <!-- the right inner box -->
+    <h2>Lorem Ipsum</h2>
+    <p>Lorem ipsum et dolor</p>
+    <p>sit amet verbatum</p>
+  </div>
+</div>
+```
 
 ###Span Elements
 
