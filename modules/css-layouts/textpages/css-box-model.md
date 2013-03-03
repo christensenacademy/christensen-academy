@@ -10,11 +10,13 @@ The most important thing to understand about the content box is that when specif
 
 The initial (default) values of the CSS `height` and `width` properties are `auto`. In the case of width, this means that the element will be as wide as possible. In the case of height, this means that the element will be as short as possible.
 
-Width and height can be specified as pixels or percents (e.g., `width:30%` or `height:400px`). Percents are generally based on the width of the parent element. Because such values change as the browser resizes, percents are said to be "fluid." On the other hand, pixel values never change, and are thus said to be "fixed."
+Width can be specified as pixels or percents (e.g., `width:30%` or `height:400px`). Percents are generally based on the width of the parent element. Because such values change as the browser resizes, percents are said to be "fluid." On the other hand, pixel values never change, and are thus said to be "fixed."
+
+Height, on the other hand, is really only specified in pixels. Note: normally it is best to leave the `height` property at its default value of `auto`.
 
 ###[Width Examples](http://jsfiddle.net/cameron89/GbwFJ/1/)
 
-###[Height Examples]()
+###[Height Examples](http://jsfiddle.net/cameron89/qHLQC/1/)
 
 ###[Width and Height Don't Work for Inline Elements]()
 
