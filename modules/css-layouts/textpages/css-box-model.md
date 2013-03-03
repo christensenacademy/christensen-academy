@@ -24,14 +24,20 @@ Height, on the other hand, is really only specified in pixels. Note: normally it
 Margins create empty space on the outside of an element. Margins can be specified in the following ways:
 
 ```css
-margin: 0 10px 30px 10px; /* top, right, bottom, left */
-margin: 10px auto; /* top-bottom, left-right */
-margin: 10px; /* applies to all margins */
+/* shorthand versions */
+margin: 10px; /* applies to all margins (top, right, bottom, and left) */
+margin: 0 10px 20px 30px; /* top right bottom left */
+margin: 0 10px 10px; /* top right-left bottom */
+margin: 10px auto; /* top-bottom right-left */
+
+/* "regular," single-property versions */
 margin-top: 10px;
 margin-right: 10px;
 margin-bottom: 10px;
 margin-left: 10px;
 ```
+
+####[Margin Examples]()
 
 ###Centering Elements
 Centering text (and inline elements) can be done using the text-align property, but if you want to center an entire block-level element, you'll need to employ the following trick: set the left and right margins to "auto".
