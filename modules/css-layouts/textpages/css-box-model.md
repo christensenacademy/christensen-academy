@@ -70,6 +70,10 @@ padding-bottom: 10px;
 padding-left: 10px;
 ```
 
+###Padding Examples
+
+* [Basic Padding]()
+
 ##Border
 Unlike the other parts of the box model, borders require three values: width (size), color, and style. Surprisingly, specifying the style is essential. You might assume that the default style is a solid line, but in actuality the default style is nothing at all. If you want your borders to show up, make sure you specify the style.
 
