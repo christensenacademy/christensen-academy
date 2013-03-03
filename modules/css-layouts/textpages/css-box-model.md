@@ -5,6 +5,8 @@ The big idea behind the CSS Box Model is that every element on the page is rende
 
 Image taken from the official [CSS 2.1 Specification](http://www.w3.org/TR/CSS21/box.html)
 
+
+
 ##Content (Width and Height)
 The most important thing to understand about the content box is that when specifying `width` and `height` in CSS, you are specifying the dimensions of the content area of the box model.
 
