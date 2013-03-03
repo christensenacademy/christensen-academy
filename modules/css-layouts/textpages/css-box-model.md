@@ -5,7 +5,34 @@ The big idea behind the CSS Box Model is that every element on the page is rende
 
 Image taken from the official [CSS 2.1 Specification](http://www.w3.org/TR/CSS21/box.html)
 
+##Box Model Example
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        background:#555;
+        color:#ddd;
+        width:150px;
+        padding:100px;
+        border:5px solid #222;
+        margin:100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet metus dui. Nunc gravida nibh eget elit dictum dictum. Vivamus posuere ante sit amet neque egestas vehicula. Praesent sollicitudin iaculis diam, nec blandit risus sodales fringilla.</div>
+  </body>
+</html> 
+```
+
+###The HTML and CSS above results in the following webpage:
+
+![an example of the css box model](http://christensenacademy.org/modules/css-basics/textpages/box-model-example.png)
+
+You can also [play around with this example in jsFiddle](http://jsfiddle.net/cameron89/45pLG/).
 
 ##Content (Width and Height)
 The most important thing to understand about the content box is that when specifying `width` and `height` in CSS, you are specifying the dimensions of the content area of the box model.
