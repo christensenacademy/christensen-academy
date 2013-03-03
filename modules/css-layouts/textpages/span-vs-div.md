@@ -35,22 +35,7 @@ Sometimes you may find yourself wanting to add style to an entire *division* or 
 
 ![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-div2.png)
 
-Even a simple layout like this where we're seeing two groups of elements side by side is only possible through the use of `div` elements. Consider the code once more:
-
-```html
-<div> <!-- the outer dark box -->
-  <div> <!-- the left inner box -->
-    <h2>Lorem Ipsum</h2>
-    <p>Lorem ipsum et dolor</p>
-    <p>sit amet verbatum</p>
-  </div>
-  <div> <!-- the right inner box -->
-    <h2>Lorem Ipsum</h2>
-    <p>Lorem ipsum et dolor</p>
-    <p>sit amet verbatum</p>
-  </div>
-</div>
-```
+If you'd like to play around with the code for this example, check out [this jsFiddle](http://jsfiddle.net/cameron89/PNM3a/).
 
 ##Span (Generic Inline Element for Styling a Small Bit of Content)
 
