@@ -39,7 +39,7 @@ The `background-position` property allows you specify the position of the image 
 background-position: left bottom;
 ```
 
-####[jsFiddle](http://jsfiddle.net/cameron89/RByUP/)
+####[jsFiddle](http://jsfiddle.net/cameron89/6nNsJ/)
 
 ##Background Attachment
 
