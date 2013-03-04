@@ -15,9 +15,9 @@ Check it out on [jsFiddle](http://jsfiddle.net/cameron89/6nNsJ/).
 
 ###Background Repeat
 
-The `background-repeat` property has four main values: `no-repeat`, `repeat-x`, `repeat-y`, and `repeat-xy`. The intitial (default) value is `repeat-xy`.
+The `background-repeat` property has four main values: `no-repeat`, `repeat-x`, `repeat-y`, and `repeat`. The intitial (default) value is `repeat`, which repeats the background image in both directions.
 
-#####Example 1: `
+####[jsFiddle](http://jsfiddle.net/cameron89/TVqre/)
 
 ###Creating a Gradient
 
