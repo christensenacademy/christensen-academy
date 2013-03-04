@@ -39,6 +39,8 @@ The `background-position` property allows you specify the position of the image 
 background-position: left bottom;
 ```
 
+![](http://christensenacademy.org/modules/css-layouts/textpages/background-position-examples.png)
+
 ####[jsFiddle](http://jsfiddle.net/cameron89/6nNsJ/)
 
 ##Background Attachment
