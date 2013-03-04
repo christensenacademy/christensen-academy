@@ -46,3 +46,9 @@ background-position: left bottom;
 **Note:** It's possible to be much more precise with the background position property by specifying x and y values instead (e.g., `background-position: 30% 25px;`). Here's a [jsFiddle example](http://jsfiddle.net/cameron89/scgK9/) demonstrating a nifty use of this feature.
 
 ##Background Shorthand
+
+Instead of setting all of the background properties separately, it's possible to set them all at once as follows:
+
+
+
+**A word of caution:** Using the shorthand property will automatically override any other background properties you may have set. So, if you do something like `background:orange` and are confused why your background image is no longer working, you'll either want to use the `background` property to set both your image and the background color, or you should just avoid using the shorthand property.
