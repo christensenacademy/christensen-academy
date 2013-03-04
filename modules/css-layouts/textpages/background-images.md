@@ -15,7 +15,11 @@ Check it out on [jsFiddle](http://jsfiddle.net/cameron89/6nNsJ/).
 
 ###Background Repeat
 
-####Creating a Gradient
+The `background-repeat` property has four main values: `no-repeat`, `repeat-x`, `repeat-y`, and `repeat-xy`. The intitial (default) value is `repeat-xy`.
+
+#####Example 1: `
+
+###Creating a Gradient
 
 ###Background Position
 
