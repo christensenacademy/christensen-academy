@@ -33,7 +33,11 @@ Further consider what this would look like if we could specify a background colo
 
 ##Background Position
 
-The `background-position` property allows you to alter where
+The `background-position` property allows you specify the position of the image within the element. You can specify one or two of the following values to indicate where you would like the image to be positioned: `left`, `right`, `top`, `center`, `bottom`. If you only specify a single value, the other value is assumed to be `center`.
+
+```css
+background-position: left bottom;
+```
 
 ##Background Attachment
 
