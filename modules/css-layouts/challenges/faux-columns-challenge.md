@@ -1,6 +1,6 @@
 #Faux Columns Challenge
 
-**Estimated Time:** 40 minutes
+**Estimated Time:** 25 minutes
 
 Your challenge is to achieve the result shown in the picture below without setting an explicit height for the "container", the "main", or the "column". Everything should automatically grow or shrink to accommodate more or less content that what's shown in the picture.
 
