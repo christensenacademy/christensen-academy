@@ -1,6 +1,6 @@
 #Basic Layout Challenge 3
 
-**Estimated Time:** 60 minutes
+**Estimated Time:** 45 minutes
 
 Here is a picture of what the final product should look like:
 
