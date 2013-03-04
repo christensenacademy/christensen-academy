@@ -46,7 +46,7 @@
   </head>
   <body>
     <div id="gradient">
-      <h1>Lorem Ipsum</h1>
+      <h1><img href="">Lorem Ipsum</h1>
     </div>
     <div id="horizontal-repeat"></div>
     <div id="vertical-repeat"></div>
