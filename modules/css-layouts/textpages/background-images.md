@@ -11,7 +11,7 @@ background-image: url("lorem.png");
 
 ###Background Repeat
 
-The `background-repeat` property has four main values: `no-repeat`, `repeat-x`, `repeat-y`, and `repeat`. The intitial (default) value is `repeat`.
+The `background-repeat` property has four main values: `no-repeat`, `repeat-x`, `repeat-y`, and `repeat`. The intitial (default) value is `repeat`. Example: `background-repeat: no-repeat;`.
 
 ![](http://christensenacademy.org/modules/css-layouts/textpages/background-repeat-examples.png)
 
