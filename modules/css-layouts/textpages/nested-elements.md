@@ -1,6 +1,6 @@
 #Nested Elements (Boxes in Boxes)
 
-One key idea with the CSS box model is that child elements display inside the content box of their parents. Consider the following example, which uses nested `div` elements.
+One key idea with the CSS box model is that child elements display inside the content box of their parents. Consider the example below or on [jsFiddle](http://jsfiddle.net/cameron89/WWCuA/), which uses nested `div` elements.
 
 ```html
 <div class="parent">
