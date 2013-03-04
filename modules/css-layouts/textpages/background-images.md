@@ -9,7 +9,7 @@ background-image: url("lorem.png");
 
 ####[jsFiddle](http://jsfiddle.net/cameron89/6nNsJ/)
 
-###Background Repeat
+##Background Repeat
 
 The `background-repeat` property has four main values: `no-repeat`, `repeat-x`, `repeat-y`, and `repeat`. The intitial (default) value is `repeat`. Example: `background-repeat: no-repeat;`.
 
@@ -17,7 +17,7 @@ The `background-repeat` property has four main values: `no-repeat`, `repeat-x`, 
 
 ####[jsFiddle](http://jsfiddle.net/cameron89/TVqre/)
 
-####Creating a Gradient
+###Creating a Gradient
 
 ![](http://christensenacademy.org/modules/css-layouts/textpages/gradient.png)
 
@@ -31,10 +31,10 @@ Further consider what this would look like if we could specify a background colo
 
 ####[jsFiddle](http://jsfiddle.net/cameron89/RByUP/)
 
-###Background Position
+##Background Position
 
 The `background-position` property allows you to alter where
 
-###Background Attachment
+##Background Attachment
 
-###Background Shorthand
+##Background Shorthand
