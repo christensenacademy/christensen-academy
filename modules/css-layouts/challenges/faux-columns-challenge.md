@@ -2,7 +2,7 @@
 
 **Estimated Time:** 25 minutes
 
-Your challenge is to achieve the result shown in the picture below without setting an explicit height for the "container", the "main", or the "column". Everything should automatically grow or shrink to accommodate more or less content that what's shown in the picture.
+Your challenge is to achieve the result shown in the picture below without setting an explicit height for the "container", the "main", or the "column". Everything should automatically grow or shrink to accommodate more or less content than what's shown in the picture.
 
 In addition, you must create your column using a float, not absolute positioning.
 
