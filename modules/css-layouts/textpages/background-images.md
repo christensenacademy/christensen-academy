@@ -7,7 +7,7 @@ background-image: url("lorem.png");
 
 ![](http://christensenacademy.org/modules/css-layouts/textpages/background-image-example.png)
 
-#####[jsFiddle](http://jsfiddle.net/cameron89/6nNsJ/)
+####[jsFiddle](http://jsfiddle.net/cameron89/6nNsJ/)
 
 ###Background Repeat
 
@@ -15,7 +15,7 @@ The `background-repeat` property has four main values: `no-repeat`, `repeat-x`, 
 
 ![](http://christensenacademy.org/modules/css-layouts/textpages/background-repeat-examples.png)
 
-#####[jsFiddle](http://jsfiddle.net/cameron89/TVqre/)
+####[jsFiddle](http://jsfiddle.net/cameron89/TVqre/)
 
 ####Creating a Gradient
 
@@ -29,6 +29,7 @@ Further consider what this would look like if we could specify a background colo
 
 ![](http://christensenacademy.org/modules/css-layouts/textpages/background-gradient-2.png)
 
+####[jsFiddle](http://jsfiddle.net/cameron89/RByUP/)
 
 ###Background Position
 
