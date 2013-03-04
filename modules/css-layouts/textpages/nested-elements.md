@@ -31,5 +31,5 @@ div {
 .child {background:#555;}
 .grandchild {background:#888;}
 ```
-
+###The Result Looks Like This:
 ![a picture showing how elements are nested on a webpage](http://christensenacademy.org/modules/css-layouts/textpages/nested-elements.png)
