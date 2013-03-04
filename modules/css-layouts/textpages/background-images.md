@@ -11,7 +11,7 @@ Using a background image allows you to put other content over the top.
 
 ![](http://christensenacademy.org/modules/css-layouts/textpages/background-image-example.png)
 
-Check it out on [jsFiddle](http://jsfiddle.net/cameron89/6nNsJ/).
+####[jsFiddle](http://jsfiddle.net/cameron89/6nNsJ/).
 
 ###Background Repeat
 
