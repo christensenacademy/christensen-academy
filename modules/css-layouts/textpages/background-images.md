@@ -13,7 +13,7 @@ background-image: url("lorem.png");
 
 ###Background Repeat
 
-The `background-repeat` property has four main values: `no-repeat`, `repeat-x`, `repeat-y`, and `repeat`. The intitial (default) value is `repeat`, which repeats the background image in both directions.
+The `background-repeat` property has four main values: `no-repeat`, `repeat-x`, `repeat-y`, and `repeat`. The intitial (default) value is `repeat`, which repeats the background image in both directions. The other values should be self-explanatory.
 
 ####[jsFiddle](http://jsfiddle.net/cameron89/TVqre/)
 
