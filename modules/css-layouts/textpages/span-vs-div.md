@@ -58,10 +58,6 @@ In the example above, the word "feugiat" would display in the color red on the w
 
 Notice how a span element is useful when you want to apply CSS specifically to just a small bit of content.
 
-Also notice how span elements are inline elements and don't display on a new line as block elements would. For example, here's what would happen if you changed the span tags to div tags in the previous example:
-
-![](http://christensenacademy.org/modules/css-layouts/textpages/purpose-of-span2.png)
-
 ##Semantics
 `<span>` elements are generic inline elements, while `div` elements are generic block-level elements. I say they're "generic" elements because they don't carry any special *semantic meaning*.
 
