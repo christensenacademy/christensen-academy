@@ -2,7 +2,7 @@
 
 **Time:** 60 minutes (exact)
 
-Your challenge is to correctly solve as many of the following problems as you can in 40 minutes. To be considered correct, each answer must be free of error and display proper indentation. Partially correct answers will be given no credit.
+Your challenge is to correctly solve as many of the following problems as you can in 60 minutes. To be considered correct, each answer must be free of error and exhibit proper indentation. Partially correct answers will be given no credit.
 
 ##Inline
 
