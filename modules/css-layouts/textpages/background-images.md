@@ -43,6 +43,6 @@ background-position: left bottom;
 
 ####[jsFiddle](http://jsfiddle.net/cameron89/6nNsJ/)
 
-##Background Attachment
+**Note:** It's possible to be much more precise with the background position property by specifying x and y values instead (e.g., `background-position: 30% 25px;`). Here's a [jsFiddle example](http://jsfiddle.net/cameron89/scgK9/).
 
 ##Background Shorthand
