@@ -1,4 +1,4 @@
-#CSS Basics: Review Contest 1
+#CSS Basics: Review Contest
 
 **Time:** 60 minutes (exact)
 
