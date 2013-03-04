@@ -1,6 +1,16 @@
 #Selectors Challenge
 
-**Estimated Time:** 10 minutes, assuming you already know how basic and complex selectors work.
+**Estimated Time:** 10 minutes
+
+**Prerequisite Knowledge:**
+
+* CSS comments
+* Element selectors
+* Class and id selectors
+* Complex selectors
+  * Descendent selectors
+  * Multiple selectors
+* Pseudo classes (for hover effects)
 
 Your challange is to add selectors to the CSS rules in the following webpage. Comments have been left above each rule explaining what elements each rule should apply to.
 
@@ -13,30 +23,40 @@ Your challange is to add selectors to the CSS rules in the following webpage. Co
     <title>Lorem Ipsum</title>
     <meta charset="utf-8">
     <style>
-      /* this rule should be applied to all paragraph elements */
+    
+      /* the following rule should be applied to all paragraph elements */
+      
       {
         font-style:italic;
         color:green;
       }
       
-      /* this rule should be applied to the element with the id super-important-element */
+      
+      /* the following rule should be applied to the element with the id super-important-element */
+      
       {
         font-size:300%;
       }
       
-      /* this rule should be applied to all elements of class big-yellow and all list items */
+      
+      /* the following rule should be applied to all elements of class big-yellow and all list items */
+      
       {
         background:yellow;
         color:black;
       }
       
-      /* this rule should be applied to all h1 elements when the mouse is hovering over them */
+      
+      /* the following rule should be applied to all h1 elements when the mouse is hovering over them */
+      
       {
         background:green;
         color:white;
       }
       
-      /* this rule should be applied to all list items that are descendents of ordered lists */
+      
+      /* the following rule should be applied to all list items that are descendents of ordered lists */
+      
       {
         color:white;
         background:yellow;

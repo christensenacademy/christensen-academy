@@ -19,6 +19,7 @@ $module_videos = array(
   new video('TsXaXscBspM', 'CSS Introduction'),
   new video('g3brTMhg6H0', 'Inline, Embedded (Internal), and External CSS'),
   new video('SPp_hKEpMeQ', 'Internal and External CSS Equivalency'),
+  # Extra whitespace doesn't matter
   new video('eIkDr8r2gRw', 'Comments'),
   new video('d_v322FfpXM', 'Inheritance'),
   new video('1v4ncJ9hjHc', 'CSS Validator Intro'),
@@ -40,7 +41,7 @@ $module_textpages = array(
   new textpage('rules-selectors-properties-values.md', 'Rules, Selectors, Properties, and Values'),
   new textpage('classes-and-ids.md', 'Classes and IDs'),
   new textpage('complex-selectors.md', 'Complex Selectors'),
-  new textpage('hover-effects.md', 'Hover Effects'),
+  new textpage('hover-effects.md', 'Hover Effects'), # should be "pseudo classes"
   new textpage('colors.md', 'Colors'),
   new textpage('px-pt-percent-em.md', 'px, pt, %, and em'),
   new textpage('the-cascade.md', 'The Cascade'),

@@ -1,10 +1,16 @@
 #Color Challenge
 
-**Estimated Time:** 25 minutes, assuming you understand how external CSS works, how `class` and `id` attributes work, and how CSS styles are inherited from parents.
+**Estimated Time:** 25 minutes
 
-Your challenge is to create two webpages that look like the following pictures making sure to use **as little CSS as possible**.
+**Prerequisite Knowledge:**
 
-**Note:** Using as little CSS as possible means that you'll have to be smart about how you choose class and id names for your elements. It also means you should think carefully about which type of CSS you should use. Subtle Hint: **USE THE SAME EXTERNAL CSS FILE FOR BOTH PAGES.**
+* External CSS
+* Class `class` and `id` attributes and selectors
+* Inheritance of CSS properties from parents to children.
+
+Your challenge is to create two webpages that look like the following pictures. Make sure to use **as little CSS as possible**.
+
+**Note:** Using as little CSS as possible means that you'll have to be smart about how you assign classes and ids to your elements. It also means you should think carefully about which type of CSS you should use. Subtle hint: **USE THE SAME EXTERNAL CSS FILE FOR BOTH PAGES.**
 
 ###Page 1
 ![The first HTML file](http://christensenacademy.org/modules/css-basics/challenges/color-challenge-page-1.png)

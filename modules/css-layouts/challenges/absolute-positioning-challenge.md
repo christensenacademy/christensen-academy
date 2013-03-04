@@ -1,16 +1,19 @@
 #Absolute Positioning Challenge
 
-* **Challenge:** Use absolute positioning to create a webpage that looks like the picture below.
-* **Estimated Time:** 25 minutes
+**Estimated Time:** 25 minutes
 
-**NOTE:** You must make sure that *position:relative* is set on the big black box so that the four absolutely positioned elements stay inside of it. In my opinion, this is a wierd part of CSS. By default, absolutely positioned elements will position themselves with respect to the entire window unless they are children of a relatively or absolutely positioned element.
+**Prerequisite Knowledge:**
+
+* Absolute and relative positioning basics
 
 ##Finished Page Should Look like This
 ![](http://christensenacademy.org/modules/css-layouts/challenges/absolute-positioning-challenge.png)
 
+**Note:** You must make sure that `position:relative` or `position:absolute` is set on the big black box so that the four absolutely positioned elements stay inside of it. In my opinion, this is a wierd part of CSS. By default, absolutely positioned elements will position themselves with respect to the entire window unless they are children of a relatively or absolutely positioned element.
+
 ###What the Image does not Show
 
-As the browser window resizes:
+As the browser window resizes...
 
 * the four black boxes stay in the four corners of the browser window.
 * the big black box stays centered on the page.

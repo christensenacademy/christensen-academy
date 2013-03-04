@@ -1,52 +1,74 @@
 #CSS Box Model
-The big idea behind the CSS Box Model is that every element on the page is rendered by the browser as a box (rectangle) composed of four components: content, padding, border, and margin. Understanding the box model is essential to understanding how elements display on pages, which will ultimately help you to create nice page layouts.
+The big idea behind the CSS Box Model is that **every element** on the page--`<h2>`, `<p>`, `<ul>`, `<img>`,`<div>`,  `<span>`, and so on--is rendered by the browser as a box (rectangle) composed of four components: content, padding, border, and margin. Understanding the box model is essential to understanding how elements display on pages, which will ultimately help you to create nice page layouts.
 
 ![Box Model Diagram](http://www.w3.org/TR/CSS2/images/boxdim.png)
 
 Image taken from the official [CSS 2.1 Specification](http://www.w3.org/TR/CSS21/box.html)
 
-##Content
-In HTML, we think of elements as having an opening tag (e.g., `<p>`), some content, and a closing tag (e.g., `</p>`). In the case of the paragraph element, the content would be some text. While this is true, when speaking about the CSS box model, we use the word "content" to specifically refer to the box surrounding, in this case, the paragraph.
+##Box Model Example
 
-When specifying width and height in CSS, you are specifying the dimensions of the content area of the box model.
-
-**Note:** Height by default is auto, which means that an element will be only tall enough to hold the stuff inside it. If there's no stuff inside it, its height will be zero.
-
-**Note:** Width by default is auto, which means that an element will be as wide as its parent. This is close to the same as setting the width to be 100%, but not quite. Experiment with the two to discover the subtle differences.
-
-####HTML
 ```html
-<body>
-  <h1>Lorem Ipsum</h1>
-  <p>
-    Donec vehicula felis eget nibh consequat aliquet. Proin purus nisi, porttitor ac tincidunt in, consectetur 
-    eu nisi. Donec et sodales leo. Nullam enim nunc, viverra in pellentesque vitae, placerat elementum tortor.
-  </p>
-  <div></div>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        background:#555;
+        color:#ddd;
+        width:150px;
+        padding:100px;
+        border:5px solid #222;
+        margin:100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet
+    metus dui. Nunc gravida nibh eget elit dictum dictum. Vivamus posuere ante
+    sit amet neque egestas vehicula. Praesent sollicitudin iaculis diam, nec
+    blandit risus sodales fringilla.</div>
+  </body>
+</html> 
 ```
 
-####CSS
-```css
-h1 {width: auto; height: 100px;} /* width of auto means that the element is the size of the parent element */
-p {width: 50%;} /* percents are based off of the width of the parent element. */
-div {background: green; height: auto;} /* since the div has no content, the height will become zero */
-```
+###The HTML and CSS above results in the following webpage:
+
+![an example of the css box model](http://christensenacademy.org/modules/css-layouts/textpages/box-model-example.png)
+
+You can also [play around with this example in jsFiddle](http://jsfiddle.net/cameron89/45pLG/).
+
+##Content (Width and Height)
+The most important thing to understand about the content box is that when specifying `width` and `height` in CSS, you are specifying the dimensions of the content area of the box model.
+
+The initial (default) values of the CSS `height` and `width` properties are `auto`. In the case of width, this means that the element will be as wide as possible. In the case of height, this means that the element will be as short as possible.
+
+Width can be specified as pixels or percents (e.g., `width:30%` or `height:400px`). Percents are generally based on the width of the parent element. Because such values change as the browser resizes, percents are said to be "fluid." On the other hand, pixel values never change, and are thus said to be "fixed."
+
+Height, on the other hand, is really only specified in pixels. Note: normally it is best to leave the `height` property at its default value of `auto`.
+
+###Examples
+
+* [Width](http://jsfiddle.net/cameron89/GbwFJ/)
+* [Height](http://jsfiddle.net/cameron89/qHLQC/)
+* [Width and Height Don't Work for Inline Elements](http://jsfiddle.net/cameron89/wL64c/)
 
 ##Margin
 Margins create empty space on the outside of an element. Margins can be specified in the following ways:
 
 ```css
-margin: 0 10px 30px 10px; /* top, right, bottom, left */
-margin: 10px auto; /* top-bottom, left-right */
-margin: 10px; /* applies to all margins */
+/* shorthand versions */
+margin: 10px; /* applies to all margins (top, right, bottom, and left) */
+margin: 0 10px 20px 30px; /* top right bottom left */
+margin: 0 10px 10px; /* top right-left bottom */
+margin: 10px auto; /* top-bottom right-left */
+
+/* "regular," single-property versions */
 margin-top: 10px;
 margin-right: 10px;
 margin-bottom: 10px;
 margin-left: 10px;
 ```
 
-###Centering Elements
 Centering text (and inline elements) can be done using the text-align property, but if you want to center an entire block-level element, you'll need to employ the following trick: set the left and right margins to "auto".
 
 ```css
@@ -54,10 +76,18 @@ margin-left:auto;
 margin-right:auto;
 ```
 
-I usually just use the shorthand property `margin: 0 auto;`.
+**Note:** I usually just use the shorthand property `margin: 0 auto;` to center elements.
 
-###Collapsing Margins
-When margins from different elements "touch" each other vertically, they collapse. This makes some sense when the two margins come from sibling elements, but when the touching margins are in a parent-child relationship, this "feature" of CSS doesn't make much sense (in my humble opinion).
+When margins from different elements "touch" each other vertically, they "collapse," which basically means that the two margins merge together. This leads to some strange and confusing situations (see example below).
+
+###Margin Examples
+
+* [Basic Margins](http://jsfiddle.net/cameron89/bmEWU/)
+* [Centering Elements](http://jsfiddle.net/cameron89/C3prj/)
+* [Collapsing Margins: Adjacent Siblings](http://jsfiddle.net/cameron89/tA9tn/)
+* [Collapsing Margins: Parent-Child](http://jsfiddle.net/cameron89/RUPUZ/)
+* [Collapsing Margins: Empty Block](http://jsfiddle.net/cameron89/nUjhK/)
+
 
 ##Padding
 The important thing to remember about padding is that it displays the background color (or image) of the element. Use padding when you want some extra space between the content and border of an element.
@@ -72,16 +102,35 @@ padding-bottom: 10px;
 padding-left: 10px;
 ```
 
+###Padding Examples
+
+* [Basic Padding](http://jsfiddle.net/cameron89/m6RF5/)
+
 ##Border
-Unlike the other parts of the box model, borders require three values: width (size), color, and style. Surprisingly, specifying the style is essential. You might assume that the default style is a solid line, but in actuality the default style is nothing at all. If you want your borders to show up, make sure you specify the style.
+Unlike the other parts of the box model, borders require three properties: width (size), color, and style. If a color is not specified, the color of the text (i.e., the `color` property) will be used. However, border style and width must be explicity specified or the border will not show up. You might assume that the default style is a solid line, but in actuality the default style is nothing at all.
 
 ```css
-border-width: 5px; /* individual properties follow form border-top-width */
-border-color: #FF00C8; /* individual properties follow form border-top-color */
-border-style: dotted; /* other values: dashed, solid, double, groove, ridge, inset, outset */
-border: 10px #AB0477 solid; /* shorthand property applies to all borders (order doesn't matter) */
+/* This shorthand property applies to all four borders
+   and allows you to specify width, color, and style all at once. */
+border: 10px #AB0477 solid;
+
+/* These shorthand properties allow you to specify width, color, and style for an individual border. */
 border-top: 10px #AB0477 solid;
 border-right: 10px #AB0477 solid;
 border-bottom: 10px #AB0477 solid;
 border-left: 10px #AB0477 solid;
+
+/* These let you set a single property for all four borders. */
+border-width: 5px; 
+border-color: #FF00C8;
+border-style: dotted;
+
+/* These let you set a single property for a single border. */
+border-left-style: solid;
+border-left-width: 5px;
+border-left-color: #444;
 ```
+
+###Border Examples
+
+* [Basic Borders](http://jsfiddle.net/cameron89/yYWHh/)

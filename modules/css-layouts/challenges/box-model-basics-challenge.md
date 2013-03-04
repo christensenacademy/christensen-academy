@@ -1,7 +1,17 @@
 #Box Model Basics Challenge
 
-* **Challenge:** Make a webpage (shown below) that exercises your understanding of the CSS box model.
-* **Estimated Time:** 25 minutes.
+**Estimated Time:** 60 minutes
+
+**Prerequisite Knowledge:** There's a lot you need to know for this first challenge...
+
+* `span` and `div` elements
+* Box model basics
+* Width and height of elements
+* `%` vs. `px` vs. `auto` for widths and heights
+* Margins
+* Padding
+* Borders
+* How to center elements
 
 ###Make a Webpage that Looks like This 
 
@@ -9,15 +19,18 @@
 
 ####What the Picture doesn't Show
 
-* The top box adjusts its width as the browser resizes. Its width was clearly not specified using a pixel value...
-* The margin on the right of the dotted box always stays exactly the same size as the browser adjusts size. 
-* The bottom white box appears to be centered, but when the browser width adjusts, the margin on the left of the white box always stays the same.
-* The height of the dotted box is fixed. If the width of the browser becomes too small, text begins to spill out the bottom of this box--we call this overflow.
+* The `h1` box adjusts its width as the browser resizes (i.e., its width is specified as a percent).
+* The left and right margins on the `h1` box also resize as the browser width adjusts (i.e., they must be specified as `auto`, which is the default).
+* The margin on the right of the `p` box always stays exactly the same size as the browser adjusts size. 
+* The `div` box appears to be centered, but when the browser width adjusts, the margin on its left always stays the same.
+* The height of the `p` box is fixed. If the width of the browser becomes too small, text begins to spill out the bottom of this box--we call this overflow.
 
 ###Friendly Advice
-While you should focus on precise replication of the picture above, don't forget to experiment as you go. Even if you miraculously get things to work the first time around, test yourself and your knowledge of how the box model works by trying something different. Take time to play around with things and really figure out how they work.
+Don't forget to experiment as you go. Even if you miraculously get things to work the first time around, test yourself and your knowledge of how the box model works by trying something different. Take time to play around with things and really figure out how they work.
 
 ###Starter Code
+
+**Note:** You do not need to alter the HTML in this code. All you need to do is write CSS.
 
 ```html
 <!DOCTYPE html>

@@ -1,10 +1,16 @@
 #Three Types of CSS Challenge
 
-**Estimated Time:** 20 minutes, assuming you already have a basic understanding of the three different types of CSS.
+**Estimated Time:** 20 minutes
+
+**Prerequisite Knowledge:**
+
+ * How to write basic inline CSS
+ * How to write basic embedded CSS
+ * How to write basic external CSS
 
 Your challenge is to develop a webpage that uses all three types of CSS.
 
-Start by making a new HTML file (named *3types.html*) using the following code:
+Start by making a new HTML file *(3types.html)* using the following code:
 
 ```html
 <!DOCTYPE html>
@@ -33,16 +39,20 @@ Start by making a new HTML file (named *3types.html*) using the following code:
 Once you have the code above saved to an HTML file, add inline, embedded, and external CSS to this webpage in the following manner:
 
 ###Inline
-Turn the background color of the body element blue. Turn the text of the h1 element white.
+
+* Turn the background color of the body element blue.
+* Turn the text of the h1 element white.
 
 ###Embedded
-Turn the background color of the h1 orange. Turn the background color of the paragraphs white.
+
+* Turn the background color of the h1 orange.
+* Turn the background color of the paragraphs white.
 
 ###External
 
 **Note:** You'll need to make a CSS file. I recommend naming it *3types.css*.
 
-Turn the color of the paragraphs red.
+* Turn the color of the paragraphs red.
 
 ##Portfolio
-At the completion of this challenge, you should have an HTML file named **3types.html** and a CSS file named **3types.css**. I recommend keeping all completed challenges for this module in a folder named css-basics. If you want to, you could also make a separate folder exclusively for this challenge.
+At the completion of this challenge, you should have an HTML file named `3types.html` and a CSS file named `3types.css`. I recommend keeping all completed challenges for this module in a folder named `css-basics`. If you want to, you could also make a separate subfolder named `3types` exclusively for this challenge.
