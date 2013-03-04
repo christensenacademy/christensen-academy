@@ -7,8 +7,6 @@ You can get a background image to display by using the `background-image` CSS pr
 background-image: url("lorem.png");
 ```
 
-Using a background image allows you to put other content over the top.
-
 ![](http://christensenacademy.org/modules/css-layouts/textpages/background-image-example.png)
 
 ####[jsFiddle](http://jsfiddle.net/cameron89/6nNsJ/)
