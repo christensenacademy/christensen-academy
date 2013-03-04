@@ -1,3 +1,0 @@
-#Simple Menu
-
-DOCUMENT UNFINISHED

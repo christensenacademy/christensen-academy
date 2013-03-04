@@ -1,2 +1,0 @@
-#Multi-Column Layout
-DOCUMENT UNFINISHED

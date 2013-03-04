@@ -58,15 +58,12 @@ $module_videos = array(
 $module_textpages = array(  
   new textpage('span-vs-div.md', 'Span vs. Div'),
   new textpage('css-box-model.md', 'CSS Box Model'),
-  # new textpage('background-images.md', 'Background Images'),
-  # new textpage('normal-flow-block-vs-inline.md', 'Normal Flow (Block vs. Inline)'),
-  # new textpage('relative-positioning.md', 'Relative Positioning'),
-  # new textpage('absolute-positioning.md', 'Absolute Positioning'),
-  # new textpage('floating-elements.md', 'Floating Elements'),
-  # new textpage('simple-menu.md', 'Simple Menu'),
-  # new textpage('single-column-layout.md', 'Single-Colum Layout'),
-  # new textpage('multi-column-layout.md', 'Multi-Colum Layout'),
-  # new textpage('example-page-layout.md', 'Example Page Layout'),
+  new textpage('nested-elements.md', 'Nested Elements (Boxes in Boxes)'),
+  new textpage('background-images.md', 'Background Images'),
+  new textpage('css-positioning-intro.md', 'CSS Positioning Intro'),
+  new textpage('position-relative.md', 'Position Relative'),
+  new textpage('position-absolute.md', 'Position Absolute'),
+  new textpage('float.md', 'Float'),
   new textpage('quick-reference.md', 'Quick Reference'),
 );
 
