@@ -15,10 +15,9 @@ background-image: url("lorem.png");
 
 The `background-repeat` property has four main values: `no-repeat`, `repeat-x`, `repeat-y`, and `repeat`. The intitial (default) value is `repeat`, which repeats the background image in both directions. The other values should be self-explanatory.
 
+![](http://christensenacademy.org/modules/css-layouts/textpages/background-repeat-examples.png)
+
 #####[jsFiddle](http://jsfiddle.net/cameron89/TVqre/)
-
-#####Examples of `background-repeat`
-
 
 ###Creating a Gradient
 
