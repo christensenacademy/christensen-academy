@@ -47,8 +47,10 @@ background-position: left bottom;
 
 ##Background Shorthand
 
-Instead of setting all of the background properties separately, it's possible to set them all at once as follows:
+Are you getting tired of setting all of the background properties separately? It's possible to set them all at once as follows:
 
-
+```css
+.ipsum {background:#222 url('lorem.png') no-repeat right top;}
+```
 
 **A word of caution:** Using the shorthand property will automatically override any other background properties you may have set. So, if you do something like `background:orange` and are confused why your background image is no longer working, you'll either want to use the `background` property to set both your image and the background color, or you should just avoid using the shorthand property.
