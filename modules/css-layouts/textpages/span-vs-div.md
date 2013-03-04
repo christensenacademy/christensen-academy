@@ -1,6 +1,6 @@
 #Span vs. Div
 
-`<span>` elements are generic inline elements, while `div` elements are generic block-level elements.
+`<span>` elements are generic inline elements, while `div` elements are generic block-level elements. `div` elements are especially important for creating page layouts.
 
 ###Quick Explanation of Block-Level and Inline
 
