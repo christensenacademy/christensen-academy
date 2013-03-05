@@ -13,4 +13,4 @@ right: 20px;
 
 ####[jsFiddle](http://jsfiddle.net/cameron89/kMah2/)
 
-**Note:** The `top`, `right`, `bottom`, and `left` properties behave opposite of what you might expect. Specifying `right:20px`, for example, actually shifts the element 20 pixels to the left. This actually makes sense if you think of the element **moving inwards from the right** instead of **moving to the right**. This logic is consistent with the way absolute positioning works. Quite frankly, absolute positioning make more intuitive sense than relative positioning with its use of `top`, `right`, `bottom`, and `left`.
+**Note:** The `top`, `right`, `bottom`, and `left` properties behave opposite of what you might expect. Specifying `right:20px`, for example, actually shifts the element 20 pixels to the left. This actually makes sense if you think of the element **moving inwards from the right** instead of **moving to the right**.
