@@ -23,7 +23,7 @@ Absolute positioning can be tricky for two reasons:
 
 
 ###Float Intro (Remove from Normal Flow and "Float" to Either Side)
-The basic idea behind a floating element is that it can "float" to either the right or left side of the page. This turns out to be exceptionally useful but somewhat difficult to explain in a brief paragraph. Like absolute positioning, a floating element is removed from normal flow. Unlike absolute positioning, a floating element has a direct impact on subsequent elements.
+The basic idea behind a floating element is that it can "float" to either the right or left side of the page. This turns out to be exceptionally useful but somewhat difficult to explain in a brief paragraph. Like absolute positioning, a floating element is removed from normal flow. Unlike absolute positioning, a floating element has a direct impact on subsequent elements. Mastering floats is (in my opinion) even trickier than mastering absolute positioning.
 
 ####[jsFiddle](http://jsfiddle.net/cameron89/r5GEZ/)
 
