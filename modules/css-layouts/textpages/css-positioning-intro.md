@@ -19,7 +19,7 @@ Absolute positioning can be tricky for two reasons:
 1. Using absolute positioning on an element impacts how the subsequent elements display. Basically, subsequent elements display as if the absolutely positioned element never existed.
 2. Instead of shifting an element out of its position in normal flow, an absolutely positioned element is positioned with respect to its nearest parent that has absolute or relative positioning.
 
-####[jsFiddle]()
+####[jsFiddle](http://jsfiddle.net/cameron89/uTS92/)
 
 
 ###Float Intro
