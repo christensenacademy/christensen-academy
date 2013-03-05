@@ -23,7 +23,7 @@ Absolute positioning can be tricky for two reasons:
 
 
 ###Float Intro
-This is the easiest type of positioning to understand because the relatively positioned element is simply shifted from its regular position. This has absolutely no impact on the surround elements, which makes relative positioning the most straightforward type of positioning.
+The basic idea behind a floating element is that it can "float" to either the right or left side of the page. This turns out to be exceptionally useful but somewhat difficult to explain in a brief paragraph, so I'll leave it at that for now.
 
-####[jsFiddle]()
+####[jsFiddle](http://jsfiddle.net/cameron89/r5GEZ/)
 
