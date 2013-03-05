@@ -37,7 +37,7 @@
         background: url("gradient.png") repeat-x;
         width:auto;
       }
-      #horizontal-repeat {background-repeat:repeat-x;}
+      #horizontal-repeat {}
       #vertical-repeat {}
       #both-repeat {}
       #top-center-position {width:auto;}
@@ -46,7 +46,7 @@
   </head>
   <body>
     <div id="gradient">
-      <h1><img href="">Lorem Ipsum</h1>
+      <h1><img src="">Lorem Ipsum</h1>
     </div>
     <div id="horizontal-repeat"></div>
     <div id="vertical-repeat"></div>
