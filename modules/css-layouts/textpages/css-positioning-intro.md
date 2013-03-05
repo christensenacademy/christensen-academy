@@ -21,7 +21,7 @@ Absolute positioning more or less gives you the ability to remove an element fro
 ####[jsFiddle](http://jsfiddle.net/cameron89/uTS92/)
 
 ###Float Intro (Remove from Normal Flow and "Float" to Either Side)
-Floating elements are a great tool for creating page layouts. The basic idea behind a floating element is that it can "float" to either the right or left side of the page. Similar to how things work with absolute positioning, a floating element is removed from normal flow. Unlike how things work with absolute positioning, floating elements interact with their surroundings in interesting (and sometimes confusing) ways.
+Floating elements are a great tool for creating page layouts. In the example above, the menu was created using a bunch of floating elements. The basic idea behind a floating element is that it can "float" to either the right or left side of the page. Similar to how things work with absolute positioning, a floating element is removed from normal flow. Unlike how things work with absolute positioning, floating elements interact with their surroundings in interesting (and sometimes confusing) ways.
 
 ####[jsFiddle](http://jsfiddle.net/cameron89/r5GEZ/)
 
