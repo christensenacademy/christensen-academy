@@ -14,7 +14,10 @@ Relative positioning is the simplest type of positioning to understand. When usi
 ####[jsFiddle](http://jsfiddle.net/cameron89/kMah2/)
 
 ###Absolute Positioning Intro
-This is the easiest type of positioning to understand because the relatively positioned element is simply shifted from its regular position. This has absolutely no impact on the surround elements, which makes relative positioning the most straightforward type of positioning.
+Absolute positioning can be tricky for two reasons:
+
+1. Using absolute positioning on an element impacts how the subsequent elements display. Basically, subsequent elements display as if the absolutely positioned element never existed.
+2. Instead of shifting an element out of its position in normal flow, an absolutely positioned element is positioned with respect to its nearest parent that has absolute or relative positioning.
 
 ####[jsFiddle]()
 
