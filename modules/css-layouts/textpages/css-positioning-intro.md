@@ -8,22 +8,22 @@ There are several positioning techniques to learn, such as how to use floating e
 
 I like to think of normal flow this way: each (block-level) element is actively trying to get as far up and left as possible without overlapping the elements that came before it.
 
-###Relative Positioning Intro
+###Relative Positioning Intro (Shift from Normal Flow)
 Relative positioning is the simplest type of positioning to understand. When using relative positioning on an element, the only element affected is the element you're moving around. Basically, all relative positioning involves is shifting an element (up, right, down, or left) from its position in normal flow. Other elements behave as if the repositioned element were still in its regular position in normal flow.
 
 ####[jsFiddle](http://jsfiddle.net/cameron89/kMah2/)
 
-###Absolute Positioning Intro
+###Absolute Positioning Intro (Remove from Normal Flow and Position Inside Parent)
 Absolute positioning can be tricky for two reasons:
 
-1. Using absolute positioning on an element impacts how the subsequent elements display. Basically, subsequent elements display as if the absolutely positioned element never existed.
+1. Using absolute positioning on an element impacts how the subsequent elements display because the element is removed entirely from normal flow. Basically, subsequent elements display as if the absolutely positioned element never existed.
 2. An absolutely positioned element is positioned with respect to the edges of its nearest parent that has absolute or relative positioning.
 
 ####[jsFiddle](http://jsfiddle.net/cameron89/uTS92/)
 
 
-###Float Intro
-The basic idea behind a floating element is that it can "float" to either the right or left side of the page. This turns out to be exceptionally useful but somewhat difficult to explain in a brief paragraph, so I'll leave it at that for now.
+###Float Intro (Remove from Normal Flow and "Float" to Either Side)
+The basic idea behind a floating element is that it can "float" to either the right or left side of the page. This turns out to be exceptionally useful but somewhat difficult to explain in a brief paragraph. Like absolute positioning, a floating element is removed from normal flow. Unlike absolute positioning, a floating element has a direct impact on subsequent elements.
 
 ####[jsFiddle](http://jsfiddle.net/cameron89/r5GEZ/)
 
