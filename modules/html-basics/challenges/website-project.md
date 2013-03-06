@@ -33,10 +33,11 @@ On at least one page:
 
 ###Other Requirements
 
-* pages (min = 4)
-* an image folder to store your images--you should be using relative paths for all of your images
-* html entities (min = 2)
-* all pages must validate with zero errors
+* Multiple pages (min = 4)
+* An image folder to store your images--you should be using relative paths for all of your images
+* HTML entities (min = 2)
+* All pages must validate with zero errors
+* The homepage is named index.html
 
 ##Rubric
 
