@@ -13,7 +13,8 @@ $module_challenges = array(
   new challenge('pixel-percent-em-challenge.md', 'Pixel-Percent-EM Challenge', '160', '220'),
   new challenge('text-and-font-properties-challenge.md', 'Text and Font Properties Challenge', '105', '272'),
   new challenge('site-remodelling-project.md', 'Site Remodelling Project', '135', '344'),
-  new challenge('review-contest.md', 'Review Contest', '195', '290'),
+  new challenge('review-contest.md', 'Review Contest', '195', '310'),
+  new challenge('keyboard-shortcuts.md', 'Keyboard Shortcuts', '195', '270'),
   # Make a quiz game (Nicholas Style)
 );
 
