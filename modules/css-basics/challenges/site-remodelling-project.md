@@ -5,7 +5,7 @@ Your goal is to remodel a pure HTML website you've already created using CSS.
 ##Rubric
 
 
-* **Code Quality (20%):**
+* **Code Quality (15%):**
   * Perfect indentation
   * Error free
 * **Research (15%):** You are expected to research and use at least two new css properties that were not coered in this module.
@@ -25,6 +25,7 @@ Your goal is to remodel a pure HTML website you've already created using CSS.
   * letter-spacing
   * line-height
 * **Images (5%):** Images must be stored in a separate image folder. `src` attributes should have relative paths to image files as opposed to using absolute paths, such as URLs to someone else's site online.
+* **Homepage is named index.html (5%)**
 
 ##Portfolio
 Make sure you create a new folder specifically for this website and put it in the `css-basics` folder.
