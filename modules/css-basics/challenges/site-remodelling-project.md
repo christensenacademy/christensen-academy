@@ -11,7 +11,7 @@ Your goal is to remodel a pure HTML website you've already created using CSS.
 * **Code Quality (15%):**
   * Perfect indentation
   * Error free
-* **Research (15%):** You are expected to research and use at least two new css properties that were not coered in this module.
+* **Research (15%):** You are expected to research and use at least two new css properties that were not covered in this module.
 * **100% External CSS (15%):** You must use a single stylesheet for your entire site, which must be at least four pages.
 * **Use `class` and `id` Attributes (15%):** Your site should make intelligent use of `class` and `id` attributes.
 * **Color Theme (10%):** Your site needs a strong, consistant color theme that contributes to a professoinal look and feel.
