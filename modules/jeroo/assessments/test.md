@@ -10,7 +10,7 @@ You will earn different amounts of points on this test in accordance with the qu
 
 * No extra water is added to the square map except for two perfectly horizontal "streams" described below.
 * The top three rows of each map are EXACTLY the same. This will not change.
-* The next one or more rows are filled with open space except for a singlt flower placed randomly.
+* The next one or more rows are filled with open space except for a single flower placed randomly.
 * The first stream is 2 squares wide. A bridge crosses it at a random location. The North square of the bridge has a trap.
 * The next one or more rows are filled lots of flowers scattered randomly about.
 * The second stream is 2 squares wide. A bridge crosses it at a random location. The North square of the bridge has a trap.
