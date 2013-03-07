@@ -1,20 +1,38 @@
 #Methods Basics
 All objects in Java have **methods**, which allow them to **do** things. This textpage explains the basics of writing and using methods.
 
-**Side Note:** In other programming languages, methods are often called "functions." Both methods and functions work essentially the same in that they are reusable bits of code.
+**Side Note:** In other programming languages, methods are often called "functions." Both methods and functions work essentially the same in that they are reusable bits of code. Java calls them methods instead of functions to emphasize the fact that Java is an object-oriented language, and that methods belong to classes.
 
-###Example of a Simple (and Rather Pointless) Method
+###Example of Public Methods in a Class
 ```java
-public void sayHello(){
-  System.out.println("Hello");
+public class Jeroo(){
+  private in greetings = 0;
+  
+  // method 1
+  public void sayHello(){
+    System.out.println("Hello");
+  }
+  
+  // method 2
+  public void sayHowdy(){
+    System.out.println("Howdy, partner!");
+  }
+  
+  // method 3
+  public void sayHola(){
+    System.out.println("Hola! Buenos dias!");
+  }
 }
 ```
-The big idea here is that now we have a reusable piece of code that we can use in the following manner:
+
+To use these methods, we need to create an instance 
 
 ```java
 sayHello(); // call the sayHello method
 sayHello(); // call the sayHello method again
 ```
+
+
 
 ###Example of a Much More Useful Method
 Of course, most methods do something a bit more interesting than simply printing out "Hello." Consider this more useful method that determines whether or not a number is a prime:
