@@ -11,12 +11,12 @@ Your challenge is to take everything you've learned about Game Maker so far and 
 Download a zip file of [all games](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/all-games.gmx.zip) (45 MB)
 
 * [Brick Breaker](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/brick-breaker.html)
-* [Dog Maze]()
-* [Galaga Battle]()
-* [Goblin Attack]()
-* [King of the Castle]()
-* [Pokemon Tower Defense]()
-* [Space Invaders]()
+* [Dog Maze](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/dog-maze.html)
+* [Galaga Battle](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/galaga-battle.html)
+* [Goblin Attack](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/goblin-attack.html)
+* [King of the Castle](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/king-of-the-castle.html)
+* [Pokemon Tower Defense](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/pokemon-tower-defense.html)
+* [Space Invaders](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/space-invaders.html)
 
 ##Rubric
 
