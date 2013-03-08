@@ -6,6 +6,18 @@
 
 Your challenge is to take everything you've learned about Game Maker so far and make a game that is genuinely fun to play.
 
+###Some Ridiculously Awesome Examples
+
+Download a zip file of [all games](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/all-games.gmx.zip) (45 MB)
+
+* [Brick Breaker](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/brick-breaker.html)
+* [Dog Maze]()
+* [Galaga Battle]()
+* [Goblin Attack]()
+* [King of the Castle]()
+* [Pokemon Tower Defense]()
+* [Space Invaders]()
+
 ##Rubric
 
 * **Basic Requirements Met (40%):** See below.
