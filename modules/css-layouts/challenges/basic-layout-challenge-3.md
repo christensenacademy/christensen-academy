@@ -23,4 +23,4 @@ Here is a picture of what the final product should look like:
 ##Colors
 * Brown: 9C3E00
 * Green: 2DB096
-* Dark Brown: 930680
+* Dark Brown: 72F6C0
