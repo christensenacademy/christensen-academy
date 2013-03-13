@@ -8,7 +8,7 @@ Your challenge is to take everything you've learned about Game Maker so far and 
 
 ###Examples of Student Projects
 
-Download a zip file of [all games](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/all-games.gmx.zip) (45 MB)
+Download a zip file of [all games](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/all-games.zip) (45 MB)
 
 * [Space Invaders](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/space-invaders.html)
 * [Brick Breaker](http://christensenacademy.org/modules/beginning-game-maker/challenges/example-projects/brick-breaker.html)
