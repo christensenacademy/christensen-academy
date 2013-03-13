@@ -2,7 +2,7 @@
 
 ![](http://christensenacademy.org/modules/beginning-game-maker/challenges/project-2.png)
 
-**Estimated Time:** 300 minutes
+**Estimated Time:** 250+ minutes
 
 Your challenge is to take everything you've learned about Game Maker so far and make a game that is genuinely fun to play.
 
