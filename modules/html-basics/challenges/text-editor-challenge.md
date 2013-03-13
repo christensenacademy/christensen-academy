@@ -1,6 +1,6 @@
 #Text Editor Challenge
 
-* **Estimated Time:** 25 minutes
+**Estimated Time:** 25 minutes
 
 Your challenge is to download and install a text editor for writing HTML code, then use it to create a basic webpage.
 
