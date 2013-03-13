@@ -9,6 +9,7 @@ IDR*.png
 click-a-mania-examples/
 _jeroo/
 example-projects/
+*.exe
 
 #################
 ## Eclipse
@@ -173,3 +174,5 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+/modules/jeroo/extensible-jeroo/extensible-jeroo/nbproject/private/
+/modules/jeroo/extensible-jeroo/nbproject/private/

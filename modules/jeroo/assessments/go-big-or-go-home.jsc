@@ -1,0 +1,94 @@
+@Java
+method tossPickHop(){
+  if(isNet(AHEAD)){
+    toss();
+  }
+  pick();
+  hop();
+}
+
+method scanForFlowers(){
+   turn(RIGHT);
+   while(isClear(AHEAD) || isFlower(AHEAD)){
+     tossPickHop();
+   }
+   turn(RIGHT);
+   turn(RIGHT);
+   while(isClear(AHEAD) || isFlower(AHEAD)){
+     tossPickHop();
+   }
+   turn(RIGHT);
+   
+   while(!isWater(AHEAD) && !isNet(AHEAD)){
+     pick();
+     hop();
+     if(isWater(LEFT)){
+       turn(RIGHT);
+       while(!isWater(AHEAD)){
+         tossPickHop();
+       }
+       pick();
+       turn(LEFT);
+     }
+     else {
+       turn(LEFT);
+       while(!isWater(AHEAD)){
+         tossPickHop();
+       }
+       pick();
+       turn(RIGHT);
+     }
+   }
+   
+   turn(LEFT);   
+   while(!isWater(AHEAD)){
+      hop();
+   }
+   turn(LEFT); 
+   while(isClear(AHEAD)){
+      hop();
+   }
+   turn(LEFT);
+   turn(LEFT);
+}
+
+method findEntrance(){
+   while(isClear(AHEAD)){
+     hop();
+   }
+   turn(RIGHT);
+   while(!isNet(LEFT)){
+     hop();
+   }
+   turn(LEFT);
+   toss();
+   hop();
+   hop();
+   tossPickHop();
+   turn(LEFT);
+   while(isClear(AHEAD) || isFlower(AHEAD) || isNet(AHEAD)){
+     tossPickHop();
+   }
+   turn(RIGHT);
+}
+@@
+method main(){
+   Jeroo r = new Jeroo(1,22,SOUTH, 2);
+   
+   r.toss();
+   r.hop();
+   r.hop();
+   r.turn(RIGHT);
+   r.hop(21);
+   r.turn(RIGHT);
+   r.toss();
+   r.turn(RIGHT);
+   r.hop(22);
+   r.turn(RIGHT);
+   
+   r.scanForFlowers();    
+   r.findEntrance();
+   r.scanForFlowers();     
+   r.findEntrance();
+   r.scanForFlowers();
+}
