@@ -2,7 +2,7 @@
 
 In everyday life, the adjective "static" conjures up the idea of something being fixed or immovable (i.e., not dynamic). I believe that Java's use of the term "static" was intended to evoke this notion of a thing (object) unchanging. This isn't obvious at first, even if you understand how static methods work. The purpose of this textpage is to explain how static methods work in Java and also to explain why the term "static" actually makes sense.
 
-**Aside:** While studying Java in college, I explicitly remember this being something that tripped me up. The whole concept of a static method or static instance variable escaped me for some reason. My hope is that it comes a bit more intuitively to you after reading this textpage. Good luck! My only advice besides reading this document is to play around with some code in your IDE until everything makes sense.
+**Aside:** While studying Java in college, I explicitly remember this being something that tripped me up. The whole concept of a static method or static instance variable escaped me for some reason. My hope is that it comes a bit more intuitively to you after reading this textpage. So, um... good luck! My only advice besides reading this document is to play around with some code in your IDE until everything makes sense. At least for me, there's nothing better for truly understanding a concept than to simply play around with code for a while.
 
 ##How Normal Methods Work
 
