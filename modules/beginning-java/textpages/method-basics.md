@@ -1,5 +1,4 @@
-#Methods Basics (Static Methods, Parameters, and Return Types)
-
+#Methods Basics
 Methods are reusable pieces of code. Imagine a video game with a jumping character. Each time the character jumps, the same reusable piece of code controlling the jump runs on the computer. In Java, we call these reusable pieces of code **methods**.
 
 Conceptually speaking, objects have methods that allow them to do things. If I were an object, my most notable methods would be `eat()`, `sleep()`, and `takeLongWalksOnTheBeach()`. A kangaroo, on the other hand, might have methods like `hop()`, `kick()`, and so on. A video game character might have methods like `run()`, `jump()`, and `shootFireball()`. A big key to learning Java programming is getting good at organizing your programs around classes and methods. The goal of this textpage is to explain the basics of how methods work with a focus on parameters and return types.
@@ -8,7 +7,7 @@ Conceptually speaking, objects have methods that allow them to do things. If I w
 
 **Note:** In other programming languages, methods are often called "functions." Java calls them methods instead of functions to emphasize the fact that Java is an object-oriented language, and that methods belong to classes.
 
-##Something Strange: Static vs. Non-Static Methods
+##Something Strange: Static Methods
 
 The "normal" way of using methods looks something like this:
 
