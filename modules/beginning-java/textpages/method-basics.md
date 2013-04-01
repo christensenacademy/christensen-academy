@@ -2,11 +2,11 @@
 
 Conceptually speaking, objects have methods that allow them to do things. If I were an object, my most notable methods would be `eat()`, `sleep()`, and `takeLongWalksOnTheBeach()`. A kangaroo, on the other hand, might have methods like `hop()`, `kick()`, and so on. A video game character might have methods like `run()`, `jump()`, and `shootFireball()`. A big key to learning Java programming is getting good at organizing your programs around classes and methods. The goal of this textpage is to explain the basics of how methods work with a focus on parameters and return types.
 
-**Note:** Anytime you see something like `foo()` or `foo(int x)`, you can be sure that you're dealing with a method. The only time parenthesis are used besides methods is when you're organizing a complex expression, such as `(2+x)*y`.   
+**Note:** Anytime you see something like `foo()` or `foo(int x)`, you can be sure that you're dealing with a method. In these examples, `foo` would be the name of the method.
 
 **Note:** In other programming languages, methods are often called "functions." Java calls them methods instead of functions to emphasize the fact that Java is an object-oriented language, and that methods belong to classes.
 
-###Something Strange: Static vs. Non-Static Methods
+##Something Strange: Static vs. Non-Static Methods
 
 The "normal" way of using methods looks something like this:
 
@@ -20,11 +20,54 @@ myKangaroo.hop();
 
 At least in my mind, this seems like a pretty straightforward 2-step process:
 
-1. Create the object (e.g. new Kangaroo()), making sure to assign it to a variable
+1. Create the object (e.g. new Kangaroo()), making sure to assign it to a variable.
 2. Call the object's methods (e.g. hop()) to have it do stuff.
 
-Alas! Although this process makes sense, it doesn't it doesn't mesh with our experience of how Java programs work. Consider the `System.out.println();` statement. `println()` is clearly a method, but we clearly don't need to instantiate an object (i.e., make a new object) to use it; we just use the strange `System.out` thingy before calling the `println()` method. Further consider `Math.random()`
+Alas! Although this process makes sense, it doesn't it doesn't mesh with our experience of how Java programs work! Consider the `System.out.println();` statement. `println()` is clearly a method, but we clearly don't need to instantiate an object (i.e., make a new object) to use it; we just use the strange `System.out` thingy before calling the `println()` method. Further consider `Math.random()`, which returns (i.e., gives you) a double between 0 and 1. Again, somehow we were able to call a method--in this case, `random()`--without creating a new instance of the Math class!?!
 
+The explanation for this seeming craziness has to do with the idea of static methods--and instance variables too. In the case of `Math.random()`, the `random()` method is "static," which allows it to be called striaght from the class: `Math.random()`. If `random()` were not a static method, you would have to do something like this:
+
+```java
+Math myMath = new Math();
+double myRandomNumber = myMath.random();
+```
+
+This would be a pain, so instead, `random()` was defined to be a static method in the `Math` class, so that we can more simply type the following:
+
+```java
+double myRandomNumber = Math.random();
+```
+
+####Complete Static vs. Non-Static Example
+
+#####Dog.java
+```java
+public class Dog {
+
+  // a static method
+  public static void makeNoise(){
+    System.out.println("BARK!");
+  }
+  
+  // a non-static ("normal") method
+  public void chaseCat(){
+    System.out.println("Chasing cat...");
+  }
+}
+```
+#####Example.java
+```java
+public class Runner {
+  public static void main(String[] args){
+    Dog.makeNoise();
+    Dog.chaseCat(); //compiler error because chaseCat() is not a static method
+    
+    Dog myDog = new Dog();
+    myDog.makeNoise(); // NetBeans gives a warning, but this isn't technically an error
+    myDog.chaseCat();
+  }
+}
+```
 
 What's strange about this is that you're 
 
