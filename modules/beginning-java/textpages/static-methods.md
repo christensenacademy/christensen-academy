@@ -1,8 +1,8 @@
 #Static Methods
 
-In everyday life, the adjective "static" has a variety of meanings, but the most common one involves the idea of something being fixed or immovable (i.e., not dynamic). I believe that Java's use of the term "static" was intended to evoke this notion of a thing unchanging, which isn't obvious at first, even if you understand how static methods work. The purpose of this textpage is to explain how static methods (and instance variables) work in Java and also to explain why the term "static" actually makes sense.
+In everyday life, the adjective "static" conjures up the idea of something being fixed or immovable (i.e., not dynamic). I believe that Java's use of the term "static" was intended to evoke this notion of a thing (object) unchanging. This isn't obvious at first, even if you understand how static methods work. The purpose of this textpage is to explain how static methods work in Java and also to explain why the term "static" actually makes sense.
 
-**Note:** While studying Java in college, I explicitly remember this being something that tripped me up. The whole concept of a static method or instance variable escaped me for some reason. My hope is that it comes a bit more intuitively to you after reading this textpage. Good luck!
+**Aside:** While studying Java in college, I explicitly remember this being something that tripped me up. The whole concept of a static method or instance variable escaped me for some reason. My hope is that it comes a bit more intuitively to you after reading this textpage. Good luck! My only advice besides reading this document is to play around with some code in your IDE until everything makes sense.
 
 ##How Normal Methods Work
 
@@ -47,23 +47,43 @@ Notice two key things about the previous example:
 * The *state* of each object (i.e., each object's instance variables) can change. That is, the state of each object is **dynamic**, not **static**.
 
 
-
 ##How Static Mehtods Work
 
-Alas! Although this process makes sense, it doesn't mesh with our experience of how Java programs work! Consider the `System.out.println();` statement. `println()` is clearly a method, but we clearly don't need to instantiate an object (i.e., make a new object) to use it; we just use the strange `System.out` thingy before calling the `println()` method. Further consider `Math.random()`, which returns (i.e., gives you) a double between 0 and 1. Again, somehow we were able to call a method--in this case, `random()`--without creating a new instance of the Math class!?!
+As opposed to "normal" methods, static methods cannot interact with or change the state of an object. Static methods can be thought of as belonging to the whole class, not individual objects deriving from that class. They're good only for providing some generally useful function that doesn't relate to the specific state of an object. Really good examples of this are the methods in Java's `Math` class, which perform basic numerical calculations that are generally useful, such as the following:
 
-The explanation for this seeming craziness has to do with the idea of static methods. In the case of `Math.random()`, the `random()` method is "static," which allows it to be called striaght from the Math class: `Math.random()`. If `random()` were not a static method, you would have to do something like this:
+* `Math.abs(double a)`
+* `Math.max(double a, double b)`
+
+What you should notice immediately about both of these is that you didn't have to instantiate a new `Math` object using the "new" operator before calling the `abs()` and `max()` methods. Also, you should notice that `Math` starts with a capital letter because it is a class name.
+
+Here's what a stripped-down version of the `Math` class actually looks like:
+
+```java
+public class Math {
+  public static double abs(double a) {
+    return (a < 0) ? -a : a;
+  }
+  public static double max(double a, double b) {
+    if (a != a) return a;   // a is NaN
+    if ((a == 0.0d) && (b == 0.0d)
+      && (Double.doubleToLongBits(a) == negativeZeroDoubleBits)) {
+      return b;
+    }
+    return (a >= b) ? a : b;
+  }
+}
+```
+
+Notice the keyword *static* after in the signature of both methods above.
+
+All of this should seem somewhat strange. This is very different from the way we're used to working with methods, which went something like this:
 
 ```java
 Math myMath = new Math();
-double myRandomNumber = myMath.random();
+double myValue = myMath.abs(-2.5); // myValue should now hold the double 2.5
 ```
 
-This would be a pain, so instead `random()` was defined to be a static method in the `Math` class, so that we can more simply type the following:
-
-```java
-double myRandomNumber = Math.random();
-```
+Alas, this isn't the right way to use the static `abs()` methods--and in fact this example actually doesn't work because it's impossible to instantiate the `Math` class, whose only methods are static methods.
 
 ###Complete Static vs. Non-Static Example
 
