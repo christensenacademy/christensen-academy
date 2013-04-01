@@ -1,21 +1,33 @@
-#Methods Basics
+#Methods Basics (Parameters and Return Types)
 
-**Big Idea:** Conceptually speaking, bjects have methods that allow them to do things.
+Conceptually speaking, objects have methods that allow them to do things. If I were an object, my most notable methods would be `eat()`, `sleep()`, and `takeLongWalksOnTheBeach()`. A kangaroo, on the other hand, might have methods like `hop()`, `kick()`, and so on. A video game character might have methods like `run()`, `jump()`, and `shootFireball()`. A big key to learning Java programming is getting good at organizing your programs around classes and methods. The goal of this textpage is to explain the basics of how methods work with a focus on parameters and return types.
 
-###Example
+**Note:** Anytime you see something like `foo()` or `foo(int x)`, you can be sure that you're dealing with a method. The only time parenthesis are used besides methods is when you're organizing a complex expression, such as `(2+x)*y`.   
+
+**Note:** In other programming languages, methods are often called "functions." Java calls them methods instead of functions to emphasize the fact that Java is an object-oriented language, and that methods belong to classes.
+
+###Something Strange: Static vs. Non-Static Methods
+
+The "normal" way of using methods looks something like this:
+
 ```java
-Mario player1 = new Mario(); // create a new instance of type Mario and assign it to the player1 variable
-Luigi player2 = new Luigi();
-
-player1.move(4); // tell player 1 to move with a speed of 4
-player1.fireball(); // tell the object in the player1 variable to shoot a fireball by calling the fireball() method.
-player2.duck();
-player2.turn();
+// create a new object of type Kangaroo and assign it to the myKangaroo variable
+// note: "new Kangaroo()" calls a constructor method in the Kangaroo class
+Kangaroo myKangaroo = new Kangaroo();
+// call the hop() method on the object
+myKangaroo.hop();
 ```
 
-**Side Note:** In other programming languages, methods are often called "functions." Both methods and functions work essentially the same in that they are reusable bits of code. Java calls them methods instead of functions to emphasize the fact that Java is an object-oriented language, and that methods belong to classes.
+At least in my mind, this seems like a pretty straightforward 2-step process:
 
-###Example of Public Methods in a Class
+1. Create the object (e.g. new Kangaroo()), making sure to assign it to a variable
+2. Call the object's methods (e.g. hop()) to have it do stuff.
+
+Alas! Although this process makes sense, it doesn't it doesn't mesh with our experience of how Java programs work. Consider the `System.out.println();` statement. `println()` is clearly a method, but we clearly don't need to instantiate an object (i.e., make a new object) to use it; we just use the strange `System.out` thingy before calling the `println()` method. Further consider `Math.random()`
+
+
+What's strange about this is that you're 
+
 ```java
 public class Jeroo(){
   private in greetings = 0;
