@@ -1,7 +1,9 @@
 #Methods Basics
 Methods are reusable pieces of code. Imagine a video game with a jumping character. Each time the character jumps, the same reusable piece of code runs on the computer. In Java, we call these reusable pieces of code **methods**.
 
-Conceptually speaking, objects have methods that allow them to do things. If I were an object, my most notable methods would be `eat()`, `sleep()`, and `takeLongWalksOnTheBeach()`. A kangaroo, on the other hand, might have methods like `hop()`, `kick()`, and so on. A video game character might have methods like `run()`, `jump()`, and `shootFireball()`. A big key to learning Java programming is getting good at organizing your programs around classes and methods. The goal of this textpage is to explain the basics of how methods work with a focus on parameters and return types.
+Conceptually speaking, objects have methods that allow them to do things. If I were an object, my most notable methods would be `eat()`, `sleep()`, and `takeLongWalksOnTheBeach()`. A kangaroo, on the other hand, might have methods like `hop()`, `kick()`, and so on. A video game character might have methods like `run()`, `jump()`, and `shootFireball()`.
+
+A big key to learning Java programming is getting good at organizing your programs around classes and methods. The goal of this textpage is to explain the basics of how methods work with a focus on parameters and return types.
 
 **Note:** Anytime you see something like `foo()` or `foo(int x)`, you can be sure that you're dealing with a method--notice the parenthesis after the method name, "foo."
 
