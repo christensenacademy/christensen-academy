@@ -79,7 +79,7 @@ public class Math {
 }
 ```
 
-Notice the keyword *static* after in the signature of both methods above.
+Notice the keyword *static* in the signature of both methods above.
 
 All of this should seem somewhat strange. This is very different from the way we're used to working with methods, which went something like this:
 
