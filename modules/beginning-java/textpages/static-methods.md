@@ -9,7 +9,7 @@ In everyday life, the adjective "static" conjures up the idea of something being
 Consider how "normal" (non-static) methods work: 
 
 1. Create a new object
-2. Use that object to call methods
+2. Call methods on that new object
 
 An example:
 
