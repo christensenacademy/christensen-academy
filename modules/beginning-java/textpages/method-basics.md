@@ -61,7 +61,7 @@ AlienInvasion.java:
 public class AlienInvasion {
   public static void main(String[] args){
     Spaceship player1 = new SpaceShip();
-                            // player1 stats:     health      xPosition
+                            // player1 state:     health      xPosition
                             //                    100         200
     player1.moveRight(3);   //                    100         203
     player1.moveRight(0);   //                    100         203
