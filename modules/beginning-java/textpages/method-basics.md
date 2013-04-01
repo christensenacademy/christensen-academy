@@ -25,7 +25,7 @@ At least in my mind, this seems like a pretty straightforward 2-step process:
 1. Create the object (e.g. new Kangaroo()), making sure to assign it to a variable.
 2. Call the object's methods (e.g. hop()) to have it do stuff.
 
-Alas! Although this process makes sense, it doesn't it doesn't mesh with our experience of how Java programs work! Consider the `System.out.println();` statement. `println()` is clearly a method, but we clearly don't need to instantiate an object (i.e., make a new object) to use it; we just use the strange `System.out` thingy before calling the `println()` method. Further consider `Math.random()`, which returns (i.e., gives you) a double between 0 and 1. Again, somehow we were able to call a method--in this case, `random()`--without creating a new instance of the Math class!?!
+Alas! Although this process makes sense, it doesn't mesh with our experience of how Java programs work! Consider the `System.out.println();` statement. `println()` is clearly a method, but we clearly don't need to instantiate an object (i.e., make a new object) to use it; we just use the strange `System.out` thingy before calling the `println()` method. Further consider `Math.random()`, which returns (i.e., gives you) a double between 0 and 1. Again, somehow we were able to call a method--in this case, `random()`--without creating a new instance of the Math class!?!
 
 The explanation for this seeming craziness has to do with the idea of static methods. In the case of `Math.random()`, the `random()` method is "static," which allows it to be called striaght from the class: `Math.random()`. If `random()` were not a static method, you would have to do something like this:
 
