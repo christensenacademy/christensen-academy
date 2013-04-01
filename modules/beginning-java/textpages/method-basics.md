@@ -1,5 +1,17 @@
 #Methods Basics
-All objects in Java have **methods**, which allow them to **do** things. This textpage explains the basics of writing and using methods.
+
+**Big Idea:** Conceptually speaking, bjects have methods that allow them to do things.
+
+###Example
+```java
+Mario player1 = new Mario(); // create a new instance of type Mario and assign it to the player1 variable
+Luigi player2 = new Luigi();
+
+player1.move(4); // tell player 1 to move with a speed of 4
+player1.fireball(); // tell the object in the player1 variable to shoot a fireball by calling the fireball() method.
+player2.duck();
+player2.turn();
+```
 
 **Side Note:** In other programming languages, methods are often called "functions." Both methods and functions work essentially the same in that they are reusable bits of code. Java calls them methods instead of functions to emphasize the fact that Java is an object-oriented language, and that methods belong to classes.
 
