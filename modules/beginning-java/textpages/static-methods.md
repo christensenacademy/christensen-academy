@@ -1,6 +1,6 @@
 #Static Methods
 
-In everyday life, the adjective "static" conjures up the idea of something being fixed or immovable (i.e., not dynamic). I believe that Java's use of the term "static" was intended to evoke this notion of a thing (object) unchanging. This isn't obvious at first, even if you understand how static methods work. The purpose of this textpage is to explain how static methods work in Java and also to explain why the term "static" actually makes sense.
+The purpose of this textpage is to explain how static methods work in Java. At the end, I'll also provide an exteremly brief explanation of why the term "static" actually makes sense.
 
 **Aside:** While studying Java in college, I explicitly remember this being something that tripped me up. The whole concept of a static method or static instance variable escaped me for some reason. My hope is that it comes a bit more intuitively to you after reading this textpage. So, um... good luck! My only advice besides reading this document is to play around with some code in your IDE until everything makes sense. At least for me, there's nothing better for truly understanding a concept than to simply play around with code for a while.
 
@@ -49,7 +49,7 @@ myKangaroo.hop(2);
 Notice two key things about the previous example:
 
 * Each instance of the Kangaroo class has it's own instance variables. That is, each object has a unique *state*.
-* The *state* of each object (i.e., each object's instance variables) can change. That is, the state of each object is **dynamic**, not **static**.
+* The *state* of each object can change at runtime (i.e., while the program runs).
 
 
 ##How Static Mehtods Work
@@ -81,15 +81,13 @@ public class Math {
 
 Notice the keyword *static* in the signature of both methods above.
 
-All of this should seem somewhat strange. This is very different from the way we're used to working with methods, which went something like this:
+This is very different from the way we're used to working with "normal" methods, which went something like this:
 
 ```java
 // NOTE: This doesn't work!
 Math myMath = new Math();
 double myValue = myMath.abs(-2.5); // myValue should now hold the double 2.5
 ```
-
-Alas, this isn't the right way to use the static `abs()` methods-and in fact this example actually doesn't work because it's impossible to instantiate the `Math` class, whose only methods are static methods, and whose constructor is declared as private, but that's a story for another day...
 
 ###Complete Static vs. Non-Static Example
 
@@ -119,6 +117,7 @@ public class Example {
   public static void main(String[] args){
     Dog.makeNoise();
     Dog.chaseCat(); //compiler error because chaseCat() is not a static method
+    Dog.collectBone(); // compiler error: see the Dog class
     
     Dog myDog = new Dog();
     myDog.makeNoise(); // NetBeans gives a warning, but this isn't technically an error
@@ -127,15 +126,15 @@ public class Example {
 }
 ```
 
+Notice the errors in the code above. I recommend copying this code into your IDE and playing around with it. Fix the errors and try to get a handle on how static methods work.
 
 ##Why Static Methods are Called "Static"
 
-In object-oriented programming, we use objects for their *state* and *behavior*. "Normal" (non-static) methods are capable of behavior that changes the state of an object, just as the `hop()` method did in the kangaroo example above.
+The term "static" has to do with the fact that static methods are resolved at compile time as opposed to runtime like other methods. This will only really make sense if you understand inheritance and polymorphism (fancy word...) and how "normal" methods can be overridden in a subclass.
 
-Static methods, on the other hand, cannot change the state of an object that's an instance of the class they belong to. In fact, they cannot interact with any other members of the class at all unless those members are also static.
+The most important things to remember about static methods are as follows:
 
-In this way, static methods belong to the entire class, not a particular instance of the class. This is why static methods are sometimes called "class methods."
-
-Because objects are "dynamic" in the sense that their state can change, and because static methods can't change the state of objects deriving from their class, I'd argue that the term "static" actually makes some sense, though I admit it's not the most intuitive keyword in the Java language.
+1. You can call them directly from a class (e.g., `Math.abs(-3.45);`)
+2. The belong to the whole class, not an individual object. Hence, they cannot interact with or change the state of an individual object like normal methods can.
 
 ![](http://christensenacademy.org/img/signature.png)
