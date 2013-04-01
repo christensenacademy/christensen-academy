@@ -89,7 +89,7 @@ Math myMath = new Math();
 double myValue = myMath.abs(-2.5); // myValue should now hold the double 2.5
 ```
 
-Alas, this isn't the right way to use the static `abs()` methods--and in fact this example actually doesn't work because it's impossible to instantiate the `Math` class, whose only methods are static methods.
+Alas, this isn't the right way to use the static `abs()` methods-and in fact this example actually doesn't work because it's impossible to instantiate the `Math` class, whose only methods are static methods, and whose constructor is declared as private, but that's a story for another day...
 
 ###Complete Static vs. Non-Static Example
 
