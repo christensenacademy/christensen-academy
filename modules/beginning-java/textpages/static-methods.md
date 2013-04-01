@@ -96,7 +96,8 @@ Alas, this isn't the right way to use the static `abs()` methods-and in fact thi
 #####Dog.java
 ```java
 public class Dog {
-
+  private int bonesCollected = 0;
+  
   // a static method
   public static void makeNoise(){
     System.out.println("BARK!");
@@ -106,11 +107,15 @@ public class Dog {
   public void chaseCat(){
     System.out.println("Chasing cat...");
   }
+  
+  public static collectBone(){
+    bones++; // compiler error because you aren't allowed to alter the state of an object in a static method
+  }
 }
 ```
 #####Example.java
 ```java
-public class Runner {
+public class Example {
   public static void main(String[] args){
     Dog.makeNoise();
     Dog.chaseCat(); //compiler error because chaseCat() is not a static method
@@ -125,10 +130,12 @@ public class Runner {
 
 ##Why Static Methods are Called "Static"
 
+In object-oriented programming, we use objects for their *state* and *behavior*. "Normal" (non-static) methods are capable of behavior that changes the state of an object, just as the `hop()` method did in the kangaroo example above.
 
-In object-oriented programming, we use objects for their *state* and *behavior*. "Normal" (non-static) methods are capable of behavior that changes the state of an object, just as the `hop()` method did in the example above. Static methods, on the other hand, cannot change the state of an object. In fact, they cannot interact with any other members of a class at all, unless those members are static.
+Static methods, on the other hand, cannot change the state of an object that's an instance of the class they belong to. In fact, they cannot interact with any other members of the class at all unless those members are also static.
 
+In this way, static methods belong to the entire class, not a particular instance of the class. This is why static methods are sometimes called "class methods."
 
-
+Because objects are "dynamic" in the sense that their state can change, and because static methods can't change the state of objects deriving from their class, I'd argue that the term "static" actually makes some sense, though I admit it's not the most intuitive keyword in the Java language.
 
 ![](http://christensenacademy.org/img/signature.png)
