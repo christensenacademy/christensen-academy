@@ -3,14 +3,87 @@ Methods are reusable pieces of code. Imagine a video game with a jumping charact
 
 Conceptually speaking, objects have methods that allow them to do things. If I were an object, my most notable methods would be `eat()`, `sleep()`, and `takeLongWalksOnTheBeach()`. A kangaroo, on the other hand, might have methods like `hop()`, `kick()`, and so on. A video game character might have methods like `run()`, `jump()`, and `shootFireball()`.
 
-A big key to learning Java programming is getting good at organizing your programs around classes and methods. The goal of this textpage is to explain the basics of how methods work with a focus on parameters and return types.
-
-**Note:** Anytime you see something like `foo()` or `foo(int x)`, you can be sure that you're dealing with a method--notice the parenthesis after the method name, "foo."
+A big key to learning Java programming is getting good at organizing your programs around classes and methods. In this textpage, I'll be walking through the creation of a Spaceship class, which can be used to hold the state and control the behavior of a spaceship character in a video game.
 
 **Note:** In other programming languages, methods are often called "functions." Java calls them methods instead of functions to emphasize the fact that Java is an object-oriented language, and that methods belong to classes.
 
+##Setting the Stage: Building a Spaceship Class
 
-##Parameters and Return Types
+In an effort to avoid talking about methods, parameters, and return types out of context, I'm going to take some time up front to build a larger example. This will take a bit of time, but I hope it helps you connect all of the dots between classes, methods, parameters, and return types.
+
+Imagine we're creating a video game in which a spaceship flys around shooting alien ships. What methods would our spaceship need? Here's a quick list I came up with:
+
+* moveRight();
+* moveLeft();
+* shoot();
+* takeDamage();
+* getHealth();
+
+The other thing we need to think about is the state of the spaceship. That is, what instance variables will we need to store info about the spaceship? Again, here's a quick list I came up with:
+
+* int health
+* int xPosition
+
+I'm sure we'll come up with more methods and instance variables later, but let's start with this small list.
+
+Okay, now consider the following two classes:
+
+Spaceship.java:
+```java
+public class Spaceship {
+  public int health = 100;
+  public int xPosition = 200; // the ship can only move left and right
+  
+  public void moveRight(int amount){
+    xPosition += amount;
+  }
+  
+  public void moveLeft(int amount){
+    xPosition -= 2;
+  }
+  
+  public void shoot(){
+    // TODO: figure out how this method works
+  }
+  
+  public void takeDamage(int damage){
+    health -= damage;
+  }
+  
+  public int getHealth(){
+    return health;
+  }
+}
+```
+
+AlienInvasion.java:
+```java
+public class AlienInvasion {
+  public static void main(String[] args){
+    Spaceship player1 = new SpaceShip();
+                            // player1 stats:     health      xPosition
+                            //                    100         200
+    player1.moveRight(3);   //                    100         203
+    player1.moveRight(0);   //                    100         203
+    player1.moveLeft(10);   //                    100         193
+    player1.takeDamage(10); //                    90          200
+    
+    System.out.println( player1.getHealth() ); // prints out 90
+  }
+}
+```
+
+Okay, so this game isn't any good yet. The only thing a user would see is the number 90 printed out on the screen. But, the point isn't to make a good game, it's to learn the ins and outs of methods, so here we go:
+
+The first thing I want to discuss in the code obove is the overall structure. Notice that there are two separate files at play. One of them has the `public static void main()` method, which can be thought of as the entry point of the program. Inside of this method, we see code where we create a new instance of the `Spaceship` class by typing `new Spaceship()`, making sure to assign the new instance to a variable of type `Spaceship`.
+
+Okay, I think we've set the stage for learning about parameters and return types, so hopefully that didn't bore you too much.
+
+##Parameters (and Arguments)
+
+Now that we have a `Spaceship` object saved to the `player1` variable, we can start calling its methods. The first method we call is the `moveRight()` method.
+
+
 
 ##Anatomy of a Method
 When writing a method, you need to understand the method's **signature**. The signature of the `sayHello` method looked like this: `public void sayHello()`. The signature of the `isPrime` method looked like this: `public boolean isPrime(int n)`.
@@ -29,49 +102,6 @@ Also, try hard give your methods names that imply what those methods actually do
 
 The last part of the 
 
-##Overloading Methods
-
-###Example
-```java
-public class Integer() {
-  public int n;
-  
-  // This is a special type of method called a constructor that is called when a new Integer object is created
-  public Integer(int a){
-    n = a;
-  }
-  
-  // This method computes the number of 
-  public int numberOfDigits(){
-    return (int)Math.log10(n)+1;
-  }
-  
-  // This method returns true if the number is prime. Note: There are much more efficient ways of writing this.
-  public boolean isPrime(){
-    if(n < 2) return false;
-    if(n == 2) return true;
-    int counter = 3;
-    while(counter < n){
-      if(n%counter == 0){
-        return false;
-      }
-      counter = counter + 2;
-    }
-    return true;
-  }
-  
-  // This method increments the value of n by 1 and returns nothing.
-  public void increment(){
-    n = n+1;
-  }
-  
-  // This method decrements the value of n by 1 and returns nothing.
-  public void decrement(){
-    n = n-1;
-  }
-  
-}
-```
 
 ##Why Methods are Awesome
 1. Methods allow you to write a useful bit of code then reuse it over and over.
