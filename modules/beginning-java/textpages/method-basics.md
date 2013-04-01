@@ -79,9 +79,9 @@ The first thing I want to discuss in the code obove is the overall structure. No
 
 Okay, I think we've set the stage for learning about parameters and return types, so hopefully that didn't bore you too much.
 
-##Parameters (and Arguments)
+##(Parameters, Arguments) Go in Parenthesis
 
-Now that we have a `Spaceship` object saved to the `player1` variable, we can start calling its methods. The first method we call is the `moveRight()` method.
+Examine the line of our program that reads `player1.moveRight(3);`. If we want to really understand what's going on here, we need to jump...
 
 
 
