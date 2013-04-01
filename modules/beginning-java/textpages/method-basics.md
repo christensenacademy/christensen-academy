@@ -15,7 +15,6 @@ The "normal" way of using methods looks something like this:
 
 ```java
 // create a new object of type Kangaroo and assign it to the myKangaroo variable
-// note: "new Kangaroo()" calls a constructor method in the Kangaroo class
 Kangaroo myKangaroo = new Kangaroo();
 // call the hop() method on the object
 myKangaroo.hop();
