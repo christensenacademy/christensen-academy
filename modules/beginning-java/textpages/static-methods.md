@@ -6,7 +6,12 @@ In everyday life, the adjective "static" conjures up the idea of something being
 
 ##How Normal Methods Work
 
-Consider how "normal" (non-static) methods work. Basically, to use a method, you must first have an object. Then, you simply use that object to call the method. An example:
+Consider how "normal" (non-static) methods work: 
+
+1. Create a new object
+2. Use that object to call methods
+
+An example:
 
 ```java
 Kangaroo myKangaroo = new Kangaroo();
