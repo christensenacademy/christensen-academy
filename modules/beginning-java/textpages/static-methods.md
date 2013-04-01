@@ -84,6 +84,7 @@ Notice the keyword *static* in the signature of both methods above.
 All of this should seem somewhat strange. This is very different from the way we're used to working with methods, which went something like this:
 
 ```java
+// NOTE: This doesn't work!
 Math myMath = new Math();
 double myValue = myMath.abs(-2.5); // myValue should now hold the double 2.5
 ```
