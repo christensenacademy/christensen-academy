@@ -1,8 +1,10 @@
-#Methods Basics (Parameters and Return Types)
+#Methods Basics (Static Methods, Parameters, and Return Types)
+
+Methods are reusable pieces of code. Imagine a video game with a jumping character. Each time the character jumps, the same reusable piece of code controlling the jump runs on the computer. In Java, we call these reusable pieces of code **methods**.
 
 Conceptually speaking, objects have methods that allow them to do things. If I were an object, my most notable methods would be `eat()`, `sleep()`, and `takeLongWalksOnTheBeach()`. A kangaroo, on the other hand, might have methods like `hop()`, `kick()`, and so on. A video game character might have methods like `run()`, `jump()`, and `shootFireball()`. A big key to learning Java programming is getting good at organizing your programs around classes and methods. The goal of this textpage is to explain the basics of how methods work with a focus on parameters and return types.
 
-**Note:** Anytime you see something like `foo()` or `foo(int x)`, you can be sure that you're dealing with a method. In these examples, `foo` would be the name of the method.
+**Note:** Anytime you see something like `foo()` or `foo(int x)`, you can be sure that you're dealing with a method--notice the parenthesis after the method name, "foo."
 
 **Note:** In other programming languages, methods are often called "functions." Java calls them methods instead of functions to emphasize the fact that Java is an object-oriented language, and that methods belong to classes.
 
@@ -25,20 +27,20 @@ At least in my mind, this seems like a pretty straightforward 2-step process:
 
 Alas! Although this process makes sense, it doesn't it doesn't mesh with our experience of how Java programs work! Consider the `System.out.println();` statement. `println()` is clearly a method, but we clearly don't need to instantiate an object (i.e., make a new object) to use it; we just use the strange `System.out` thingy before calling the `println()` method. Further consider `Math.random()`, which returns (i.e., gives you) a double between 0 and 1. Again, somehow we were able to call a method--in this case, `random()`--without creating a new instance of the Math class!?!
 
-The explanation for this seeming craziness has to do with the idea of static methods--and static instance variables too. In the case of `Math.random()`, the `random()` method is "static," which allows it to be called striaght from the class: `Math.random()`. If `random()` were not a static method, you would have to do something like this:
+The explanation for this seeming craziness has to do with the idea of static methods. In the case of `Math.random()`, the `random()` method is "static," which allows it to be called striaght from the class: `Math.random()`. If `random()` were not a static method, you would have to do something like this:
 
 ```java
 Math myMath = new Math();
 double myRandomNumber = myMath.random();
 ```
 
-This would be a pain, so instead, `random()` was defined to be a static method in the `Math` class, so that we can more simply type the following:
+This would be a pain, so instead `random()` was defined to be a static method in the `Math` class, so that we can more simply type the following:
 
 ```java
 double myRandomNumber = Math.random();
 ```
 
-####Complete Static vs. Non-Static Example
+###Complete Static vs. Non-Static Example
 
 #####Dog.java
 ```java
@@ -69,67 +71,9 @@ public class Runner {
 }
 ```
 
-What's strange about this is that you're 
+**Note:** The purpose of this section was merely to introduce you to the idea of static methods. A more in-depth discussion can be found on another textpage.
 
-```java
-public class Jeroo(){
-  private in greetings = 0;
-  
-  // method 1
-  public void sayHello(){
-    System.out.println("Hello");
-  }
-  
-  // method 2
-  public void sayHowdy(){
-    System.out.println("Howdy, partner!");
-  }
-  
-  // method 3
-  public void sayHola(){
-    System.out.println("Hola! Buenos dias!");
-  }
-}
-```
-
-To use these methods, we need to create an instance 
-
-```java
-sayHello(); // call the sayHello method
-sayHello(); // call the sayHello method again
-```
-
-
-
-###Example of a Much More Useful Method
-Of course, most methods do something a bit more interesting than simply printing out "Hello." Consider this more useful method that determines whether or not a number is a prime:
-
-```java
-public boolean isPrime(int n){
-  if(n < 2) return false;
-  if(n == 2) return true;
-  int counter = 3;
-  while(counter < n){
-    if(n%counter == 0){
-      return false;
-    }
-    counter = counter + 2;
-  }
-  return true;
-}
-```
-
-Cool, now we can use this method as often as we'd like to test to see if a given number is prime or not.
-
-```java
-isPrime(2); // true
-isPrime(3); // true
-isPrime(4); // false
-isPrime(45); // false
-isPrime(89); // true
-```
-
-This is waaaaaaaay better than trying to write new code each time we need to know if a number is prime or not.
+##Parameters and Return Types
 
 ##Anatomy of a Method
 When writing a method, you need to understand the method's **signature**. The signature of the `sayHello` method looked like this: `public void sayHello()`. The signature of the `isPrime` method looked like this: `public boolean isPrime(int n)`.
