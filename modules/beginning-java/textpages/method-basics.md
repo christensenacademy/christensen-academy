@@ -73,6 +73,8 @@ public class Runner {
 
 **Note:** The purpose of this section was merely to introduce you to the idea of static methods. A more in-depth discussion can be found on another textpage.
 
+
+
 ##Parameters and Return Types
 
 ##Anatomy of a Method
