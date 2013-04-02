@@ -22,6 +22,17 @@ numbers[5] = 3; // Runtime Error! Index out of bounds.
 System.out.println( numbers[0] + numbers[1] ); // prints 17
 ```
 
+**Note:** There are 5 elements in the array in the example above, but since the indexes for the elements start at 0, the fifth index is actually a 4.
+
+##Iterating Over an Array
+
+Although you create new arrays using the `new` operator, arrays are not objects and do not have methods. However, arrays do have a length property, which stores the number of elements in the array. To access this property, simply type `numbers.length` wehere `numbers` is the name of the array. Notice that length does not have `()` at the end of it. Length is not a method of an array (arrays aren't objects); length is a property.
+
+In the example above, `numbers.length == 5`. It's important to note that the length of an array is fixed and cannot change after it has been created. This can be problematic when you're not sure how many things your array will need to store. If you feel like you need something that works like an array but is able to automatically adjust its size, you may be interested in Java's `ArrayList` class.
+
+###For Loop
+
+
 
 
 ![](http://christensenacademy.org/img/signature.png)
