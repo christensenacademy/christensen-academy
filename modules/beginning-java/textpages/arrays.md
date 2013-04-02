@@ -12,14 +12,14 @@ numbers = new int[5]; // a new array capable of holding 5 integer values has bee
 // The initial value of each int in the array is 0, but we can change the values.
 // To access an "element" of an array, simply type the name of the array followed by [i], where i is the
 // index of the element you want.
-//                Element at Index: 0   1   2   3   4
-//                                  0   0   0   0   0
-numbers[0] = 7; //                  7   0   0   0   0
-numbers[3] = -20; //                7   0   0   -20 0
-numbers[1] = 10; //                 7   10  0   -20 0
-numbers[5] = 3; // Runtime Error! Index out of bounds.
-
-System.out.println( numbers[0] + numbers[1] ); // prints 17
+//                           Index:       0   1   2   3   4
+//                                       [0,  0,  0,  0,  0]
+numbers[0] = 7; //                       [7,  0,  0,  0,  0]
+numbers[3] = -20; //                     [7,  0,  0, -20, 0]
+numbers[1] = 10; //                      [7, 10,  0, -20, 0]
+numbers[2] = numbers[0] + numbers[1];//  [7, 10, 17, -20, 0] 
+numbers[5] = 3; // Runtime Error! Index out of bounds. 
+numbers[-1] = 3; // Runtime Error! Index out of bounds.
 ```
 
 **Note:** There are 5 elements in the array in the example above, but since the indexes for the elements start at 0, the fifth index is actually a 4.
