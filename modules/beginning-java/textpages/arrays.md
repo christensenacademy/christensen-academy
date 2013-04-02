@@ -18,6 +18,8 @@ numbers[0] = 7; //                  7   0   0   0   0
 numbers[3] = -20; //                7   0   0   -20 0
 numbers[1] = 10; //                 7   10  0   -20 0
 numbers[5] = 3; // Runtime Error! Index out of bounds.
+
+System.out.println( numbers[0] + numbers[1] ); // prints 17
 ```
 
 
