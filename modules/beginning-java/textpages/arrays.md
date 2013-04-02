@@ -32,7 +32,7 @@ In the example above, `numbers.length == 5`. It's important to note that the len
 
 ###For Loop
 
-
-
+##Why Arrays are Awesome
+Save you work...
 
 ![](http://christensenacademy.org/img/signature.png)
