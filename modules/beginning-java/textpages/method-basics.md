@@ -5,11 +5,11 @@ Conceptually speaking, objects have methods that allow them to do things. If I w
 
 A big key to learning Java programming is getting good at organizing your programs around classes and methods. In this textpage, I'll be walking through the creation of a Spaceship class, which can be used to hold the state (i.e., instance variables) and control the behavior (i.e., public methods) of a spaceship character in a video game.
 
-**Note:** In other programming languages, methods are often called "functions." Java calls them methods instead of functions to emphasize the fact that Java is an object-oriented language, and that methods belong to classes.
+**Note:** In other programming languages, methods are often called "functions." Java uses the term "method" instead of "function" to emphasize that methods belong to objects; just realize that methods and functions are basically the same thing.
 
 ##Setting the Stage: Building a Spaceship Class
 
-In an effort to avoid talking about methods, parameters, and return types out of context, I'm going to take some time up front to build a larger example. This will take a bit of time, but I hope it helps you connect all of the dots between classes, methods, parameters, and return types.
+In an effort to avoid talking about methods, parameters, and return types out of context, I'm going to take some time up front to build a larger example. I hope it helps you connect all of the dots between classes, methods, parameters, and return types.
 
 Imagine we're creating a video game in which a spaceship flys around shooting alien ships. What methods would our spaceship need? Here's a quick list I came up with:
 
@@ -25,7 +25,7 @@ The other thing we need to think about is the state of the spaceship. That is, w
 * int health
 * int xPosition
 
-I'm sure we'll come up with more methods and instance variables later, but let's start with this small list.
+I'm sure we'll come up with more methods and instance variables if we really wanted to...
 
 Okay, now consider the following two classes:
 
@@ -79,7 +79,7 @@ public class AlienInvasion {
 }
 ```
 
-Okay, so this game isn't any good yet. The only thing a user would see is the number 90 printed out on the screen. But, the point isn't to make a good game, it's to learn the ins and outs of methods, so here we go:
+Okay, so this game isn't exactly playable yet--far from it, in fact--but the basics are in place. The only thing a user would see is the number 90 printed out on the screen. But, the point isn't to make a good game, it's to learn the ins and outs of methods, so here we go:
 
 The first thing I want to discuss in the code obove is the overall structure. Notice that there are two separate files at play. One of them has the `public static void main()` method, which can be thought of as the entry point of the program. Inside of this method, we see code where we create a new instance of the `Spaceship` class by typing `new Spaceship()`, making sure to assign the new instance to a variable of type `Spaceship`.
 
