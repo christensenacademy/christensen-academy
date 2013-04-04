@@ -3,7 +3,7 @@ Methods are reusable pieces of code. Imagine a video game with a jumping charact
 
 Conceptually speaking, objects have methods that allow them to do things. If I were an object, my most notable methods would be `eat()`, `sleep()`, and `takeLongWalksOnTheBeach()`. A kangaroo, on the other hand, might have methods like `hop()`, `kick()`, and so on. A video game character might have methods like `run()`, `jump()`, and `shootFireball()`.
 
-A big key to learning Java programming is getting good at organizing your programs around classes and methods. In this textpage, I'll be walking through the creation of a Spaceship class, which can be used to hold the state and control the behavior of a spaceship character in a video game.
+A big key to learning Java programming is getting good at organizing your programs around classes and methods. In this textpage, I'll be walking through the creation of a Spaceship class, which can be used to hold the state (i.e., instance variables) and control the behavior (i.e., public methods) of a spaceship character in a video game.
 
 **Note:** In other programming languages, methods are often called "functions." Java calls them methods instead of functions to emphasize the fact that Java is an object-oriented language, and that methods belong to classes.
 
@@ -18,6 +18,7 @@ Imagine we're creating a video game in which a spaceship flys around shooting al
 * shoot();
 * takeDamage();
 * getHealth();
+* draw();
 
 The other thing we need to think about is the state of the spaceship. That is, what instance variables will we need to store info about the spaceship? Again, here's a quick list I came up with:
 
@@ -43,7 +44,7 @@ public class Spaceship {
   }
   
   public void shoot(){
-    // TODO: figure out how this method works
+    // this method would be a bit more complex, so I've left it blank for now
   }
   
   public void takeDamage(int damage){
@@ -52,6 +53,11 @@ public class Spaceship {
   
   public int getHealth(){
     return health;
+  }
+  
+  public void draw(){
+    // this method would draw the spaceship on the screen and has been left out
+    // for simplicity's sake
   }
 }
 ```
