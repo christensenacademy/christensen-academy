@@ -41,7 +41,7 @@ You'll notice that the prefixes kilo, mega, and giga work exactly the same with 
 
 ####A technical point that will probably never impact your life... but I find it interesting, so here you go:
 
-Interestingly, these prefixes are all somewhat ambiguous when it comes to computer file sizes. This has to do with the fact that computers use the binary system, which uses powers of 2 instead of powers of 10. Whereas kilo usually means 10^3 (1000), many people in computer science take it to mean 2^10 (1024). It's actually unclear what people mean when they use the term kilobyte.
+Interestingly, these prefixes (KB, MB, GB) are all somewhat ambiguous when it comes to computer file sizes. This has to do with the fact that computers use the binary system, which uses powers of 2 instead of powers of 10. Whereas kilo usually means 10^3 (1000), many people in computer science take it to mean 2^10 (1024). It's actually unclear what people mean when they use the term kilobyte.
 
 The following table attempts to highlight the fact that these prefixes could refer to a number based on the decimal system or a number based on the binary system. When your computer tells you the size of a file, realize that it is usually using the binary system (power of 2) value.
 
