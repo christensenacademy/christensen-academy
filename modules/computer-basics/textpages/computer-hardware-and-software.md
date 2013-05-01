@@ -1,21 +1,25 @@
 #Computer Hardware and Software
 
-This is not an in-depth discussion of computer hardware and softare. Rather, it is a brief overview.
+This textpage is my humble attempt at general overview of computer hardware and software. I've tried hard to provide accurate information without going into much depth. Please think of this textpage as an introduction or a brief overview. If you want more depth, Wikipedia is always a great source:
+
+* (Computer Hardware)[http://en.wikipedia.org/wiki/Computer_hardware)
+* (Computer Software)[http://en.wikipedia.org/wiki/Software)
 
 ##Three Main Parts of Hardware
 
 ####House Metaphor
-Before delving into a bit more detailed discussion of the three main parts of computer hardware, I thought it might be helpful to examine a nifty little metaphor. I came across a video by Common Craft a couple of years ago called [Computer Hardware in Plain English](http://www.youtube.com/watch?v=LrXeDF4Qqz4). I encourage you to watch the video. Here's a quick recap of the main points made in the video:
-
-* A computer is like a house.
-* The hard drive is like the basement. It's big, and you can fit all of your stuff in it, but retrieving your stuff from the basement is kinda slow.
-* The RAM is like a closet. It's not as big as a hard drive, and it can't store as much stuff. But, retrieving your stuff from the closet is much faster than retrieving your stuff from the basement. Also, while you almost never clean out your basement, you clean out your closet quite frequently (i.e., when you restart your computer).
-* The CPU is like the butler of the house who goes around making sure everything is in order and working the way it should. The butler is good at getting stuff done.
+I came across a video by Common Craft a couple of years ago called [Computer Hardware in Plain English](http://www.youtube.com/watch?v=LrXeDF4Qqz4). Although the metaphor is far from complete, I really enjoyed it, and I personall think it's a great starting point for thinking about computer hardware. It's only a few minutes long, and I encourage you to check it out.
 
 ###Hard Drive
-Your computer hard drive is what stores all of the data on your computer. It stores all of your programs, documents, music, videos, and so on. Most hard drives store hundreds of gigabytes of data. If you plan on storing lots of media like images, music, and videos on your computer, you'll want to make sure your hard drive is big enough.
+Every computer has a hard drive. I suppose some computers have multiple hard drives, but in general each computer has a single hard drive.
 
-**Note:** Unlike RAM, a hard drive has a *file system* composed of files and folders. All of the "stuff" on your computer can be found in this file system.
+The purpose of a hard drive is simple: store stuff.
+
+Every hard drive has a capacity, which is essentially the amount of stuff it can store. If you're familiar with binary and the idea that computers manipulate bits (1s and 0s), then I encourage you to think of a hard drive as a device that is capable of storing a certain number of 1s and 0s. Most hard drives can store hundreds of gigabytes. My computer, in fact, has a hard drive that can store roughly 220 gigabytes of data, which is 1,760,000,000,000 bits (i.e., 1s and 0s).
+
+A hard drive stores all of your programs, documents, music, videos, and so on, which is organized on your computer's file system. A file system is simply a hierarchical structure of folders with files inside of them. Unless your hard drive is "partitioned" into multiple file systems, which might happen if you were a computer nerd and installed Linux... , 
+
+The problem with hard drives is that they're a bit slow to access. Reading from and writing to a hard drive takes too much time. Computers need a better mechanism for storing data on a short-term basis that is more readily available to the CPU (processor).
 
 [The Wikipedia Article on Hard Drives](http://en.wikipedia.org/wiki/Hard_disk_drive)
 
