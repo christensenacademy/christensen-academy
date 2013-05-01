@@ -11,7 +11,6 @@ While the binary system may seem strange, it's actually significantly simpler th
 
 Here are some fun things to think about with regards to computers and binary:
 
-* Everything a computer **stores** and **does** involves 1s and 0s.
 * Every program your computer runs is nothing more than a bunch of instructions encoded in 1s and 0s.
 * Everything you see on your computer screen is represented inside the computer as sequences of 1s and 0s.
 * Numbers, letters, images, videos, songs, and everything else on your computer exists as sequences of 1s and 0s.
