@@ -4,8 +4,8 @@
 
 In the 1830's, a man named Charles Babbage invented and attempted to build the first computer. This computer, however, didn't work the same as computers do today. There were two major differences:
 
-1. Babbage's "analytical engine", as it was called, was mechanical and did not use electricity. His machine was never actually completed, and his ideas were more or less lost for nearly a century. It wasn't until the late 1930's and early 1940's that people first began to build computers using electricity.
-2. Babbage's machine also worked on the decimal system, the one we use in when learning mathematics. The decimal system has ten digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. This makes sense because the prefix "deci" literally means ten. Modern computers don't use the decimal system. Instead, they use a simpler system called the binary system. Instead of using ten digits, binary numbers use only two: 0 and 1. It turns out that two digits is all we need to do math and everything else a computer is capable of doing.
+1. **Mechanical vs. Electrical:** Babbage's "analytical engine", as it was called, was mechanical and did not use electricity. His machine was never actually completed, and his ideas were more or less lost for nearly a century. It wasn't until the late 1930's and early 1940's that people first began to build computers using electricity.
+2. **Decimal vs. Binary:** Babbage's machine also worked on the decimal system, the one we use in when learning mathematics. The decimal system has ten digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. This makes sense because the prefix "deci" literally means ten. Modern computers don't use the decimal system. Instead, they use a simpler system called the binary system. Instead of using ten digits, binary numbers use only two: 0 and 1. It turns out that two digits is all we need to do math and everything else a computer is capable of doing.
 
 While the binary system may seem strange, it's actually significantly simpler than the decimal system we all grew up using. This is especially true from an engineering perspective, because 1s and 0s inside a computer can be represented electrically as "on" and "off."
 
