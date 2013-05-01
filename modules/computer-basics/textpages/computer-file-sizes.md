@@ -7,9 +7,17 @@ In the 1830's, a man named Charles Babbage invented and attempted to build the f
 1. Babbage's "analytical engine", as it was called, was mechanical and did not use electricity. His machine was never actually completed, and his ideas were more or less lost for nearly a century. It wasn't until the late 1930's and early 1940's that people first began to build computers using electricity.
 2. Babbage's machine also worked on the decimal system, the one we use in when learning mathematics. The decimal system has ten digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. This makes sense because the prefix "deci" literally means ten. Modern computers don't use the decimal system. Instead, they use a simpler system called the binary system. Instead of using ten digits, binary numbers use only two: 0 and 1. It turns out that two digits is all we need to do math and everything else a computer is capable of doing.
 
-Everything a computer does involves 1s and 0s. Every program your computer runs is nothing more than 1s and 0s. Every instruction your CPU (processor) follows is nothing more than 1s and 0s. Every file your computer stores is nothing more than 1s and 0s. Numbers, images, videos, songs, and everything else on your computer exists on your computer as nothing more than 1s and 0s. Every message sent over the Internet is really nothing other than 1s and 0s.
+While the binary system may seem strange, it's actually significantly simpler than the decimal system we all grew up using. This is especially true from an engineering perspective, because 1s and 0s inside a computer can be represented electrically as "on" and "off."
 
-With this incredible fact in mind, we're ready, I think, to discuss computer file sizes
+Here are some fun things to think about with regards to computers and binary:
+
+* Everything a computer **stores** and **does** involves 1s and 0s.
+* Every program your computer runs is nothing more than a bunch of instructions encoded in 1s and 0s.
+* Everything you see on your computer screen is represented inside the computer as sequences of 1s and 0s.
+* Numbers, letters, images, videos, songs, and everything else on your computer exists as sequences of 1s and 0s.
+* Every message sent over the Internet is really nothing other than 1s and 0s.
+
+With these incredible facts in mind, we're ready, I think, to discuss computer file sizes.
 
 ##Computer File Sizes
 
