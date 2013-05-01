@@ -39,7 +39,7 @@ In the past, computers typically only had one processor. In recent years, comput
 ##Software
 Without software, computers wouldn't actually *do* anything. Think of software as the instructions computers follow. Software is written by computer programmers. The CPU's (i.e., processor's) job is to run software. 
 
-It can be helpful to think of software as existing layers. In an effort to simplify our discussion of software, I'll pretend like there are just two layers.
+It can be helpful to think of software as existing layers. In an effort to simplify our discussion of software, I'll pretend that there are just two layers.
 
 ###Operating Systems (Bottom Layer)
 Personal computers, tablets, and smartphones all have their own operating systems. Windows computers have a version of the Windows operating system, Apple computers have a version of the Mac operating system, iPhones have a versions of the iOS operating system, and so on. The operating system gives the computer its core functionality.
