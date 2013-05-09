@@ -1,7 +1,5 @@
 #How the Internet Works
 
-Hello, World.
-
 This explanation is going to be very limited. The goal is to introduce most (not all) of the major concepts related to how the Internet Works. Also, this is not an explanation of how the World Wide Web works. Although the two are related, the World Wide Web is really just an application of the Internet.
 
 ###Hosts
