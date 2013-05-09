@@ -59,7 +59,7 @@ Protocols at the Link Layer set rules for things like how WiFi should work, how 
 
 When Tim Burners-Lee invented the HTTP protocol in 1990 (i.e., invented the World Wide Web), the Link, Internet, and Transport layers were already in place. He could not have done what he did without the existing infrastructure that had been building throughout the 1970s and 1980s and the protocols that had already been developed at the Link, Internet, and Transport layers.
 
-I think it's also important to remember that the HTTP protocol on which the World Wide Web is built is just one of many applications of the underlying Internet. It wasn't always clear that the Web would be the best application of the Internet, and it still isn't. In fact, in the early 1990s, a rival protocol named GOPHER was far more popular than HTTP. Will a superior application of the Internet ever overtake the Web?
+I think it's also important to remember that the HTTP protocol on which the World Wide Web is built is just one of many applications of the underlying Internet. It wasn't always clear that the Web would be the "killer app" of the Internet, and it still isn't. In fact, in the early 1990s, a rival protocol named GOPHER was far more popular than HTTP. Will a superior application of the Internet ever overtake the Web?
 
 ###Conclusion
 The Internet is obviously far more complex than described here. The most important points from this textpage are as follows:
