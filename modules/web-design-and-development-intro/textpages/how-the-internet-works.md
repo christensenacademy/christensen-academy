@@ -66,7 +66,3 @@ The Internet is obviously far more complex than described here. The most importa
 * The Internet is composed of many computer networks connected together with routers
 * Messages sent across the Internet are broken up into packets
 * The World Wide Web is an application of the Internet, not the Internet itself
-
-Peace, World,
-
-Cam
