@@ -26,5 +26,3 @@ I should also point out that the requests from clients and responses from server
 
 ###Conclusion
 Although many people don't have much of a clue as to how the World Wide Web works, it really isn't all that complicated. Websites live on special computers called Web servers. When we (i.e., humans using client computers) want to visit a website, we send a request through our Web browser for a webpage. Thanks to the Internet, this message reaches the appropriate Web server. The server processes our request and sends back a webpage as a response. Our browser then receives the response, processes it, and displays the results to us.
-
---Cam
