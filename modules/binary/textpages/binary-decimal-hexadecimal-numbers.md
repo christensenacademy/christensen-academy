@@ -1,6 +1,6 @@
 #Binary, Octal, Decimal, and Hexadecimal Numbers
 
-Note: Whenever I refer to a number by writing out its name, you may assume that that number is a base ten (i.e., "normal") number.
+**Note:** Whenever I refer to a number by writing out its name in the following text, you may assume that that number is a base ten (i.e., "normal") number.
 
 ##Intro
 Probably because we have ten fingers on our hands, we also have ten digits in our primary number system, the base ten number system. In fact, sometimes we even refer to our fingers as "digits."
