@@ -3,9 +3,11 @@
 Note: Whenever I refer to a number by writing out its name, you may assume that that number is a base 10 (i.e., "normal") number.
 
 ###Number Systems
-Probably because we have ten fingers on our hands, we also have ten digits in our number system. In fact, sometimes fingers are even called digits. The ten digits we use when writing numbers are 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Pretty much every human being has grown up learning how to count using these digits, so most of accept this system counting without wondering if there are other, different ways of going about it.
+Probably because we have ten fingers on our hands, we also have ten digits in our primary number system, the base ten number system. In fact, sometimes we even refer to our fingers as "digits."
 
-In computer science, it turns out that the binary system, which only uses the digits 0 and 1, works very well. In fact, all computers use the binary system. Octal, which has eight digits, and Hexadecimal, which has sixteen digits, are also useful in computer science. The purpose of this textpage is to explain how each of these number systems works.
+The ten digits we use when writing numbers are 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Pretty much every human being has grown up learning how to count using these digits, so most of accept this system counting without wondering if there are other, different ways of going about it.
+
+In computer science, it turns out that the binary number system, which only uses the digits 0 and 1, works very well. In fact, all computers use the binary system. Octal, which has eight digits, and Hexadecimal, which has sixteen digits, are also useful in computer science, mainly because of how easy it is to convert numbers between binary, octal, and hexadecimal. The purpose of this textpage is to explain how each of these number systems works.
 
 Let's start with some concrete examples of the numbers "one" through "twenty."
 
@@ -42,47 +44,29 @@ Binary      Octal       Decimal     Hexadecimal
 1011001     131         89          59
 ```
 
-Sound crazy? It's not as crazy as you might think, and when working with computers, its often useful to have a basic understanding of how different number systems work, especial binary (base 2), octal (base 8), and hexadecimal (base 10).
+Look crazy? It's not as crazy as you might think, and when working with computers, its often useful to have a basic understanding of how different number systems work, especial binary (base 2), octal (base 8), and hexadecimal (base 10). I'm assuming that if you passed the 2nd grade you already know how decimal (base 10) numbers work :-)
 
-The key is understanding how place value works. Once you've done that, you'll easily be able to work with any number system and even invent your own.
-
-**Note:** Unless indicated otherwise, you should assume that all numbers in this document are the same as the ones you're used to. That is, assume they are base 10 (the decimal system) numbers. Because base 10 numbers are so ingrained in our way of thinking, we often need to translate numbers from other number system back into the base 10 number system in order to really understand them.
-
-###Digits
-The basic difference between number systems is in the number of digits they use to represent numbers. Here are some examples of the digits used in a few different number systems:
-
-```
-Binary (Base 2): 0 1
-Octal (Base 8): 0 1 2 3 4 5 6 7
-Decimal (Base 10): 0 1 2 3 4 5 6 7 8 9
-Hexadecimal (Base 16): 0 1 2 3 4 5 6 7 8 9 a b c d e f
-```
-
-Amazingly, even though the binary number system only uses two digits (0 and 1), you can still represent all of the same numbers in binary as you can in any of the other number system. Here a quick comparison of the numbers 1-10 in decimal and binary:
-
-```
-(Decimal, Binary)
-(1, 1)
-(2, 10)
-(3, 11)
-(4, 100)
-(5, 101)
-(6, 110)
-(7, 111)
-(8, 1000)
-(9, 1001)
-(10, 1010)
-```
+**Note:** The prefixes "bi," "oct," "deci," and "hex" all have meaning. "Bi" means "two." "Hex" means "six." "Oct" means "eight." And, "deci" means "ten."
 
 ###Place Value
 
-No matter what number system we're using, when we write numbers, each digit has a certain *place value*. For example, the decimal (base 10) number 32592 has five digits, each of which is worth a different amount. Here's a quick breakdown of what each digits is worth:
+Understanding "place value" is essential to understanding number systems. Consider the following example of a "normal" base 10 (decimal) number.
 
 ```
 32592 = 30000 + 2000 + 500 + 90 + 2
 ```
 
-Notice digits on the left are worth far more than the digits on the right. In the base 10 number system, we calculate the value of each digit based on the number 10 (duh!). Each "place" in a number is worth ten times more than the place to the right. Hence, in the decimal number system, we have the "ones place", "tens place", "hundreds place", "thousands place", and so on.
+Notice digits on the left are worth far more than the digits on the right. In the base 10 number system, we calculate the value of each digit based on the number 10 (duh). Each "place" in a number is worth ten times more than the place to the right. Hence, in the decimal number system, we have the "ones place", "tens place", "hundreds place", "thousands place", and so on.
+
+**Note:** Some people prefer to think of place value in terms of exponants. If you prefer, you can think about place value this way:
+
+```
+     1's place --> 10^0
+    10's place --> 10^1
+   100's place --> 10^2
+  1000's place --> 10^3
+ 10000's place --> 10^4
+```
 
 In other number systems, place value is not based off the number 10. Instead, place value is based off whatever the base of the number system is.
 
