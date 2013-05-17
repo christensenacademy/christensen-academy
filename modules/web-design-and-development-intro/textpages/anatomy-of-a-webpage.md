@@ -1,6 +1,6 @@
 #The Anatomy of a Webpage
 
-Webpages are composed of an interesting mix of HTML, CSS, JavaScript and some other resources like images. The job of a Web browser is to interpret all of this "stuff" and display the webpage to the user.
+Webpages are composed of an interesting mix of HTML, CSS, JavaScript and some other resources like images. The job of a web browser is to interpret all of this "stuff" and display the webpage to the user.
 
 ###HTML
 HTML stands for HyperText Markup Language and is the code the specifies the *content* of a webpage.
