@@ -57,4 +57,4 @@ If you'd like to explore the "stuff" that composes your webpage, I recommend usi
 
 ###Conclusion
 
-Webpages are rendered by Web browsers that interpret HTML, CSS, and JavaScript code. What's more, webpages often make use of other resources like images. All of this "stuff" gets sent to our browsers (the clients) from Web servers whenever we browse the Web.
+Webpages are rendered by Web browsers that interpret HTML, CSS, and JavaScript code. What's more, webpages often make use of other resources like images. All of this "stuff" gets sent to our browsers (the clients) from web servers whenever we browse the Web.
