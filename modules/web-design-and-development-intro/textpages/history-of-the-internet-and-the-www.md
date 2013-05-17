@@ -24,8 +24,6 @@ The following is a short timeline showcasing some of the major highlights in the
 * **(1996-1998)** The Web gets commercialized, which furthers its already explosive growth.
 * **(1998-present)** Web technologies improve and the Web becomes ubiquitous.
 
---Cam
-
 ##Links to Other Resources
 * **[Wikipedia: History of the Internet](http://en.wikipedia.org/wiki/History_of_the_Internet)**
 * **[Wikipedia: ARPANET](http://en.wikipedia.org/wiki/ARPANET)**
