@@ -4,68 +4,66 @@ When writing CSS, you are writing *rules* for the browser to follow. Each rule i
 ###Inline CSS Rules
 When writing inline CSS, a rule is simply contained in a style attribute for an element:
 
-```html
-<p style="color:blue;background-color:red;font-size:200%">Lorem ipsum...</p>
-```
+
+    <p style="color:blue;background-color:red;font-size:200%">Lorem ipsum...</p>
+
 
 Notice that each little "piece" of CSS follows the format `foo:bar;` where "foo" is a property name and "bar" is a value. Each CSS rule can have many property-value pairs as illustrated in the example above.
 
 ###Embedded and External CSS Rules
 When writing embedded (internal) or external CSS, rules are specified a bit differently:
 
-```css
-/*This is an example of embedded or external CSS*/
-p {
-  color:blue;
-  background-color:red;
-  font-size:200%;
-}
 
-h1 {
-  font-style:italic;
-  text-decoration:underline;
-}
-```
+    /*This is an example of embedded or external CSS*/
+    p {
+      color:blue;
+      background-color:red;
+      font-size:200%;
+    }
+    
+    h1 {
+      font-style:italic;
+      text-decoration:underline;
+    }
+
 
 In the example above, there are two CSS *rules*, one for paragraphs and one for h1 elements. Just like inline CSS, each CSS rule can have multiple property-value pairs.
 
 ###3 Ways to Write Embedded and External CSS Rules
 Lastly, it should be noted that there are multiple ways to write CSS rules, all of which are equally correct, though some are easier to read than others.
 
-```css
-/*All of the following CSS rules are equivalent in their effects.*/
 
-/*Compact and orderly but hard to read if there are lots of property-value pairs*/
-p {color:blue;background-color:red;font-size:200%;}
-h1 {font-style:italic;text-decoration:underline;}
+    /*All of the following CSS rules are equivalent in their effects.*/
+    
+    /*Compact and orderly but hard to read if there are lots of property-value pairs*/
+    p {color:blue;background-color:red;font-size:200%;}
+    h1 {font-style:italic;text-decoration:underline;}
+    
+    /*Less compact, but easy to read.*/
+    p {
+      color:blue;
+      background-color:red;
+      font-size:200%;
+    }
+    
+    /*Amost exactly the same as the previous one, but the opening curly brace is in a different place.
+    This is merely a coding preference. Both are fine, but you should be consistent in which one you use.*/
+    p
+    {
+      color:blue;
+      background-color:red;
+      font-size:200%;
+    }
 
-/*Less compact, but easy to read.*/
-p {
-  color:blue;
-  background-color:red;
-  font-size:200%;
-}
-
-/*Amost exactly the same as the previous one, but the opening curly brace is in a different place.
-This is merely a coding preference. Both are fine, but you should be consistent in which one you use.*/
-p
-{
-  color:blue;
-  background-color:red;
-  font-size:200%;
-}
-```
 
 ###Properties and Values
 In CSS, properties appear on the left side of the colon and values appear on the right.
 
-```css
-/*In this example, "color" is the property and "orange" is the value.*/
-p
-{
-  color:orange;
-}
-```
+    /*In this example, "color" is the property and "orange" is the value.*/
+    p
+    {
+      color:orange;
+    }
 
 ####Points to Remember about Properties and Values
 * Properties cannot have spaces in their names, and there should not be a space between a property name and the colon. Instead of spaces in names, properties use hyphens (e.g., font-style, text-decoration, background-color, etc.).
@@ -79,17 +77,16 @@ Whenever a value needs to have a space, the value is placed in quotes. Here is a
 ###Basic Selectors
 Consider the following examples:
 
-```css
-p
-{
-  color:white;
-  background-color:black;
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-}
+    p
+    {
+      color:white;
+      background-color:black;
+      font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    }
+    
+    h1
+    {
+      font-size:200%;
+    }
 
-h1
-{
-  font-size:200%;
-}
-```
 Looking at the code above, it should be clear that some of the CSS is being applied to *p* elements and some of it is being applied to *h1* elements. In the examples above, *p* and *h1* are called selectors because they *select* what elements to style. Selectors that use HTML element names are just one type of CSS selector. I'll explain other types of selectors on future textpages.
