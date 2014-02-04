@@ -104,7 +104,7 @@ The second part is the **return type** of the method. The `sayHello` method had 
 
 The third part of the method signature is the name of the method itself. You are free to name methods however you'd like as long as you don't break any of the naming rules, which are the same for methods as they are for variables. Basically, just remember to use the `camelCase` naming convention and never start variable names with numbers.
 
-Also, try hard give your methods names that imply what those methods actually do. `sayHello` and `isPrime` were two very good method names because it was pretty clear just by reading the name of the method what the method actually did. If `sayHello` had just been named `hello`, for example, it would not have been as clear what the method was actually doing. Similarly, if `isPrime` had just been named `prime`, it would have been unclear what to exect as a return type from the method.
+Also, try hard to give your methods names that imply what those methods actually do. `sayHello` and `isPrime` were two very good method names because it was pretty clear just by reading the name of the method what the method actually did. If `sayHello` had just been named `hello`, for example, it would not have been as clear what the method was actually doing. Similarly, if `isPrime` had just been named `prime`, it would have been unclear what to exect as a return type from the method.
 
 The last part of the 
 
